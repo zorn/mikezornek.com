@@ -3,3 +3,11 @@ name: Mike Zornek
 description: Sharing life and geek notes from Philadelphia.
 title: Mike Zornek
 languageCode: "en-us"
+menu:
+  main:
+  - name: Home
+    url: /
+  - name: On Micro.Blog
+    url: https://micro.blog/zorn
+  - name: Projects
+    url: /projects/
