@@ -9,7 +9,8 @@ categories:
 ---
 A common code pattern I see a lot in iOS code is:
 
-<pre><code class="swift">service.execute(request) { (response, error) in
+```swift
+service.execute(request) { (response, error) in
     if let error = error {
         handleError(error)
         return
@@ -17,7 +18,7 @@ A common code pattern I see a lot in iOS code is:
 
     // work with response...
 }
-</code></pre>
+```
 
 I don&#8217;t like that `if` statement. I&#8217;d much rather use a `guard` statement.
 
@@ -27,34 +28,36 @@ For those who don&#8217;t know `guard`, the [docs][1] explain:
 
 I like `guard` over `if` cause it&#8217;s more expressive about my intentions that the code after it **should only run** if there was no error found. Unfortunately, because of the boolean nature of the `guard` clause, to do this requires using Implicitly Unwrapped Optionals.
 
-    service.execute(request) { (response, error) in
-        guard error == nil else {
-            handleError(error!)
-            return
-        }
-    
-        // work with response...
+```swift
+service.execute(request) { (response, error) in
+    guard error == nil else {
+        handleError(error!)
+        return
     }
-    
+
+    // work with response...
+}
+``` 
 
 I really try to avoid Implicitly Unwrapped Optionals, so much so I use [SwiftLint][2] to throw warnings for their use. Adding lint exceptions for this regular occurrence, for me, is not an option.
 
 If you have more control over the `service` implementation you might choose to use a `Result` type.
 
-    enum Result<T> {
-        case success(T)
-        case failure(Error)
+```swift
+enum Result<T> {
+    case success(T)
+    case failure(Error)
+}
+
+service.execute(request) { (result) in
+    switch result {
+    case .failure(let error):
+        handleError(error)
+    case .success(let response):
+        handleResponse(response)
     }
-    
-    service.execute(request) { (result) in
-        switch result {
-        case .failure(let error):
-            handleError(error)
-        case .success(let response):
-            handleResponse(response)
-        }
-    }
-    
+}
+``` 
 
 I generally like this but it doesn&#8217;t work if you need to support a mixed Swift/Objective-C environment. It also doesn&#8217;t account UIKit itself does not use a Result type.
 

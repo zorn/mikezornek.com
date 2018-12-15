@@ -3,6 +3,8 @@ name: Mike Zornek
 description: Sharing life and geek notes from Philadelphia.
 title: Mike Zornek
 languageCode: "en-us"
+pygmentsCodeFences: true
+pygmentsStyle: tango
 menu:
   main:
   - name: Home

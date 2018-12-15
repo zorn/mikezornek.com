@@ -24,14 +24,15 @@ The second version, with the `indexPath` argument addition and non-optional retu
 
 Now let&#8217;s take a look at an implimentation:
 
-<pre><code class="swift">func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+```swift
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: CustomCell.identifier, for: indexPath)
     if let customCell = cell as? CustomCell {
         customCell.item = itemForIndexPath(indexPath)
     }
     return cell
 }
-</code></pre>
+```
 
 First we dequeue our cell. Notice how we use a class property to provide the cell identifier string value. We do it this way to avoid typos and enable easier refactoring.
 
