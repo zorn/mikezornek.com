@@ -16,7 +16,7 @@
     </div>
   </header>
   {{ with .Params.thumbnail }}
-    <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
+  <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
   {{ end }}
   <section id="js-article" class="p-article__body">
     {{ .Content }}
@@ -25,17 +25,17 @@
     {{ with .Site.Params.disqus }}
     <div id="disqus_thread"></div>
     <script>
-    var disqus_shortname = '{{ . }}';
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+      var disqus_shortname = '{{ . }}';
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
     {{ end }}
-    {{- /*
     <nav class="p-pagination c-pagination">
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
@@ -52,7 +52,6 @@
         </div>
       </div>
     </nav>
-    */}}
     {{ partial "related.html" . }}
     {{ partial "siteinfo.html" . }}
   </footer>
