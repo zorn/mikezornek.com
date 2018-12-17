@@ -5,6 +5,7 @@ title: Mike Zornek
 languageCode: "en-us"
 pygmentsCodeFences: true
 pygmentsStyle: tango
+pygmentsCodefencesGuessSyntax: true
 menu:
   main:
   - name: Home
