@@ -10,7 +10,11 @@ menu:
   main:
   - name: Home
     url: /
-  - name: On Micro.Blog
-    url: https://micro.blog/zorn
+    weight: 10
   - name: Projects
     url: /projects/
+    weight: 20
+  - name: Micro.Blog ↗️ 
+    url: https://micro.blog/zorn
+    weight: 30
+
