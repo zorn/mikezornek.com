@@ -7,5 +7,22 @@ img.avatar {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 18px;
+}
+
+pre, code {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+article h1 {
+  margin-bottom: 0;
+}
+
+.l-main, .l-nav {
+  max-width: 890px;
+}
+
+blockquote p {
+  margin-bottom: 1em;
 }
