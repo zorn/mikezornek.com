@@ -1,4 +1,26 @@
 {{ partial "header.html" . }}
+
+<p><img src="images/zorn_square.png" class="avatar" />Hello! My name is <strong>Mike Zornek</strong>. I am a
+    self-employeed developer
+    and teacher who focuses on the web
+    as well as iOS. I live in Bensalem, PA (just outside of Philadelphia) and you can often find me coding out of <a
+        href="http://indyhall.org">IndyHall</a>, a popular coworking space and community.</p>
+
+<p>As far as programming and tech goes, I've very excited about <a href="https://elixir-lang.org/">Elixir</a>, <a href="https://phoenixframework.org/">Phoenix</a>,
+    <a href="https://graphql.org/">GraphQL</a> and other modern web tech. I
+    also have a long history of developing for the <a href="https://developer.apple.com/">Mac and iOS</a>. If you want
+    more info on hiring me to help with your
+    project, see <a href="http://zornlabs.com/">my company site</a>.</p>
+
+<p>I've always enjoyed enterpenurship and have built and sold various products in my career. I continue to fuel my
+    interests through many podcasts and books. Hopefully in 2019 I'll have some new stuff to share. Stay tuned.</p>
+
+<p>In my spare time I enjoy playing video games and watching related content on YouTube and Twitch. I don't watch a ton
+    of modern TV (was happy to cut my Comcast cord last year) but do enjoy some shows and news via Hulu TV and Netflix.
+    Relaxing shows like Bob Ross, This Old House or Rick Steve are commonly listed as recently played.</p>
+
+<h2>Recent Posts</h2>
+
 {{ range $index, $page := (.Paginate (where (where .Data.Pages "Type" "posts") ".Params.hidden" "!=" "true" )).Pages }}
 {{ if ne $index 0 }}
 {{ end }}

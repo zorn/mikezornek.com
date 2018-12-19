@@ -42,8 +42,10 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
   <!-- Custom css files as define in config.toml -->
   {{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
+  <link rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/hacks.css" />
+
   {{- with .Site.Params.favicon }}
   <link rel='icon' type='image/x-icon' href="{{ . | absURL }}" />
   {{- end -}}

@@ -1,0 +1,11 @@
+img.avatar {
+  float: right;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 0 0 1em;
+}
+
+p {
+  font-size: 1.8rem;
+}
