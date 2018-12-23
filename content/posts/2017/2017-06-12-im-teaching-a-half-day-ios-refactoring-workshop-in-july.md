@@ -1,5 +1,5 @@
 ---
-title: I’m Teaching a Half Day iOS Refactoring Workshop in July
+title: I'm Teaching a Half Day iOS Refactoring Workshop in July
 date: 2017-06-12T15:38:30+00:00
 url: /2017/06/12/im-teaching-a-half-day-ios-refactoring-workshop-in-july/
 categories:
@@ -25,13 +25,7 @@ I&#8217;ve developed and taught the workshop for a local development studio [Ton
 
 Tickets for the half day workshop cost $189.00 even (we take care of all the ticketing fees). For more information on the agenda, see [the event page][3].
 
-<div style="font-family:Helvetica, arial; display: inline-block; text-align: center;">
-  <a href="https://zornlabs.ticketleap.com/" style="background-color:#e5422c;font-size:15px;border-radius: 3px;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);display: inline-block;margin:0;text-align:center;text-decoration:none;font-weight:bold;color:#FFFFFF;letter-spacing: .07em;padding:18px 27px;font-family: arial,sans-serif !important;" target="_top">BUY TICKETS NOW</a></p> 
-  
-  <div style="font-family:Helvetica, arial;font-style:italic;letter-spacing: 0.05em;font-size: 12px;margin-top:12px;color:rgba(0, 0, 0, 0.5);">
-    <a href="https://www.ticketleap.com/info/sell-tickets-online?rc=mtq8nir" style="color:rgba(0,0,0,0.5);font-style:italic;">Sell tickets online</a> with Ticketleap
-  </div>
-</div>
+TICKETS NO LONGER FOR SALE
 
 Local performances of this workshop (and others in development) are available for corporate purchase. [Contact us][4] for more information.
 

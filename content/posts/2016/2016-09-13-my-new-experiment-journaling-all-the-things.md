@@ -28,7 +28,7 @@ We&#8217;ll see how I hold up. I want to give it my all for at least a week and 
 
 Update: [More from Mark&#8217;s own blog.][6]
 
-Do you journal like this? Any tips or other feedback? I&#8217;d love to hear it. Message me on Twitter [@zorn][7] or via email: [&#109;&#105;&#107;&#101;&#64;&#99;&#x6c;&#x69;&#x63;&#x6b;&#x61;&#x62;&#x6c;&#x65;&#x62;&#x6c;&#x69;&#x73;s.&#99;&#111;&#109;][8].
+Do you journal like this? Any tips or other feedback? I&#8217;d love to hear it. Message me on Twitter [@zorn][7] or via email: <mike@mikezornek.com>.
 
  [1]: http://cocoaconf.com/
  [2]: https://www.bignerdranch.com/
@@ -37,4 +37,3 @@ Do you journal like this? Any tips or other feedback? I&#8217;d love to hear it.
  [5]: https://plausible.coop/voodoopad/
  [6]: https://borkopolis.wordpress.com/2011/05/04/logs-is-logs/
  [7]: http://twitter.com/zorn
- [8]: ma&#105;&#108;&#116;&#111;&#58;&#109;&#105;&#107;&#101;&#64;&#99;&#x6c;&#x69;&#x63;&#x6b;&#x61;&#x62;&#x6c;&#x65;&#x62;&#x6c;&#x69;&#x73;s.&#99;&#111;&#109;

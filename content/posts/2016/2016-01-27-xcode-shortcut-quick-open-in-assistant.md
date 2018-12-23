@@ -27,7 +27,7 @@ For a handy Xcode 7 Shortcut Reference Card check out the Big Nerd Ranch [iOS Co
 
 PS: Props to [@lyricsboy][5] for catching my typos!
 
- [1]: phillycocoa.org/slack
+ [1]: http://phillycocoa.org/slack
  [2]: http://mikezornek.com/media/images/quick-open-in-assistant.gif "Quick Open in Assistant in Action GIF"
  [3]: https://github.com/bignerdranch/iOSCourseResources/blob/master/Xcode%207%20Visual%20Reference%20Card.pdf
  [4]: http://amzn.to/1lTwb2H
