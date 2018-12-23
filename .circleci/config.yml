@@ -12,3 +12,10 @@ jobs:
       - run:
           name: "Test Website"
           command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - add_ssh_keys
+      - run:
+          name: "Add HostKeys"
+          command: echo $HOSTKEY1 >> ~/.ssh/known_hosts && echo $HOSTKEY2 >> ~/.ssh/known_hosts && echo $HOSTKEY3 >> ~/.ssh/known_hosts
+      - deploy:
+          name: "Deploy"
+          command: rsync -vaz --delete public/ zorn@45.79.149.225/var/www/html/beta.mikezornek.com/
