@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: cibuilds/hugo:0.52
-    working_directory: ~/project
     steps:
       - checkout
       - run:
