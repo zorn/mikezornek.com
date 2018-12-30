@@ -2,12 +2,12 @@
   <div class="c-pagination__ctrl">
     <div class="c-pagination__newer">
       {{if .HasPrev}}
-      <a href="{{ .Prev.URL }}">Newer</a>
+      <a href="{{ .NextPage.URL }}">Newer</a>
       {{end}}
     </div>
     <div class="c-pagination__older">
       {{if .HasNext}}
-      <a href="{{ .Next.URL }}">Older</a>
+      <a href="{{ .PrevPage.URL }}">Older</a>
       {{end}}
     </div>
   </div>
