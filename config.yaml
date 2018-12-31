@@ -11,10 +11,10 @@ menu:
   - name: Home
     url: /
     weight: 10
-  - name: Projects
-    url: /projects/
+  - name: Contact
+    url: /contact/
     weight: 20
   - name: Micro.Blog ↗️ 
-    url: https://micro.blog/zorn
+    url: http://microblog.mikezornek.com/
     weight: 30
 

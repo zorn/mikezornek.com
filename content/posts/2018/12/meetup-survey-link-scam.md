@@ -1,5 +1,5 @@
 ---
-title: Do not click on Meetup.com survey links.
+title: Meetup.com Survey Links
 date: 2018-12-06T17:06:54+00:00
 aliases: /2018/12/06/meetup-survey-link-scam/
 ---

@@ -3,6 +3,7 @@
 <article class="p-article">
   <header>
     <h1>{{ .Title }}</h1>
+    {{ if isset .Params "date" }}
     <div>
       <div class="c-time">
         Posted on
@@ -10,10 +11,12 @@
           {{ .Date.Format "Jan 2, 2006" }}
         </time>
       </div>
+
       {{ range .Params.tags }}
       <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
       {{ end }}
     </div>
+    {{ end }}
   </header>
   {{ with .Params.thumbnail }}
   <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">

@@ -10,6 +10,11 @@ p {
   font-size: 18px;
 }
 
+.p-article__body 
+{
+  margin: 20px 0 60px;
+}
+
 pre, code {
   font-size: 18px;
   line-height: 1.5;
