@@ -15,4 +15,6 @@
 * Integration Testing
 * UI Testing
 * Continuous Integration: Testing
-* 
+* How to handle user error messaging from the server when it may not be translated
+    {"status":"error","status_code":400,"message":"User Not Found!","user_message":"User Not Found!"}
+   
