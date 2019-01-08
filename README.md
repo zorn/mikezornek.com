@@ -10,4 +10,4 @@ To run the site locally use:
 
 To make a new post
 
-    hugo new posts/2019/1/new-post.md
+    hugo new posts/2019/1/anatomy-of-a-modern-ios-project-the-readme-file.md
