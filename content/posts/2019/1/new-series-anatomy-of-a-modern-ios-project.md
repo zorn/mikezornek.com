@@ -37,4 +37,4 @@ I feel like Apple has dropped the ball. In my opinion, Xcode should have more op
 
 The first post is ready. It’s all about [the README file](/posts/2019/1/anatomy-of-a-modern-ios-project-the-readme-file/). Please check it out and [let me know](/contact) what you think. I also welcome topic ideas for future articles. 
 
-Going to shoot for a weekly release schedule so grab that [RSS feed](http://localhost:1313/index.xml) and join me.
+Going to shoot for a weekly release schedule so grab that [RSS feed](/index.xml) and join me.
