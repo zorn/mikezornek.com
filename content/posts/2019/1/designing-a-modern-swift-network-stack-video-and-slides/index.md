@@ -3,6 +3,8 @@ title: "Designing a Modern Swift Network Stack, Video and Slides"
 date: 2019-01-15T15:00:00-05:00
 ---
 
+**UPDATE 1/16:** Fixed some slide typos (didn't bother to edit video). If you spot anymore, [let me know](/contact). Thanks!
+
 I had a great time doing this networking design talk for the local [Philly CocoaHeads](http://phillycocoa.org/). If you watch the video and have feedback, I'd love to [hear it](/contact) as I may revamp this talk for a 2.0 version in the future.
 
 <iframe src="https://player.vimeo.com/video/311520171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
