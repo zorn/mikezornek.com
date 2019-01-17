@@ -14,7 +14,10 @@ menu:
   - name: Contact
     url: /contact/
     weight: 20
+  - name: Events
+    url: /events/
+    weight: 30
   - name: Micro.Blog ↗️ 
     url: http://microblog.mikezornek.com/
-    weight: 30
+    weight: 40
 
