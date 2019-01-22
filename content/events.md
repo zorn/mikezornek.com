@@ -6,9 +6,9 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
+* Attendee: [Emerging Technologies for the Enterprise](https://2019.phillyemergingtech.com/), April 23-24, Philadelphia, PA
 * Attendee: [An Event Apart](https://aneventapart.com/event/washington-dc-2019), July 29–31, Washington DC
 * Attendee: [Elixir Conf 2019](https://elixirconf.com/), Denver
-* Attendee: [Release Notes Conference](https://2017.releasenotes.tv/), ???
 
 ## 2019
 
