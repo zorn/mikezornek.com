@@ -43,7 +43,7 @@ fi
 This script will look for the `swiftlint` command line tool. If found, it will run it on your project's source files. If not found, it will still allow the build to finish but will post a short message to the console.
 
 ## SwiftLint In Action
-With `swiftlint` is installed and your Xcode project setup, you now will experience new inline warnings and errors, helping to identify code that might lean away from community standards. Sometimes the warnings or errors will even offer automated fix options too.
+With `swiftlint` installed and your Xcode project setup, you now will experience new inline warnings and errors, helping to identify code that might lean away from community standards. Sometimes the warnings or errors will even offer automated fix options too.
 
 <figure>
 <img src="xcode-editor.png" alt="Warnings and Errors in Xcode Editor" data-action="zoom"/>
@@ -77,4 +77,4 @@ SwiftLint has been my personal go-to tool of choice but if you want to compare s
 
 ## Conclusion
 
-[SwiftLint](https://github.com/realm/SwiftLint) is a easy to install and configure tool to help you add some code consistency to your Swift Xcode projects. It helps you avoid manual style checks during code reviews leaving more time to focus on actual code quality.
+[SwiftLint](https://github.com/realm/SwiftLint) is a easy to install and configure tool that helps you add some code consistency to your Swift Xcode projects. It helps you avoid manual style checks during code reviews leaving more time to focus on actual code quality.
