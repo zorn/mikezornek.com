@@ -1,9 +1,10 @@
 ---
 title: "The README File"
 date: 2019-01-08T12:51:32-05:00
+aliases: /posts/2019/1/anatomy-of-a-modern-ios-project-the-readme-file/
 ---
 
-> This article is part of a series, [Anatomy of a Modern iOS App](/posts/2019/1/new-series-anatomy-of-a-modern-ios-project/).
+> This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).
 
 One of the most crucial documents in any project is its README file, a plain text file (sometimes formatted in [Markdown](https://kirkstrobeck.github.io/whatismarkdown.com/)) located in the root of the project directory, clearly named, usually in all caps, README.
 

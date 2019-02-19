@@ -1,9 +1,10 @@
 ---
 title: "Code Consistency with SwiftLint"
 date: 2019-01-24T12:00:00-05:00
+aliases: /posts/2019/1/anatomy-of-a-modern-ios-project-code-consistency-with-swiftlint/
 ---
 
-> This article is part of a series, [Anatomy of a Modern iOS App](/posts/2019/1/new-series-anatomy-of-a-modern-ios-project/).
+> This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).
 
 <img src="book-cover.jpg" style="float: right;" width="300px" alt="Book Cover: Writing Code No One Else Can Read" data-action="zoom"  />
 
