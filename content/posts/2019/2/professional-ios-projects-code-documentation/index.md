@@ -9,7 +9,7 @@ Professional iOS projects have good code documentation.
 
 ## What is code documentation?
 
-When I talk of code documentation I generally mean two things. First is _inline code documentation_, those triple backslashed comments in a Swift file you use to describe types, properties and methods. Second, I mean _guides_, which are articles that describe aspects of the code from a higher perspective, usually explaining expected interactions as well as the thinking behind the design.
+When I talk of code documentation I generally mean two things. First is _inline code documentation_, those triple slashed comments in a Swift file you use to describe types, properties and methods. Second, I mean _guides_, which are articles that describe aspects of the code from a higher perspective, usually explaining expected interactions as well as the thinking behind the design.
 
 Documentation is great. It helps people who are new or returning to a code base learn how things work and like unit tests can help lead to better designs as documenting a poor design usually will help expose potential issues and misunderstandings.
 
@@ -21,7 +21,7 @@ Sadly it's a victim of our current industry norms.
 
 You won't find many "how to write great code documentation" classes in a computer science curriculum. Most "learning to program" books will overlook the topic entirely or limit coverage to a passing mention of the document syntax format for the given language. 
 
-Even at work, when was the last time a pull request of yours was rejected for missing documentation? When was the last time your manager brought up code documentation during a sprint plan? Maybe you are getting pushed around for a quick delivery. Was documentation a requirement in the client contract? Has anyone suggested that if its not in the contract it’s not part of the deliverable? 
+Even at work, when was the last time a pull request of yours was rejected for missing documentation? When was the last time your manager brought up code documentation during a sprint plan? Maybe you are getting pushed around for a quick delivery. Was documentation a requirement in the client contract? Has anyone suggested that if it's not in the contract it’s not part of the deliverable? 
 
 This is where we separate the coders from the professional programmers. 
 
@@ -59,7 +59,7 @@ class Contact {
 }
 ```
 
-To add documentation use three backslashes `///` to start a line of documentation. You’ll want to document the type, the properties and then methods. Also, notice for methods that take parameters there is a format to document them as well. 
+To add documentation use three slashes `///` to start a line of documentation. You’ll want to document the type, the properties and then methods. Also, notice for methods that take parameters there is a format to document them as well. 
 
 > In Xcode you can also use `Option+Command+/` to bulk paste a documentation line template. This template is particularly useful when documenting a method with lots of parameters and other parts.  
 
@@ -108,7 +108,7 @@ In this second example we use `MARK: - SectionName`. This helps split up our sou
 
 <img src="method-popup.png" alt="Xcode Method Popup" data-action="zoom" />
 
-Another example here includes the use of `//FIXME`. FIXME is not triple backslashed so it’s not technically documentation but it will be showcased inside of Xcode’s editor.
+Another example here includes the use of `//FIXME`. FIXME is not triple slashed so it’s not technically documentation but it will be showcased inside of Xcode’s editor.
 
 The main way you’ll encounter this documentation is through Xcode’s Quick Help. Option click a method and you’ll see:
 
