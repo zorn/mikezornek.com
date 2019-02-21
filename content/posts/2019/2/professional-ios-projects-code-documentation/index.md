@@ -63,6 +63,10 @@ To add documentation use three slashes `///` to start a line of documentation. Y
 
 > In Xcode you can also use `Option+Command+/` to bulk paste a documentation line template. This template is particularly useful when documenting a method with lots of parameters and other parts.  
 
+<img src="xcode-menu.png" alt="Xcode Menu, Add Documentation" data-action="zoom" />
+
+<img src="adding-documentation.gif" alt="Inline Editor Adding Documentation" data-action="zoom" />
+
 Swift documentation supports Markdown and if you backtick mentions of a type it often will generate a link to that type when the documentation is rendered in Xcode.
 
 Example 2:
