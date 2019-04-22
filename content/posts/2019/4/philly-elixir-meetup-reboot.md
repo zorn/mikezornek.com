@@ -7,7 +7,7 @@ After too long of a hiatus, the Philly Elixir Meetup group is rebooting!
 
 https://www.meetup.com/Philly-Elixir-Meetup/
 
-Elixir is a functional programming language that is popular for building web app and services using a library called Phoenix as well as GraphQL APIs using Absinthe.
+Elixir is a functional programming language that is popular for building web apps and services using a library called Phoenix as well as GraphQL APIs using Absinthe.
 
 Our first meeting back will be:
 
