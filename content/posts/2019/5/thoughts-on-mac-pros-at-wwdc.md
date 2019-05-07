@@ -23,6 +23,8 @@ Oh, and if the rumors are true, and we end up with some [40-50% margin'd proprie
 
 If WWDC comes and goes without any news, I'll live with my assumptions and make my own hardware plans.
 
+![Don't Buy](dont-buy.png)
+
 ---
 
 Oh and this is funny...
