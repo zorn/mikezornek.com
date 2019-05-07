@@ -1,7 +1,6 @@
 ---
-title: "Thoughts on Mac Pros at Wwdc"
+title: "Thoughts on Mac Pros at WWDC"
 date: 2019-05-07T15:48:04-04:00
-draft: true
 ---
 
 Today I reread [the transcript](https://techcrunch.com/2017/04/06/transcript-phil-schiller-craig-federighi-and-john-ternus-on-the-state-of-apples-pro-macs/) of that closed door Mac roundtable event of 2017 where we were promised new Mac Pros. 
