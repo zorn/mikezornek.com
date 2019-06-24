@@ -15,6 +15,8 @@ So WWDC has come and gone and while amazing, that [new Apple monitor](https://ww
 
 YouTube Reviews: [Linus Tech Tips](https://www.youtube.com/watch?v=jBhQrGXYyw4), [The Tech Chap](https://www.youtube.com/watch?v=F4NsvHNXZBY)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0DqVrgkz2qI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Defects
 
 I got to use the [LG 49 inch UltraWide monitor](https://www.lg.com/us/monitors/lg-49WL95C-W-ultrawide-monitor) for about two weeks and while I enjoyed the extreme screen real estate, I just ran into too many hardware issues and so it's getting returned. 
