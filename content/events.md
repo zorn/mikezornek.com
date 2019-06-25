@@ -6,13 +6,14 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
-* Attendee: [Emerging Technologies for the Enterprise](https://2019.phillyemergingtech.com/), April 23-24, Philadelphia, PA
 * Attendee: [An Event Apart](https://aneventapart.com/event/washington-dc-2019), July 29–31, Washington DC
+* Attendee: [iOSDevCampDC](https://www.iosdevcampdc.com/), August 9, 2019, McLean, VA
 * Attendee: [Elixir Conf 2019](https://elixirconf.com/), Denver
 
 ## 2019
 
 * Speaker: [Designing a Modern Swift Network Stack](/posts/2019/1/designing-a-modern-swift-network-stack-video-and-slides/), [Philly CocoaHeads](http://phillycocoa.org/), January
+* Attendee: [Emerging Technologies for the Enterprise](https://2019.phillyemergingtech.com/), April 23-24, Philadelphia, PA
 
 ## 2018
 
