@@ -13,7 +13,7 @@ I've been anxious to buy a new monitor for my MacBook Pro for a few months. I de
 
 So WWDC has come and gone and while amazing, that [new Apple monitor](https://www.apple.com/pro-display-xdr/) is not for me. Instead I bought what I had been eyeing for a while, the [LG 49WL95C-W 49 inch 32:9 UltraWide](https://www.lg.com/us/monitors/lg-49WL95C-W-ultrawide-monitor).
 
-YouTube Reviews: [Linus Tech Tips](https://www.youtube.com/watch?v=jBhQrGXYyw4), [The Tech Chap](https://www.youtube.com/watch?v=F4NsvHNXZBY)
+YouTube Reviews: [Linus Tech Tips](https://www.youtube.com/watch?v=jBhQrGXYyw4), [The Tech Chap](https://www.youtube.com/watch?v=F4NsvHNXZBY), [MacRumors](https://www.youtube.com/watch?v=I-PoFCMJyhA&t=1s)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0DqVrgkz2qI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
