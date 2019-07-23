@@ -6,14 +6,15 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
-* Speaker: [Using Triplex to Build a Multi-tenant Application on Top of Ecto](https://www.meetup.com/Philly-Elixir-Meetup/events/261833685/), [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/), July 1, Philadelphia, PA
 * Attendee: [An Event Apart](https://aneventapart.com/event/washington-dc-2019), July 29–31, Arlington, VA
 * Attendee: [iOSDevCampDC](https://www.iosdevcampdc.com/), August 9, McLean, VA
 * Attendee: [Elixir Conf 2019](https://elixirconf.com/), August 27‑30, Denver, CO
 
 ## 2019
 
-* Speaker: [Designing a Modern Swift Network Stack](/posts/2019/1/designing-a-modern-swift-network-stack-video-and-slides/), [Philly CocoaHeads](http://phillycocoa.org/), January
+* Speaker: Lightning Talk: Meet Ecto, a Elixir Database Wrapper. [PostgresConf Philly](https://postgresconf.org/conferences/Philly2019/schedule/events), July, Philadelphia, PA
+* Speaker: [Using Triplex to Build a Multi-tenant Application on Top of Ecto](https://www.meetup.com/Philly-Elixir-Meetup/events/261833685/), [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/), July, Philadelphia, PA
+* Speaker: [Designing a Modern Swift Network Stack](/posts/2019/1/designing-a-modern-swift-network-stack-video-and-slides/), [Philly CocoaHeads](http://phillycocoa.org/), January, Philadelphia, PA
 * Attendee: [Emerging Technologies for the Enterprise](https://2019.phillyemergingtech.com/), April 23-24, Philadelphia, PA
 * Speaker: [Deployment Concerns](https://www.meetup.com/Philly-Elixir-Meetup/events/260618591/), [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/), May 6, Philadelphia, PA
 
