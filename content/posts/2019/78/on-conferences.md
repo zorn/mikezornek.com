@@ -15,16 +15,16 @@ In my opinion, a conference's main goal is about using presentations to spark th
 
 Some basic tips for conference organizers:
 
-* Make sure to plan lots of socializing time in-between talks, like for every 1 hour of talks and then 1 hour of socializing.
-* Consider limiting individual talks to 30 minutes and have a section for short lightning talks. The goal is to get as many ideas out there as possible. Different ideas will stick with different people. The more the better.
-* Have people sit with circle tables. Yes this requires more floor space but it keeps people facing each other during breaks and naturally let's other people break in to a conversation.
+* Make sure to plan lots of socializing time in-between talks, like for every 1 hour of talks and then there should be 1 hour of socializing.
+* Consider limiting individual talks to 30 minutes and have a section for shorter lightning talks. The goal is to get as many ideas out there as possible. Different ideas will stick with different people. The more the better.
+* Use circular tables. Yes this requires more floor space but it keeps people facing each other during breaks and naturally let's other people break in to a conversation.
 * Make people change their seat every so often. A forced lottery seems harsh but you could also use topical tables, like one table is a "spaces" table and another is a "tabs".
 
-Notable conference behaviors I've seen and enjoy.
+Notable conference behaviors I've seen and enjoyed.
 
-* Release Notes Conference breaks people into teams for dinners around town.
+* Release Notes Conference breaks people into teams for dinners around town at different style restaurants.
 * CocoaLove conference embraced its hosting city with morning walking tours and site seeing.
 * I like the concept of pre-conference workshops. I think it allows those who are new to a platform to get a lot of hands on time before experiencing talks that usually don't cater to them.
 * I loved the feel of old school MacHack. It was a 24-hour, 3-day conference where the opening keynote was at midnight. We took over the hotel lobby and worked on our hacks for the contest / presentation at the end. In between coding, in side rooms, people gave talks of all shapes and sizes. There was a movie night where we bought out a full theater and watched as a group. It was a real community building event.
 
-I'd love to hear others stories. Email me: <mike@mikezornek.com>.
+I'd love to hear others stories/thoughts. Email me: <mike@mikezornek.com> or post a blog post on your own site.
