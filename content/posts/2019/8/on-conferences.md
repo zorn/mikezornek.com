@@ -1,6 +1,8 @@
 ---
 title: "On Conferences"
 date: 2019-08-14T11:23:59-04:00
+aliases: /posts/2019/78/on-conferences/
+
 ---
 
 I wish I had time to help run a conference (again). I have a lot of opinions.
