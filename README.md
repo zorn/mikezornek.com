@@ -10,4 +10,4 @@ To run the site locally use:
 
 To make a new post
 
-    hugo new posts/2019/10/available-for-consulting-web-and-mobile-elixir-and-ios.md
+    hugo new posts/2019/11/club-house-hosting-dev-diary-2.md
