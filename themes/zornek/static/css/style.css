@@ -1,0 +1,182 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #4A4A4A;
+}
+
+p {
+    line-height: 24px;
+}
+
+blockquote {
+    line-height: 24px;
+}
+
+ul {
+    line-height: 24px;
+}
+
+pre {
+    padding: 0.75em;
+}
+
+pre, code {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+a:link {
+    color: #4A90E2;
+}
+
+a:visited {
+    color: rgb(109, 37, 94);
+}
+
+a:focus,
+a:hover {
+    background-color: #4A90E2;
+    color: #fff;
+}
+
+a:active {
+    color: #f00;
+}
+
+.content-row {
+    padding: 0 16px;
+}
+
+article img {
+    width: 100%;
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #4A90E2;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    padding: 0.4em 0;
+}
+
+header div.content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #4A4A4A;
+}
+
+nav a:visited {
+    color: #4A4A4A;
+}
+
+nav a:focus,
+nav a:hover {
+    background-color: transparent;
+    color: #4A90E2;
+}
+
+nav a:active {
+    color: #f00;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    font-size: 22px;
+    margin-bottom: 1.5em;
+}
+
+nav ol {
+    margin: 0;
+    padding: 0.8em 0;
+    list-style: none;
+}
+
+nav ol li {
+    margin-right: 0.75em;
+    display: inline;
+}
+
+nav ol li.active {
+    padding-bottom: 0.6em;
+    border-bottom: 10px solid #4A90E2;
+}
+
+img.avatar {
+    float: right;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 0 1em 1em;
+}
+
+ol.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+ol.blog-list li {
+    margin-bottom: 0.5em;
+}
+
+ol.blog-list li a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol.blog-list li time {
+    color: #aaa;
+}
+
+footer div.content-row {
+    margin-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+blockquote.testimonial {
+    padding-left: 1em;
+    margin-left: 0.25em;
+    border-left: solid 1px #333;
+    margin-bottom: 2.5em;
+}
+
+blockquote footer {
+    font-weight: bold;
+    margin: 0.25em 0 0 1em;
+}
+
+div.screenshots img {
+    width: 30%;
+}
+
+@media (min-width: 990px) {
+    .content-row {
+        width: 750px;
+        margin: 0 auto;
+    }
+}

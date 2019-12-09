@@ -1,0 +1,25 @@
+<header>
+	<div class="content-row">
+		<div class="branding">
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</div>
+		<div class="search" style="text-align: right;">
+			<iframe src="https://duckduckgo.com/search.html?width=250&site=mikezornek.com&prefill=Search" style="overflow:hidden;margin:0;padding:0;width:308px;height:40px;" frameborder="0"></iframe>
+		</div>
+
+	</div>
+</header>
+{{ $currentSectionHighlight := .Params.sectionHighlight }}
+{{ with .Site.Menus.main }}
+<nav>
+	<div class="content-row">
+	<ol>
+		{{ range . }}
+		<li class="{{ if (eq .Name $currentSectionHighlight) }}active{{ end }}">
+			<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+		</li>
+		{{ end }}
+	</ol>
+	</div>
+</nav>
+{{ end }}

@@ -1,13 +1,15 @@
 ---
 title: Contact
+sectionHighlight: Contact
+layout: onepage
 ---
 
 Email is best: 
 
-* <mike@mikezornek.com> for personal inquires.
+* <mike@mikezornek.com> for personal stuffs.
 * <zorn@zornlabs.com> for work stuffs.
 
-If you use Micro.Blog you can find me at [@zorn](https://micro.blog/zorn).
+If you use Micro.Blog or Twitter you can find me at [@zorn](https://micro.blog/zorn) and [@zorn](http://twitter.com/zorn) respectively.
 
 ---
 

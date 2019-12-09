@@ -1,26 +1,56 @@
 baseURL: http://mikezornek.com
 name: Mike Zornek
 description: Sharing life and geek notes from Philadelphia.
+author: Mike Zornek
 title: Mike Zornek
 languageCode: "en-us"
+theme: "zornek"
 pygmentsCodeFences: true
 pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
+paginate: 20
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  blackFriday:
+    angledQuotes: false
+    extensions: null
+    extensionsMask: null
+    footnoteAnchorPrefix: ""
+    footnoteReturnLinkContents: ""
+    fractions: true
+    hrefTargetBlank: false
+    latexDashes: true
+    nofollowLinks: false
+    noreferrerLinks: false
+    plainIDAnchors: true
+    skipHTML: false
+    smartDashes: true
+    smartypants: true
+    smartypantsQuotesNBSP: false
+    taskLists: true
 menu:
   main:
   - name: Home
     url: /
     weight: 10
+  - name: Blog
+    url: /posts/
+    weight: 20
+  - name: Projects
+    url: /projects/
+    weight: 30
+  - name: For Hire
+    url: /for-hire/
+    weight: 40
+  - name: Talks
+    url: /talks/
+    weight: 50
   - name: Contact
     url: /contact/
-    weight: 20
-  - name: Best Of
-    url: /bestof/
-    weight: 30
-  - name: Events
-    url: /events/
-    weight: 40
+    weight: 60
   - name: Micro.Blog ↗️ 
     url: http://microblog.mikezornek.com/
-    weight: 50
+    weight: 70
 

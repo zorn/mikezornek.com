@@ -25,7 +25,7 @@ The second version, with the `indexPath` argument addition and non-optional retu
 Now let&#8217;s take a look at an implimentation:
 
 ```swift
-func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: CustomCell.identifier, for: indexPath)
     if let customCell = cell as? CustomCell {
         customCell.item = itemForIndexPath(indexPath)

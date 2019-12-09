@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="content-row">
+
+<p><img src="/images/zorn_square.png" class="avatar" /></p>
+
+<p>Hello! My name is <strong>Mike Zornek</strong>. I am a self-employed developer and teacher who focuses on building products for the web as well as iOS. I live in Bensalem, PA (just outside of Philadelphia) and you can often find me coding and participating in community events at <a href="http://indyhall.org">IndyHall</a>, a popular coworking space.</p>
+
+<p>As far as programming and tech goes, when building custom web sites and services I enjoy using <a href="https://elixir-lang.org">Elixir</a> via frameworks like <a href="https://phoenixframework.org">Phoenix</a> and <a href="https://absinthe-graphql.org">Absinthe</a>, which powers <a href="https://graphql.org">GraphQL</a> endpoints. I also have a long history of developing for the <a href="https://developer.apple.com">Mac and iOS</a>. If you are interested in working with me and want more info on the kind of projects I am a good fit for, check out the <a href="/for-hire">For Hire</a> section.</p>
+
+<p>I&#8217;ve always enjoyed entrepreneurship and have built and sold <a href="/projects">various products</a> in my career. My current focus is <a href="http://clubhouse.host/">Club House Hosting</a>, helping group organizers create websites with modern event and membership tools.</p>
+
+<p>This blog hosts long form content and has an <a href="/index.xml">RSS feed</a>. If you want to follow my day to day quips, check out my <a href="http://microblog.mikezornek.com/">Micro.Blog account</a>. It also has an <a href="http://microblog.mikezornek.com/feed.xml">RSS feed</a>.</p>
+
+<h2>Recent Blog Posts</h2>
+
+<ul>
+{{ range first 7 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> | <time>{{ .Date.Format "Jan 2, 2006" }}</time></li>
+{{ end }}
+</ul>
+
+</div>
+
+
+{{ end }}
