@@ -9,4 +9,4 @@ Just took advantage of the early bird pricing for [Emerging Technologies for the
 
 I've been to ETE in the past and particularly like how it lets me sample lots of topics I don't see in my traditional iOS circles. Lots of local tech friends usually show up so it's a great way to say hi and meet people too.
 
-[Events page](/events/) updated.
+[Events page](/talks/) updated.
