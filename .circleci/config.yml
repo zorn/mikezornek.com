@@ -18,7 +18,7 @@ jobs:
           command: echo $HOSTKEY1 >> ~/.ssh/known_hosts && echo $HOSTKEY2 >> ~/.ssh/known_hosts && echo $HOSTKEY3 >> ~/.ssh/known_hosts
       - run: 
           name: "Install rsync"
-          command: apt update && apt-get install rsync
+          command: sudo apt update && sudo apt-get install rsync
       - deploy:
           name: "Deploy"
           command: rsync -vaz --delete ~/project/public/ zorn@45.79.149.225:/var/www/html/mikezornek.com/public_html/
