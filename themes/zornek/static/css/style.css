@@ -65,9 +65,8 @@ header {
     padding: 0.4em 0;
 }
 
-header div.content-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+header .search {
+    text-align: left;
 }
 
 header a {
@@ -108,30 +107,26 @@ nav {
     font-family: 'Ubuntu', sans-serif;
     background-color: #fff;
     font-size: 22px;
-    margin-bottom: 1.5em;
+    margin-bottom: 0;
 }
 
 nav ol {
     margin: 0;
-    padding: 0.8em 0;
+    padding: 0.4em 0;
     list-style: none;
 }
 
 nav ol li {
-    margin-right: 0.75em;
+    margin-right: 0.25em;
+    line-height: 35px;
     display: inline;
-}
-
-nav ol li.active {
-    padding-bottom: 0.6em;
-    border-bottom: 10px solid #4A90E2;
 }
 
 img.avatar {
     float: right;
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     margin: 0 0 1em 1em;
 }
 
@@ -178,5 +173,37 @@ div.screenshots img {
     .content-row {
         width: 750px;
         margin: 0 auto;
+    }
+
+    header div.content-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header .search {
+        text-align: right;
+    }
+
+    nav {
+        margin-bottom: 1.5em;
+    }
+
+    nav ol {
+        padding: 0.8em 0;
+    }
+
+    nav ol li {
+        margin-right: 0.75em;
+        display: inline;
+    }
+
+    nav ol li.active {
+        padding-bottom: 0.6em;
+        border-bottom: 10px solid #4A90E2;
+    }
+
+    img.avatar {
+        width: 160px;
+        height: 160px;
     }
 }
