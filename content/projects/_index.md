@@ -7,6 +7,7 @@ layout: onepage
 # Active Personal Projects
 
 * [Club House Hosting](/projects/club-house-hosting/) (Elixir, Phoenix, GraphQL, iOS, Android, Web)
+* [MikeZornek.com](/projects/mikezornek-site/) (Hugo, HTML/CSS, GitHub, CircleCI, Linode, Apache)
 
 # Past Personal Projects
 
@@ -17,7 +18,7 @@ layout: onepage
 * [TwizShow](/projects/twizshow/) (iOS app)
 * [DEX](/projects/dex/) (iOS app)
 * [ProfitTrain / Billable](/projects/profittrain/) (macOS app)
-* [MegaManEffect](/projects/megamaneffect/)
+* [MegaManEffect](/projects/megamaneffect/) (macOS app)
 
 # Past Client Projects
 

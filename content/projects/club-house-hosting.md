@@ -10,7 +10,9 @@ layout: onepage
 
 Club House Hosting is a new platform that will help group organizers launch websites for their groups; hosted using their **own domain** and allowing them to own their **data** and control their **privacy**.
 
-Launching in early 2020. For a sneak peek, check out this tour of a recent internal build:
+**Launching in early 2020.**
+
+For a sneak peek, check out this tour of a recent internal build:
 
 <iframe src="https://player.vimeo.com/video/375320040" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
