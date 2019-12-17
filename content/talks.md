@@ -8,6 +8,7 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
+* Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Denver, CO
 * Attendee: [MicroConf: Starter](https://microconf.com/starter), April 21 - 23, 2020, Minneapolis, MN
 
 ## 2019
