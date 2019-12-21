@@ -10,7 +10,10 @@ pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
 paginate: 20
 markup:
+  defaultMarkdownHandler: blackfriday
   goldmark:
+    extensions:
+      typographer: true
     renderer:
       unsafe: true
   blackFriday:
