@@ -60,7 +60,8 @@ header {
     background-color: #4A90E2;
     font-weight: bold;
     font-size: 48px;
-    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    color: white;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     padding: 0.4em 0;
 }
