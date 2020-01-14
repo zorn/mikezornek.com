@@ -43,7 +43,7 @@ To create a successful development environment requires much more than just good
 ## Core Values
 
 * I believe in iterative software development.
-* I believe it’s important to ship software as soon as possible, even though the early versions you’ll ship will be miles away from the ultimate vision.
+* I believe it's important to ship software as soon as possible, even though the early versions you'll ship will be miles away from the ultimate vision.
 * I believe the most important lessons learned are from the users of your product and the sooner you get this product in their hands the sooner you will know how it needs to change to solve their problems.
 * I believe in tools that help us get stable solutions to user on a timely basis, including automation, continuous integration, code review, testing and sprint planning.
 * I believe for a project to be successful all product owners need to be actively involved.
@@ -51,7 +51,7 @@ To create a successful development environment requires much more than just good
 
 ## Rate
 
-My rate can vary anywhere in the $150-100/hr range depending on the project complexities and the timelines required. Discounts can be provided for prepayment.  
+My rate can vary anywhere in the $100-150/hr range depending on the project complexities and the timelines required. Discounts can be provided for prepayment.  
 
 I prefer to invoice every 2 weeks with 15 days NET.
 
