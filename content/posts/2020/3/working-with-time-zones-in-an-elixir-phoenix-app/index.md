@@ -9,6 +9,10 @@ This talk was originally presented at the [Philly Elixir Group](https://www.meet
 
 <iframe src="https://player.vimeo.com/video/398662438" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+* [Video on Vimeo](https://vimeo.com/398662438) 29 minutes
+* Slides [PDF](mike-zornek-working-with-time-zones-in-an-elixir-phoenix-app-slides) / [SpeakerDeck](https://speakerdeck.com/zorn/working-with-time-zones-in-an-elixir-phoenix-app)
+
+
 Here are some of the reference links mentioned:
 
 * [ElixirConf 2019 - Date, Time, and Time Zones in Elixir 1.9 - Lau Taarnskov](https://www.youtube.com/watch?v=_E988mvPIzU)
