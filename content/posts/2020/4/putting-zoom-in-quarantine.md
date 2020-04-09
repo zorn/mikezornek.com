@@ -19,7 +19,7 @@ For my Zoom-choosing communities, I first tried just using the browser version w
 
 I then tried a [Docker containerized version of Zoom](https://github.com/mdouchement/docker-zoom-us) but quickly discovered it expects a Linux host and does not work with Mac OS.
 
-In lieu of Chrome I finally installed [Iridium Browser](https://iridiumbrowser.de/), which is a open source project that takes the open source base of Chrome, [Chromium](https://www.chromium.org/Home), and removes all of the Google phone home and related features. Today I was able to use Iridium to participate in a Zoom call with moderate success. I still had to sign in to a Zoom account which is not very comforting, and the Zoom web UI is not a 1:1 match to it's desktop cousin (one feature it lacks is gallery mode, which I like to use) -- but it did work.
+In lieu of Chrome I finally installed [Iridium Browser](https://iridiumbrowser.de/), which is a open source project that takes the open source base of Chrome, [Chromium](https://www.chromium.org/Home), and removes all of the Google phone home and related features. Today I was able to use Iridium to participate in a Zoom call with moderate success. I still had to sign in to a Zoom account which is not very comforting, and the Zoom web UI is not a 1:1 match to its desktop cousin (one feature it lacks is gallery mode, which I like to use) -- but it did work.
 
 Despite some improvements, Zoom [security issues](https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/) continue to come out on regular basis. I hope in time I can drop it entirely, but for now I feel like limiting my interactions with a mostly isolated Iridium Browser will do.
 
