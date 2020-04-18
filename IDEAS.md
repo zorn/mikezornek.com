@@ -1,5 +1,7 @@
 # Blog Post Ideas
 
+* A page with all the many ways to keep track of my stuff, RSS feeds, LinkenIn, Micro.Blog, Vimeo, etc.
+
 ## Series, Anatomy of a Professional, Modern iOS Project.
 
 * README file
