@@ -170,6 +170,11 @@ div.screenshots img {
     width: 30%;
 }
 
+code {
+    color: #bb0000;
+    background-color: #eee;
+}
+
 @media (min-width: 990px) {
     .content-row {
         width: 750px;
