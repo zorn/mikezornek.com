@@ -5,6 +5,8 @@ author: Mike Zornek
 title: Mike Zornek
 languageCode: "en-us"
 theme: "zornek"
+images:
+  - images/zorn_square.png
 pygmentsCodeFences: true
 pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true

@@ -1,6 +1,7 @@
 ---
 title: "Personal Lockdown Update"
 date: 2020-04-30T09:57:51-04:00
+description: Again, I'm thankful for my privilege. I have savings to live off for a while. But let's not forget, there are people out there starving and this program right now is bringing no relief.
 ---
 
 Thought it was time for another personal update. The [last one](http://mikezornek.com/posts/2020/3/things-change-fast/) was about a month ago.
