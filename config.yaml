@@ -6,7 +6,7 @@ title: Mike Zornek
 languageCode: "en-us"
 theme: "zornek"
 images:
-  - images/zorn_square.png
+  - http://mikezornek.com/images/zorn_square.png
 pygmentsCodeFences: true
 pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
@@ -37,25 +37,24 @@ markup:
     taskLists: true
 menu:
   main:
-  - name: Home
-    url: /
-    weight: 10
-  - name: Blog
-    url: /posts/
-    weight: 20
-  - name: Projects
-    url: /projects/
-    weight: 30
-  - name: For Hire
-    url: /for-hire/
-    weight: 40
-  - name: Talks
-    url: /talks/
-    weight: 50
-  - name: Contact
-    url: /contact/
-    weight: 60
-  - name: Micro.Blog ↗️ 
-    url: http://microblog.mikezornek.com/
-    weight: 70
-
+    - name: Home
+      url: /
+      weight: 10
+    - name: Blog
+      url: /posts/
+      weight: 20
+    - name: Projects
+      url: /projects/
+      weight: 30
+    - name: For Hire
+      url: /for-hire/
+      weight: 40
+    - name: Talks
+      url: /talks/
+      weight: 50
+    - name: Contact
+      url: /contact/
+      weight: 60
+    - name: Micro.Blog ↗️
+      url: http://microblog.mikezornek.com/
+      weight: 70
