@@ -5,8 +5,10 @@ author: Mike Zornek
 title: Mike Zornek
 languageCode: "en-us"
 theme: "zornek"
-images:
-  - http://mikezornek.com/images/zorn_square.png
+params:
+  description: Sharing life and geek notes from Philadelphia.
+  images:
+    - images/zorn_square.png
 pygmentsCodeFences: true
 pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
