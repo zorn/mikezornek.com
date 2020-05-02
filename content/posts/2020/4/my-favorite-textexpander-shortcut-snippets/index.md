@@ -1,6 +1,9 @@
 ---
 title: "My Favorite TextExpander Shortcut Snippets"
 date: 2020-04-27T14:52:36-04:00
+description: I added a new one today, for the common need to convert a title-like string into a filename-friendly one.
+images:
+  - quick-filenames-from-title.gif
 ---
 
 I've been a long time [TextExpander](https://textexpander.com/) user. You don't know of TextExpander? Shame!
