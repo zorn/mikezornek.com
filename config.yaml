@@ -8,7 +8,7 @@ theme: "zornek"
 params:
   description: Sharing life and geek notes from Philadelphia.
   images:
-    - images/zorn_square.png
+    - images/mike-zornek-logo.png
 pygmentsCodeFences: true
 pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
