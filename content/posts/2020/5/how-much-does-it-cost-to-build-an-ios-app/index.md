@@ -27,7 +27,6 @@ I'll also share my own notes, which I captured today in [MindNode](https://mindn
 The notes are published below in a few open formats. Hopefully this helps. If you have any questions or want to talk about your own project, please [contact me](/contact/). Thanks!
 
 * [MindNode document](how-much-does-it-cost-to-build-an-ios-app.mindnode.zip)
-* [HTML](outline)
 * [PDF](how-much-does-it-cost-to-build-an-ios-app.pdf)
 * [PNG](how-much-does-it-cost-to-build-an-ios-app.png)
 
