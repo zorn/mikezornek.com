@@ -28,6 +28,6 @@ The notes are published below in a few open formats. Hopefully this helps. If yo
 
 * [MindNode document](how-much-does-it-cost-to-build-an-ios-app.mindnode.zip)
 * [PDF](how-much-does-it-cost-to-build-an-ios-app.pdf)
-* [PNG](how-much-does-it-cost-to-build-an-ios-app.png)
+* [PNG](thumb.png)
 
 [![MindNode Notes on How Much Does It Cost to Build an iOS App?](thumb.png)](thumb.png)
