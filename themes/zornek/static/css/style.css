@@ -175,6 +175,22 @@ code {
     background-color: #eee;
 }
 
+.blm {
+    background: black;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+.blm a {
+    color: white;
+}
+
+.blm a:hover {
+    background: transparent;
+    color: #4A90E2;
+}
+
 @media (min-width: 990px) {
     .content-row {
         width: 750px;
@@ -195,7 +211,7 @@ code {
     }
 
     nav ol {
-        padding: 0.8em 0;
+        padding: 0.4em 0 0.8em 0;
     }
 
     nav ol li {
