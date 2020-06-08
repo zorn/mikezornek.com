@@ -2,6 +2,9 @@
 title: For Hire
 sectionHighlight: For Hire
 layout: onepage
+description: Freelance software developer / consultant. Focusing on Elixir, Phoenix, iOS, teaching and mentoring. 
+images:
+  - images/zorn_square.png
 ---
 
 I have worked for more than a decade as a self-employed consultant (with a handful of years inside some larger agencies as well). Throughout that time I've helped dozens of companies execute projects on the **Mac, iOS and Web**. I enjoy project variety and the visible personal impact I can make as a consultant. 
