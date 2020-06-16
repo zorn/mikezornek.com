@@ -25,6 +25,6 @@ As if to make an example of someone, like a gangster asking for 'protection mone
 
 ~
 
-For the few who closely follow my own career, it has been clear as day my  love of Apple and Mac OS X has long been on the decline. However, like a marriage with kids, it's hard to just pick up and leave. It's best to make some plans and plot your escape.
+For the few who closely follow my own career, it has been clear my love of Apple and Mac OS X has long been on the decline. However, like a marriage with kids, it's hard to just pick up and leave. It's best to make some plans and plot your escape.
 
 Today's events only strengthen my resolve to escape.
