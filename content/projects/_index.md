@@ -6,7 +6,7 @@ layout: onepage
 
 # Active Personal Projects
 
-* [Club House Hosting](/projects/club-house-hosting/) (Elixir, Phoenix, GraphQL, iOS, Android, Web)
+* [Guildflow](/projects/guildflow/) (Elixir, Phoenix, GraphQL, iOS, Android, Web)
 * [MikeZornek.com](/projects/mikezornek-site/) (Hugo, HTML/CSS, GitHub, CircleCI, Linode, Apache)
 
 # Past Personal Projects
