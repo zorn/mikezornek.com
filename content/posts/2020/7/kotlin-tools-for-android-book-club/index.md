@@ -3,7 +3,7 @@ title: "Kotlin Tools for Android Book Club"
 date: 2020-07-04T11:32:28-04:00
 description: A quick tour of some of the tools you'll want to use to help learn Kotlin.
 images:
-  - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
+  - posts/2020/7/kotlin-tools-for-android-book-club/thumb.jpeg
 ---
 
 A quick tour of some of the tools you'll want to use to help learn Kotlin.
