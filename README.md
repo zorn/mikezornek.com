@@ -1,5 +1,9 @@
 # mikezornek.com
 
+## TODO
+
+* Add favicon with logo-esk type.
+
 ## About
 
 This website is powered using Hugo, a static website tool written in Go.
@@ -10,4 +14,6 @@ To run the site locally use:
 
 To make a new post
 
-    hugo new posts/2019/12/website-revamp.md
+    How I Use Omnifocus to Track Todos
+
+    hugo new posts/2020/7/tracking-uptime-with-updown-io/index.md
