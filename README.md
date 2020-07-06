@@ -16,4 +16,4 @@ To make a new post
 
     How I Use Omnifocus to Track Todos
 
-    hugo new posts/2020/7/tracking-uptime-with-updown-io/index.md
+    hugo new posts/2020/7/consulting-availability-for-ios-and-web-development/index.md
