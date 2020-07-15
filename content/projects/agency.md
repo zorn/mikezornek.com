@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: Agency Projects
 sectionHighlight: Projects
 layout: onepage
 ---

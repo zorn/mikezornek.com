@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: TwizShow
 sectionHighlight: Projects
 layout: onepage
 ---

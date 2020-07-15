@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: Shindig
 sectionHighlight: Projects
 layout: onepage
 ---

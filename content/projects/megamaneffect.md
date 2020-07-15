@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: MegaManEffect
 sectionHighlight: Projects
 layout: onepage
 ---

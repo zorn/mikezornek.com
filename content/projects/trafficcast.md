@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: TrafficCast
 sectionHighlight: Projects
 layout: onepage
 ---

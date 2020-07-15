@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: ProfitTrain
 sectionHighlight: Projects
 layout: onepage
 ---

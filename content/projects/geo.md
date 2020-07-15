@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: GEO
 sectionHighlight: Projects
 layout: onepage
 ---

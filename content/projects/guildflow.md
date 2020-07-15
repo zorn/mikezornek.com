@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: Guildflow
 sectionHighlight: Projects
 layout: onepage
 aliases: /projects/club-house-hosting/

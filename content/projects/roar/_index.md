@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: ROAR For Good
 sectionHighlight: Projects
 layout: onepage
 ---

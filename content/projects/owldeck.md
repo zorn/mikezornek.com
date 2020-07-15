@@ -1,5 +1,5 @@
 ---
-title: Club House Hosting
+title: OwlDeck
 sectionHighlight: Projects
 layout: onepage
 ---
