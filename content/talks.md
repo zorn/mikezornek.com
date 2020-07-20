@@ -13,6 +13,9 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## 2020
 
+* Attendee: [Apple WWDC](https://developer.apple.com/wwdc20/), June 22-26, Online
+* Attendee: [DockerCon](https://www.thecube.net/dockercon-2020), May 21, Online
+* Attendee: [Philly Emerging Technologies for the Enterprise 2020](https://2020.phillyemergingtech.com/), April 14-15, Online
 * **Speaker:** [An Introduction to Elixir](/posts/2020/4/video-an-introduction-to-elixir/), [Philly Elixir Group](https://www.meetup.com/Philly-Elixir-Meetup/), April, Philadelphia, PA
 * Attendee: [Emerging Technologies
 for the Enterprise](https://phillyemergingtech.com/), April 14-15, Philadelphia, PA
