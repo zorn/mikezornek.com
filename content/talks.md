@@ -8,7 +8,8 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
-* Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Denver, CO
+* Attendee: [360iDev](https://360idev.com/), August 16-19, 2020, Online
+* Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Online
 
 ## 2020
 
