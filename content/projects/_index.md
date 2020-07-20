@@ -6,8 +6,17 @@ layout: onepage
 
 # Active Personal Projects
 
-* [Guildflow](/projects/guildflow/) (Elixir, Phoenix, GraphQL, iOS, Android, Web)
-* [MikeZornek.com](/projects/mikezornek-site/) (Hugo, HTML/CSS, GitHub, CircleCI, Linode, Apache)
+## [Guildflow](/projects/guildflow/) 
+
+Guildflow empowers meetup organizers to create a modern group website that respects the data and privacy rights of its members.
+
+## [Android Book Club](https://androidbookclub.guildflow.com/) 
+
+ This is an online book club that focuses on learning Kotlin and Android app development with a nod to the member history of building iOS applications. We meet once a week on Monday evenings to discuss the previous week's chapters and review each others code solutions. 
+
+## [MikeZornek.com](/projects/mikezornek-site/) 
+
+This very website is an open source project using tech including: Hugo, HTML/CSS, GitHub, CircleCI, Linode and Apache.
 
 # Past Personal Projects
 
