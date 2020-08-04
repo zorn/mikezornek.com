@@ -31,7 +31,7 @@ He assures me it's not a sales call, just a few questions
 about our group. If you want to reach out or learn more info
 check out:
 
-https://mikezornek.com/posts/2020/8/introduction/
+http://mikezornek.com/posts/2020/8/introduction/
 
 Schedule a video chat (30m):
 
