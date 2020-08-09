@@ -4,6 +4,7 @@ date: 2020-08-09T17:08:38-04:00
 description: Adding a formal, descriptive transparency report would restore a lot of faith in the Gatekeeper system after this week's events.
 images:
   - posts/2020/8/apple-gatekeeper-developer-id-program-needs-a-transparency-report/alert.png
+aliases: /posts/2020/8/gatekeeper/
 ---
 
 On Tuesday, August 4th, Apple published a global kill signal to the certificate system that allows [Charlie Monroe's applications](https://twitter.com/charlieMonroe/status/1290509083288764428) to run on macOS. These apps are part of the [Gatekeeper program](https://developer.apple.com/developer-id/) that lets a registered Apple developer distribute their software outside the Mac App Store. Without a Gatekeeper signature, macOS makes it somewhat difficult for a user to launch a non-signed app and is not considered a sustainable way to distribute commercial software.
