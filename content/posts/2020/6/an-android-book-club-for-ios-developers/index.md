@@ -32,7 +32,7 @@ We'll also provide a Slack chat room for in-between meeting discussions to be sh
 
 To join the group use the Membership Application:
 
-https://androidbookclub.guildflow.com/invite-requests/new
+https://androidbookclub.guildflow.com/membership-applications
 
 Once you are accepted into the group you can RSVP for events as well as view the membership list and other members-only details.
 
