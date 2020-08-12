@@ -10,5 +10,5 @@ It can be hard to keep the momentum with a long term side project. I've found ac
 
 <iframe src="https://player.vimeo.com/video/418060520" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-* Clubhouse | https://clubhouse.host
+* Clubhouse | https://guildflow.com
 * MastermindJam | https://mastermindjam.com/

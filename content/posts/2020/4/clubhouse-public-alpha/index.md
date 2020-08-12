@@ -3,7 +3,7 @@ title: "Clubhouse Public Alpha"
 date: 2020-04-21T10:50:28-04:00
 ---
 
-Today, after more than a year of side project progress, I finally am starting to share some of my progress regarding [Clubhouse Hosting](https://clubhouse.host/) through the release of the first Public Alpha.
+Today, after more than a year of side project progress, I finally am starting to share some of my progress regarding [Clubhouse Hosting](https://guildflow.com/) through the release of the first Public Alpha.
 
 My first commit (over a year ago):
 
@@ -15,6 +15,6 @@ In my full time consulting work I push for "release small and fast" but personal
 
 The real focus of this release is getting feedback. I'm asking friends, peers and anyone interested in the goals of the project to lend me their time for some online user testing. If you would like to donate your time, please consider [scheduling some time](https://calendly.com/zorn/open-meeting) on my office hours calendar.
 
-From this point on I plan to do regular updates. You can follow along via the Clubhouse Hosting [Micro.Blog](https://micro.blog/clubhousehost) or [twitter](https://twitter.com/clubhousehost) accounts as well as consider signing up to the mailing list from [the front page](https://clubhouse.host).
+From this point on I plan to do regular updates. You can follow along via the Clubhouse Hosting [Micro.Blog](https://micro.blog/guildflow) or [twitter](https://twitter.com/guildflow) accounts as well as consider signing up to the mailing list from [the front page](https://guildflow.com).
 
 Thanks for your support!

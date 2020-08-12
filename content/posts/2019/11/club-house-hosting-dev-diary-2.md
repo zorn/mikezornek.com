@@ -3,7 +3,7 @@ title: "Club House Hosting Dev Diary 2: A Tour of UI Sketches"
 date: 2019-11-04T13:42:04-05:00
 ---
 
-The Project: [Club House Hosting](http://blog.clubhouse.host/)
+The Project: [Club House Hosting](https://guildflow.com/)
 
 Show off some of the early UI sketches and then talk a little about plans for the week.
 

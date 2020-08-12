@@ -13,6 +13,6 @@ As for general things, I was able to finish my taxes this past week and it feels
 
 I'm also doing my well with my 'Attend more social events outside the tech zone' goal by hosting a bi-weekly poker game at IndyHall. It's a low stakes cash game ($20 buy-in) but a fun distraction.
 
-The big thing that has fallen through the cracks is [Club House Hosting](http://clubhouse.host/). I've only been able to dedicate limit hours to it, though did a have a nice coding session this past Saturday. I need to find time to get this project over the hump. It's not far from a beta launch and I really want to get it there.
+The big thing that has fallen through the cracks is [Club House Hosting](https://guildflow.com). I've only been able to dedicate limit hours to it, though did a have a nice coding session this past Saturday. I need to find time to get this project over the hump. It's not far from a beta launch and I really want to get it there.
 
 So those are my updates. Thanks for sticking around. Hope to have something more technical / helpful in the next few posts. 

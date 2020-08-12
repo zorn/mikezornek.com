@@ -10,7 +10,7 @@ I'm using a public Trello board to keep track of my Clubhouse project's roadmap.
 
 <iframe src="https://player.vimeo.com/video/414761323" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-* Clubhouse | https://clubhouse.host
+* Clubhouse | https://guildflow.com
 * Clubhouse Roadmap | https://trello.com/b/Z74hJIPj/clubhouse-roadmap
 * Buffer | https://open.buffer.com
 * Trello | https://trello.com
