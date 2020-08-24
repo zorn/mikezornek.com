@@ -12,7 +12,11 @@ Guildflow empowers meetup organizers to create a modern group website that respe
 
 ## [Android Book Club](https://androidbookclub.guildflow.com/) 
 
- This is an online book club that focuses on learning Kotlin and Android app development with a nod to the member history of building iOS applications. We meet once a week on Monday evenings to discuss the previous week's chapters and review each others code solutions. 
+This is an online book club that focuses on learning Kotlin and Android app development with a nod to the member history of building iOS applications. We meet once a week on Monday evenings to discuss the previous week's chapters and review each others code solutions. 
+
+## [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/)
+
+A monthly meetup group to talk about Elixir and Erlang things. We meet on the 2nd Wednesday of the month, online. It's a small, friendly group. Stop by and say hi!
 
 ## [MikeZornek.com](/projects/mikezornek-site/) 
 
