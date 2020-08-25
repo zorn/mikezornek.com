@@ -13,6 +13,12 @@ I have worked for more than a decade as a self-employed consultant (with a handf
 
 ## Services
 
+### [Remote User Testing Sessions](http://localhost:1313/user-testing/)
+
+A developer-focused, Remote User Testing Session of your mobile app or website, for $99 
+
+[Watch sample recording session.](http://localhost:1313/user-testing/)
+
 ### iOS Development, Mentoring, Teaching
 
 The majority of [my projects](/projects/) in recent history have been in helping companies deliver [iOS](https://developer.apple.com/) apps, through direct development or helping improve their full time iOS employees through teaching and mentorship. I consider myself to have a strong sense of successful user interface and often times help with crafting the user experience as well as implementing actual code behaviors.

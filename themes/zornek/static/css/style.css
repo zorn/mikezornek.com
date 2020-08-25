@@ -191,6 +191,12 @@ code {
     color: #4A90E2;
 }
 
+.promo {
+    padding: 1em 2em;
+    text-align: center;
+    background: #ff9;
+}
+
 @media (min-width: 990px) {
     .content-row {
         width: 750px;
