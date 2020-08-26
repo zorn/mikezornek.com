@@ -11,7 +11,7 @@ layout: onepage
 
 ## What is user testing?
 
-User testing is a form a usability research where you:
+User testing is a form of usability research where you:
 
 1. Give a person your mobile app and some basic tasks.
 2. Ask them to talk out loud while they perform the tasks.
@@ -42,7 +42,7 @@ To help application developers perform much needed user testing during lock down
 
 In addition to overcoming the technical hurdles or recording such a testing session, being a developer with interface design experience I am uniquely positioned to give you very specific and actionable ways to improve your app. 
 
-### What’s you get for $99
+### What you get
 
 * **A 30-minute screen recording of the test session.**
 	* You’ll see my face and the screen of the mobile device. 
@@ -75,7 +75,7 @@ In addition to overcoming the technical hurdles or recording such a testing sess
 
 ## Sample Review
 
-Since the reviews I do for paying clients are confidential I did a sample review of the Freshbooks iOS app to help demonstrate what you’ll get. Check it out below.
+Since the reviews I do for paying clients are confidential I did a sample review of the FreshBooks iOS app to help demonstrate what you’ll get. Check it out below.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/451294841" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
@@ -84,5 +84,9 @@ Since the reviews I do for paying clients are confidential I did a sample review
 ## Questions
 
 Shoot me [an email](mailto:zorn@zornlabs.com) or [tweet](https://twitter.com/zorn).
+
+## Resources
+
+If you want to get started doing user testing yourself I highly recommend [Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems](https://amzn.to/34zB2Ap) by Steve Krug.
 
 ## [Get started with your app user testing session!](https://zorn.typeform.com/to/GALgTKaA)
