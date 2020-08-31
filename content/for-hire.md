@@ -13,11 +13,11 @@ I have worked for more than a decade as a self-employed consultant (with a handf
 
 ## Services
 
-### [Remote User Testing Sessions](http://localhost:1313/user-testing/)
+### [Remote User Testing Sessions](/user-testing/)
 
 A developer-focused, Remote User Testing Session of your mobile app or website, for $99 
 
-[Watch sample recording session.](http://localhost:1313/user-testing/)
+[Watch sample recording session.](/user-testing/)
 
 ### iOS Development, Mentoring, Teaching
 

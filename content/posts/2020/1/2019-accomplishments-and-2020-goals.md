@@ -3,7 +3,7 @@ title: "2019 Accomplishments and 2020 Goals"
 date: 2020-01-14T12:22:38-05:00
 ---
 
-A friend recently went off on how he hates these kinds of blog posts but I can't help myself from sharing. Yes it's very egotistical, but you could say that about the majority of a personal blog. I also like posting since my blog posts have a way of lasting a lot longer than some random document on my computer and it is fun to read these things years after the fact. (eg: [my 2018 post](http://mikezornek.com/posts/2019/1/2018-retrospective-2019-goals/), [my 2017 post](http://localhost:1313/posts/2018/1/2017-retrospective/))
+A friend recently went off on how he hates these kinds of blog posts but I can't help myself from sharing. Yes it's very egotistical, but you could say that about the majority of a personal blog. I also like posting since my blog posts have a way of lasting a lot longer than some random document on my computer and it is fun to read these things years after the fact. (eg: [my 2018 post](http://mikezornek.com/posts/2019/1/2018-retrospective-2019-goals/), [my 2017 post](/posts/2018/1/2017-retrospective/))
 
 With all that said, a look back and a look ahead...
 
