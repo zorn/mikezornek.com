@@ -16,4 +16,4 @@ To make a new post
 
     How I Use Omnifocus to Track Todos
 
-    hugo new posts/2020/8/bartering-with-other-developers-on-side-projects/index.md
+    hugo new posts/2020/9/a-sample-json-storage-migration-strategy/index.md
