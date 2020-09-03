@@ -1,10 +1,4 @@
-# mikezornek.com
-
-## TODO
-
-* Add favicon with logo-esk type.
-
-## About
+# MikeZornek.com
 
 This website is powered using Hugo, a static website tool written in Go.
 
