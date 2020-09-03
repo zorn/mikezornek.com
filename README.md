@@ -16,4 +16,6 @@ To make a new post
 
     How I Use Omnifocus to Track Todos
 
-    hugo new posts/2020/9/a-sample-json-storage-migration-strategy/index.md
+    A Screencast about Building Screencasts; How I Built the Guildflow 70-second Introduction Video
+
+    hugo new posts/2020/9/building-screencasts/index.md
