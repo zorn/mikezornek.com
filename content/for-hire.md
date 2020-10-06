@@ -13,23 +13,23 @@ I have worked for more than a decade as a self-employed consultant (with a handf
 
 ## Services
 
-### [Remote User Testing Sessions](/user-testing/)
+### Elixir / Phoenix Development
 
-A developer-focused, Remote User Testing Session of your mobile app or website, for $99 
+Over the past few years, I've grown to really love using [Elixir](https://elixir-lang.org/) and [Phoenix](https://www.phoenixframework.org/) for web app development.
 
-[Watch sample recording session.](/user-testing/)
+> **What is Elixir?** Elixir is a dynamic, functional language designed for building scalable and maintainable applications. Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems.
+
+I have experience using Elixir to build web apps for client projects as well as my own, including [Guildflow](https://guildflow.com).
 
 ### iOS Development, Mentoring, Teaching
 
 The majority of [my projects](/projects/) in recent history have been in helping companies deliver [iOS](https://developer.apple.com/) apps, through direct development or helping improve their full time iOS employees through teaching and mentorship. I consider myself to have a strong sense of successful user interface and often times help with crafting the user experience as well as implementing actual code behaviors.
 
-### Elixir, Phoenix, Absinthe (GraphQL) Development
+### [Remote User Testing Sessions](/user-testing/)
 
-I've come to enjoy using [Elixir](https://elixir-lang.org/) for personal work and have recently started offering Elixir development as a service. 
+A developer-focused, Remote User Testing Session of your mobile app or website, for $99 
 
-> **What is Elixir?** Elixir is a dynamic, functional language designed for building scalable and maintainable applications. Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems.
-
-I have experience using Elixir to build web apps with [Phoenix](https://www.phoenixframework.org/) as well as [GraphQL](https://graphql.org/) endpoints using [Absinthe](https://absinthe-graphql.org/).
+[Watch sample recording session.](/user-testing/)
 
 ### Project Management, Continuous Integration and Delivery
 
