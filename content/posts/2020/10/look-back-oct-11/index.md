@@ -18,6 +18,7 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 * Met with Kotaro to review progress on his iPad drawing app and share my own progress with Guildflow.
 * Cleaned up a lot of loose end todos and digital trash.
 * Started work on some Elixir tutorials. Will share more when they are ready.
+* Took delivery of a new Intel NUC which for now is running [Pop_os!](https://pop.system76.com/).
 
 ## Personal
 
