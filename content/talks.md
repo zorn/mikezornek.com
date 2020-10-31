@@ -8,11 +8,12 @@ The following is a list of events and conferences I've spoken at or attended in 
 
 ## Upcoming
 
-* Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Online
-* Attendee: [Web Directions: Code://remote](https://www.webdirections.org/code/), September 2020, Online
+* Attendee: [BarCampPhilly](https://twitter.com/BarCampPhilly), December 5, 2020, Online
 
 ## 2020
 
+* Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Online
+* Attendee: [Web Directions: Code://remote](https://www.webdirections.org/code/), September 2020, Online
 * Attendee: [360iDev](https://360idev.com/), August 16-19, 2020, Online
 * Attendee: [Apple WWDC](https://developer.apple.com/wwdc20/), June 22-26, Online
 * Attendee: [DockerCon](https://www.thecube.net/dockercon-2020), May 21, Online
