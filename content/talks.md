@@ -6,12 +6,9 @@ layout: onepage
 
 The following is a list of events and conferences I've spoken at or attended in recent years. If you have a speaking opportunity that might be a good fit, [let me know](/contact).
 
-## Upcoming
-
-* Attendee: [BarCampPhilly](https://twitter.com/BarCampPhilly), December 5, 2020, Online
-
 ## 2020
 
+* Attendee: [BarCampPhilly](https://twitter.com/BarCampPhilly), December 5, 2020, Online
 * Attendee: [ElixirConf](https://elixirconf.com), September 2 - 5, 2020, Online
 * Attendee: [Web Directions: Code://remote](https://www.webdirections.org/code/), September 2020, Online
 * Attendee: [360iDev](https://360idev.com/), August 16-19, 2020, Online

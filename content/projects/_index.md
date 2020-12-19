@@ -6,13 +6,13 @@ layout: onepage
 
 # Active Personal Projects
 
+## [Phoenix by Example](https://twitter.com/phoenixexamples)
+
+Phoenix by Example provides example applications that help frame educational discussions around [Elixir](https://elixir-lang.org/) and the [Phoenix framework](https://phoenixframework.org/).
+
 ## [Guildflow](/projects/guildflow/) 
 
 Guildflow empowers meetup organizers to create a modern group website that respects the data and privacy rights of its members.
-
-## [Android Book Club](https://androidbookclub.guildflow.com/) 
-
-This is an online book club that focuses on learning Kotlin and Android app development with a nod to the member history of building iOS applications. We meet once a week on Monday evenings to discuss the previous week's chapters and review each others code solutions. 
 
 ## [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/)
 
@@ -24,6 +24,7 @@ This very website is an open source project using tech including: Hugo, HTML/CSS
 
 # Past Personal Projects
 
+* [Android Book Club](https://androidbookclub.guildflow.com/)
 * [Philly CocoaHeads Website](/projects/philly-cocoaheads/) (Hugo static site)
 * [OwlDeck](/projects/owldeck/) (macOS app)
 * [Shindig](/projects/shindig/) (Rails, iOS, Android, Web)

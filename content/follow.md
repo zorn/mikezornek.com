@@ -12,6 +12,7 @@ Follow me and my projects:
 * [Personal YouTube](https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw) | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCZVgPg6CmFAA4dHyKklG0Nw)
 * [Personal GitHub Profile](https://github.com/zorn)
 * [Phoenix by Example Twitter](https://twitter.com/phoenixexamples)
+* [Phoenix by Example YouTube](https://www.youtube.com/channel/UC1A6NCyogLWT7t4K3TuVQ4g)
 * [Phoenix by Example GitHub](https://github.com/phoenix-by-example/)
 * [Guildflow Website / Blog](https://guildflow.com/blog/) | [RSS](https://guildflow.com/blog/index.xml)
 * [Guildflow Twitter](https://twitter.com/zorn)
