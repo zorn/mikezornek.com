@@ -18,9 +18,6 @@ jobs:
       - run:
           name: "Add HostKeys"
           command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
-      - run: 
-          name: "Install rsync"
-          command: apt update && apt-get --yes install rsync
       - deploy:
           name: "Deploy"
           command: rsync -vaz --delete ~/project/public/ root@69.164.222.128:/var/www/html/
