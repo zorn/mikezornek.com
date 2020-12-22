@@ -17,7 +17,8 @@ jobs:
             - "71:9d:fa:57:f2:de:d8:c3:32:02:fe:a9:4f:87:90:b2"
       - run:
           name: "Add HostKeys"
-          command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
+          command: ssh-keyscan -t rsa 69.164.222.128 >> ~/.ssh/known_hosts
+          #command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - deploy:
           name: "Deploy"
           command: rsync -vaz --delete ~/project/public/ root@69.164.222.128:/var/www/html/
