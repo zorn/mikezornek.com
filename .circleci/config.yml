@@ -21,4 +21,4 @@ jobs:
           #command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - deploy:
           name: "Deploy"
-          command: rsync -vaz --delete ~/project/public/ root@69.164.222.128:/var/www/html/
+          command: rsync -vaz --delete ssh ~/project/public/ root@69.164.222.128:/var/www/html/
