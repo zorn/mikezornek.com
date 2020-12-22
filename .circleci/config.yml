@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:0.60.1
+      - image: cibuilds/hugo:0.79
     working_directory: ~/project
     steps:
       - checkout
@@ -12,13 +12,15 @@ jobs:
       - run:
           name: "Test Website"
           command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
-      - add_ssh_keys
+      - add_ssh_keys:
+          fingerprints:
+            - "71:9d:fa:57:f2:de:d8:c3:32:02:fe:a9:4f:87:90:b2"
       - run:
           name: "Add HostKeys"
-          command: echo $HOSTKEY1 >> ~/.ssh/known_hosts && echo $HOSTKEY2 >> ~/.ssh/known_hosts && echo $HOSTKEY3 >> ~/.ssh/known_hosts
+          command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
       - run: 
           name: "Install rsync"
           command: apt update && apt-get --yes install rsync
       - deploy:
           name: "Deploy"
-          command: rsync -vaz --delete ~/project/public/ zorn@45.79.149.225:/var/www/html/mikezornek.com/public_html/
+          command: rsync -vaz --delete ~/project/public/ root@69.164.222.128:/var/www/html/
