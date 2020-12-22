@@ -17,9 +17,6 @@ jobs:
           name: "Add HostKeys"
           command: ssh-keyscan -t rsa 69.164.222.128 >> ~/.ssh/known_hosts
           #command: echo $REMOTE_HOSTKEY >> ~/.ssh/known_hosts
-      - run: 
-          name: "Install rsync"
-          command: apt --yes install rsync
       - deploy:
           name: "Deploy"
-          command: rsync -avce ssh ~/project/public/ root@69.164.222.128:/var/www/html/
+          command: rsync -avc ~/project/public/ root@69.164.222.128:/var/www/html/
