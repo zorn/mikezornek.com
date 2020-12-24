@@ -19,7 +19,7 @@ Over vacation I worked through a small project to use [Terraform](https://www.te
 
 * MikeZornek is a static site. I like static sites as they are cheaper to serve and easier to keep secure. I have used WordPress in the distant pass but I was lazy at keeping it updated and eventually it was hacked.
 * [Hugo](https://gohugo.io/) is used to help build the static site.
-* The [git repo is pubic](https://github.com/zorn/mikezornek.com) and hosted on GitHub.
+* The [git repo is public](https://github.com/zorn/mikezornek.com) and hosted on GitHub.
 * I've [setup CircleCI](https://github.com/zorn/mikezornek.com/blob/master/.circleci/config.yml) to detect changes on the repo's `master` branch and deploy any changes.
 * The deploy is pretty basic but there are a few HTML/link checks.
 * Once generated, the static files are copied to my Linode using `rsync`.
