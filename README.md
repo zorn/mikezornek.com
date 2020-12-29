@@ -12,5 +12,5 @@ To make a new post
 
     A Screencast about Building Screencasts; How I Built the Guildflow 70-second Introduction Video
 
-    hugo new posts/2020/12/look-back-dec-13/index.md
+    hugo new posts/2020/12/look-back-dec-27/index.md
     hugo new posts/2020/12/december-2020-website-updates/index.md
