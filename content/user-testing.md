@@ -1,13 +1,13 @@
 ---
 title: Affordable Remote Mobile App User Testing
 sectionHighlight: For Hire
-description: $99 developer-focused user testing session of your mobile app or website.
+description: $199 developer-focused user testing session of your mobile app or website.
 images:
   - images/user-testing-thumb.jpeg
 layout: onepage
 ---
 
-# A developer-focused, Remote User Testing Session of your mobile app or website, for $99
+# A developer-focused, Remote User Testing Session of your mobile app or website, for $199
 
 ## What is user testing?
 
@@ -21,7 +21,7 @@ In general, it is a good idea to regularly perform user testing to challenge ass
 
 ## The current challenge
 
-Right now, during COVID lock down it is much harder to run these user tests, specifically for mobile apps.
+Right now it is much harder to run these user tests, specifically for mobile apps.
 
 * People are avoiding unnecessary travel.
 * People don’t want to stand next to or talk with strangers.
@@ -30,37 +30,28 @@ Right now, during COVID lock down it is much harder to run these user tests, spe
 
 ## The pitch
 
-A developer-focused, Remote User Testing Session of your mobile app or website for $99.
-
-## [Get started with your app user testing session!](https://zorn.typeform.com/to/GALgTKaA)
+A developer-focused, Remote User Testing Session of your mobile app or website for $199.
 
 <p><img src="/images/zorn_square.png" class="avatar" /></p>
 
-Hi! My name is Mike Zornek, I am a mobile application developer who does both coding and user experience design work. I’ve been building mobile apps for over a decade.
+Hi! My name is Mike Zornek, I am a developer who does both coding and user experience design work. I’ve been building mobile apps and websites for over 20 years.
 
-To help application developers perform much needed user testing during lock down I am offering a **simple**, **low cost**, and **high value** way to get some feedback about your app via a Remote User Testing Session, for **flat fee of $99**.
+To help product owners perform much needed user testing I am offering a **simple**, **low cost**, and **high value** way to get some feedback about your app via a Remote User Testing Session, for **flat fee of $199**.
 
 In addition to overcoming the technical hurdles or recording such a testing session, being a developer with interface design experience I am uniquely positioned to give you very specific and actionable ways to improve your app. 
 
 ### What you get
 
 * **A 30-minute screen recording of the test session.**
-	* You’ll see my face and the screen of the mobile device. 
-	* I can test with both iOS and Android, as well as a specific browser of your choice.
-	* The recording is delivered in 48 hours or less from the time of payment.
-* **A 30-minute follow up video chat.**
-	* Schedule a time that fits your needs.
-	* Ask questions about my review.
-	* Talk through ideas that are in-development.
+* You’ll see my face and the screen. 
+* I can test with iOS, Android or a specific browser of your choice.
+* The recording is delivered in 48 hours or less from the time of payment.
 
 ### How it works
 
-1. Fill out a form with basic info about your app and what you want tested. 
-2. Pay the $99 flat fee via an online invoice that will be emailed to you.
+1. Answer an email with basic info about your app and what you want tested. 
+2. Pay the $199 flat fee via an online invoice that will be emailed to you.
 3. Access and download the recording of your session 48 hours after payment.
-4. Use a provided calendar link to setup a 30 minute followup meeting.
-
-## [Get started with your app user testing session!](https://zorn.typeform.com/to/GALgTKaA)
 
 ## Testimonials
 
@@ -79,12 +70,10 @@ Since the reviews I do for paying clients are confidential I did a sample review
 
 {{< vimeo 451294841 >}}
 
-## Questions
+## Get Started / Questions?
 
-Shoot me [an email](mailto:zorn@zornlabs.com) or [tweet](https://twitter.com/zorn).
+Shoot me [an email](mailto:zorn@zornlabs.com) or [tweet](https://twitter.com/zorn) and we can get started.
 
 ## Resources
 
 If you want to get started doing user testing yourself I highly recommend [Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems](https://amzn.to/34zB2Ap) by Steve Krug.
-
-## [Get started with your app user testing session!](https://zorn.typeform.com/to/GALgTKaA)
