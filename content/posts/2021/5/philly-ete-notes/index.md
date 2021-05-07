@@ -1,7 +1,7 @@
 ---
 title: "Philly ETE Notes"
 date: 2021-05-07T09:33:26-04:00
-description: something tweet like
+description: I find ETE to be a great place to hear about fresh tech things outside the echo chamber of my day to day work. This year's event was no exception.
 ---
 
 This week I attended the [Emerging Technologies For The Enterprise 2021](https://2021.phillyemergingtech.com/) conference online. Normally hosted in Old City Philadelphia, I've been a long time attendee of the show. 
