@@ -6,6 +6,11 @@ layout: onepage
 
 The following is a list of events and conferences I've spoken at or attended in recent years. If you have a speaking opportunity that might be a good fit, [let me know](/contact).
 
+## 2021
+
+* Attendee: [Philly Emerging Technologies for the Enterprise 2021](https://2021.phillyemergingtech.com/), May 4-6, Online
+* Attendee: [Code BEAM V America](https://codesync.global/conferences/code-beam-v-america-2021/), March 10-12, Online
+
 ## 2020
 
 * Attendee: [BarCampPhilly](https://twitter.com/BarCampPhilly), December 5, 2020, Online
