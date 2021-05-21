@@ -6,7 +6,7 @@ description: Having well-thought-out and excessively reenforced values are an ex
 
 Over the last year I've gained a much higher appreciation for the proper documentation of a company's values. When I was younger I was much more carefree about company values or even the company mission statement, but lately I find having well-thought-out and excessively reenforced values are an extremely helpful tool to help shape and align the inevitable hard discussions and decisions that need to be made within an organization.
 
-In part I think this new perspective has been fueled through the company I subcontract through, [Test Double](https://testdouble.com/agency), which does an excellent job of consistently referencing and referring to their own core values when discussing decisions, designing systems, hiring new employees or sharing praise.
+In part I think this new perspective has been fueled through the company I subcontract through, [Test Double](https://testdouble.com/agency), which does an excellent job of consistently referencing and referring to their own core values when discussing decisions, designing systems, [hiring new employees](https://blog.testdouble.com/posts/2021-05-17-why-our-hiring-process-is-focused-on-value-alignment/) or sharing praise.
 
 The other big factor of course is the continued increase in social awareness around racism, injustice, and inequality. It feels great that there is some momentum being made here (noting the long road ahead of course). All this activity has many, including myself, taking stock in what they value and how our actions align with those values. 
 
