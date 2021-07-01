@@ -6,7 +6,9 @@ description: something tweet like
 
 With some well earned [extended summer downtime](/posts/2021/6/summer-plans/) underway I once again have a more flexible schedule and want to promote my open office hours!
 
-Open office hours for me is a great way to give back to the community and hear what people are excited about and working on. Noting too formal, just coffee over a Zoom video chat. Recommend discussion topics might include:
+Open office hours is a great way for me to give back to the community and hopefully help people explore a problem. I love hearing what people are excited about and working on. Noting too formal, just coffee over a Zoom video chat.
+
+Recommend discussion topics might include:
 
 * Code questions about Elixir, Phoenix or Ecto
 * Software testing strategies
