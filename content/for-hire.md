@@ -7,11 +7,7 @@ images:
   - images/zorn_square.png
 ---
 
-I make a living through a combination of personal projects and consulting. 
-
-I am a senior developer who can help you mature team coding practices, design products and improve customer experiences.
-
-I enjoying mentoring and teaching, directly with people one-on-one or through larger teams.
+I make a living through a combination of personal projects and consulting. As a senior developer I can help you mature your team's coding practices, design and prototype new web applications or improve customer experiences through deep, developer-aware quality assurance reviews.
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
@@ -19,19 +15,15 @@ I enjoying mentoring and teaching, directly with people one-on-one or through la
 
 ### Elixir / Phoenix Mentoring and Development
 
-[Elixir](https://elixir-lang.org/) is a dynamic, functional language designed for building scalable and maintainable applications. Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems.
+I've been working with [Elixir](https://elixir-lang.org) and [Phoenix](https://www.phoenixframework.org) since 2017 and find them both incredibly enjoyable and productive tools. In addition to my own side projects, I have helped small startups as well as larger corporate companies get the most out of Elixir.
 
-[Phoenix](https://www.phoenixframework.org/) is a web framework to build rich, interactive web applications quickly, with less code and fewer moving parts. You can use Phoenix to craft APIs, HTML5 apps and more, for fun or at scale. 
+One of the best roles for me is to join your team and help support full time employees through code review and mentorship while filling in the gaps with dedicated coding work. 
 
-I've been working with Elixir and Phoenix since 2017 and find them both enjoyable and productive. In addition to my own [projects](https://guildflow.com), I've helped small startups as well as large consumer facing websites use Elixir and Phoenix to great success.
-
-One of the best roles for me is to join a team and help support full time employees with code review and mentorship while filling in the gaps with dedicated coding work. 
-
-I can also execute and assemble dedicated teams for short term engagements.
+I can personally execute smaller projects by myself or help assemble a small dedicated teams for more complex endeavors.
 
 ### Remote User Testing Sessions
 
-A developer-focused, [Remote User Testing Session](/user-testing/) of your mobile app or website, for $199 
+A developer-focused, [Remote User Testing Session](/user-testing/) of your mobile app or website, for $299 
 
 This is a productized-service I started offering in 2020. Since I have a unique skill for identifying user experience issues along with the developer background to address them I can provide a lot of value to a project via a quick testing session. [More info.](/user-testing/)
 
@@ -74,8 +66,8 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate can vary anywhere in the $125-200/hr range depending on the project complexities and the timelines required. Discounts are available for prepayment.  
+My rate can vary anywhere in the $150-250/hr range depending on the project complexities and the timelines required.
 
-I prefer to invoice every 2 weeks with 15 days NET.
+I invoice in half or full day increments every 2 weeks with 15 days NET. When dedicating my attention to a full time engagement that usually means 4 days of billable time per week with some allowances for timely incidents or downtime issues.
 
 I consult under the company name **Zorn Labs LLC** and checks should be made payable to that name. 

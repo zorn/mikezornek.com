@@ -1,13 +1,13 @@
 ---
 title: Affordable Remote Mobile App User Testing
 sectionHighlight: For Hire
-description: $199 developer-focused user testing session of your mobile app or website.
+description: $299 developer-focused user testing session of your mobile app or website.
 images:
   - images/user-testing-thumb.jpeg
 layout: onepage
 ---
 
-# A developer-focused, Remote User Testing Session of your mobile app or website, for $199
+# A developer-focused, Remote User Testing Session of your mobile app or website, for $299
 
 ## What is user testing?
 
@@ -21,24 +21,24 @@ In general, it is a good idea to regularly perform user testing to challenge ass
 
 ## The current challenge
 
-Right now it is much harder to run these user tests, specifically for mobile apps.
+Right now it is much harder to run these user tests.
 
 * People are avoiding unnecessary travel.
 * People don’t want to stand next to or talk with strangers.
 * People don’t want to handle other people’s phones.
-* Many people are not comfortable screen sharing their iPhone or Android screens.
+* Many people are unsure how to screen share or record their iPhone or Android screens.
 
 ## The pitch
 
-A developer-focused, Remote User Testing Session of your mobile app or website for $199.
+A developer-focused, Remote User Testing Session of your mobile app or website for $299.
 
 <p><img src="/images/zorn_square.png" class="avatar" /></p>
 
 Hi! My name is Mike Zornek, I am a developer who does both coding and user experience design work. I’ve been building mobile apps and websites for over 20 years.
 
-To help product owners perform much needed user testing I am offering a **simple**, **low cost**, and **high value** way to get some feedback about your app via a Remote User Testing Session, for **flat fee of $199**.
+To help product owners perform much needed user testing I am offering a **simple**, **low cost**, and **high value** way to get actionable feedback about your app via a Remote User Testing Session, for **flat fee of $299**.
 
-In addition to overcoming the technical hurdles or recording such a testing session, being a developer with interface design experience I am uniquely positioned to give you very specific and actionable ways to improve your app. 
+In addition to overcoming the technical hurdles or recording such a testing session, being a developer with interface design experience I am uniquely positioned to give you very specific ways to improve your app. 
 
 ### What you get
 
@@ -50,8 +50,8 @@ In addition to overcoming the technical hurdles or recording such a testing sess
 ### How it works
 
 1. Answer an email with basic info about your app and what you want tested. 
-2. Pay the $199 flat fee via an online invoice that will be emailed to you.
-3. Access and download the recording of your session 48 hours after payment.
+2. Pay the $299 flat fee via an online invoice that will be emailed to you.
+3. Access and download the recording of your session (~48 hours after payment).
 
 ## Testimonials
 
