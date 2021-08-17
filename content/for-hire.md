@@ -55,14 +55,12 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 [More background and testimonials on LinkedIn.](https://www.linkedin.com/in/mikezornek/)
 
-## Core Values
+## [Core Values](/values/)
 
-* I believe in iterative software development.
-* I believe it is important to ship software as soon as possible, even though the early versions you'll ship will be miles away from the ultimate vision.
-* I believe the most important lessons learned are from the users of your product and the sooner you get the product in their hands the sooner you will know how it needs to evolve to solve their problems.
-* I believe in tools that help us get stable solutions to users on a timely basis, including automation, continuous integration, code review and testing.
-* I believe for a project to be successful all product owners need to be actively involved.
-* I believe in regular user testing and observation, particularly when it comes to mocking up new behaviors before spending time coding up actual solutions.
+* A People-first Mindset to Business
+* Continuos Improvement
+* Empowering Users
+* Meaningful Work
 
 ## Rate
 

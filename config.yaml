@@ -49,8 +49,8 @@ menu:
     - name: For Hire
       url: /for-hire/
       weight: 40
-    - name: Talks
-      url: /talks/
+    - name: Values
+      url: /values/
       weight: 50
     - name: Follow
       url: /follow/
