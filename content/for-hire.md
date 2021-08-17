@@ -58,7 +58,7 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 ## [Core Values](/values/)
 
 * A People-first Mindset to Business
-* Continuos Improvement
+* Continuous Improvement
 * Empowering Users
 * Meaningful Work
 

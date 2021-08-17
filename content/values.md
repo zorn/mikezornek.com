@@ -15,9 +15,9 @@ The primary goal of an ideal business should be to **provide a long-term, welcom
 
 Related blog post: [The Purpose of a Business is People](/posts/2021/8/people-first/)
 
-## Continuos Improvement
+## Continuous Improvement
 
-Continuos Improvement is a mindset that acknowledges an ever-present and mutating **lack of knowledge** alongside a **mindful** and **intentional** path to become better. Continuos Improvement takes a lot of energy and grit over the long haul. I try to embrace Continuos Improvement through:
+Continuous Improvement is a mindset that acknowledges an ever-present and mutating **lack of knowledge** alongside a **mindful** and **intentional** path to become better. Continuous Improvement takes a lot of energy and grit over the long haul. I try to embrace Continuous Improvement through:
 
 * **Life-long Learning**
   * Dedicated reading time; regular book clubs.
