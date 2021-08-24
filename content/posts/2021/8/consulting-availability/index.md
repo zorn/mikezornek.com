@@ -6,7 +6,7 @@ description: My summer vacation is coming to a close and I'm am once again looki
 
 My summer vacation is coming to a close and I'm am once again looking for my next consulting project.
 
-An ideal project would involve a health mix of:
+An ideal project would involve a healthy mix of:
 
 * Elixir/Phoenix programming
 * Product and user interface design
