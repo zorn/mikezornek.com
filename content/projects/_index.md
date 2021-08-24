@@ -6,9 +6,9 @@ layout: onepage
 
 # Active Personal Projects
 
-## [Phoenix by Example](https://twitter.com/phoenixexamples)
+## [ElixirFocus](https://elixirfocus.com)
 
-Phoenix by Example provides example applications that help frame educational discussions around [Elixir](https://elixir-lang.org/) and the [Phoenix framework](https://phoenixframework.org/).
+ElixirFocus provides educational content for Elixir developers looking to improve their coding skills.
 
 ## [Guildflow](/projects/guildflow/) 
 

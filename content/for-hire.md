@@ -64,7 +64,7 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate can vary anywhere in the $150-250/hr range depending on the project complexities and the timelines required.
+My rate can vary anywhere in the $150-200/hr range depending on the project complexities and the timelines required.
 
 I invoice in half or full day increments every 2 weeks with 15 days NET. When dedicating my attention to a full time engagement that usually means 4 days of billable time per week with some allowances for timely incidents or downtime issues.
 
