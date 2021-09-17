@@ -3,7 +3,7 @@ title: "Putting Zoom in Quarantine"
 date: 2020-04-09T16:03:22-04:00
 ---
 
-I've already blogged about my [interest in finding a Zoom alternative](http://mikezornek.com/posts/2020/3/zoom-google-hangout-alternatives/) for my own [groups](https://www.meetup.com/Philly-Elixir-Meetup/) and [meetings](http://mikezornek.com/posts/2020/4/open-office-hours/) but sadly it's not a platform I can completely shun since I have personal connections that still use it heavily.
+I've already blogged about my [interest in finding a Zoom alternative](http://mikezornek.com/posts/2020/3/zoom-google-hangout-alternatives/) for my own [groups](https://phillyelixir.guildflow.com/) and [meetings](http://mikezornek.com/posts/2020/4/open-office-hours/) but sadly it's not a platform I can completely shun since I have personal connections that still use it heavily.
 
 First a small update on my alternatives...
 

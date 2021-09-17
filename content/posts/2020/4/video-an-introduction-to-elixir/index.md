@@ -3,7 +3,7 @@ title: "Video: An Introduction to Elixir"
 date: 2020-04-14T08:46:05-04:00
 ---
 
-This talk was originally presented at the [Philly Elixir Group](https://www.meetup.com/Philly-Elixir-Meetup/) April meeting.
+This talk was originally presented at the [Philly Elixir Group](https://phillyelixir.guildflow.com/) April meeting.
 
 Covers the basics of the language, what it can be used for and why it's particularly helpful for certain situations. A great talk for people new to or curious about Elixir.
 

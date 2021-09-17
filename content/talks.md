@@ -20,10 +20,10 @@ The following is a list of events and conferences I've spoken at or attended in 
 * Attendee: [Apple WWDC](https://developer.apple.com/wwdc20/), June 22-26, Online
 * Attendee: [DockerCon](https://www.thecube.net/dockercon-2020), May 21, Online
 * Attendee: [Philly Emerging Technologies for the Enterprise 2020](https://2020.phillyemergingtech.com/), April 14-15, Online
-* **Speaker:** [An Introduction to Elixir](/posts/2020/4/video-an-introduction-to-elixir/), [Philly Elixir Group](https://www.meetup.com/Philly-Elixir-Meetup/), April, Philadelphia, PA
+* **Speaker:** [An Introduction to Elixir](/posts/2020/4/video-an-introduction-to-elixir/), [Philly Elixir Group](https://phillyelixir.guildflow.com/), April, Philadelphia, PA
 * Attendee: [Emerging Technologies
 for the Enterprise](https://phillyemergingtech.com/), April 14-15, Philadelphia, PA
-* **Speaker:** [Working With Time Zones in an Elixir Phoenix App](/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/), [Philly Elixir Group](https://www.meetup.com/Philly-Elixir-Meetup/), February, Philadelphia, PA
+* **Speaker:** [Working With Time Zones in an Elixir Phoenix App](/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/), [Philly Elixir Group](https://phillyelixir.guildflow.com/), February, Philadelphia, PA
 
 
 ## 2019
@@ -32,10 +32,10 @@ for the Enterprise](https://phillyemergingtech.com/), April 14-15, Philadelphia,
 * Attendee: [iOSDevCampDC](https://www.iosdevcampdc.com/), August 9, McLean, VA
 * Attendee: [An Event Apart](https://aneventapart.com/event/washington-dc-2019), July 29–31, Arlington, VA
 * **Speaker:** Lightning Talk: Meet Ecto, a Elixir Database Wrapper. [PostgresConf Philly](https://postgresconf.org/conferences/Philly2019/schedule/events), July, Philadelphia, PA
-* **Speaker:** Using Triplex to Build a Multi-tenant Application on Top of Ecto, [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/), July, Philadelphia, PA
+* **Speaker:** Using Triplex to Build a Multi-tenant Application on Top of Ecto, [Philly Elixir Meetup](https://phillyelixir.guildflow.com/), July, Philadelphia, PA
 * **Speaker:** [Designing a Modern Swift Network Stack](/posts/2019/1/designing-a-modern-swift-network-stack-video-and-slides/), [Philly CocoaHeads](http://phillycocoa.org/), January, Philadelphia, PA
 * Attendee: [Emerging Technologies for the Enterprise](https://2019.phillyemergingtech.com/), April 23-24, Philadelphia, PA
-* **Speaker:** Deployment Concerns, [Philly Elixir Meetup](https://www.meetup.com/Philly-Elixir-Meetup/), May 6, Philadelphia, PA
+* **Speaker:** Deployment Concerns, [Philly Elixir Meetup](https://phillyelixir.guildflow.com/), May 6, Philadelphia, PA
 
 ## 2018
 

@@ -5,7 +5,7 @@ date: 2019-04-22T10:00:00-05:00
 
 After too long of a hiatus, the Philly Elixir Meetup group is rebooting!
 
-https://www.meetup.com/Philly-Elixir-Meetup/
+https://phillyelixir.guildflow.com/
 
 Elixir is a functional programming language that is popular for building web apps and services using a library called Phoenix as well as GraphQL APIs using Absinthe.
 
@@ -17,6 +17,6 @@ Monday, May 6, 2019
 PromptWorks  
 1211 Chestnut Street #400
 
-RSVP: https://www.meetup.com/Philly-Elixir-Meetup/events/260618591/
+RSVP: https://phillyelixir.guildflow.com/events/260618591/
 
 Even if you can't make this first meeting, please join the group as we'll have many more to come. If you have questions, [shoot me an email](/contact/). Thanks!

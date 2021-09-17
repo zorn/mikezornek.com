@@ -18,7 +18,7 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 * Took two meetings to discuss new work opportunities, one iOS and the other Elixir.
 * Worked on a project proposal for the iOS lead.
 * Attended two separate Mastermind meetings.
-* Had to postpone my Elixir meetup due to a family emergency. Have [rescheduled it](https://www.meetup.com/Philly-Elixir-Meetup/events/273173863/) for 2 weeks later.
+* Had to postpone my Elixir meetup due to a family emergency. Have [rescheduled it](https://phillyelixir.guildflow.com/events/273173863/) for 2 weeks later.
 * Attended [Philly CocoaHeads social hour](https://www.meetup.com/PhillyCocoaHeads/events/272969673/).
 * Got in a second writing session for the [meetup book](https://github.com/Guildflow/technical-meetup-book). Need to do better about making time for this.
 * Prepared September Tax Estimate payments. Will mail out tomorrow.
