@@ -14,5 +14,5 @@ To make a new post
 
     Understanding the Tradeoffs with Elixir Typespecs and Dializer
 
-    hugo new posts/2021/9/framework-first-thoughts/index.md
+    hugo new posts/2021/10/guildflow-shutdown/index.md
     hugo new posts/2020/12/december-2020-website-updates/index.md
