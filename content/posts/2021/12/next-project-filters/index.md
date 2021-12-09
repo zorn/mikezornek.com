@@ -1,7 +1,7 @@
 ---
 title: "Filters Shaping My Next Project Idea"
 date: 2021-12-09T16:00:00-05:00
-description: A collection of notes for what my next project should be or not be.
+description: A collection of notes for what my next project should be and not be.
 ---
 
 Taking inspiration from Derrick Reimer's post [Finding My Next Bootstrapped Business Idea] I've been working through a collection of notes for what my next project should be. Derrick quotes Jason Cohen as saying:
