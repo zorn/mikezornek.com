@@ -8,8 +8,9 @@ layout: onepage
 
 <div class="screenshots">
 
-[![Philly CoocaHeads Homepage](pc-home.png "")](pc-home.png)
-[![Philly CoocaHeads About](pc-about.png "")](pc-about.png)
+<a href="pc-home.png"><img src="pc-home.png" alt="Philly CocoaHeads Home Page" /></a>
+
+<a href="pc-about.png"><img src="pc-about.png" alt="Philly CocoaHeads About Page" /></a>
 
 </div>
 
