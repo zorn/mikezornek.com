@@ -10,20 +10,17 @@ layout: onepage
 
 ElixirFocus provides educational content for Elixir developers looking to improve their coding skills.
 
-## [Guildflow](/projects/guildflow/) 
-
-Guildflow empowers meetup organizers to create a modern group website that respects the data and privacy rights of its members.
-
-## [Philly Elixir Meetup](https://phillyelixir.guildflow.com/)
+## [Philly Elixir Meetup](https://www.meetup.com/PhillyElixir)
 
 A monthly meetup group to talk about Elixir and Erlang things. We meet on the 2nd Wednesday of the month, online. It's a small, friendly group. Stop by and say hi!
 
-## [MikeZornek.com](/projects/mikezornek-site/) 
+## [MikeZornek.com](/projects/mikezornek-site/)
 
 This very website is an open source project using tech including: Hugo, HTML/CSS, GitHub, CircleCI, Linode and Apache.
 
 # Past Personal Projects
 
+* [Guildflow](/projects/guildflow/)
 * [Android Book Club](https://androidbookclub.guildflow.com/)
 * [Philly CocoaHeads Website](/projects/philly-cocoaheads/) (Hugo static site)
 * [OwlDeck](/projects/owldeck/) (macOS app)
