@@ -13,5 +13,5 @@ Follow me and my projects:
 * [Personal GitHub Profile](https://github.com/zorn)
 * [ElixirFocus Twitter](https://twitter.com/elixirfocus)
 * [ElixirFocus GitHub](https://github.com/elixirfocus/)
-* [Philly Elixir Website](https://phillyelixir.guildflow.com/)
+* [Philly Elixir Website](https://www.meetup.com/PhillyElixir/)
 * [Philly Elixir Twitter](https://twitter.com/phillyelixir)

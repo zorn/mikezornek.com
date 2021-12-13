@@ -26,7 +26,7 @@ Once again I missed my weekly updates so today notes include all items since the
 * Continued reading [Domain-Driven Design](https://www.goodreads.com/book/show/179133.Domain_Driven_Design).
 * Finished reading [Practical Pair Programming](https://www.goodreads.com/book/show/54453243-practical-pair-programming)
   * Related, did a lot of pairing at work which is something I find beneficial, though very exhausting. Like exercise I feel like I need to keep pushing to get better at so it's not as draining.
-* Attended [Philly Elixir](https://phillyelixir.guildflow.com/).
+* Attended [Philly Elixir](https://www.meetup.com/PhillyElixir/).
 * Attended [Philly CocoaHeads](http://phillycocoa.org/).
 * Attended [BarCamp Philly](https://twitter.com/BarCampPhilly).
 * Setup a mesh of two new [Eero 6 Pro](https://eero.com/shop/eero-pro-6) wireless routers to replace the previous Apple Airport in the apartment. May have to update my Comcast internet to 1000MB down as a way to avoid the upcoming data cap and this would help me get the most of said additional bandwidth. This mesh should also help with some wifi connection issues I've seen in my bedroom. Finally, I am also using the service trial to block ads at the router level; will see how it works out.

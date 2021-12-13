@@ -12,7 +12,7 @@ To achieve this, group responsibilities need to be spread out, and for that you 
 
 ### The easiest way to find volunteers for your meetup group is to ask for help. Be specific and define meaningful, approachable tasks that are easy for group regulars to take on. Find small tasks, with low commitment levels to help spur momentum.
 
-Take for example, my own [Philly Elixir](https://phillyelixir.guildflow.com/) group, which is a small local group. Recently, I found myself with a meeting agenda where I'd be doing the majority of the talks and demos. Not wanting to hear my own voice all night I tapped the shoulder of a meeting regular and asked if they could take on the industry news section of the agenda, highlighting some of the recent improvements to Elixir in version 1.11. It was a small task that helped take some of the pressure off my shoulders and ultimately strengthen the group health by having more people involved.
+Take for example, my own [Philly Elixir](https://www.meetup.com/PhillyElixir/) group, which is a small local group. Recently, I found myself with a meeting agenda where I'd be doing the majority of the talks and demos. Not wanting to hear my own voice all night I tapped the shoulder of a meeting regular and asked if they could take on the industry news section of the agenda, highlighting some of the recent improvements to Elixir in version 1.11. It was a small task that helped take some of the pressure off my shoulders and ultimately strengthen the group health by having more people involved.
 
 Beyond talks and event presentations there are lots of small tasks you can define and use to help draw out volunteerism within you group. Some examples:
 
