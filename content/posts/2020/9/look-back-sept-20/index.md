@@ -6,7 +6,7 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Posted [a draft of the terms of service](https://github.com/Guildflow/policy/blob/main/terms-of-service.md) for feedback.
 * Made and [shared progress](https://twitter.com/guildflow/status/1306409113371455491) on the editable navigation but ran into some UI / Framework issues that are going to cause me to rethink how I design the UI.

@@ -6,7 +6,7 @@ description: A terse review of what I've been up to.
 
 Once again I missed my weekly updates so today notes include all items since the last check-in, [December 13th](/posts/2020/12/look-back-dec-13/). Additionally, I've been taking it easy during vacation so this list is lighter than usual. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Got some meaningful work done on group messaging, though still in-progress.
 * Spent a good while brainstorming goals for 2021. Will share when they are more concrete.

@@ -26,7 +26,7 @@ This didn't get much press at the time, but during WWDC the WebKit team listed [
 > * Geolocation Sensor (background geolocation)
 > * User Idle Detection
 
-Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use Firefox. I block ads. I encrypt my DNS lookups. I'm building [a privacy-focused tool for meetups.](https://guildflow.com/) And with all that said, this worries me.
+Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use Firefox. I block ads. I encrypt my DNS lookups. I'm building [a privacy-focused tool for meetups.](/projects/guildflow/) And with all that said, this worries me.
 
 Right now, many mobile developers would argue that for a rich user experience you need to build a native app and I would agree, at least I would as of today.
 

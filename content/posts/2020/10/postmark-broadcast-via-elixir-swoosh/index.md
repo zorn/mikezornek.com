@@ -8,7 +8,7 @@ images:
 
 In advance of adding some new broadcast email features to Guildflow I've built some additions to the Swoosh Elixir email library that allow one to use the new broadcast message stream feature of Postmark. Brief video tour and links below. Let me know if you have any questions.
 
-* [Guildflow](https://guildflow.com/)
+* [Guildflow](/projects/guildflow/)
 * [Postmark Message Streams](https://postmarkapp.com/message-streams)
 * [Swoosh: Compose, deliver and test your emails easily in Elixir](https://github.com/swoosh/swoosh)
 * [My Swoosh Pull Request](https://github.com/swoosh/swoosh/pull/533)

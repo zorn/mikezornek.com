@@ -10,7 +10,7 @@ images:
 
 A short talk about how recent user interviews have challenged some of my assumptions about how Guildflow accounts should work.
 
-* [Guildflow](https://guildflow.com/)
+* [Guildflow](/projects/guildflow/)
 * [Help Me with an Introduction to Your Meetup Organizer](http://mikezornek.com/posts/2020/8/help-me-with-an-introduction-to-your-meetup-organizer/)
 * [Book: The Mom Test](http://momtestbook.com/)
 * [Why use Discord for open communities](https://www.christopherbiscardi.com/why-use-discord-for-open-communities)

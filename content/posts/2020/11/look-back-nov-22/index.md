@@ -8,7 +8,7 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 
 I missed last week's update so consider this one a twofer.
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Wrote up pitch to define Messaging behaviors and started coding out some things.
 * Met with mastermind group. Reviewed recent marketing efforts. Between client work and the US holidays Guildflow is going to be pretty quite through the end of the year.

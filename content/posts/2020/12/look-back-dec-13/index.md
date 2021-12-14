@@ -6,7 +6,7 @@ description: A terse review of what I've been up to.
 
 Once again I missed my weekly updates so today notes include all items since the last check-in, [November 22nd](/posts/2020/11/look-back-nov-22/).
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Finished the marketing campaign on [Ethical Ads: Privacy-focused advertising for developers](https://www.ethicalads.io/) and while I didn't get the business results I was looking for I have nothing bad to say about the network. They were incredibly helpful. I may write up something more detailed soon™. Let me know if you have any specific questions.
 * Made some progress with my goal to better automate the deployment of Guildflow by getting more familiar with [Terraform](https://www.terraform.io/). Worked through a few tutorials and have started reading the [The Terraform Book](https://terraformbook.com/).

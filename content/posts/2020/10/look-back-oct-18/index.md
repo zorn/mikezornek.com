@@ -6,7 +6,7 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Got my pull request that adds Postmark broadcast email support to the Elixir swoosh library was merged in! [More info.](http://mikezornek.com/posts/2020/10/postmark-broadcast-via-elixir-swoosh/) 
 * Worked on a per-event Add to Calendar feature that lets you download an `.ics` file or create a new event in Google Calendar via a customize link. This was a feature request of a beta user so happy to see user needs starting to dictate feature development!

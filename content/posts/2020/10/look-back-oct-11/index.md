@@ -6,9 +6,9 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
-* Launched the [big marketing landing page update](https://guildflow.com/) with lots of new screenshots to tempt people to join the beta and upgrade their own meetups.
+* Launched the [big marketing landing page update](/projects/guildflow/) with lots of new screenshots to tempt people to join the beta and upgrade their own meetups.
 * Worked on a fork of swoosh (an Elixir email library). Specifically [my fork updates the Postmark adaptor](https://github.com/Guildflow/swoosh/commits/postmark-updates) so I can batch and send broadcast email with a custom message stream. Hope to post an official pull request and demo video soon™. Eventually Guildflow will use this adaptor to help group admins send broadcast messages (with email notifications) to the memberships at large.
 * Started some experiments with [EthicalAds](https://www.ethicalads.io/), which is a privacy-focused advertising network for developers from the folks at Read the Docs. The admin team there is very helpful and I hope this works out.
 

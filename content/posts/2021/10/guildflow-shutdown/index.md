@@ -6,7 +6,7 @@ description: I am shutting down Guildflow because after living in the meetup hea
 
 With a heavy heart, I share my decision to shut down my side project [Guildflow]. In the spirit of the blog, I thought I would document some project history and how I got here.
 
-[Guildflow]: https://guildflow.com
+[Guildflow]: /projects/guildflow/
 
 ## Project Background
 

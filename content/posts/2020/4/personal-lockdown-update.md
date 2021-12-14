@@ -38,7 +38,7 @@ I'm also trying to make the most of things and enjoy some regular video chats wi
 
 Day to day, I try to take walks with my sister to get some fresh air and exercise. I'm still doing well with my diet overall, though there have been a few more cheat days than I'd like.
 
-For work, I've been putting productive time into [Clubhouse](https://guildflow.com/) while also helping host a few [office hours](http://mikezornek.com/posts/2020/4/open-office-hours/) to help others. 
+For work, I've been putting productive time into [Clubhouse](/projects/guildflow/) while also helping host a few [office hours](http://mikezornek.com/posts/2020/4/open-office-hours/) to help others. 
 
 At night, I'm playing through Final Fantasy 7 Remake, Animal Crossing and MLB: The Show.
 

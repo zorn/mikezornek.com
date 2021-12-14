@@ -6,7 +6,7 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Pushed out a new build (see the [CHANGELOG](https://guildflow.com/changelog/)). Mostly bug fixes and security updates. Also re-added the ability to grant the admin role to other members. One big feature was close but not ready. Maybe next week.
 * Made some good progress on a new feature allowing custom pages and an editable navigation. Didn't make this week's deployment but looking good locally.

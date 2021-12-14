@@ -6,7 +6,7 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Finally finished the new page and editable navigation feature. 
 * Deployed version 0.11, which includes the above features and some minor fixes.

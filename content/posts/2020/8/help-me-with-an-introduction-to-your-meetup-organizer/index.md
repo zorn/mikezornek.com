@@ -5,7 +5,7 @@ description: I'm trying to schedule some more customer research (not selling any
 aliases: /posts/2020/8/introduction/
 ---
 
-It's an open secret that I've been working on [some new software to help meetups](https://guildflow.com/), specifically with an early focus towards technical meetups.
+It's an open secret that I've been working on [some new software to help meetups](/projects/guildflow/), specifically with an early focus towards technical meetups.
 
 While the foundation is coming together, there are still a ton of open questions and I'm trying to schedule some more customer research phone calls with other meetup organizers.
 

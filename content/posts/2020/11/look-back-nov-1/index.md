@@ -6,7 +6,7 @@ description: Lots of times it's easy to feel bad about missing deadlines but whe
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week. 
 
-## [Guildflow](https://guildflow.com/) 
+## [Guildflow](/projects/guildflow/) 
 
 * Launched multi-episode [sponsorship of the Release Notes podcast](https://twitter.com/release_notes/status/1323256941070700550).
 * Updated marketing site with gallery presentation of screenshots.

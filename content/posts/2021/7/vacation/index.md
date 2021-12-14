@@ -16,6 +16,6 @@ Yes, on Sunday I head down to the New Jersey shore for a week at the beach. It's
 
 Coding has been intentionally limited. About 10 hours or so in July so far. I suspect I will start to code more in August, hopefully moving some [ElixirFocus](https://elixirfocus.com/) projects forward, but am enjoying the break while I have it.
 
-I've been doing some reflecting on what I will be looking for in my next client project and also debating what I want to do with [Guildflow](https://guildflow.com/). I paused development/marketing of Guildflow in January with the idea I needed to observe a return to in-person events before investing more time and effort. I can't say we are there yet but there are other constraints that have me questioning what I want to do.
+I've been doing some reflecting on what I will be looking for in my next client project and also debating what I want to do with [Guildflow](/projects/guildflow/). I paused development/marketing of Guildflow in January with the idea I needed to observe a return to in-person events before investing more time and effort. I can't say we are there yet but there are other constraints that have me questioning what I want to do.
 
 Anyways, vacation is going great. I highly recommend it.
