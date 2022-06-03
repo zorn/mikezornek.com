@@ -1,7 +1,7 @@
 ---
-title: "Standup for June 1, 2022"
+title: "Standup for Wednesday, June 1, 2022"
 date: 2022-06-01T11:53:49-04:00
-description: Daily standup journal for June 1, 2022.
+description: Daily standup journal for Wednesday, June 1, 2022.
 images:
   - posts/2022/6/1-standup/frogs-win.png
 ---
