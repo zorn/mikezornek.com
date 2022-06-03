@@ -14,5 +14,6 @@ To make a new post
 
     Understanding the Tradeoffs with Elixir Typespecs and Dializer
 
-    hugo new posts/2022/3/quantum-jira/index.md
+    hugo new posts/2022/6/side-project-idea-audit/index.md
+    hugo new posts/2022/6/3-standup/index.md
     hugo new posts/2020/12/december-2020-website-updates/index.md
