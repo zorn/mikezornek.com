@@ -6,7 +6,7 @@ description: Daily standup journal for Wednesday, June 8, 2022.
 
 ❤️ **Feeling:** Another low energy coding day day. Just not feeling it.
 
-✅ **Accomplishments(Tuesday):** Bought my conference ticket and plane ticket for [ElixirConf 2022]. Going for the training day as well. Opted for the Instrumenting Elixir Applications class. Finished reading my [testing book], it was really good. Also bookmarked the [Domain-Driven Design in Practice course][course] of the same author. Seems relevant to my interests. Watched the Phillies [come back] (again) in the ninth to win it. They are on fire.
+✅ **Accomplishments(Tuesday):** Bought my conference ticket and plane ticket for [ElixirConf 2022]. Going for the training day as well. Opted for the Instrumenting Elixir Applications class. Finished reading my [testing book], it was really good. Also bookmarked the [Domain-Driven Design in Practice course][course] of the same author. Seems relevant to my interests. Watched the Phillies [come back][come back] (again) in the ninth to win it. They are on fire.
 
 [ElixirConf 2022]: https://2022.elixirconf.com/
 [testing book]: https://www.manning.com/books/unit-testing
