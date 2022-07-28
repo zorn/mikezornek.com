@@ -21,12 +21,6 @@ One of the best roles for me is to join your team and help support full time emp
 
 I can personally execute smaller projects by myself or help assemble a small dedicated teams for more complex endeavors.
 
-### Remote User Testing Sessions
-
-A developer-focused, [Remote User Testing Session](/user-testing/) of your mobile app or website, for $299 
-
-This is a productized-service I started offering in 2020. Since I have a unique skill for identifying user experience issues along with the developer background to address them I can provide a lot of value to a project via a quick testing session. [More info.](/user-testing/)
-
 ## Testimonials
 
 <blockquote class="testimonial" cite="https://www.linkedin.com/in/mikezornek/">
@@ -64,8 +58,8 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate can vary anywhere in the $150-200/hr range depending on the project complexities and the timelines required.
+My rate is around $200/hr depending on the project complexities and other perks like prepayment/extended-timeline.
 
-I invoice in half or full day increments every 2 weeks with 15 days NET. When dedicating my attention to a full time engagement that usually means 4 days of billable time per week with some allowances for timely incidents or downtime issues.
+I invoice every 2 weeks with 15 days NET. When dedicating my attention to a full time engagement that usually means 32 hours per week with some allowances for timely incidents or downtime issues.
 
 I consult under the company name **Zorn Labs LLC** and checks should be made payable to that name. 
