@@ -4,7 +4,7 @@ date: 2022-08-05T17:42:14-04:00
 description: Journal -- August 5, 2022
 ---
 
-Firday, August 5, 2022 -- Hello world, from my new laptop. I ordered this [two months ago](https://twitter.com/zorn/status/1532061941086097413) after an uncomfortable feeling that I was reliant on Mac hardware for my consulting income but the higher end model laptops of which I would want were becoming harder to order on short notice. Sure enough it took two months to get here but I am glad it has arrived.
+Friday, August 5, 2022 -- Hello world, from my new laptop. I ordered this [two months ago](https://twitter.com/zorn/status/1532061941086097413) after an uncomfortable feeling that I was reliant on Mac hardware for my consulting income but the higher end model laptops of which I would want were becoming harder to order on short notice. Sure enough it took two months to get here but I am glad it has arrived.
 
 I'm still getting it setup and might post some longer notes in the future. Early on I'm enjoying the hardware but [rolling my eyes](https://twitter.com/zorn/status/1555291096862937090) at the OS software. I was sticking to the older macOS 10.15 for a while since I did not have much interest in the UI changes of macOS 11 and then 12. I knew I'd have to update eventually but the new laptop kind of forces my hand.
 
