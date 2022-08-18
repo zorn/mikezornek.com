@@ -17,7 +17,7 @@ To be clear, I'm not selling anything, just asking a handful of questions helpin
 
 The call lasts about 30 minutes.
 
-## [Schedule a 30 minute video chat!](https://calendly.com/zorn/open-meeting)
+## [Schedule a 30 minute video chat!](https://savvycal.com/zorn/chat)
 If you are part of a technical meetup, please do me a favor and make an introduction to your group leadership. It would be extremely helpful to me. Here is a draft email you can start with:
 
 ```
@@ -35,7 +35,7 @@ http://mikezornek.com/posts/2020/8/introduction/
 
 Schedule a video chat (30m):
 
-https://calendly.com/zorn/open-meeting
+https://savvycal.com/zorn/chat
 
 Thanks.
 ```

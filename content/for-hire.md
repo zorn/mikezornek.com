@@ -2,24 +2,41 @@
 title: For Hire
 sectionHighlight: For Hire
 layout: onepage
-description: Freelance software developer / consultant. Focusing on Elixir, Phoenix, iOS, teaching and mentoring. 
+description: Freelance software developer/consultant. Focusing on Elixir, Phoenix, teaching, and mentoring. 
 images:
   - images/zorn_square.png
 ---
 
-I make a living through a combination of personal projects and consulting. As a senior developer I can help you mature your team's coding practices, design and prototype new web applications or improve customer experiences through deep, developer-aware quality assurance reviews.
+I make a living through a combination of personal projects and consulting. 
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
+**Update:** [Fall 2022 Consulting Availability](/posts/2022/8/consulting-availability/)
+
 ## Services
 
-### Elixir / Phoenix Mentoring and Development
+### Elixir / Phoenix: Mentoring and Development
 
-I've been working with [Elixir](https://elixir-lang.org) and [Phoenix](https://www.phoenixframework.org) since 2017 and find them both incredibly enjoyable and productive tools. In addition to my own side projects, I have helped small startups as well as larger corporate companies get the most out of Elixir.
+I've been working with [Elixir](https://elixir-lang.org) and [Phoenix](https://www.phoenixframework.org) since 2017. Programming in general since the mid-90s.
 
-One of the best roles for me is to join your team and help support full time employees through code review and mentorship while filling in the gaps with dedicated coding work. 
+As a senior developer I can help augment your team with a particular set of skills, including:
 
-I can personally execute smaller projects by myself or help assemble a small dedicated teams for more complex endeavors.
+* Mentoring junior developers (or those new to Elixir).
+* Helping the product team define features, identify edge cases, and break down work.
+* Support the development team with project documentation improvement goals.
+* Integrate with the design team as their developer advocate, helping transform idealized mockups into a component-based design system crafted for LiveView specifics.
+* Assist the QA team in identifying and resolving bugs. I am particularly good at breaking software.
+
+Working on open-source projects and tools is a notable plus. 
+
+Check out my most recent [consulting availability blog post](/posts/2022/8/consulting-availability/) for more info and examples of my work.
+
+## [Core Values](/values/)
+
+* A People-first Mindset to Business
+* Continuous Improvement
+* Empowering Users
+* Meaningful Work
 
 ## Testimonials
 
@@ -32,7 +49,7 @@ I can personally execute smaller projects by myself or help assemble a small ded
 </blockquote>
 
 <blockquote class="testimonial" cite="https://www.linkedin.com/in/mikezornek/">
-"Mike and I worked together at STRATIS in 2019/2020 where he helped my team gain momentum on our iOS SDK which is written in Swift.  Mike is an extremely thoughtful and thorough developer, and makes his experience obvious immediately by emphasizing proper unit testing and documentation. The domain at STRATIS is very deep, and often takes newcomers time to completely understand and become productive.  Mike was able to become productive in a very short period of time and was making good suggestions about the project from day one.  I would highly recommend Mike to any team in need of an experienced iOS developer and stellar software engineer."
+"Mike and I worked together at STRATIS in 2019/2020 where he helped my team gain momentum on our iOS SDK which is written in Swift. Mike is an extremely thoughtful and thorough developer, and makes his experience obvious immediately by emphasizing proper unit testing and documentation. The domain at STRATIS is very deep, and often takes newcomers time to completely understand and become productive. Mike was able to become productive in a very short period of time and was making good suggestions about the project from day one. I would highly recommend Mike to any team in need of an experienced iOS developer and stellar software engineer."
 <footer>~ Michael Matranga, 
 Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mikezornek/">via LinkedIn</a></footer>
 </blockquote>
@@ -49,17 +66,8 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 [More background and testimonials on LinkedIn.](https://www.linkedin.com/in/mikezornek/)
 
-## [Core Values](/values/)
-
-* A People-first Mindset to Business
-* Continuous Improvement
-* Empowering Users
-* Meaningful Work
-
 ## Rate
 
-My rate is around $200/hr depending on the project complexities and other perks like prepayment/extended-timeline.
+My rate is around $200 per hour, with discounts available depending on perks and prepayment.
 
-I invoice every 2 weeks with 15 days NET. When dedicating my attention to a full time engagement that usually means 32 hours per week with some allowances for timely incidents or downtime issues.
-
-I consult under the company name **Zorn Labs LLC** and checks should be made payable to that name. 
+I consult under the company name **Zorn Labs LLC**, and all checks should be made payable to that name. 

@@ -17,4 +17,4 @@ An ideal project would involve a healthy mix of:
 
 I am interested in both part time and full time engagement opportunities.
 
-If you have a project or referral please [shoot me an email](mailto:zorn@zornlabs.com) or [grab some time on my calendar](https://calendly.com/zorn/open-meeting). 
+If you have a project or referral please [shoot me an email](mailto:zorn@zornlabs.com) or [grab some time on my calendar](https://savvycal.com/zorn/chat). 

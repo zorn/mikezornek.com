@@ -21,4 +21,4 @@ Recommend discussion topics might include:
 
 Slots are 1 hours in length to allow for breathing room but need not go the full time.
 
-[Grab some time on the calendar!](https://calendly.com/zorn/open-office-hours)
+[Grab some time on the calendar!](ht

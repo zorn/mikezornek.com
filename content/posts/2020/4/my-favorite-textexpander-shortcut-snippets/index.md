@@ -18,7 +18,7 @@ My common shortcut snippets include:
 * Common Google Terms: `-ep` into `Elixir Phoenix`. 
 * Phone Numbers: `cphone` and `hphone` into the real phone numbers.
 * Support Email Replies -- when I did a lot of that thing. 
-* URL to my meeting calendar: `-meeting` into `https://calendly.com/zorn/open-meeting`
+* URL to my meeting calendar: `-meeting` into `https://savvycal.com/zorn/chat`
 * Common Xcode Comments: `-mark` into:
 
 ```

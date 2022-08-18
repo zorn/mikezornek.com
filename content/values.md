@@ -2,16 +2,16 @@
 title: Values
 sectionHighlight: Values
 layout: onepage
-description: The values I align with when it comes to my work in product design and software development.
+description: The values I align with regarding my work in product design and software development.
 images:
   - images/zorn_square.png
 ---
 
-The values I align with when it comes to my work in product design and software development.
+The values I align with regarding my work in product design and software development.
 
 ## A People-first Mindset to Business
 
-The primary goal of an ideal business should be to **provide a long-term, welcoming and supportive environment for its workers**. This environment is provided through relentless prioritizing of **customer value** but never at the cost of **worker satisfaction and well being**. The business entity's purpose is to organize that relationship and **provide stability**. While the business can choose to syphon profits out of the system, to reward its stakeholders, to do so too quickly or in too great of quantity will likely harm the balance and sustainability of the system.
+The primary goal of an ideal business should be to **provide a long-term, welcoming and supportive environment for its workers**. This environment is provided through relentless prioritizing of **customer value** but never at the cost of **worker satisfaction and well-being**. The business entity's purpose is to organize that relationship and **provide stability**. While the business can choose to siphon profits and reward stakeholders, to do so too quickly or in too great of quantity will likely harm the balance and sustainability of the system.
 
 Related blog post: [The Purpose of a Business is People](/posts/2021/8/people-first/)
 
@@ -38,16 +38,16 @@ Continuous Improvement is a mindset that acknowledges an ever-present and mutati
 
 ## Empowering Users
 
-When I talk about Empowering Users I mean to say I value, even at the risk to the viability of the business, giving users the tools and opportunities to find the right solution for them. I find it incredibly dysfunctional when a business utilizes its leverage in one area to push the solutions of another. I embrace Empowering Users through: 
+When I talk about Empowering Users, I mean to say I value, even at risk to the viability of the business, giving users the tools and opportunities to find the right solution for them. I find it incredibly dysfunctional when a business utilizes its leverage in one area to push the solutions of another. I embrace Empowering Users through: 
 
-* Creating systems that honor a user's rights to privacy and data ownership.
+* Creating systems that honor users' rights to privacy and data ownership.
 * Building accessible software.
 * Having relentless empathy for the user's needs, even during the enviable and stressful complexities of software development.
 
 ## Meaningful Work
 
-Meaningful work starts with projects that provide an observable good to the user and the world. From there Meaningful Work usually is shaped through the culture, rituals and processes of the team executing the project. To find Meaningful Work I look for environments that:
+Meaningful work starts with projects that provide an observable good to the user and the world. Meaningful work is then enhanced by the team's culture, rituals, and processes. To find Meaningful work, I look for environments that:
 
-* Have a long-term investment mindset, over short-term gains.
+* Have a long-term investment mindset over short-term gains.
 * Provide ownership and autonomy to its workers, allowing them to craft solutions.
 * Embrace trust and transparency, allowing for informed decisions.

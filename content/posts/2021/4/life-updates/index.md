@@ -38,4 +38,4 @@ All that said, like last summer with my Kotlin / Android Book Club, I would like
 
 ## Let's Do Coffee
 
-One of the things I miss is the happenstance catchups with people at IndyHall. If you want to have a virtual coffee with me, please [grab a slot on the calendar](https://calendly.com/zorn/open-meeting) and let me know how things are going with you.
+One of the things I miss is the happenstance catchups with people at IndyHall. If you want to have a virtual coffee with me, please [grab a slot on the calendar](https://savvycal.com/zorn/chat) and let me know how things are going with you.

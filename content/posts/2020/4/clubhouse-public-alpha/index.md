@@ -13,7 +13,7 @@ In my full time consulting work I push for "release small and fast" but personal
 
 > The platform is still in-development but available now as a Public Alpha. This means many features are incomplete and probably broken. Users should expect things to change, sometimes in breaking ways, and know the site still lacks production-acceptable backup and export systems.
 
-The real focus of this release is getting feedback. I'm asking friends, peers and anyone interested in the goals of the project to lend me their time for some online user testing. If you would like to donate your time, please consider [scheduling some time](https://calendly.com/zorn/open-meeting) on my office hours calendar.
+The real focus of this release is getting feedback. I'm asking friends, peers and anyone interested in the goals of the project to lend me their time for some online user testing. If you would like to donate your time, please consider [scheduling some time](https://savvycal.com/zorn/chat) on my office hours calendar.
 
 From this point on I plan to do regular updates. You can follow along via the Clubhouse Hosting [Micro.Blog](https://micro.blog/guildflow) or [twitter](https://twitter.com/guildflow) accounts as well as consider signing up to the mailing list from [the front page](/projects/guildflow/).
 

@@ -28,4 +28,4 @@ The basic plan is to take off all of July and August. I'll be going down the sho
 * Get more familiar with [event source / CQRQ programming patterns](https://github.com/slashdotdash/awesome-elixir-cqrs) Hoping to land an Elixir project in this style in the fall.
 * Read and work through a Rust/WebAssembly course/book; mostly for curiosity alongside my goal of learning a new programming language each year.
 
-Having the time off, I'm also down for more coffee chats. If you want to grab some time, check out [my calendar](https://calendly.com/zorn/open-meeting).
+Having the time off, I'm also down for more coffee chats. If you want to grab some time, check out [my calendar](https://savvycal.com/zorn/chat).

@@ -75,4 +75,4 @@ There is no time crunch to pick a new idea, but it is something I need to keep w
 
 If you ever want to grab a virtual coffee and chat this over, [schedule some time on my calendar][calendar].
 
-[calendar]: https://calendly.com/zorn/open-meeting
+[calendar]: https://savvycal.com/zorn/chat
