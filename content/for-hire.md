@@ -11,7 +11,7 @@ I make a living through a combination of personal projects and consulting.
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
-**Update:** [Fall 2022 Consulting Availability](/posts/2022/8/consulting-availability/)
+**Update:** [Fall 2022 Consulting Availability](/posts/2022/8/elixir-consulting-availability/)
 
 ## Services
 
@@ -29,7 +29,7 @@ As a senior developer I can help augment your team with a particular set of skil
 
 Working on open-source projects and tools is a notable plus. 
 
-Check out my most recent [consulting availability blog post](/posts/2022/8/consulting-availability/) for more info and examples of my work.
+Check out my most recent [consulting availability blog post](/posts/2022/8/elixir-consulting-availability/) for more info and examples of my work.
 
 ## [Core Values](/values/)
 
