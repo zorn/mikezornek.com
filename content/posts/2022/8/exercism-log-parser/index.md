@@ -8,4 +8,4 @@ This one went badly and took forever. I am awful with regular expressions and th
 
 In today's Exercism Elixir Track video, we ATTEMPT to learn about Regular Expressions while completing the Log Parser exercise.
 
-{{< youtube OBrJmmbnzKA >}}
+{{< youtube Wstpqt9SsSw >}}
