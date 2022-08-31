@@ -1,7 +1,7 @@
 ---
 title: "ElixirConf Talks of Interest"
 date: 2022-08-29T16:38:56-04:00
-description: something tweet like
+description: I'm attending ElixirConf this week, and in preparation, I looked over the session schedule to see what talks are of interest to me. I figured I'd share my notes in case anyone is curious about what's on my mind.
 ---
 
 I'm attending ElixirConf this week, and in preparation, I looked over the session schedule to see what talks are of interest to me. I figured I'd share my notes in case anyone is curious about what's on my mind. If you are also in attendance, [please say hi](https://twitter.com/zorn/status/1563965125278765060).
