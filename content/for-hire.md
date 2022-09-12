@@ -68,6 +68,6 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate is around $200 per hour, with discounts available depending on perks and prepayment.
+My rate is around $160-200 per hour, with discounts available depending on perks and prepayment.
 
 I consult under the company name **Zorn Labs LLC**, and all checks should be made payable to that name. 

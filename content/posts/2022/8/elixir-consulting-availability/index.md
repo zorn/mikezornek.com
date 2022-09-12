@@ -1,12 +1,12 @@
 ---
 title: "Fall 2022 Elixir Consulting Availability"
 date: 2022-08-18T12:46:41-04:00
-description: I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $200/hour, with discounts available for perks or prepayment.
+description: I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $160-200/hour, with discounts available for perks or prepayment.
 ---
 
 My summer vacation is over, and I am looking for my next consulting project.
 
-I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $200/hour, with discounts available for perks or prepayment.
+I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $160-200/hour, with discounts available for perks or prepayment.
 
 I am a senior developer and can help augment your team with a particular set of skills, including:
 
