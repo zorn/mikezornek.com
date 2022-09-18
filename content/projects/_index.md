@@ -37,7 +37,7 @@ This very website is an open source project using tech including: Hugo, HTML/CSS
 # Past Personal Projects
 
 * [Guildflow](/projects/guildflow/)
-* [Android Book Club](https://androidbookclub.guildflow.com/)
+* [Android Book Club](https://mikezornek.com/posts/2020/6/an-android-book-club-for-ios-developers/)
 * [Philly CocoaHeads Website](/projects/philly-cocoaheads/) (Hugo static site)
 * [OwlDeck](/projects/owldeck/) (macOS app)
 * [Shindig](/projects/shindig/) (Rails, iOS, Android, Web)
