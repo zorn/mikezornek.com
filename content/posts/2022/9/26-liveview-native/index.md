@@ -146,6 +146,10 @@ PS: I hope people don't take my positioning concerns about the project as a pers
 
 ## Random Leftover Draft Notes
 
+I recorded a companion video walking through some of the code:
+
+{{< youtube 2GXh9hP-_WU >}}
+
 * One company that comes to mind for this sort of thing is [Sketch](https://www.sketch.com). They build a native Mac experience AND lean on websockets with an Elixir backend to enable a real-time collaborative experience. They do not use LiveView but do benefit from the BEAM.
 * I was disappointed with Xcode that when I copied/pasted Swift code from the tutorial into Xcode, it did not run a code formatter on save. My friends say you can configure plugins to help with that, but wow, I'm bummed that it hasn't been defaulted by Xcode/Apple yet.
 * When composing SwiftUI templates in a `heex` file, we intentionally use things like `phx-click`, which make sense given the goals of the project. Still, I can't help but note that when I was a mobile app developer, most frameworks took pride in using terms like "touch" and "tap," so it can feel odd to see "click" in this space. Seeing people say "click" was always a smell that something did not belong. Like when people say `Iphone` or `xCode`.
