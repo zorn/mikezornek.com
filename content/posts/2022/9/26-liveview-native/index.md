@@ -1,7 +1,7 @@
 ---
 title: "Some Early Thoughts on LiveView Native"
 date: 2022-09-26T08:00:00-04:00
-description: 
+description: LiveView Native is an interesting project with a unique take on the multi-platform framework problem space. I have doubts it can overcome the "lets LiveView people do mobile without knowing mobile" shtick, but I am happy to be proven wrong.
 images:
   - posts/2022/9/26-liveview-native/hot-take.jpg
 ---
