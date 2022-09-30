@@ -2,7 +2,7 @@
 title: "The Importance of Side Project Tiny Tickets"
 date: 2022-09-30T14:12:39-04:00
 description: Deep work programming sessions are hard to come by. Find tiny ways to move your side project forward during the cracks of life.
-- images:
+images:
   - posts/2022/9/side-project-tiny-tickets/tickets.jpg
 ---
 
