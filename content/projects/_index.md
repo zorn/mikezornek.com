@@ -6,12 +6,6 @@ layout: onepage
 
 # Active Personal Projects
 
-## Elixir Exercism Videos
-
-[Exercism](https://exercism.org) is a website that helps people learn different programming languages through a series of coding exercises. They have a great [Elixir track](https://exercism.org/tracks/elixir) and I've been recoding myself working through it.
-
-<https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O>
-
 ## Franklin Blog Engine
 
 Right now, this site is built using Hugo. I have aspirations of doing something more complex and so as an experiment I've started building a new blog engine. It is primarly a place for me to experiment with some CQRS / event-sourcing patterns and is still very early on. If you want to learn more check out my [Side Project Idea Audit](https://mikezornek.com/posts/2022/6/side-project-idea-audit/) blog post or the [repo](https://github.com/zorn/franklin) and [project](https://github.com/users/zorn/projects/1/views/1) directly.
@@ -36,6 +30,7 @@ This very website is an open source project using tech including: Hugo, HTML/CSS
 
 # Past Personal Projects
 
+* Elixir Exercism Videos [Launch Post](/posts/2022/8/exercism-elixir-cohort/), [Completion Post](/posts/2022/10/completing-exercism-project/), [Video Playlist](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
 * [Guildflow](/projects/guildflow/)
 * [Android Book Club](https://mikezornek.com/posts/2020/6/an-android-book-club-for-ios-developers/)
 * [Philly CocoaHeads Website](/projects/philly-cocoaheads/) (Hugo static site)
