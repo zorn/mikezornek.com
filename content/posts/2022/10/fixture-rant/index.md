@@ -32,6 +32,6 @@ Be extremely mindful of the API boundaries of your code. **Test the boundaries a
 
 Using real domain contexts to populate the world state can sometimes be slower. My suggestion is to swallow this slowness up front and only fallback to direct fixture injection when the testing performance needs are a good tradeoff for the cost of coupling. Since coupling will hamper refactoring, I consider that and HUGE tradeoff, and so it would take a significant speed difference to make me reconsider.
 
-For more on this concern, check out Saša Jurić's Clarity talk. He talks of helper methods he usually makes, like `register!/1 at minute 38.
+For more on this concern, check out Saša Jurić's Clarity talk. He talks of helper methods he usually makes, like `register!/1` at minute 38.
 
 {{< youtube 6sNmJtoKDCo >}}
