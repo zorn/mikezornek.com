@@ -14,7 +14,7 @@ To make a new post
 
     Understanding the Tradeoffs with Elixir Typespecs and Dializer
 
-    hugo new posts/2022/10/advice-for-new-consultants/index.md
+    hugo new posts/2022/11/goals-of-estimates/index.md
     hugo new posts/2022/10/exercism-take-a-number-deluxe/index.md
-    hugo new posts/2022/10/elixir-book-club-testing-book/index.md
+    hugo new posts/2022/11/30-journal/index.md
     hugo new posts/2020/12/december-2020-website-updates/index.md

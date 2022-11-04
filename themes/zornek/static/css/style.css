@@ -1,10 +1,16 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #4A4A4A;
 }
 
@@ -16,15 +22,21 @@ blockquote {
     line-height: 24px;
 }
 
-ul {
+ul,
+ol {
     line-height: 24px;
+}
+
+ol li {
+    padding-bottom: 10px;
 }
 
 pre {
     padding: 0.75em;
 }
 
-pre, code {
+pre,
+code {
     font-size: 18px;
     line-height: 1.2;
 }
@@ -62,7 +74,7 @@ header {
     font-size: 48px;
     -webkit-text-fill-color: white;
     color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
     padding: 0.4em 0;
 }
 
