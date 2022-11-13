@@ -1,7 +1,7 @@
 ---
 title: "DNA is Memory"
 date: 2022-11-12T19:45:21-05:00
-description: A fun little quote from my current audio book.
+description: A fun little quote from my current audiobook.
 ---
 
 I've currently reading/listening to [We Are Legion (We Are Bob)](https://www.audible.com/pd/We-Are-Legion-We-Are-Bob-Audiobook/B01L082HJ2) on Audible. 
