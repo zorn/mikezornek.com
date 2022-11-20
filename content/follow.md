@@ -5,13 +5,16 @@ layout: onepage
 aliases: /feeds/
 ---
 
-Follow me and my projects:
+## RSS Feeds
 
-* [Personal Twitter](https://twitter.com/zorn)
-* [Personal Micro.blog](https://micro.blog/zorn) | [RSS](https://microblog.mikezornek.com/feed.xml)
-* [Personal YouTube](https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw) | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCZVgPg6CmFAA4dHyKklG0Nw)
+* [Mike Zornek.com RSS](https://mikezornek.com/index.xml)
+* [Mastodon @zorn@jawns.com RSS](https://jawns.club/@zorn.rss)
+* [Micro.blog @zorn RSS](https://microblog.mikezornek.com/feed.xml)
+* [Personal YouTube Channel RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCZVgPg6CmFAA4dHyKklG0Nw)
+
+## Platform Accounts
+
+* [Mastodon @zorn@jawns.com](https://jawns.club/@zorn)
+* [Micro.blog @zorn](https://micro.blog/zorn)
+* [Personal YouTube Channel](https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw)
 * [Personal GitHub Profile](https://github.com/zorn)
-* [ElixirFocus Twitter](https://twitter.com/elixirfocus)
-* [ElixirFocus GitHub](https://github.com/elixirfocus/)
-* [Philly Elixir Website](https://www.meetup.com/PhillyElixir/)
-* [Philly Elixir Twitter](https://twitter.com/phillyelixir)
