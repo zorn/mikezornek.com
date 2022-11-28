@@ -18,3 +18,4 @@ aliases: /feeds/
 * [Micro.blog @zorn](https://micro.blog/zorn)
 * [Personal YouTube Channel](https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw)
 * [Personal GitHub Profile](https://github.com/zorn)
+* [LinkedIn Profile](https://www.linkedin.com/in/mikezornek/)
