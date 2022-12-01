@@ -14,6 +14,10 @@ Right now, this site is built using Hugo. I have aspirations of doing something 
 
 ElixirClub is an outcome-oriented community that helps Elixir developers finish their side projects.
 
+## [Elixir Book Club](https://elixirbookclub.com/)
+
+We meet every two weeks and talk about our current book. I've been an active member for a few books where we've covered: Testing Elixir, Metaprogramming Elixir, Programming Phoenix LiveView, and Elixir in Action, Second Edition.
+
 ## [DockYard Academy](https://github.com/DockYard-Academy/beta_curriculum/)
 
 DockYard is a large Elixir agency and they are building a bootcamp to help train first time programmers in Elixir. I try to stop by classes once in a while to help be a teacher assistant.
