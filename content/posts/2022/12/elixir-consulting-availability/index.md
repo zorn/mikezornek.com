@@ -7,7 +7,7 @@ aliases: /posts/2022/8/elixir-consulting-availability/
 
 Looking ahead into the new year, I wanted to share my Elixir consulting availability.
 
-I want to contribute to an **Elixir**, **Phoenix**, or **LiveView** project. An ideal engagement is around **10-25 hours per week**; leaving time to maintain other active projects. Longer hour commitments will be considered for the right project fit.
+I want to contribute to an **Elixir**, **Phoenix**, or **LiveView** project. An ideal engagement is around **10-25 hours per week**; leaving time to maintain other active projects. Larger commitments will be considered for the right project fit.
 
 My rate is **$160-200/hour**, with discounts available for perks or prepayment.
 
