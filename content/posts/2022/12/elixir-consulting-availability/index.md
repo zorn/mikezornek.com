@@ -7,7 +7,7 @@ aliases: /posts/2022/8/elixir-consulting-availability/
 
 Looking ahead into the new year, I wanted to share my Elixir consulting availability.
 
-I want to contribute to an Elixir, Phoenix, or LiveView project. An ideal engagement is around 10-25 hours per week to maintain other active projects, though longer hours will be considered for the right project fit.
+I want to contribute to an **Elixir**, **Phoenix**, or **LiveView** project. An ideal engagement is around **10-25 hours per week**; leaving time to maintain other active projects. Longer hour commitments will be considered for the right project fit.
 
 My rate is **$160-200/hour**, with discounts available for perks or prepayment.
 
@@ -29,7 +29,7 @@ If you have a project or referral, please [shoot me an email](mailto:zorn@zornla
 
 Anyone considering hiring me will ask about my past Elixir projects. These span a mix of private contracts, personal projects, and non-personal branded blog posts. The following is an attempt to document and showcase some of my recent projects to spark consulting-related conversations. I've redacted some company names to keep the lawyers happy.
 
-In recent years I've contributed to three Elixir-based consulting projects:
+In recent years I've contributed to many Elixir-based consulting projects, including:
 
 ## (Active) NAME REDACTED: Healthcare-related Platform 
 
