@@ -11,7 +11,7 @@ I make a living through a combination of personal projects and consulting.
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
-**Update:** [Fall 2022 Consulting Availability](/posts/2022/8/elixir-consulting-availability/)
+**Update:** [Early 2023 Consulting Availability](/posts/2022/12/elixir-consulting-availability/)
 
 ## Services
 
@@ -29,7 +29,7 @@ As a senior developer I can help augment your team with a particular set of skil
 
 Working on open-source projects and tools is a notable plus. 
 
-Check out my most recent [consulting availability blog post](/posts/2022/8/elixir-consulting-availability/) for more info and examples of my work.
+Check out my most recent [consulting availability blog post](/posts/2022/12/elixir-consulting-availability/) for more info and examples of my work.
 
 ## [Core Values](/values/)
 
@@ -68,6 +68,6 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate is around $160-200 per hour, with discounts available depending on perks and prepayment.
+My rate is $160-200 per hour, with discounts available depending on perks and prepayment.
 
 I consult under the company name **Zorn Labs LLC**, and all checks should be made payable to that name. 

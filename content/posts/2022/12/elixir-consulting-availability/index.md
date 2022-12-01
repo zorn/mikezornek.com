@@ -1,14 +1,17 @@
 ---
-title: "Fall 2022 Elixir Consulting Availability"
-date: 2022-08-18T12:46:41-04:00
-description: I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $160-200/hour, with discounts available for perks or prepayment.
+title: "Early 2023 Elixir Consulting Availability"
+date: 2022-12-01T10:50:23-05:00
+description: I want to contribute to an Elixir, Phoenix, or LiveView project. An ideal engagement is around 10-25 hours per week.
+aliases: /posts/2022/8/elixir-consulting-availability/
 ---
 
-My summer vacation is over, and I am looking for my next consulting project.
+Looking ahead into the new year, I wanted to share my Elixir consulting availability.
 
-I want to contribute to an Elixir, Phoenix, or LiveView project and can commit 20 to 32 hours of development per week. My rate is $160-200/hour, with discounts available for perks or prepayment.
+I want to contribute to an Elixir, Phoenix, or LiveView project. An ideal engagement is around 10-25 hours per week to maintain other active projects, though longer hours will be considered for the right project fit.
 
-I am a senior developer and can help augment your team with a particular set of skills, including:
+My rate is **$160-200/hour**, with discounts available for perks or prepayment.
+
+I am a senior developer and can help augment your team with skills, including:
 
 * Mentoring junior developers (or those new to Elixir).
 * Helping the product team define features, identify edge cases, and break down work.
@@ -22,17 +25,15 @@ When evaluating a potential gig, I'll do my best during the introduction intervi
 
 If you have a project or referral, please [shoot me an email](mailto:zorn@zornlabs.com) or [grab some time on my calendar](https://savvycal.com/zorn/chat). 
 
-I'll also be attending ElixirConf US in Colorado (Aug 30-Sept 2) if you want to chat face to face.
-
 # Elixir Demo Reel
 
 Anyone considering hiring me will ask about my past Elixir projects. These span a mix of private contracts, personal projects, and non-personal branded blog posts. The following is an attempt to document and showcase some of my recent projects to spark consulting-related conversations. I've redacted some company names to keep the lawyers happy.
 
 In recent years I've contributed to three Elixir-based consulting projects:
 
-## [Roar For Good](https://www.roarforgood.com/): Hotel Security
+## (Active) NAME REDACTED: Healthcare-related Platform 
 
-Helped build internal Phoenix web applications to track equipment (Bluetooth waypoints, routers, etc.) across hotel installation sites. Participated in code design discussions within a team where we were all pretty new to Elixir. 
+For this project, I am the single tech lead managing a single individual contributor. In a part-time capacity, I am actively helping this project update some historic Elixir packages into their modern versions (eg: Oban, Phoenix, LiveView) while also addressing bug fixes and minor feature additions. A significant update is on the horizon, and I'm helping the company owners break down technical risks and document estimates.
 
 ## NAME REDACTED: Consumer Car Matchmaker
 
@@ -40,11 +41,15 @@ Part of a large team migrating a large Java codebase. As a member of the leads t
 
 ## NAME REDACTED: Text and Voice Communications Product
 
-As part of a medium-sized team, I helped to clean up some unwanted technical debt, refactoring many historic Ember pages to LiveView, allowing the full-timers to focus on new product developments. I worked in a manager-like role for the first half of the engagement. I would define work, answer design questions, craft and assign stories, pair with individual contributors, and do code reviews. After an unexpected need to take some family leave, I returned as an individual contributor, helping to complete the last of the Ember conversions, which involved advanced JavaScript integrations, file uploading, and CSV processing in a LiveView wizard-like experience.
+As part of a medium-sized team, I helped to clean up some unwanted technical debt, refactoring many historic Ember pages to LiveView, and allowing the full-timers to focus on new product developments. I worked in a manager-like role for the first half of the engagement. I would define work, answer design questions, craft and assign stories, pair with individual contributors, and do code reviews. After an unexpected need to take some family leave, I returned as an individual contributor, helping to complete the last of the Ember conversions, which involved advanced JavaScript integrations, file uploading, and CSV processing in a LiveView wizard-like experience.
+
+## [Roar For Good](https://www.roarforgood.com/): Hotel Security
+
+Helped build internal Phoenix web applications to track equipment (Bluetooth waypoints, routers, etc.) across hotel installation sites. Participated in code design discussions within a team where we were all pretty new to Elixir. 
 
 # Personal Demonstrations
 
-Client code is not open source and is hard to showcase. I have done some public/open source things I'll share below.
+Client code is not open source and is hard to showcase. I have done some public/open-source things I'll share below.
 
 ## Blog Post: Webhook Signature Matching
 
