@@ -6,6 +6,8 @@ description: ElixirClub is an outcome-oriented community that helps Elixir devel
 
 Today I am announcing a new project of mine taking shape. It's called ElixirClub.
 
+{{< youtube 6WvHGGqfggM >}}
+
 ElixirClub is an outcome-oriented community that **helps Elixir developers finish their side projects**.
 
 Working on a side project by yourself is **surrounded by risks**:
