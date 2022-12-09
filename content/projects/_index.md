@@ -10,7 +10,7 @@ layout: onepage
 
 Right now, this site is built using Hugo. I have aspirations of doing something more complex and so as an experiment I've started building a new blog engine. It is primarly a place for me to experiment with some CQRS / event-sourcing patterns and is still very early on. If you want to learn more check out my [Side Project Idea Audit](https://mikezornek.com/posts/2022/6/side-project-idea-audit/) blog post or the [repo](https://github.com/zorn/franklin) and [project](https://github.com/users/zorn/projects/1/views/1) directly.
 
-## [ElixirClub](https://mikezornek.com/posts/2022/11/elixir-club-intro/)
+## [ElixirClub](https://www.elixirclub.org)
 
 ElixirClub is an outcome-oriented community that helps Elixir developers finish their side projects.
 
