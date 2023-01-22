@@ -11,8 +11,6 @@ I make a living through a combination of personal projects and consulting.
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
-**Update:** [Early 2023 Consulting Availability](/posts/2022/12/elixir-consulting-availability/)
-
 ## Services
 
 ### Elixir / Phoenix: Mentoring and Development
