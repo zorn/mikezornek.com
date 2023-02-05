@@ -10,6 +10,8 @@ At a recent [Philly CocoaHeads](http://phillycocoa.org/) Side Project Saturday e
 
 For your amusement, a compiled list of hacker-culture movies to recommend to 'the kids'.
 
+Note: If you want to watch any of these, I suggest looking them up on [JustWatch](https://www.justwatch.com/), which can display what services you can use to stream, rent or buy.
+
 ## Must-Watch Movies
 
 Watch these right now.
