@@ -8,13 +8,9 @@ Sunday, January 22, 2023 -- First journal of the new year. Sorry, it took so lon
 
 ## Work
 
-Things are good. I recently picked up a new contract gig, helping to mature the GraphQL API for a company called [CollX]. 
+Things are good. I recently picked up a new contract gig, helping to mature the GraphQL API for [REDACTED]. 
 
-[CollX]: https://www.collx.app/
-
-> CollX (pronounced "collects") is the fastest way to figure out what your cards are worth. Snap photos of them and instantly get the current market price. Add them to your collection and track your overall portfolio value. You can even buy, sell, grade, and trade your cards with other collectors.
-
-I am friendly with its founders and technical team from other projects, and it feels like a really good fit. I'm anxious to get more production time with GraphQL and [Absinthe]. This project also uses the [Relay] pattern, so I'm working on getting more comfortable with that too.
+... it feels like a really good fit. I'm anxious to get more production time with GraphQL and [Absinthe]. This project also uses the [Relay] pattern, so I'm working on getting more comfortable with that too.
 
 [Absinthe]: https://github.com/absinthe-graphql/absinthe
 [Relay]: https://relay.dev/docs/
@@ -33,7 +29,7 @@ I need to spend some energy reaching out to the other members and try to spark m
 
 ## Franklin
 
-Via ElixirClub coworking sessions, I've made some small progress on Franklin. I've even started to get a bit of a mental nudge to push forward towards an actial release since there are aspects of my current blog deployment that are starting to show some concern. 
+Via ElixirClub coworking sessions, I've made some small progress on Franklin. I've even started to get a bit of a mental nudge to push forward towards an actual release since there are aspects of my current blog deployment that are starting to show some concern. 
 
 > I mainly speak of the recent [CircleCI security breach](https://circleci.com/blog/jan-4-2023-incident-report/) and the fact that resolving the needed secret rotations was more complex than I would have liked.
 
