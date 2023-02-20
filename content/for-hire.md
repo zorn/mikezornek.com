@@ -11,6 +11,8 @@ I make a living through a combination of personal projects and consulting.
 
 [Let's chat](mailto:zorn@zornlabs.com) and work on something together!
 
+**Update:** [Spring 2023 Consulting Availability](/posts/2023/2/elixir-consulting-availability/)
+
 ## Services
 
 ### Elixir / Phoenix: Mentoring and Development
@@ -66,6 +68,6 @@ Senior Software Engineer at STRATIS IoT <a href="https://www.linkedin.com/in/mik
 
 ## Rate
 
-My rate is $160-200 per hour, with discounts available depending on perks and prepayment.
+My rate is $150-200 per hour, with discounts available depending on perks and prepayment.
 
 I consult under the company name **Zorn Labs LLC**, and all checks should be made payable to that name. 
