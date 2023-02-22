@@ -1,7 +1,9 @@
 ---
 title: "Spring 2023 Elixir Consulting Availability"
 date: 2023-02-20T11:17:10-05:00
-description: 
+description: I am looking for my next consulting gig.
+images:
+    - /posts/2023/2/elixir-consulting-availability/job-hunt.jpeg
 aliases: 
     - /posts/2022/8/elixir-consulting-availability/
     - /posts/2022/12/elixir-consulting-availability/
