@@ -6,7 +6,7 @@ images:
   - posts/posts/2023/2/github-action-talk/github-actions.png
 ---
 
-I'm going to be doing a talk about GitHub Actions for ElixirClub: [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.elixirclub.org/c/topic-events/github-actions. 
+I'm going to be doing a talk about GitHub Actions for ElixirClub: [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.elixirclub.org/c/topic-events/github-actions). 
 
 The talk is free and open to the public. RSVP and join us on Zoom Wednesday, March 8th from 7:00 PM to 08:00 PM (EST).
 
