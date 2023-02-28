@@ -6,7 +6,7 @@ images:
   - posts/posts/2023/2/github-action-talk/github-actions.png
 ---
 
-I'm going to be doing a talk about GitHub Actions for ElixirClub: **Creating Your First Elixir/Phoenix CI Check with GitHub Actions**. 
+I'm going to be doing a talk about GitHub Actions for ElixirClub: [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.elixirclub.org/c/topic-events/github-actions. 
 
 The talk is free and open to the public. RSVP and join us on Zoom Wednesday, March 8th from 7:00 PM to 08:00 PM (EST).
 
@@ -14,4 +14,4 @@ The talk is free and open to the public. RSVP and join us on Zoom Wednesday, Mar
 > 
 > [GitHub Actions](https://docs.github.com/en/actions) enables you to build custom automations right within your GitHub repo. These automations can be used for Continuous Integration checks (verifying the app builds with no warnings, all the tests pass, etc), Continuous Deployment (package your app for release, execute the release, etc.), and many other creative workflows. The service is free for public repos and has a generous allocation for free-account private repos.
 
-### [Event Details](https://www.elixirclub.org/c/topic-events/github-actions)
+## [RSVP](https://www.elixirclub.org/c/topic-events/github-actions)
