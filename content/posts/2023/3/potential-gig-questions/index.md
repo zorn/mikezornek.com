@@ -1,7 +1,7 @@
 ---
 title: "Potential Consulting Client Questions"
 date: 2023-03-03T10:18:42-05:00
-description: A series of questions I ask prospective consulting clients and why I'm asking them.
+description: A series of questions I ask prospective consulting clients (most looking for help with Elixir programming projects) and why I'm asking them.
 ---
 
 There is a process that kicks off after I hear that a company is looking for help with their Elixir project. This process usually involves a series of emails and calls. During this process, the prospective client will have many questions for me. Some of these questions will be straightforward logistics: availability, costs, verification of technical skills, etc. Hopefully, they will also ask a bunch of questions to understand if and how I might be a good fit for the company's values, culture, and needs -- ideally filling a gap they have identified outside just of an additional set of Elixir hands. 
