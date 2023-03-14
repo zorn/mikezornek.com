@@ -10,6 +10,7 @@ Had too much fun asking ChatGPT to generate haiku poems and rap songs about prog
 
 ## Compose a rap song about how much programmers love the functional programming language Elixir.
 
+```
 Verse 1:  
 Listen up y'all, let me tell you 'bout a language that's dope  
 It's called Elixir, and it's more than just a little bit of hope  
@@ -51,5 +52,6 @@ So now you know why programmers love Elixir so much
 It's the language that's got the perfect touch  
 If you're not using it yet, you're missing out  
 Elixir's the future, it's what programming's all about.
+```
 
 ![Rabbit on stage](rapping.webp)
