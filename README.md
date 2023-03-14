@@ -17,5 +17,5 @@ To make a new post
     hugo new posts/2022/12/elixir-consulting-availability/index.md
     hugo new posts/2022/10/exercism-take-a-number-deluxe/index.md
     hugo new posts/2023/3/12-journal/index.md
-    hugo new posts/2023/3/potential-gig-questions/index.md
+    hugo new posts/2023/3/elixir-rap-song/index.md
     hugo new posts/2020/12/december-2020-website-updates/index.md
