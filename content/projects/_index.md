@@ -8,7 +8,9 @@ layout: onepage
 
 ## Franklin Blog Engine
 
-Right now, this site is built using Hugo. I have aspirations of doing something more complex and so as an experiment I've started building a new blog engine. It is primarly a place for me to experiment with some CQRS / event-sourcing patterns and is still very early on. If you want to learn more check out my [Side Project Idea Audit](https://mikezornek.com/posts/2022/6/side-project-idea-audit/) blog post or the [repo](https://github.com/zorn/franklin) and [project](https://github.com/users/zorn/projects/1/views/1) directly.
+Franklin is written in Elixir, Phoenix, and LiveView and is an intentionally over-engineered blog application (a future replacement for this Hugo-powered blog). It uses an event-sourced / CQRS core (via [Commanded](https://github.com/commanded/commanded)) alongside a modern component-based UI presentation. It aims to make even the simple things overly complex in the spirit of personal education toward these architecture decisions.
+
+Franklin is on GitHub via a [public code repo](https://github.com/zorn/franklin) and [project board](https://github.com/users/zorn/projects/1/views/5).
 
 ## [ElixirClub](https://www.elixirclub.org)
 
@@ -24,7 +26,7 @@ DockYard is a large Elixir agency and they are building a bootcamp to help train
 
 ## [Philly Elixir Meetup](https://www.meetup.com/PhillyElixir)
 
-A monthly meetup group to talk about Elixir and Erlang things. We meet on the 2nd Wednesday of the month, online. It's a small, friendly group. Stop by and say hi!
+A monthly social meetup group to talk about Elixir and Erlang things. We meet on the 2nd Wednesday of the month, online. It's a small, friendly group. Stop by and say hi!
 
 ## [MikeZornek.com](/projects/mikezornek-site/)
 
