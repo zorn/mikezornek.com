@@ -6,7 +6,7 @@ layout: onepage
 
 ## ProfitTrain
 
-ProfitTrain (formally Billable) was a time tracking and invoice tool for Mac OS X. While simple, it found an audience and was a very successful product for me. 
+ProfitTrain (formerly Billable) was a time tracking and invoice tool for Mac OS X. While simple, it found an audience and was a very successful product for me. 
 
 Sadly when I joined the [Shindig](/projects/shindig/) team my time was full of Shindig responsibilities and I could not find time to keep ProfitTrain up-to-date. I decided to sell ProfitTrain to RazorAnt hoping it would find some updates. It saw some, but sadly not nearly as many as I wanted. It was discontinued by RazorAnt in 2018.
 
