@@ -1,6 +1,6 @@
 ---
 title: "Shutting Down ElixirClub"
-date: 2023-07-04T17:00:00-04:00
+date: 2023-07-04T12:00:00-04:00
 description: After six months, today I announced ElixirClub's closure.
 ---
 
