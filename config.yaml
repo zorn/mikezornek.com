@@ -12,29 +12,11 @@ pygmentsStyle: tango
 pygmentsCodefencesGuessSyntax: true
 paginate: 20
 markup:
-  defaultMarkdownHandler: blackfriday
   goldmark:
     extensions:
       typographer: true
     renderer:
       unsafe: true
-  blackFriday:
-    angledQuotes: false
-    extensions: null
-    extensionsMask: null
-    footnoteAnchorPrefix: ""
-    footnoteReturnLinkContents: ""
-    fractions: true
-    hrefTargetBlank: false
-    latexDashes: true
-    nofollowLinks: false
-    noreferrerLinks: false
-    plainIDAnchors: true
-    skipHTML: false
-    smartDashes: true
-    smartypants: true
-    smartypantsQuotesNBSP: false
-    taskLists: true
 menu:
   main:
     - name: Home
