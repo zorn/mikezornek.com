@@ -6,35 +6,21 @@ layout: onepage
 
 # Active Personal Projects
 
-## Franklin Blog Engine
+## Course Dreamers
 
-Franklin is written in Elixir, Phoenix, and LiveView and is an intentionally over-engineered blog application (a future replacement for this Hugo-powered blog). It uses an event-sourced / CQRS core (via [Commanded](https://github.com/commanded/commanded)) alongside a modern component-based UI presentation. It aims to make even the simple things overly complex in the spirit of personal education toward these architecture decisions.
+[Course Dreamers](https://coursedreamers.com) is a new blog where I share my research, observations, and links regarding the work of programmers and technically-minded folks building online courses, some for the first time.
 
-Franklin is on GitHub via a [public code repo](https://github.com/zorn/franklin) and [project board](https://github.com/users/zorn/projects/1/views/5).
+I have aspirations of building some products / open source software for folks in this arena and am trying to spend some time to get closer to individuals on the ground. It's still early days but sharing what I find on the new site.
 
-## [ElixirClub](https://www.elixirclub.org)
+## Mike Zornek.com
 
-ElixirClub is an outcome-oriented community that helps Elixir developers finish their side projects.
-
-## [Elixir Book Club](https://elixirbookclub.com/)
-
-We meet every two weeks and talk about our current book. I've been an active member for a few books where we've covered: Testing Elixir, Metaprogramming Elixir, Programming Phoenix LiveView, and Elixir in Action, Second Edition.
-
-## [DockYard Academy](https://github.com/DockYard-Academy/beta_curriculum/)
-
-DockYard is a large Elixir agency and they are building a bootcamp to help train first time programmers in Elixir. I try to stop by classes once in a while to help be a teacher assistant.
-
-## [Philly Elixir Meetup](https://www.meetup.com/PhillyElixir)
-
-A monthly social meetup group to talk about Elixir and Erlang things. We meet on the 2nd Wednesday of the month, online. It's a small, friendly group. Stop by and say hi!
-
-## [MikeZornek.com](/projects/mikezornek-site/)
-
-This very website is an open source project using tech including: Hugo, HTML/CSS, GitHub, CircleCI, Linode and Apache.
+This very website is an open source project using tech including: Hugo, HTML/CSS, GitHub, CircleCI, Linode and Apache. [Background](/projects/mikezornek-site/)
 
 # Past Personal Projects
 
-* [ElixirFocus](https://elixirfocus.com)
+* [Franklin](/projects/franklin/) (Elixir, LiveView, CQRS)
+* [ElixirClub](/projects/elixir_club/) (community website)
+* [ElixirFocus / Phoenix by Example](/projects/elixir_focus) (educational blog)
 * Elixir Exercism Videos [Launch Post](/posts/2022/8/exercism-elixir-cohort/), [Completion Post](/posts/2022/10/completing-exercism-project/), [Video Playlist](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
 * [Guildflow](/projects/guildflow/)
 * [Android Book Club](https://mikezornek.com/posts/2020/6/an-android-book-club-for-ios-developers/)
