@@ -27,8 +27,7 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 
-	<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101111096);</script>
-	<script async src="//static.getclicky.com/js"></script>
+	<script defer data-domain="mikezornek.com" src="https://plausible.io/js/script.js"></script>
 	<script src="https://player.vimeo.com/api/player.js"></script>
 
 </head>
