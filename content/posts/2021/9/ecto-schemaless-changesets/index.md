@@ -3,7 +3,6 @@ title: "Using Schemaless Changesets to Separate Concerns Between the Web Context
 slug: "ecto-schemaless-changesets"
 date: 2021-09-07T08:00:00-04:00
 description: With schemaless changesets you have the power to hand craft validations for specific web form presentations and define firm boundaries of responsibilities between your web presentation layer and the business-specific contexts of your app.
-tags: [ecto, changeset, boundaries]
 pain: my schemas have grown large and scary. I find myself making web-form specific changesets in the main app contexts which feels wrong.
 fix: two options can help, break down domain into smaller entities, break the changeset dependencies using schemaless changesets
 next action: see how I do this in RetroTaxi, also see these docs and blog posts
