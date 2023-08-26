@@ -8,4 +8,4 @@ images:
 
 {{< vimeo 464223873 >}}
 
-A short video where I catch you all up on my various project: [Guildflow](/projects/guildflow/), [Android Book Club](https://androidbookclub.guildflow.com/), consulting work search, ideas in my head. 
+A short video where I catch you all up on my various project: [Guildflow](/projects/guildflow/), Android Book Club, consulting work search, ideas in my head. 

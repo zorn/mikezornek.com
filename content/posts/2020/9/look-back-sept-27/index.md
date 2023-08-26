@@ -10,9 +10,9 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 
 * Finally finished the new page and editable navigation feature. 
 * Deployed version 0.11, which includes the above features and some minor fixes.
-* Updated the [Changelog](https://guildflow.com/changelog/) on the marketing site.
+* Updated the Changelog on the marketing site.
 * Posted a pair of short feature demos. One on [How to Create a New Group](https://vimeo.com/461057012) and the other [How to Add Members via Membership Applications](https://vimeo.com/461060940).
-* Posted a new blog post: [Goal-oriented Side Event Ideas for Technical Meetups](https://guildflow.com/blog/goal-oriented-side-event-ideas/).
+* Posted a new blog post: [Goal-oriented Side Event Ideas for Technical Meetups](/posts/2020/9/goal-oriented-side-event-ideas/).
 * Started work on a bigger marketing site update. Not sure when it will launch, but I want to feature those feature demos above.
 
 ## Work

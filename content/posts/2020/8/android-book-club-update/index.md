@@ -16,4 +16,4 @@ A few updates on our Android Book Club. ([Original announcement post.](/posts/20
 
 Android Book Club Website / Membership Application:
 
-<https://androidbookclub.guildflow.com>
+`link-removed`

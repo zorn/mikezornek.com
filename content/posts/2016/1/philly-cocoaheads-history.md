@@ -17,7 +17,7 @@ Being the lead organizer of the [Philly chapter][1] of [CocoaHeads][2], I always
 The Philly chapter of CocoaHeads started out of [IndyHall][3] in 2008. IndyHall is a coworking space, a place for people who can work from home but choose not to; perhaps because they want a work/home separation or just to participate in the greater creative community. Back then IndyHall was still fairly young but had attracted together a strong tech following including:
 
   * Andy Mroczkowski and Far McKon who were working for the local company [Neat][4], and their Mac software / scanner combo.
-  * Jason Allum who was working on [RipIt][5] (which would later be sold to The Little App Factory).
+  * Jason Allum who was working on RipIt (which would later be sold to The Little App Factory).
   * Dave Martorana who had a few apps, including [MultiFirefox][6] and [Multiplex][7] (a media server app ahead of its time).
   * Joah Aas, who worked for the Mozilla organization and is now most known for his help with the [Let&#8217;s Encrypt][8] project.
   * Randy Zauhar, a local professor teaching Bioinformatics and Chemistry at University of Sciences. Randy had previous help run and host a group called: PHAD, Philadelphia Apple Developers.
@@ -138,10 +138,9 @@ To those running similar meet ups a few closing recommendations:
  [2]: http://cocoaheads.org/
  [3]: http://www.indyhall.org/
  [4]: http://www.neat.com/
- [5]: http://thelittleappfactory.com/ripit/
  [6]: http://davemartorana.com/multifirefox/
  [7]: http://www.macworld.com/article/1138909/multiplex.html
- [8]: https://letsencrypt.org/isrg/
+ [8]: https://letsencrypt.org
  [9]: https://vimeo.com/9553439
  [10]: https://github.com/phillycocoa/projectcalculator
  [11]: http://mikezornek.com/media/images/cocoaheads-history/early-indyhall.jpeg "IndyHall"

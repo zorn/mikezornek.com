@@ -16,11 +16,10 @@ So even though modern OS X has limited support in QuickTime for capturing the sc
 
 <iframe src="https://player.vimeo.com/video/111041130?title=0&#038;byline=0&#038;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-ScreenFlow has a [free trial download][4] available on it&#8217;s website and when your ready to buy a license it will cost you $99 from [Telestream&#8217;s store][5] or the [Mac App Store][6].
+ScreenFlow has a [free trial download][4] available on it&#8217;s website and when your ready to buy a license it will cost you $99 from [Telestream&#8217;s store][5] or the Mac App Store.
 
  [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
  [2]: http://www.telestream.net/screenflow/
  [3]: https://vimeo.com/phillycocoa
  [4]: http://www.telestream.net/controls/screenflow/download-screenflow.htm
  [5]: http://www.telestream.net/purchase/store.htm
- [6]: https://itunes.apple.com/us/app/screenflow-5/id917790450?mt=12

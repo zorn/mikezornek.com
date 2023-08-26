@@ -28,7 +28,7 @@ I did negotiate a 4-day work week with my client, which started in mid-March. Th
 
 Guildflow has been put on the back burner since January. I made the decision that I can't invest any more serious time into the project until I can observe in-person meetups happening again. I still use the platform to run [Philly Elixir](https://www.meetup.com/PhillyElixir/) but Guildflow is mostly dormant as far as marketing / new code efforts go.
 
-[Phoenix by Example](https://phoenixbyexample.com/) is my current main side project. It has seen some slowed momentum with my apartment move but on the whole has been a fun way to organize my Elixir education endeavors. The next big sample project, [RetroTaxi](https://phoenixbyexample.com/posts/retro-taxi-project-kickoff/) is underway. I hope to finish that project with a big push in May and hopefully come up with a small educational product in June and July time frame.
+Phoenix by Example is my current main side project. It has seen some slowed momentum with my apartment move but on the whole has been a fun way to organize my Elixir education endeavors. The next big sample project, RetroTaxi is underway. I hope to finish that project with a big push in May and hopefully come up with a small educational product in June and July time frame.
 
 ## Learning Plans
 

@@ -10,7 +10,7 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 
 * Posted [a draft of the terms of service](https://github.com/Guildflow/policy/blob/main/terms-of-service.md) for feedback.
 * Made and [shared progress](https://twitter.com/guildflow/status/1306409113371455491) on the editable navigation but ran into some UI / Framework issues that are going to cause me to rethink how I design the UI.
-* Posted a [video story](https://guildflow.com/story/) about why I built Guildflow.
+* Posted a video story about why I built Guildflow.
 * Updated the website to use Fathom Analytics, which does not use cookies, and thus [helps me avoid obnoxious cookie agreement banners](https://twitter.com/guildflow/status/1305974016763727873). 
 * Posted a [2 minute demo of how Group Export works](https://twitter.com/guildflow/status/1305603188758900736). 
 

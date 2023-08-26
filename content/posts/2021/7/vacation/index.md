@@ -14,7 +14,7 @@ I'm doing a fair job keeping up with my morning walks but have not yet renewed m
 
 Yes, on Sunday I head down to the New Jersey shore for a week at the beach. It's going to be a little more limited since I plan to avoid the crowds and focus more time on the beach than the bars. Still, it will be good to get away from the apartment for the first time in a long time.
 
-Coding has been intentionally limited. About 10 hours or so in July so far. I suspect I will start to code more in August, hopefully moving some [ElixirFocus](https://elixirfocus.com/) projects forward, but am enjoying the break while I have it.
+Coding has been intentionally limited. About 10 hours or so in July so far. I suspect I will start to code more in August, hopefully moving some ElixirFocus projects forward, but am enjoying the break while I have it.
 
 I've been doing some reflecting on what I will be looking for in my next client project and also debating what I want to do with [Guildflow](/projects/guildflow/). I paused development/marketing of Guildflow in January with the idea I needed to observe a return to in-person events before investing more time and effort. I can't say we are there yet but there are other constraints that have me questioning what I want to do.
 

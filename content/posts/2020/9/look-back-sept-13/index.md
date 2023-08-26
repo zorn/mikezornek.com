@@ -8,7 +8,7 @@ Lots of times it's easy to feel bad about missing deadlines but when you add it 
 
 ## [Guildflow](/projects/guildflow/) 
 
-* Pushed out a new build (see the [CHANGELOG](https://guildflow.com/changelog/)). Mostly bug fixes and security updates. Also re-added the ability to grant the admin role to other members. One big feature was close but not ready. Maybe next week.
+* Pushed out a new build (see the CHANGELOG). Mostly bug fixes and security updates. Also re-added the ability to grant the admin role to other members. One big feature was close but not ready. Maybe next week.
 * Made some good progress on a new feature allowing custom pages and an editable navigation. Didn't make this week's deployment but looking good locally.
 * Started [documenting](https://github.com/Guildflow/guildflow-marketing-website/issues/46) the new focus on technical meetups.
 

@@ -11,7 +11,7 @@ Over vacation I worked through a small project to use [Terraform](https://www.te
 ### Project Goals / Areas of Improvement:
 
 * Since the addition of the `guildflow.com` static website, anyone who was attempting to load a HTTPS version of `mikezornek.com` would be met with a security warning as the browser was attempting to load the SSL cert for `guildflow.com` when serving up `mikezornek.com`.
-  * The lack of SSL to `mikezornek.com` has historically [been intentional](http://this.how/googleAndHttp/).
+* The lack of SSL to `mikezornek.com` has historically [been intentional](http://this.how/googleAndHttp/).
 * The Linode serving my static sites uses Ubuntu 16.04 LTS, which is going to be [EOL on April 30, 2021](https://ubuntu.com/about/release-cycle) and so it'd be good to get one a new LTS version.
 * This is a good excuse to experiment with [Terraform](https://www.terraform.io/), which is something I've been learning in support of some possible Guildflow infrastructure updates.
 

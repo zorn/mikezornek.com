@@ -16,7 +16,7 @@ My first result towards this effort is a "hello world" style example app and tut
 > 
 > By the end of this example, you'll have created a Phoenix app that can display a custom greeting message with a formatted name.
 
-I've published the example repo under the [Phoenix by Example organization name](https://github.com/phoenix-by-example). I've also nabbed a [web domain](http://phoenixbyexample.com) and a twitter account [@PhoenixExamples](https://twitter.com/phoenixexamples).
+I've published the example repo under the Phoenix by Example organization name. I've also nabbed a web domain `phoenixbyexample.com` and a twitter account `@PhoenixExamples`.
 
 I'm still not sure how this will work out over time but my plan is to record a few videos to accompany the example project. I would also like to work out some shorter tweet videos with some tips and tricks content. 
 

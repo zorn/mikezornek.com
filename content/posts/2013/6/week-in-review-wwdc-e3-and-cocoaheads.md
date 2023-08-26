@@ -19,11 +19,11 @@ It&#8217;s been a crazy week. Some random notes and observations&#8230;
 
 Apple did a tremendous job streaming the [Keynote][1]. I watched it live on my Apple TV in the living room while chatting with friends on IRC and Twitter. It was awesome. As for the content, let&#8217;s review:
 
-**Mac OS X 10.9, Mavericks** &#8212; Not a huge fan of the name. I liked Sea Lion! As for the [user facing features][2], most are pretty meh for me, I will enjoy better dual monitor support. I also like the idea they are pushing iCloud Keychain and that it will suggest higher quality passwords for people. I myself will stick with 1Password but this is a great feature for users at large. The [advanced tech][3] of 10.9 looks great. Love the focus on battery life.
+**Mac OS X 10.9, Mavericks** &#8212; Not a huge fan of the name. I liked Sea Lion! As for the user facing features, most are pretty meh for me, I will enjoy better dual monitor support. I also like the idea they are pushing iCloud Keychain and that it will suggest higher quality passwords for people. I myself will stick with 1Password but this is a great feature for users at large. The advanced tech of 10.9 looks great. Love the focus on battery life.
 
 **iOS 7** &#8212; I have very mixed feelings for the [new UI][4]. Some of it I like, some of it I don&#8217;t. Between the historic adoption rate of new versions of iOS and the complexity of delivering a consistent experience across iOS 6 and iOS 7, I can see many apps moving to iOS 7 only in the coming months, particularly ones that aren&#8217;t released yet.
 
-While not reviewed in detail during the keynote, the real gems for me are in the [developer tools and APIs][5] released this week. Xcode 5 looks awesome. The new continuous integration services of OS X Server looks great (though time will tell if it can be a full on replacement for current solutions). Tons of brand new tech including: Text Kit, Sprite Kit, Game Controllers, UIKit Dynamics and better multitasking have been introduced along with some great improvements to current APIs. It&#8217;s going to be months until I have time to play with everything.
+While not reviewed in detail during the keynote, the real gems for me are in the developer tools and APIs released this week. Xcode 5 looks awesome. The new continuous integration services of OS X Server looks great (though time will tell if it can be a full on replacement for current solutions). Tons of brand new tech including: Text Kit, Sprite Kit, Game Controllers, UIKit Dynamics and better multitasking have been introduced along with some great improvements to current APIs. It&#8217;s going to be months until I have time to play with everything.
 
 **New Mac Pro** &#8212; I&#8217;ve been a long time customer of the [Mac Pro][6] and was in the market for one in 2011 when I sadly, after continued uninspiring updates to the product line, had to settle for a loaded (max RAM / max Graphics Card / 256 SSD) iMac instead. Not to sound like a total dick, the iMac has been great and really fast but I still longed for the multi-drive, graphics card replaceable, mega ram slot tower that I was accustom to. So this new Mac Pro is actually in my eyes more of a loaded Mac mini style device. There is little chance you&#8217;ll be replacing these graphic cards (yes **cards**, it has two of them; probably to support the unannounced retina display this Mac Pro will probably ship along side with) and there doesn&#8217;t seem to be much room for extra internal hard disk space. That said, this machine&#8217;s stats looks awesome and I have been antsy for a retina display on the desktop. I&#8217;ll have to see a price tag before I commit myself but am happy I have options when it comes time to upgrade my current iMac.
 
@@ -52,10 +52,7 @@ It&#8217;s now Sunday and after an extremely busy week I&#8217;m relaxing. I do 
 For all my Apple and gaming friends, I hope you enjoyed this week as well and enjoy the upcoming releases. Have fun!
 
  [1]: http://www.apple.com/apple-events/june-2013/
- [2]: http://www.apple.com/osx/preview/
- [3]: http://www.apple.com/osx/preview/advanced-technologies.html
  [4]: http://www.apple.com/ios/ios7/
- [5]: https://developer.apple.com/ios7/
  [6]: http://www.apple.com/mac-pro/
  [7]: http://phillycocoa.org/
  [8]: http://twitter.com/KaraLaFleur
