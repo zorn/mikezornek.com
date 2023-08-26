@@ -36,4 +36,4 @@ Since I wrote the [original cycle one pitch](https://github.com/elixirfocus/retr
 
 I'm going to try to be more deliberate with [issues](https://github.com/elixirfocus/retro_taxi/issues) and pull requests moving forward so if you want a peek or contribute, check them out.
 
-Hopefully I'll also be able to start extracting some more code-specific blog posts from the project soon. If you have any specific questions, let me know <zorn@elixirfocus.com>.
+Hopefully I'll also be able to start extracting some more code-specific blog posts from the project soon. If you have any specific questions, let me know <mike@mikezornek.com>.

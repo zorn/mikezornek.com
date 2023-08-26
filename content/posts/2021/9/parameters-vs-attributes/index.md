@@ -59,7 +59,7 @@ While `attr` is a community norm for incoming function arguments, there is an un
 
 ```elixir
 defmodule ContactSupport do
-  @email "zorn@elixirfocus.com"
+  @email "mike@mikezornek.com"
 end
 ```
 

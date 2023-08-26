@@ -138,4 +138,4 @@ You might also enjoy:
 
 * * *
 
-What did I miss? What terminology are you protective of in your own code? Let me know: <zorn@elixirfocus.com>.
+What did I miss? What terminology are you protective of in your own code? Let me know: <mike@mikezornek.com>.
