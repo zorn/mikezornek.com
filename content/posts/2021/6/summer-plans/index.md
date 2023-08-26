@@ -24,7 +24,7 @@ Day to day I expanded my Elixir skills a ton and enjoyed getting new or improved
 The basic plan is to take off all of July and August. I'll be going down the shore for a week or so in July but the expectation is I'll spend the rest of the time working on some personal projects and catching up on some learning paths. Some specific goals include:
 
 * Finish a deployable version my open source LiveView retrospective tool, [RetroTaxi](https://github.com/phoenix-by-example/retro_taxi).
-* Continue to publish educational material under my [ElixirFocus brand](https://elixirfocus.com/), formally [Phoenix by Example](https://phoenixbyexample.com/). Ideally working towards some kind of small educational product.
+* Continue to publish educational material under my ElixirFocus brand, formally Phoenix by Example. Ideally working towards some kind of small educational product.
 * Get more familiar with [event source / CQRQ programming patterns](https://github.com/slashdotdash/awesome-elixir-cqrs) Hoping to land an Elixir project in this style in the fall.
 * Read and work through a Rust/WebAssembly course/book; mostly for curiosity alongside my goal of learning a new programming language each year.
 

@@ -14,7 +14,7 @@ _This post was originally written for my old ElixirFocus blog, and transfer here
 
 I've written about being [explicit and mindful about programming terminology][1] before and today we'll look at another specific Elixir terminology example: parameters vs attributes.
 
-[1]: https://elixirfocus.com/posts/programming-terminology/
+[1]: /posts/2021/6/programming-terminology/
 
 If you create a new Phoenix app and use the generators to stub out a simple CRUD experience you will no doubt observe web controller functions like:
 
