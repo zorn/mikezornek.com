@@ -48,7 +48,7 @@ Over time I have revisited Guildflow every three months or so, doing minor SSL s
 
 ## What Did I Learn?
 
-Having saturated in the meetup headspace for the last two years, I've been trying to share my learnings and observations on the [Guildflow blog](https://guildflow.com/blog/). I'm hopeful I can transplant some of those valuable posts to my personal blog. I have a lot of opinions about meetups, and I could go on all day. To summarize as best as I can:
+Having saturated in the meetup headspace for the last two years, I've been trying to share my learnings and observations on the Guildflow blog. I'm hopeful I can transplant some of those valuable posts to my personal blog. I have a lot of opinions about meetups, and I could go on all day. To summarize as best as I can:
 
 ### The most complex problems around running a meetup group have very little to do with the quality of the group management tools. The real challenges are finding an audience and generating rewarding, goal-oriented content that enables that audience to evolve into a true community.
 
@@ -70,7 +70,7 @@ As much as this format has been enjoyed by myself and others, I suspect this for
 
 Traditional meetups might be dying, but **communities** will live on.
 
-I think the meetup groups that survive will rethink their positioning and build thriving communities around [goal-oriented events](https://guildflow.com/blog/goal-oriented-side-event-ideas/).
+I think the meetup groups that survive will rethink their positioning and build thriving communities around [goal-oriented events](/posts/2020/9/goal-oriented-side-event-ideas/).
 
 ## Why the Guildflow Shutdown?
 

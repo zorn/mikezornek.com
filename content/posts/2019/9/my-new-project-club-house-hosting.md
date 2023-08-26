@@ -13,7 +13,7 @@ I've decided to keep most of this discussion on a [separate blog](/projects/guil
 
 > Aside: Can't wait to play Link's Awakening this weekend!
 
-If you are a group organizer or know of one, please consider passing along [the website](/projects/guildflow/), it's [RSS](https://guildflow.com/blog/index.xml) feed, it's [Twitter](https://twitter.com/guildflow) account, and so on.
+If you are a group organizer or know of one, please consider passing along [the website](/projects/guildflow/), it's RSS feed, it's Twitter account, and so on.
 
 I'd really love to hear from people who are running groups and what they would like to see from their tools.
 

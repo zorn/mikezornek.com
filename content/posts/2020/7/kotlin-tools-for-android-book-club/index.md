@@ -12,7 +12,6 @@ A quick tour of some of the tools you'll want to use to help learn Kotlin.
 
 Links
 
-* https://androidbookclub.guildflow.com/
 * https://kotlinlang.org
 * https://exercism.io/tracks/kotlin
 * https://pragprog.com/titles/vskotlin/

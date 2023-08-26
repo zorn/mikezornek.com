@@ -8,9 +8,9 @@ categories:
 ---
 As I [posted on Twitter a few weeks ago][1], I recently accepted a new job with the [Big Nerd Ranch][2]. The job itself starts tomorrow and I&#8217;m really excited.
 
-The Big Nerd Ranch and its founder Aaron Hillegass have already made a huge impact on my career. When I first started to learn to program for Mac OS X I turned to [Cocoa Programming for OS X][3]. It was the, then unlabeled, first edition of the book and it was a game changer for me. Not only did I fall in love with Cocoa but the book itself was incredibly well written and helpful. Later while attending MacHack I was even able to get a pre-conference day of training from BNR. It too was great and the teacher, Chris Campbell, was really [helpful with me getting my MegaManEffect hack][4] to work. (It even took second place in the hack contest!)
+The Big Nerd Ranch and its founder Aaron Hillegass have already made a huge impact on my career. When I first started to learn to program for Mac OS X I turned to Cocoa Programming for OS X. It was the, then unlabeled, first edition of the book and it was a game changer for me. Not only did I fall in love with Cocoa but the book itself was incredibly well written and helpful. Later while attending MacHack I was even able to get a pre-conference day of training from BNR. It too was great and the teacher, Chris Campbell, was really [helpful with me getting my MegaManEffect hack][4] to work. (It even took second place in the hack contest!)
 
-These days Big Nerd Ranch is still known for their awesome [books][5] and [educational classes][6], which now cover way more than just Macintosh and include iOS, Android, Rails and a much more. The Big Nerd Ranch also [codes for hire][7], doing consulting projects for various clients big and small.
+These days Big Nerd Ranch is still known for their awesome books and [educational classes][6], which now cover way more than just Macintosh and include iOS, Android, Rails and a much more. The Big Nerd Ranch also [codes for hire][7], doing consulting projects for various clients big and small.
 
 Myself, I&#8217;ll mainly be teaching and preparing new teaching materials to start. To think, I&#8217;m going to be helping craft the very books that got me started &#8212; it&#8217;s a real honor. In time I&#8217;ll probably also help do some consulting but for now, the focus is on education.
 
@@ -22,9 +22,7 @@ Anyways it&#8217;s going to be an exciting fews days as I get familiar with all 
 
  [1]: https://twitter.com/zorn/status/552925179551420416
  [2]: http://www.bignerdranch.com/
- [3]: http://www.bignerdranch.com/we-write/cocoa-programming.html
  [4]: https://github.com/zorn/MegaManEffect/blob/master/Source/Credits.rtf
- [5]: http://www.bignerdranch.com/we-write/
  [6]: https://training.bignerdranch.com/classes
  [7]: http://www.bignerdranch.com/we-develop/
  [8]: http://tonicdesign.com/
