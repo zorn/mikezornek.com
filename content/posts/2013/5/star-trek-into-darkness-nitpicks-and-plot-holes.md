@@ -59,7 +59,7 @@ First he&#8217;ll take the long distance torpedoes he developed for Marcus and h
 
 Khan knows the attack will kick off a protocol meeting of high end Starfleet leaders. He&#8217;ll fly a fully armed craft right up to the windows of the meeting room and shoot. However, killing everyone at this meeting is not Khan&#8217;s goal. If it were he could just use another ring bomb and be done with them all. Apparently the goal is to scare Marcus and leave a trail to make it clear he is hiding on Kronos. He figures this location is the perfect excuse for Marcus to use those long range torpedoes with all the friends hidden in them.
 
-  * Khan&#8217;s taking an awful risk no one will notice he switched out the contents of these torpedoes with people. If Marcus doesn&#8217;t trust Khan you&#8217;d think he&#8217;d have some cameras and shit on him, [like Gus on Walt][6]. You&#8217;d think Marcus would notice all the frozen people are missing.
+  * Khan&#8217;s taking an awful risk no one will notice he switched out the contents of these torpedoes with people. If Marcus doesn&#8217;t trust Khan you&#8217;d think he&#8217;d have some cameras and shit on him, like Gus on Walt. You&#8217;d think Marcus would notice all the frozen people are missing.
 
   * I have to imaging there was a lot of manual labor for this plan, to hollow out these torpedoes and swap in the cryo-tubes. Why didn&#8217;t Khan just unfreeze people right there and then while he had access to them all? Why hide them and make up a convoluted plan to get access to them again later?
 
@@ -184,7 +184,6 @@ I think nostalgia was important for the first movie to help people make connecti
  [3]: http://en.memory-alpha.org/wiki/Joachim
  [4]: http://en.memory-alpha.org/wiki/First_contact
  [5]: http://en.wikipedia.org/wiki/The_Mythical_Man-Month
- [6]: http://cdn.videogum.com/files/2011/08/waltsecuritycam.png
  [7]: http://www.youtube.com/watch?v=2E3JDtqHaVM
  [8]: http://en.memory-alpha.org/wiki/Deflector_shield
  [9]: http://redlettermedia.com

@@ -34,7 +34,7 @@ In the spirit of the talk I wanted to share some other related resources.
 So there are two great online courses going on right now regarding starting a startup people might be interested in:
 
   * Stanford&#8217;s Startup Class <http://startupclass.samaltman.com>
-  * Philly Startup Leaders&#8217;s Startup Bootcamp: <http://phillystartupleaders.org/bootcamp/>
+  * Philly Startup Leaders&#8217;s Startup Bootcamp: <http://phillystartupleaders.org/>
 
 Some of it is a little heavy on the VC-funding but otherwise lots of great things to think about.
 
