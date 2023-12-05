@@ -6,6 +6,16 @@ layout: onepage
 
 # Active Personal Projects
 
+## StudyHall
+
+[StudyHall](https://github.com/studyhall-project/studyhall) is an open-source courseware platform that (aspires -- it's very early) to help people publish and consume courses focused on improving programming and technical skills. 
+
+The early user experience will lean towards maximizing student success through tooling that:
+
+* helps teachers understand student goals and progress
+* provides streamlined communication tools to ask for and provide help
+* allows students to provide content feedback to help improve courses over time
+
 ## Course Dreamers
 
 [Course Dreamers](https://coursedreamers.com) is a new blog where I share my research, observations, and links regarding the work of programmers and technically-minded folks building online courses, some for the first time.
