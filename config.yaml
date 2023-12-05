@@ -28,9 +28,6 @@ menu:
     - name: Projects
       url: /projects/
       weight: 30
-    - name: For Hire
-      url: /for-hire/
-      weight: 40
     - name: Values
       url: /values/
       weight: 50
