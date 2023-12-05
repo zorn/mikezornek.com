@@ -4,16 +4,8 @@ sectionHighlight: Contact
 layout: onepage
 ---
 
-## Email
+**Email:** <mike@mikezornek.com>
 
-* <mike@mikezornek.com> for personal stuffs.
-* <zorn@zornlabs.com> for work stuffs.
+**Mastodon:** <https://jawns.club/@zorn>
 
-## Social
-
-* [@zorn@jawns.club](https://jawns.club/@zorn) on Mastodon.
-* [@zorn](http://micro.blog/zorn) on Micro.blog.
-
-## Calendar
-
-[Book some time on my calendar.](https://savvycal.com/zorn/chat)
+**Calendar:** <https://savvycal.com/zorn/chat>
