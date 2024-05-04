@@ -30,7 +30,7 @@ Still referencing the book version of [Productive Field Guide](https://learn.mac
 
 Have not yet started the [Obsidian Field Guide](https://learn.macsparky.com/p/obsidianfg-plus), but I continue to use Obsidian a bit at work and on my personal laptop. Still not sure if it will stick. Changing some writing habits (and hotkeys) takes time.
 
-Started reading [Radical Candor](https://bookshop.org/p/books/radical-candor-be-a-kick-ass-boss-without-losing-your-humanity-kim-scott/8486942) after it came up during a 1:1 chat at I work. I was anxious after giving a fairly sharp code review, explaining the proposed solution did not align with the community norms around PubSub. It's hard to be so direct, but my manager thought I did well and had a good balance of hitting Radical Candor. Over the next day or so, I got some face time with the contributor, and it all worked out. Anyways, I thought I should check out the book for more context and feedback.
+Started reading [Radical Candor](https://bookshop.org/p/books/radical-candor-be-a-kick-ass-boss-without-losing-your-humanity-kim-scott/8486942) after it came up during a 1:1 chat at work. I was anxious after giving a fairly sharp code review, explaining the proposed solution did not align with the community norms around PubSub. It's hard to be so direct, but my manager thought I did well and had a good balance, hitting Radical Candor. Over the next day or so, I got some face time with the contributor, and it all worked out. Anyways, I thought I should check out the book for more context.
 
 ## Video Games / TV
 
