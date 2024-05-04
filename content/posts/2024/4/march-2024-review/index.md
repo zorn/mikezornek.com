@@ -6,7 +6,7 @@ description: A collection of accomplishments, notes, and observations about Marc
 
 A collection of accomplishments, notes, and observations about March 2024.
 
-# Work
+## Work
 
 Work is ok. Chipping away at our big project. Some things feel like they take forever as I need to unpack our complex domain and/or more advanced LiveView things.
 
