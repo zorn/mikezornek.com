@@ -28,9 +28,6 @@ menu:
     - name: Resume
       url: /resume/
       weight: 25
-    - name: Projects
-      url: /projects/
-      weight: 30
     - name: Values
       url: /values/
       weight: 50
