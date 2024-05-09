@@ -25,6 +25,9 @@ menu:
     - name: Blog
       url: /posts/
       weight: 20
+    - name: Resume
+      url: /resume/
+      weight: 25
     - name: Projects
       url: /projects/
       weight: 30
