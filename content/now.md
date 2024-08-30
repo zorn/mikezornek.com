@@ -31,6 +31,12 @@ Working on a LiveView app that does ranked voting called [Flick](https://github.
 
 Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.com/) (where we will use Flick to help pick our next book). 
 
+## Currently Playing
+
+* Civilization 6
+* Stardew Valley
+* MLB: The Show 24
+
 ## Currently Reading
 
 * MYST: The Book of Ti'ana
