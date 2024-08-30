@@ -34,6 +34,9 @@ menu:
     - name: Follow
       url: /follow/
       weight: 55
+    - name: Now
+      url: /now/
+      weight: 59
     - name: Contact
       url: /contact/
       weight: 60
