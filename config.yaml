@@ -8,7 +8,7 @@ theme: "zornek"
 params:
   description: Sharing life and geek notes from Philadelphia.
 pygmentsCodeFences: true
-pygmentsStyle: tango
+pygmentsStyle: lovelace
 pygmentsCodefencesGuessSyntax: true
 paginate: 20
 markup:

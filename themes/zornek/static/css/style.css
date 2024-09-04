@@ -37,7 +37,7 @@ pre {
 
 pre,
 code {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.2;
 }
 
@@ -262,7 +262,7 @@ div.screenshots img {
 }
 
 code {
-    color: #bb0000;
+    color: #000000;
     background-color: #eee;
 }
 
