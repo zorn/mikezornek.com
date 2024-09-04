@@ -37,4 +37,4 @@ make sure your LiveView is named like "FooLive" or "FooLive.Index"
 
 Looking over the [related source code](https://github.com/phoenixframework/phoenix_live_view/blob/f778e5bb1a4b0a29f8d688bbc6c0b7182dea51ca/lib/phoenix_live_view/router.ex#L470-L487) I kind of suspect this assumption could be removed in the future, but seems like a low impact and pain level so, meh.
 
-I am happy to rediscover and document this and hopefully, the explanation will help others in the future.
+I am happy to rediscover and document this. Hopefully, the explanation was helpful.
