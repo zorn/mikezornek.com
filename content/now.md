@@ -31,6 +31,8 @@ Starting to brainstorm what kind of project I want to work on after Flick. Think
 
 Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.github.io/website/). Recently pushed a new version of the website and some Discord changes. We just started reading [Elixir Patterns](https://elixirpatterns.dev/).
 
+Been penciling out a possible new gaming PC, ahead of Civ7 (due in February). Not sure if I want to buy or build.
+
 ## Currently Playing
 
 * Civilization 6
