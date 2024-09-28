@@ -5,13 +5,11 @@ layout: onepage
 description: A review of what I'm currently up to.
 ---
 
-Updated: August 30, 2024
+Updated: September 28, 2024
 
 ## Personal
 
-Getting over COVID. Testing negative again, but still suffering with some shortness of breath and a light cough. I'd say I'm at 90% right now.
-
-Feeling more productive after some down days over the summer. Enjoying having the windows open again.
+Doing good. In a fairly uneventful and quiet stride right now -- which I enjoy. Very much enjoying the cooler temps and open windows. Still not walking / exercising like I need to.
 
 ## Work
 
@@ -27,20 +25,20 @@ It is very foggy how things will land with so much change going on. I am giving 
 
 ## Side Projects
 
-Working on a LiveView app that does ranked voting called [Flick](https://github.com/zorn/flick).
+Working on a LiveView app that does ranked voting called [Flick](https://github.com/zorn/flick). I successfully used Flick to do a ranked vote for Elixir Book Club. Hoping to do a UX pass on it over the next month or so.
 
-Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.com/) (where we will use Flick to help pick our next book). 
+Starting to brainstorm what kind of project I want to work on after Flick. Thinking about customer success software, something that merges support and analytics.
+
+Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.github.io/website/). Recently pushed a new version of the website and some Discord changes. We just started reading [Elixir Patterns](https://elixirpatterns.dev/).
 
 ## Currently Playing
 
 * Civilization 6
-* Stardew Valley
-* MLB: The Show 24
 
 ## Currently Reading
 
+* Elixir Patterns
 * MYST: The Book of Ti'ana
-* The Art of PostgreSQL
 * Designing Elixir Systems with OTP
 * The Jobs To Be Done Playbook
 * Shape Up
@@ -49,14 +47,16 @@ If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-* Silicon Valley
+* Silicon Valley (done)
+* The Wire
 * Phillies baseball
 * Lots of [Civilization content on YouTube](https://www.youtube.com/@PotatoMcWhiskey).
-* ElixirConf videos.
 
 ## Upcoming Events
 
 * My sister is getting married in November! I'm giving her away. 
+* [BarCamp Philly](https://barcampphilly.org/)
+* [Code BEAM NYC](https://codebeamnyc.com/) (maybe?)
 
 ***
 
