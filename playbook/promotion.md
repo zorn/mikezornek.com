@@ -11,3 +11,4 @@ Some of the places include:
 - LinkedIn Elixir Group
 - Reddit r/elixir
 - https://elixirstatus.com
+- Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60
