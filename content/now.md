@@ -5,11 +5,17 @@ layout: onepage
 description: A review of what I'm currently up to.
 ---
 
-Updated: September 28, 2024
+Updated: October 26, 2024
 
 ## Personal
 
-Doing good. In a fairly uneventful and quiet stride right now -- which I enjoy. Very much enjoying the cooler temps and open windows. Still not walking / exercising like I need to.
+Doing well. Normal vibes day to day. Missing Phillies baseball, but still watching the playoffs. The Dodgers game one world series win last night was impressive. 
+
+Did a few walks over the past month and renewed my Audible membership with some new books. Hoping they will keep me honest and interested in those morning walks.
+
+After a month of ongoing research, I pulled the trigger on a new gaming PC build. Components are all ordered and I should start assembly next week. Big games I have in mind include: Read Dead 2 (with mods), Civ 6 and Civ 7 (February), Wow and/or FF 14, Stardew Valley (would like to get back and finish my last farm I started with 1.6).
+
+Also purchased a new standup desk for my office (the old desk will be moved across the room for the gaming PC). Still not done office updates, and expect to order some new office lighting soon along with more desk things.
 
 ## Work
 
@@ -29,36 +35,29 @@ Working on a LiveView app that does ranked voting called [Flick](https://github.
 
 Starting to brainstorm what kind of project I want to work on after Flick. Thinking about customer success software, something that merges support and analytics.
 
-Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.github.io/website/). Recently pushed a new version of the website and some Discord changes. We just started reading [Elixir Patterns](https://elixirpatterns.dev/).
-
-Been penciling out a possible new gaming PC, ahead of Civ7 (due in February). Not sure if I want to buy or build.
+Attending and helping with minimal admin duties for [Elixir Book Club](https://elixirbookclub.github.io/website/). Recently pushed a new version of the website and some Discord changes. We are reading [Elixir Patterns](https://elixirpatterns.dev/) and will read [Elixir in Action](https://www.manning.com/books/elixir-in-action-third-edition) next.
 
 ## Currently Playing
 
 * Civilization 6
+* MLB: The Show
 
 ## Currently Reading
 
 * Elixir Patterns
 * MYST: The Book of Ti'ana
 * Designing Elixir Systems with OTP
-* The Jobs To Be Done Playbook
-* Shape Up
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-* Silicon Valley (done)
-* The Wire
-* Phillies baseball
-* Lots of [Civilization content on YouTube](https://www.youtube.com/@PotatoMcWhiskey).
+* The Office (US)
+* World Series
 
 ## Upcoming Events
 
 * My sister is getting married in November! I'm giving her away. 
-* [BarCamp Philly](https://barcampphilly.org/)
-* [Code BEAM NYC](https://codebeamnyc.com/) (maybe?)
 
 ***
 
