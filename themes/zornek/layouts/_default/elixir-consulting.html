@@ -7,12 +7,12 @@
     </p>
 
     <ul class="jobs">
-        <li>accelerate the delivery of new features or elimination of technical debt</li>
-        <li>plan and break down work for a new project</li>
-        <li>manage a group of individual contributors</li>
-        <li>mentor junior developers</li>
-        <li>level up the documentation, automation, or component systems</li>
-        <li>join the QA team and, with code-level knowledge, improve software stability</li>
+        <li>accelerate the <strong>delivery of new features</strong> or elimination of technical debt</li>
+        <li>plan and <strong>break down work</strong> for a new project</li>
+        <li><strong>manage</strong> a group of individual contributors</li>
+        <li><strong>mentor</strong> junior developers</li>
+        <li>level up the <strong>documentation</strong>, automation, or component systems</li>
+        <li>join the QA team and, with code-level knowledge, <strong>improve software stability</strong></li>
     </ul>
 
     <div class="contact-button-group">
@@ -46,8 +46,11 @@
     <h3 class="proficiency-header">Beginner</h3>
 
     <ol class="proficiency-list">
+        <li style="background-color: #ed8702;">Ash Framework</li>
         <li style="background-color: #f74b00;">Rust</li>
         <li style="background-color: #2088ff;">Docker</li>
+        <li style="background-color: #f35124;">Svelte</li>
+        <li style="background-color: #f35124;">SvelteKit</li>
         <li style="background-color: #00d8ff; color:#000;">React</li>
         <li style="background-color: #00d8ff; color:#000;">React Native</li>
     </ol>
@@ -55,11 +58,9 @@
     <h3 class="proficiency-header">Upcoming</h3>
 
     <ol class="proficiency-list">
-        <li style="background-color: #f35124;">Svelte</li>
-        <li style="background-color: #f35124;">SvelteKit</li>
-        <li style="background-color: #ed8702;">Ash Framework</li>
         <li style="background-color: #f6a81c;">OpenTelemetry</li>
-        <li>Advanced CI/CD</li>
+        <li>Advanced CQRS/Event Sourcing</li>
+        <li>Advanced GenServer/Supervision</li>
     </ol>
 
     <h3 class="proficiency-header">Historical</h3>
@@ -78,6 +79,8 @@
     <h2 style="margin-top: 3em;">Recent Client Outcomes</h2>
 
     <ul>
+        <li>Worked with product owners to <strong>define, break down, and execute</strong> a proposal approval workflow system for a company in the accounting space.</li>
+        <li>Integrated <strong>interactive chart components</strong> into LiveView experiences for accounting software.</li>
         <li>Built <strong>OAuth</strong> and <strong>API consumption</strong> logic against Google and Microsoft Graph
             for a company in the security observation space.</li>
         <li>Ongoing maintenance and enhancements to a HIPAA-compliant healthcare platform spanning <strong>mobile
@@ -93,10 +96,10 @@
 
     <h2 style="margin-top: 3em;">Rate and Availability</h2>
 
-    <p><strong>Available</strong> and open to a variety of project types and sizes.</p>
+    <p>I am <strong>available</strong> and looking for new projects; ideally in the 15-32 hour per week range.</p>
 
-    <p>My rate is <strong>$100-$150</strong> per hour, with discounts available for open-source
-        initiatives.</p>
+    <p>My rate is <strong>$130-$180</strong> per hour, with discounts available for open-source
+        initiatives or long-term commitments.</p>
 
     <div class="contact-button-group">
         <a href="mailto:zorn@zornlabs.com">Reach out via email</a>
@@ -144,24 +147,42 @@
 
     <p>More background and testimonials <a href="https://www.linkedin.com/in/mikezornek/">on LinkedIn</a>.</p>
 
-
-
     <h2 style="margin-top: 3em;">Examples of My Work</h2>
+
+    <h2>Articles</h2>
+
+    <ul>
+        <li><a href="/posts/2024/9/elixir-code-aesthetic/">Personal Elixir Code Aesthetics</a></li>
+        <li>
+            <a href="/posts/2023/3/potential-consulting-client-questions/">Potential Consulting
+                Client Questions</a>
+        </li>
+        <li>
+            <a href="/posts/2023/4/technical-debt/">Notes about Technical Debt</a>
+        </li>
+        <li>
+            <a href="/posts/2021/2/securing-webhook-payload-delivery/">Securing Webhook
+                Payload Delivery in Phoenix</a>
+        </li>
+    </ul>
 
     <h2>Open Source</h2>
 
     <div>
-        <p><strong>Franklin</strong> is written in Elixir, Phoenix, and LiveView and is an intentionally over-engineered
-            blog
-            application. It uses an event-sourced / CQRS core (via <a
-                href="https://github.com/commanded/commanded">Commanded</a>) alongside a modern component-based UI
-            presentation. It aims to make even the simple things overly complex in the spirit of personal education
-            toward these architectural decisions.</p>
+        <p>The following are some side projects I've tinkered with in my spare time. They aren't explicitly prepared as a polished technical demonstration, but if you look around, you can get a feel for how I like to work (consistent contexts, detailed documentation, broken down issues/pull requests, etc.).</p>
 
-        <p>Franklin is no longer an active project but remains on GitHub via its <a
-                href="https://github.com/zorn/franklin">public code repo</a> and <a
-                href="https://github.com/users/zorn/projects/1/views/5">project board</a>. for a sense of where it was
-            headed.</p>
+        <ul>
+            <li>
+                <a href="https://github.com/zorn/flick">Flick</a> is a work-in-progress app built using Elixir and Phoenix LiveView that allows for ballot creation and captures ranked votes. We use ranked voting to help pick books for <a href="https://elixirbookclub.github.io/website/">Elixir Book Club</a>, and this is what we use.
+            </li>
+            <li>
+                <a
+                href="https://github.com/zorn/franklin">Franklin</a> is an intentionally over-engineered
+                blog
+                application written in Elixir. It was a project I worked on to get more familiar with event sourcing using <a
+                href="https://github.com/commanded/commanded">Commanded</a>. While I am anxious to use event sourcing in the future, this project did not ship and remains an abandoned historic tinker space.
+            </li>
+        </ul>
     </div>
 
     <h2>Videos</h2>
@@ -180,7 +201,7 @@
             curious about
             the basics of GitHub Actions and how they can utilize this
             automation tool to better verify code changes within their Elixir projects. The presentations consisted of
-            of a lecture, live audience exercises on GitHub, and close with time for questions.
+            of a lecture, live audience exercises on GitHub, and closed with time for questions.
         </p>
 
         <p>GitHub Actions enables you to build custom automations right within your GitHub repo. These
@@ -192,9 +213,6 @@
         </p>
     </div>
 
-
-
-
     <div>
         <p style="margin-top: 2em; font-weight: bold; font-size: 22px; clear: both;">
             GitHub Projects to Help You Organize Your Side Project TODO List
@@ -205,13 +223,9 @@
                 <img width="275px" src="/images/for-hire/github-projects.jpeg" />
             </a>
 
-            <a href="https://www.youtube.com/watch?v=bUE846fGFec">YouTube</a> &mdash; During this presentation, Mike
-            Zornek will introduce and demo GitHub Projects, which helps you track and manage issue status alongside
+            <a href="https://www.youtube.com/watch?v=bUE846fGFec">YouTube</a> &mdash; During this presentation, I introduced and demoed GitHub Projects to help you track and manage issue status alongside
             custom fields related to your GitHub issues.
         </p>
-
-        <p>Using GitHub Projects, you can use it better break down and schedule the work of your side project.</p>
-
     </div>
 
     <div>
@@ -232,58 +246,15 @@
 
         <p>I recorded myself working through the Elixir track and created a video
             series to help others learn Elixir.</p>
-
-
     </div>
-
-    <div>
-        <p style="margin-top: 2em; font-weight: bold; font-size: 22px; clear: both;">
-            Code walk: Updating Franklin to Phoenix 1.7.1
-        </p>
-
-        <p>
-            <a style="float:right; margin-left: 8px;" href="https://www.youtube.com/watch?v=RYOc2nL-qfY">
-                <img width="275px" src="/images/for-hire/phoenix-update.jpeg" />
-            </a>
-
-            <a href="https://www.youtube.com/watch?v=RYOc2nL-qfY">YouTube</a> &mdash; In this screencast, I walk through
-            how I updated Franklin to the latest major version of Phoenix, showing some helpful tools and things to be
-            on the lookout for.
-        </p>
-
-    </div>
-
-
-    <h2 style="margin-top: 3em; clear: both;">Articles</h2>
-
-    <ul>
-        <li>
-            <a href="/posts/2021/2/securing-webhook-payload-delivery/">Securing Webhook
-                Payload Delivery in Phoenix</a>
-        </li>
-        <li>
-            <a href="/posts/2023/3/potential-consulting-client-questions/">Potential Consulting
-                Client Questions</a>
-        </li>
-        <li>
-            <a href="/posts/2023/4/technical-debt/">Notes about Technical Debt</a>
-        </li>
-    </ul>
 
     <h2 style="margin-top: 3em; clear: both;">Community</h2>
 
     <ul>
         <li>
-            <a href="https://elixirbookclub.com/">Elixir Book Club</a> (member) biweekly book club reading and
+            <a href="https://elixirbookclub.github.io/website/">Elixir Book Club</a> (admin) biweekly book club reading and
             discussing topics of Elixir and general programming.
         </li>
-
-        <li>
-            <a href="https://academy.dockyard.com/">DockYard Academy</a> (volunteer mentor) is a fully-remote
-            educational program focused on providing practical programming experience to prepare students to fill the
-            many Elixir roles currently seeking skilled developers. I volunteer as a mentor on occasion.
-        </li>
-
     </ul>
 
     <div class="contact-button-group">

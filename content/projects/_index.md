@@ -6,21 +6,9 @@ layout: onepage
 
 # Active Personal Projects
 
-## StudyHall
+[Flick](https://github.com/zorn/flick) is an in-progress side project that aims to provide a simple web app, built using Elixir and Phoenix LiveView, that will to provide a tools to build and capture ranked voting.
 
-[StudyHall](https://github.com/studyhall-project/studyhall) is an open-source courseware platform that (aspires -- it's very early) to help people publish and consume courses focused on improving programming and technical skills. 
-
-The early user experience will lean towards maximizing student success through tooling that:
-
-* helps teachers understand student goals and progress
-* provides streamlined communication tools to ask for and provide help
-* allows students to provide content feedback to help improve courses over time
-
-## Course Dreamers
-
-[Course Dreamers](https://coursedreamers.com) is a new blog where I share my research, observations, and links regarding the work of programmers and technically-minded folks building online courses, some for the first time.
-
-I have aspirations of building some products / open source software for folks in this arena and am trying to spend some time to get closer to individuals on the ground. It's still early days but sharing what I find on the new site.
+Specifically this project is being constructed to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books.
 
 ## Mike Zornek.com
 
@@ -28,6 +16,8 @@ This very website is an open source project using tech including: Hugo, HTML/CSS
 
 # Past Personal Projects
 
+* [StudyHall](https://github.com/studyhall-project/studyhall) (Elixir, Svelte, Ash)
+* [Course Dreamers](https://coursedreamers.com)
 * [Franklin](/projects/franklin/) (Elixir, LiveView, CQRS)
 * [ElixirClub](/projects/elixir_club/) (community website)
 * [ElixirFocus / Phoenix by Example](/projects/elixir_focus) (educational blog)

@@ -25,8 +25,8 @@ menu:
     - name: Blog
       url: /posts/
       weight: 20
-    - name: Resume
-      url: /resume/
+    - name: Elixir Consulting
+      url: /elixir-consulting/
       weight: 25
     - name: Values
       url: /values/
