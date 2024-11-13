@@ -27,6 +27,6 @@ My volunteering with [Dockyard Academy](https://academy.dockyard.com/) continues
 
 [Franklin](https://github.com/zorn/franklin) progress is slow, but I might be able to make my Christmas deadline (documented in the README) if I focus better during the week.
 
-[Elixir Book Club](https://elixirbookclub.com/) is going on too. Tomorrow I will lead a discussion through chapter 4 of Testing Elixir.
+[Elixir Book Club](https://elixirbookclub.github.io/website//) is going on too. Tomorrow I will lead a discussion through chapter 4 of Testing Elixir.
 
 Off projects, I'm enjoying working through season 6 of DS9, season 2 of Quantum Leap and have started a new playthrough of Zelda: Breath of the Wild. I've never gotten more than 10 hours into that one but trying to take it in with a different perspective this time.

@@ -23,7 +23,7 @@ I read this back in April of 2021 and thought well of it. It's a good overview o
 
 During the first meeting will review chapters 1 and 2. After that, we will meet to review two or so more chapters every two weeks.
 
-To participate, you'll need to [join the Elixir Book Club Discord](https://discord.gg/6WJqHkY66x), and shortly I expect the main [book club website](https://elixirbookclub.com) to be current with our new book and dates.
+To participate, you'll need to [join the Elixir Book Club Discord](https://discord.gg/6WJqHkY66x), and shortly I expect the main [book club website](https://elixirbookclub.github.io/website/) to be current with our new book and dates.
 
 ## Extra Credit?
 

@@ -10,7 +10,7 @@ The [Elixir Book Club][2] is reading [Software Design X-Rays:
 Fix Technical Debt with Behavioral Code Analysis][1]. 
 
 [1]: https://pragprog.com/titles/atevol/software-design-x-rays/
-[2]: https://elixirbookclub.com/
+[2]: https://elixirbookclub.github.io/website//
 
 This past Sunday, we had our first meeting, reviewing chapter one and sharing some interesting discussions on technical debt. I wanted to capture some thoughts while they are fresh in my head. 
 
@@ -88,4 +88,4 @@ For more on trust, I recommend [The Five Dysfunctions of a Team: A Leadership Fa
 
 ## Join us
 
-If you'd enjoy discussing technical debt, join us for future book club discussions. We meet on Sundays every two weeks via our Discord. More info at: <https://elixirbookclub.com/>.
+If you'd enjoy discussing technical debt, join us for future book club discussions. We meet on Sundays every two weeks via our Discord. More info at: <https://elixirbookclub.github.io/website//>.

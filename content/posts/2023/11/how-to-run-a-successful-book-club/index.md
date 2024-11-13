@@ -53,7 +53,7 @@ I think it's helpful to have a website presence to point to when promoting the b
 
 Check out the [Elixir Book Club][2] page for a sample. GitHub and GitHub Pages are a great solution for this.
 
-[2]: https://elixirbookclub.com/
+[2]: https://elixirbookclub.github.io/website//
 
 When it's time to promote your club and/or a new book choice, I would promote it to the same circles in your community that share educational content and links. Think forums, Slacks, Discords, social media accounts hash tags, etc. 
 

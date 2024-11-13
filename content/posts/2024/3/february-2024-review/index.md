@@ -20,7 +20,7 @@ StudyHall is still inactive. Nothing much changed from the last month's review. 
 
 ## Tech Education / Books
 
-I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.com/). I'm enjoying it and hope to start expressing some of what I'm learning at work and elsewhere soon.
+I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website//). I'm enjoying it and hope to start expressing some of what I'm learning at work and elsewhere soon.
 
 I finished watching the [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24) by MacSparky. I enjoyed the perspectives and approaches shared. I am now working through the book version and am slowly exploring some of the personal journalism exercises. I consider the course open for me.
 

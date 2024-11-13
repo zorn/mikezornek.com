@@ -24,7 +24,7 @@ One related idea is to stick with Hugo and then maybe create a LiveView (or mayb
 
 I finished working through the [LiveView course](https://pragmaticstudio.com/courses/phoenix-liveview) and started the [Elixir MVP course](https://pjullrich.gumroad.com/l/bmvp). Also started tinkering and reading up on both [Ash](https://ash-hq.org/) and [Svelte](https://svelte.dev/). I even joined [Fireship.io](https://fireship.io/) to check out some of their content.
 
-[ElixirBookClub](https://elixirbookclub.com/) continues to work through [Software Design X-Rays: Fix Technical Debt with Behavioral Code Analysis](https://pragprog.com/titles/atevol/software-design-x-rays/). We finished Chapter 5 on Sunday.
+[ElixirBookClub](https://elixirbookclub.github.io/website//) continues to work through [Software Design X-Rays: Fix Technical Debt with Behavioral Code Analysis](https://pragprog.com/titles/atevol/software-design-x-rays/). We finished Chapter 5 on Sunday.
 
 ## Next Side Project?
 

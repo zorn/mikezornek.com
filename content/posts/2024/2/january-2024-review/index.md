@@ -38,7 +38,7 @@ Finished reading [Myst: Book of Atrus](https://www.goodreads.com/book/show/15976
 
 Stalled on reading [Observability Engineering: Achieving Production Excellence](https://info.honeycomb.io/observability-engineering-oreilly-book-2022).
 
-Started reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.com/).
+Started reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website//).
 
 Started watching/reading the [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24) by MacSparky.
 
