@@ -18,7 +18,7 @@ Had a few short coding sessions on [Flick](https://github.com/zorn/flick), but n
 
 ## Tech Education / Books
 
-Finished reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website//).
+Finished reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website/).
 
 We picked [A Philosophy of Software Design, 2nd Edition](https://www.amazon.com/dp/173210221X) as our next book and I'm four chapters in. I read it a while ago, but recall enjoying it. It is a much easier read than the DDD book. I find some of it's recommendations a bit surface level, but still a good book to get your brain thinking about your own work.
 

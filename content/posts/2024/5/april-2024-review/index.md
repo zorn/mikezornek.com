@@ -24,7 +24,7 @@ Made some first commits towards a new project called [Flick](https://github.com/
 
 ## Tech Education / Books
 
-I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website//). We have three chapters left to go. Overall enjoying it, but bummed I don't have the space and time to apply it much at work. Might be able to apply these concepts in some personal side project things over time. We'll see.
+I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website/). We have three chapters left to go. Overall enjoying it, but bummed I don't have the space and time to apply it much at work. Might be able to apply these concepts in some personal side project things over time. We'll see.
 
 Still referencing the book version of [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24) as I try to better brainstorm and plan my personal projects. Did some quarterly planning last weekend.
 

@@ -20,7 +20,7 @@ Nothing to report.
 
 ## Tech Education / Books
 
-I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website//). I'm enjoying it and hope to start expressing some of what I'm learning at work and elsewhere soon.
+I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website/). I'm enjoying it and hope to start expressing some of what I'm learning at work and elsewhere soon.
 
 Still slowly working through the book version of [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24). I filled out my roles and arete. Next up is shaping some projects and wanted outcomes.
 

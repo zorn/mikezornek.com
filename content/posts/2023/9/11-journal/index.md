@@ -45,7 +45,7 @@ I finished listening to the audiobook Upgrade by Blake Crouch and [posted a revi
 Currently reading:
 
 * [Wireframing for Everyone](https://abookapart.com/products/wireframing-for-everyone) - to help me get into a good drawing mindset as I explore some courseware UI ideas.
-* [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/) as part of [Elixir Book Club](https://elixirbookclub.github.io/website//).
+* [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/) as part of [Elixir Book Club](https://elixirbookclub.github.io/website/).
 * [Will It Fly?: How to Test Your Next Business Idea So You Don't Waste Your Time and Money](https://www.goodreads.com/book/show/28678036-will-it-fly) - an old audiobook I bought a while ago and thought I'd check it out. It's ok but pretty introductory so far.
 
 You can [follow me on GoodReads](https://www.goodreads.com/user/show/30324035-mike-zornek) for more book progress (though I am considering other options).

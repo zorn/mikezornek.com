@@ -4,7 +4,7 @@ date: 2023-02-12T13:55:42-05:00
 description: something tweet like
 ---
 
-During a recent [Elixir Book Club](https://elixirbookclub.github.io/website//) meeting we had a back and forth discussion on a simple code style question:
+During a recent [Elixir Book Club](https://elixirbookclub.github.io/website/) meeting we had a back and forth discussion on a simple code style question:
 
 When providing an accessor function inside your domain context, do you prefer a return type of `{:ok, noun} || {:error, :not_found}` or `noun || nil` ?
 
