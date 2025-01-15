@@ -63,7 +63,7 @@ You can also check out this article on [how to sell technical debt][4] and why p
 
 ## Sprint planning and broken glass
 
-While a product manager has the ultimate say and owns the sprint plan, various stakeholders still influence it. To simplify, let's say we have one group representing the customers and the other representing the developers. Each group has their own short-term and long-term interests. A good sprint and roadmap wil have a healthy mix of all four areas. If the weights of any of these four areas get too out of proportion for too long, things will get into a bad state.
+While a product manager has the ultimate say and owns the sprint plan, various stakeholders still influence it. To simplify, let's say we have one group representing the customers and the other representing the developers. Each group has their own short-term and long-term interests. A good sprint and roadmap will have a healthy mix of all four areas. If the weights of any of these four areas get too out of proportion for too long, things will get into a bad state.
 
 Specifically to the short-term interest of developers, I'm a big proponent of giving individuals **timeboxed 'broken glass' autonomy**. This is a metaphor that comes from theme parks. If you are an employee, and your job has you walking the park day in and day out, when you see broken glass on the floor, you should stop and clean it up for the serenity and safety of everyone else. 
 
