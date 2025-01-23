@@ -137,6 +137,30 @@ For that project, we created a stack of fallback time zones.
 1. When a user created their meetup group, they defined a default display time zone for the group. This was our fallback default.
 2. When a web visitor was on the page, we [executed JavaScript](https://github.com/Guildflow/guildflow-phoenix/blob/4d14ced0e1a1269b5858f6ecc2b997f480624d19/assets/js/app.js#L51-L55) that would `PUT` the observed time zone we saw and then on the backend inside a standard controller we would [store the time zone inside the session](https://github.com/Guildflow/guildflow-phoenix/blob/4d14ced0e1a1269b5858f6ecc2b997f480624d19/lib/guildflow_web/controllers/subdomain/timezone_controller.ex#L10). This would be our ideal default, and would generally be available on everything except the user's first page load of the site.
 
+## A Hook-based approach.
+
+LittleAccountOfCalm of Reddit also [suggests](https://www.reddit.com/r/elixir/comments/1i84ptj/comment/m8qdgal/):
+
+> Pardon me, but why not render a `<local-time phx-hook="LocalTime" id={@id} class="invisible">{@date}</local-time` component, that has a js-hook like:
+
+```javascript
+Hooks.LocalTime = {
+  mounted() {
+    this.updated();
+  },
+  updated() {
+    let dt = new Date(this.el.textContent);
+    this.el.textContent = Intl.DateTimeFormat("default", {
+      dateStyle: "medium",
+      // timeStyle: "short",
+    }).format(dt);
+    this.el.classList.remove("invisible");
+  }
+}
+```
+
+I recall seeing approaches like this before as you correct that this is just as reasonable of a solution for Flick's needs.  I vaguely recall requirements that made it a non-option for my other project (maybe due to time zone presentation in email copy) but a great addition to the post. Thanks for sharing!
+
 ## Other Resources
 
 I'll leave you out with some related resources. Good coding, and if you have any questions, [reach out](/contact).
