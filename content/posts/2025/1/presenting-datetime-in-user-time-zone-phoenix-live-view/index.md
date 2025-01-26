@@ -168,7 +168,7 @@ I'll leave you out with some related resources. Good coding, and if you have any
 - Elixir's [`DateTime`] docs are great and worthy of re-read.
 - My [Flick PR](https://github.com/zorn/flick/pull/137/files) where I added this feature.
 - [Date and Time · Elixir School](https://elixirschool.com/en/lessons/basics/date-time/)
-- I gave a talk [Working With Time Zones in an Elixir Phoenix App](https://mikezornek.com/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/) back in 2020 at a local meetup. I have the video, but the embed on that page is currently down. Slides are there, which might be interesting. 
+- I gave a talk [Working With Time Zones in an Elixir Phoenix App](/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/) back in 2020 at a local meetup. I have the video, but the embed on that page is currently down. Slides are there, which might be interesting. 
 - There was an amazing talk at ElixirConf 2022 [Kip Cole - Time algebra: a new way to think about and work with time](https://www.youtube.com/watch?v=4VfPvCI901c). This strays from the practical demonstrations of this post but was a memorable talk that impressed me.
 - DockYards had their own recent demo blog post, which aligns with many of the things shared here: [Getting and Displaying the User's Local Time in LiveView](https://dockyard.com/blog/2024/10/15/getting-displaying-users-local-time-liveview)
 - [Simon Willison: Storing times for human events](https://simonwillison.net/2024/Nov/27/storing-times-for-human-events/)
