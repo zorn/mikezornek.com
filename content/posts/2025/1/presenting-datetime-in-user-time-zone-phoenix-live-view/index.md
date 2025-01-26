@@ -159,7 +159,7 @@ Hooks.LocalTime = {
 }
 ```
 
-I recall seeing approaches like this before as you correct that this is just as reasonable of a solution for Flick's needs.  I vaguely recall requirements that made it a non-option for my other project (maybe due to time zone presentation in email copy) but a great addition to the post. Thanks for sharing!
+I recall seeing approaches like this before and you correct that this is just as reasonable of a solution for Flick's needs.  I vaguely recall requirements that made it a non-option for my other project (maybe due to time zone presentation in email copy) but a great addition to the post. Thanks for sharing!
 
 ## Other Resources
 
