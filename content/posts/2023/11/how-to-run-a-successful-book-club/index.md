@@ -14,19 +14,21 @@ If you want to get started, I'd recommend just picking a book you are interested
 
 As you finish a book, ask the group for next book suggestions and develop a prospect list. I recommend asking folks to submit a ranked vote against the prospect list (allowing people to vote with priorities), and then you, as the moderator, can choose a book using those signals. You might even consider non-books, like video courses, and work through the material as a cohort.
 
+> Aside: I actually built my own tool to run these ranked votes. You can use it too. It is free with no account creation necessary: [RankedVote.app](https://rankedvote.app/)
+
 Remember, you don't need to pick the book that wins the vote. Sometimes, identifying a book that you identify will generate better discussions, benefit members who need help in that area, or draw more people to the club (introduction books tend to draw a bigger audience) might be a better choice for the group's needs. 
 
 ## Scheduling and Group Size
 
-Like early book choices, you should just pick a good time for you and get started. Be mindful of time zones if you want to attract people across continents. Also, avoid other meetup groups of the same topic that might overlap. I personally like weekly for work-related book clubs, but if the group is more casual, I think bi-weekly is fine, too. Eventually, as you start new books, you can revisit the schedule to better accommodate those who are showing up.
+Like early book choices, you should just pick a good time for you and get started. Be mindful of time zones if you want to attract people across continents. Also, avoid other meetup groups of the same topic that might overlap. I personally like weekly for work-related book clubs, but if the group is more casual, I think bi-weekly is fine, too. Eventually, as you start new books, you can revisit the schedule to accommodate better those who are showing up.
 
 The ideal group size is probably 8 to 10 people (to ensure you have enough conversations), but you can get by with as few as 2-3 when getting started. Also, expect people to fall off during a book. It happens as people have other responsibilities and interests, and usually, this book club is rightfully a low priority. Don't let it get you down. If they drop, wish them well and welcome them back when you start a new book. Don't take it personally.
 
 ## Venue and Video Tools
 
-All the book clubs I've ever participated in or run have been online. For venue, I prefer Zoom for video quality consistency (and recording tools), but Discord is nice to have a place for people to chat between meeting times.
+All the book clubs I've ever participated in or run have been online. For venue, I prefer Zoom for video quality consistency (and recording tools), but Discord is nice for having a place for people to chat between meeting times.
 
-In recent book clubs, we've started recording the sessions. I make it clear that the meeting is being recorded and why. I also offer the attendees the option to request parts be scrubbed if needed. 
+In recent book clubs, we've started recording the sessions. I make it clear that the meeting is being recorded and why. I also offered the attendees the option to request that parts be scrubbed if needed. 
 
 The main goal of the recordings is to help people who miss a week or two stay connected for an eventual return. We may also start to clip some of the conversations for social sharing and promotion, but it has not happened yet.
 
@@ -55,7 +57,7 @@ Check out the [Elixir Book Club][2] page for a sample. GitHub and GitHub Pages a
 
 [2]: https://elixirbookclub.github.io/website/
 
-When it's time to promote your club and/or a new book choice, I would promote it to the same circles in your community that share educational content and links. Think forums, Slacks, Discords, social media accounts hash tags, etc. 
+When it's time to promote your club and/or a new book choice, I would promote it to the same circles in your community that share educational content and links. Think forums, Slacks, Discords, social media accounts, hash tags, etc. 
 
 ## Shared Responsibilities
 
