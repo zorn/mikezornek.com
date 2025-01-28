@@ -11,6 +11,10 @@
 	<meta name="description" content="{{ . }}">
 	{{ end }}
 
+	{{ with .Site.Params.fediverse_creator }}
+	<meta name="fediverse:creator" content="{{ . }}" />
+	{{ end }}
+
 	{{ template "_internal/twitter_cards.html" . }}
 
 	{{ with .Site.Params.author }}
