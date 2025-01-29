@@ -8,4 +8,4 @@ To run the site locally use:
 
 To make a new post
 
-    hugo new posts/2025/1/presenting-datetime-in-user-timezone-phoenix-live-view/index.md
+    hugo new posts/2025/1/a-few-good-memes/index.md
