@@ -11,7 +11,7 @@ images:
 </figure>
 
 
-Yesterday I took to `r/ProgrammerHumor` to reply to [this post about code review](https://www.reddit.com/r/ProgrammerHumor/comments/1ib4ifc/titleisdealingwithatoxicsenior/). I used a meme I [crafted back in September](https://jawns.club/@zorn/113194431261362116) and posted this meme as I was preparing for quarterly performance review season. It since have gotten replies that have me laughing out loud. Recording for prosperity.
+Yesterday I took to `r/ProgrammerHumor` to reply to [this post about code review](https://www.reddit.com/r/ProgrammerHumor/comments/1ib4ifc/titleisdealingwithatoxicsenior/). I used a meme I [crafted back in September](https://jawns.club/@zorn/113194431261362116) and posted this meme as I was preparing for quarterly performance review season. It since has gotten some replies that have me laughing out loud. Recording for prosperity.
 
 [Intelligent-Touch936 writes](https://www.reddit.com/r/ProgrammerHumor/comments/1ich83t/comment/m9rixfv/): 
 
