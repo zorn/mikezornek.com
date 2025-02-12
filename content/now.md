@@ -5,15 +5,19 @@ layout: onepage
 description: A review of what I'm currently up to.
 ---
 
-Updated: January 9, 2025
+Updated: February 12, 2025
 
 ## Personal
 
-After an enjoyable and restful holiday break, this week saw the return to normalcy.
+The new year is in full swing. Who knew it was February already?
 
-It is frightfully cold right now in Philadelphia, and running the heat is killing my dry skin. Finally went and got the humidifiers out of storage and cleaned up to help out.
+Philly is still bitter cold, mostly. Some snow on the ground again as I type this. I'm very anxious for the return to spring and getting my windows open again. Morning walks outside would be nice too.
 
-And while I try to stay warm I dream of springtime and baseball. Tonight I watched the [Phillies video yearbook](https://www.youtube.com/watch?v=zdgCwLGs6rQ). I was fortunate enough to be at many of the games showcased, including Rhys Hoskins' homecoming, Cole Hammels' retirement night, and the night they clinched the east. Of course, it was a bitter end in October, but still many great memories. Can't wait for the new year.
+Big Philly news, of course, is the Super Bowl win. Can't wait to see the city enjoy the parade and festivities on Friday.
+
+Me? I've been ok. Getting some personal projects moving along and doing the everyday adult things like keeping the house in order. 
+
+Civilization 7, the game that was a notable reason to build my gaming computer, was released and is... undercooked. I'm enjoying getting to know the game, but they will need a few more patches before it is enjoyable to the masses. It has made me think about some of the design decisions in Civ6 with a new appreciation.
 
 ## Work
 
@@ -21,31 +25,28 @@ I currently work full time for [Allovue](https://www.allovue.com/) doing full st
 
 I joined Allovue in December of 2023, but after two acquisitions, many of the things I joined for are gone. 
 
-I've started to promote my own [Elixir consulting](https://mikezornek.com/elixir-consulting/) and am attempting a return to consulting in 2025.
+I've started promoting my own [Elixir Consulting](https://mikezornek.com/elixir-consulting/) and am attempting to return to consulting in 2025.
 
 ## Side Projects
 
-I did not finish [Flick](https://github.com/zorn/flick) during the holiday break as I had hoped but I did make some progress. I have some things to clean up over the next two days before I'll be using the app to run the next ranked vote for Elixir Book Club.
+Flick work is starting to close, and I am actively investigating what is next.
 
-Also actively reading up on some event-sourcing and Conflict-free Replicated Datatypes (CRDTs) for possible next project ideas.
+I wrote a blog post about [local-first software](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), and I think a scoped research project is on the horizon.
 
 ## Currently Playing
 
-* WoW: Classic
-* Civilization 6
-* MLB: The Show
+* Civilization 7
 
 ## Currently Reading
 
-* Elixir in Action (for [book club](https://elixirbookclub.github.io/website/))
-* [Revenge of the Tipping Point](https://www.goodreads.com/book/show/216857785-revenge-of-the-tipping-point)
-* [Real-World Event Sourcing](https://pragprog.com/titles/khpes/real-world-event-sourcing/)
+* [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-* Seinfeld Season 2
+* Mr ROBOT (season 4)
+* Seinfeld (season 3)
 
 ## Upcoming Events
 
