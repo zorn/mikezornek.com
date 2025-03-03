@@ -5,47 +5,45 @@ layout: onepage
 description: A review of what I'm currently up to.
 ---
 
-Updated: February 12, 2025
+Updated: March 3, 2025
 
 ## Personal
 
-The new year is in full swing. Who knew it was February already?
+Doing good. 
 
-Philly is still bitter cold, mostly. Some snow on the ground again as I type this. I'm very anxious for the return to spring and getting my windows open again. Morning walks outside would be nice too.
+Anxious for spring to finally get here. We have a few days here and there that show signs winter is on the retreat. Appreciate the additional daylight too. Really helps me keep my spirits up.
 
-Big Philly news, of course, is the Super Bowl win. Can't wait to see the city enjoy the parade and festivities on Friday.
-
-Me? I've been ok. Getting some personal projects moving along and doing the everyday adult things like keeping the house in order. 
-
-Civilization 7, the game that was a notable reason to build my gaming computer, was released and is... undercooked. I'm enjoying getting to know the game, but they will need a few more patches before it is enjoyable to the masses. It has made me think about some of the design decisions in Civ6 with a new appreciation.
+Enjoying watching some spring training baseball. TV and radio broadcasts are limited but I keep my eye out and watch what I can.
 
 ## Work
 
-I currently work full time for [Allovue](https://www.allovue.com/) doing full stack [Elixir](https://elixir-lang.org/) and [Phoenix LiveView](https://www.phoenixframework.org/) web development. Allovue provides accounting software for K-12 school districts.
-
-I joined Allovue in December of 2023, but after two acquisitions, many of the things I joined for are gone. 
-
-I've started promoting my own [Elixir Consulting](https://mikezornek.com/elixir-consulting/) and am attempting to return to consulting in 2025.
+Still working full time for [Allovue](https://www.allovue.com/) doing full stack [Elixir](https://elixir-lang.org/) and [Phoenix LiveView](https://www.phoenixframework.org/) web development -- but actively looking to return to  [consulting](https://mikezornek.com/elixir-consulting/). If you have any project leads let me know.
 
 ## Side Projects
 
-Flick work is starting to close, and I am actively investigating what is next.
+I wrote a blog post about [local-first software](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), and am about to start a scoped research project related to it.
 
-I wrote a blog post about [local-first software](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), and I think a scoped research project is on the horizon.
+I think it might be a hybrid todo/habbits/time-tracker to match my very opionated style of life organization. Currently I solve this with a mix of OmniFocus and Obsidian but I think it could be neat to bring it all together. The time tracking is not something I do much of today but I think it would be helpful to be more strict in tracking these things to see improvements over time.
+
+Early work has been mostly research and reading. Need to make a proper plan. I'll try to blog this.
 
 ## Currently Playing
 
-* Civilization 7
+* Civilization 7 -- enjoying the unfinished release, but anxious to see more fixes.
+* Stardew Valley -- I made a new farm one night but not sure if I am in the mood or not.
+* MLB: The Show 2025 -- will be out mid-March. I'm very likely to play it.
 
 ## Currently Reading
 
 * [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
+* [Keep Going: 10 Ways to Stay Creative in Good Times and Bad](https://www.goodreads.com/book/show/40591677-keep-going)
+* [Art and Fear](https://www.goodreads.com/book/show/187633.Art_and_Fear)
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-* Mr ROBOT (season 4)
+* Peaky Blinders (just finished season 1)
 * Seinfeld (season 3)
 
 ## Upcoming Events
