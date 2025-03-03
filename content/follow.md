@@ -14,6 +14,7 @@ aliases: /feeds/
 ## Platform Accounts
 
 * [Mastodon @zorn@jawns.com](https://jawns.club/@zorn)
+* [Bluesky](https://bsky.app/profile/mikezornek.com)
 * [Personal YouTube Channel](https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw)
 * [Personal GitHub Profile](https://github.com/zorn)
 * [LinkedIn Profile](https://www.linkedin.com/in/mikezornek/)
