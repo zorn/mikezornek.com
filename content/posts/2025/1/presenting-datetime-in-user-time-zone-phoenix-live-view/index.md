@@ -135,7 +135,7 @@ In a previous project, I built a meetup group platform. It had to display lots o
 For that project, we created a stack of fallback time zones.
 
 1. When a user created their meetup group, they defined a default display time zone for the group. This was our fallback default.
-2. When a web visitor was on the page, we [executed JavaScript](https://github.com/Guildflow/guildflow-phoenix/blob/4d14ced0e1a1269b5858f6ecc2b997f480624d19/assets/js/app.js#L51-L55) that would `PUT` the observed time zone we saw and then on the backend inside a standard controller we would [store the time zone inside the session](https://github.com/Guildflow/guildflow-phoenix/blob/4d14ced0e1a1269b5858f6ecc2b997f480624d19/lib/guildflow_web/controllers/subdomain/timezone_controller.ex#L10). This would be our ideal default, and would generally be available on everything except the user's first page load of the site.
+2. When a web visitor was on the page, we [executed JavaScript](#errata) that would `PUT` the observed time zone we saw and then on the backend inside a standard controller we would [store the time zone inside the session](#errata). This would be our ideal default, and would generally be available on everything except the user's first page load of the site.
 
 ## A Hook-based approach.
 
@@ -172,3 +172,41 @@ I'll leave you out with some related resources. Good coding, and if you have any
 - There was an amazing talk at ElixirConf 2022 [Kip Cole - Time algebra: a new way to think about and work with time](https://www.youtube.com/watch?v=4VfPvCI901c). This strays from the practical demonstrations of this post but was a memorable talk that impressed me.
 - DockYards had their own recent demo blog post, which aligns with many of the things shared here: [Getting and Displaying the User's Local Time in LiveView](https://dockyard.com/blog/2024/10/15/getting-displaying-users-local-time-liveview)
 - [Simon Willison: Storing times for human events](https://simonwillison.net/2024/Nov/27/storing-times-for-human-events/)
+
+## Errata
+
+I originally posted this with some links to a private repo. I'm not in a place to make that repo public but will recreate the linked code below.
+
+```javascript
+// assets/js/app.js
+// "When a web visitor was on the page, we executed JavaScript that would PUT the observed time zone we saw..."
+window.addEventListener('DOMContentLoaded', (event) => {
+    if (document.head.dataset.timezone == 0) {
+        let user_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+        console.log('User timezone was unknown on dom load. Sending user timezone (' + user_timezone + ') to server.');
+        fetch(location.protocol + '//' + location.host + '/timezone?iana=' + encodeURIComponent(user_timezone))
+            .then((response) => {
+                console.log(response);
+            });
+    }
+});
+```
+
+```elixir
+# lib/guildflow_web/controllers/subdomain/timezone_controller.ex
+# "... and then on the backend inside a standard controller we would store the time zone inside the session."
+def index(conn, %{"iana" => iana}) do
+  if Enum.member?(Timex.timezones(), iana) do
+    conn
+    |> put_session("timezone", iana)
+    |> render("index.html", user_timezone: iana)
+  else
+    user_timezone = get_session(conn, "timezone")
+
+    render(conn, "index.html",
+      user_timezone: user_timezone,
+      page_title: "User Session Timezone Status"
+    )
+  end
+end
+```
