@@ -12,14 +12,20 @@ ORIGINAL_DIR="$PWD"
 HUGO_VERSION="0.124.1"  # Change this to your required version
 echo "Installing Hugo ${HUGO_VERSION}..."
 
-# Create directory for Hugo download
+# Create directory for Hugo download and installation
+mkdir -p "${HOME}/bin"
 mkdir -p /tmp/hugo
 cd /tmp/hugo
 
 # Download and install specific Hugo version
 wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 tar -xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-mv hugo /usr/local/bin/
+
+# Move Hugo to a directory you have permission for
+mv hugo "${HOME}/bin/"
+
+# Add the bin directory to PATH
+export PATH="${HOME}/bin:${PATH}"
 
 # Verify installation
 hugo version
@@ -28,5 +34,4 @@ hugo version
 cd "$ORIGINAL_DIR"
 
 # Now you can add your Hugo build commands here
-# For example:
 HUGO_ENV=production hugo -v -t zornek
