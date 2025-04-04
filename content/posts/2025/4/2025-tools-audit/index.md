@@ -8,6 +8,8 @@ It is good to take inventory of things from time to time. Here is a list of the 
 
 I welcome hearing your suggestions for tools I should consider in the future.
 
+None of the links below are affiliate links. I ain't got time for that shit.
+
 ## Hardware
 
 * 2021 Apple M1 Max MacBook Pro, 16-inch with 32 GB of RAM and 1 TB of storage.
@@ -15,15 +17,17 @@ I welcome hearing your suggestions for tools I should consider in the future.
 * Keyboard: [Das Keyboard 4 for Mac](https://www.daskeyboard.com/daskeyboard-4-professional-for-mac/)
   * I'm fairly satisfied with this. Have had it for many years now. Having experimented with a few other keyboards while building my gaming PC, I am considering experimenting with alternatives for a different feel but a low priority when I'm generally trying to save money right now.
 * Mouse: Logitech Performance MX Wireless Mouse
-  * This is an older discontinued model but one I've been very happy with. I've replaced the internal rechargeable battery a few times but it has held up great. I have a newer MX Master 3S model for my gaming PC. It fits my hand as well.
-* Microphone: Shure SM7B
+  * This is an older discontinued model but one I've been very happy with. I've replaced the internal rechargeable battery a few times but it has held up great. I have a newer [MX Master 3S](https://www.logitech.com/en-us/shop/p/mx-master-3s.910-006556) model for my gaming PC. It fits my hand as well.
+* Microphone: [Shure SM7B](https://www.shure.com/en-US/products/microphones/sm7b)
   * This is complete overkill for for my daily needs but I had intent on building more video content at one point, and it was purchased as part of that project. I do use it a lot, but mostly for Zoom and Discord calls.
+  * I also use a [Focusrite Scarlett 2i2 3rd Gen USB Audio Interface](https://us.focusrite.com/products/scarlett-2i2-3rd-gen) to handle the input.
 * Camera: Canon VIXIA HF G21 Full HD Camcorder and Elgato Cam Link
   * This is an older 1080p camcorder that I connect to my laptop via a HDMI adaptor for use as a standard laptop camera input. It is rather bulky and sits upon a collapsed tripod behind my main monitor. It generates good enough video quality but feels a bit like an overdue hack deserving of replacement someday.
-* Monitors: I use a pair of [24-inch LG UltraFine monitors](https://www.lg.com/us/business/computer-monitors/lg-24md4klb-b) mounted on [Fully Jarvis Dual Monitor Mounting Arms](https://store.hermanmiller.com/collection-jarvis). These monitors are working ok. There is some screen burn-in, and compared to [the new gaming monitor](https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/) I have, they feel a little dated but are more than fine for the coding work I do. The monitor arms are really nice and keep the screens at a much higher eye height for me. I recommend investing in monitor arms, Jarvis or otherwise.
+* Monitors: LG UltraFine
+  * I use a pair of [24-inch LG UltraFine monitors](https://www.lg.com/us/business/computer-monitors/lg-24md4klb-b) mounted on [Fully Jarvis Dual Monitor Mounting Arms](https://store.hermanmiller.com/collection-jarvis). These monitors are working ok. There is some screen burn-in, and compared to [the new gaming monitor](https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/) I have, they feel a little dated but are more than fine for the coding work I do. The monitor arms are really nice and keep the screens at a much higher eye height for me. I recommend investing in monitor arms, Jarvis or otherwise.
 * Laptop stand: Rain Design mStand Laptop Stand
   * I use my laptop open when connected to the monitors and then place the laptop on this stand to get some extra height (though not even with the main monitors on arms). This gives me three monitors in total (one for terminal, one for code editor and one for the browser).
-* iPad Pro
+*  13-inch iPad Pro (M4)
   * I bought this in 2024 after using my previous iPad Pro for about 8 years. I went for the higher-end version, primarily for the gorgeous screen, but I also like the camera unlock and overall feel. I use this daily from my recliner, mostly for web browsing and PDF reading. I have a pencil and always have aspirations of sketching things but never really happens.
 * iPhone Xr
   * I've been milking this older phone for a while, and it still works great. The battery is good, and no major screen issues. I figured I'd keep using it until OS updates stopped, which I expected this past year, but it still got them. I suspect those will stop and I'll need a new phone soon™. Might consider something else than the iPhone, though.
@@ -37,8 +41,10 @@ I welcome hearing your suggestions for tools I should consider in the future.
   * I play this all the time, mostly MLB: The Show, from my living room. I have a few other games for it, including the two Final Fantasy 7 games, but it is mostly baseball.
 * Switch
   * I play this in phases, usually when a new games comes out or I get nostalgic. Have been considering a fresh Animal Crossing island reroll. Also have a few unopened games (Tears of the Kingdom, Metroid Prime) that I really need to dig into.
-* My large backpack is a [Pro Executive Laptop Backpack](https://www.sfbags.com/collections/bags/products/pro-executive-laptop-backpack) from Waterfield. I use this when I am packing a bunch of things, including travel. I also have a slim folio bag from them as well, which is great as a conference carry or when I just want the laptop and nothing else. I'm not sure they sell my exact folio anymore, but it is close to [this one](https://www.sfbags.com/collections/bags/products/executive-laptop-tablet-folio).
-* Batteries: For rechargeable batteries, I mostly lean on my [Anker power bank](https://www.anker.com/collections/power-banks) (forget the exact model, but it's 90W version). I also have a [Yeti 500X](https://goalzero.com/collections/portable-power-stations/products/goal-zero-yeti-500x-portable-power-station) and solar panel from GoalZero. This is mostly for major powerless emergencies (CPAP gear, etc), but I hear they work great camping as well.
+* Backpacks from Waterfield
+  * My large backpack is a [Pro Executive Laptop Backpack](https://www.sfbags.com/collections/bags/products/pro-executive-laptop-backpack) from Waterfield. I use this when I am packing a bunch of things, including travel. I also have a slim folio bag from them as well, which is great as a conference carry or when I just want the laptop and nothing else. I'm not sure they sell my exact folio anymore, but it is close to [this one](https://www.sfbags.com/collections/bags/products/executive-laptop-tablet-folio).
+* Batteries
+  * I mostly lean on my [Anker power bank](https://www.anker.com/collections/power-banks) (forget the exact model, but it's 90W version). I also have a [Yeti 500X](https://goalzero.com/collections/portable-power-stations/products/goal-zero-yeti-500x-portable-power-station) and solar panel from GoalZero. This is mostly for major powerless emergencies (CPAP gear, etc), but I hear they work great camping as well.
 
 ## Office Furniture
 
