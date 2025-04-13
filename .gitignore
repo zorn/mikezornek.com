@@ -1,6 +1,30 @@
 # Hugo default output directory
-/public
+/public/
 
-.DS_Store
-
+# Hugo cache and build files
 .hugo_build.lock
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
