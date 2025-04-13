@@ -1,0 +1,29 @@
+<header>
+
+    {{/* Purple horizontal row. */}}
+    <div class="bg-purple-600 bg-[url(/images/dark-mosaic.png)] py-6">
+        {{/* Container for the header content. */}}
+        <div class="max-w-screen-md mx-auto text-white text-shadow-lg/30">
+            <h1 class="font-[Ubuntu] text-6xl font-bold">{{ site.Title }}</h1>
+        </div>
+    </div>
+
+    {{/* Transparent horizontal row. */}}
+    <div class="max-w-screen-md mx-auto">
+        {{ $currentSectionHighlight := .Params.sectionHighlight }}
+        {{ with .Site.Menus.main }}
+        <nav>
+            <div class="mb-12">
+                <ol class="list-none my-4">
+                    {{ range . }}
+                    <li class="inline font-[Ubuntu] text-2xl font-bold pr-4">
+                        <a class="{{ if (eq .Name $currentSectionHighlight) }}border-b-8 border-purple-700 pb-2{{ end }}"href="{{ .URL | relURL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ol>
+            </div>
+        </nav>
+        {{ end }}
+    </div>
+
+</header>
