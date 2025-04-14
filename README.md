@@ -30,3 +30,7 @@ To make a new post:
 ```bash
 hugo new posts/2025/4/some-post-title/index.md
 ```
+
+## The `reborn` theme.
+
+This site uses a custom theme called `reborn`. It is not built as a drop in theme for other Hugo sites. Feel free to reference it but keep that limitation in mind. 
