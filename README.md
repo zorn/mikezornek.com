@@ -11,17 +11,13 @@ Personal website of Mike Zornek, a developer and teacher from the suburbs of Phi
 - Analytics are tracked using [Plausible](https://plausible.io).
 - We track uptime with [updown.io](https://updown.io/uryy)
 
-
 ## Setup
 
-The project expects Tailwind CLI to be installed and we recommend you run:
+The project expects Tailwind CLI to be installed and we recommend you run the following to get those tools installed:
 
 ```bash
 npm install
 ```
-
-To get those tools installed.
-
 
 To run the site locally use:
 
@@ -29,7 +25,7 @@ To run the site locally use:
 hugo server
 ```
 
-To make a new post
+To make a new post:
 
 ```bash
 hugo new posts/2025/4/some-post-title/index.md
