@@ -10,7 +10,7 @@ ORIGINAL_DIR="$PWD"
 
 # Install npm dependencies
 echo "Installing npm dependencies..."
-npm install tailwindcss @tailwindcss/cli
+npm install --save-dev tailwindcss @tailwindcss/cli
 npm install --verbose
 
 # Install specific version of Hugo
@@ -23,7 +23,7 @@ mkdir -p /tmp/hugo
 cd /tmp/hugo
 
 # Download and install specific Hugo version
-wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
+wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 tar -xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 # Move Hugo to a directory you have permission for
@@ -39,4 +39,4 @@ hugo version
 cd "$ORIGINAL_DIR"
 
 # Now you can add your Hugo build commands here
-HUGO_ENV=production hugo --logLevel info
+hugo --logLevel info
