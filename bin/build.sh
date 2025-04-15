@@ -10,7 +10,6 @@ ORIGINAL_DIR="$PWD"
 
 # Install npm dependencies
 echo "Installing npm dependencies..."
-npm install --save-dev tailwindcss @tailwindcss/cli
 npm install --verbose
 
 # Install specific version of Hugo
