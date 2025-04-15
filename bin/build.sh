@@ -34,4 +34,4 @@ hugo version
 cd "$ORIGINAL_DIR"
 
 # Now you can add your Hugo build commands here
-HUGO_ENV=production hugo -v -t zornek
+HUGO_ENV=production hugo --logLevel info
