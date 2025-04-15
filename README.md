@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2025/4/some-post-title/index.md
+hugo new posts/2025/4/custom-font-without-google/index.md
 ```
 
 ## The `reborn` theme.
