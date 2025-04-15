@@ -4,13 +4,13 @@ date: 2025-04-15T08:19:13-04:00
 description: Some background on how I replaced Google-linked web fonts on this site with self-hosted ones to improve privacy concerns.
 ---
 
-Over the last few week's I've been doing some infrastructure updates to the website and one of those changes was to drop the use of [Google's linked web fonts](https://fonts.google.com/) and instead host custom fonts from my own server in the sprit of improving the privacy of my site visitors. 
+Over the last few weeks, I've been doing some infrastructure updates to the website, and one of those changes was to drop the use of [Google's linked web fonts](https://fonts.google.com/) and instead host custom fonts from my own server in the spirit of improving the privacy of my site visitors. 
 
 Here is how I did it and some of the problems I ran into.
 
 ## Picking your font
 
-The first custom font I had in mind was `Ubuntu`, a bold sans-serif font that I like for my name in the header. You can see samples of this [on Google's site](https://fonts.google.com/specimen/Ubuntu), but to download it, I take advantage of the [google-webfont-helper](https://gwfh.mranftl.com/fonts/ubuntu) site, which lets me quickly customize the exact styles I am interested in using and offers me a list of various CSS methods of use. I use the more modern CSS approach as seen in the following snippet.
+The first custom font I had in mind was `Ubuntu`, a bold sans-serif font that I like for my name in the header. You can see samples of this [on Google's site](https://fonts.google.com/specimen/Ubuntu), but to download it, I take advantage of the [google-webfont-helper](https://gwfh.mranftl.com/fonts/ubuntu) site, which lets me quickly customize the exact styles I am interested in using and offers me a list of various CSS methods of use. I use the more modern CSS approach, as seen in the following snippet.
 
 ```css
 /* ubuntu-regular - latin */
@@ -63,7 +63,7 @@ The font preload [explicitly](https://developer.mozilla.org/en-US/docs/Web/HTML/
 
 ***
 
-I'll probably be doing more with my fonts and the overall design of the site in the coming weeks, but this was a good like nugget of progress.
+I'll probably be doing more with my fonts and the overall design of the site in the coming weeks, but this was a good nugget of progress.
 
 ## Resources
 
