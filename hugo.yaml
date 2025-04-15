@@ -1,0 +1,58 @@
+baseURL: "https://mikezornek.com"
+languageCode: "en-us"
+title: "Mike Zornek"
+description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
+theme: "reborn"
+params:
+  description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
+  fediverse_creator: "@zorn@jawns.club"
+  author: Mike Zornek
+pagination:
+  pagerSize: 20
+markup:
+  goldmark:
+    extensions:
+      typographer: true
+    renderer:
+      unsafe: true
+mainSections:
+  - posts
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Blog
+      url: /posts/
+      weight: 20
+    - name: Elixir Consulting
+      url: /elixir-consulting/
+      weight: 25
+    - name: Values
+      url: /values/
+      weight: 50
+    - name: Follow
+      url: /follow/
+      weight: 55
+    - name: Now
+      url: /now/
+      weight: 59
+    - name: Contact
+      url: /contact/
+      weight: 60
+
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/notwatching/hugo_stats\.json
+      target: css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json

@@ -10,4 +10,6 @@ aliases:
     - /posts/2022/8/elixir-consulting-availability/
     - /posts/2022/12/elixir-consulting-availability/
     - /posts/2023/2/elixir-consulting-availability/
+    - /resume/
+    - /user-testing/
 ---

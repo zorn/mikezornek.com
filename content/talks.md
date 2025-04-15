@@ -4,6 +4,10 @@ sectionHighlight: Talks
 layout: onepage
 ---
 
+**Update: April 14, 2025** -- I don't do as many prepared talks these days. When I used to do more I maintained this page to track conferences I'd attended and spoke at. Not sure I'll keep this page up forever, but for now leaving it be.
+
+***
+
 The following is a list of events and conferences I've spoken at or attended in recent years. If you have a speaking opportunity that might be a good fit, [let me know](/contact).
 
 ## 2021

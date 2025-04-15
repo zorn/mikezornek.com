@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s • %s" .Title site.Title }}{{ end }}</title>
+
+{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">
+{{ end }}
+
+{{ with .Site.Params.fediverse_creator }}
+<meta name="fediverse:creator" content="{{ . }}" />
+{{ end }}
+
+{{ template "_internal/twitter_cards.html" . }}
+
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">
+{{ end }}
+
+{{ with .OutputFormats.Get "RSS" -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+{{- end }}
+
+<script defer data-domain="mikezornek.com" src="https://plausible.io/js/script.js"></script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+{{/*  https://github.com/gohugoio/hugo/issues/13492  */}}
+{{/*  {{ partialCached "head/css.html" . }}  */}}
+{{ partial "head/css.html" . }}
+
+{{ partialCached "head/js.html" . }}
