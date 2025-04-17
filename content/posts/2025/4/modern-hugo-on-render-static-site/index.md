@@ -1,7 +1,7 @@
 ---
 title: "How to Use a Modern Version of Hugo on Render's Static Site Service"
 date: 2025-04-17T11:03:15-04:00
-description: something tweet like
+description: The version of Hugo that Render provides is out of date but you can install a more current version with a custom build script. Here is mine.
 ---
 
 I host this site at [Render.com](https://render.com/). Specifically, I use Render's [Static Site product](https://render.com/docs/static-sites). It's a good product and free for most usage. It features an auto-configured SSL certificate, global CDN, pull request previews, and many other nice things. I'm also paying Render to host some [Elixir things](https://rankedvote.app/) and enjoy the simplicity of fewer things to manage
