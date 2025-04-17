@@ -13,7 +13,7 @@ A local developer Slack had an icebreaker post asking for programming books that
 * **Elixir in Action by Saša Jurić** -- While it was not my first Elixir book, it was by far the one that sold me on the language and run time. It's one of my favorite books of all time. The new third edition just came out. I can't wait to reread it.
 * **Thinking In Systems by Donella H. Meadows** -- This is not a programming book, but good exploration of perspectives you should keep in mind when building things.
 * **Cocoa Programming for OS X: The Big Nerd Ranch Guide by Aaron Hillegass** -- While I earned a living building web applications using PHP and Rails, outside of work, I was (as a hobby) learning how to create GUI apps on Mac OS X. This book was a life-changing experience for me. First, giving me a space to learn Cocoa, which eventually became my full-time work, but then secondly, when I joined Big Nerd Ranch to become a teacher myself.
-* **Clean Code by Robert C. Martin** -- This book gets some shade these days, but I recall it being one of the first books that started to get me to question the ascetics of my code and I think highly of that event.
+* **Clean Code by Robert C. Martin** -- This book gets some shade these days, but I recall it being one of the first books that started to get me to question the aesthetics of my code and I think highly of that event.
  
 ## User Interfaces
 
