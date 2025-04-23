@@ -26,7 +26,7 @@ I prefer products because:
 
 ## Recent Product Failures
 
-Since returning to self-employment in 2017, attempts have failed to recreate my previous [successful](/projects/profittrain/) [products](/projects/dex/). After spending six months of development, I failed with [OwlDeck], eventually realizing that the tech stack I would need to master (CoreText) was over my head. I then had a significant change of heart towards Apple platform development, starting a multi-year period of self-discovery and eventually finding a new home with Elixir. Guildflow began in 2019, but ultimately, I decided [it too would be shut down][shutdown] last month, November 2021.   
+Since returning to self-employment in 2017, attempts have failed to recreate my previous [successful](/projects/profittrain/) [products](/projects/dex/). After spending six months of development, I failed with [OwlDeck], eventually realizing that the tech stack I would need to master (CoreText) was over my head. I then had a significant change of heart towards Apple platform development, starting a multi-year period of self-discovery and eventually finding a new home with Elixir. Guildflow began in 2019, but ultimately, I decided [it too would be shut down][shut down] last month, November 2021.   
 
 [OwlDeck]: /projects/owldeck/
 [shut down]: /posts/2021/10/guildflow-shutdown/
