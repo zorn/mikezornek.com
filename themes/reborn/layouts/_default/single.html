@@ -1,22 +1,31 @@
 {{ define "main" }}
-	<main>
-	<div class="max-w-screen-md mx-auto">
-		<article class="prose max-w-none prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900">
-			<h1 style="margin-bottom:0;">{{ .Title }}</h1>
-			<p style="margin-top:0;color:#999;">Posted on <time>{{ .Date.Format "Jan 2, 2006" }}</time></p>
-			<div>
-				{{ .Content }}
-			</div>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			{{ end }}
-		</article>
-	</div>
-	</main>
+  <main>
+    <div class="mx-auto max-w-screen-md">
+      <article
+        class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+      >
+        <h1 style="margin-bottom:0;">{{ .Title }}</h1>
+        <p style="margin-top:0;color:#999;">
+          Posted on
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        </p>
+        <div>
+          {{ .Content }}
+        </div>
+        {{ with .Params.tags }}
+          <div>
+            <ul id="tags">
+              {{ range . }}
+                <li>
+                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                    {{ . }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </article>
+    </div>
+  </main>
 {{ end }}
