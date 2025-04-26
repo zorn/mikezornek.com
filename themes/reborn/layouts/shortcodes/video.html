@@ -1,0 +1,14 @@
+{{ $url := printf "https://f002.backblazeb2.com/file/mikezornek-com-media/%s" .Params.filename }}
+
+
+<video controls width="100%" class="mb-0">
+  <source src="{{ $url }}" type="video/mp4" />
+  <a href="{{ $url }}">Download MP4.</a>
+</video>
+
+<div class="mt-2 flex justify-between">
+  <a href="{{ $url }}">Download MP4</a>
+  {{ with .Params.youtube }}
+    <a href="https://www.youtube.com/watch?v={{ . }}">Watch on YouTube</a>
+  {{ end }}
+</div>
