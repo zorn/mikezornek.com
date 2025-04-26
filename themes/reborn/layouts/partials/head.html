@@ -1,39 +1,63 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s • %s" .Title site.Title }}{{ end }}</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>
+  {{ if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ printf "%s • %s" .Title site.Title }}
+  {{ end }}
+
+</title>
 
 {{ with .Site.Params.description }}
-<meta name="description" content="{{ . }}">
+  <meta name="description" content="{{ . }}" />
 {{ end }}
 
 {{ with .Site.Params.fediverse_creator }}
-<meta name="fediverse:creator" content="{{ . }}" />
+  <meta name="fediverse:creator" content="{{ . }}" />
 {{ end }}
 
 {{ template "_internal/twitter_cards.html" . }}
 
 {{ with .Site.Params.author }}
-<meta name="author" content="{{ . }}">
+  <meta name="author" content="{{ . }}" />
 {{ end }}
 
 {{ with .OutputFormats.Get "RSS" -}}
-{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{- end }}
 
-<script defer data-domain="mikezornek.com" src="https://plausible.io/js/script.js"></script>
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<script
+  defer
+  data-domain="mikezornek.com"
+  src="https://plausible.io/js/script.js"
+></script>
 
-{{/*  https://github.com/gohugoio/hugo/issues/13492  */}}
-{{/*  {{ partialCached "head/css.html" . }}  */}}
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+{{/* https://github.com/gohugoio/hugo/issues/13492 */}}
+{{/* {{ partialCached "head/css.html" . }} */}}
 {{ partial "head/css.html" . }}
 
-{{/*  https://web.dev/articles/codelab-preload-web-fonts  */}}
-<link rel="preload" href="/fonts/ubuntu-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/ubuntu-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/images/dark-mosaic.png" as="image">
+{{/* https://web.dev/articles/codelab-preload-web-fonts */}}
+<link
+  rel="preload"
+  href="/fonts/ubuntu-v20-latin-700.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
+<link
+  rel="preload"
+  href="/fonts/ubuntu-v20-latin-regular.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
+<link rel="preload" href="/images/dark-mosaic.png" as="image" />
 
 {{ partialCached "head/js.html" . }}

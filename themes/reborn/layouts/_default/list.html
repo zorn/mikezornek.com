@@ -1,24 +1,24 @@
 {{ define "main" }}
-<main>
-<div class="max-w-screen-md mx-auto">
+  <main>
+    <div class="mx-auto max-w-screen-md">
+      <div
+        class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+      >
+        {{ partial "pagination.html" . }}
 
-  <div class="prose max-w-none prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900">
 
-	{{ partial "pagination.html" . }}
+        <ol class="m-0 list-none p-0">
+          {{ range .Paginator.Pages }}
+            <li class="m-0 p-0">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+              |
+              <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+            </li>
+          {{ end }}
+        </ol>
 
-	<ol class="list-none m-0 p-0">
-	{{ range .Paginator.Pages }}
-		<li class="m-0 p-0">
-			<a href="{{ .Permalink }}">{{ .Title }}</a> | <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-		</li>
-
-	{{ end }}
-	</ol>
-
-	{{ partial "pagination.html" . }}
-
-</div>
-
-</div>
-</main>
+        {{ partial "pagination.html" . }}
+      </div>
+    </div>
+  </main>
 {{ end }}
