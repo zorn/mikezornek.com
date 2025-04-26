@@ -1,9 +1,11 @@
 {{ $url := printf "https://f002.backblazeb2.com/file/mikezornek-com-media/%s" .Params.filename }}
 
 
-<video controls width="100%" class="mb-0">
+<video controls width="100%" class="mb-0" title="{{ .Params.title }}">
   <source src="{{ $url }}" type="video/mp4" />
-  <a href="{{ $url }}">Download MP4.</a>
+  Your browser does not seem to support the video format. You can
+  <a href="{{ $url }}">download the MP4 file</a>
+  directly.
 </video>
 
 <div class="mt-2 flex justify-between">
