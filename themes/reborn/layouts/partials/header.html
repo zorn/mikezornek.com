@@ -16,11 +16,14 @@
           <ol class="my-4 list-none">
             {{ range . }}
               <li
-                class="{{ if (eq .Name $currentSectionHighlight) }}
-                  border-b-8 pb-2 border-purple-700
-                {{ end }} mb-2 inline-block pr-4 font-[Ubuntu] text-2xl font-bold md:mb-0 md:inline"
+                class="mr-4 mb-2 inline-block font-[Ubuntu] text-2xl font-bold md:mb-0 md:inline"
               >
-                <a class="" href="{{ .URL | relURL }}">
+                <a
+                  class="{{ if (eq .Name $currentSectionHighlight) }}
+                    border-b-8 pb-1 border-purple-700
+                  {{ end }}"
+                  href="{{ .URL | relURL }}"
+                >
                   {{ .Name }}
                 </a>
               </li>
