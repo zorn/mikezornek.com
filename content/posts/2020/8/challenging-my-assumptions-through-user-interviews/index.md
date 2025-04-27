@@ -6,7 +6,7 @@ images:
   - posts/2020/8/challenging-my-assumptions-through-user-interviews/thumb.jpeg
 ---
 
-{{< vimeo 449301496 >}}
+{{< video filename="challenging_my_assumptions_through_user_interviews.mp4" youtube="_GSsfLKntdg" title="Challenging My Assumptions Through User Interviews" >}}
 
 A short talk about how recent user interviews have challenged some of my assumptions about how Guildflow accounts should work.
 

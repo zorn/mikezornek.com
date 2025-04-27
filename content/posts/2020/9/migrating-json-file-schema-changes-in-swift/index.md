@@ -14,4 +14,4 @@ https://github.com/zorn/VersionedFilesDemo
 
 Video walk through:
 
-{{< vimeo 453702836 >}}
+{{< video filename="migrating_json_file_schema_changes_in_swift.mp4" youtube="VUc_7E2w5jc" title="Migrating JSON File Schema Changes in Swift" >}}

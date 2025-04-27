@@ -14,6 +14,6 @@ The code you see in the video is part of a demo project on GitHub:
 
 https://github.com/zorn/VersionedFilesDemo
 
-{{< vimeo 454050861 >}}
+{{< video filename="using_fixtures_and_test_assets_in_swift_unit_tests.mp4" youtube="VVdwOnBiWlU" title="Using Fixtures and Test Assets in Swift Unit Tests" >}}
 
 Thanks for watching!
