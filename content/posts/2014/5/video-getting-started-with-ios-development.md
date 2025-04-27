@@ -18,9 +18,6 @@ Through my position with the [Philadelphia CocoaHeads][1] chapter I am often app
 
 {{< video filename="getting_started_with_ios_development.mp4" title="Getting Started with iOS Development" >}}
 
-[Getting Started with iOS Development][2] from [Mike Zornek][3] on [Vimeo][4].
+Getting Started with iOS Development from Mike Zornek on Vimeo.
 
  [1]: http://phillycocoa.org/
- [2]: http://vimeo.com/95691796
- [3]: http://vimeo.com/mrzorrn
- [4]: https://vimeo.com
