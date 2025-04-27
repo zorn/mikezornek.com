@@ -7,9 +7,8 @@ This talk was originally presented at the [Philly Elixir Group](https://www.meet
 
 Covers the basics of the language, what it can be used for and why it's particularly helpful for certain situations. A great talk for people new to or curious about Elixir.
 
-<iframe src="https://player.vimeo.com/video/407321092" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="introduction_to_elixir.mp4" youtube="CIpbQoENrO4" title="An Introduction to Elixir" >}}
 
-* [Video on Vimeo](https://vimeo.com/407321092) 28 minutes
 * Slides [PDF](mike-zornek-an-introduction-to-elixir.pdf) / [SpeakerDeck](https://speakerdeck.com/zorn/an-introduction-to-elixir)
 
 Links:

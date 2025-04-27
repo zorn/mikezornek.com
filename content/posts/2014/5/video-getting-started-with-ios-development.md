@@ -16,7 +16,7 @@ categories:
 ---
 Through my position with the [Philadelphia CocoaHeads][1] chapter I am often approached by people who are interested in learning how to program for iOS. The follow presentation serves as a collection of helpful information and recommendations for such people.
 
-<iframe src="//player.vimeo.com/video/95691796" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< video filename="getting_started_with_ios_development.mp4" title="Getting Started with iOS Development" >}}
 
 [Getting Started with iOS Development][2] from [Mike Zornek][3] on [Vimeo][4].
 
