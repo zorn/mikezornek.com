@@ -6,4 +6,4 @@ description: A short show and tell for how I am learning Rust through game devel
 
 A short show and tell for how I am learning Rust through game development.
 
-{{< vimeo 586359041 >}}
+{{< video filename="learning_rust_via_game_development.mp4" title="Learning Rust via Game Development" >}}

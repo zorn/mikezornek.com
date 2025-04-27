@@ -8,4 +8,4 @@ I love the enthusiasm and energy of [this video](https://www.youtube.com/watch?v
 
 A few thoughts on cutting to the chase in videos for an online audience.
 
-{{< vimeo 455555806 >}}
+{{< video filename="dont_waste_my_time.mp4" title="Don't Waste My Time" >}}

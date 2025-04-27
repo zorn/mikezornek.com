@@ -11,7 +11,7 @@ categories:
 ---
 I&#8217;m hoping to do some formal screencasting, educational videos for iOS and Rails, in the future so for practice I hacked together this little Introduction to Objective-C Categories to try some stuff out. It&#8217;s not the worst thing ever so I thought I&#8217;d share it and my notes.
 
-<iframe src="http://player.vimeo.com/video/66535170" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{{< video filename="objective-c-categories.mp4" title="Introduction to Objective-C Categories" >}}
 
 [Objective-C Categories][1] from [Mike Zornek][2] on [Vimeo][3].
 

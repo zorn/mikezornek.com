@@ -14,12 +14,7 @@ I liked how the expense spreadsheet came out and thought there would be value in
 
 I've recorded a video of its creation to help those who might not be spreadsheet experts and to capture my thought process regarding cataloging expenses for future scenario experimentation.
 
-<video controls width="100%">
-  <source src="https://f002.backblazeb2.com/file/mikezornek-com-media/napkin-estimate-budgeting-with-google-sheets.mp4" type="video/mp4" />
-  <a href="https://f002.backblazeb2.com/file/mikezornek-com-media/napkin-estimate-budgeting-with-google-sheets.mp4">Download MP4.</a>
-</video>
-
-[Watch on YouTube](https://www.youtube.com/watch?v=ebLIvsRrTv8)
+{{< video filename="napkin-estimate-budgeting-with-google-sheets.mp4" youtube="ebLIvsRrTv8" title="Using Google Sheets to Catalog Expenses for Budgeting Considerations" >}}
 
 ## Video Summary
 

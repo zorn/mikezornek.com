@@ -10,7 +10,7 @@ categories:
 ---
 I gave a talk at Philly CocoaHeads last week reviewing various ways to consume JSON using Swift, including a preview a new open source project we have coming out soon™ from [Big Nerd Ranch][1] called [Freddy][2].
 
-<iframe src="https://player.vimeo.com/video/152112429" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Update April 27, 2025: Video Unavailable.
 
 [Consuming JSON in Swift, Mike Zornek][3] from [Philly CocoaHeads][4] on [Vimeo][5].
 

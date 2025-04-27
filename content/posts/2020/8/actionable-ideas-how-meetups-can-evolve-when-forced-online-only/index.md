@@ -10,7 +10,7 @@ images:
 
 Today I recorded some thoughts regarding the challenges meetups are facing as they've been forced online and ideas how those challenges can be met.
 
-{{< vimeo 444547122 >}}
+{{< video filename="actionable_ideas_how_meetups_can_evolve_when_forced_online_only.mp4" youtube="_3PW6GtJz2s" title="Actionable Ideas How Meetups Can Evolve When Forced Online Only" >}}
 
 A quick summery:
 

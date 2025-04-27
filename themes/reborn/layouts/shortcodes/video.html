@@ -1,0 +1,28 @@
+{{/* Shortcode for embedding videos that are sourced from the Backblaze B2 media bucket. Available arguments:
+
+  - `filename`: (required) The filename of the video in the media bucket.
+  - `title`: The title of the video.
+  - `youtube`: The YouTube video ID.
+*/}}
+
+{{ $url := printf "https://f002.backblazeb2.com/file/mikezornek-com-media/%s" .Params.filename }}
+
+
+<video
+  controls
+  width="100%"
+  class="mb-0"
+  {{ with .Params.title }}title="{{ . }}"{{ end }}
+>
+  <source src="{{ $url }}" type="video/mp4" />
+  Your browser does not seem to support the video format. You can
+  <a href="{{ $url }}">download the MP4 file</a>
+  directly.
+</video>
+
+<div class="mt-2 flex justify-between">
+  <a href="{{ $url }}">Download MP4</a>
+  {{ with .Params.youtube }}
+    <a href="https://www.youtube.com/watch?v={{ . }}">Watch on YouTube</a>
+  {{ end }}
+</div>

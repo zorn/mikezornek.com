@@ -8,7 +8,7 @@ images:
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
-{{< vimeo 453062548 >}}
+{{< video filename="evolve_or_die _its_time_to_rethink_meetup_groups.mp4" youtube="5gaZGDXWAKY" title="Evolve or Die: It's Time to Rethink Meetup Groups" >}}
 
 Discussion topics from the video:
 

@@ -6,4 +6,4 @@ description: A short show and tell for how I am learning Rust through game devel
 
 A second update and demo of my work through [Hands on Rust](https://pragprog.com/titles/hwrust/hands-on-rust/). This time we are building a graphic turn-based dungeon crawler game.
 
-{{< vimeo 596571042 >}}
+{{< video filename="learning_rust_via_game_development_starting_dungeon_crawler.mp4" title="Learning Rust via Game Development: Starting Dungeon Crawler" >}}

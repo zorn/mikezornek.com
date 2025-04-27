@@ -8,7 +8,7 @@ images:
 
 I tried to run some Google Ads but can't reconcile the numbers. I've been duped!
 
-{{< vimeo 455052351 >}}
+{{< video filename="google_ad_numbers_dont_add_up.mp4" youtube="vzuhMKJMfdk" title="Google Ad Numbers Don't Add Up" >}}
 
 **Video Notes**
 
