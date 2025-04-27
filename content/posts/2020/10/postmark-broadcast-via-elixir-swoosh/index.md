@@ -14,4 +14,4 @@ In advance of adding some new broadcast email features to Guildflow I've built s
 * [My Swoosh Pull Request](https://github.com/swoosh/swoosh/pull/533)
 * [My demo McFeely app](https://github.com/Guildflow/mcfeely)
 
-{{< vimeo 467453964 >}}
+{{< video filename="using_postmarks_new_broadcast_email_stream_via_elixir_and_swoosh.mp4" title="Using Postmark's new Broadcast Email Stream via Elixir and Swoosh" >}}
