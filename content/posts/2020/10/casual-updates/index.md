@@ -6,6 +6,6 @@ images:
   - posts/2020/10/casual-updates/thumb.jpeg
 ---
 
-{{< vimeo 464223873 >}}
+{{< video filename="casual_updates.mp4" youtube="irzzRkLUkdk" title="Casual Updates" >}}
 
 A short video where I catch you all up on my various project: [Guildflow](/projects/guildflow/), Android Book Club, consulting work search, ideas in my head. 
