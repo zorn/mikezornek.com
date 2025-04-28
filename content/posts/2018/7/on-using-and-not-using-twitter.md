@@ -16,6 +16,6 @@ A quick and dirty video journal reviewing my past and future use of Twitter. My 
 
 Links:
 
-  * <https://twitter.com/zorn>
+  * <https://jawns.club/@zorn>
   * <https://micro.blog/zorn>
   * <http://mikezornek.com/>

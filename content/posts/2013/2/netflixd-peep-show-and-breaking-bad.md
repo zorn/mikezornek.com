@@ -34,5 +34,5 @@ Hope you enjoyed the recommendations. If you have any for me, let me know via [e
  [3]: http://www.hulu.com/peep-show
  [4]: http://mikezornek.com/media/images/breaking_bad.png "Breaking Bad"
  [5]: http://movies.netflix.com/WiMovie/70143836
- [6]: mailto:mike@clickablebliss.com
- [7]: http://twitter.com/zorn
+ [6]: mailto:mike@mikezornek.com
+ [7]: https://jawns.club/@zorn

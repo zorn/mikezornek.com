@@ -20,4 +20,4 @@ It&#8217;s been about a month with the watch and I&#8217;m not sure I should kee
 
 Am I missing something? What do you love about your Apple Watch? [Let me know.][1] As of now, I&#8217;m looking for ways to sell it &#8212; I think the money for me would be better put towards a new Mac (should they ever be rev&#8217;d again).
 
- [1]: mailto:mike@clickablebliss.com
+ [1]: mailto:mike@mikezornek.com

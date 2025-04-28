@@ -36,4 +36,4 @@ Do you journal like this? Any tips or other feedback? I&#8217;d love to hear it.
  [4]: http://c2.com/cgi/wiki?RubberDucking
  [5]: https://plausible.coop/voodoopad/
  [6]: https://borkopolis.wordpress.com/2011/05/04/logs-is-logs/
- [7]: http://twitter.com/zorn
+ [7]: https://jawns.club/@zorn

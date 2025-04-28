@@ -23,4 +23,4 @@ So that&#8217;s what&#8217;s going on. Will share more when I have it. If you ha
 
  [1]: http://clickablebliss.com/
  [2]: http://mikezornek.com/2013/10/29/my-new-job-with-dmgctrl/
- [3]: mailto:mike@clickablebliss.com
+ [3]: mailto:mike@mikezornek.com

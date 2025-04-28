@@ -23,6 +23,6 @@ This talk covers a handful of code patterns that were successful on my recent pr
 Apologies the audience participation isn't well captured.
 
  [1]: http://phillycocoa.org/
- [2]: mailto:mike@clickablebliss.com
+ [2]: mailto:mike@mikezornek.com
  [4]: https://vimeo.com/phillycocoa
  [5]: https://vimeo.com

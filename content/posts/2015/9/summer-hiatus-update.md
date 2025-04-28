@@ -17,7 +17,7 @@ I also just (like a week ago) got a new car. Ended up buying a new 2015 [Hyundai
 
 Well that&#8217;s it for now. Bring on the fall!
 
- [1]: mailto:mike@clickablebliss.com
+ [1]: mailto:mike@mikezornek.com
  [2]: https://twitter.com/nerdyjkg
  [3]: https://twitter.com/zwaldowski?lang=en
  [4]: http://cocoalove.org/

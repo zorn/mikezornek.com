@@ -75,4 +75,4 @@ I have mixed feeling about the time I spent doing the build. It does feel empowe
  [7]: http://mikezornek.com/media/images/gaming-pc/all-done.jpg "All Done"
  [8]: http://mikezornek.com/media/images/gaming-pc/windows.jpg "Windows"
  [9]: http://www.howtogeek.com/224352/what%E2%80%99s-the-difference-between-windows-10%E2%80%99s-express-or-custom-setup/
- [10]: mailto:mike@clickablebliss.com
+ [10]: mailto:mike@mikezornek.com

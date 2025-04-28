@@ -28,4 +28,4 @@ I&#8217;ll post more as Clash gets going. If you have any questions [let me know
 
  [1]: https://www.bignerdranch.com/
  [2]: https://twitter.com/cbkeur/status/714500809208279044
- [3]: mailto:mike@clickablebliss.com
+ [3]: mailto:mike@mikezornek.com

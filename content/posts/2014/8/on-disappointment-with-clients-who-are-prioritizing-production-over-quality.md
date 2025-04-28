@@ -26,4 +26,4 @@ A friend of mine emailed me, amongst a few others, asking for advice. He&#8217;s
 
 Have a question for me? [Send me an email.][1]
 
- [1]: mailto:mike@clickablebliss.com
+ [1]: mailto:mike@mikezornek.com

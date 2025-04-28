@@ -25,5 +25,5 @@ Introducing **Merge Conflicts** a Cocoa focused debate podcast where people argu
 
 Thoughts? Let me know via [email][1] or the twitters [@zorn][2].
 
- [1]: mailto:mike@clickablebliss.com
- [2]: https://twitter.com/zorn
+ [1]: mailto:mike@mikezornek.com
+ [2]: https://jawns.club/@zorn

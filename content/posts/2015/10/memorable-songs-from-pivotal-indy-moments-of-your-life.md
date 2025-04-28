@@ -19,5 +19,5 @@ I&#8217;d love to hear what songs match up to your own big indy life moments. Sh
  [4]: https://www.youtube.com/watch?v=rY0WxgSXdEE
  [5]: http://asmp.org/
  [6]: https://www.youtube.com/watch?v=izcrHJcd_30
- [7]: mailto:mike@clickablebliss.com
- [8]: http://twitter.com/zorn
+ [7]: mailto:mike@mikezornek.com
+ [8]: https://jawns.club/@zorn

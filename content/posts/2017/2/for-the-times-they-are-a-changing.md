@@ -15,4 +15,4 @@ On the immediate horizon, I&#8217;m a bit focused on my neck surgery, which is o
 
 For work, I open to ideas. Generally speaking I&#8217;m unlikely to make long term plans and would probably prefer to take on some smaller consulting work. I&#8217;d like to steep a bit on my long term options. If you have anyone who might be in need for an experienced iOS or Mac developer, [let me know][1]. Thanks for your help.
 
- [1]: mailto:mike@clickablebliss.com
+ [1]: mailto:mike@mikezornek.com

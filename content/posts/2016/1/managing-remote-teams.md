@@ -79,4 +79,4 @@ Hope you enjoyed my notes. If you have anything to share about your own remote w
  [4]: http://amzn.to/1nqWfU4
  [5]: https://highfive.com/product/video-conferencing
  [6]: http://www.doublerobotics.com/
- [7]: mailto:mike@clickablebliss.com
+ [7]: mailto:mike@mikezornek.com

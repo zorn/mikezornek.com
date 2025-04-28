@@ -66,4 +66,4 @@ Hope you enjoyed my rundown. If you help capture stuff like this and have any ti
  [15]: http://www.telestream.net/screenflow/overview.htm
  [16]: https://vimeo.com/pro
  [17]: http://us.getcatchbox.com/
- [18]: mailto:mike@clickablebliss.com
+ [18]: mailto:mike@mikezornek.com
