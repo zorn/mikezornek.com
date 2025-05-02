@@ -8,7 +8,7 @@ Took a few moments tonight to record a short demo of [RankedVote.app](https://ra
 
 > Flick is a simple Elixir / Phoenix LiveView app that helps capture ranked votes. 
 > 
-> This project was built to help the [Elixir Book Club](https://elixirbookclub.com/) pick books, but it is open to all.
+> This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books, but it is open to all.
 
 I'm going to moving on to other side projects and seems as good a time as any to capture this in action.
 
