@@ -1,0 +1,7 @@
+<div
+  class="{{ with .Params.bgColor }}{{ . }}{{ end }} {{ with .Params.textColor }}
+    {{ . }}
+  {{ end }} block border border-gray-600 px-2 py-0 text-sm text-shadow-xs/100"
+>
+  {{ .Params.title }}
+</div>

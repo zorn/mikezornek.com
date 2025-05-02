@@ -49,6 +49,8 @@ build:
       target: css
     - source: (postcss|tailwind)\.config\.js
       target: css
+    - source: assets/.*\.(.*)$
+      target: $1
 module:
   mounts:
     - source: assets
