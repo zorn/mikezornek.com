@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2025/4/napkin-estimate-budgeting-with-google-sheets/index.md
+hugo new posts/2025/5/ranked-vote-flick-demo/index.md
 ```
 
 ## The `reborn` theme.
