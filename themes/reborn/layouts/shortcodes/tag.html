@@ -1,4 +1,7 @@
-
-<div class="block {{ with .Params.bgColor }}{{ . }}{{ end }} px-2 py-0 {{ with .Params.textColor }}{{ . }}{{ end }} text-sm border-gray-600 border text-shadow-xs/100">
-  {{.Params.title}}
+<div
+  class="{{ with .Params.bgColor }}{{ . }}{{ end }} {{ with .Params.textColor }}
+    {{ . }}
+  {{ end }} block border border-gray-600 px-2 py-0 text-sm text-shadow-xs/100"
+>
+  {{ .Params.title }}
 </div>

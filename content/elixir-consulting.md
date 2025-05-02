@@ -75,6 +75,12 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 {{< consulting-contact-buttons >}}
 
+## Rate and Availability
+
+I am available and looking for new consulting projects. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed.
+
+My rate is $125-$150 per hour, with discounts available for open-source initiatives or long-term commitments. 
+
 ## Technical Proficiencies
 
 <h3 class="not-prose font-bold">Expert</h3>
@@ -92,16 +98,16 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 {{< tag title=Tailwind bgColor="bg-[#38bdf8]" textColor="text-white" >}}
 {{< tag title="GitHub Actions" bgColor="bg-[#000000]" textColor="text-white" >}}
 {{< tag title="Postgres" bgColor="bg-[#316192]" textColor="text-white" >}}
-{{< tag title="CQRS/Event Sourcing" bgColor="bg-red-500" textColor="text-white" >}}
 {{< tag title="Oban" bgColor="bg-[#186328]" textColor="text-white" >}}
 </div>
 
 <h3 class="not-prose font-bold mt-2">Beginner</h3>
 
 <div class="flex items-center gap-1">
+{{< tag title="CQRS/Event Sourcing" bgColor="bg-red-500" textColor="text-white" >}}
 {{< tag title="Ash Framework" bgColor="bg-[#ed8702]" textColor="text-white" >}}
 {{< tag title=Rust bgColor="bg-[#f74b00]" textColor="text-white" >}}
-{{< tag title="Docker Actions" bgColor="bg-[#2088ff]" textColor="text-white" >}}
+{{< tag title="Docker" bgColor="bg-[#2088ff]" textColor="text-white" >}}
 {{< tag title="Svelte" bgColor="bg-[#f35124]" textColor="text-white" >}}
 {{< tag title="SvelteKit" bgColor="bg-[#f35124]" textColor="text-white" >}}
 {{< tag title="React" bgColor="bg-[#00d8ff]" textColor="text-white" >}}
@@ -119,14 +125,6 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 {{< tag title="Perl" bgColor="bg-[#0196c1]" textColor="text-white" >}}
 </div>
 
-## Rate and Availability
-
-I am available and looking for new consulting projects. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed.
-
-My rate is $125-$150 per hour, with discounts available for open-source initiatives or long-term commitments. 
-
-{{< consulting-contact-buttons >}}
-
 ## Examples of My Work
 
 ### Community
@@ -142,7 +140,7 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 
 ### Open Source
 
-- [Flick](https://github.com/zorn/flick) is a simple Elixir / Phoenix LiveView app to help capture ranked votes. You can see this project in action at <https://rankedvote.app/>. This project was built to help the [Elixir Book Club](https://elixirbookclub.com/) pick books but is open for all to use.
+- [Flick](https://github.com/zorn/flick) is a simple Elixir / Phoenix LiveView app to help capture ranked votes. You can see this project in action at <https://rankedvote.app/>. This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books but is open for all to use.
 - [Franklin](https://github.com/zorn/franklin) was an intentionally over-engineered blog application written in Elixir. It was a project I worked on to get more familiar with event sourcing using [Commanded](https://github.com/commanded/commanded). While I am anxious to use event sourcing in the future, this project did not ship and remains an abandoned historic tinker space.
 
 ### Videos
