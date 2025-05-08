@@ -1,21 +1,23 @@
 {{ define "main" }}
   <main>
     <div class="mx-auto max-w-screen-md px-4 md:px-0">
-      <form action="/search" method="GET">
-        <input
-          type="search"
-          name="q"
-          id="search-query"
-          placeholder="Search...."
-        />
-        <button type="submit">Search</button>
-      </form>
+      {{ partial "search-form.html" . }}
 
-      <div id="search-results"></div>
-      <div class="search-loading">Loading...</div>
+
+      <div
+        class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+      >
+        <div id="search-results" class="space-y-6"></div>
+        <div class="search-loading hidden py-8 text-center">
+          <div
+            class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-purple-600 border-t-transparent"
+          ></div>
+          <p class="mt-2 text-gray-600">Searching...</p>
+        </div>
+      </div>
 
       <script id="search-result-template" type="text/x-js-template">
-        <div class="my-4 prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none" id="summary-${key}">
+        <div class="my-4" id="summary-${key}">
             <h3><a href="${link}">${title}</a></h3>
             <p>${snippet}</p>
             <p>
