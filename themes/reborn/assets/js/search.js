@@ -1,4 +1,13 @@
+/**
+ * @fileoverview Search functionality for the blog using Fuse.js
+ * @requires fuse.js
+ * @requires mark.js
+ */
+
+/** @const {number} Maximum number of characters to include in search result snippets */
 var summaryInclude = 180;
+
+/** @const {Object} Configuration options for Fuse.js search */
 var fuseOptions = {
     shouldSort: true,
     includeMatches: true,
@@ -30,8 +39,11 @@ if (inputBox !== null) {
     }
 }
 
+/**
+ * Executes the search using Fuse.js
+ * @param {string} searchQuery - The search term to look for
+ */
 function executeSearch(searchQuery) {
-
     show(document.querySelector('.search-loading'));
 
     fetch('/index.json').then(function (response) {
@@ -56,8 +68,11 @@ function executeSearch(searchQuery) {
     });
 }
 
+/**
+ * Populates the search results in the DOM
+ * @param {Array<Object>} results - Array of search results from Fuse.js
+ */
 function populateResults(results) {
-
     var searchQuery = document.getElementById("search-query").value;
     var searchResults = document.getElementById("search-results");
 
@@ -65,7 +80,6 @@ function populateResults(results) {
     var templateDefinition = document.getElementById("search-result-template").innerHTML;
 
     results.forEach(function (value, key) {
-
         var contents = value.item.contents;
         var snippet = "";
         var snippetHighlights = [];
@@ -97,10 +111,15 @@ function populateResults(results) {
             var instance = new Mark(document.getElementById('summary-' + key));
             instance.mark(snipvalue);
         });
-
     });
 }
 
+/**
+ * Renders a template string with the provided data
+ * @param {string} templateString - The template string to render
+ * @param {Object} data - The data to use in the template
+ * @returns {string} The rendered template
+ */
 function render(templateString, data) {
     var conditionalMatches, conditionalPattern, copy;
     conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g;
@@ -127,21 +146,42 @@ function render(templateString, data) {
 }
 
 // Helper Functions
+
+/**
+ * Shows an element by setting its display to block
+ * @param {HTMLElement} elem - The element to show
+ */
 function show(elem) {
     elem.style.display = 'block';
 }
+
+/**
+ * Hides an element by setting its display to none
+ * @param {HTMLElement} elem - The element to hide
+ */
 function hide(elem) {
     elem.style.display = 'none';
 }
+
+/**
+ * Gets a URL parameter by name
+ * @param {string} name - The name of the URL parameter
+ * @returns {string} The value of the URL parameter
+ */
 function param(name) {
     return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
 }
 
+/**
+ * Formats a date string into a human-readable format
+ * @param {string} dateString - The date string to format (ISO 8601 format)
+ * @returns {string} The formatted date string (e.g., "January 1, 2024")
+ */
 function formatDate(dateString) {
     const date = new Date(dateString);
     return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
     });
-  }
+}
