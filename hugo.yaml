@@ -41,6 +41,9 @@ menu:
       url: /contact/
       weight: 60
 
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+
 build:
   buildStats:
     enable: true

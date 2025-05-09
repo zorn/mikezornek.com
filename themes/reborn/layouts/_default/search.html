@@ -1,0 +1,66 @@
+{{ define "main" }}
+  <main>
+    <div class="mx-auto max-w-screen-md px-4 md:px-0">
+      {{ partial "search-form.html" . }}
+
+
+      <div
+        class="prose prose-p:leading-[1.5] prose-headings:mb-0 prose-headings:mt-12 prose-p:mt-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+      >
+        <div id="search-results" class="space-y-6"></div>
+        <div class="search-loading hidden py-8 text-center">
+          <div
+            class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-purple-600 border-t-transparent"
+          ></div>
+          <p class="mt-2 text-gray-600">Searching...</p>
+        </div>
+      </div>
+
+      <script id="search-result-template" type="text/x-js-template">
+        <div class="my-4" id="summary-${key}">
+            <h3><a href="${link}">${title}</a></h3>
+            <div class="text-sm text-gray-500">
+              <time datetime="${date}">${formattedDate}</time>
+            </div>
+            <p>${snippet}</p>
+            <p>
+                <small>
+                    ${ isset tags }Tags: ${tags}<br>${ end }
+                </small>
+            </p>
+        </div>
+      </script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"
+        integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+        integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+
+      {{- with resources.Get "js/search.js" }}
+        {{- if eq hugo.Environment "development" }}
+          {{- with . | js.Build }}
+            <script src="{{ .RelPermalink }}"></script>
+          {{- end }}
+        {{- else }}
+          {{- $opts := dict "minify" true }}
+          {{- with . | js.Build $opts | fingerprint }}
+            <script
+              src="{{ .RelPermalink }}"
+              integrity="{{- .Data.Integrity }}"
+              crossorigin="anonymous"
+            ></script>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    </div>
+  </main>
+{{ end }}
