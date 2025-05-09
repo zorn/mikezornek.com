@@ -1,4 +1,3 @@
-console.log("hello from the js file");
 var summaryInclude = 180;
 var fuseOptions = {
     shouldSort: true,
@@ -21,7 +20,6 @@ var fuseOptions = {
 // =============================
 
 var inputBox = document.getElementById('search-query');
-console.log(inputBox);
 if (inputBox !== null) {
     var searchQuery = param("q");
     if (searchQuery) {
