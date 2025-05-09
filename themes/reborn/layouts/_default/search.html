@@ -5,7 +5,7 @@
 
 
       <div
-        class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+        class="prose prose-p:leading-[1.5] prose-headings:mb-0 prose-headings:mt-12 prose-p:mt-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
       >
         <div id="search-results" class="space-y-6"></div>
         <div class="search-loading hidden py-8 text-center">
@@ -19,6 +19,9 @@
       <script id="search-result-template" type="text/x-js-template">
         <div class="my-4" id="summary-${key}">
             <h3><a href="${link}">${title}</a></h3>
+            <div class="text-sm text-gray-500">
+              <time datetime="${date}">${formattedDate}</time>
+            </div>
             <p>${snippet}</p>
             <p>
                 <small>

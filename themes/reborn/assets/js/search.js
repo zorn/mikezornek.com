@@ -89,7 +89,9 @@ function populateResults(results) {
             link: value.item.permalink,
             tags: tags,
             categories: value.item.categories,
-            snippet: snippet
+            snippet: snippet,
+            date: value.item.date,
+            formattedDate: formatDate(value.item.date)
         });
         searchResults.innerHTML += output;
 
@@ -136,3 +138,12 @@ function hide(elem) {
 function param(name) {
     return decodeURIComponent((location.search.split(name + '=')[1] || '').split('&')[0]).replace(/\+/g, ' ');
 }
+
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  }
