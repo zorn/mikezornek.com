@@ -6,7 +6,7 @@ description: I like to think of a Now page as the things I'd share if you were a
 
 ---
 
-Updated: April 21, 2025
+Updated: May 12, 2025
 
 ## What is a Now page?
 
@@ -16,40 +16,49 @@ You can find more info here too: <https://nownownow.com/about>
 
 ## Personal
 
-General emotions are still very mixed. There are some good days but also some bad ones. On the whole I think it is trending in a positive direction but current events scare the crap out of me. Seems evitable we'll crash any minute -- but what else can I do but try to better myself and my situation while the chaos wave approaches. 
+Nervous excitement about [moving on from my previous full-time job](/posts/2025/5/returning-to-self-employment/).
 
-"I'm tired of living in an Onion headline" was an accurate quote I saw the other day. 
+Generally, there have been more positive vibes lately. I am a little worried about how I might use and misuse the upcoming excessive free time. Trying hard to block off time and set daily/weekly goals.
 
-Enjoying the baseball season. It is a wonderful distraction even with a shaky bullpen.
+Enjoying the baseball season. It is a wonderful distraction, even with a shaky bullpen.
+
+World news is still very concerning, but trying to avoid letting it saturate my attention and do good work with the tools I am given.
 
 ## Currently Snacking On
 
-Raisinets
+Easter candy leftovers.
 
 ## Work
 
-Currently working full time for [Allovue](https://www.allovue.com/) doing full stack [Elixir](https://elixir-lang.org/) and [Phoenix LiveView](https://www.phoenixframework.org/) web development -- but actively looking to return to [consulting](https://mikezornek.com/elixir-consulting/). If you have any project leads let me know.
+[Looking for consulting work](/elixir-consulting/) is a big priority day-to-day. Doing a mix of cold outreach, preparing to publish Elixir content in the weeks ahead, and otherwise trying to make space for good happenstance.
 
 ## Side Projects
 
-I'm currently doing a bunch of life journaling and debating future side projects. Doing exploratory technical research into [local-first software](/posts/2025/2/what-is-local-first-software/), TypeScript, Svelte, Rust, and Tauri. Need to do more discovery around audience and their pain. A few weeks ago, I was content to do this as an education-focused project, but more so as of late (with job/economy stress) has me more interested in revenue-generating ideas.
+I'm interested in the possibility of building some side-project software for the audience of digital product builders. Specifically, I'm thinking about customer success tooling. Right now, I'm spending a little time looking at various tools and watering holes to understand the landscape better.
 
-I did spend a few sessions doing some website improvements and made a point to blog some [about](/posts/2025/4/custom-fonts-without-google/) [them](/posts/2025/4/modern-hugo-on-render-static-site/) to get double value from the time spent. Also did a post on my [expense tracking](/posts/2025/4/google-sheets-expense-budgeting/). Feels great to blog regularly.
+This pivot from some notebook / journaling / [local-first](/posts/2025/2/what-is-local-first-software/) interests is primarily driven by money. I saw that project as more of an education / personal-itch to scratch and in the moment I a bit more paranoid about money so would like to prefer business-to-business app ideas where revenue (while still a long shot) feels more approachable.  
 
-I expect to continue updating the blog infrastructure. I'm interested in getting some better search working, more content pages, revamping the consulting page, and [more](https://github.com/zorn/mikezornek.com/issues). 
+Blog upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content. 
+
+Otherwise, my main side projects right now are learning projects:
+
+- Finishing up [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) for book club. Hoping to take some of the lessons learned and better package my upcoming side projects for self-hosting interests.
+- Reading through [Svelte](https://svelte.dev/tutorial/svelte/welcome-to-svelte) docs as I would like to use it for some more complex frontend components, even in my LiveView work.
+- Planning to work through a [web accessibility](https://frontendmasters.com/courses/accessibility-v3/) course.
 
 ## Currently Playing
 
-* MLB: The Show 2025 -- Been keeping up with live content and enjoying it. There are still excessive pay-for-packs that annoy me, but I'm making due with the standard content.
-* Civilization 7 -- Have not played much in the last few weeks but am likely to return to see how the 1.2 update is. The last game I did play I finally starting installing some mods, and they help a lot.
-* I may give [Lunar Silver Star Story](https://www.lunarremastered.com/) some time soon on my Steam Deck. I enjoyed the Playstation 1 version back in the day.
+* MLB: The Show 2025 -- Been keeping up with live content and enjoying it. Avoiding the pay-to-win packs and consuming the normal content.
+* Played a small amount of [Lunar Silver Star Story](https://www.lunarremastered.com/) on my Steam Deck.
+* Very much thinking about a new Stardew Valley farm.
 
 ## Currently Reading
 
 * [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
+* [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
 * [Essential TypeScript 5](https://www.manning.com/books/essential-typescript-5-third-edition) (looking to use TypeScript with my potential Svelte work)
 * [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
-* [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (stalled)
+* [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (currently stalled, but might pick it up with new time on my hands)
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
@@ -57,8 +66,7 @@ If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 * Phillies baseball
 * Seinfeld (season 4)
-* Peaky Blinders (season 3) (stalled)
 
 ## Upcoming Events
 
-Not too much. Probably go to a Phillies game soon. I also have a shore trip planned for June with my sister.
+A June shore/beach trip with my sister.
