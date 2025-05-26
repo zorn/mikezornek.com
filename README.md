@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2025/5/returning-to-self-employment/index.md
+hugo new posts/2025/5/open-pairing-elixir-mentor-sessions/index.md
 ```
 
 ## The `reborn` theme.
