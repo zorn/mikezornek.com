@@ -1,6 +1,6 @@
 ---
 title: "A Visual Tour of Phoenix's Updated 'magic link' Authentication Code Generator"
-date: 2025-05-23T10:23:09-04:00
+date: 2025-05-27T08:00:00-04:00
 description: something tweet like
 images:
   - posts/2025/5/phoenix-magic-link-authentication-review/2_register_form.png
