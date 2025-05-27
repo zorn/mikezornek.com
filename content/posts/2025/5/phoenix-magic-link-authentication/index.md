@@ -48,29 +48,29 @@ I consider myself a user-focused developer, so let's start with a visual review 
 
 ### Navigation updates
 
-![Screenshot showing navigation bar with Register and Log in links](1_register_log_in_navigation.png)
+![Screenshot showing navigation bar with Register and Log in links](/posts/2025/5/phoenix-magic-link-authentication/1_register_log_in_navigation.png)
 
 One of the first outcomes of running the code generator is a change to the site navigation. In the upper-right you now have links for `Register` and `Log in`.
 
 ### Registration page
 
-![Screenshot showing a registration form asking for email only.](2_register_form.png)
+![Screenshot showing a registration form asking for email only.](/posts/2025/5/phoenix-magic-link-authentication/2_register_form.png)
 
 On the registration page, you'll see a form asking for a single input value,  the user's email.
 
 While password authentication is still an option, a password is not asked for at the time of registration. 
 
-![Screenshot showing a toast notification telling the user an email was sent to their account.](3_register_toast.png)
+![Screenshot showing a toast notification telling the user an email was sent to their account.](/posts/2025/5/phoenix-magic-link-authentication/3_register_toast.png)
 
 Once filled out, the user is presented with a toast explaining that an email was sent to confirm their account.
 
 ### Opening the confirmation 'magic link'
 
-![Screenshot of a black and white minimal email browsing UI.](5_dev_mailbox.png)
+![Screenshot of a black and white minimal email browsing UI.](/posts/2025/5/phoenix-magic-link-authentication/5_dev_mailbox.png)
 
 When working in local dev, the Phoenix app runs with a web interface to a fake email inbox at `http://localhost:4000/dev/mailbox/`.
 
-![Screenshot of the page shown after clicking the magic link.](6_magic_link_page_view.png)
+![Screenshot of the page shown after clicking the magic link.](/posts/2025/5/phoenix-magic-link-authentication/6_magic_link_page_view.png)
 
 Upon clicking the magic link, the user is presented with a simple form that offers an optional checkbox to `Keep me logged in` (which will last for 14 days; see module attribute `@session_validity_in_days`).
 
@@ -78,13 +78,13 @@ This page is required because magic links can be "viewed" by automated systems, 
 
 Once the user clicks on the `Confirm my account` button, they will, in fact, be authenticated AND their account confirmed. On subsequent flows, the button will say `Log in`.
 
-![Screenshot showing an authentication toast.](7_authenticated_toast.png)
+![Screenshot showing an authentication toast.](/posts/2025/5/phoenix-magic-link-authentication/7_authenticated_toast.png)
 
 After authentication, the user is redirected to a predetermined `signed_in_path` or a stored `user_return_to` path and is presented with a toast saying they have been authenticated.
 
 ### Authenticated navigation
 
-![Screenshot showing a navigation with email, Settings and Log out](8_settings_log_out_naviation.png)
+![Screenshot showing a navigation with email, Settings and Log out](/posts/2025/5/phoenix-magic-link-authentication/8_settings_log_out_naviation.png)
 
 After the user is authenticated, the navigation changes to show the account email address, a `Settings` link, and a `Log out` link.
 
@@ -92,7 +92,7 @@ After the user is authenticated, the navigation changes to show the account emai
 
 To examine the log in form, we will first `Log out` and see a simple toast with `Logged out successfully.`. Then, upon clicking the `Log in` link, you will see this page:
 
-![Screenshot showing the log in form](4_log_in_form.png)
+![Screenshot showing the log in form](/posts/2025/5/phoenix-magic-link-authentication/4_log_in_form.png)
 
 The upper half of the page invites you to `Log in with email`. Filling out an email will result in a toast saying, `If your email is in our system, you will receive instructions for logging in shortly.` That email looks very similar to the confirmed email we showed before.
 
@@ -108,7 +108,7 @@ An account can, in fact, have a password. It is set on the `Settings` page we wi
 
 ### Settings
 
-![Screenshot showing two forms. One to `Change Email` and another to `Save Password`](9_settings.png)
+![Screenshot showing two forms. One to `Change Email` and another to `Save Password`](/posts/2025/5/phoenix-magic-link-authentication/9_settings.png)
 
 As an authenticated user, you'll see that the `Settings` page provides two forms, one for `Change Email` and one for `Save Password`.
 
