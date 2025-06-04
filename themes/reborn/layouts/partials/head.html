@@ -31,8 +31,15 @@
 <script
   defer
   data-domain="mikezornek.com"
-  src="https://plausible.io/js/script.js"
+  src="https://plausible.io/js/script.file-downloads.outbound-links.js"
 ></script>
+<script>
+  window.plausible =
+    window.plausible ||
+    function () {
+      (window.plausible.q = window.plausible.q || []).push(arguments);
+    };
+</script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
