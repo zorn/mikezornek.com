@@ -12,7 +12,9 @@
             <li class="m-0 p-0">
               <a href="{{ .Permalink }}">{{ .Title }}</a>
               |
-              <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "Jan 2, 2006" }}
+              </time>
             </li>
           {{ end }}
         </ol>
