@@ -2,7 +2,8 @@
     "htmlWhitespaceSensitivity": "ignore",
     "plugins": [
         "prettier-plugin-tailwindcss",
-        "prettier-plugin-go-template"
+        "prettier-plugin-go-template",
+        "@awmottaz/prettier-plugin-void-html"
     ],
     "overrides": [
         {

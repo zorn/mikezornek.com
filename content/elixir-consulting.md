@@ -110,7 +110,7 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 {{< tag title="Docker" bgColor="bg-[#2088ff]" textColor="text-white" >}}
 {{< tag title="Svelte" bgColor="bg-[#f35124]" textColor="text-white" >}}
 {{< tag title="SvelteKit" bgColor="bg-[#f35124]" textColor="text-white" >}}
-{{< tag title="React" bgColor="bg-[#00d8ff]" textColor="text-white" >}}
+{{< tag title="React" bgColor="bg-[#005466]" textColor="text-white" >}}
 </div>
 
 <h3 class="not-prose font-bold mt-2">Historical</h3>
