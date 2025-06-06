@@ -114,7 +114,7 @@ So far, my main games have been Civ 6, Stardew Valley (trying to finish perfecti
 
 As 2025 approaches, I'm looking forward to Civ 7 and a playthrough of Red Dead 2 with some mods to shake up the gameplay. There is a rumor that MLB: The Show might get a PC release this year, and if so, I might play it here.
 
-<video controls width="100%">
+<video controls>
   <source src="oh-yeah.mp4" type="video/mp4" />
   <a href="oh-yeah.mp4">Download MP4.</a>
 </video>
