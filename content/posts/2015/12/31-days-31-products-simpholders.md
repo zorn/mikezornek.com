@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: SimPholders'
+title: "31 Days, 31 Products: SimPholders"
 date: 2015-12-01T19:38:25+00:00
 aliases: /2015/12/01/31-days-31-products-simpholders/
 categories:
   - Recommended
-
 ---
+
 ## Day 08: SimPholders
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -18,7 +18,7 @@ I&#8217;ve been using SimPholders for a while and it&#8217;s really handy. I fin
 
 SimPholders has a [free trial][3] and when it&#8217;s up you can [buy a license][4] for $11 from their website.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://simpholders.com
- [3]: https://simpholders.com/site/assets/files/1115/simpholders_2_1.dmg
- [4]: https://simpholders.com/
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://simpholders.com
+[3]: https://simpholders.com/site/assets/files/1115/simpholders_2_1.dmg
+[4]: https://simpholders.com/

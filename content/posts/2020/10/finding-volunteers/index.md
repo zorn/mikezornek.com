@@ -16,12 +16,12 @@ Take for example, my own [Philly Elixir](https://www.meetup.com/PhillyElixir/) g
 
 Beyond talks and event presentations there are lots of small tasks you can define and use to help draw out volunteerism within you group. Some examples:
 
-* Marketing outreach to other groups.
-* Social media posting.
-* Write post-meeting notes.
-* Picking up event food.
-* Help setup the room or AV needs.
-* Group photographer.
-* Website maintainer.
+- Marketing outreach to other groups.
+- Social media posting.
+- Write post-meeting notes.
+- Picking up event food.
+- Help setup the room or AV needs.
+- Group photographer.
+- Website maintainer.
 
 What are some other example of volunteerism can you think of? [Let me know](/contact) for a future post update.

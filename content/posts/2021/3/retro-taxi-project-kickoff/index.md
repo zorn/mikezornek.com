@@ -10,16 +10,16 @@ Phoenix by Example is all about crafting educational content extracted from open
 
 From the [pitch document](https://github.com/phoenix-by-example/retro_taxi/blob/main/docs/c1/feature_post_and_vote.md):
 
-> A retrospective meeting is a regular practice of agile teams or any group of people who are looking for continued improvement to their team process, communication or habits. Successful retro meetings give the team an opportunity to reflect on what is working, what is not and what they want to do next. 
+> A retrospective meeting is a regular practice of agile teams or any group of people who are looking for continued improvement to their team process, communication or habits. Successful retro meetings give the team an opportunity to reflect on what is working, what is not and what they want to do next.
 >
 > Retrospective meetings can be executed in many different ways but with the advent of more people working remotely having an online collaborative tool to help execute the meeting and capture feedback is often advantageous. Some people will initially lean on collaborative tools like Google Docs to help execute a retro meeting and while it can work, it is not very elegant or structured. There are also dedicated retro tools but most are locked behind account registration, paywalls or try to do too many things.
-> 
+>
 > This project aims to provide a simple, focused tool to help people run a retro meeting online. Our solution will value:
-> 
-> * **A registrations-free experience** over formalized team management.
-> * **One-time use boards** over detailed historic archives.
-> * **Conversations** over analytical measurements or note taking.
-> * **A responsive web experience** over platform-specific apps.
+>
+> - **A registrations-free experience** over formalized team management.
+> - **One-time use boards** over detailed historic archives.
+> - **Conversations** over analytical measurements or note taking.
+> - **A responsive web experience** over platform-specific apps.
 
 RetroTaxi will utilize [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html) fairly heavily and should be a useful source of topics to discuss.
 
@@ -53,10 +53,10 @@ The second project goal is to (hopefully) **provide more useful and usable solut
 
 With the early discovery and my [first pitch](https://github.com/phoenix-by-example/retro_taxi/blob/main/docs/c1/feature_post_and_vote.md) written I see the next steps as follows:
 
-* Sketch out the HTML/TailwindCSS needed to execute the design.
-* Build out the core contexts needed to model the behaviors of the board.
-* Create the LiveView to wire up the behaviors to the UI, breaking the interface into simple, testable components.
-* Refine the interactions and test non-happy path experiences (browser reload/rejoin).
-* Deploy and test the app to be used on the public internet.
+- Sketch out the HTML/TailwindCSS needed to execute the design.
+- Build out the core contexts needed to model the behaviors of the board.
+- Create the LiveView to wire up the behaviors to the UI, breaking the interface into simple, testable components.
+- Refine the interactions and test non-happy path experiences (browser reload/rejoin).
+- Deploy and test the app to be used on the public internet.
 
 The plan is to do this project in 6 weeks, with about 10 hours per week of dedicated time. I'll be blogging my progress here so if you want to stay informed be sure to subscribe.

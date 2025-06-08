@@ -4,7 +4,7 @@ date: 2022-07-30T11:26:37-04:00
 description: Journal -- July 30, 2022
 ---
 
-Saturday, July 30, 2022 -- It has been a calm week, and I am happy to have it. 
+Saturday, July 30, 2022 -- It has been a calm week, and I am happy to have it.
 
 On Wednesday met up with my Aunt for dinner at one of our local pub/pizza place. Then on Thursday my sister and I headed up to PARX Casino for a nicer dinner and a few quick sessions of misplaced hopes with the slot machines. I was particularly bummed I did not get one BIG spin on the Wheel of Fortune game. It is all I was looking for. At least the steak dinner was good, very good actually.
 

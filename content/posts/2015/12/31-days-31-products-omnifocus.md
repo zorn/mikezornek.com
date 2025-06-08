@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: OmniFocus'
+title: "31 Days, 31 Products: OmniFocus"
 date: 2015-12-07T23:22:05+00:00
 aliases: /2015/12/07/31-days-31-products-omnifocus/
 categories:
   - Recommended
-
 ---
+
 ## Day 14: OmniFocus
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -22,13 +22,13 @@ I also use a [browser extension][5] for quick recording of URLs. This isn&#8217;
 
 [OmniFocus][2] for Mac does have a [free trial][7]. When you are ready to buy you can use the [Mac App Store][8] or buy from [OmniGroup direct][9]. Standard Edition is $40, Pro is $80. The iOS app ([App Store][10]) is similarly, $40 for Standard and $60 for Pro.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.omnigroup.com/omnifocus
- [3]: http://amzn.to/1XQuULH
- [4]: http://mikezornek.com/2015/11/16/rebooting-my-professional-side-projects/
- [5]: https://chrome.google.com/webstore/detail/send-to-omnifocus/ohdhaodomnlifoigpfcbjpcegdbefnen
- [6]: http://mikezornek.com/2015/12/05/31-days-31-products-instapaper/
- [7]: https://www.omnigroup.com/download/latest/omnifocus/
- [8]: https://www.omnigroup.com/download/appstore/omnifocus
- [9]: https://www.omnigroup.com/omnifocus#buy-now
- [10]: https://www.omnigroup.com/download/appstore/omnifocus-ios
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.omnigroup.com/omnifocus
+[3]: http://amzn.to/1XQuULH
+[4]: http://mikezornek.com/2015/11/16/rebooting-my-professional-side-projects/
+[5]: https://chrome.google.com/webstore/detail/send-to-omnifocus/ohdhaodomnlifoigpfcbjpcegdbefnen
+[6]: http://mikezornek.com/2015/12/05/31-days-31-products-instapaper/
+[7]: https://www.omnigroup.com/download/latest/omnifocus/
+[8]: https://www.omnigroup.com/download/appstore/omnifocus
+[9]: https://www.omnigroup.com/omnifocus#buy-now
+[10]: https://www.omnigroup.com/download/appstore/omnifocus-ios

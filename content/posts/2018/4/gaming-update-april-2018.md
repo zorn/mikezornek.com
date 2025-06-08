@@ -4,8 +4,8 @@ date: 2018-04-05T00:57:29+00:00
 aliases: /2018/04/04/gaming-update-april-2018/
 categories:
   - Gaming
-
 ---
+
 So [last month][1] I explained how I recently unsubscribed from WoW, somewhat because of it&#8217;s addictive nature and somewhat due to an interest in catching up with my growing game backlog. A few weeks in what do I do but replace it with new crack in the form of Stardew Valley.
 
 {{< youtube HZ-st7cCrQA >}}
@@ -28,6 +28,6 @@ One nice thing they are doing right now is rewarding full packs with quest compl
 
 Up next? I&#8217;d really like to give Zelda: Breath of the Wild a second chance. I put in like 5 hours when I first got it but nothing since.
 
- [1]: http://mikezornek.com/2018/03/04/gaming-update-march-2018/
- [2]: http://mikezornek.com/2016/06/19/my-new-pc-gaming-computer/
- [3]: https://youtu.be/REMaCVZ7E8E
+[1]: http://mikezornek.com/2018/03/04/gaming-update-march-2018/
+[2]: http://mikezornek.com/2016/06/19/my-new-pc-gaming-computer/
+[3]: https://youtu.be/REMaCVZ7E8E

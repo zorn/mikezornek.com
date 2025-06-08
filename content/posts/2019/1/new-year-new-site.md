@@ -2,7 +2,6 @@
 title: "New Year, New Site"
 date: 2019-01-01T19:51:21-05:00
 aliases: /posts/2019/01/new-year-new-site/
-
 ---
 
 Happy New Year everyone! Hope everyone had a nice break and is recharged for the new year.
@@ -17,4 +16,4 @@ If you utilize the [RSS feed](http://mikezornek.com/index.xml) for this site you
 
 Similarly I've updated my Micro.Blog to use my own domain now, so its [RSS feed](http://microblog.mikezornek.com/feed.xml) is updated as well.
 
-Feels good to check this project off the list. Hopefully it will encourage some more writing in the future. Stay tuned. 
+Feels good to check this project off the list. Hopefully it will encourage some more writing in the future. Stay tuned.

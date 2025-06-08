@@ -16,7 +16,7 @@ This is a book club dedicated to learning Kotlin and Android application develop
 
 My name is Mike Zornek and I am from from Philadelphia, PA. I am the developer behind the [Guildflow](/projects/guildflow/) website that hosts this book club and am selfishly using this book club in part to help test it out.
 
-I am a long time Mac and iOS developer. I am interested in learning Kotlin and Android so I can help build a companion app for Guildflow. I am also interested in being more familiar with Kotlin and Android as I often work on consulting projects that develop both iOS and Android versions. 
+I am a long time Mac and iOS developer. I am interested in learning Kotlin and Android so I can help build a companion app for Guildflow. I am also interested in being more familiar with Kotlin and Android as I often work on consulting projects that develop both iOS and Android versions.
 
 ## The Books
 

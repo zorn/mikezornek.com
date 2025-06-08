@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: SourceTree'
+title: "31 Days, 31 Products: SourceTree"
 date: 2015-12-06T20:52:01+00:00
 aliases: /2015/12/06/31-days-31-products-sourcetree/
 categories:
   - Recommended
-
 ---
+
 ## Day 13: SourceTree
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -20,7 +20,7 @@ My favorite features include, spell checking my commit messages, diff-ing branch
 
 SourceTree is a [free download][4] available from the Atlassian website though you may need to register for an unlock license.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.sourcetreeapp.com/
- [3]: http://mikezornek.com/media/images/31products/sourcetree.png "SourceTree"
- [4]: https://www.sourcetreeapp.com/download
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.sourcetreeapp.com/
+[3]: http://mikezornek.com/media/images/31products/sourcetree.png "SourceTree"
+[4]: https://www.sourcetreeapp.com/download

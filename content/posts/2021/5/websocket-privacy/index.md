@@ -4,7 +4,7 @@ date: 2021-05-20T20:30:00-04:00
 description: How do we block ads and tracking data if they use the same hostname/websocket of the original website?
 ---
 
-I'm a privacy advocate. I use Firefox as my main browser. I install adblock browser extensions. I block ads from within my network router. Most of these privacy tools rely on the fact most ads and tracking happen through JavaScripts which are embedded alongside the websites we are visiting and send tracking data to a third party hostname. We know these hostnames are suspect and so we block the connections outright. 
+I'm a privacy advocate. I use Firefox as my main browser. I install adblock browser extensions. I block ads from within my network router. Most of these privacy tools rely on the fact most ads and tracking happen through JavaScripts which are embedded alongside the websites we are visiting and send tracking data to a third party hostname. We know these hostnames are suspect and so we block the connections outright.
 
 But what if the ads and tracking were to flow through the same hostname of the original website? What if the ads and tracking were woven though the same websocket connection that the main site ran through? How would we be able to block that?
 

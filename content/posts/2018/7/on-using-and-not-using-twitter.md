@@ -6,8 +6,8 @@ categories:
   - Gripes
   - Life Notes
   - Personal Projects
-
 ---
+
 {{< youtube N7Dwcpa21JM >}}
 
 <https://www.youtube.com/watch?v=N7Dwcpa21JM>
@@ -16,6 +16,6 @@ A quick and dirty video journal reviewing my past and future use of Twitter. My 
 
 Links:
 
-  * <https://jawns.club/@zorn>
-  * <https://micro.blog/zorn>
-  * <http://mikezornek.com/>
+- <https://jawns.club/@zorn>
+- <https://micro.blog/zorn>
+- <http://mikezornek.com/>

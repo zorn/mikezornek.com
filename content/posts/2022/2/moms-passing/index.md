@@ -12,7 +12,7 @@ In lieu of flowers we ask for donations be made in her name, Maureen Carney, to 
 
 I look forward to connecting with everyone again after I take some time to get things settled.
 
-***
+---
 
 <figure style="width: 30%; margin: 0;">
 <img src="mom.jpg" alt="Photo of Maureen L. Carney" data-action="zoom" />

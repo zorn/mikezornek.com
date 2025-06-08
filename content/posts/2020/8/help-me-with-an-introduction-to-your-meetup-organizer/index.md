@@ -11,13 +11,14 @@ While the foundation is coming together, there are still a ton of open questions
 
 To be clear, I'm not selling anything, just asking a handful of questions helping me:
 
-* understand why they run their group
-* find out how it's going historically and during COVID
-* learn what tools are working well and what tools are not 
+- understand why they run their group
+- find out how it's going historically and during COVID
+- learn what tools are working well and what tools are not
 
 The call lasts about 30 minutes.
 
 ## [Schedule a 30 minute video chat!](https://savvycal.com/zorn/chat)
+
 If you are part of a technical meetup, please do me a favor and make an introduction to your group leadership. It would be extremely helpful to me. Here is a draft email you can start with:
 
 ```

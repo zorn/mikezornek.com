@@ -7,8 +7,8 @@ categories:
   - iOS
   - Recommended
   - Tips
-
 ---
+
 I came across [this post][1] from Rico Jones on how he records the [Portland Ruby Brigade&#8217;s][2] monthly meetings and thought I&#8217;d do something similar for how we record the [Philly CocoaHead][3] presentations.
 
 ![Capture Setup][4]
@@ -17,10 +17,10 @@ I came across [this post][1] from Rico Jones on how he records the [Portland Rub
 
 This first thing I&#8217;ll note is we do not record the entire meeting. Early on this was to due to the experimental nature of our recording setup but more recently, at a leadership meeting, we made the call to continue to only record our &#8220;main talks&#8221;. We do this for a few reasons:
 
-  * Not recording the &#8220;show and tell&#8221; talks lets those be a little bit more free-form, with less pressure on the presenters (which is a big reason why they are in the agenda).
-  * Many of the show and tells are in-progress app demos, and so there is benefit to keeping them non-public.
-  * We [expect a higher level of preparedness][5] for the main talks, and to ask for people to put that much time into a talk, it would seem wrong not to capture it.
-  * If the whole meeting were being captured / broadcast it would encourage people not to come.
+- Not recording the &#8220;show and tell&#8221; talks lets those be a little bit more free-form, with less pressure on the presenters (which is a big reason why they are in the agenda).
+- Many of the show and tells are in-progress app demos, and so there is benefit to keeping them non-public.
+- We [expect a higher level of preparedness][5] for the main talks, and to ask for people to put that much time into a talk, it would seem wrong not to capture it.
+- If the whole meeting were being captured / broadcast it would encourage people not to come.
 
 ## The Setup
 
@@ -42,28 +42,28 @@ After the meeting we combine the video and audio captures using [ScreenFlow][15]
 
 Overall I&#8217;m pretty happy with the current setup but I do have some ideas:
 
-  * It would be nice if we could get the Apple HDMI connection to work, that would simply our wires a bit. 
-  * At work we use a [Catchbox][17] to help capture Q and A. It would be nice to work out something similar for us.
-  * While it might save a bit of editing time to convert to a wireless mic, it&#8217;s pretty low on my list. Would have to improve some other aspect to make it more worth while.
-  * There is a lot of equipment to carry in, setup and carry out. It&#8217;s very reliant on me personally at the moment. I&#8217;ll probably be missing a meeting or two this year so I hope to train someone else to run this while I&#8217;m gone.
+- It would be nice if we could get the Apple HDMI connection to work, that would simply our wires a bit.
+- At work we use a [Catchbox][17] to help capture Q and A. It would be nice to work out something similar for us.
+- While it might save a bit of editing time to convert to a wireless mic, it&#8217;s pretty low on my list. Would have to improve some other aspect to make it more worth while.
+- There is a lot of equipment to carry in, setup and carry out. It&#8217;s very reliant on me personally at the moment. I&#8217;ll probably be missing a meeting or two this year so I hope to train someone else to run this while I&#8217;m gone.
 
 Hope you enjoyed my rundown. If you help capture stuff like this and have any tips or tricks, [let me know][18]. Thanks.
 
- [1]: http://www.toasterlovin.com/how-i-record-programming-talks/
- [2]: http://pdxruby.org/
- [3]: https://vimeo.com/phillycocoa
- [4]: http://mikezornek.com/media/images/cocoaheads-history/video-capture.jpg "Capture Setup"
- [5]: https://github.com/phillycocoa/agreements/blob/master/Philly%20CocoaHeads%20Speaker%20Agreement.md
- [6]: http://amzn.to/1o3GLpK
- [7]: http://amzn.to/1nLb3h8
- [8]: http://amzn.to/1NOLpMT
- [9]: http://amzn.to/1NOMX9L
- [10]: http://amzn.to/1nLcrAh
- [11]: http://www.fintimer.com/
- [12]: http://amzn.to/1PeEf6z
- [13]: http://amzn.to/1QZ3wq4
- [14]: http://amzn.to/1nLd0Kk
- [15]: http://www.telestream.net/screenflow/overview.htm
- [16]: https://vimeo.com/pro
- [17]: http://us.getcatchbox.com/
- [18]: mailto:mike@mikezornek.com
+[1]: http://www.toasterlovin.com/how-i-record-programming-talks/
+[2]: http://pdxruby.org/
+[3]: https://vimeo.com/phillycocoa
+[4]: http://mikezornek.com/media/images/cocoaheads-history/video-capture.jpg "Capture Setup"
+[5]: https://github.com/phillycocoa/agreements/blob/master/Philly%20CocoaHeads%20Speaker%20Agreement.md
+[6]: http://amzn.to/1o3GLpK
+[7]: http://amzn.to/1nLb3h8
+[8]: http://amzn.to/1NOLpMT
+[9]: http://amzn.to/1NOMX9L
+[10]: http://amzn.to/1nLcrAh
+[11]: http://www.fintimer.com/
+[12]: http://amzn.to/1PeEf6z
+[13]: http://amzn.to/1QZ3wq4
+[14]: http://amzn.to/1nLd0Kk
+[15]: http://www.telestream.net/screenflow/overview.htm
+[16]: https://vimeo.com/pro
+[17]: http://us.getcatchbox.com/
+[18]: mailto:mike@mikezornek.com

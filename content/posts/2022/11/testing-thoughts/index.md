@@ -21,31 +21,22 @@ can't tell people what to do, but I can express why I write tests, what I look g
 
 I disagree with guidance that you should have a test file for each source file.
 
-I think you should test the user contract 
+I think you should test the user contract
 using function names as describe might signal people to have a 1:1 test for each function in a module.
 
 The goal is to validate the user contract with as little code as possible. We do not want to validate the imlimentation details -- the implimentation will change.
 
-
-
 I disagree you need or should try to attain 100% code coverage.
 
-
-
-
-
-
 Future article what makes up a test flake?
+
 - forget to teardown things
 - random data generation conflicts
 - DateTime.now
 
-
-
 Like the idea of saving a network response to help setup the test. Good source of documentation.
 
 Just like code there are lot of considerations and then tradeoff decisions. Thats why its valuable to have a Testing Mission Statement to help get the team to agree to some high level values.
-
 
 web layer
 core layer

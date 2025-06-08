@@ -3,11 +3,11 @@ title: "A Pivotal Year for the Mac Platform"
 date: 2019-01-17T18:55:05-05:00
 ---
 
-This is going to be a pivotal year for the Mac platform and my relationship to it. 
+This is going to be a pivotal year for the Mac platform and my relationship to it.
 
-First up is the Mac Pro. 
+First up is the Mac Pro.
 
-While I've owned Apple laptops since I switched to Mac OS X full time, I almost always had a tower computer as my main hub. I love towers. I love loading them up with hard drives and upgrading the RAM and graphics card after a few years of use. Even after I would have upgraded to a new tower I'd usually make use of the old tower as a backup or media server of some kind. 
+While I've owned Apple laptops since I switched to Mac OS X full time, I almost always had a tower computer as my main hub. I love towers. I love loading them up with hard drives and upgrading the RAM and graphics card after a few years of use. Even after I would have upgraded to a new tower I'd usually make use of the old tower as a backup or media server of some kind.
 
 Things changed in 2011 when I was ready to buy a new tower but Apple hadn't updated the current lineup in any significant way. At the time I decided to go with a loaded 27-inch iMac instead. In general it was a nice machine but did have some faults, heat and dust buildup being the most problematic. I had AppleCare so Apple replaced the overheated graphics card, twice, for no extra charge and I'm sure they would de-dust during the install as well. When AppleCare was up, so were my yearly cleanings and in time the iMac would start to run hot again. Seeing as how Apple has added no dust cleaning features to the current iMac design, not even a simple filter on the air vents, I don't think I can buy an iMac or an iMac Pro again.
 
@@ -27,4 +27,4 @@ Apple's decision to design its own mobile processors for the iPhone and iPad pro
 
 This has very wide implications, many upsides but some downsides too. I have developer concerns. I have consumer questions. I have industry curiosities. Not to mention, what does this mean for my Mac Pro?
 
-Lots of questions. I look forward to the answers. 
+Lots of questions. I look forward to the answers.

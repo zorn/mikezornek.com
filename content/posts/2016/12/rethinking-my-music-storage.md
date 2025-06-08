@@ -6,20 +6,20 @@ categories:
   - Gripes
   - Personal Projects
   - Tips
-
 ---
+
 I&#8217;m not a huge music collector, at least not compared to some other people I know. I do have about 150 GBs of music in my iTunes collection &#8212; lots of it being video game soundtracks I enjoy listening to while I program.
 
 A few things I have not liked about my historic setup:
 
-  * Because the collection was 150 GB I could not store it on my main computer&#8217;s SSD (which was 256 GB in size).
-  * iTunes sucks. I don&#8217;t want to get into details here but as a music player and organization tool it&#8217;s awful. 
+- Because the collection was 150 GB I could not store it on my main computer&#8217;s SSD (which was 256 GB in size).
+- iTunes sucks. I don&#8217;t want to get into details here but as a music player and organization tool it&#8217;s awful.
 
 Some goals for my new setup:
 
-  * I want to get rid of iTunes.
-  * I&#8217;d like to store my music on Dropbox, preferably in a way where I can control which Music (if any) gets synced to my other Dropbox setups.
-  * I have recently become a Spotify member. It&#8217;s got a nice collection I feel I can lean on AND it has some tools the player UI to support local files as well as streaming songs which I think will be key.
+- I want to get rid of iTunes.
+- I&#8217;d like to store my music on Dropbox, preferably in a way where I can control which Music (if any) gets synced to my other Dropbox setups.
+- I have recently become a Spotify member. It&#8217;s got a nice collection I feel I can lean on AND it has some tools the player UI to support local files as well as streaming songs which I think will be key.
 
 With all that said, what I&#8217;m up to:
 

@@ -1,12 +1,12 @@
 ---
-title: 'Know Your Role: Contractor or Consultant'
+title: "Know Your Role: Contractor or Consultant"
 date: 2015-04-22T14:23:12+00:00
 aliases: /2015/04/22/know-your-role-contractor-or-consultant/
 categories:
   - Coding
   - Project Management
-
 ---
+
 I guess I could have use a more sophisticated reference in the title like [Know Thyself][1] but I can&#8217;t help quoting the most electrifying man in sports entertainment, The Rock.
 
 ![The Rock][2]
@@ -21,7 +21,7 @@ A consultant may produce as well but their primary responsibility is help design
 
 If the client looks to you for help to **build the product right**, you are probably a contractor. If the client looks to you for help to **build the right product**, you are probably a consultant.
 
-* * *
+---
 
 Personally, I consider myself a consultant. I love designing the solutions and while I can code, and continually strive to improve my craft, coding by itself is not truly fulfilling.
 
@@ -29,6 +29,6 @@ It&#8217;s been challenging over the last few years since [leaving independent l
 
 I suspect this phenomena is not an isolated problem but discussion about that will have to wait for a future post.
 
- [1]: http://en.wikipedia.org/wiki/Know_thyself
- [2]: http://mikezornek.com/media/images/the-rock.jpg "The Rock"
- [3]: http://mikezornek.com/2013/10/29/my-new-job-with-dmgctrl/
+[1]: http://en.wikipedia.org/wiki/Know_thyself
+[2]: http://mikezornek.com/media/images/the-rock.jpg "The Rock"
+[3]: http://mikezornek.com/2013/10/29/my-new-job-with-dmgctrl/

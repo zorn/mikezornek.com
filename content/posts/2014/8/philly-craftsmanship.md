@@ -12,8 +12,8 @@ categories:
   - Life Notes
   - Podcasts
   - Recommended
-
 ---
+
 [Software as Craft Philadelphia][1]
 
 > A community of professionals dedicated to well-crafted software
@@ -24,8 +24,8 @@ During the discussions, the Software Craftsmanship North America conference (as 
 
 In related news (since I think all hosts were in attendance at said meeting), I want to give a plug to the podcast [Turing-Incomplete podcast][5]. Finally starting to catch up on this Philly showcase of talent and really enjoying the discussions. Keep up the good work!
 
- [1]: http://www.meetup.com/Software-as-Craft-Philadelphia/
- [2]: http://www.promptworks.com/
- [3]: http://manifesto.softwarecraftsmanship.org/
- [4]: https://vimeo.com/eighthlight
- [5]: http://turing.cool
+[1]: http://www.meetup.com/Software-as-Craft-Philadelphia/
+[2]: http://www.promptworks.com/
+[3]: http://manifesto.softwarecraftsmanship.org/
+[4]: https://vimeo.com/eighthlight
+[5]: http://turing.cool

@@ -10,14 +10,14 @@ Open office hours is a great way for me to give back to the community and hopefu
 
 Recommend discussion topics might include:
 
-* Code questions about Elixir, Phoenix or Ecto
-* Software testing strategies
-* Team communication challenges
-* Website structure and design
-* Product development
-* Customer research
-* Static website development with Hugo
-* Technical presentations and teaching
+- Code questions about Elixir, Phoenix or Ecto
+- Software testing strategies
+- Team communication challenges
+- Website structure and design
+- Product development
+- Customer research
+- Static website development with Hugo
+- Technical presentations and teaching
 
 Slots are 1 hours in length to allow for breathing room but need not go the full time.
 

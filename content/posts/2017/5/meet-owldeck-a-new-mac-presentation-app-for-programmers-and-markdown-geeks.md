@@ -7,8 +7,8 @@ categories:
   - Entrepreneurship
   - Life Notes
   - Personal Projects
-
 ---
+
 Today I&#8217;m launching the teaser site for my new app, [OwlDeck][1].
 
 > OwlDeck is a new macOS presentation tool for programmers and geeks who need to display code and love Markdown.
@@ -19,6 +19,6 @@ If you are interested in some behinds the scene stuff you can checkout the proje
 
 Really excited to be working on products again. 🙂
 
- [1]: http://owldeck.com
- [2]: mailto:zorn@owldeck.com
- [3]: http://restedexperience.com/
+[1]: http://owldeck.com
+[2]: mailto:zorn@owldeck.com
+[3]: http://restedexperience.com/

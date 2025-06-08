@@ -22,11 +22,11 @@ In apartment moving news, I've finally started packing some boxes. The move will
 
 Looking ahead to next week, I'd say my priorities are:
 
-* Packing more stuff for the move. 
-* Get unwanted furniture picked up.
-* Continue posting Exercism videos.
-* Continue some part-time help with DockYard Academy.
-* Start investigating short-term income streams while I wait for a consulting gig to land.
-* Be more active in soliciting a consulting gig.
-* Enjoy the end of the baseball season. It'll be gone before I know it. 
-* Go to the Phillies game on Friday.
+- Packing more stuff for the move.
+- Get unwanted furniture picked up.
+- Continue posting Exercism videos.
+- Continue some part-time help with DockYard Academy.
+- Start investigating short-term income streams while I wait for a consulting gig to land.
+- Be more active in soliciting a consulting gig.
+- Enjoy the end of the baseball season. It'll be gone before I know it.
+- Go to the Phillies game on Friday.

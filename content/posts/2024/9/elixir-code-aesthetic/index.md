@@ -10,14 +10,14 @@ The order below is not ranked in importance. In fact most of this is nitpicky, b
 
 [Flick]: https://github.com/zorn/flick
 
-## Whitespace between import and alias. 
+## Whitespace between import and alias.
 
 ## Alphabetically ordered alias declarations.
 
 ## Avoiding multi-alias declarations.
 
 ```elixir
-  # lib/flick/ranked_voting.ex 
+  # lib/flick/ranked_voting.ex
   import Ecto.Query
 
   alias Flick.RankedVoting.Ballot
@@ -25,9 +25,9 @@ The order below is not ranked in importance. In fact most of this is nitpicky, b
   alias Flick.Repo
 ```
 
-Whitespace should be done with intention to separate distinct concepts; and for me, `import` and `alias` are distinct concepts. 
+Whitespace should be done with intention to separate distinct concepts; and for me, `import` and `alias` are distinct concepts.
 
-I also list my `alias` declarations in alphabetical order, enforced via [`AliasOrder`] and use a preferred order across `use`, `import`, `alias`, and `require` via [`StrictModuleLayout`]. 
+I also list my `alias` declarations in alphabetical order, enforced via [`AliasOrder`] and use a preferred order across `use`, `import`, `alias`, and `require` via [`StrictModuleLayout`].
 
 [`AliasOrder`]: https://hexdocs.pm/credo/Credo.Check.Readability.AliasOrder.html
 [`StrictModuleLayout`]: https://hexdocs.pm/credo/Credo.Check.Readability.StrictModuleLayout.html
@@ -77,7 +77,7 @@ I have far less consistency with my LiveView tests. Sometimes the `describe` [br
 
 ## Invest in test fixtures
 
-Arrange, Act, Assert. To help keep your arrange logic neat and tidy, invest in good test fixture tooling. These test fixtures should provide functions for entity creation in your test files as well as the known list of argument defaults (for tests that need to do something more custom but do not want to be burdened with a complete understanding of every argument). 
+Arrange, Act, Assert. To help keep your arrange logic neat and tidy, invest in good test fixture tooling. These test fixtures should provide functions for entity creation in your test files as well as the known list of argument defaults (for tests that need to do something more custom but do not want to be burdened with a complete understanding of every argument).
 
 These fixtures should use the actual domain context paths for creation and not raw SQL injection unless absolutely needed for performance or edge cases.
 
@@ -148,7 +148,7 @@ When composing my test descriptions, I like to get the `test "..." do` on a sing
 
 ## Compose code to prefer clean line breaks
 
-I love that Elixir ships with an opinionated formatter. However, even with the formatter, you still have a lot of influence on how your code is composed. I prefer it greatly when expressions are clean one-liners or otherwise avoid excessive indentation when breaking up complex terms. 
+I love that Elixir ships with an opinionated formatter. However, even with the formatter, you still have a lot of influence on how your code is composed. I prefer it greatly when expressions are clean one-liners or otherwise avoid excessive indentation when breaking up complex terms.
 
 To help explain, let me walk you through a test from Flick.
 
@@ -159,12 +159,12 @@ test "success: submitting valid form creates ballot and redirects", ~M{view} do
     possible_answers: "Red, Green, Blue",
     url_slug: "favorite-color"
   }
-  
+
   response =
     view
     |> form("form", ballot: payload)
     |> render_submit()
-  
+
   # Assert upon submit the page redirects, and the ballot was created.
   assert {:error, {:redirect, %{to: redirect_target}}} = response
   assert "/ballot/favorite-color/" <> secret = redirect_target
@@ -195,7 +195,7 @@ response =
   |> render_submit()
 ```
 
-I dislike this composition since it breaks the pipe. By moving the `payload` value assignment to its own line group, we end up with a cleaner pipe that, in my opinion, reads better. 
+I dislike this composition since it breaks the pipe. By moving the `payload` value assignment to its own line group, we end up with a cleaner pipe that, in my opinion, reads better.
 
 ```elixir
 payload = %{
@@ -273,13 +273,13 @@ Programming is all about tradeoffs. When making an intentional design or process
 
 I've [documented some things](https://github.com/zorn/flick/tree/main/docs/decisions) related to timestamps, schema shape, and fixme/todo so far in Flick.
 
-## Make sure each FIXME has an issue URL. 
+## Make sure each FIXME has an issue URL.
 
 Related to the above decisions, Flick [allows FIXME comments](https://github.com/zorn/flick/blob/main/docs/decisions/3-fixme-and-todo.md) but requests all `FIXME`s include a link to a GitHub issue documenting the concern.
 
 ## Avoid abbreviations and prefer expressiveness.
 
-Prefer expressive variable names like `_ballot` over `_`. 
+Prefer expressive variable names like `_ballot` over `_`.
 
 Prefer expressive variable names like `ballot_params` over `params` when you think it helps improve clarity.
 
@@ -287,7 +287,7 @@ Prefer expressive variable names like `ballot_params` over `params` when you thi
 
 Invest time in an expressive and consistent [ubiquitous language](https://github.com/zorn/flick/blob/main/docs/ubiquitous_language.md) for your project. Continue to edit it over time as the terms evolve.
 
-Find consistency in your project code regarding terms like `create` vs. `new`, `update` vs. `edit`, `submit` vs. `save`, `params` vs. `attributes`. 
+Find consistency in your project code regarding terms like `create` vs. `new`, `update` vs. `edit`, `submit` vs. `save`, `params` vs. `attributes`.
 
 Do your best to align with existing Elixir community norms.
 
@@ -297,12 +297,12 @@ All public functions should have a typespec. Private functions can also have typ
 
 Spend time and make those typespecs match the domain. For example, when accepting the identity of a `Ballot` use the `Ballot.id()` not a `Ecto.UUID.t()`.
 
-```elixir 
+```elixir
   # lib/flick/ranked_voting/ballot.ex
   @type id :: Ecto.UUID.t()
 ```
 
-When building types for my main domain entities, I tend to build the main `t()` around a persisted entity value that is brought into memory from a `Repo`, and thus all post-creation values like `id` or `updated_at` are typed to their expected value, without the need for an `| nil` addendum. 
+When building types for my main domain entities, I tend to build the main `t()` around a persisted entity value that is brought into memory from a `Repo`, and thus all post-creation values like `id` or `updated_at` are typed to their expected value, without the need for an `| nil` addendum.
 
 To help write typespecs for non-persisted structs of this schema type, I make a `schema_t()` variant.
 
@@ -351,10 +351,10 @@ To help future you know why various dependencies were added to the project, add 
 
     # For Observability.
     {:appsignal_phoenix, "~> 2.5"},
-  
+
     # To Render Markdown.
     {:earmark, "~> 1.4"},
-  
+
     # For security scans.
     {:sobelow, "~> 0.13", only: [:dev, :test], runtime: false},
   end
@@ -394,16 +394,16 @@ In the future, I might even be able to automate this to help with release notes.
 
 ## Strive for database precision.
 
-Be detail-oriented when building out your database tables. 
+Be detail-oriented when building out your database tables.
 
-If something can not be null, be explicit `NOT NULL`. 
+If something can not be null, be explicit `NOT NULL`.
 
 If a string can be really long, use `:text`. If you do use `:string` (which has length limits), then enforce those length limitations in `Ecto.Changeset` so the value is not trimmed quietly.
 
 Virtual fields on Ecto schemas are almost never the right answer.
 
-***
+---
 
-That was quite the hodgepodge of suggestions and tips. I had others, but they did not fit, or I don't have good open source references yet. 
+That was quite the hodgepodge of suggestions and tips. I had others, but they did not fit, or I don't have good open source references yet.
 
-If you liked these or disagree, [let me know](/contact). 
+If you liked these or disagree, [let me know](/contact).

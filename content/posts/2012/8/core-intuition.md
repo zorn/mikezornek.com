@@ -5,8 +5,8 @@ aliases: /2012/08/23/core-intuition/
 categories:
   - Podcasts
   - Recommended
-
 ---
+
 ![Core Intuition Logo][1]
 
 [Core Intuition][2] is a podcast about the indie software business. It has a strong focus on Mac and iOS development, including the vibrant community that surrounds it. Hosted by two long-standing Mac developers &#8212; Daniel Jalkut and Manton Reece &#8212; Core Intuition releases new episodes weekly. Each episode averages about 30 minutes of discussion.
@@ -23,5 +23,5 @@ Core Intuition is a great podcast for anyone who works, or is interested in work
 
 Daniel and Manton, thanks for the great content and keep up the good work.
 
- [1]: http://mikezornek.com/media/images/core_int_logo.png "Core Intuition Logo"
- [2]: http://www.coreint.org/
+[1]: http://mikezornek.com/media/images/core_int_logo.png "Core Intuition Logo"
+[2]: http://www.coreint.org/

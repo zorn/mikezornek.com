@@ -12,7 +12,7 @@ A quick tour of some of the tools you'll want to use to help learn Kotlin.
 
 Links
 
-* https://kotlinlang.org
-* https://exercism.io/tracks/kotlin
-* https://pragprog.com/titles/vskotlin/
-* https://www.bignerdranch.com/books/android-programming-the-big-nerd-ranch-guide-4th/
+- https://kotlinlang.org
+- https://exercism.io/tracks/kotlin
+- https://pragprog.com/titles/vskotlin/
+- https://www.bignerdranch.com/books/android-programming-the-big-nerd-ranch-guide-4th/

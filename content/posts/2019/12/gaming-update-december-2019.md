@@ -15,7 +15,7 @@ I got the remake alongside a Switch Lite. I am very fond of the original GameBoy
 
 ## Pokemon Sword
 
-With hesitation and frustration I bought the new release and sadly it has not hooked me in. It just feels dull, very repetitive and stale. Game Freak's laziness and greed bleed through the experience. I really hope this is a wake up call for them and the series. I'll continue to give it some of my time but I would not be surprised if it end up in the archive before finishing it like Ultra Sun/Moon and Let's Go before it. 
+With hesitation and frustration I bought the new release and sadly it has not hooked me in. It just feels dull, very repetitive and stale. Game Freak's laziness and greed bleed through the experience. I really hope this is a wake up call for them and the series. I'll continue to give it some of my time but I would not be surprised if it end up in the archive before finishing it like Ultra Sun/Moon and Let's Go before it.
 
 ## Final Fantasy 1
 
@@ -23,6 +23,6 @@ There is an event called [Final Fantasy Fiesta](https://www.fffiesta.com/) going
 
 ---
 
-That's pretty much it for now. I didn't ask for any new games for Christmas as I already have a high backlog stack so I suspect this will be my focus through January. 
+That's pretty much it for now. I didn't ask for any new games for Christmas as I already have a high backlog stack so I suspect this will be my focus through January.
 
 Enjoy the holiday break and play some games!

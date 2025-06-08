@@ -9,8 +9,8 @@ categories:
   - iOS
   - Personal Projects
   - Recommended
-
 ---
+
 After getting a solid [recommendation from Curtis][1], who attended the Washington DC variant, this weekend I headed north to CocoaConf Boston. It was my first CocoaConf and so I went into the weekend with a lot of blurred expectations.
 
 > **Spoilers**: I say _first_ with intention. TLDR; I had a really great time. The talks and speaker quality were really high and with luck I&#8217;ll be able to attend again during a future &#8220;tour&#8221;.
@@ -29,9 +29,10 @@ For technical wisdom I have to give it up for the full day &#8220;Swift Kickstar
 
 Finally, it was great to meet the people that run CocoaConf. Rather than some large corporation, CocoaConf is actually a family affair. Dave Kline and his family run most of the operation and they seemed very dedicated to making sure everyone had a good time. For all their hard work I say thank you and hope to see you all again soon.
 
- [1]: https://twitter.com/parrots/status/450300598479757312
- [3]: http://mikezornek.com/media/images/quit-your-job.png "Daniel Jalkut's "Quit Your Job" keynote"
- [4]: https://twitter.com/danielpunkass
- [5]: https://twitter.com/capttaco
- [6]: https://twitter.com/dimsumthinking
- [7]: https://twitter.com/jblocksom
+[1]: https://twitter.com/parrots/status/450300598479757312
+
+[3]: http://mikezornek.com/media/images/quit-your-job.png "Daniel Jalkut's "Quit Your Job" keynote"
+[4]: https://twitter.com/danielpunkass
+[5]: https://twitter.com/capttaco
+[6]: https://twitter.com/dimsumthinking
+[7]: https://twitter.com/jblocksom

@@ -6,8 +6,8 @@ categories:
   - Conferences
   - iOS
   - Personal Projects
-
 ---
+
 Had the pleasure to attend and speak at [CocoaConf DC][1] this past weekend.
 
 > [CocoaConf][2] is a touring training conference for iPhone, iPad, and Mac developers. We bring some of the best authors, trainers, and speakers to the most passionate, engaged developers in a region—together, they make magic!
@@ -20,20 +20,20 @@ The sessions were really good at this CocoaConf. Sure it helps that iOS 10 is ju
 
 One cool benefit of my work scheduling is now I have a week of stay-home vacation and I can hopefully direct that post-conference enthusiasm towards my side projects and some extra experimentation. Specific items on my list:
 
-  * Do more interactive prototyping of my side project and follow up with some user interviews.
-  * Do some experimentation with [Perfect][3] to build a simple Swift API and host it on [Linode][4].
-  * Continue to polish up my [RanchWeather][5] app and start a blog series reviewing the code patterns.
-  * Do some experimentation with [Twilio authentication][6] in preparation for a web app project.
-  * Inspired by the journalling abilities of [MarkD][7], dedicate the vacation week to a journaling experiment: Daily Journal, Project Journal, Tool Journal. 
+- Do more interactive prototyping of my side project and follow up with some user interviews.
+- Do some experimentation with [Perfect][3] to build a simple Swift API and host it on [Linode][4].
+- Continue to polish up my [RanchWeather][5] app and start a blog series reviewing the code patterns.
+- Do some experimentation with [Twilio authentication][6] in preparation for a web app project.
+- Inspired by the journalling abilities of [MarkD][7], dedicate the vacation week to a journaling experiment: Daily Journal, Project Journal, Tool Journal.
 
 As for my talk, I think it went very well. One thing I really like as a speaker is the conference not only has a session review system but they encourage submissions of reviews with a raffle for prizes at the end so you get a lot of feedback. Most of my talk&#8217;s feedback was very positive and I appreciate the criticisms, both good and bad. Always room for improvement.
 
 So yeah, if you are considering attending or speaking at a CocoaConf, do it. It&#8217;s very rewarding and worthy of your time. If it&#8217;s on the east coast you&#8217;re more than likely to see me there too &#8212; and if so, say hi!
 
- [1]: http://cocoaconf.com/dc-2016
- [2]: http://cocoaconf.com/
- [3]: http://perfect.org/
- [4]: https://www.linode.com/
- [5]: https://github.com/bignerdranch/RanchWeather
- [6]: https://www.twilio.com/authy
- [7]: https://twitter.com/borkware
+[1]: http://cocoaconf.com/dc-2016
+[2]: http://cocoaconf.com/
+[3]: http://perfect.org/
+[4]: https://www.linode.com/
+[5]: https://github.com/bignerdranch/RanchWeather
+[6]: https://www.twilio.com/authy
+[7]: https://twitter.com/borkware

@@ -8,7 +8,7 @@ A collection of accomplishments, notes, and observations about November 2023.
 
 ## Work
 
-The big news is the [announcement of my new job][1]. 
+The big news is the [announcement of my new job][1].
 
 I applied on August 28th and did four interviews, including a two and half hour coding session (a mix of PR review, ticket grooming, and actual coding exercise). Was given the offer letter on November 13th.
 
@@ -24,7 +24,7 @@ I start on Monday, December 4th.
 
 [StudyHall](https://github.com/studyhall-project/studyhall) has been very stagnant. I'm just not finding the energy for regular progress in recent weeks.
 
-Not specifically a side project, but it kind of has that vibe: this month, I attended Philly's [Barcamp event](https://2023.barcampphilly.org/). It was a lot of fun, and seeing so many people I hadn't connected with in a while felt great. The day flew by. I wish that we had a centralized after-party for more hallway-track conversations, but maybe next year. 
+Not specifically a side project, but it kind of has that vibe: this month, I attended Philly's [Barcamp event](https://2023.barcampphilly.org/). It was a lot of fun, and seeing so many people I hadn't connected with in a while felt great. The day flew by. I wish that we had a centralized after-party for more hallway-track conversations, but maybe next year.
 
 ## Tech Education / Books
 
@@ -34,7 +34,7 @@ Finished [Genetic Algorithms in Elixir](https://www.goodreads.com/review/show/58
 
 Finished my second reading of [Refactoring UI](https://www.refactoringui.com/), though, to be honest, I kind of burned through the end to get it off my currently reading list. It's one of the better UI books and a speedy read. I started a second reading a few months ago when I was focused on wireframe things for StudyHall, and then it just sat there (virtually, on my iPad).
 
-Still reading [Observability Engineering: Achieving Production Excellence](https://info.honeycomb.io/observability-engineering-oreilly-book-2022), 
+Still reading [Observability Engineering: Achieving Production Excellence](https://info.honeycomb.io/observability-engineering-oreilly-book-2022),
 
 Started [Build a Weather Station with Elixir and Nerves](https://pragprog.com/titles/passweather/build-a-weather-station-with-elixir-and-nerves/) for Elixir Book Club.
 
@@ -62,6 +62,6 @@ It's pretty low activity. I am tracking about one good walk a week. Sadly, it's 
 
 Following up on the Ring Fit, I did it for about two weeks but found the leg strap did not stay in place, which was frustrating. If I want to find an in-house cardio thing, I might have to look at my old Quest VR or some Apple fitness things.
 
-***
+---
 
-My journal entries averaged about once a month, so perhaps this new monthly recap format might be a better fit. We'll see. 
+My journal entries averaged about once a month, so perhaps this new monthly recap format might be a better fit. We'll see.

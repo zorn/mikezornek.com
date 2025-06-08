@@ -1,7 +1,7 @@
 ---
 title: "Securing Webhook Payload Delivery in Phoenix"
 date: 2021-02-22T14:00:00-05:00
-description: Webhook might sound like some scary, exotic term but at the end of the day webhooks are nothing more that a web server endpoint configured to receive HTTP POST requests in some agreed upon format. The concern however is, without any additional security, anyone could discover the endpoint and start sending their own malicious payloads to your web application. 
+description: Webhook might sound like some scary, exotic term but at the end of the day webhooks are nothing more that a web server endpoint configured to receive HTTP POST requests in some agreed upon format. The concern however is, without any additional security, anyone could discover the endpoint and start sending their own malicious payloads to your web application.
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._
@@ -10,7 +10,7 @@ Some of the most interesting and valuable behaviors we can build as web develope
 
 ## Webhook Security 101
 
-Webhook might sound like some scary, exotic term but at the end of the day webhooks are nothing more that a web server endpoint configured to receive HTTP POST requests in some agreed upon format. The concern however is, without any additional security, anyone could discover the endpoint and start sending their own malicious payloads to your web application. 
+Webhook might sound like some scary, exotic term but at the end of the day webhooks are nothing more that a web server endpoint configured to receive HTTP POST requests in some agreed upon format. The concern however is, without any additional security, anyone could discover the endpoint and start sending their own malicious payloads to your web application.
 
 To help secure a webhook, when you first set it up you'll give the third party some generated secret. As an example, here is where you can store the secret while configuring a GitHub webhook:
 
@@ -48,6 +48,7 @@ Second we'll need a way to pull out the signature from the connection's request 
     end
   end
 ```
+
 Finally we'll connect the dots creating a simple call site function where someone can pass in a `Plug.Conn` and a payload and ask if it is authentic.
 
 ```elixir
@@ -76,7 +77,7 @@ Finally we'll connect the dots creating a simple call site function where someon
   end
 ```
 
-There are a few ways you could go about getting this check into your controller code. The most challenging part is that out of the box Phoenix does not make the raw body of an HTTP POST request available to you through the `Plug.Conn` struct. Instead a default Phoenix app uses parsers and converts such payloads into native Elixir value types. 
+There are a few ways you could go about getting this check into your controller code. The most challenging part is that out of the box Phoenix does not make the raw body of an HTTP POST request available to you through the `Plug.Conn` struct. Instead a default Phoenix app uses parsers and converts such payloads into native Elixir value types.
 
 One way to turn off this behavior is to edit your Phoenix app's `endpoint.ex` file and remove the auto-parsing behavior for all routes of that endpoint. You can find some more info about doing this in the [Plug docs](https://hexdocs.pm/plug/Plug.Parsers.html#module-custom-body-reader) in a section titled "Custom body reader".
 
@@ -159,7 +160,7 @@ The second plug will pull out the signature from the HTTP request headers and th
 ```elixir
 defmodule WebhookSignatureWeb.Plugs.RequirePayloadSignatureMatch do
   @moduledoc """
-  This plug will verify that the payload from a webhook request matches the 
+  This plug will verify that the payload from a webhook request matches the
   accompanying header signature, based on a previously shared `webhook_secret`.
 
   When the payload is verified the connection continues as normal.
@@ -202,7 +203,7 @@ defmodule WebhookSignatureWeb.Router do
     plug :accepts, ["json"]
     plug WebhookSignatureWeb.Plugs.RawBodyPassthrough, length: 4_000_000
 
-    # It is important that this comes after 
+    # It is important that this comes after
     # `WebhookSignatureWeb.Plugs.RawBodyPassthrough` as it relies
     # on the `:raw_body` being inside the `conn.assigns`.
     plug WebhookSignatureWeb.Plugs.RequirePayloadSignatureMatch
@@ -216,7 +217,7 @@ defmodule WebhookSignatureWeb.Router do
 end
 ```
 
-If the signature match is successful the controller will be allowed to do its processing of the payload values. 
+If the signature match is successful the controller will be allowed to do its processing of the payload values.
 
 If the signature match is not successful we return a [403 response](https://httpstatuses.com/403) since "The server understood the request but refuses to authorize it."
 

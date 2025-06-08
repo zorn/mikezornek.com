@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: 1Password'
+title: "31 Days, 31 Products: 1Password"
 date: 2015-11-26T18:25:57+00:00
 aliases: /2015/11/26/31-days-31-products-1password-2/
 categories:
   - Recommended
-
 ---
+
 ## Day 03: 1Password
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -20,10 +20,10 @@ My biggest feature request for 1Password is to get something more advanced than 
 
 1Password can be bought through the [Mac App Store][5] or [their site][6]. A Mac license costs $49 (with a free trial available) and the iOS client is a free download on the [App Store][7] with a $9.99 in-app purchase for some more advanced features. Windows and Android versions are also available for similar pricing; again, see their [store page][6] for details.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://agilebits.com/onepassword
- [3]: http://phillycocoa.org/
- [4]: https://blog.agilebits.com/2015/11/11/how-1password-for-teams-protects-your-secrets/
- [5]: https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12&uo=4&at=10l4Hf&pt=11798&ct=store
- [6]: https://agilebits.com/store
- [7]: https://itunes.apple.com/us/app/1password-password-manager/id568903335?mt=8&uo=4&at=10l4Hf&pt=11798&ct=store
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://agilebits.com/onepassword
+[3]: http://phillycocoa.org/
+[4]: https://blog.agilebits.com/2015/11/11/how-1password-for-teams-protects-your-secrets/
+[5]: https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12&uo=4&at=10l4Hf&pt=11798&ct=store
+[6]: https://agilebits.com/store
+[7]: https://itunes.apple.com/us/app/1password-password-manager/id568903335?mt=8&uo=4&at=10l4Hf&pt=11798&ct=store

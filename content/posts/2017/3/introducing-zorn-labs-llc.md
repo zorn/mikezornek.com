@@ -7,8 +7,8 @@ categories:
   - Entrepreneurship
   - iOS
   - Life Notes
-
 ---
+
 As I alluded to after [loosing my job][1] at the end of January, I knew I&#8217;d take the majority of February to [recover from my neck surgery][2] and then get serious about work in March. We&#8217;ll it&#8217;s almost the end of March so I figured I&#8217;d do an update.
 
 First, welcome [Zorn Labs LLC][3], my new company. It will house my future consulting and product work.
@@ -21,11 +21,11 @@ For those interested in my Mac app project, you can also check out my project jo
 
 So that&#8217;s my March update. Thanks for the interest! More to come in April! 🙂
 
- [1]: http://mikezornek.com/2017/02/01/for-the-times-they-are-a-changing/
- [2]: http://mikezornek.com/2017/02/13/neck-surgery-recovery-update/
- [3]: http://zornlabs.com/
- [4]: https://pragprog.com/book/bhh52e/html5-and-css3
- [5]: https://gohugo.io/
- [6]: https://github.com/phillycocoa/website
- [7]: https://pragprog.com/book/elixir13/programming-elixir-1-3
- [8]: https://pragprog.com/book/phoenix/programming-phoenix
+[1]: http://mikezornek.com/2017/02/01/for-the-times-they-are-a-changing/
+[2]: http://mikezornek.com/2017/02/13/neck-surgery-recovery-update/
+[3]: http://zornlabs.com/
+[4]: https://pragprog.com/book/bhh52e/html5-and-css3
+[5]: https://gohugo.io/
+[6]: https://github.com/phillycocoa/website
+[7]: https://pragprog.com/book/elixir13/programming-elixir-1-3
+[8]: https://pragprog.com/book/phoenix/programming-phoenix

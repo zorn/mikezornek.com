@@ -1,5 +1,5 @@
 ---
-title: 'Philly CocoaHeads: History'
+title: "Philly CocoaHeads: History"
 date: 2016-01-21T21:53:29+00:00
 aliases: /2016/01/21/philly-cocoaheads-history/
 categories:
@@ -8,20 +8,20 @@ categories:
   - Personal Projects
   - Recommended
   - Tips
-
 ---
+
 Being the lead organizer of the [Philly chapter][1] of [CocoaHeads][2], I always welcome the opportunity to chat with members of other meetups. It&#8217;s great to compare notes on how we run our groups, what&#8217;s worked and what&#8217;s failed. In particular I&#8217;ve recently chatted with the leadership of the Nashville CocoaHeads and was also able to attend an Atlanta CocoaHeads meeting while visiting Big Nerd Ranch. It was a great experience and has me inspired to capture some of my thoughts here on the blog. This first article is a walk down memory lane to document the history of Philly CocoaHeads.
 
 ## Getting Started
 
 The Philly chapter of CocoaHeads started out of [IndyHall][3] in 2008. IndyHall is a coworking space, a place for people who can work from home but choose not to; perhaps because they want a work/home separation or just to participate in the greater creative community. Back then IndyHall was still fairly young but had attracted together a strong tech following including:
 
-  * Andy Mroczkowski and Far McKon who were working for the local company [Neat][4], and their Mac software / scanner combo.
-  * Jason Allum who was working on RipIt (which would later be sold to The Little App Factory).
-  * Dave Martorana who had a few apps, including [MultiFirefox][6] and [Multiplex][7] (a media server app ahead of its time).
-  * Joah Aas, who worked for the Mozilla organization and is now most known for his help with the [Let&#8217;s Encrypt][8] project.
-  * Randy Zauhar, a local professor teaching Bioinformatics and Chemistry at University of Sciences. Randy had previous help run and host a group called: PHAD, Philadelphia Apple Developers.
-  * And myself. I was a basic IndyHall member and was working on [ProfitTrain][9] updates at the time.
+- Andy Mroczkowski and Far McKon who were working for the local company [Neat][4], and their Mac software / scanner combo.
+- Jason Allum who was working on RipIt (which would later be sold to The Little App Factory).
+- Dave Martorana who had a few apps, including [MultiFirefox][6] and [Multiplex][7] (a media server app ahead of its time).
+- Joah Aas, who worked for the Mozilla organization and is now most known for his help with the [Let&#8217;s Encrypt][8] project.
+- Randy Zauhar, a local professor teaching Bioinformatics and Chemistry at University of Sciences. Randy had previous help run and host a group called: PHAD, Philadelphia Apple Developers.
+- And myself. I was a basic IndyHall member and was working on [ProfitTrain][9] updates at the time.
 
 > Philadelphia Apple Developers (PHAD) never grew to be anything very large but I remember it fondly. It would usually be about 4-6 of us sharing a pizza and showing each other our Cocoa projects. I vividly remember Randy showing off his spreadsheet app which listed chemical equations on one side and then had an OpenGL cell rendering the compositions on the other. I also remember doing talks on Subversion and then Core Data. Again, they were small meetings but having even a few people who were interested in or working in Cocoa back then to bounce ideas off was a huge win.
 
@@ -127,41 +127,41 @@ As the main organizer I&#8217;m extremely lucky to have such great support from 
 
 To those running similar meet ups a few closing recommendations:
 
-  * Be consistent with meeting dates and locations. 
-  * Be willing to do a lot of personal presentations and/or MC of roundtables when other speakers are not available in the early days.
-  * Don&#8217;t be afraid to shake people down for talks. Also remember it&#8217;s much easier to get them to sign up for a talk a few months from now than in a few weeks. Take advantage of that.
-  * If meeting after work try to have some food and drink available. We do pizza cause it&#8217;s relatively cheap and easy. You want to feed them but remember they aren&#8217;t coming for the food. In the early days a donation jar can usually cover most of the costs, later you might need sponsorship. I&#8217;ll have more to say on that in the future.
-  * Help spread the responsibilities. Even smaller things like handing the food, taking meeting notes or running the group Twitter helps turn &#8220;the group&#8221; into &#8220;our group&#8221;.
-  * Have fun.
+- Be consistent with meeting dates and locations.
+- Be willing to do a lot of personal presentations and/or MC of roundtables when other speakers are not available in the early days.
+- Don&#8217;t be afraid to shake people down for talks. Also remember it&#8217;s much easier to get them to sign up for a talk a few months from now than in a few weeks. Take advantage of that.
+- If meeting after work try to have some food and drink available. We do pizza cause it&#8217;s relatively cheap and easy. You want to feed them but remember they aren&#8217;t coming for the food. In the early days a donation jar can usually cover most of the costs, later you might need sponsorship. I&#8217;ll have more to say on that in the future.
+- Help spread the responsibilities. Even smaller things like handing the food, taking meeting notes or running the group Twitter helps turn &#8220;the group&#8221; into &#8220;our group&#8221;.
+- Have fun.
 
- [1]: http://phillycocoa.org/
- [2]: http://cocoaheads.org/
- [3]: http://www.indyhall.org/
- [4]: http://www.neat.com/
- [6]: http://davemartorana.com/multifirefox/
- [7]: http://www.macworld.com/article/1138909/multiplex.html
- [8]: https://letsencrypt.org
- [9]: https://vimeo.com/9553439
- [10]: https://github.com/phillycocoa/projectcalculator
- [11]: http://mikezornek.com/media/images/cocoaheads-history/early-indyhall.jpeg "IndyHall"
- [12]: http://www.macworld.com/article/1132400/iphonesdk.html
- [13]: http://www.goodreads.com/book/show/4082939-learn-objective-c-on-the-mac
- [14]: https://twitter.com/mikedeaven
- [15]: http://mikezornek.com/media/images/cocoaheads-history/indyhall-meeting.jpg "An Early IndyHall Meeting"
- [16]: http://mikezornek.com/media/images/cocoaheads-history/indyhall-meeting2.jpeg "Another IndyHall Meeting"
- [17]: http://mikezornek.com/media/images/cocoaheads-history/alphie2.jpg "Alfie joins us from NY via a Double"
- [18]: http://www.doublerobotics.com/
- [19]: https://twitter.com/tompark_io
- [20]: http://mikezornek.com/media/images/cocoaheads-history/wwdc-day.jpg "Tom at a SPS right after the WWDC announcements."
- [21]: https://twitter.com/wild37
- [22]: http://mikezornek.com/media/images/cocoaheads-history/webviews.jpeg "Kotaro talks about his favorite tool."
- [23]: http://mikezornek.com/media/images/cocoaheads-history/apple-store-meeting.jpeg "Apple Store Meeting"
- [24]: http://curtisherbert.com/
- [25]: http://mikezornek.com/media/images/cocoaheads-history/curtis.jpeg "Curtis teaching his ObjC Workshop"
- [26]: http://cocoalove.org/
- [27]: http://mikezornek.com/media/images/cocoaheads-history/workshops.jpeg "Marketing Workshop"
- [28]: https://vimeo.com/phillycocoa
- [29]: http://mikezornek.com/media/images/cocoaheads-history/video-capture.jpg "Video Capture Setup"
- [30]: http://mikezornek.com/media/images/cocoaheads-history/apple-tv-app.jpg "Apple TV App"
- [31]: http://amzn.to/1NjfC6F
- [32]: https://www.hackingwithswift.com/
+[1]: http://phillycocoa.org/
+[2]: http://cocoaheads.org/
+[3]: http://www.indyhall.org/
+[4]: http://www.neat.com/
+[6]: http://davemartorana.com/multifirefox/
+[7]: http://www.macworld.com/article/1138909/multiplex.html
+[8]: https://letsencrypt.org
+[9]: https://vimeo.com/9553439
+[10]: https://github.com/phillycocoa/projectcalculator
+[11]: http://mikezornek.com/media/images/cocoaheads-history/early-indyhall.jpeg "IndyHall"
+[12]: http://www.macworld.com/article/1132400/iphonesdk.html
+[13]: http://www.goodreads.com/book/show/4082939-learn-objective-c-on-the-mac
+[14]: https://twitter.com/mikedeaven
+[15]: http://mikezornek.com/media/images/cocoaheads-history/indyhall-meeting.jpg "An Early IndyHall Meeting"
+[16]: http://mikezornek.com/media/images/cocoaheads-history/indyhall-meeting2.jpeg "Another IndyHall Meeting"
+[17]: http://mikezornek.com/media/images/cocoaheads-history/alphie2.jpg "Alfie joins us from NY via a Double"
+[18]: http://www.doublerobotics.com/
+[19]: https://twitter.com/tompark_io
+[20]: http://mikezornek.com/media/images/cocoaheads-history/wwdc-day.jpg "Tom at a SPS right after the WWDC announcements."
+[21]: https://twitter.com/wild37
+[22]: http://mikezornek.com/media/images/cocoaheads-history/webviews.jpeg "Kotaro talks about his favorite tool."
+[23]: http://mikezornek.com/media/images/cocoaheads-history/apple-store-meeting.jpeg "Apple Store Meeting"
+[24]: http://curtisherbert.com/
+[25]: http://mikezornek.com/media/images/cocoaheads-history/curtis.jpeg "Curtis teaching his ObjC Workshop"
+[26]: http://cocoalove.org/
+[27]: http://mikezornek.com/media/images/cocoaheads-history/workshops.jpeg "Marketing Workshop"
+[28]: https://vimeo.com/phillycocoa
+[29]: http://mikezornek.com/media/images/cocoaheads-history/video-capture.jpg "Video Capture Setup"
+[30]: http://mikezornek.com/media/images/cocoaheads-history/apple-tv-app.jpg "Apple TV App"
+[31]: http://amzn.to/1NjfC6F
+[32]: https://www.hackingwithswift.com/

@@ -16,4 +16,4 @@ A short little WWDC reaction video that talks about Mac OS X and sheets.
 
 ### Links
 
-* [Steve Jobs Aqua Introduction](https://www.youtube.com/watch?v=OEU7SOs0mNg&t=405s)
+- [Steve Jobs Aqua Introduction](https://www.youtube.com/watch?v=OEU7SOs0mNg&t=405s)

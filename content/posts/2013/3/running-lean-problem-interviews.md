@@ -1,12 +1,12 @@
 ---
-title: 'Running Lean: Problem Interviews'
+title: "Running Lean: Problem Interviews"
 date: 2013-03-23T01:24:24+00:00
 aliases: /2013/03/22/running-lean-problem-interviews/
 categories:
   - Entrepreneurship
   - Personal Projects
-
 ---
+
 > The following post is part of a series of posts related to my new project, currently code named CB Reader. For the latest info, please consider [joining the CB Reader mailing list][1].
 
 When I last posted, I [introduced the lean canvas][2] and explained how it helped to defined some user problem hypothesizes. Today we&#8217;ll start a new phase of [Running Lean][3], the Problem Interviews, where you&#8217;ll interview people to verify if your problem hypothesizes and more than likely discover aspects and existing solutions you never knew existed.
@@ -32,21 +32,21 @@ Regarding the collection of demographics, the book suggests using tools like Goo
 Before I started I wrote down the following goals:
 
 > Problem interviews will confirm pain points:
-> 
->   * Multiple apps for RSS, Read Later, Pinboard, Twitter is painful / annoying.
->   * RSS content can take to long to manually browse.
->   * Regrets that you may not be reading enough.
->   * Regrets that the time you do spend reading isn&#8217;t the most efficient.
->   * You get value from Twitter but don&#8217;t want to monitor it 24/7.
-> 
+>
+> - Multiple apps for RSS, Read Later, Pinboard, Twitter is painful / annoying.
+> - RSS content can take to long to manually browse.
+> - Regrets that you may not be reading enough.
+> - Regrets that the time you do spend reading isn&#8217;t the most efficient.
+> - You get value from Twitter but don&#8217;t want to monitor it 24/7.
+>
 > Problem interviews will confirm use of the following alternative solutions:
-> 
->   * Instapaper / Pocket / Safari &#8220;Read Later&#8221;
->   * Reeder for iPad
->   * Google Reader
->   * Pinboard
->   * Twitter
-> 
+>
+> - Instapaper / Pocket / Safari &#8220;Read Later&#8221;
+> - Reeder for iPad
+> - Google Reader
+> - Pinboard
+> - Twitter
+>
 > Problem interviews will confirm Entrepreneurs and Blog authors as valid customer segments.
 
 For pain points, the biggest amongst my interview base was clearly the quantity of content being hard to manage. All seemed to share a sense that they weren&#8217;t getting the most from their reading time. Very few people considered switch apps to be a problem.
@@ -65,10 +65,10 @@ I&#8217;m breaking away from the book here and doing this in two phases. One is 
 
 Next up: Solution Interviews
 
- [1]: http://clickablebliss.com/cbreader/mailing_list.html
- [2]: http://mikezornek.com/2013/03/13/running-lean-building-our-lean-canvas/
- [3]: http://www.amazon.com/gp/product/1449305172/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449305172&linkCode=as2&tag=mikezornekcom-20
- [4]: http://mikezornek.com/media/images/problem_interview_format.png "Suggested Problem Interview Format"
- [5]: http://mikezornek.com/2013/03/13/more-google-reader-thoughts/
- [6]: http://www.youtube.com/watch?v=nd2_YfTL-xg
- [7]: http://bit.ly/cbreader
+[1]: http://clickablebliss.com/cbreader/mailing_list.html
+[2]: http://mikezornek.com/2013/03/13/running-lean-building-our-lean-canvas/
+[3]: http://www.amazon.com/gp/product/1449305172/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449305172&linkCode=as2&tag=mikezornekcom-20
+[4]: http://mikezornek.com/media/images/problem_interview_format.png "Suggested Problem Interview Format"
+[5]: http://mikezornek.com/2013/03/13/more-google-reader-thoughts/
+[6]: http://www.youtube.com/watch?v=nd2_YfTL-xg
+[7]: http://bit.ly/cbreader

@@ -9,7 +9,7 @@ At the end of November I took a few days and revamped this site. Let me know if 
 
 I rebuilt, from scratch, the [Hugo](https://gohugo.io/) theme code the site uses, wanting to own the site in both design as well as content.
 
-I added a small bit of color and branding to the main header navigation. I'm still big on simple page designs but also feel like returning to a blog post after being here before should have some sense of branding / nostalgia. 
+I added a small bit of color and branding to the main header navigation. I'm still big on simple page designs but also feel like returning to a blog post after being here before should have some sense of branding / nostalgia.
 
 New section, [For Hire](/for-hire/). To date I've hosted a simple company site at zornlabs.com. It was never much but when considering the idea of building out a project portfolio there it just felt like I was spreading myself too thin across multiple sites. I think for now it's just easier and more productive to focus on a single site to sell me and my services better.
 

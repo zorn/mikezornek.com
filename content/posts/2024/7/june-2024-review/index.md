@@ -20,7 +20,7 @@ The June work itself has been varied. Individual contributions towards a large p
 
 Like last month, a few short coding sessions on [Flick](https://github.com/zorn/flick), but not as much as I would have liked.
 
-I keep rethinking the schema design I want. In my last coding session, I even pulled back the ballot to include only a single question to simplify the UI layer. 
+I keep rethinking the schema design I want. In my last coding session, I even pulled back the ballot to include only a single question to simplify the UI layer.
 
 I am feeling a little time pressure to get something working so I can use this for the Elixir Book Club's next vote.
 

@@ -14,4 +14,4 @@ I worked with TrafficCast for over 2 years as a consultant, helping out with two
 
 <iframe src="https://player.vimeo.com/video/311520171" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-**Related Tech:** Swift, Xcode, CircleCI, URLSession and friends, code reviews, testing, documentation. 
+**Related Tech:** Swift, Xcode, CircleCI, URLSession and friends, code reviews, testing, documentation.

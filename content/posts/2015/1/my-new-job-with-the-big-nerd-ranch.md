@@ -4,8 +4,8 @@ date: 2015-01-19T22:26:40+00:00
 aliases: /2015/01/19/my-new-job-with-the-big-nerd-ranch/
 categories:
   - Uncategorized
-
 ---
+
 As I [posted on Twitter a few weeks ago][1], I recently accepted a new job with the [Big Nerd Ranch][2]. The job itself starts tomorrow and I&#8217;m really excited.
 
 The Big Nerd Ranch and its founder Aaron Hillegass have already made a huge impact on my career. When I first started to learn to program for Mac OS X I turned to Cocoa Programming for OS X. It was the, then unlabeled, first edition of the book and it was a game changer for me. Not only did I fall in love with Cocoa but the book itself was incredibly well written and helpful. Later while attending MacHack I was even able to get a pre-conference day of training from BNR. It too was great and the teacher, Chris Campbell, was really [helpful with me getting my MegaManEffect hack][4] to work. (It even took second place in the hack contest!)
@@ -20,9 +20,9 @@ To the company I&#8217;m leaving, [Tonic Design][8] (formerly DmgCtrl), I want t
 
 Anyways it&#8217;s going to be an exciting fews days as I get familiar with all the internal Big Nerd Ranch stuff, and to my new coworkers who might find this, I&#8217;ll see you in Atlanta for a week of introductions and geeking out real soon.
 
- [1]: https://twitter.com/zorn/status/552925179551420416
- [2]: http://www.bignerdranch.com/
- [4]: https://github.com/zorn/MegaManEffect/blob/master/Source/Credits.rtf
- [6]: https://training.bignerdranch.com/classes
- [7]: http://www.bignerdranch.com/we-develop/
- [8]: http://tonicdesign.com/
+[1]: https://twitter.com/zorn/status/552925179551420416
+[2]: http://www.bignerdranch.com/
+[4]: https://github.com/zorn/MegaManEffect/blob/master/Source/Credits.rtf
+[6]: https://training.bignerdranch.com/classes
+[7]: http://www.bignerdranch.com/we-develop/
+[8]: http://tonicdesign.com/

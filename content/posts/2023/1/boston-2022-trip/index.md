@@ -12,7 +12,7 @@ We took the train and stayed three nights. Highlights include a tour of Fenway P
 
 Our hotel was near the park, Boston Common. The small pond was frozen over, and many people were walking on ice.
 
-![Skate at your own risk.](IMG_2101.jpeg) 
+![Skate at your own risk.](IMG_2101.jpeg)
 
 Fenway Park will be hosting the Winter Classic hockey game later this week, so you'll see them getting set up for that. Of the typically non-public areas we saw, the press box was particularly cool.
 

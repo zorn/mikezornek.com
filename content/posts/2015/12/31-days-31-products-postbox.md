@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Postbox'
+title: "31 Days, 31 Products: Postbox"
 date: 2015-12-14T01:50:45+00:00
 aliases: /2015/12/13/31-days-31-products-postbox/
 categories:
   - Recommended
-
 ---
+
 ## Day 18: Postbox
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -20,8 +20,8 @@ So yeah, Postbox is not the sexiest software out there for email but it serves m
 
 A [free trial of Postbox][4] is available, and, if you like it, a license can be [purchased from them directly][5] for $15.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.postbox-inc.com
- [3]: http://kb.mozillazine.org/Email_clients_based_on_Thunderbird
- [4]: https://www.postbox-inc.com/download
- [5]: https://www.postbox-inc.com/store
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.postbox-inc.com
+[3]: http://kb.mozillazine.org/Email_clients_based_on_Thunderbird
+[4]: https://www.postbox-inc.com/download
+[5]: https://www.postbox-inc.com/store

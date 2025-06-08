@@ -9,12 +9,12 @@ With some time to kill I'm looking forward to catching up on some personal proje
 
 If you'd like a free, casual consultation about your project or code issues please [schedule an online meeting](https://savvycal.com/zorn/chat). Slots are 1 hour in length and recommend topics would include:
 
-* iOS / Swift Questions
-* Phoenix / Ecto / Elixir Questions
-* Testing Help
-* Continuous Integration Setup
-* HTML / CSS
-* Static website development with Hugo
-* Public Speaking / Technical Presentations / Teaching
+- iOS / Swift Questions
+- Phoenix / Ecto / Elixir Questions
+- Testing Help
+- Continuous Integration Setup
+- HTML / CSS
+- Static website development with Hugo
+- Public Speaking / Technical Presentations / Teaching
 
 [Make your appointment today!](https://savvycal.com/zorn/chat)

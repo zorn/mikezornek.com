@@ -14,11 +14,11 @@ I did sign a small monthly retainer for a previous client. This is a first for m
 
 ## Franklin
 
-I've been making good progress on my side project [Franklin](https://github.com/zorn/franklin). If you look at [Sprint 5](https://github.com/users/zorn/projects/1/views/10), you'll see I've been cranking out tickets at a much higher velocity of late. Feels good. Feels like I'm pretty close to a test deployment. 
+I've been making good progress on my side project [Franklin](https://github.com/zorn/franklin). If you look at [Sprint 5](https://github.com/users/zorn/projects/1/views/10), you'll see I've been cranking out tickets at a much higher velocity of late. Feels good. Feels like I'm pretty close to a test deployment.
 
 ## Walks
 
-Is it spring yet? Over the winter, I've been pretty lax with my morning walks. I still get out 1-2 times a week but have been using the indoor walking path of the local YMCA. It serves its purpose, but I was hoping the morning temperatures would be warm enough to do my local outdoor walking path without bundling up. It seems like this will take a few more weeks. 
+Is it spring yet? Over the winter, I've been pretty lax with my morning walks. I still get out 1-2 times a week but have been using the indoor walking path of the local YMCA. It serves its purpose, but I was hoping the morning temperatures would be warm enough to do my local outdoor walking path without bundling up. It seems like this will take a few more weeks.
 
 On the one plus side, I got some new sneakers, and wow, they are much nicer on my feet than my last pair. This a good reminder not to settle on crap shoes when your feet complain.
 
@@ -46,6 +46,6 @@ I finished my re-watch of Quantum Leap. After watching the first two seasons seq
 
 Still working through Voyager; currently, in the middle of season 2. I also started filling the gaps with random movies, including JFK, The Shawshank Redemption, Eternal Sunshine of the Spotless Mind, Lost in Translation, and The Terminal. I go in phases where I'll play movies in the background while I work, though only movies I've previously watched as I'm mostly looking for background noise rather than something to own my attention.
 
-***
+---
 
 That's it for now. Have a nice week!

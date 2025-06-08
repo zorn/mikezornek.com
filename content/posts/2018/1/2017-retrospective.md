@@ -6,8 +6,8 @@ categories:
   - Coding
   - Life Notes
   - Personal Projects
-
 ---
+
 I&#8217;ve been kind of heads down with client work the last few months but wanted to say hi to those who still follow me here.
 
 2017 was a bit of a sucker punch for me, but I survive.
@@ -24,9 +24,9 @@ My first Elm site is underway and I&#8217;ll share more as it comes together.
 
 Thanks for checking in. Be sure to [follow me on Micro.Blog][6] as well. Have a great 2018!
 
- [1]: http://zornlabs.com/
- [2]: http://owldeck.com/
- [3]: http://phillycocoa.org/
- [4]: http://elixir-lang.github.io/
- [5]: http://elm-lang.org/
- [6]: https://micro.blog/zorn
+[1]: http://zornlabs.com/
+[2]: http://owldeck.com/
+[3]: http://phillycocoa.org/
+[4]: http://elixir-lang.github.io/
+[5]: http://elm-lang.org/
+[6]: https://micro.blog/zorn

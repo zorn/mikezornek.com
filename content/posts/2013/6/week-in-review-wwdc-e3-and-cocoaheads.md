@@ -1,5 +1,5 @@
 ---
-title: 'Week in Review: WWDC, E3 and CocoaHeads'
+title: "Week in Review: WWDC, E3 and CocoaHeads"
 date: 2013-06-16T21:02:27+00:00
 aliases: /2013/06/16/week-in-review-wwdc-e3-and-cocoaheads/
 categories:
@@ -11,8 +11,8 @@ categories:
   - iOS
   - Life Notes
   - Xcode
-
 ---
+
 It&#8217;s been a crazy week. Some random notes and observations&#8230;
 
 ## WWDC
@@ -51,8 +51,8 @@ It&#8217;s now Sunday and after an extremely busy week I&#8217;m relaxing. I do 
 
 For all my Apple and gaming friends, I hope you enjoyed this week as well and enjoy the upcoming releases. Have fun!
 
- [1]: http://www.apple.com/apple-events/june-2013/
- [4]: http://www.apple.com/ios/ios7/
- [6]: http://www.apple.com/mac-pro/
- [7]: http://phillycocoa.org/
- [8]: http://twitter.com/KaraLaFleur
+[1]: http://www.apple.com/apple-events/june-2013/
+[4]: http://www.apple.com/ios/ios7/
+[6]: http://www.apple.com/mac-pro/
+[7]: http://phillycocoa.org/
+[8]: http://twitter.com/KaraLaFleur

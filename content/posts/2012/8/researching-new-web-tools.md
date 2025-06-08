@@ -5,8 +5,8 @@ aliases: /2012/08/30/researching-new-web-tools/
 categories:
   - CoffeeScript
   - JavaScript
-
 ---
+
 I&#8217;ve been spec&#8217;ing out this app idea off and on for a few months. At first I was going to do it on the Mac, but, as time passed, I decided to make it a web app in the newer style instead. Not a &#8220;present form, hit submit, view results&#8221; kind of thing, but something that is always saving and receiving messages from the server &#8212; very dynamic.
 
 I&#8217;m actually blessed that there are a number of great web tools, libraries, and frameworks to choose from these days. One great overview I read last night was [Rich JavaScript Applications – the Seven Frameworks][1] by Steven Sanderson. It does a great job listing and categorizing some of the more popular choices out there. New to me on the list was Meteor, and I consider [its video][2] a must-see.
@@ -29,10 +29,10 @@ Other tools that are relevant to my cause and look promising include:
 
 While I personally have a lot of Rails experience, I&#8217;m not going to shy away from NodeJS and other solutions. I almost welcome the opportunity to try something new these days. I&#8217;m also very excited to see that the [NodePhilly][7] group has gotten off the ground &#8212; I hope to make the next meeting in September.
 
- [1]: http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/
- [2]: http://www.meteor.com/screencast
- [3]: http://pragprog.com/book/tbcoffee/coffeescript
- [4]: http://todomvc.com/
- [5]: http://ace.ajax.org/
- [6]: http://sharejs.org/
- [7]: http://node.ph/
+[1]: http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/
+[2]: http://www.meteor.com/screencast
+[3]: http://pragprog.com/book/tbcoffee/coffeescript
+[4]: http://todomvc.com/
+[5]: http://ace.ajax.org/
+[6]: http://sharejs.org/
+[7]: http://node.ph/

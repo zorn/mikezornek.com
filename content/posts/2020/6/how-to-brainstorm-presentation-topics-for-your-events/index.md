@@ -6,7 +6,7 @@ description: What do you do when no one submits a presentation for the monthly m
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
-In my experience running meetup groups for over a decade, the social aspect or hallway conversations can sometimes be the most beneficial aspects of an event yet to hold **an event without a speaker or topic can usually lead to an empty RSVP list**. 
+In my experience running meetup groups for over a decade, the social aspect or hallway conversations can sometimes be the most beneficial aspects of an event yet to hold **an event without a speaker or topic can usually lead to an empty RSVP list**.
 
 Keeping on top of **what your members are interested in hearing more about** is an important group organizer task and in this post I'll share some ways in which you can stay informed.
 
@@ -16,7 +16,7 @@ Keeping on top of **what your members are interested in hearing more about** is 
 
 > Aside: While I recommend keeping a monthly checklist of things to do (including things like the above) I would also advise against automating these emails. Make each one personal and you're far more likely to get a conversation going.
 
-You can also **send our a web survey every 6-9 months**. This is a little more  impersonal but can still generate some helpful information.
+You can also **send our a web survey every 6-9 months**. This is a little more impersonal but can still generate some helpful information.
 
 ## Don't Be Afraid to Mix In Beginner Topics
 

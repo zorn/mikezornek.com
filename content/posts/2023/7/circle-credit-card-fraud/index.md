@@ -22,9 +22,9 @@ I won't detail my full interactions but suffice it to say:
 
 Next quarter?
 
-Now my community, ElixirClub, was very small and very quiet, so it was easy to observe and react to the fraud since there were no real sign-ups anyways -- but I feel so bad for the successful Circle community manager who can not do anything to add the needed technical friction to their own sign-up forms and cannot turn if off either. 
+Now my community, ElixirClub, was very small and very quiet, so it was easy to observe and react to the fraud since there were no real sign-ups anyways -- but I feel so bad for the successful Circle community manager who can not do anything to add the needed technical friction to their own sign-up forms and cannot turn if off either.
 
-I'd be shocked if this was not affecting other Circle users. 
+I'd be shocked if this was not affecting other Circle users.
 
 This is not a feature request; this is a **high-priority security issue**, and Circle's failure to see it as such is embarrassing.
 

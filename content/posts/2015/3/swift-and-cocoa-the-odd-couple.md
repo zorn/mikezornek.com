@@ -1,11 +1,11 @@
 ---
-title: 'Swift and Cocoa: The Odd Couple'
+title: "Swift and Cocoa: The Odd Couple"
 date: 2015-03-04T16:30:06+00:00
 aliases: /2015/03/04/swift-and-cocoa-the-odd-couple/
 categories:
   - Uncategorized
-
 ---
+
 Swift and Cocoa are like The Odd Couple. Two people, with drastically different personalities who are joined by fate to live with each other.
 
 ![Swift and Cocoa / Odd Couple][1]
@@ -18,5 +18,5 @@ One would only ever allow a single item type like socks in his drawer. The other
 
 One is very cautious with things handed to it, slowly unwrapping them. The other is extremely trusting and uses stuff passed to it without question, result be dammed.
 
- [1]: http://mikezornek.com/media/images/swift-cocoa-odd-couple.jpg "Swift and Cocoa / Odd Couple"
- [2]: https://www.youtube.com/watch?v=kDrfHj3j398
+[1]: http://mikezornek.com/media/images/swift-cocoa-odd-couple.jpg "Swift and Cocoa / Odd Couple"
+[2]: https://www.youtube.com/watch?v=kDrfHj3j398

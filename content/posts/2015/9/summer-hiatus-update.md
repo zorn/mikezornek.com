@@ -5,8 +5,8 @@ aliases: /2015/09/24/summer-hiatus-update/
 categories:
   - Conferences
   - Life Notes
-
 ---
+
 Hello internets. So sorry for the summer hiatus here on the blog. So what have you been up to? ([Email me][1] and say hi!)
 
 I&#8217;ve been doing good. WWDC was a fun time in June and shortly after that I had 6 days down the shore with my family. At work, I&#8217;ve been on a Swift iOS project. It&#8217;s my first time using Swift in production and working along side [John][2] and [Zac][3] has been incredibly educational. I also was able to get on the road and do my first solo teaching gig for Big Nerd Ranch. I really do enjoy teaching and hope to get the opportunity to do more of it in the coming year.
@@ -17,9 +17,9 @@ I also just (like a week ago) got a new car. Ended up buying a new 2015 [Hyundai
 
 Well that&#8217;s it for now. Bring on the fall!
 
- [1]: mailto:mike@mikezornek.com
- [2]: https://twitter.com/nerdyjkg
- [3]: https://twitter.com/zwaldowski?lang=en
- [4]: http://cocoalove.org/
- [5]: http://releasenotes.tv/conference/
- [6]: https://www.hyundaiusa.com/sonata/index.aspx
+[1]: mailto:mike@mikezornek.com
+[2]: https://twitter.com/nerdyjkg
+[3]: https://twitter.com/zwaldowski?lang=en
+[4]: http://cocoalove.org/
+[5]: http://releasenotes.tv/conference/
+[6]: https://www.hyundaiusa.com/sonata/index.aspx

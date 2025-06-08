@@ -18,7 +18,7 @@ In this blog post, I'll give a visual tour of how this looks to the user, what t
 
 When building any web application, user registration, authentication, and authorization are extremely common needs. The Phoenix team wants to help and provides tools and patterns to help get you jump-started.
 
-The Mix task `phx.gen.auth` is one such tool. Using it inside a fresh Phoenix project, you can set up a community-vetted starting point to allow user registration and authentication. 
+The Mix task `phx.gen.auth` is one such tool. Using it inside a fresh Phoenix project, you can set up a community-vetted starting point to allow user registration and authentication.
 
 You'll also spot some small files created by the `phx.gen.auth` task related to [Scopes](https://hexdocs.pm/phoenix/1.8.0-rc.3/scopes.html) a Phoenix 1.8 authorization pattern, but we will not be talking about authorization today.
 
@@ -56,9 +56,9 @@ One of the first outcomes of running the code generator is a change to the site 
 
 ![Screenshot showing a registration form asking for email only.](/posts/2025/5/phoenix-magic-link-authentication/2_register_form.png)
 
-On the registration page, you'll see a form asking for a single input value,  the user's email.
+On the registration page, you'll see a form asking for a single input value, the user's email.
 
-While password authentication is still an option, a password is not asked for at the time of registration. 
+While password authentication is still an option, a password is not asked for at the time of registration.
 
 ![Screenshot showing a toast notification telling the user an email was sent to their account.](/posts/2025/5/phoenix-magic-link-authentication/3_register_toast.png)
 
@@ -104,7 +104,7 @@ The bottom of the page offers a more traditional email/password form. It works a
 
 An account can, in fact, have a password. It is set on the `Settings` page we will view below. However, out of the box, the Settings page and its `Save Password` form is an optional page, not all users would have seen.
 
-**Aside:** I think it is a bit odd that this generator is doing Log in with email **and** a secondary (optional) Log in with email/password. In my own professional experiences, I've done each separately but never both at the same time. It feels like a UX decision that could lead to user confusion. 
+**Aside:** I think it is a bit odd that this generator is doing Log in with email **and** a secondary (optional) Log in with email/password. In my own professional experiences, I've done each separately but never both at the same time. It feels like a UX decision that could lead to user confusion.
 
 ### Settings
 
@@ -156,9 +156,9 @@ All of the core authentication logic is found inside `Hello.Accounts`. There are
   end
 ```
 
-The first is `Hello.Accounts.User`, and this is a schema for the persisted entity for the registered user. Most fields are pretty straightforward. Good to see the use of `redact: true` for those password-related fields. 
+The first is `Hello.Accounts.User`, and this is a schema for the persisted entity for the registered user. Most fields are pretty straightforward. Good to see the use of `redact: true` for those password-related fields.
 
-I feel a little curious about the `virtual` `authenticated_at` field. This is a value that is patched into the `User` struct [during calls to](https://github.com/zorn/magic-link-demo/blob/1de3ac787dc7e98721a2e3df468e454a3275d74b/lib/hello/accounts/user_token.ex#L63) `Hello.Accounts.get_user_by_session_token/1` and later evaluated by [`sudo_mode?/2`](https://github.com/zorn/magic-link-demo/blob/1de3ac787dc7e98721a2e3df468e454a3275d74b/lib/hello/accounts.ex#L85-L97). This feels like a performance choice, connecting values earlier in the call stack instead of repeating a database call later, but I'm generally suspicious of `virtual` fields as they lead to many questions when trying to understand how the fields are populated. 
+I feel a little curious about the `virtual` `authenticated_at` field. This is a value that is patched into the `User` struct [during calls to](https://github.com/zorn/magic-link-demo/blob/1de3ac787dc7e98721a2e3df468e454a3275d74b/lib/hello/accounts/user_token.ex#L63) `Hello.Accounts.get_user_by_session_token/1` and later evaluated by [`sudo_mode?/2`](https://github.com/zorn/magic-link-demo/blob/1de3ac787dc7e98721a2e3df468e454a3275d74b/lib/hello/accounts.ex#L85-L97). This feels like a performance choice, connecting values earlier in the call stack instead of repeating a database call later, but I'm generally suspicious of `virtual` fields as they lead to many questions when trying to understand how the fields are populated.
 
 The second entity is `Hello.Accounts.UserToken`, and this schema creates a container of sorts that will be used for a variety of tasks.
 
@@ -201,7 +201,7 @@ When you authenticate, in addition to the Phoenix session / cookie, a `UserToken
   end
 ```
 
-However, this `UserToken` schema is used for more than just sessions. 
+However, this `UserToken` schema is used for more than just sessions.
 
 When the system sends an emailed magic link to log in, that is a reference to a `UserToken`. Again, the power to expire these is very handy.
 
@@ -211,9 +211,9 @@ The system even uses `UserToken` when changing an email. The wanted new email ad
 
 So that is a quick visual overview of what you'll find in Phoenix 1.8's update `phx.gen.auth` code generator. [Formal documentation](https://hexdocs.pm/phoenix/1.8.0-rc.3/mix_phx_gen_auth.html) has more detailed information and if you want to follow the community discussions that led to this change see this [issue](https://github.com/phoenixframework/phoenix/issues/6041) and [PR](https://github.com/phoenixframework/phoenix/pull/6081).
 
-I have mixed feelings about the change overall. 
+I have mixed feelings about the change overall.
 
-I think my primary concern is that this adds friction to the deployment of Phoenix toy projects that want user registration. Requiring the developer to acquire transactional email services is one more thing to deploy, and there are plenty of projects where I'd like user registration but desire to keep the dependencies as small as possible. 
+I think my primary concern is that this adds friction to the deployment of Phoenix toy projects that want user registration. Requiring the developer to acquire transactional email services is one more thing to deploy, and there are plenty of projects where I'd like user registration but desire to keep the dependencies as small as possible.
 
 When I first heard about this change, I thought it would be opt-in, but [there is no option](https://hexdocs.pm/phoenix/1.8.0-rc.3/Mix.Tasks.Phx.Gen.Auth.html) to prefer email/password as the primary user flow. It is not a giant leap to generate code and then pull some of it back, remove the magic links, and introduce email/password during registration (I'm doing that for my current Phoenix sandbox), but an official option would be welcome.
 
@@ -222,6 +222,6 @@ Other small nitpicks I'd encourage others to consider when adapting this code fo
 - I think button labels should have a consistent case. This project has a mix of title-cased buttons and first-word-only capitalization. Many also have a left-pointing arrow, which adds some visual flair to help promote a primary page action but can be visually overwhelming when you see multiple buttons using it, like on the log in page.
 - I'm not sure why it says `Change Email` but `Save Password`. I wish it were consistent with the verb `Change`. I thought maybe it would only say `Save` Password when the password was missing, but in my experience, it was a static button label.
 
-*** 
+---
 
 If you welcome this kind of nitpick criticism of your own project, I am available for [Elixir Consulting](/elixir-consulting/). 😅

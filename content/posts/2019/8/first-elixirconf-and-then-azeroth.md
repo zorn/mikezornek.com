@@ -3,14 +3,14 @@ title: "First ElixirConf, and Then Azeroth"
 date: 2019-08-23T15:20:41-04:00
 ---
 
-Happy Friday everyone. Hope you all had a good and productive week. I myself am feeling pretty good. 
+Happy Friday everyone. Hope you all had a good and productive week. I myself am feeling pretty good.
 
 Went heads down this week and made some project progress for both clients and personal endeavors. Today, Friday, I'm working from home. First cleaning up a bit and then probably some more client work. Would like to close a few threads before attending [ElixirConf](https://elixirconf.com/2019) next week.
 
 I'm going for four days. First two days are workshops and then two days of conference talks. My workshops will be:
 
-* [Build Performant, Real-Time UIs with Phoenix LiveView](https://elixirconf.com/2019/training-classes/6) - LiveView is something I have experimented with but have yet to get going in my projects. I am excited to get past the simple demos into more complex use cases.
-* [Build a Smart Camera with Nerves, Phoenix, and Absinthe](https://elixirconf.com/2019/training-classes/8) - I have almost no hardware experience and this is more of an experimental thing for me. Lots to learn!
+- [Build Performant, Real-Time UIs with Phoenix LiveView](https://elixirconf.com/2019/training-classes/6) - LiveView is something I have experimented with but have yet to get going in my projects. I am excited to get past the simple demos into more complex use cases.
+- [Build a Smart Camera with Nerves, Phoenix, and Absinthe](https://elixirconf.com/2019/training-classes/8) - I have almost no hardware experience and this is more of an experimental thing for me. Lots to learn!
 
 It's going to be a fun week. Over the last year I've really started to get over the beginner hump of Elixir and am ready to sink my teeth into some of the deeper aspects (or aspects like Nerves and embedded software I've never touched).
 

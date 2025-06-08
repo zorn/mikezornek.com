@@ -6,7 +6,7 @@ images:
   - posts/2021/9/framework-first-thoughts/thumb.jpeg
 ---
 
-A few days ago I took delivery of a [Framework laptop][4], a new product that prioritized repairability in support of the [Right to Repair][3] movement. I'm enjoying it a lot and wanted to share some early observations. 
+A few days ago I took delivery of a [Framework laptop][4], a new product that prioritized repairability in support of the [Right to Repair][3] movement. I'm enjoying it a lot and wanted to share some early observations.
 
 [4]: https://frame.work/
 [3]: https://www.repair.org/
@@ -37,14 +37,14 @@ Installation of the components was fairly easy (even for someone with limited ha
 
 There are a ton of little design choices that make this laptop feel special.
 
-* Not only do you get a screwdriver in the one size you'll need (many other laptops require an armada of different screwdrivers to work on), it is even magnetized to hold the internal screws just a little better while working.
-* The screws on the base of the laptop are captive, meaning they won't fall out and get lost when loosened.
-* If you were to loose an internal screw, there are extra screws inside the case.
-* The base and screen frame are held in with magnets, not glue, allowing for easy opening and alignment.
-* Instead of picking a fixed collection of ports, the Framework laptop has a simple expansion system which allows you to customize ports based on your needs. I am currently using a mix of USB-C, USB-A and HDMI components but they also have SD cards, extra storage and other options.
-* The machine comes with a 1080p camera and a pair of microphones connected to physical privacy switches that disconnect them when unwanted.
-* There is a fingerprint sensor built into the power button. This is the one hardware feature that does not work out of the box for the current Ubuntu release but there are [known instructions][9] shared by the supportive Linux users within the Framework community forum on how to get it to work. I plan to do this soon.
-* The screen resolution is 2256x1504, a taller 3:2 ratio than most other laptops, giving you a little extra workspace and enough pixels to run your OS in a high DPI mode for crisp text.
+- Not only do you get a screwdriver in the one size you'll need (many other laptops require an armada of different screwdrivers to work on), it is even magnetized to hold the internal screws just a little better while working.
+- The screws on the base of the laptop are captive, meaning they won't fall out and get lost when loosened.
+- If you were to loose an internal screw, there are extra screws inside the case.
+- The base and screen frame are held in with magnets, not glue, allowing for easy opening and alignment.
+- Instead of picking a fixed collection of ports, the Framework laptop has a simple expansion system which allows you to customize ports based on your needs. I am currently using a mix of USB-C, USB-A and HDMI components but they also have SD cards, extra storage and other options.
+- The machine comes with a 1080p camera and a pair of microphones connected to physical privacy switches that disconnect them when unwanted.
+- There is a fingerprint sensor built into the power button. This is the one hardware feature that does not work out of the box for the current Ubuntu release but there are [known instructions][9] shared by the supportive Linux users within the Framework community forum on how to get it to work. I plan to do this soon.
+- The screen resolution is 2256x1504, a taller 3:2 ratio than most other laptops, giving you a little extra workspace and enough pixels to run your OS in a high DPI mode for crisp text.
 
 [9]: https://community.frame.work/t/fingerprint-scanner-compatibility-with-linux-ubuntu-fedora-etc/1501/18
 
@@ -56,7 +56,7 @@ The overall build quality feels great. I saw [Dave2D complain][8] about some fle
 
 I prefer a larger laptop, like my 16-inch MacBook Pro. I like the larger screen and overall larger body on my lap, as I work sitting on a recliner. This laptop is 13.5 inches but feels a little small for my personal preference. I look forward to future Framework options that might be larger with dedicated graphics cards.
 
-The trackpad is mechanical and not haptic which by itself is not an issue for me but still unfortunate. More importantly I have struggled with my out of the box Ubuntu trackpad experience. 
+The trackpad is mechanical and not haptic which by itself is not an issue for me but still unfortunate. More importantly I have struggled with my out of the box Ubuntu trackpad experience.
 
 First I was dealing with a frustration that a right-side tap was signaling right clicks, but this was solved with some quick tweak software. Ongoing is an issue with two finger scrolling speed being way too fast. [I think this is a Gnome issue][10], and am hopeful a custom preference can be found to slow things down. I hear some people on a future version of Ubuntu are not having this problem so we'll see. Finally there is my thumb placement at the bottom of the trackpad which can interrupts pointer movement with my index finger. These are technically software issues so I don't want to ding Framework too much but want to share my notes as transparent as I can.
 

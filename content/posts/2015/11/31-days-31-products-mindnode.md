@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: MindNode'
+title: "31 Days, 31 Products: MindNode"
 date: 2015-11-24T22:42:19+00:00
 aliases: /2015/11/24/31-days-31-products-mindnode/
 categories:
   - Recommended
-
 ---
+
 ## Day 01: MindNode
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -20,11 +20,11 @@ As for what I mind map, well, related to my [recent announcements][5] it&#8217;s
 
 MindNode is available from the [Mac App Store][6] ($29) as well as the iOS [App Store][7] ($9). A [free trial for Mac][8] can be downloaded from their website.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://mindnode.com/
- [3]: https://en.wikipedia.org/wiki/Mind_map
- [4]: http://mikezornek.com/media/images/31products/MindNodeMac.png "MindNode for Mac OS X"
- [5]: http://mikezornek.com/2015/11/16/rebooting-my-professional-side-projects/
- [6]: https://itunes.apple.com/app/mindnode-pro/id992076693?mt=12&uo=4&at=11l5H7&ct=web
- [7]: https://itunes.apple.com/app/mindnode/id312220102?mt=8&uo=4&at=11l5H7&ct=web
- [8]: http://mindnode.com/downloads/MindNodeMacDemo.zip
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://mindnode.com/
+[3]: https://en.wikipedia.org/wiki/Mind_map
+[4]: http://mikezornek.com/media/images/31products/MindNodeMac.png "MindNode for Mac OS X"
+[5]: http://mikezornek.com/2015/11/16/rebooting-my-professional-side-projects/
+[6]: https://itunes.apple.com/app/mindnode-pro/id992076693?mt=12&uo=4&at=11l5H7&ct=web
+[7]: https://itunes.apple.com/app/mindnode/id312220102?mt=8&uo=4&at=11l5H7&ct=web
+[8]: http://mindnode.com/downloads/MindNodeMacDemo.zip

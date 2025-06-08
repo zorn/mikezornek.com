@@ -12,6 +12,6 @@ So often, we look forward to long **"deep work" programming sessions** to make m
 
 You need to find ways to **move your side project forward** during the **cracks of daily life**, hopefully setting up the foundation of a **productive habit loop**. Have a little time before bed; here is a tiny ticket to do. Have time to kill waiting for a zoom meeting to start; find a tiny ticket to knock out. Many will be **mindless dependency updates** or **small refactors** but little by little, your project will **grow**.
 
-***
+---
 
 If you have an active side project, I'd love to ask you some questions to help me with my research. Grab some calendar time here: <https://savvycal.com/zorn/chat>.

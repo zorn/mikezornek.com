@@ -5,8 +5,8 @@ aliases: /2013/03/13/more-google-reader-thoughts/
 categories:
   - Industry News
   - Personal Projects
-
 ---
+
 ## What was Google Reader?
 
 To be clear, Google Reader was two things.
@@ -41,6 +41,6 @@ What I don&#8217;t want to see is app developers having to support a dozen or so
 
 Not a ton. [CB Reader][3] is a client app, in the respect that it focuses on article management and the reading experience. While I could see having a public API to manage subscriptions I don&#8217;t intend for CB Reader to be a faceless &#8220;sync home&#8221; that powers other apps.
 
- [1]: https://code.google.com/p/google-reader-api/
- [2]: http://blog.feedly.com/2013/03/14/google-reader/
- [3]: http://clickablebliss.com/cbreader/
+[1]: https://code.google.com/p/google-reader-api/
+[2]: http://blog.feedly.com/2013/03/14/google-reader/
+[3]: http://clickablebliss.com/cbreader/

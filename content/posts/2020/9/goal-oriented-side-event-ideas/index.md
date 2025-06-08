@@ -10,23 +10,23 @@ I'm a firm believer that going forward, [successful technical meetup groups need
 
 All of the following event ideas are built around:
 
-* Providing goal-based activities that will draw a crowd and encourage ad hoc socializing.
-* Offer more flexible or focused time commitments, with much of the event, when possible, happening async with high value face-to-face time limited for kickoffs and conclusion presentations.
-* Have low costs for organizing and hosting. No complicated software. No leaning on a single person to prepare a day long workshop.
+- Providing goal-based activities that will draw a crowd and encourage ad hoc socializing.
+- Offer more flexible or focused time commitments, with much of the event, when possible, happening async with high value face-to-face time limited for kickoffs and conclusion presentations.
+- Have low costs for organizing and hosting. No complicated software. No leaning on a single person to prepare a day long workshop.
 
 ## Book Clubs
 
 Book Clubs are great way to bring together goal minded people who want to become better at something. It's a fairly well understood idea and so the big decisions are usually around what book to read and how to meet and discuss.
 
-I recommend picking a few book options and letting a group vote. Generally speaking you'll probably get more involvement with more introductory-level books. 
+I recommend picking a few book options and letting a group vote. Generally speaking you'll probably get more involvement with more introductory-level books.
 
-You'll want to meet once a week to keep that social pressure on people to do their readings and homework. Consider a first meeting for social introductions and then work out a regular meeting time from there. One hour is usually good enough. 
+You'll want to meet once a week to keep that social pressure on people to do their readings and homework. Consider a first meeting for social introductions and then work out a regular meeting time from there. One hour is usually good enough.
 
 When it comes to the meeting itself try to have different members volunteer to "drive" the meeting. My own book clubs tend to scan over the chapters from that week and kick off discussions/questions.
 
-## Code Jams 
+## Code Jams
 
-This is something I know of more formally from the Game Jam concept but it can just as easily apply to general programming. 
+This is something I know of more formally from the Game Jam concept but it can just as easily apply to general programming.
 
 Over the course of a single weekend or week you pick a theme and/or a specific SDK. People then work on a demo, game or hack with that theme and SDK in mind. At the end of the event people present their work, with awards being handed out -- the more cheesy the trophies the more sought after they are within a community.
 
@@ -46,10 +46,10 @@ The big idea is people get more experience with how to break down problems and d
 
 I define the Architecture Craft Sessions above as more solo work and while some people prefer to build in isolation, there is also a lot to be said for pairing two people together. In particular pairing a junior person with someone more senior, even for an hour can lead to a ton of great observations for how people work.
 
-To help define a path for this pairing we look to Code Katas. 
+To help define a path for this pairing we look to Code Katas.
 
 > A kata, or code kata, is defined as an exercise in programming which helps hone your skills through practice and repetition. Kata exercises vary from general to more complex algorithms and real life situations for you to try using your preferred programming language.
-> 
+>
 > Remember that code katas are not quizzes or puzzles. You should not only try to 'solve' it, but find a very good solution, following best practices of the programming language you are using.
 
 For more examples on Code Kata problems you can use check out:
@@ -58,7 +58,7 @@ For more examples on Code Kata problems you can use check out:
 
 ## Open Source Project Day
 
-Rather than kick off a major new group open source project (which has a much larger time and energy commitment), pick a day and an existing open source project for your platform. 
+Rather than kick off a major new group open source project (which has a much larger time and energy commitment), pick a day and an existing open source project for your platform.
 
 Kick off the day with an introduction to the open source project, it's code and some good tasks for new contributors (simple bugs, documentations, more tests). Let people work async or in pairs, with shared group spaces for discussion or questions. At the end of the day people can demo the PRs they've built.
 

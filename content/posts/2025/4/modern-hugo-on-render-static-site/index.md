@@ -64,7 +64,7 @@ hugo --logLevel info
 
 In addition to installing Hugo, I also install some npm packages, including Tailwind and the Tailwind Typography plugin, which I am using for my Hugo template HTML. One thing to keep in mind here is that Render does [honor and expect](https://render.com/docs/node-version) a `NODE_VERSION` inside your environment settings to hint what version of node to use. This static site was defaulting to a pretty old version of node when I started without a `NODE_VERSION` environment variable, and that seems to be [based on when the static site service was initialized](https://render.com/docs/node-version#history-of-default-nodejs-versions).
 
-I do a bit of extra logging to help me debug, but overall, this script is pretty straightforward. Make sure to grant execution permissions with `chmod a+x build.sh`  to the shell script when composing it. 
+I do a bit of extra logging to help me debug, but overall, this script is pretty straightforward. Make sure to grant execution permissions with `chmod a+x build.sh` to the shell script when composing it.
 
 ## Inefficiencies
 

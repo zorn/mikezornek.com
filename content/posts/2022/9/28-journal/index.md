@@ -4,7 +4,7 @@ date: 2022-09-28T18:24:40-04:00
 description: Journal -- September 28, 2022
 ---
 
-Wednesday, September 28, 2022 -- Woke up around 8am and after a some breakfast headed out to run errands. 
+Wednesday, September 28, 2022 -- Woke up around 8am and after a some breakfast headed out to run errands.
 
 At Target I picked up a new shower curtain and bathroom mats for the new apartment. Going to try to prepare so that some minimal living conditions are all in place before the apartment move happens on Tuesday. I don't want to be in a state where I have to hunt for things just to take a nice shower that first night.
 

@@ -10,6 +10,6 @@ For a while I was considering getting into the paid-for educational content spac
 
 I blogged, build some demo projects and did some talks.
 
-Ultimately I decided the market was not big enough for the financial goals I had in mind and while I still would blog and teach from my own Elixir experiences that would be in a more casual and not a for-profit endeavour. 
+Ultimately I decided the market was not big enough for the financial goals I had in mind and while I still would blog and teach from my own Elixir experiences that would be in a more casual and not a for-profit endeavour.
 
 The sites will be closed down soon and any previous work migrated to my personal spaces here and on GitHub.

@@ -24,7 +24,7 @@ To add the dependency to your project, you'll add it to the `deps` list in the `
 ```elixir
 # mix.exs
 defp deps do
-  [  
+  [
     # ...
     {:tzdata, "~> 1.1"}
   ]
@@ -47,14 +47,14 @@ iex> DateTime.new(~D[2016-05-24], ~T[13:26:08.003], "America/New_York")
 
 ## The user's time zone
 
-When I say `User` here, I refer to the web browser client requesting a web page from our server. 
+When I say `User` here, I refer to the web browser client requesting a web page from our server.
 
-Sadly, when displaying a `DateTime` value in this user's response, we are hampered by the fact that we do not know their time zone. The time zone is not included with the HTTP request. 
+Sadly, when displaying a `DateTime` value in this user's response, we are hampered by the fact that we do not know their time zone. The time zone is not included with the HTTP request.
 
 Assuming the browser renders the page in an environment that executes JavaScript, the most approachable way to get this is via a function call like:
 
 ```javascript
-Intl.DateTimeFormat().resolvedOptions().timeZone
+Intl.DateTimeFormat().resolvedOptions().timeZone;
 ```
 
 [MDN Reference for `DateTimeFormat`.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)
@@ -67,16 +67,18 @@ The first thing we will do is edit our `assets/js/app.js` file. We want to query
 
 ```javascript
 // assets/js/app.js
-let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
+let csrfToken = document
+  .querySelector("meta[name='csrf-token']")
+  .getAttribute("content");
 
 // Add this.
-let time_zone = Intl.DateTimeFormat().resolvedOptions().timeZone 
+let time_zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 let liveSocket = new LiveSocket("/live", Socket, {
   longPollFallbackMs: 2500,
   // And `time_zone` here.
-  params: { _csrf_token: csrfToken, time_zone: time_zone } 
-})
+  params: { _csrf_token: csrfToken, time_zone: time_zone },
+});
 ```
 
 From your live view module's `mount/3` function, you can access this `time_zone` value like:
@@ -111,11 +113,11 @@ For the needs of my side project, I made a dedicated module called `Flick.DateTi
 
 With this in place, I can display a `DateTime` value from any live view in the user's time zone.
 
-A full implementation can be found in [the Flick PR](https://github.com/zorn/flick/pull/137/files) if you want more reference materials. 
+A full implementation can be found in [the Flick PR](https://github.com/zorn/flick/pull/137/files) if you want more reference materials.
 
 ## This is a half solution.
 
-You might recall in a code comment above, I said: 
+You might recall in a code comment above, I said:
 
 ```txt
 The `time_zone` value will only be available when the live view is
@@ -155,11 +157,11 @@ Hooks.LocalTime = {
       // timeStyle: "short",
     }).format(dt);
     this.el.classList.remove("invisible");
-  }
-}
+  },
+};
 ```
 
-I recall seeing approaches like this before and you correct that this is just as reasonable of a solution for Flick's needs.  I vaguely recall requirements that made it a non-option for my other project (maybe due to time zone presentation in email copy) but a great addition to the post. Thanks for sharing!
+I recall seeing approaches like this before and you correct that this is just as reasonable of a solution for Flick's needs. I vaguely recall requirements that made it a non-option for my other project (maybe due to time zone presentation in email copy) but a great addition to the post. Thanks for sharing!
 
 ## Other Resources
 
@@ -168,7 +170,7 @@ I'll leave you out with some related resources. Good coding, and if you have any
 - Elixir's [`DateTime`] docs are great and worthy of re-read.
 - My [Flick PR](https://github.com/zorn/flick/pull/137/files) where I added this feature.
 - [Date and Time · Elixir School](https://elixirschool.com/en/lessons/basics/date-time/)
-- I gave a talk [Working With Time Zones in an Elixir Phoenix App](/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/) back in 2020 at a local meetup. I have the video, but the embed on that page is currently down. Slides are there, which might be interesting. 
+- I gave a talk [Working With Time Zones in an Elixir Phoenix App](/posts/2020/3/working-with-time-zones-in-an-elixir-phoenix-app/) back in 2020 at a local meetup. I have the video, but the embed on that page is currently down. Slides are there, which might be interesting.
 - There was an amazing talk at ElixirConf 2022 [Kip Cole - Time algebra: a new way to think about and work with time](https://www.youtube.com/watch?v=4VfPvCI901c). This strays from the practical demonstrations of this post but was a memorable talk that impressed me.
 - DockYards had their own recent demo blog post, which aligns with many of the things shared here: [Getting and Displaying the User's Local Time in LiveView](https://dockyard.com/blog/2024/10/15/getting-displaying-users-local-time-liveview)
 - [Simon Willison: Storing times for human events](https://simonwillison.net/2024/Nov/27/storing-times-for-human-events/)
@@ -180,15 +182,24 @@ I originally posted this with some links to a private repo. I'm not in a place t
 ```javascript
 // assets/js/app.js
 // "When a web visitor was on the page, we executed JavaScript that would PUT the observed time zone we saw..."
-window.addEventListener('DOMContentLoaded', (event) => {
-    if (document.head.dataset.timezone == 0) {
-        let user_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
-        console.log('User timezone was unknown on dom load. Sending user timezone (' + user_timezone + ') to server.');
-        fetch(location.protocol + '//' + location.host + '/timezone?iana=' + encodeURIComponent(user_timezone))
-            .then((response) => {
-                console.log(response);
-            });
-    }
+window.addEventListener("DOMContentLoaded", (event) => {
+  if (document.head.dataset.timezone == 0) {
+    let user_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    console.log(
+      "User timezone was unknown on dom load. Sending user timezone (" +
+        user_timezone +
+        ") to server.",
+    );
+    fetch(
+      location.protocol +
+        "//" +
+        location.host +
+        "/timezone?iana=" +
+        encodeURIComponent(user_timezone),
+    ).then((response) => {
+      console.log(response);
+    });
+  }
 });
 ```
 

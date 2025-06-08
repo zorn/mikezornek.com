@@ -7,11 +7,11 @@ This year's WWDC as expected is overflowing with things to talk about. For now, 
 
 From a purely technical perspective, there isn't much missing. We got:
 
-* Expandable RAM (12 physical DIMM slots)
-* Expandable SSDs (2 slots; I hear the T2 encryption will work with this even if it's non-Apple supplied.)
-* Expandable IO via 8 PCI express slot
-* A neat modular system that seemingly can also fall back to more generic cards.
-* The CPU even seems socket-able.
+- Expandable RAM (12 physical DIMM slots)
+- Expandable SSDs (2 slots; I hear the T2 encryption will work with this even if it's non-Apple supplied.)
+- Expandable IO via 8 PCI express slot
+- A neat modular system that seemingly can also fall back to more generic cards.
+- The CPU even seems socket-able.
 
 I'm not sure I love the aesthetics but I do enjoy how they use both sides of the motherboard and the whole shell slides up to reveal the internals.
 
@@ -26,7 +26,7 @@ I've been shopping for a new monitor and Apple was right that there are about 8 
 $5000 for the monitor, or $6000 if you want the matte option -- and then the stand, an extra $1000.
 
 This is what broke me. This is the point in which I question why Apple is showing me this?
- 
+
 I truly believe they should have revealed this MacPro and monitor at a proper video / media conference. Revealing it in front of developers who can't afford it nor whom the product is marketed at just feel very out of context. We were begging them to built **us** a tower and display, but they built them for someone else, and it's kind of depressing.
 
 What I wanted:
@@ -37,8 +37,8 @@ I wanted a $1000 self-contained version of the 5K iMac display. Maybe an ultrawi
 
 What's Next?
 
-Well with this new knowledge I finally pulled the trigger on my new monitor. It's not an Apple monitor. I'll go more into that one next time. 
+Well with this new knowledge I finally pulled the trigger on my new monitor. It's not an Apple monitor. I'll go more into that one next time.
 
-As for the MacPro itself -- time will tell. I for sure am not buying one day one. I want to see people review this. I want to see iFixIt rip it apart. We need time to see how this thing fairs in the real world. The recent laptops have turned me off to buying untested Mac hardware. 
+As for the MacPro itself -- time will tell. I for sure am not buying one day one. I want to see people review this. I want to see iFixIt rip it apart. We need time to see how this thing fairs in the real world. The recent laptops have turned me off to buying untested Mac hardware.
 
-I will also continue to update and prune my dream hackintosh part list (which right now hovers around $2000) as I think that might be a more viable option. 
+I will also continue to update and prune my dream hackintosh part list (which right now hovers around $2000) as I think that might be a more viable option.

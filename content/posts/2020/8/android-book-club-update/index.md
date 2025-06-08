@@ -10,9 +10,9 @@ images:
 
 A few updates on our Android Book Club. ([Original announcement post.](/posts/2020/6/an-android-book-club-for-ios-developers/))
 
-* Things are going well.
-* Will be migrating from [Programming Kotlin](https://pragprog.com/titles/vskotlin/) to [Android Programming: The Big Nerd Ranch Guide (4th Edition)](https://www.amazon.com/Android-Programming-Ranch-Guide-Guides/dp/0135245125/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=mikezornekcom-20&linkId=40f3837fd1242a0271063cc012dece26&language=en_US) in the coming weeks.
-* We have room for a few more people, if you want to join us!
+- Things are going well.
+- Will be migrating from [Programming Kotlin](https://pragprog.com/titles/vskotlin/) to [Android Programming: The Big Nerd Ranch Guide (4th Edition)](https://www.amazon.com/Android-Programming-Ranch-Guide-Guides/dp/0135245125/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=mikezornekcom-20&linkId=40f3837fd1242a0271063cc012dece26&language=en_US) in the coming weeks.
+- We have room for a few more people, if you want to join us!
 
 Android Book Club Website / Membership Application:
 

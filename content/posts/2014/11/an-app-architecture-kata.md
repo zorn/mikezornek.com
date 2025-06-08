@@ -5,14 +5,14 @@ aliases: /2014/11/23/an-app-architecture-kata/
 categories:
   - Coding
   - iOS
-
 ---
+
 At the last [Side Project Saturday][1] CocoaHeads event I ran a special little exercise. Here was how I described it.
 
 > I&#8217;d like to run a little event, (maybe after lunch?) for anyone who wants to participate. Should take like 45-60m.
-> 
+>
 > You will be presented with a mobile app idea. It&#8217;ll be fairly basic and we&#8217;ll list all of the behaviors we need and some we&#8217;d like in the future. You will then pair up with someone and pencil out how this could be architected. Each group will then present their app architecture and answer questions, accept feedback from the rest of the group.
-> 
+>
 > From Wikipedia: A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition. The term was probably first coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts.
 
 App architecture is one of those things I&#8217;m always trying to improve so I thought it would be cool to see how other people would solve similar problems.
@@ -31,8 +31,8 @@ I also took the time to introduce a pattern thats been out for a while but is a 
 
 In conclusion, everyone who participated seemed to enjoy the exercise and I would encourage you to replicate it amongst your own peers. It&#8217;s still up for debate if &#8220;Side Project Saturday&#8221; is the best venue for such things as many who come have their own stuff to work.
 
- [1]: http://www.meetup.com/PhillyCocoaHeads/events/212626112/
- [2]: http://mikezornek.com/media/images/kata-app-mockup-thumb.png "Kata App Wireframe"
- [3]: http://mikezornek.com/media/images/kata-app-mockup.png
- [4]: https://www.omnigroup.com/omnigraffle
- [5]: http://www.objc.io/issue-13/mvvm.html
+[1]: http://www.meetup.com/PhillyCocoaHeads/events/212626112/
+[2]: http://mikezornek.com/media/images/kata-app-mockup-thumb.png "Kata App Wireframe"
+[3]: http://mikezornek.com/media/images/kata-app-mockup.png
+[4]: https://www.omnigroup.com/omnigraffle
+[5]: http://www.objc.io/issue-13/mvvm.html

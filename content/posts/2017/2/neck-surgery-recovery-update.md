@@ -4,8 +4,8 @@ date: 2017-02-13T19:53:35+00:00
 aliases: /2017/02/13/neck-surgery-recovery-update/
 categories:
   - Life Notes
-
 ---
+
 My neck surgery on Friday was a success.
 
 It was more complicated than expected (2.5 hours under instead of the planned 45-60 minutes). The cyst had grown much larger than anticipated and was interwoven between lots of muscle and attached itself all over, including my spine. It was removed, unruptured, and the muscles rebuilt to hopefully fill in the void without too much of an indentation.

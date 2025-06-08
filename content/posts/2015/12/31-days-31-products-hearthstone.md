@@ -1,12 +1,12 @@
 ---
-title: '31 Days, 31 Products: Hearthstone'
+title: "31 Days, 31 Products: Hearthstone"
 date: 2015-12-10T05:01:10+00:00
 aliases: /2015/12/10/31-days-31-products-hearthstone/
 categories:
   - Gaming
   - Recommended
-
 ---
+
 ## Day 16: Hearthstone
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -25,7 +25,7 @@ As it goes, being a free to play game, you&#8217;ll have a plenty of opportunity
 
 The game itself is [playable][4] on the Mac/Windows, iPhone or iPad. If you every want to throw down, my Battle.net name is `zorn711`. Good luck.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: http://us.battle.net/hearthstone
- [3]: http://www.hearthpwn.com/cards/674-leeroy-jenkins
- [4]: https://us.battle.net/account/download/?show=hearthstone&style=hearthstone
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: http://us.battle.net/hearthstone
+[3]: http://www.hearthpwn.com/cards/674-leeroy-jenkins
+[4]: https://us.battle.net/account/download/?show=hearthstone&style=hearthstone

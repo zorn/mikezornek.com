@@ -4,8 +4,8 @@ date: 2013-10-30T03:00:27+00:00
 aliases: /2013/10/29/my-new-job-with-dmgctrl/
 categories:
   - Life Notes
-
 ---
+
 After almost eight years of self-employment I have decided to jump back in and as of Monday started a new job working at [Damage Control][1] (DmgCtrl) here in Philadelphia.
 
 ![DmgCtrl Logo][2]
@@ -20,6 +20,6 @@ It may sound trite, but one of things I really came to love about working on Shi
 
 Anyways, I&#8217;m really looking forward to working at DmgCtrl. There are a bunch of interesting things in the pipeline, some I might even be able to talk about someday. 🙂
 
- [1]: http://dmgctrl.com/
- [2]: http://mikezornek.com/media/images/dmgctrl-logo.png "DmgCtrl Logo"
- [3]: http://technical.ly/philly/2013/01/14/mac-morgan-dmgctrl/
+[1]: http://dmgctrl.com/
+[2]: http://mikezornek.com/media/images/dmgctrl-logo.png "DmgCtrl Logo"
+[3]: http://technical.ly/philly/2013/01/14/mac-morgan-dmgctrl/

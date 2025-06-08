@@ -6,17 +6,17 @@ description: Running a book club can be a relatively low-cost and high-value exp
 
 I've been a member (and organizer) of many professional-oriented book clubs in my career. I find them a valuable way to connect with peers, keep up with my reading goals, discover new ideas, and learn from other points of view.
 
-Running a book club can be a relatively low-cost and high-value experience. To help, I thought I'd document how I tend to prefer book clubs. These recommendations lean more towards work and professional book clubs and not the social and entertainment variety — though I'm sure some ideas translate. 
+Running a book club can be a relatively low-cost and high-value experience. To help, I thought I'd document how I tend to prefer book clubs. These recommendations lean more towards work and professional book clubs and not the social and entertainment variety — though I'm sure some ideas translate.
 
 ## Picking your books
 
-If you want to get started, I'd recommend just picking a book you are interested in reading and forming a group around it. You might consider trying to assemble a group and letting them pick the first book, but I think it's better to attract people with a specific title than a foggy concept. 
+If you want to get started, I'd recommend just picking a book you are interested in reading and forming a group around it. You might consider trying to assemble a group and letting them pick the first book, but I think it's better to attract people with a specific title than a foggy concept.
 
 As you finish a book, ask the group for next book suggestions and develop a prospect list. I recommend asking folks to submit a ranked vote against the prospect list (allowing people to vote with priorities), and then you, as the moderator, can choose a book using those signals. You might even consider non-books, like video courses, and work through the material as a cohort.
 
 > Aside: I actually built my own tool to run these ranked votes. You can use it too. It is free with no account creation necessary: [RankedVote.app](https://rankedvote.app/)
 
-Remember, you don't need to pick the book that wins the vote. Sometimes, identifying a book that you identify will generate better discussions, benefit members who need help in that area, or draw more people to the club (introduction books tend to draw a bigger audience) might be a better choice for the group's needs. 
+Remember, you don't need to pick the book that wins the vote. Sometimes, identifying a book that you identify will generate better discussions, benefit members who need help in that area, or draw more people to the club (introduction books tend to draw a bigger audience) might be a better choice for the group's needs.
 
 ## Scheduling and Group Size
 
@@ -28,7 +28,7 @@ The ideal group size is probably 8 to 10 people (to ensure you have enough conve
 
 All the book clubs I've ever participated in or run have been online. For venue, I prefer Zoom for video quality consistency (and recording tools), but Discord is nice for having a place for people to chat between meeting times.
 
-In recent book clubs, we've started recording the sessions. I make it clear that the meeting is being recorded and why. I also offered the attendees the option to request that parts be scrubbed if needed. 
+In recent book clubs, we've started recording the sessions. I make it clear that the meeting is being recorded and why. I also offered the attendees the option to request that parts be scrubbed if needed.
 
 The main goal of the recordings is to help people who miss a week or two stay connected for an eventual return. We may also start to clip some of the conversations for social sharing and promotion, but it has not happened yet.
 
@@ -57,12 +57,12 @@ Check out the [Elixir Book Club][2] page for a sample. GitHub and GitHub Pages a
 
 [2]: https://elixirbookclub.github.io/website/
 
-When it's time to promote your club and/or a new book choice, I would promote it to the same circles in your community that share educational content and links. Think forums, Slacks, Discords, social media accounts, hash tags, etc. 
+When it's time to promote your club and/or a new book choice, I would promote it to the same circles in your community that share educational content and links. Think forums, Slacks, Discords, social media accounts, hash tags, etc.
 
 ## Shared Responsibilities
 
 In addition to volunteers doing chapter summaries, if you can find other ways to get other people involved in the management work of the book club, (eg: updating the website, editing the recording, etc) the chances for the book club to continue well into the future goes way up. Elixir Book Club has been going strong for years, even as different leadership has come and gone.
 
-*** 
+---
 
 Those are my notes. I hope they inspire you to start or join a book club. If you have any thoughts or tips I missed, do consider [shooting me an email](/contact). Thanks.

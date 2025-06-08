@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Skitch'
+title: "31 Days, 31 Products: Skitch"
 date: 2016-01-15T21:16:17+00:00
 aliases: /2016/01/15/31-days-31-products-skitch/
 categories:
   - Recommended
-
 ---
+
 ## Day 31: Skitch
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -18,8 +18,8 @@ I really enjoying using Skitch during app audits where I can take a bunch of scr
 
 Skitch is a free download on the [Mac App Store][4] or [directly from the Evernote website][5]. Enjoy!
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://evernote.com/skitch/
- [3]: http://mikezornek.com/media/images/31products/skitch-demo.png "Title"
- [4]: https://itunes.apple.com/us/app/skitch-snap.-mark-up.-share./id425955336?mt=12
- [5]: https://evernote.com/download/get.php?file=SkitchMac
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://evernote.com/skitch/
+[3]: http://mikezornek.com/media/images/31products/skitch-demo.png "Title"
+[4]: https://itunes.apple.com/us/app/skitch-snap.-mark-up.-share./id425955336?mt=12
+[5]: https://evernote.com/download/get.php?file=SkitchMac

@@ -24,6 +24,6 @@ A few notes and observations:
 6. In our recommendations for team size, we noted the risk that an individual contributor may not stay on the team for the entirety of the project. Adding an additional contractor is not about a 1:1 increase in velocity but risk management. We want to maintain domain knowledge through expected staff changes.
 7. In our scenarios, we did not document time towards routine platform maintenance (this is in production with real customers) or personal vacation time. We did document our non-documentation so that when it comes time for realistic scheduling, these can be considered.
 
-For what it needed to be, I think the outcome document of the week will help the stakeholders. 
+For what it needed to be, I think the outcome document of the week will help the stakeholders.
 
 It is by far **not** my favorite way to approach projects. For that, I'd probably lean toward something like [Shape Up](https://basecamp.com/shapeup).

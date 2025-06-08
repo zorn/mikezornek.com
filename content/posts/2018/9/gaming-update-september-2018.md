@@ -4,8 +4,8 @@ date: 2018-09-26T00:24:04+00:00
 aliases: /2018/09/26/gaming-update-september-2018/
 categories:
   - Gaming
-
 ---
+
 Forgive me, it&#8217;s been a while since my [last gaming update][1]. So, what am I playing?
 
 Well first off, I&#8217;m [officially done][2] with **Hearthstone**. It&#8217;s a shame cause I like the game, but the price has just gotten out of control.
@@ -22,12 +22,12 @@ And finally, last weekend I bought **[Cities Skylines][8]** &#8212; and oh man a
 
 Let me know what you are playing! [Email][9] is fine, but blogging is better. See ya next time.
 
- [1]: http://mikezornek.com/2018/05/18/gaming-update-may-2018/
- [2]: http://mikezornek.com/2018/08/06/hearthstone-is-too-expensive/
- [3]: http://mikezornek.com/media/images/paperkut.png "Paperkut"
- [4]: https://worldofwarcraft.com/en-us/character/wyrmrest-accord/Paperkut
- [5]: https://bulbapedia.bulbagarden.net/wiki/Nuzlocke_Challenge
- [6]: https://zorn.micro.blog/2018/09/11/started-this-nuzlock.html
- [7]: https://micro.blog/zorn/878016
- [8]: https://store.steampowered.com/app/255710/Cities_Skylines/
- [9]: mailto:mike@mikezornek.com
+[1]: http://mikezornek.com/2018/05/18/gaming-update-may-2018/
+[2]: http://mikezornek.com/2018/08/06/hearthstone-is-too-expensive/
+[3]: http://mikezornek.com/media/images/paperkut.png "Paperkut"
+[4]: https://worldofwarcraft.com/en-us/character/wyrmrest-accord/Paperkut
+[5]: https://bulbapedia.bulbagarden.net/wiki/Nuzlocke_Challenge
+[6]: https://zorn.micro.blog/2018/09/11/started-this-nuzlock.html
+[7]: https://micro.blog/zorn/878016
+[8]: https://store.steampowered.com/app/255710/Cities_Skylines/
+[9]: mailto:mike@mikezornek.com

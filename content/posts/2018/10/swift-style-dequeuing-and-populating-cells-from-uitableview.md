@@ -1,24 +1,22 @@
 ---
-title: 'Swift Style: Dequeuing and Populating Cells From UITableView'
+title: "Swift Style: Dequeuing and Populating Cells From UITableView"
 date: 2018-10-15T23:03:40+00:00
 aliases: /2018/10/15/swift-style-dequeuing-and-populating-cells-from-uitableview/
 categories:
   - Coding
   - iOS
   - Tips
-
 ---
+
 Everyone has an opinion when it comes to Swift code style, and here is mine when it comes to dequeuing and populating cells from `UITableView`.
 
 First you should know Apple maintains two methods for dequeuing cells from `UITableView`:
 
     func dequeueReusableCell(withIdentifier identifier: String) -> UITableViewCell?
-    
 
 and
 
     func dequeueReusableCell(withIdentifier identifier: String, for indexPath: IndexPath) -> UITableViewCell
-    
 
 The second version, with the `indexPath` argument addition and non-optional return value, was added in iOS 6 but strangely the original version was never marked as deprecated. The `indexPath` version is the one you should use. (I know of no reason why anyone should prefer the original, but I welcome feedback.)
 

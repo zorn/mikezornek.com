@@ -10,12 +10,12 @@ All I wanted to do was ask Apple to mail me a shipping box so I could drop them 
 
 According to my support rep Apple requires a hold on the credit card to do the repair via shipping. The exact process is not 100% clear to me. It sounds like:
 
-* Apple puts on a hold on my credit card for $90.
-* Apple mails me a box (or provides a shipping label printout).
-* I mail the broken AirPod (left ear only).
-* Apple notices FedEx accepted my shipment and ships me a replacement left ear. (Mixed information.) 
-  * Who knows what size ear plug they mail back?
-* Apple receives my shipment, inspects the hardware and releases the hold.
+- Apple puts on a hold on my credit card for $90.
+- Apple mails me a box (or provides a shipping label printout).
+- I mail the broken AirPod (left ear only).
+- Apple notices FedEx accepted my shipment and ships me a replacement left ear. (Mixed information.)
+  - Who knows what size ear plug they mail back?
+- Apple receives my shipment, inspects the hardware and releases the hold.
 
 Frankly I find the process ridiculous. I don't trust Apple or any shipping company enough to say that this will goes smoothly, and if does fail I don't know who I would yell at or how to get my additional $90.
 
@@ -27,8 +27,8 @@ If anyone sees this and wants to add some sanity to the process, the case ID is:
 
 PS: Other "fun" observations from the chat log below:
 
-* The "find serial" article is exclusively for iOS 14 (and I am still on iOS 13) so it was not very helpful.
-* Love that auto posting reminder that I have not typed for 30 seconds.
-* This session took more than an hour.
+- The "find serial" article is exclusively for iOS 14 (and I am still on iOS 13) so it was not very helpful.
+- Love that auto posting reminder that I have not typed for 30 seconds.
+- This session took more than an hour.
 
 ![My support chat history](airpods-pro-repair-chat.jpg)

@@ -9,8 +9,8 @@ categories:
   - JavaScript
   - Tips
   - Xcode
-
 ---
+
 I&#8217;ve setup some Jenkins servers in the past for Ruby on Rails apps but these days we are trying to get things running for iOS deployment and testing at work.
 
 To experiment with some plugins and such I have my own Mac mini and installed Jenkins via Homebrew. Overall it&#8217;s working great though I was a bit stumped as to why I couldn&#8217;t load the Jenkins webpages outside of using `localhost:8080` on the Mac mini itself. Worked fine last I did a clean install.
@@ -21,8 +21,8 @@ Turns out the Launch Agent settings Homebrew gives you (located at `~/Library/La
 
 Other related posts:
 
-  * [Advanced Jenkins for iOS and Mac][1]
-  * [Running Frank as Part of iOS CI][2]
+- [Advanced Jenkins for iOS and Mac][1]
+- [Running Frank as Part of iOS CI][2]
 
- [1]: http://www.sailmaker.co.uk/blog/2013/04/02/advanced-jenkins-for-ios-and-mac/
- [2]: http://blog.thepete.net/blog/2012/07/22/running-frank-as-part-of-ios-ci/
+[1]: http://www.sailmaker.co.uk/blog/2013/04/02/advanced-jenkins-for-ios-and-mac/
+[2]: http://blog.thepete.net/blog/2012/07/22/running-frank-as-part-of-ios-ci/

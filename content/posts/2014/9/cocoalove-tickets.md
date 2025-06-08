@@ -9,8 +9,8 @@ categories:
   - iOS
   - Life Notes
   - Personal Projects
-
 ---
+
 It&#8217;s September, which means next month is October, which means [CocoaLove][1] is coming up fast!
 
 We&#8217;ve got a great weekend planned and if you haven&#8217;t already secured your ticket I&#8217;d [do so now][2] since we are starting our last marketing push to sell out.
@@ -19,6 +19,6 @@ Additionally, if you or a company you know are interested in sponsoring to help 
 
 See you all soon!
 
- [1]: http://cocoalove.org/
- [2]: https://ti.to/cocoalove/2014/
- [3]: http://phillycocoa.org
+[1]: http://cocoalove.org/
+[2]: https://ti.to/cocoalove/2014/
+[3]: http://phillycocoa.org

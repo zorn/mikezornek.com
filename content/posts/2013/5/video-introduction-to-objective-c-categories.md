@@ -1,5 +1,5 @@
 ---
-title: 'Video: Introduction to Objective-C Categories'
+title: "Video: Introduction to Objective-C Categories"
 date: 2013-05-23T18:01:37+00:00
 aliases: /2013/05/23/video-introduction-to-objective-c-categories/
 categories:
@@ -7,8 +7,8 @@ categories:
   - iOS
   - Tips
   - Xcode
-
 ---
+
 I&#8217;m hoping to do some formal screencasting, educational videos for iOS and Rails, in the future so for practice I hacked together this little Introduction to Objective-C Categories to try some stuff out. It&#8217;s not the worst thing ever so I thought I&#8217;d share it and my notes.
 
 {{< video filename="objective-c-categories.mp4" title="Introduction to Objective-C Categories" >}}
@@ -41,29 +41,29 @@ For this video I did things more casual. I had a list of things I wanted to demo
 
 Pros:
 
-  * I do enjoy the personality that comes from this style. To hear the typing and a few ums makes a human connection.
-  * If done well, it can shorten overall capture time.
-  * It lends itself to camera shots of the speaker, which again can help create a human connection.
+- I do enjoy the personality that comes from this style. To hear the typing and a few ums makes a human connection.
+- If done well, it can shorten overall capture time.
+- It lends itself to camera shots of the speaker, which again can help create a human connection.
 
 Cons:
 
-  * Doing the video live with the audio is much, much harder to perform. It&#8217;s easy to miss things you intended to showoff (I did so in this video.)
-  * I myself have bad allergies and tend to breath into the mic. If recording the audio on its own it&#8217;s easier to isolate this.
-  * Some people will not like hearing the typing.
-  * If the screencast is based off a fixed script I&#8217;ll be able to post a text version easier, which is extremely valuable (for Google-food as well as people who pref text over videos).
+- Doing the video live with the audio is much, much harder to perform. It&#8217;s easy to miss things you intended to showoff (I did so in this video.)
+- I myself have bad allergies and tend to breath into the mic. If recording the audio on its own it&#8217;s easier to isolate this.
+- Some people will not like hearing the typing.
+- If the screencast is based off a fixed script I&#8217;ll be able to post a text version easier, which is extremely valuable (for Google-food as well as people who pref text over videos).
 
 In the end I think I&#8217;ll be going back to audio only first, then screen recording but welcome your feedback.
 
 ### Other random observations:
 
-  * Probably want to hide the dock for more &#8220;Xcode space&#8221;.
-  * Those early &#8220;title slides&#8221; were done in Keynote. Works great for this kind of stuff, especially animations to explain abstract concepts.
-  * In the future I won&#8217;t be typing everything. Longer code will be uncommented in place or dragged in from snippets.
-  * Could have done some some zooming to help visualize things like the new file Xcode sheet, schema editor.
-  * Need to overlay URLs in large type when promoting a website.
+- Probably want to hide the dock for more &#8220;Xcode space&#8221;.
+- Those early &#8220;title slides&#8221; were done in Keynote. Works great for this kind of stuff, especially animations to explain abstract concepts.
+- In the future I won&#8217;t be typing everything. Longer code will be uncommented in place or dragged in from snippets.
+- Could have done some some zooming to help visualize things like the new file Xcode sheet, schema editor.
+- Need to overlay URLs in large type when promoting a website.
 
 Not sure how fast we&#8217;ll see real production start on these videos as I do have a few things already cooking but I don&#8217;t mind too much as it&#8217;s good to be busy. 🙂
 
- [1]: http://vimeo.com/66535170
- [2]: http://vimeo.com/zorn711
- [3]: http://vimeo.com
+[1]: http://vimeo.com/66535170
+[2]: http://vimeo.com/zorn711
+[3]: http://vimeo.com

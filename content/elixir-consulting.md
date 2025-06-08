@@ -2,16 +2,16 @@
 title: Elixir Consulting
 sectionHighlight: Elixir Consulting
 layout: onepage
-description: Freelance software developer/consultant. Focusing on Elixir, Phoenix, teaching, and mentoring. 
+description: Freelance software developer/consultant. Focusing on Elixir, Phoenix, teaching, and mentoring.
 images:
   - images/zorn_square.png
-aliases: 
-    - /for-hire/
-    - /posts/2022/8/elixir-consulting-availability/
-    - /posts/2022/12/elixir-consulting-availability/
-    - /posts/2023/2/elixir-consulting-availability/
-    - /resume/
-    - /user-testing/
+aliases:
+  - /for-hire/
+  - /posts/2022/8/elixir-consulting-availability/
+  - /posts/2022/12/elixir-consulting-availability/
+  - /posts/2023/2/elixir-consulting-availability/
+  - /resume/
+  - /user-testing/
 ---
 
 {{< consulting-quote >}}
@@ -20,21 +20,21 @@ aliases:
 
 ## Testimonials
 
-> Michael's worked with us on multiple projects as a fractional engineering leader and I couldn't recommend him more highly. He's excellent at working with non-technical stakeholders and junior engineers alike, he's a great engineer, and a deep appreciation for context permeates all the work he does. He's also a really nice guy and very easy to work with. You should work with Mike if you get the chance. 
+> Michael's worked with us on multiple projects as a fractional engineering leader and I couldn't recommend him more highly. He's excellent at working with non-technical stakeholders and junior engineers alike, he's a great engineer, and a deep appreciation for context permeates all the work he does. He's also a really nice guy and very easy to work with. You should work with Mike if you get the chance.
 
 <p class="mb-12">~ Peter Berg, Founder at Forward</p>
 
-> Zorn is a great Software Engineer, but also a great mentor to other Engineers on the team and an amazing partner and resource for Product teams. I would love to work with him again! 
+> Zorn is a great Software Engineer, but also a great mentor to other Engineers on the team and an amazing partner and resource for Product teams. I would love to work with him again!
 
 <p class="mb-12">~ Robert Prehn, Fractional CTO & Tech Lead</p>
 
 > We would highly recommend Michael to anyone who would benefit from a senior software developer with an excellent technical approach, wide and deep knowledge as well as a great attitude.
-> 
-> Michael was a valuable contributor to our startup project. His feedback during code reviews was invaluable. He dramatically improved the quality of our code base. As if that wasn't enough, Michael did an excellent job leading by example in software development best practices, while demonstrating excellent initiative, and self management. We would gladly work with Michael again. 
+>
+> Michael was a valuable contributor to our startup project. His feedback during code reviews was invaluable. He dramatically improved the quality of our code base. As if that wasn't enough, Michael did an excellent job leading by example in software development best practices, while demonstrating excellent initiative, and self management. We would gladly work with Michael again.
 
 <p class="mb-12">~ Taun Chapman, CTO & Co-founder at ROAR for Good</p>
 
-More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek/). 
+More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek/).
 
 ## Recent Client Projects
 
@@ -64,7 +64,7 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 ### 🛠️ Ember.js to LiveView Conversion
 
 **My role and work:** Augmented a development team building SMS communication software and took ownership of converting some historic corners of the app that were still using Ember.js to a modern LiveView implementation. Some of these pages were rich CSV import flows, and care had to be taken related to maintain speed and stability.  
-**Product Impact:** By employing me as a consultant focused on technical debt, the full-time staff was able to focus on more involved and structural platform initiatives. By removing Ember.js, the build and delivery tech stack was greatly simplified.  
+**Product Impact:** By employing me as a consultant focused on technical debt, the full-time staff was able to focus on more involved and structural platform initiatives. By removing Ember.js, the build and delivery tech stack was greatly simplified.
 
 ### 🎓 Elixir Mentor to Java Converts
 
@@ -79,7 +79,7 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 I am available and looking for new consulting projects. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed.
 
-My rate is $125-$150 per hour, with discounts available for open-source initiatives or long-term commitments. 
+My rate is $125-$150 per hour, with discounts available for open-source initiatives or long-term commitments.
 
 ## Technical Proficiencies
 
@@ -145,8 +145,8 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 
 ### Videos
 
-- [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.youtube.com/watch?v=wF3llh4VLlQ) 
-- [GitHub Projects to Help You Organize Your Side Project TODO List](https://www.youtube.com/watch?v=bUE846fGFec) 
-- [Exercism Elixir Track](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O) 
+- [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.youtube.com/watch?v=wF3llh4VLlQ)
+- [GitHub Projects to Help You Organize Your Side Project TODO List](https://www.youtube.com/watch?v=bUE846fGFec)
+- [Exercism Elixir Track](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
 
 {{< consulting-contact-buttons >}}

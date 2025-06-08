@@ -6,7 +6,7 @@ date: 2020-06-16T17:58:01-04:00
 [European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_20_1073):
 
 > The European Commission has opened formal antitrust investigations to assess whether Apple's rules for app developers on the distribution of apps via the App Store violate EU competition rules. The investigations concern in particular the mandatory use of Apple's own proprietary in-app purchase system and restrictions on the ability of developers to inform iPhone and iPad users of alternative cheaper purchasing possibilities outside of apps.
-> 
+>
 > The investigations concern the application of these rules to all apps, which compete with Apple's own apps and services in the European Economic Area (EEA). The investigations follow-up on separate complaints by Spotify and by an e-book/audiobook distributor on the impact of the App Store rules on competition in music streaming and e-books/audiobooks.
 
 [Apple's response](https://www.theverge.com/2020/6/16/21292651/apple-eu-antitrust-investigation-app-store-apple-pay):
@@ -20,7 +20,7 @@ More interesting links can be found at [Michael Tsai's Blog](https://mjtsai.com/
 As if to make an example of someone, like a gangster asking for 'protection money', Apple today also [rejected an update to the new HEY email app](https://mjtsai.com/blog/2020/06/16/hey-rejected-from-the-app-store/) and have threatened to kick it out of the store entirely if it doesn't start uses the Apple/iOS payment system.
 
 > HEY is doing exactly what Basecamp is doing, is doing exactly what Netflix is doing. Offering a subscription service that must be purchased on the web, then a client in the App Store to access that.
-> 
+>
 > We don't use the App Store for our Mac app for this reason. But we have no choice but to use the App Store for iOS. It's the monopoly store in apple mobile town.
 
 ~

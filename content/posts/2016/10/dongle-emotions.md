@@ -6,8 +6,8 @@ categories:
   - Life Notes
   - Project Management
   - Tips
-
 ---
+
 After letting my bedroom / office get out of hand, I took some time today to clean up and get organized. [I wrapped and grouped up my wires][1] and even opened up [some of the new USB3/Thunderbolt3 dongles][2] I had ordered to go along with my [new MacBook Pro order][3].
 
 Now I don&#8217;t want to get into the current dongle drama surrounding the new MacBook Pro &#8212; but I do have a funny story.
@@ -18,7 +18,7 @@ A few years ago I worked as a self-employed contractor doing iOS work. I was at 
 
 These days I mark all my dongles (and I need a ton of them as a traveling instructor not knowing what a room will have) with &#8220;ZORN&#8221; to alleviate confusion.
 
- [1]: https://twitter.com/zorn/status/792803521594789890
- [2]: https://twitter.com/zorn/status/792814922782666753
- [3]: https://twitter.com/zorn/status/791715082170400769
- [4]: https://vimeo.com/22878825
+[1]: https://twitter.com/zorn/status/792803521594789890
+[2]: https://twitter.com/zorn/status/792814922782666753
+[3]: https://twitter.com/zorn/status/791715082170400769
+[4]: https://vimeo.com/22878825

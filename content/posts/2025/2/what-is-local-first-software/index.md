@@ -14,9 +14,9 @@ Let's start by talking about the problem.
 
 ## The Problem
 
-Over the last twenty years, the balance of power between software users and software providers has become incredibly one-sided. 
+Over the last twenty years, the balance of power between software users and software providers has become incredibly one-sided.
 
-Modern companies, through the software they provide, have tremendous leverage against their users. This power shift comes primarily through ubiquitous centralized data. The outcome of this is that the user is disenfranchised through loss of data sovereignty, privacy, security, and long-term software availability. 
+Modern companies, through the software they provide, have tremendous leverage against their users. This power shift comes primarily through ubiquitous centralized data. The outcome of this is that the user is disenfranchised through loss of data sovereignty, privacy, security, and long-term software availability.
 
 Why did users give up this power so easily? For collaboration. Collaboration is the killer feature of the modern web, and frankly, it was much easier to build when we agreed to centralize the data.
 
@@ -27,7 +27,7 @@ I can only speak for myself, but I don't think we as a whole really knew what we
 Local-first software aims to describe an approach to software that better empowers users. From [the paper](https://www.inkandswitch.com/local-first/):
 
 > We believe that data ownership and real-time collaboration are not at odds with each other. It is possible to create software that has all the advantages of cloud apps, while also allowing you to retain full ownership of the data, documents and files you create.
-> 
+>
 > We call this type of software **local-first software**, since it prioritizes the use of local storage (the disk built into your computer) and local networks (such as your home WiFi) over servers in remote datacenters.
 
 Later in [a conference talk](https://www.youtube.com/watch?v=NMq0vncHJvU), Martin Kleppmann provided a more succinct definition:
@@ -44,7 +44,7 @@ He expanded:
 
 > **If it doesn't work when the app developer goes out of business and shuts down their servers, it's not local-first.**
 
-For more, I highly recommend reading the [original paper](https://www.inkandswitch.com/local-first) and watching [the recent conference talk](https://www.youtube.com/watch?v=NMq0vncHJvU). 
+For more, I highly recommend reading the [original paper](https://www.inkandswitch.com/local-first) and watching [the recent conference talk](https://www.youtube.com/watch?v=NMq0vncHJvU).
 
 ## The Technologies That Seeds this Dream
 
@@ -53,7 +53,7 @@ If you have ever been involved in data distribution, data integrity, syncing, me
 Wikipedia [summarizes](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type):
 
 > In distributed computing, a conflict-free replicated data type (CRDT) is a data structure that is replicated across multiple computers in a network, with the following features:
-> 
+>
 > 1. The application can update any replica independently, concurrently and without coordinating with other replicas.
 > 2. An algorithm (itself part of the data type) automatically resolves any inconsistencies that might occur.
 > 3. Although replicas may have different state at any particular point in time, they are guaranteed to eventually converge.

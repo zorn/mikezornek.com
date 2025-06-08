@@ -6,7 +6,7 @@ images:
   - posts/2022/11/my-standup-format/we-are-fine.jpg
 ---
 
-I find async standups to be a productive and low-cost ceremony in my development teams. 
+I find async standups to be a productive and low-cost ceremony in my development teams.
 
 An async standup, in short, is each day, typically in the morning hours, team members are asked to post an update about what is going on in their work. This post is not about time tracking or otherwise work inspection but more an opportunity to take a breath, celebrate your wins, acknowledge your losses, ask for help and share your plans. A good outcome of standups is ensuring you get the help you need from your team to be successful .
 

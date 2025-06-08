@@ -11,13 +11,13 @@ images:
 Dreaming in Code is a book by Scott Rosenberg. On [the book website](http://www.dreamingincode.com/) he write:
 
 > Why is software so hard?
-> 
+>
 > Hard to make well. Hard to deliver on time. Hard to use.
-> 
+>
 > Our civilization runs on software. Yet the art of creating it continues to be a dark mystery, even to the experts, and the greater our ambitions, the more spectacularly we seem to fail.
-> 
+>
 > Dreaming in Code: Two Dozen Programmers, Three Years, 4,732 Bugs, and One Quest for Transcendent Software sets out to understand why, through the story of one software project -- Mitch Kapor's Chandler, an ambitious, open-source effort to rethink the world of e-mail and scheduling.
-> 
+>
 > I spent three years following the work of the Chandler developers as they scaled programming peaks and slogged through software swamps. In Dreaming in Code I tell their stories.
 
 I finished the book last night and found it very enjoyable. Its not a must read by any means but for those programmers who like to learn about process and project management, from a storyteller perspective you might enjoy. The best chapters I think are those dedicated to the general history and art of programming.

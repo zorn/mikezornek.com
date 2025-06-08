@@ -26,7 +26,7 @@ Overall, the project seems to drag on and on. I look forward to publishing it so
 
 ## Walks and Exercise
 
-I'm slacking. Walks have been down to one a week. It's still frigid in the morning, so when I walk, it's still at the local YMCA indoor track. When the weather improves, I'll get better about more regular neighborhood walks, but I may be lying to myself. 
+I'm slacking. Walks have been down to one a week. It's still frigid in the morning, so when I walk, it's still at the local YMCA indoor track. When the weather improves, I'll get better about more regular neighborhood walks, but I may be lying to myself.
 
 It is not helpful that I'm pretty down on my audiobooks and podcasts lately. Nothing is grabbing me.
 
@@ -38,7 +38,7 @@ The club has been really quiet. A few updates were posted (mostly me), and no re
 
 Baseball is back, and while the first two regular season games have been embarrassing losses, I'm still enjoying it all. I have been using Twitter during games to trade memes with other fans (the sports people never migrated off Twitter). Not in love with using the bird site, but it's the only place for this kind of near real-time Phillies banter.
 
-Also, very much into MLB: The Show. Grinding the offline content ([The Negro Leagues spotlight](https://www.youtube.com/watch?v=dlRQCkFbqw0) is excellent) and playing some competitive games against other humans, though my win percentage is a frustrating 40%. 
+Also, very much into MLB: The Show. Grinding the offline content ([The Negro Leagues spotlight](https://www.youtube.com/watch?v=dlRQCkFbqw0) is excellent) and playing some competitive games against other humans, though my win percentage is a frustrating 40%.
 
 Reaction time in MLB: The Show is essential, and my lack of twitchy responses and non-ideal TV setup has been challenging. The hope is that much of my failure is due to swinging at stuff outside the zone, so if I can improve that (which does not require massive reaction speed), I should at least get more competitive. That is the hope, anyway.
 
@@ -54,6 +54,6 @@ Not a lot going on TV-wise. I have been watching a lot of YouTube content about 
 
 I had the maintenance address a few small things and was so happy with the fast turnaround. After my last place, it is such a striking difference in professionalism. Love it.
 
-***
+---
 
 That's it for now. Yeah, the work stuff is unfocused, but I'm in good spirits overall. I will check in again soon.

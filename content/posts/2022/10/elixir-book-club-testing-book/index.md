@@ -38,6 +38,6 @@ If you are interested in software testing, I HIGHLY recommend this other book as
 
 Where Testing Elixir will help you learn the tooling and explain the **how**, Unit Testing Principles, Practices, and Patterns will help you discover the **why** and ultimately assist you in **crafting a resilient testing strategy** for your projects.
 
-I read this book in June 2022, and it hugely influenced me and how I want to test moving forward. It could serve as a great companion or follow-up book for people in our club, though the club's focus is officially and exclusively on Testing Elixir. 
+I read this book in June 2022, and it hugely influenced me and how I want to test moving forward. It could serve as a great companion or follow-up book for people in our club, though the club's focus is officially and exclusively on Testing Elixir.
 
 Hope to see you at the book club!

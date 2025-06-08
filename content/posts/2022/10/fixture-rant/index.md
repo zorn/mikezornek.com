@@ -12,7 +12,7 @@ The general use case for test fixtures usually involves impure functions. These 
 
 You have choices for how to make this happen.
 
-One choice/tool I observe many Elixir developers reaching for is [ex_machina], a fixture/factory tool. I've used it myself on many projects. It can be a productive addition. 
+One choice/tool I observe many Elixir developers reaching for is [ex_machina], a fixture/factory tool. I've used it myself on many projects. It can be a productive addition.
 
 In short, `ex_machina` lets you build a factory of fixtures, even fixtures with relationships to other fixtures. When the time comes, you invoke `insert(:user)` in your test, and your database is populated with the generated data. The world is now set for you to test your `list_users/0` function.
 
@@ -22,11 +22,11 @@ This is (usually) a poor choice.
 
 ![Test Fixtures: You Have Chosen Poorly](chose-poorly.jpg)
 
-**The problem is coupling.** When you call `insert(:user)`, you are hard injecting the database with an assumption of what it means in the domain to "create a user". You probably have a real domain context that provides a `create_user/1` function. Instead of using it, you couple this test, which needs a user already in the system, with assumed implementation details. 
+**The problem is coupling.** When you call `insert(:user)`, you are hard injecting the database with an assumption of what it means in the domain to "create a user". You probably have a real domain context that provides a `create_user/1` function. Instead of using it, you couple this test, which needs a user already in the system, with assumed implementation details.
 
 In the early days of a project, this raw database injection will likely be pretty close to what you have going on in `create_user/1`, but as the project evolves, these two paths can quickly diverge. The challenges and risks of maintaining parity between what it means to "create a user" through the domain context OR the factory's raw database injection will become an expensive burden. Still worse, when you want to refactor `create_user/1`, you can't -- at least not without touching every part of the test suite that used fixtures and made assumptions about the database layout.
 
-The much better choice is to, when needed for impure tests, use your domain contexts to influence the world. 
+The much better choice is to, when needed for impure tests, use your domain contexts to influence the world.
 
 Be extremely mindful of the API boundaries of your code. **Test the boundaries and NOT the implementation.**
 
