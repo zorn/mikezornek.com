@@ -16,7 +16,7 @@ I've about wrapped up my first 90 days at Allovue. Those were laid out with lots
 
 ## Side Projects
 
-StudyHall is still inactive. Nothing much changed from the last month's review. I am considering a smaller voting app to work on in its stead so I can build something (and explore my book club lessons). 
+StudyHall is still inactive. Nothing much changed from the last month's review. I am considering a smaller voting app to work on in its stead so I can build something (and explore my book club lessons).
 
 ## Tech Education / Books
 
@@ -24,13 +24,13 @@ I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of 
 
 I finished watching the [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24) by MacSparky. I enjoyed the perspectives and approaches shared. I am now working through the book version and am slowly exploring some of the personal journalism exercises. I consider the course open for me.
 
-I purchased a follow-up course, the [Obsidian Field Guide](https://learn.macsparky.com/p/obsidianfg-plus). I want to work through it as I contemplate a move from Notion to Obsidian. 
+I purchased a follow-up course, the [Obsidian Field Guide](https://learn.macsparky.com/p/obsidianfg-plus). I want to work through it as I contemplate a move from Notion to Obsidian.
 
 Another recent change is a dedicated attempt to focus on my personal stuff for 1 hour before starting job work. I did this for a few days and really enjoyed the morning brain time to dedicate to my own things. A few of these days was for boring tax stuff, but still glad to get it done, and avoid trying to do it in the evening when I'm exhausted.
 
 ## Video Games
 
-I'm jumping around MLB: The Show 23 (vs. CPU postseason), Civilization 6, and FF7: Remake. 
+I'm jumping around MLB: The Show 23 (vs. CPU postseason), Civilization 6, and FF7: Remake.
 
 I bought FF7: Rebirth, but I'm going to try to finish my other playthrough before jumping in. No spoilers!
 
@@ -48,6 +48,6 @@ I haven't gone on any walks, but I have been keeping up with [Supernatural](http
 
 I was supposed to use February as a goal-setting month, and while I did not get there as fully as I wanted, I did enjoy the self-exploration of the Productivity Field Guide, which helped me reflect on who I want to be first. I'm getting there.
 
-***
+---
 
 Hopefully, these notes are interesting to you (or me in the future). If you have any questions or feedback, [let me know](/contact).

@@ -13,9 +13,9 @@ At said meeting we eventually jumped to [Whereby](https://whereby.com/). Whereby
 
 In addition to the technical success, the user experience of Whereby was also enjoyed by the attendees. It was fully featured and worked well in our personal web browser of choice. Today while doing some more research I was also happy to see Whereby's [privacy statement](https://whereby.com/information/tos/privacy-policy/) was written in plain English and seemed reasonable.
 
-Moving forward, I think I'll be leaning on Whereby when I have control. 
+Moving forward, I think I'll be leaning on Whereby when I have control.
 
-For my Zoom-choosing communities, I first tried just using the browser version with my copy of Firefox, but that [did not go over well](https://microblog.mikezornek.com/2020/04/07/tried-to-join.html). Zoom web wants Chrome and once again, I would prefer not to install Chrome for privacy reasons. 
+For my Zoom-choosing communities, I first tried just using the browser version with my copy of Firefox, but that [did not go over well](https://microblog.mikezornek.com/2020/04/07/tried-to-join.html). Zoom web wants Chrome and once again, I would prefer not to install Chrome for privacy reasons.
 
 I then tried a [Docker containerized version of Zoom](https://github.com/mdouchement/docker-zoom-us) but quickly discovered it expects a Linux host and does not work with Mac OS.
 

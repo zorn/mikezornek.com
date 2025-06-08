@@ -11,14 +11,14 @@ With my increasing enjoyment of [Elixir](https://elixir-lang.org) and [Phoenix](
 My first result towards this effort is a "hello world" style example app and tutorial called [greeter](https://github.com/phoenix-by-example/greeter):
 
 > Greeter is a "hello world" example app to help introduce the core concepts of the Phoenix Framework written in Elixir.
-> 
+>
 > This tutorial assumes no previous Elixir experience. In fact the first section will help you install and setup Elixir and Phoenix.
-> 
+>
 > By the end of this example, you'll have created a Phoenix app that can display a custom greeting message with a formatted name.
 
 I've published the example repo under the Phoenix by Example organization name. I've also nabbed a web domain `phoenixbyexample.com` and a twitter account `@PhoenixExamples`.
 
-I'm still not sure how this will work out over time but my plan is to record a few videos to accompany the example project. I would also like to work out some shorter tweet videos with some tips and tricks content. 
+I'm still not sure how this will work out over time but my plan is to record a few videos to accompany the example project. I would also like to work out some shorter tweet videos with some tips and tricks content.
 
 The next project I'm thinking about would be a link shortener. I suspect I will not do a step-by-step tutorial for that one, but instead lean on code snippets pointing out the big ideas and then more videos.
 

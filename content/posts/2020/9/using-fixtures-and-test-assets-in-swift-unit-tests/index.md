@@ -6,7 +6,7 @@ images:
   - posts/2020/9/using-fixtures-and-test-assets-in-swift-unit-tests/thumb.jpeg
 ---
 
-In today's video I'll demonstrate how you can use the concept of fixtures in your Swift unit tests to quickly build business objects and validate scenarios. 
+In today's video I'll demonstrate how you can use the concept of fixtures in your Swift unit tests to quickly build business objects and validate scenarios.
 
 I'll also show how you can add assets to a test target and then access them in code using `Bundle(for: SomeTypeInTheTestBundle.self)`.
 

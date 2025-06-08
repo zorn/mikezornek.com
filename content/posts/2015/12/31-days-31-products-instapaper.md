@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Instapaper'
+title: "31 Days, 31 Products: Instapaper"
 date: 2015-12-06T03:12:52+00:00
 aliases: /2015/12/05/31-days-31-products-instapaper/
 categories:
   - Recommended
-
 ---
+
 ## Day 12: Instapaper
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -16,6 +16,6 @@ I highly recommend Instapaper. The ability to collect up all your readings is pa
 
 Instapaper has clients for iOS, Android and the desktop web. The apps and the service are free, but there is a [premium option][3] for $29/year to help symbolize your support and get a few more features.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.instapaper.com/
- [3]: https://www.instapaper.com/premium
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.instapaper.com/
+[3]: https://www.instapaper.com/premium

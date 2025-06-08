@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Duet'
+title: "31 Days, 31 Products: Duet"
 date: 2015-11-29T21:15:42+00:00
 aliases: /2015/11/29/31-days-31-products-duet/
 categories:
   - Recommended
-
 ---
+
 ## Day 06: Duet
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -18,6 +18,6 @@ I&#8217;ve been using Duet at home with my iMac and it&#8217;s so helpful to hav
 
 As mentioned above it takes two apps to run Duet. The iOS app is available on the [App Store][3] for $15.99 and the Mac and Windows clients are [free downloads][2] available on their website.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: http://www.duetdisplay.com/
- [3]: https://itunes.apple.com/app/duet-display/id935754064
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: http://www.duetdisplay.com/
+[3]: https://itunes.apple.com/app/duet-display/id935754064

@@ -8,9 +8,9 @@ Monday, June 12, 2023 -- Time for the regular check-in to braindump what I've be
 
 ## Work
 
-I continue to look for contract and/or full-time Elixir work. [Hire me!](https://mikezornek.com/for-hire/) 
+I continue to look for contract and/or full-time Elixir work. [Hire me!](https://mikezornek.com/for-hire/)
 
-It's been a quiet and slow spring, but there are small signs of promise. Took a few more calls and emails in the last 4 weeks than the 4 before that. 
+It's been a quiet and slow spring, but there are small signs of promise. Took a few more calls and emails in the last 4 weeks than the 4 before that.
 
 Not too much else to share. In general, just feels off since normally I turn away work and have people come to me. It's been strange to have to flip it and do the outreach myself.
 
@@ -50,12 +50,12 @@ No big movement on this front, though I did have an issue with [fraud credit car
 
 ## Phillies
 
-The up-and-down emotional ride of 2023 continues. Still watching a lot of games day to day, sometimes just listening to the radio broadcast while grinding content in MLB: The Show. 
+The up-and-down emotional ride of 2023 continues. Still watching a lot of games day to day, sometimes just listening to the radio broadcast while grinding content in MLB: The Show.
 
 Need to figure out my next game at the park. I have tickets for the Braves series, but I'll be down the shore.
 
 ## Video Games
 
-In addition to playing MLB: The Show I'm also finishing up Breath of the Wild. I have like 4 more shrines to get to 120, and then I think I'll go to the end-game boss and maybe try some of the DLC. Not sure what will be after that. 
+In addition to playing MLB: The Show I'm also finishing up Breath of the Wild. I have like 4 more shrines to get to 120, and then I think I'll go to the end-game boss and maybe try some of the DLC. Not sure what will be after that.
 
 Really psyched for Cities Skylines 2, FF16, FF7: Rebirth, which have all seen trailers recently.

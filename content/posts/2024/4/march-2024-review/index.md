@@ -38,9 +38,9 @@ Baseball is back. Took off on Friday to watch opening day (though the Phillies l
 
 ## Walks and Exercise
 
-No walks, but I'm hoping the weather will welcome that soon. 
+No walks, but I'm hoping the weather will welcome that soon.
 
-Keeping up with [Supernatural](https://www.youtube.com/watch?v=aggd3Qmt2So) for some exercise about twice a week. 
+Keeping up with [Supernatural](https://www.youtube.com/watch?v=aggd3Qmt2So) for some exercise about twice a week.
 
 Also, got a nice swimming session in last week at the YMCA. Should try to make that happen more often.
 
@@ -48,6 +48,6 @@ Also, got a nice swimming session in last week at the YMCA. Should try to make t
 
 Nothing too crazy on deck for April. Been keeping up with life management things (taxes, dentist) and expect more of that. I have jury duty mid-month.
 
-***
+---
 
 Hopefully, these notes are interesting to you (or me in the future). If you have any questions or feedback, [let me know](/contact).

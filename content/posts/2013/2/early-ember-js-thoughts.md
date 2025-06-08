@@ -6,8 +6,8 @@ categories:
   - CoffeeScript
   - Interface Design
   - JavaScript
-
 ---
+
 Over the last three weeks, I&#8217;ve been slowly picking up [Ember.js][1] while helping some colleagues with a project. It&#8217;s pretty interesting tech and I&#8217;d like to share some early thoughts.
 
 ## What is Ember?
@@ -20,11 +20,11 @@ Then there is a class of web apps which work as one-page apps, where all interac
 
 For me, Ember.js is all about giving you the toolchain to provide those types of dynamic, one-page web app experiences. Ember.js is a full stack, client-side, JavaScript-based MVC framework. The main objects you&#8217;ll work with client-side in the browser include:
 
-  * Routers, which match the requested URL to controllers. They also ensure that the client URL is updated to allow the user to bookmark the different states of your app.
-  * Models, to define your business nouns and store/retrieve user data.
-  * Controllers, which handle actions and pass model data to the views.
-  * Views to connect user events like clicks and taps to controller actions.
-  * Templates to describe the HTML on screen.
+- Routers, which match the requested URL to controllers. They also ensure that the client URL is updated to allow the user to bookmark the different states of your app.
+- Models, to define your business nouns and store/retrieve user data.
+- Controllers, which handle actions and pass model data to the views.
+- Views to connect user events like clicks and taps to controller actions.
+- Templates to describe the HTML on screen.
 
 ## Some Notable Features
 
@@ -44,21 +44,21 @@ As of this writing, Ember itself is version `1.0.0-pre-4` and `ember-data` is of
 
 If you&#8217;d like to get started with Ember, in addition to the [main website][1], which has some nice and [ever-improving documentation][9], I&#8217;d also recommend:
 
-  * [PeepCode&#8217;s Fire Up Ember][10] &#8211; Brand new, up-to-date, and very focused on the Ember stack. Well worth the $12.
-  * [An Ember.js tutorial by Trek][11] &#8211; Walked through this myself when I got started. It helped a lot.
-  * [Brian Cardarella&#8217;s Building an Ember app with RailsAPI][6] &#8211; Great walkthrough about starting an Ember app that will use Rails for persistence.
+- [PeepCode&#8217;s Fire Up Ember][10] &#8211; Brand new, up-to-date, and very focused on the Ember stack. Well worth the $12.
+- [An Ember.js tutorial by Trek][11] &#8211; Walked through this myself when I got started. It helped a lot.
+- [Brian Cardarella&#8217;s Building an Ember app with RailsAPI][6] &#8211; Great walkthrough about starting an Ember app that will use Rails for persistence.
 
 If you are in Philly, also consider stopping by the [local Ember Meetup][12].
 
- [1]: http://emberjs.com/
- [2]: http://emberjs.com
- [3]: http://gmail.com
- [4]: https://trello.com/
- [5]: https://github.com/emberjs/data
- [6]: http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html
- [7]: http://www.embercamp.com/
- [8]: http://emberjs.com/blog/
- [9]: http://emberjs.com/guides/
- [10]: https://peepcode.com/products/emberjs
- [11]: http://trek.github.com/
- [12]: http://www.meetup.com/Emberjs-Philly/
+[1]: http://emberjs.com/
+[2]: http://emberjs.com
+[3]: http://gmail.com
+[4]: https://trello.com/
+[5]: https://github.com/emberjs/data
+[6]: http://reefpoints.dockyard.com/ember/2013/01/07/building-an-ember-app-with-rails-api-part-1.html
+[7]: http://www.embercamp.com/
+[8]: http://emberjs.com/blog/
+[9]: http://emberjs.com/guides/
+[10]: https://peepcode.com/products/emberjs
+[11]: http://trek.github.com/
+[12]: http://www.meetup.com/Emberjs-Philly/

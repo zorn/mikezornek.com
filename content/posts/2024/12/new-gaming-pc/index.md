@@ -10,14 +10,14 @@ In the closing days of summer this past year, I started to get an itch about bui
 
 <figure>
 <a href="computer.jpeg">
-<img src="computer.jpeg" alt="Assembled computer powered off." />
+<img src="computer.jpeg" alt="Assembled computer powered off.">
 </a>
 <figcaption>Assembled computer powered off.</figcaption>
 </figure>
 
 <figure>
 <a href="colors.jpeg">
-<img src="colors.jpeg" alt="Assembled computer powered on." />
+<img src="colors.jpeg" alt="Assembled computer powered on.">
 </a>
 <figcaption>Assembled computer powered on.</figcaption>
 </figure>
@@ -36,13 +36,12 @@ In recent years, I shelved the gaming PC and have, instead, enjoyed my game time
 
 <figure>
 <a href="parts.jpeg">
-<img src="parts.jpeg" alt="Various PC parts laid out for assembly." />
+<img src="parts.jpeg" alt="Various PC parts laid out for assembly.">
 </a>
 <figcaption>Various PC parts laid out for assembly.</figcaption>
 </figure>
 
-
-For this build, I wanted to lean more toward a visual presentation. My last build was very economical, a traditional black tower with no real frills. It would be fun to give this some personality. It's a white build with some limited RGB lighting that would lean towards a purple hue. 
+For this build, I wanted to lean more toward a visual presentation. My last build was very economical, a traditional black tower with no real frills. It would be fun to give this some personality. It's a white build with some limited RGB lighting that would lean towards a purple hue.
 
 I chose the [Lian Li O11 DYNAMIC EVO RGB](https://lian-li.com/product/o11d-evo-rgb/) case. I have seen this tower a few times on various YouTube videos. I really enjoyed the spacious interior, the glass sides, and the sleek lines. As I started working with this case, I was impressed with the build quality and layout. I love having the motherboard on one half with a hidden chamber for all the various wires and fan controllers.
 
@@ -58,7 +57,7 @@ The final meaningly decision was CPU cooling. I went with an air-cooled solution
 
 ## Assembly
 
-It has been a bit since I last built my last gaming PC, so I took my time and watched a lot of [YouTube videos](https://www.youtube.com/watch?v=c-0WW77_fM8) to help me get comfortable with an approach and answer some questions. 
+It has been a bit since I last built my last gaming PC, so I took my time and watched a lot of [YouTube videos](https://www.youtube.com/watch?v=c-0WW77_fM8) to help me get comfortable with an approach and answer some questions.
 
 I have big hands, so work like socketing the CPU and applying thermal paste can be daunting, but I took my time, and it worked out.
 
@@ -76,10 +75,9 @@ If I were doing this again, I might suggest buying a test bench setup or otherwi
 
 After I got the computer to POST, one issue I did run into was fans. I misunderstood the wide range of fan models Lian Li was selling and ended up buying a mix of fans and controllers that were not fully compatible. I made a midday MicroCenter run to buy compatible alternatives and had to reinstall them a few times to get it all worked out. Ultimately, I had to install two separate fan controllers (one for the LCD fans and another for the simple RGB fans).
 
-
 <figure>
 <a href="desk.jpeg">
-<img src="desk.jpeg" alt="The full desk shot." />
+<img src="desk.jpeg" alt="The full desk shot.">
 </a>
 <figcaption>The full desk shot.</figcaption>
 </figure>
@@ -89,10 +87,10 @@ After I got the computer to POST, one issue I did run into was fans. I misunders
 Not having a readily available Windows computer around, I followed some [instructions](https://windowsreport.com/windows-11-usb-installer-on-mac/) to download the Windows 11 installer and make a bootable USB drive from my Mac. This worked fine for me, though sadly, I did not get a working network driver for the motherboard's wifi chip from Windows, so I had to download some manual drivers onto a separate USB drive to get that working. Once I was on the wifi, I could get all the other drivers directly from this machine, as well as the many OS-level updates.
 
 <figure>
-<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES" />
+<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES">
 </figure>
 
-I had a Windows 10 license from my old gaming PC, which worked fine for registering this copy of Windows 11. 
+I had a Windows 10 license from my old gaming PC, which worked fine for registering this copy of Windows 11.
 
 Windows 11 is frustratingly pushy about trying to get you to create your local account via an online Microsoft account. I used a few [suggestions](https://www.youtube.com/watch?v=Q20jF5m-G0s) to avoid this, but it seems like an ongoing nag I get from time to time.
 
@@ -110,15 +108,15 @@ It's easy to overlook, but make sure you have many USB drives if you do a build 
 
 I'm really pleased with my build. I had to make a few visual compromises with the fans, but overall this turned out just as I had hoped.
 
-So far, my main games have been Civ 6, Stardew Valley (trying to finish perfection on my latest farm), and World of Warcraft (rolled a new gnome mage on the new Classic servers). 
+So far, my main games have been Civ 6, Stardew Valley (trying to finish perfection on my latest farm), and World of Warcraft (rolled a new gnome mage on the new Classic servers).
 
 As 2025 approaches, I'm looking forward to Civ 7 and a playthrough of Red Dead 2 with some mods to shake up the gameplay. There is a rumor that MLB: The Show might get a PC release this year, and if so, I might play it here.
 
 <video controls>
-  <source src="oh-yeah.mp4" type="video/mp4" />
+  <source src="oh-yeah.mp4" type="video/mp4">
   <a href="oh-yeah.mp4">Download MP4.</a>
 </video>
 
-***
+---
 
 If you have a game suggestion or any follow-up questions, [reach out](/contact).

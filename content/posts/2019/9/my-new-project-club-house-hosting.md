@@ -17,4 +17,4 @@ If you are a group organizer or know of one, please consider passing along [the 
 
 I'd really love to hear from people who are running groups and what they would like to see from their tools.
 
-Thanks for sharing. 
+Thanks for sharing.

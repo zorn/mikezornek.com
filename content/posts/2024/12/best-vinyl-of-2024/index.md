@@ -27,7 +27,7 @@ Stardew Valley has become one of my favorite games of all time, and its soundtra
 ![Red Dead 2 Music](red-dead-2-songs.jpg)
 
 [Score Info](https://www.discogs.com/release/14990700-Various-The-Music-Of-Red-Dead-Redemption-II-Original-Score)
-[Music Info](https://www.discogs.com/master/1611353-Various-The-Music-Of-Red-Dead-Redemption-II-Original-Soundtrack), 
+[Music Info](https://www.discogs.com/master/1611353-Various-The-Music-Of-Red-Dead-Redemption-II-Original-Soundtrack),
 
 Another all-time favorite game, the Red Dead 2 soundtrack and song albums bring me back to 1899 every time. I love the ambient music of the soundtrack that mixes soft exploration songs and intense gunfight anthems. When the vocal song hits, I get a major kick of nostalgia for those larger-than-life game moments and endings. These albums were not in print and easy to find, but I'm happy to have acquired them. They are regularly on rotation in my house.
 
@@ -57,10 +57,10 @@ This was the surprise of the year for me. While many of the albums I've picked u
 
 > Keith Jarrett's Köln Concert started as a total disaster. Not only was he exhausted and hungry, but he had to improvise an entire concert on a broken, unplayable piano. This concert would go on to be the best-selling solo jazz album and the best-selling piano album of any genre.
 
-After sampling the concert online, I bought my copy. 
+After sampling the concert online, I bought my copy.
 
 I enjoy piano albums but have not done much jazz piano. It hits differently and is enjoyed. I love the story behind the concert, which adds to my appreciation for what is happening during the concert. It inspires me to embrace constraints.
 
-***
+---
 
 How about you? Any special music hit you this year? I'd love to [hear about it](/contact).

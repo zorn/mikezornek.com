@@ -9,13 +9,13 @@ Covers the basics of the language, what it can be used for and why it's particul
 
 {{< video filename="introduction_to_elixir.mp4" youtube="CIpbQoENrO4" title="An Introduction to Elixir" >}}
 
-* Slides [PDF](mike-zornek-an-introduction-to-elixir.pdf) / [SpeakerDeck](https://speakerdeck.com/zorn/an-introduction-to-elixir)
+- Slides [PDF](mike-zornek-an-introduction-to-elixir.pdf) / [SpeakerDeck](https://speakerdeck.com/zorn/an-introduction-to-elixir)
 
 Links:
 
-* [Mike Zornek: For Hire](http://mikezornek.com/for-hire/)
-* [Elixir Language Website Guide](https://elixir-lang.org/getting-started/introduction.html)
-* [Elixir School](https://elixirschool.com/en/)
-* [Elixir in Action (Book)](https://www.manning.com/books/elixir-in-action)
-* [The Pragmatic Studio (Videos)](https://pragmaticstudio.com/elixir)
-* [ElixirConf](https://www.youtube.com/channel/UC0l2QTnO1P2iph-86HHilMQ/videos)
+- [Mike Zornek: For Hire](http://mikezornek.com/for-hire/)
+- [Elixir Language Website Guide](https://elixir-lang.org/getting-started/introduction.html)
+- [Elixir School](https://elixirschool.com/en/)
+- [Elixir in Action (Book)](https://www.manning.com/books/elixir-in-action)
+- [The Pragmatic Studio (Videos)](https://pragmaticstudio.com/elixir)
+- [ElixirConf](https://www.youtube.com/channel/UC0l2QTnO1P2iph-86HHilMQ/videos)

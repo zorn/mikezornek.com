@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: SuperDuper!'
+title: "31 Days, 31 Products: SuperDuper!"
 date: 2015-12-26T19:47:44+00:00
 aliases: /2015/12/26/31-days-31-products-superduper/
 categories:
   - Recommended
-
 ---
+
 ## Day 24: SuperDuper!
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -22,7 +22,7 @@ I use SuperDuper on a scheduled backup to clone my main system hard drive and th
 
 A [free download][3] of SuperDuper is available but if you want to unlock the incremental, scheduling and scripting features you&#8217;ll need to purchase a license. A license costs $28 and can be purchased from the [Shirt Pocket store][4].
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
- [3]: http://www.shirt-pocket.com/mint/pepper/orderedlist/downloads/download.php?file=http%3A//www.shirt-pocket.com/downloads/SuperDuper%21.dmg
- [4]: http://store.esellerate.net/s.asp?s=STR705989658&Cmd=BUY&SKURefnum=SKU5295267639
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[3]: http://www.shirt-pocket.com/mint/pepper/orderedlist/downloads/download.php?file=http%3A//www.shirt-pocket.com/downloads/SuperDuper%21.dmg
+[4]: http://store.esellerate.net/s.asp?s=STR705989658&Cmd=BUY&SKURefnum=SKU5295267639

@@ -13,7 +13,7 @@ Starting Sunday, November 13th at 10:30am (Eastern Time), we'll meet for an hour
 ## Testing Elixir
 
 <figure style="width: 40%; margin: 0 auto;">
-<img src="testing-elixir.jpg" alt="Testing Elixir Book Cover" data-action="zoom" />
+<img src="testing-elixir.jpg" alt="Testing Elixir Book Cover" data-action="zoom">
 <figcaption>Testing Elixir Book Cover</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ To participate, you'll need to [join the Elixir Book Club Discord](https://disco
 If you are interested in software testing, I HIGHLY recommend this other book as well: U**nit Testing Principles, Practices, and Patterns**.
 
 <figure style="width: 40%; margin: 0 auto;">
-<img src="unit-testing.jpg" alt="Unit Testing Principles, Practices, and Patterns Book Cover" data-action="zoom" />
+<img src="unit-testing.jpg" alt="Unit Testing Principles, Practices, and Patterns Book Cover" data-action="zoom">
 <figcaption>Unit Testing Principles, Practices, and Patterns Book Cover</figcaption>
 </figure>
 
@@ -38,6 +38,6 @@ If you are interested in software testing, I HIGHLY recommend this other book as
 
 Where Testing Elixir will help you learn the tooling and explain the **how**, Unit Testing Principles, Practices, and Patterns will help you discover the **why** and ultimately assist you in **crafting a resilient testing strategy** for your projects.
 
-I read this book in June 2022, and it hugely influenced me and how I want to test moving forward. It could serve as a great companion or follow-up book for people in our club, though the club's focus is officially and exclusively on Testing Elixir. 
+I read this book in June 2022, and it hugely influenced me and how I want to test moving forward. It could serve as a great companion or follow-up book for people in our club, though the club's focus is officially and exclusively on Testing Elixir.
 
 Hope to see you at the book club!

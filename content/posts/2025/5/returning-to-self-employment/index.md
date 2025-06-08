@@ -16,11 +16,11 @@ From [web comic name](https://webcomicname.com/).
 
 ## What Happened?
 
-If you've been following along with my [now](/now) updates, it has been clear that my full-time job was not in a great place for a while. 
+If you've been following along with my [now](/now) updates, it has been clear that my full-time job was not in a great place for a while.
 
 The short story is that when I interviewed and eventually accepted the job, I had a well-considered list of things I was aligned with and looking forward to, including:
 
-- small company / profitable startup 
+- small company / profitable startup
 - in-person retreats to support an online/remote team
 - opportunities to be involved in the product design work
 - dedicated tech debt time
@@ -44,8 +44,8 @@ I suspect this community outreach will consume about 70% of my time. The other 3
 
 I can't share this without commenting for the records of time -- it is a scary time to be looking for work.
 
-I do not go into this with ideal world circumstances, but it is what it is. 
+I do not go into this with ideal world circumstances, but it is what it is.
 
-I am more fortunate than most: I have fair savings, and I don't have many major debts. 
+I am more fortunate than most: I have fair savings, and I don't have many major debts.
 
 I suspect it will take some creative approaches (productized services, tech gig work) to regain regular income streams. While it will be difficult, I am looking forward to having some space to use my creative muscles again. Being a corporate Jira code monkey truly took a toll on my psyche.

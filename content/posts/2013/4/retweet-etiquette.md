@@ -5,8 +5,8 @@ aliases: /2013/04/18/retweet-etiquette/
 categories:
   - Entrepreneurship
   - Tips
-
 ---
+
 I know I&#8217;ve done it. After months of working on a new project, I release it to the world and am extremely proud. I tweet about it and maybe even occasionally retweet some nice things people are saying.
 
 [Dave Winer][1] recently release [Fargo][2] and while I haven&#8217;t had a chance to play with it yet I do follow [Dave on Twitter][1] and he&#8217;s been busy promoting his new baby.
@@ -37,7 +37,7 @@ The lesson to be learned here is this:
 
 If someone gives you feedback or criticism, just say thank you. If you want clarification or more information on their comment or disagreement feel free to have an adult conversation. Do not ever tell someone who has taken an interest in you or your products and is providing feedback to go away.
 
- [1]: https://twitter.com/davewiner
- [2]: http://fargo.io/
- [3]: https://twitter.com/zorn/status/324958835804622849
- [4]: http://mikezornek.com/media/images/dave_winer_feedback.png "Dave Winder feedback conversation"
+[1]: https://twitter.com/davewiner
+[2]: http://fargo.io/
+[3]: https://twitter.com/zorn/status/324958835804622849
+[4]: http://mikezornek.com/media/images/dave_winer_feedback.png "Dave Winder feedback conversation"

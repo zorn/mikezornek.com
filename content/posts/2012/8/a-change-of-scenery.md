@@ -4,8 +4,8 @@ date: 2012-08-23T02:43:27+00:00
 aliases: /2012/08/22/a-change-of-scenery/
 categories:
   - Life Notes
-
 ---
+
 After considering my options over the past few weeks, I made the move this past Sunday. It was another long Sunday night working at [IndyHall][1], and as I finished my work, I proceeded to pack up my iMac and all of its various wires. For the next few weeks I was going to work from home.
 
 To be clear, this move has nothing to do with IndyHall, the workspace, or the community. It’s more of personal problem. I’ve done a poor job balancing my work time, my investment time, and my personal time.
@@ -20,5 +20,5 @@ This week is my first week back at home. I’ll go into IndyHall on Thursday to 
 
 For now, I think I’ll close this up and grab my swim trunks for a few laps at the gym &#8212; another thing that’s been off my schedule for too long.
 
- [1]: http://indyhall.com
- [2]: http://shindig.io
+[1]: http://indyhall.com
+[2]: http://shindig.io

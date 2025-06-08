@@ -6,8 +6,8 @@ description: something tweet like
 
 Took a few moments tonight to record a short demo of [RankedVote.app](https://rankedvote.app/) (Project name: [Flick](https://github.com/zorn/flick)) tonight.
 
-> Flick is a simple Elixir / Phoenix LiveView app that helps capture ranked votes. 
-> 
+> Flick is a simple Elixir / Phoenix LiveView app that helps capture ranked votes.
+>
 > This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books, but it is open to all.
 
 I'm going to moving on to other side projects and seems as good a time as any to capture this in action.

@@ -12,14 +12,14 @@ I've been a long time [TextExpander](https://textexpander.com/) user. You don't 
 
 My common shortcut snippets include:
 
-* Email: `z@zl` into `zorn@zornlabs.com` and `m@m.com` for `mike@mikezornek.com`.
-* Date: `ddate`
-* Time: `ttime` -- very handy while testing UI as a piece of dynamic content, yet descriptive and ordered.
-* Common Google Terms: `-ep` into `Elixir Phoenix`. 
-* Phone Numbers: `cphone` and `hphone` into the real phone numbers.
-* Support Email Replies -- when I did a lot of that thing. 
-* URL to my meeting calendar: `-meeting` into `https://savvycal.com/zorn/chat`
-* Common Xcode Comments: `-mark` into:
+- Email: `z@zl` into `zorn@zornlabs.com` and `m@m.com` for `mike@mikezornek.com`.
+- Date: `ddate`
+- Time: `ttime` -- very handy while testing UI as a piece of dynamic content, yet descriptive and ordered.
+- Common Google Terms: `-ep` into `Elixir Phoenix`.
+- Phone Numbers: `cphone` and `hphone` into the real phone numbers.
+- Support Email Replies -- when I did a lot of that thing.
+- URL to my meeting calendar: `-meeting` into `https://savvycal.com/zorn/chat`
+- Common Xcode Comments: `-mark` into:
 
 ```
 // MARK: - Outlets
@@ -29,7 +29,7 @@ My common shortcut snippets include:
 // MARK: - Private
 ```
 
-* SwiftLint Disables:
+- SwiftLint Disables:
 
 ```
 // swiftlint:disable rule_name
@@ -40,7 +40,7 @@ My common shortcut snippets include:
 I added a new one today, for the common need to convert a title-like string into a filename-friendly one.
 
 ```javascript
-'%pasteboard'.toLowerCase().replace(/ /g, '-');
+"%pasteboard".toLowerCase().replace(/ /g, "-");
 ```
 
 Thus expanding `-urlp` into "Nurturing Your Community During Lock Down" (the clipboard) into `nurturing-your-community-during-lock-down`.

@@ -5,8 +5,8 @@ aliases: /2015/11/30/my-personal-computer-history-how-i-came-to-work-on-the-mac/
 categories:
   - Coding
   - Life Notes
-
 ---
+
 I&#8217;m working on some other posts to recount the history of our CocoaHeads chapter. While brainstorming for it I couldn&#8217;t help but start to capture my own history and how I came to work on the Mac so I figured I&#8217;d write it up and share.
 
 > The following post has a lot of &#8220;Way Back Machine&#8221; links to see sites as they used to be, a fun trip down memory lane.
@@ -31,13 +31,13 @@ It was however through these groups and connections I met Randy Zauhar, a profes
 
 And that&#8217;s it for now. I&#8217;ll recount more of PHAD and how it eventually lead into Philly CocoaHeads in my next post.
 
- [1]: http://drexel.edu/undergrad/co-op/overview/
- [2]: https://web.archive.org/web/20000619193122/http://www.starcomm.com/
- [3]: https://web.archive.org/web/20020326095101/http://seyboldreport.com/
- [4]: https://youtu.be/uGMQLfi0kGc?t=1h13m00s
- [5]: https://web.archive.org/web/20030212045303/http://appleturns.com/
- [6]: https://web.archive.org/web/20031004210145/http://daringfireball.net/
- [7]: https://web.archive.org/web/20030930202334/http://yourmaclife.com/
- [8]: http://www.folklore.org/
- [9]: https://web.archive.org/web/20020927152411/http://www.macbus.org/
- [10]: https://web.archive.org/web/20040614003648/http://phad.org/
+[1]: http://drexel.edu/undergrad/co-op/overview/
+[2]: https://web.archive.org/web/20000619193122/http://www.starcomm.com/
+[3]: https://web.archive.org/web/20020326095101/http://seyboldreport.com/
+[4]: https://youtu.be/uGMQLfi0kGc?t=1h13m00s
+[5]: https://web.archive.org/web/20030212045303/http://appleturns.com/
+[6]: https://web.archive.org/web/20031004210145/http://daringfireball.net/
+[7]: https://web.archive.org/web/20030930202334/http://yourmaclife.com/
+[8]: http://www.folklore.org/
+[9]: https://web.archive.org/web/20020927152411/http://www.macbus.org/
+[10]: https://web.archive.org/web/20040614003648/http://phad.org/

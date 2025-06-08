@@ -1,13 +1,13 @@
 ---
-title: 'Video: Consuming JSON in Swift'
+title: "Video: Consuming JSON in Swift"
 date: 2016-01-18T17:04:53+00:00
 aliases: /2016/01/18/video-consuming-json-in-swift/
 categories:
   - Coding
   - Recommended
   - Xcode
-
 ---
+
 I gave a talk at Philly CocoaHeads last week reviewing various ways to consume JSON using Swift, including a preview a new open source project we have coming out soon™ from [Big Nerd Ranch][1] called [Freddy][2].
 
 Update April 27, 2025: Video Unavailable.
@@ -18,8 +18,8 @@ Update April 27, 2025: Video Unavailable.
 
 Slides: <https://speakerdeck.com/zorn/consuming-json-in-swift>
 
- [1]: https://www.bignerdranch.com/
- [2]: https://github.com/bignerdranch/Freddy
- [3]: https://vimeo.com/152112429
- [4]: https://vimeo.com/phillycocoa
- [5]: https://vimeo.com
+[1]: https://www.bignerdranch.com/
+[2]: https://github.com/bignerdranch/Freddy
+[3]: https://vimeo.com/152112429
+[4]: https://vimeo.com/phillycocoa
+[5]: https://vimeo.com

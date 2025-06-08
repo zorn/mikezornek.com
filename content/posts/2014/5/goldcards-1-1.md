@@ -6,11 +6,11 @@ categories:
   - Gaming
   - Life Notes
   - Personal Projects
-
 ---
+
 [GoldCards, a Hearthstone reference guide][1] version 1.1 is live on the App Store.
 
 It is mostly a data update regarding the recent [nerf of Unleash the Hounds][2] though I did squeeze in a few other bug fixes.
 
- [1]: https://itunes.apple.com/us/app/goldcards-hearthstone-reference/id866641126?mt=8
- [2]: http://www.hearthpwn.com/news/471-unleash-the-hounds-nerf-incoming
+[1]: https://itunes.apple.com/us/app/goldcards-hearthstone-reference/id866641126?mt=8
+[2]: http://www.hearthpwn.com/news/471-unleash-the-hounds-nerf-incoming

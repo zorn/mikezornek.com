@@ -14,4 +14,3 @@ Give it a shot and save yourself some repetitive typing.
 ![Terminal Preferences](preferences.png)
 
 ![New Terminal Window](new-window.png)
-

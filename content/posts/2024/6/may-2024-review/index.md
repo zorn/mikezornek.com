@@ -48,7 +48,7 @@ A few walks, but need to do more. No VR lately. Will likely unsub until next Win
 
 ## Other Notes
 
-Overall, my head is not in a good space. When I'm busy, I generally get through and do the needed work. On those off days, though, I sometimes find myself frozen, without the drive to get through some of these projects I've defined for myself. 
+Overall, my head is not in a good space. When I'm busy, I generally get through and do the needed work. On those off days, though, I sometimes find myself frozen, without the drive to get through some of these projects I've defined for myself.
 
 Some of this is natural—the ebbs and flows of life—but this occurrence is driven explicitly by unease in multiple parts of my life right now. Getting closure on these things would be good, though I don't expect that to happen fast.
 

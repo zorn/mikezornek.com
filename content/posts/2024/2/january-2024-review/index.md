@@ -8,11 +8,11 @@ A collection of accomplishments, notes, and observations about January 2024.
 
 ## Work
 
-In [last month's review][1], I shared my early notes on my [new job at Allovue][2]. Well, the BIG news of January is that [PowerSchool acquired Allovue][3]. I have not been laid off (a relief considering my very recent hire date). My employment title, salary, and benefits are mostly a 1:1 carryover at the new company. 
+In [last month's review][1], I shared my early notes on my [new job at Allovue][2]. Well, the BIG news of January is that [PowerSchool acquired Allovue][3]. I have not been laid off (a relief considering my very recent hire date). My employment title, salary, and benefits are mostly a 1:1 carryover at the new company.
 
-In the short term, once we get through the HR and operational changes, I suspect things will return to normal as we continue to focus on specific projects already planned for 2024. In the long term, I don't know how things will land. We are going from a 50-ish person company crafted with a particular kind of culture to a much larger 3500-person, publicly traded, corporate company. 
+In the short term, once we get through the HR and operational changes, I suspect things will return to normal as we continue to focus on specific projects already planned for 2024. In the long term, I don't know how things will land. We are going from a 50-ish person company crafted with a particular kind of culture to a much larger 3500-person, publicly traded, corporate company.
 
-Actual coding work is getting better. I'm getting more comfortable with the accounting product domains and accelerating my contributions. Most of these have been in the form of Phoenix components, and live component refactors while delivering some new features to our Budget app. 
+Actual coding work is getting better. I'm getting more comfortable with the accounting product domains and accelerating my contributions. Most of these have been in the form of Phoenix components, and live component refactors while delivering some new features to our Budget app.
 
 I'm also sprinkling in some tech lead style work, shaping discussions for the team to work through coding styles and patterns. Specifically, this month, we made some headway with localization work, which has already started but continues evolving.
 
@@ -24,7 +24,7 @@ Looking ahead towards February, I'm hopeful to start to better design some perso
 
 ## Side Projects
 
-There has not been any real progress on StudyHall, though I spent a recent Saturday brainstorming ideas for the new year. 
+There has not been any real progress on StudyHall, though I spent a recent Saturday brainstorming ideas for the new year.
 
 I'm debating walking back from Svelte to LiveView for the UI. My general feeling is that considering the limited time I'll be able to spend on StudyHall with my new job, I cannot expect to carve out enough time to learn and keep current with Svelte. It might be better for me to just double dip into my LiveView knowledge and experience I'm already using and advancing at my job. The decision needs to be driven by whether I view this project as an educational experiment or a legitimate side hustle that I want to be profitable. I don't know where I land on that currently.
 
@@ -66,8 +66,8 @@ I have been thinking about the YMCA pool. I want to get back into a habit of a m
 
 Last month, I shared my interest in looking towards January and the new year with a hope for stability, and with the surprise job acquisition, January was anything but stable. Here is hoping February is better at this.
 
-Moreover, the goal is to come out of February with a better plan of attack for the new year. Do some soul-searching to understand my priorities and develop habits to get me there. 
+Moreover, the goal is to come out of February with a better plan of attack for the new year. Do some soul-searching to understand my priorities and develop habits to get me there.
 
-***
+---
 
 Hopefully, these notes are interesting to you (or me in the future). If you have any questions or feedback, [let me know](/contact).

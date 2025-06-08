@@ -5,8 +5,8 @@ aliases: /2015/11/14/24-hours-with-my-ipad-pro/
 categories:
   - iOS
   - Life Notes
-
 ---
+
 I&#8217;ve always been a big fan of the iPad. I&#8217;ve owned an: iPad 1, iPad 2 (which I sold to upgrade to an iPad 3), an iPad mini (retina), and now an [iPad Pro][1].
 
 I&#8217;ve been pretty antsy for an iPad Pro since I saw the original announcement. I can&#8217;t say I have any unquie plans for it (outside reading Big Nerd Ranch book drafts in PDF format on a much bigger screen). Mostly I just want to experiment with the all the new features like the pencil and multitasking.
@@ -17,6 +17,6 @@ There are [lots of great iPad Pro reviews][3] out there so I won&#8217;t go into
 
 All that said, when it comes down to it, it&#8217;s about the software. I think I&#8217;ve spent $100 in new software playing around with things. If you know of some must have iPad software let me know cause I want to see how hard I can push this thing. Tomorrow should be a great test as I fly down to Atlanta to visit the home office of Big Nerd Ranch.
 
- [1]: http://www.apple.com/ipad-pro/
- [2]: http://www.fiftythree.com/pencil
- [3]: http://mjtsai.com/blog/2015/11/12/ipad-pro-reviews/
+[1]: http://www.apple.com/ipad-pro/
+[2]: http://www.fiftythree.com/pencil
+[3]: http://mjtsai.com/blog/2015/11/12/ipad-pro-reviews/

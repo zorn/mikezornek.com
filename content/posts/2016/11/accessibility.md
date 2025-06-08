@@ -8,8 +8,8 @@ categories:
   - iOS
   - Personal Projects
   - Recommended
-
 ---
+
 At the Apple event a few weeks ago they began with a short video on accessibility.
 
 {{< youtube XB4cjbYywqg >}}
@@ -28,14 +28,14 @@ Somewhere out there, a construction agency is in a discussion whether or not to 
 
 The software industry moves incredibly fast, maybe even too fast. We don&#8217;t have regulations and inspectors like other industries. We have to regulate ourselves. The tools to improve access for our creations are ready. They work really well. They sit there, waiting for us to use them.
 
-* * *
+---
 
 I don&#8217;t want to come off like I&#8217;m some know it all when it comes to accessibility. If you need real help with your app, contact [my friend Austin][4] who does consulting on the subject.
 
 I do have some experience enhancing a few personal iOS apps and hope to make it a larger priority with my upcoming [side project][5]. Like a lot of things, I think the goal here is for continual learning and small, iterative improvements.
 
- [1]: https://www.meetup.com/PhillyCocoaHeads/
- [2]: https://github.com/wikimedia/wikipedia-ios
- [3]: http://mikezornek.com/media/images/sps-accessibility.jpeg "Group of Programmers using Voice Over on iPhone"
- [4]: http://austinseraphin.com/
- [5]: http://restedexperience.com/
+[1]: https://www.meetup.com/PhillyCocoaHeads/
+[2]: https://github.com/wikimedia/wikipedia-ios
+[3]: http://mikezornek.com/media/images/sps-accessibility.jpeg "Group of Programmers using Voice Over on iPhone"
+[4]: http://austinseraphin.com/
+[5]: http://restedexperience.com/

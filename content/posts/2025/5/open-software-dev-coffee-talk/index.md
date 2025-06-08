@@ -6,9 +6,9 @@ images:
   - posts/2025/5/open-software-dev-coffee-talk/help-me-caffeine.jpg
 ---
 
-One of the joys of [self-employment](/elixir-consulting/) is having a little extra control over your day-to-day schedule. 
+One of the joys of [self-employment](/elixir-consulting/) is having a little extra control over your day-to-day schedule.
 
-In the past, during the time between paid projects, I have enjoyed casual open meetings with folks around the software developer community. 
+In the past, during the time between paid projects, I have enjoyed casual open meetings with folks around the software developer community.
 
 Right now, work is light, and I have extra room to chat, so I figured I'd promote the opportunity.
 

@@ -6,7 +6,7 @@ description: A few ideas to help you keep your stress low and your speaker confi
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
-Helping to organize a meetup group can be extremely rewarding. I've been running various groups for over 10 years now and I only regret not getting starting sooner. Still, there is not much to love in the minutia of monthly tasks to keep everything going. 
+Helping to organize a meetup group can be extremely rewarding. I've been running various groups for over 10 years now and I only regret not getting starting sooner. Still, there is not much to love in the minutia of monthly tasks to keep everything going.
 
 One of the most anxious tasks you'll face is, **how do you find speakers for the next event?** This can be particularly stressful since it's something that you can't accomplish completely by yourself and getting commitment on something from another person is always a little bit harder. Here are a few ideas to help you keep your stress low and your speaker confirmations flowing.
 
@@ -28,7 +28,7 @@ I highly recommend speakers practice their talk before presenting to a group. It
 
 ## Recruit Speakers Who Have Presented at Recent Events or Conferences
 
-If someone has done a presentation once, it's usually **much easier to present it a second time**. Take advantage of this and browse other meetups or conferences in your area or even outside of your area (since many meetups are virtual these days) and ask recent presenters if they might be interested in doing a presentation for your group. 
+If someone has done a presentation once, it's usually **much easier to present it a second time**. Take advantage of this and browse other meetups or conferences in your area or even outside of your area (since many meetups are virtual these days) and ask recent presenters if they might be interested in doing a presentation for your group.
 
 ## Post Speaker Openings on Your Social Media Accounts and Blogs
 
@@ -44,16 +44,16 @@ If someone shows interest in speaking, have them fill out a form to get the conv
 
 ### Sample Speaker Submission Form Questions
 
-* Full Name
-* Email
-* Phone (for emergencies)
-* Presentation Title
-* Presentation Summary
-* A Short Personal Bio
-* Expected Length
-* At what upcoming group event would you like to present?
-* Have you ever given this talk before?
-* Has this talk (or others) ever been published online? Please provide URLs.
+- Full Name
+- Email
+- Phone (for emergencies)
+- Presentation Title
+- Presentation Summary
+- A Short Personal Bio
+- Expected Length
+- At what upcoming group event would you like to present?
+- Have you ever given this talk before?
+- Has this talk (or others) ever been published online? Please provide URLs.
 
 ## Being the Backup, Doing a Talk Yourself
 

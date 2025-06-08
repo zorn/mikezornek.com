@@ -1,14 +1,14 @@
 ---
 title: "Using Google Sheets to Catalog Expenses for Budgeting Considerations"
 date: 2025-04-19T11:07:02-04:00
-description: This is how I catalog my planned expenses when reviewing personal budget scenarios. Google sheet and video demo attached. 
+description: This is how I catalog my planned expenses when reviewing personal budget scenarios. Google sheet and video demo attached.
 images:
   - posts/posts/2025/4/google-sheets-expense-budgeting/budget-preview.png
 ---
 
 I try to revisit my budget every six months or so, and having just wrapped up my taxes, which provide helpful totaling of where the money went last year, it was a good time to rebuild the numbers.
 
-In the past, I've used [Soulver](https://soulver.app/) for some of this, and while I still like that app, this time, I took a shot using a Google Spreadsheet. 
+In the past, I've used [Soulver](https://soulver.app/) for some of this, and while I still like that app, this time, I took a shot using a Google Spreadsheet.
 
 I liked how the expense spreadsheet came out and thought there would be value in [sharing a demonstration of it](https://docs.google.com/spreadsheets/d/1KzNSURgiVZPU61WKT4sTkO-5fAT124I6J3emVJX4L50/edit?usp=sharing).
 

@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: OmniDiskSweeper'
+title: "31 Days, 31 Products: OmniDiskSweeper"
 date: 2016-01-12T02:40:39+00:00
 aliases: /2016/01/11/31-days-31-products-omnidisksweeper/
 categories:
   - Recommended
-
 ---
+
 ## Day 30: OmniDiskSweeper
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -20,5 +20,5 @@ I currently have an iMac whose main system drive is a 256 GB SSD and between my 
 
 OmniDiskSweeper is [a free download][2]. Enjoy.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.omnigroup.com/more
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.omnigroup.com/more

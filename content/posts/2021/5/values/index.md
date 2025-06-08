@@ -8,9 +8,9 @@ Over the last year I've gained a much higher appreciation for the proper documen
 
 In part I think this new perspective has been fueled through the company I subcontract through, [Test Double](https://testdouble.com/agency), which does an excellent job of consistently referencing and referring to their own core values when discussing decisions, designing systems, [hiring new employees](https://blog.testdouble.com/posts/2021-05-17-why-our-hiring-process-is-focused-on-value-alignment/) or sharing praise.
 
-The other big factor of course is the continued increase in social awareness around racism, injustice, and inequality. It feels great that there is some momentum being made here (noting the long road ahead of course). All this activity has many, including myself, taking stock in what they value and how our actions align with those values. 
+The other big factor of course is the continued increase in social awareness around racism, injustice, and inequality. It feels great that there is some momentum being made here (noting the long road ahead of course). All this activity has many, including myself, taking stock in what they value and how our actions align with those values.
 
-When the alignment is off you see volatile results like the recent [Basecamp leadership failure](https://www.theverge.com/2021/5/3/22418208/basecamp-all-hands-meeting-employee-resignations-buyouts-implosion) or even the [Apple's lack of consistency with its quickly reversed hire](https://www.theverge.com/2021/5/12/22433437/apple-hire-antonio-garcia-martinez-out-petition-investigation). 
+When the alignment is off you see volatile results like the recent [Basecamp leadership failure](https://www.theverge.com/2021/5/3/22418208/basecamp-all-hands-meeting-employee-resignations-buyouts-implosion) or even the [Apple's lack of consistency with its quickly reversed hire](https://www.theverge.com/2021/5/12/22433437/apple-hire-antonio-garcia-martinez-out-petition-investigation).
 
 Even when I disagree with a company's chosen values (as I do while I read through [Working Backwards: Insights, Stories, and Secrets from Inside Amazon](https://www.goodreads.com/book/show/53138083-working-backwards)) I actually appreciate the documentation. It helps shape my understanding of the company and its decisions.
 

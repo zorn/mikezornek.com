@@ -36,7 +36,7 @@ The Phillies have been doing great in the postseason. Each game is a significant
 
 ## Video Games
 
-Working through a playthrough of Red Dead 2 (mainly focusing on the story, though I did upgrade most of the camp options). I'm also playing  Majora's Mask on the 3DS (which curiously feels like a fall game for me). 
+Working through a playthrough of Red Dead 2 (mainly focusing on the story, though I did upgrade most of the camp options). I'm also playing Majora's Mask on the 3DS (which curiously feels like a fall game for me).
 
 Next up: Red Dead 1 PS4 port, Mario Wonder, Mario RPG remake, and Sea of Stars.
 
@@ -44,6 +44,6 @@ Next up: Red Dead 1 PS4 port, Mario Wonder, Mario RPG remake, and Sea of Stars.
 
 Doing a little better. Walking a bit and also playing with Ring Fit Adventure on Switch. Not sure I'll keep up on that one. I've found the leg strap hard to keep in place and very distracting. Still, as the cold weather continues to mount, I will need some kind of indoor cardio.
 
-***
+---
 
 That's it for now. Thanks for reading and your interest.

@@ -34,7 +34,7 @@ Still reading [Myst: Book of Atrus](https://www.goodreads.com/book/show/159764.T
 
 ## Video Games
 
-Jumping around a bit. 
+Jumping around a bit.
 
 Bought and played Mario RPG. Still playing MLB: The Show some. Started Red Dead 1, but not too far in. Reinstalled Civilization 6 on a bit of a whim over the holiday break. Also started a brand new Stardew Valley farm one night (though I'm viewing it as a temp farm and will likely re-roll once the 1.6 update comes out).
 
@@ -46,12 +46,12 @@ My work schedule is pretty flexible, so I should be able to start getting some r
 
 ## What's Next?
 
-Looking ahead to January, my big goal is to get into a flow with my new job. Secondary is a goal to determine my priorities in my new limited side project time. Do I want to continue to StudyHall or focus on something more contained? I'm not sure.   
+Looking ahead to January, my big goal is to get into a flow with my new job. Secondary is a goal to determine my priorities in my new limited side project time. Do I want to continue to StudyHall or focus on something more contained? I'm not sure.
 
 I also need to continue to hand off some small client work to new folks.
 
-I also have to get a handle on my new income, budget, and benefit changes aligned (alongside the cancellation of my previous health insurance). 
+I also have to get a handle on my new income, budget, and benefit changes aligned (alongside the cancellation of my previous health insurance).
 
-***
+---
 
 Hopefully these notes are interesting to you (or future me). If you have any questions or feedback. [Let me know.](/contact)

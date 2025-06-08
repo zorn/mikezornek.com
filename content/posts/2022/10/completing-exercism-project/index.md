@@ -6,7 +6,7 @@ description: Not overlooking an opportunity to recap the project, I figure I'll 
 
 It was August 2, 2022, when I recorded the [first video and blogged](https://mikezornek.com/posts/2022/8/exercism-elixir-cohort/) about my Exercism Elixir video project. I decided to join an [upcoming cohort](https://exercism.org/cohorts/exhort-aug-22) that would be working through the [Elixir track on Exercism](https://exercism.org/tracks/elixir), a place to learn programming languages via coding challenges. I decided to video record myself working through the exercises, hoping to share the experience with others.
 
-And now it's all done! I posted my [final "Learning Exercise" video](https://mikezornek.com/posts/2022/10/exercism-take-a-number-deluxe/) on October 19, 2022. I unlocked the full Elixir syllabus and consider the project closed (for now). 
+And now it's all done! I posted my [final "Learning Exercise" video](https://mikezornek.com/posts/2022/10/exercism-take-a-number-deluxe/) on October 19, 2022. I unlocked the full Elixir syllabus and consider the project closed (for now).
 
 Not overlooking an opportunity to recap the project, I figure I'll capture a few thoughts to celebrate.
 

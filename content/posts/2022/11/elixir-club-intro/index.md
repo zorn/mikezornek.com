@@ -12,10 +12,10 @@ ElixirClub is an outcome-oriented community that **helps Elixir developers finis
 
 Working on a side project by yourself is **surrounded by risks**:
 
-* personal loss of focus
-* no accountability
-* endless time extensions
-* exploding scope
+- personal loss of focus
+- no accountability
+- endless time extensions
+- exploding scope
 
 Even a completed side project might be considered a failure if it does not find its audience or fails to provide a **reasonable return on your time investment**.
 
@@ -27,11 +27,11 @@ Through a mixture of **accountability**, **education**, and **celebrations**, yo
 
 All the below community heartbeats are designed to help you shape the work needed to see your side project to its planned completion and build a habit loop for regular progress.
 
-* ✅ Weekly **async project check-ins** to share wins, plan next week's work and ask questions.
-* 📅 Weekly **live coworking** sessions, offering a mix of face-to-face accountability and dedicated mic-off time-boxed work time.
-* 📺 Themed **live (and recorded) events** around side project management concerns and Elixir-specific programming interests.
-* 📝 Written **guides** and suggested **tasks** to wrangle your project and find your flow.
-* 🤝 A **code review trading board** that allows members to exchange code reviews.
+- ✅ Weekly **async project check-ins** to share wins, plan next week's work and ask questions.
+- 📅 Weekly **live coworking** sessions, offering a mix of face-to-face accountability and dedicated mic-off time-boxed work time.
+- 📺 Themed **live (and recorded) events** around side project management concerns and Elixir-specific programming interests.
+- 📝 Written **guides** and suggested **tasks** to wrangle your project and find your flow.
+- 🤝 A **code review trading board** that allows members to exchange code reviews.
 
 Membership to the community will require a modest monthly subscription. This choice helps pay for the community software, helps people solidify their dedication to their projects, and helps fund my work creating content for the group.
 

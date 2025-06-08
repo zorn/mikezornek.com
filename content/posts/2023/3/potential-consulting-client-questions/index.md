@@ -4,7 +4,7 @@ date: 2023-03-03T10:18:42-05:00
 description: A series of questions I ask prospective consulting clients (most looking for help with Elixir programming projects) and why I'm asking them.
 ---
 
-There is a process that kicks off after I hear that a company is looking for help with their Elixir project. This process usually involves a series of emails and calls. During this process, the prospective client will have many questions for me. Some of these questions will be straightforward logistics: availability, costs, verification of technical skills, etc. Hopefully, they will also ask a bunch of questions to understand if and how I might be a good fit for the company's values, culture, and needs -- ideally filling a gap they have identified outside just of an additional set of Elixir hands. 
+There is a process that kicks off after I hear that a company is looking for help with their Elixir project. This process usually involves a series of emails and calls. During this process, the prospective client will have many questions for me. Some of these questions will be straightforward logistics: availability, costs, verification of technical skills, etc. Hopefully, they will also ask a bunch of questions to understand if and how I might be a good fit for the company's values, culture, and needs -- ideally filling a gap they have identified outside just of an additional set of Elixir hands.
 
 I will have my own series of questions to understand the client's current situation, what they are looking for, and if it's a good fit for my interests.
 
@@ -16,11 +16,11 @@ Additionally, this is the client's first impression of you. If you can show up, 
 
 ## Company Background Questions
 
-Who is CompanyX, who are their customers? what do they sell, what is the pitch/positioning? Why do they serve these customers and needs over something else? 
+Who is CompanyX, who are their customers? what do they sell, what is the pitch/positioning? Why do they serve these customers and needs over something else?
 
-> Why: Basic background questions. We all have some industries and customers that are more or less attractive to us. I have a [personal value](/values) of Meaningful Work, so the better the client aligns with my perspective of this, the better.  
+> Why: Basic background questions. We all have some industries and customers that are more or less attractive to us. I have a [personal value](/values) of Meaningful Work, so the better the client aligns with my perspective of this, the better.
 
-Is the company owned privately or by venture capital/public stock? Is there a parent company? What phase is the company in? Is it profitable? Trying to find market fit? Is there a growth target on the horizon? 
+Is the company owned privately or by venture capital/public stock? Is there a parent company? What phase is the company in? Is it profitable? Trying to find market fit? Is there a growth target on the horizon?
 
 > Why: Knowing the company's financial situation helps me have some context around the project. For example, if the company is investing in exploration or market fit, there might be more appetite for quicker prototype turnaround over production-ready software.
 
@@ -28,7 +28,7 @@ What are the company's core values? How are those values demonstrated in day-to-
 
 > Why: Having a detailed expression of your company values helps those who contribute to the company fill in the details as they do work. With the values defined, it is easier to reconcile a problem with a particular solution when you can ensure it aligns with the company values. Without defined values, people start to substitute their personal values, and when that happens across the organization, a lot of friction is introduced because the values and the solutions they derived do not align.
 
-Name an aspect of the company's culture that you love and something that you think should be better. What experiments is the company actively doing to improve that unsatisfactory element? How does the company come together to identify and work towards improvements to day-to-day processes? 
+Name an aspect of the company's culture that you love and something that you think should be better. What experiments is the company actively doing to improve that unsatisfactory element? How does the company come together to identify and work towards improvements to day-to-day processes?
 
 > Why: I have a [personal value](/values) of Continuous Improvement, and so I would hope to work with a company that has some process in place for ongoing reflection and experimentation towards improving themselves. This can come in many forms, but a traditional format is regular team retrospective meetings or 1:1 meetings with team leaders.
 
@@ -52,7 +52,7 @@ What is the company's proficiency ratio between senior level / mid level / junio
 
 How do you plan and track work? Who decides what to work on / prioritize? What is the process like from napkin idea to deployed feature? How do you make time for refactoring / experimentation / learning new technologies? Where am I in this process?
 
-> Why: Again, I'm looking for alignment with my personal value of short feedback loops. Also good to understand my position in this flow. Ideally, I'm near the top and have an opportunity to influence the shaping of the features. I'm particularly good at discovering edge cases for new features, so the better a client can get that out of me, the better value for their dollar. 
+> Why: Again, I'm looking for alignment with my personal value of short feedback loops. Also good to understand my position in this flow. Ideally, I'm near the top and have an opportunity to influence the shaping of the features. I'm particularly good at discovering edge cases for new features, so the better a client can get that out of me, the better value for their dollar.
 
 How do you measure/guess/estimate how much work can be done in a given timeframe/sprint? How do you understand the team's velocity? Is this working well for you?
 
@@ -70,7 +70,7 @@ Do you have a testing process before new work hits production? Dedicated QA team
 
 > Why: Good QA teams can add significant value to the software. Not every client I interact with uses them, but asking this and getting a positive answer is a good sign.
 
-After deployment, how do you measure or understand the success of a new feature? 
+After deployment, how do you measure or understand the success of a new feature?
 
 > Why: Meaningful work (see [Personal Values](/values)) is work that solves real problems for people. Verifying the features we worked so hard on are successful in production means a lot. Knowing how unsuccessful features are observed and tweaked is essential too.
 
@@ -80,7 +80,7 @@ Is there a company manual outlining all these processes and the reasons behind t
 
 How does upper management communicate with the company at large? What is the cadence for scheduled communications?
 
-> Why: I get value from regular updates on the company's progress at large. I don't have a significant preference for the format, but quarterly updates would be a minimum acceptable threshold.   
+> Why: I get value from regular updates on the company's progress at large. I don't have a significant preference for the format, but quarterly updates would be a minimum acceptable threshold.
 
 Does the project have dedicated UI designers? Do they work closely with the development team? Is there a standard process for handing off assets, specs, and motion simulations?
 
@@ -94,11 +94,11 @@ How is customer support handled? Do I have any interaction with the customers or
 
 Do you use GitHub or some other version control? Is there a single repo or multiple repos?
 
-> Why: Kickoff question of sorts. I've almost exclusively used GitHub but I am curious about GitLab and others. 
- 
+> Why: Kickoff question of sorts. I've almost exclusively used GitHub but I am curious about GitLab and others.
+
 How do contributors merge in new code? What is the process? Can I see some recent pull requests? What kind of automated code checks do you run? (Test runners? Credo? Dialyzer? Sobelow? Code coverage?)
 
-> Why: I want to understand how they branch and do code reviews. I want examples of constructive code review comments and not endless chatter or empty approvals. I want to see that PRs are small and short-lived. I'm looking to see what kind of PR automations they run. 
+> Why: I want to understand how they branch and do code reviews. I want examples of constructive code review comments and not endless chatter or empty approvals. I want to see that PRs are small and short-lived. I'm looking to see what kind of PR automations they run.
 
 Do you require tests with code changes? What is your testing philosophy?
 
@@ -118,7 +118,7 @@ Do you write inline project documentation for modules and functions? Do you writ
 
 How do you track work to be done? What kind of issue/ticket tracker software do you use? How do separate idea tickets vs. scoped/shaped tickets? Do you ever have ticket grooming sessions to answer open questions that block ticket implementation? Can I see the ticket board and some current/recent tickets?
 
-> Why: We asked broad questions about the process, but this is more specific. I'm looking for a clean separation of tickets in the idea stage vs. the scoped/shaped stage. A good scoped/shaped ticket has all the info the implementor needs to do the work: descriptions of the wanted behavior, things that we are not doing with this work, links to pitch documents, designed mockups, references to people who can unblock questions, a clear understanding of when the ticket is considered complete. Most complex work should happen across a series of tickets: how is that organized/tracked? 
+> Why: We asked broad questions about the process, but this is more specific. I'm looking for a clean separation of tickets in the idea stage vs. the scoped/shaped stage. A good scoped/shaped ticket has all the info the implementor needs to do the work: descriptions of the wanted behavior, things that we are not doing with this work, links to pitch documents, designed mockups, references to people who can unblock questions, a clear understanding of when the ticket is considered complete. Most complex work should happen across a series of tickets: how is that organized/tracked?
 
 How do you track bugs? Who enters these bug tickets? How do you prioritize and schedule bug fixes? Can I see some recent bug tickets?
 
@@ -134,7 +134,7 @@ Do you publish a changelog to the users? If so, how?
 
 Is there any high-level documentation for the structure or architecture of the application? Can you give me a short code walkaround? Are there specific areas of the codebase you suspect I would be working in more than others?
 
-> Why: It will be hard to grok any complex architecture during a single meeting, but getting an overview and some specific guidance on what you'd likely be contributing to is helpful. 
+> Why: It will be hard to grok any complex architecture during a single meeting, but getting an overview and some specific guidance on what you'd likely be contributing to is helpful.
 
 # Understanding My Role
 
@@ -142,11 +142,11 @@ Will I be in an individual contributor role or a team management role? What does
 
 > Why: I've done both, and they are very different. This was probably answered before but listed here for verification.
 
-What observable characteristics would signal a successful consulting outcome? What would signal a negative consulting outcome? 
+What observable characteristics would signal a successful consulting outcome? What would signal a negative consulting outcome?
 
 > Why: I am probably not their first consultant. Knowing specific quirks about the previous positive and negative experiences can significantly shape what I want to focus on for this unique client.
 
-***
+---
 
 If I were interviewing for a full time job there were be a whole bunch more questions about compensation, perks, vacation and the like -- but these are questions for potential consutling clients so I will not list them.
 

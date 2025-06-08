@@ -9,7 +9,7 @@ This week we will see a new expansion for Civilization VI, Gathering Storm, whic
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eg0PYsWK1dc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In Civilization VI downtime I'm on a bit of a Final Fantasy kick. I'm playing the Final Fantasy X HD remake for PS4 and Final Fantasy XIV (MMO) for PC. I've had the HD remake sitting around since when I bought the PS4 and playing it is part of my general goal to explore more of my backlog before buying new games. 
+In Civilization VI downtime I'm on a bit of a Final Fantasy kick. I'm playing the Final Fantasy X HD remake for PS4 and Final Fantasy XIV (MMO) for PC. I've had the HD remake sitting around since when I bought the PS4 and playing it is part of my general goal to explore more of my backlog before buying new games.
 
 As for FF XIV, well I need my MMO fix since I've turned off WoW. I'm not putting in crazy hours or anything. I'm taking things slow and steady, exploring the game and its many, many job choices. I really like the crafting system so far. It is so much deeper than WoW's crafting and I like how I can level all the jobs on one character.
 

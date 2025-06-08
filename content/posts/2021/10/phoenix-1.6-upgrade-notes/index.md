@@ -6,7 +6,7 @@ description: Over the past few days I've been upgrading my projects to Phoenix 1
 pain: confusion and scared about editing generated templates
 fix: some tips for success
 next action: update your project
-back of the book promise: after reading this post you'll have a battle plan to update to Phoenix 1.6 
+back of the book promise: after reading this post you'll have a battle plan to update to Phoenix 1.6
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._
@@ -19,7 +19,7 @@ Over the past few days I've been [upgrading my projects to Phoenix 1.6][1] and l
 
 Depending on the scale and circumstances of your project you might consider just re-generating a new project using `mix phx.new` and bringing over your old code into the fresh template. I wouldn't recommend this for any project that had meaningful git history or other collaborators, but for smaller personal projects it might be the path of least resistance.
 
-You'll probably want the new project generator regardless and can  install it with:
+You'll probably want the new project generator regardless and can install it with:
 
 ```bash
 $ mix archive.install hex phx_new
@@ -27,11 +27,11 @@ $ mix archive.install hex phx_new
 
 ## Step 1: Familiarize Yourself with the New Version
 
-Before blindly attempting the upgrade it would be best to read the [official blog announcement][blog], review the [project changelog][changelog] and preview [Chris McCord's personal upgrade notes][migrationguide]. You might want to also bookmark documentation for specific new features, like [heex templates][heex].  
+Before blindly attempting the upgrade it would be best to read the [official blog announcement][blog], review the [project changelog][changelog] and preview [Chris McCord's personal upgrade notes][migrationguide]. You might want to also bookmark documentation for specific new features, like [heex templates][heex].
 
 [blog]: https://www.phoenixframework.org/blog/phoenix-1.6-released
 [changelog]: https://github.com/phoenixframework/phoenix/blob/3ba0f6fc3407d4ddc08c05715ff8b24cb367d8bd/CHANGELOG.md#160-rc0-2021-08-26
-[migrationguide]: https://gist.github.com/chrismccord/2ab350f154235ad4a4d0f4de6decba7b 
+[migrationguide]: https://gist.github.com/chrismccord/2ab350f154235ad4a4d0f4de6decba7b
 [heex]: https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.Helpers.html#sigil_H/2
 
 ## Step 2: Get Your Project is a Stable State
@@ -60,32 +60,32 @@ Next run `mix hex.outdated` to see what dependency updates are available. You'll
 
 ```bash
 $ mix hex.outdated
-Dependency              Current  Latest   Status               
-credo                   1.5.6    1.5.6    Up-to-date           
-dialyxir                1.1.0    1.1.0    Up-to-date           
-ecto_sql                3.6.2    3.7.1    Update possible      
-floki                   0.29.0   0.31.0   Update not possible  
-gettext                 0.18.2   0.18.2   Up-to-date           
-jason                   1.2.2    1.2.2    Up-to-date           
-mix_test_watch          1.0.3    1.1.0    Update possible      
-phoenix                 1.5.9    1.6.2    Update not possible  
-phoenix_ecto            4.3.0    4.4.0    Update possible      
-phoenix_html            2.14.3   3.0.4    Update not possible  
-phoenix_live_dashboard  0.4.0    0.5.3    Update possible      
-phoenix_live_reload     1.3.3    1.3.3    Up-to-date           
-plug_cowboy             2.5.1    2.5.2    Update possible      
-postgrex                0.15.10  0.15.12  Update possible      
-telemetry_metrics       0.6.1    0.6.1    Up-to-date           
+Dependency              Current  Latest   Status
+credo                   1.5.6    1.5.6    Up-to-date
+dialyxir                1.1.0    1.1.0    Up-to-date
+ecto_sql                3.6.2    3.7.1    Update possible
+floki                   0.29.0   0.31.0   Update not possible
+gettext                 0.18.2   0.18.2   Up-to-date
+jason                   1.2.2    1.2.2    Up-to-date
+mix_test_watch          1.0.3    1.1.0    Update possible
+phoenix                 1.5.9    1.6.2    Update not possible
+phoenix_ecto            4.3.0    4.4.0    Update possible
+phoenix_html            2.14.3   3.0.4    Update not possible
+phoenix_live_dashboard  0.4.0    0.5.3    Update possible
+phoenix_live_reload     1.3.3    1.3.3    Up-to-date
+plug_cowboy             2.5.1    2.5.2    Update possible
+postgrex                0.15.10  0.15.12  Update possible
+telemetry_metrics       0.6.1    0.6.1    Up-to-date
 telemetry_poller        0.5.1    1.0.0    Update not possible
 ```
 
-Using the above collection of versions you can update your `mix.exs` deps list. To verify these work try running the following commands in series: 
+Using the above collection of versions you can update your `mix.exs` deps list. To verify these work try running the following commands in series:
 
-* `mix deps.clean --all`
-* `mix clean`
-* `mix deps.get`
-* `mix compile`
-* `mix test` 
+- `mix deps.clean --all`
+- `mix clean`
+- `mix deps.get`
+- `mix compile`
+- `mix test`
 
 Fix any issues that popup and then you can commit your progress and start to consider some of the optional parts of the 1.6 upgrade.
 
@@ -93,10 +93,10 @@ Fix any issues that popup and then you can commit your progress and start to con
 
 The new template system is called `heex` (pronounced `heaks`) and is more HTML-aware, helping report issues like missing `div` tags at compile time. The new `heex` templates will help resolve a notable collection of common LiveView and CSS bugs as well as provide nicer inline functions.
 
-While `heex` templates are great they are optional for now. Previous `eex` and `leex` templates still work but are considered deprecated. If you want to start to migrate to `heex` I would check out [the docs][heex] for a quick overview and then start renaming your file extensions like: 
+While `heex` templates are great they are optional for now. Previous `eex` and `leex` templates still work but are considered deprecated. If you want to start to migrate to `heex` I would check out [the docs][heex] for a quick overview and then start renaming your file extensions like:
 
-* `app.html.eex` to `app.html.heex`
-* `live.html.leex` to `app.html.heex`
+- `app.html.eex` to `app.html.heex`
+- `live.html.leex` to `app.html.heex`
 
 For inline templates you'll use the new `~H` sigil instead of `~L` sigil.
 
@@ -131,7 +131,7 @@ With Phoenix 1.6 all new project templates will default to [esbuild] over the hi
 
 [esbuild]: https://esbuild.github.io/
 
-If you already have invested in any webpack customizations you might just want to keep using it. 
+If you already have invested in any webpack customizations you might just want to keep using it.
 
 If your needs are simple and you'd like to give esbuild a spin it can be swapped in without too much work. Chris McCord's [upgrade document][migrationguide] has an in-depth set of edits you can follow. I did those steps myself with RetroTaxi and then once I got it all working, went back and re-added my Tailwind dependencies following [Mike Clark's blog post][tailwind]. I ended up with a very basic [package.json](https://github.com/elixirfocus/retro_taxi/blob/main/assets/package.json) file.
 
@@ -143,13 +143,13 @@ If your needs are simple and you'd like to give esbuild a spin it can be swapped
 
 There are lots of little things you can notice comparing your current Phoenix 1.5 project with a freshly generated 1.6 project. In fact I recommend using `mix phx.new hello` (substituting your own project name for `hello` to help with easier copy and paste) and then compare the new project files 1:1 against your current project. You'll no doubt notice things like:
 
-* the move from `use Mix.Config` to `import Config` and other related config file changes.
-* the addition of [Swoosh](https://github.com/swoosh/swoosh), an email composition and delivery tool, to your project dependency list.
-* how the path of assets in an esbuild setup will effect your `.gitignore` file and other template references.
-* the introduction of `topbar` as a static JS library replacing the previous `NProgress` dependency.
-* slight changes to the generated telemetry descriptions.
-* slight changes to how the Ecto sandbox is started during test mode.
-* new complier warning suppressions for LiveDashboard, which will intentionally not be available in production by default. 
+- the move from `use Mix.Config` to `import Config` and other related config file changes.
+- the addition of [Swoosh](https://github.com/swoosh/swoosh), an email composition and delivery tool, to your project dependency list.
+- how the path of assets in an esbuild setup will effect your `.gitignore` file and other template references.
+- the introduction of `topbar` as a static JS library replacing the previous `NProgress` dependency.
+- slight changes to the generated telemetry descriptions.
+- slight changes to how the Ecto sandbox is started during test mode.
+- new complier warning suppressions for LiveDashboard, which will intentionally not be available in production by default.
 
 For RetroTaxi I tried to honor these changes as much as possible.
 
@@ -167,7 +167,7 @@ One new feature I have my eye on but did not get around too (yet) is [Phoenix.Co
 
 > Note: previous LiveView versions allowed the `:id` to be skipped on `live_component` but those are now discouraged since the addition of function components, outlined in `Phoenix.Component`.
 
-*** 
+---
 
 Hopefully these notes provide some help and comfort as you upgrade your own Phoenix projects to 1.6. I'm curious how we can continue to improve this process in the future and even have my eye on some new Elixir [1.13 changes](https://hexdocs.pm/elixir/master/changelog.html#extended-code-formatting) that could help by "supporting developers who wish to create tools that directly manipulate and custom format Elixir source code".
 

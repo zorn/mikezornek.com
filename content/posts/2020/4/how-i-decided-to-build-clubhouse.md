@@ -7,4 +7,4 @@ date: 2020-04-24T11:32:08-04:00
 
 Links:
 
-* My Project: [Club House Hosting](/projects/guildflow/)
+- My Project: [Club House Hosting](/projects/guildflow/)

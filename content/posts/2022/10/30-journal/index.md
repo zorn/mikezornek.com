@@ -6,7 +6,7 @@ description: Journal -- October 30, 2022
 
 Sunday, October 30, 2022 -- It is Sunday night, and after a chill day, I wanted to catch up on some journal entries.
 
-First off, my new client gig is working out well. The last two weeks were mostly about getting over the onboarding hump, asking many questions, and working through some bug issues to familiarize myself with the code base. Still have a lot to learn, but we are merging PRs, which is a good sign. 
+First off, my new client gig is working out well. The last two weeks were mostly about getting over the onboarding hump, asking many questions, and working through some bug issues to familiarize myself with the code base. Still have a lot to learn, but we are merging PRs, which is a good sign.
 
 I'll need to start deploying those changes this upcoming week and plan some version upgrades for Elixir, OTP, Phoenix, and more. I'm also sinking my teeth into a more significant project proposal draft. The challenge is hours. This part-time tech lead job is capped at 8 hours per week, which is very tight. I need to be very careful about which tech hole I want to jump into, knowing I have enough time to climb back out. I was allotted some extra hours during the onboarding phase, but that is over.
 

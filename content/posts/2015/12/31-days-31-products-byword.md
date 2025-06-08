@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Byword'
+title: "31 Days, 31 Products: Byword"
 date: 2015-12-04T01:38:20+00:00
 aliases: /2015/12/03/31-days-31-products-byword/
 categories:
   - Recommended
-
 ---
+
 ## Day 10: Byword
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -24,11 +24,11 @@ I&#8217;ve been a pretty regular Byword user since its introduction. I love the 
 
 [Byword][7] for Mac is available exclusively through the [Mac App Store][8] for $11.99 with a $4.99 in-app purchase to add blog publishing features.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://daringfireball.net/projects/markdown/syntax
- [3]: http://www.bywordapp.com/
- [4]: http://mikezornek.com/media/images/31products/byword_mac.jpg "Byword for Mac"
- [5]: https://en.wikipedia.org/wiki/Textile_(markup_language)
- [6]: https://help.github.com/articles/github-flavored-markdown/
- [7]: http://bywordapp.com/
- [8]: http://bywordapp.com/mas
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://daringfireball.net/projects/markdown/syntax
+[3]: http://www.bywordapp.com/
+[4]: http://mikezornek.com/media/images/31products/byword_mac.jpg "Byword for Mac"
+[5]: https://en.wikipedia.org/wiki/Textile_(markup_language)
+[6]: https://help.github.com/articles/github-flavored-markdown/
+[7]: http://bywordapp.com/
+[8]: http://bywordapp.com/mas

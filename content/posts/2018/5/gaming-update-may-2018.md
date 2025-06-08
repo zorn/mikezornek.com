@@ -4,8 +4,8 @@ date: 2018-05-18T15:15:35+00:00
 aliases: /2018/05/18/gaming-update-may-2018/
 categories:
   - Uncategorized
-
 ---
+
 From [April trends][1], I continued to play Stardew Valley into early May. It kind of died off over the last few weeks though since I don&#8217;t have much left to do, beside more and more money.
 
 I also finished April pretty heavy into the new Hearthstone expansion. It was fun to see the new cards and decks. Nothing ground breaking, fun times and good fodder while I also listen to podcasts.
@@ -18,4 +18,4 @@ Second big update for me is Civilization 6! I bought the game when it first came
 
 What&#8217;s next? Probably more Civilization 6 and Zelda. I also did purchase via pre-order Donkey Kong Tropical Freeze and Hyrule Warriors for Switch. I never got to play them on the WiiU but they look like fun. Also getting excited for E3 in June. There have been some Pokemon leaks for the Switch game and I&#8217;m a little nervous about the Go integration rumors but we&#8217;ll see how it turns out.
 
- [1]: http://mikezornek.com/2018/04/04/gaming-update-april-2018/
+[1]: http://mikezornek.com/2018/04/04/gaming-update-april-2018/

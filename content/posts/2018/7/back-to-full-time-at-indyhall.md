@@ -4,8 +4,8 @@ date: 2018-07-19T20:06:18+00:00
 aliases: /2018/07/19/back-to-full-time-at-indyhall/
 categories:
   - Life Notes
-
 ---
+
 {{< youtube WRuJdIaM_sE >}}
 
 <https://www.youtube.com/watch?v=WRuJdIaM_sE>
@@ -14,6 +14,6 @@ I&#8217;m back at IndyHall full-time. What is IndyHall? It&#8217;s Philadelphia&
 
 Links:
 
-  * <http://indyhall.org>
-  * <https://www.instagram.com/indyhall/>
-  * <http://coworking.com/>
+- <http://indyhall.org>
+- <https://www.instagram.com/indyhall/>
+- <http://coworking.com/>

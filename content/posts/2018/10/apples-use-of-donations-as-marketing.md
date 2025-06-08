@@ -4,11 +4,11 @@ date: 2018-10-04T16:07:40+00:00
 aliases: /2018/10/04/apples-use-of-donations-as-marketing/
 categories:
   - Uncategorized
-
 ---
+
 The other day Tim Cook (‪@tim_cook‬) [tweeted][1]:
 
-> Our hearts go out to the people of Sulawesi and all of Indonesia after this weekend’s devastating earthquake and tsunami. Apple is donating $1 million to aid relief efforts as this beautiful country starts to rebuild. 
+> Our hearts go out to the people of Sulawesi and all of Indonesia after this weekend’s devastating earthquake and tsunami. Apple is donating $1 million to aid relief efforts as this beautiful country starts to rebuild.
 
 I feel bad for the earthquake victims too, but this kind of marketing makes me a little ill.
 
@@ -22,6 +22,6 @@ Some might say, well Apple needs to answer to their shareholders and this is how
 
 At a minimum, donate your $1.86 annomously without looking for a thank you.
 
- [1]: https://twitter.com/tim_cook/status/1047147670442205184
- [2]: https://www.rt.com/business/361668-apple-tax-avoidance-report/
- [3]: https://duckduckgo.com/?q=apple+tax+evasion
+[1]: https://twitter.com/tim_cook/status/1047147670442205184
+[2]: https://www.rt.com/business/361668-apple-tax-avoidance-report/
+[3]: https://duckduckgo.com/?q=apple+tax+evasion

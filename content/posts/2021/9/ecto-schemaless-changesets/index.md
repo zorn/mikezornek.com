@@ -13,9 +13,9 @@ _This post was originally written for my old ElixirFocus blog, and transfer here
 
 > With schemaless changesets you have the power to hand craft validations for specific web form presentations and define firm boundaries of responsibilities between your web presentation layer and the business-specific contexts of your app.
 
-It's a story we can all relate with. A new app is born using `mix phx.new hello`. 
+It's a story we can all relate with. A new app is born using `mix phx.new hello`.
 
-Some `mix phx.gen` generators are used to begin to shape a solution, perhaps something like: 
+Some `mix phx.gen` generators are used to begin to shape a solution, perhaps something like:
 
 ```bash
 $ mix phx.gen.html Blog Post posts body:string word_count:integer
@@ -23,13 +23,13 @@ $ mix phx.gen.html Blog Post posts body:string word_count:integer
 
 And then over time the `Post` schema grows. Different web forms are needed and so multiple `changeset` functions are added for the diverging user tasks. You might even start adding `virtual` fields to schemas just to handle web form needs.
 
-It gets to a point where no one wants to edit or refactor the schema since it has grown too large and complex. 
+It gets to a point where no one wants to edit or refactor the schema since it has grown too large and complex.
 
 How do get we get out of this mess?
 
 ## Part One: Break Things Down
 
-When you find yourself with a large schema I would first look to how you can break down this **BIG** noun into other smaller nouns. 
+When you find yourself with a large schema I would first look to how you can break down this **BIG** noun into other smaller nouns.
 
 Perhaps you have a large `User` entity. Maybe you could isolate and extract some of its responsibilities. Maybe introduce a `Credentials` entity and a user has many of them. Maybe break out a `Profile` and a user has one of those.
 
@@ -41,9 +41,9 @@ Breaking down domain concepts into smaller structures can improve the expressive
 
 As useful as Phoenix generators can be to stand up a basic app, or to get through a tutorial introducing you to concepts about the framework, there is a dark pattern you would be wise to acknowledge if accepting its compromise.
 
-In an ideal scenario an `Ecto.Changeset` should **NOT** have a dependency through line from an app's business context into the web controller and onto the web form of the page. 
+In an ideal scenario an `Ecto.Changeset` should **NOT** have a dependency through line from an app's business context into the web controller and onto the web form of the page.
 
-**Letting a changeset that low in the stack influence the web forms is dangerous.** 
+**Letting a changeset that low in the stack influence the web forms is dangerous.**
 
 Lets explain.
 
@@ -71,6 +71,7 @@ changeset =
   |> validate_required(...)
   |> validate_length(...)
 ```
+
 Creating a schemaless version is super easy and very much the same. Instead of starting the pipe with a schema type you instead start it with a simple tuple containing the data and some metadata about the data's types.
 
 ```elixir
@@ -117,7 +118,7 @@ end
 
 Other than this difference, you can use the changeset with the Phoenix form tool just like before.
 
-> I'll also take a moment to give a nod to the `embedded_schema` Ecto type which can be used here in place of the arbitrary `Struct` or `Map`; see [the documentation](https://hexdocs.pm/ecto/data-mapping-and-validation.html) for a full sample. My gut tells me to isolate usage of things called "schemas" to entities or values that will end up in the database for a greenfield project, but it's a small preference. I also like the idea that the concepts of "changeset" need not be limited to the Ecto library.  
+> I'll also take a moment to give a nod to the `embedded_schema` Ecto type which can be used here in place of the arbitrary `Struct` or `Map`; see [the documentation](https://hexdocs.pm/ecto/data-mapping-and-validation.html) for a full sample. My gut tells me to isolate usage of things called "schemas" to entities or values that will end up in the database for a greenfield project, but it's a small preference. I also like the idea that the concepts of "changeset" need not be limited to the Ecto library.
 
 ### The Missing Error Gotcha
 
@@ -130,12 +131,12 @@ The one issue you may run into with this schemaless changeset approach is that a
     case changeset.valid? do
       false ->
         # In the first published version of this post we edited the `action` directly but
-        # it is probably safer to use the defined `apply_action` function, though the 
+        # it is probably safer to use the defined `apply_action` function, though the
         # result is pretty much the same.
         # {:error, %{changeset | action: :insert}}
 
         # We need to force an action value so the Phoenix forms will display the errors.
-        # Code is more explicit here for demonstration purposes.        
+        # Code is more explicit here for demonstration purposes.
         {:error, changeset_with_action} = Ecto.Changeset.apply_action(changeset, :insert)
         {:error, changeset_with_action}
 
@@ -145,6 +146,6 @@ The one issue you may run into with this schemaless changeset approach is that a
   end
 ```
 
-## Conclusion 
+## Conclusion
 
 With schemaless changesets you have the power to hand craft validations for specific web form presentations and define firm boundaries of responsibilities between your web presentation layer and the business-specific contexts of your app. Lots of people will not invest in this separation of concerns, and depending on the life-cycle of the application and the needs of your users that might be fine. If however, you find yourself making multiple flavors of changeset or adding lots of `virtual` fields to a schema just to make the web forms fit in -- it might be time to rethink your approach.

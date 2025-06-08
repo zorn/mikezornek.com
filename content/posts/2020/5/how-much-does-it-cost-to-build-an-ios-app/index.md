@@ -18,16 +18,16 @@ I highly encourage you to read that article to learn more. You should also check
 
 More Links:
 
-* [Ken Yarmosh: App Budget by App Type](https://savvyapps.com/blog/app-development-costs)
-* [Entrepreneur: The Real Costs of Building a Mobile App for iOS and Android ](https://www.entrepreneur.com/article/288027)
-* [Craig Hockenberry: how much it would cost to build Twitterrific](http://stackoverflow.com/questions/209170/how-much-does-it-cost-to-develop-an-iphone-application/3926493#3926493)
+- [Ken Yarmosh: App Budget by App Type](https://savvyapps.com/blog/app-development-costs)
+- [Entrepreneur: The Real Costs of Building a Mobile App for iOS and Android ](https://www.entrepreneur.com/article/288027)
+- [Craig Hockenberry: how much it would cost to build Twitterrific](http://stackoverflow.com/questions/209170/how-much-does-it-cost-to-develop-an-iphone-application/3926493#3926493)
 
 I'll also share my own notes, which I captured today in [MindNode](https://mindnode.com/) to help me through these phone calls.
 
 The notes are published below in a few open formats. Hopefully this helps. If you have any questions or want to talk about your own project, please [contact me](/contact/). Thanks!
 
-* [MindNode document](how-much-does-it-cost-to-build-an-ios-app.mindnode.zip)
-* [PDF](how-much-does-it-cost-to-build-an-ios-app.pdf)
-* [PNG](thumb.png)
+- [MindNode document](how-much-does-it-cost-to-build-an-ios-app.mindnode.zip)
+- [PDF](how-much-does-it-cost-to-build-an-ios-app.pdf)
+- [PNG](thumb.png)
 
 [![MindNode Notes on How Much Does It Cost to Build an iOS App?](thumb.png)](thumb.png)

@@ -16,17 +16,17 @@ I have a bunch of project filters to share but will open with some higher-level 
 
 ## Why I Want To Do A Product (Again)
 
-Outside of my initial post-college employment and a four-year window where I worked full-time at development agencies, I have been self-employed my entire career. Self-employment income has come through a mix of products and consulting. For some years, I've been able to make my entire living from my products; for others, I've had to lean more heavily on consulting. I've always viewed consulting as something to empower my product development and never the end goal itself. 
+Outside of my initial post-college employment and a four-year window where I worked full-time at development agencies, I have been self-employed my entire career. Self-employment income has come through a mix of products and consulting. For some years, I've been able to make my entire living from my products; for others, I've had to lean more heavily on consulting. I've always viewed consulting as something to empower my product development and never the end goal itself.
 
 I prefer products because:
 
-* **I find satisfaction in working on a whole solution.** I enjoy being involved with the design, the marketing, the customers, the support, and so on. I typically have a very limited scope of product influence in my consulting work.
-* **I value passive income over time-based consulting income.** Consulting income can be more lucrative in many ways, but I prefer the flexibility of passive income. In the past, I've been able to take time off or work on other projects while still getting paid, and it is incredibly addicting.
-* **I enjoy having flexibility in my work hours and activities.** My consulting life is already flexible hours-wise. Still, there is no getting around when I burn out on a particular activity, such as meetings or code review, it can be hard to avoid my billable commitments. When working on a product, there are many different activity types, and I could easily skip a few days of programming but still be productive toward the product by working on other things I enjoy, like UI design.
+- **I find satisfaction in working on a whole solution.** I enjoy being involved with the design, the marketing, the customers, the support, and so on. I typically have a very limited scope of product influence in my consulting work.
+- **I value passive income over time-based consulting income.** Consulting income can be more lucrative in many ways, but I prefer the flexibility of passive income. In the past, I've been able to take time off or work on other projects while still getting paid, and it is incredibly addicting.
+- **I enjoy having flexibility in my work hours and activities.** My consulting life is already flexible hours-wise. Still, there is no getting around when I burn out on a particular activity, such as meetings or code review, it can be hard to avoid my billable commitments. When working on a product, there are many different activity types, and I could easily skip a few days of programming but still be productive toward the product by working on other things I enjoy, like UI design.
 
 ## Recent Product Failures
 
-Since returning to self-employment in 2017, attempts have failed to recreate my previous [successful](/projects/profittrain/) [products](/projects/dex/). After spending six months of development, I failed with [OwlDeck], eventually realizing that the tech stack I would need to master (CoreText) was over my head. I then had a significant change of heart towards Apple platform development, starting a multi-year period of self-discovery and eventually finding a new home with Elixir. Guildflow began in 2019, but ultimately, I decided [it too would be shut down][shut down] last month, November 2021.   
+Since returning to self-employment in 2017, attempts have failed to recreate my previous [successful](/projects/profittrain/) [products](/projects/dex/). After spending six months of development, I failed with [OwlDeck], eventually realizing that the tech stack I would need to master (CoreText) was over my head. I then had a significant change of heart towards Apple platform development, starting a multi-year period of self-discovery and eventually finding a new home with Elixir. Guildflow began in 2019, but ultimately, I decided [it too would be shut down][shut down] last month, November 2021.
 
 [OwlDeck]: /projects/owldeck/
 [shut down]: /posts/2021/10/guildflow-shutdown/
@@ -51,7 +51,7 @@ With awareness of these recent failures, I am trying to be more mindful and inte
 
 **The product needs to solve a pain worth solving.** I don't need to change the world, but I should feel like I am solving worthwhile problems and not adding to the virtual noise I eagerly try to silence in my personal life.
 
-**Making sales should not require more than a few decision-makers.** Considering the solo nature (or small band) of development I have in mind, I can not afford complex sales cycles. 
+**Making sales should not require more than a few decision-makers.** Considering the solo nature (or small band) of development I have in mind, I can not afford complex sales cycles.
 
 **The project should not be mission-critical.** I am not equipped to offer mission-critical uptime guarantees, so I should filter out products that require it.
 
@@ -73,6 +73,6 @@ While I no longer do mobile development and have even filtered out any product i
 
 My attention to detail, particularly user experience, feels like a competitive edge. I do not consider myself a UI designer. Still, I could have a very collaborative and productive relationship with a UI designer, with the outcome being a well-executed app experience.
 
-***
+---
 
 My next task will be to brainstorm possible audiences and go [on safari](https://joelhooks.com/7-steps-of-30x500) for pains and discussion topics. Will do my best to blog some progress as I go. The journey continues.

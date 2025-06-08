@@ -8,17 +8,17 @@ Thought it was time for another personal update. The [last one](http://mikezorne
 
 First, me and my family are safe, healthy and relatively sane.
 
-My client project did end on April 1st and I am [officially looking for new projects](http://mikezornek.com/for-hire/). 
+My client project did end on April 1st and I am [officially looking for new projects](http://mikezornek.com/for-hire/).
 
-I try to be grateful for what I do have and acknowledge there are many people who have it much rougher than I do right now. I can comfortably live off my savings for a little while while many others were paycheck to paycheck and are now scrambling for basic supplies. 
+I try to be grateful for what I do have and acknowledge there are many people who have it much rougher than I do right now. I can comfortably live off my savings for a little while while many others were paycheck to paycheck and are now scrambling for basic supplies.
 
 It was as good as time as any to revisit my budget. I've [blogged about this](http://mikezornek.com/posts/2018/9/self-employment-estimate-numbers/) before but the basic idea is to break down personal and business expenses by monthly and yearly costs. Also started categorizing things into hard costs (rent, health insurance) which are difficult to cut and soft cost (Hulu, Netflix) which can be cut. Then I created a [burn down chart](https://en.wikipedia.org/wiki/Burn_down_chart) based on savings, expected invoice payments, and (hopefully) some expected government assistance.
 
 Normally as a gig worker I can not collect unemployment compensation but as part of the CARES act, these benefits have been expanded. The benefit is through the states, which for me is Pennsylvania, and the program is called Pandemic Unemployment Assistance. This program is not being ran through the normal state unemployment system and instead PA decided to stand up a new website. The website opened around April 17th (I believe?). Looking at my records I was able to file on April 19th and I recall there being massive technical issues on day one.
 
-In fact there are technical issues as recently as yesterday. Every time I log in, I have to pick a new password. The password rules are bogus by the way, no more that 18 characters and very specific about what is and is not a special character. 
+In fact there are technical issues as recently as yesterday. Every time I log in, I have to pick a new password. The password rules are bogus by the way, no more that 18 characters and very specific about what is and is not a special character.
 
-Worse though is the process. You need to fill out a ton of forms and upload a lot of tax and financial documents to verify your income so they can calculate your benefit, but there seems to be no trust. Best I can tell someone is going to have to manually go through these applications and check all the PDFs uploaded. 
+Worse though is the process. You need to fill out a ton of forms and upload a lot of tax and financial documents to verify your income so they can calculate your benefit, but there seems to be no trust. Best I can tell someone is going to have to manually go through these applications and check all the PDFs uploaded.
 
 In short, no money has been distributed. It's been 10 days since I filed and I have not heard anything. The online "certification" form that we are are suppose to fill out weekly is not there; it shows an alert prompt saying it will "be ready to accept claims in a few weeks." They may say benefits are retroactive but I know states have finite monies and with tax income going to shit and state expenses going through the roof, something is going to break down.
 
@@ -38,7 +38,7 @@ I'm also trying to make the most of things and enjoy some regular video chats wi
 
 Day to day, I try to take walks with my sister to get some fresh air and exercise. I'm still doing well with my diet overall, though there have been a few more cheat days than I'd like.
 
-For work, I've been putting productive time into [Clubhouse](/projects/guildflow/) while also helping host a few [office hours](http://mikezornek.com/posts/2020/4/open-office-hours/) to help others. 
+For work, I've been putting productive time into [Clubhouse](/projects/guildflow/) while also helping host a few [office hours](http://mikezornek.com/posts/2020/4/open-office-hours/) to help others.
 
 At night, I'm playing through Final Fantasy 7 Remake, Animal Crossing and MLB: The Show.
 

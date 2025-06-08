@@ -8,7 +8,7 @@ During a recent [Elixir Book Club](https://elixirbookclub.github.io/website/) me
 
 When providing an accessor function inside your domain context, do you prefer a return type of `{:ok, noun} || {:error, :not_found}` or `noun || nil` ?
 
-In my own historical work I've generally followed along with common Phoenix generator style of building out functions like `get_noun/1` that return the `noun` or `nil` but moving forward I think I'll be preferring `fetch_noun/1` functions that use an `:ok` / `:error` tuple style return type. 
+In my own historical work I've generally followed along with common Phoenix generator style of building out functions like `get_noun/1` that return the `noun` or `nil` but moving forward I think I'll be preferring `fetch_noun/1` functions that use an `:ok` / `:error` tuple style return type.
 
 The primary reason is expressiveness in the crash logs. Eventually there will be some crash and the stacktrace is going to show `nil` being passed into some function, and the function having an expectation of a real value type. In those moments it can take some time to understand where the hell `nil` is coming from. I think an error like `noun_not_found` will be more helpful.
 

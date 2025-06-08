@@ -6,7 +6,7 @@ description: When we say "parameters" we are usually talking about data coming i
 pain: confusion about seeing the two terms for roughly the same behavior
 fix: an explanation of the differences
 next action: next
-back of the book promise: promise 
+back of the book promise: promise
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._
@@ -27,7 +27,7 @@ defmodule HelloWeb.PostController do
 end
 ```
 
-And internal schema module functions like: 
+And internal schema module functions like:
 
 ```elixir
 defmodule Hello.Blog.Post do
@@ -41,14 +41,14 @@ end
 ```
 
 Observing function argument names like `post_params` (short for parameters) and `attr` (short for attributes) how do we reconcile those naming choices?
- 
+
 ## Parameters
 
 When we say "parameters" we are usually talking about data coming into the system from external actors, like a user POST-ing data from a web form or an API accepting a request. Parameters are generally considered unsafe. Since the contents are dynamic they will almost always be made from maps using string keys to avoid the known runtime capacity limitations of `:atom` keys.
 
 ## Attributes
 
-When we say "attributes" we are usually talking about internal Elixir structures. When a function accepts a simple map argument labeled `attr`, as seen in our example, I think we can lean on the [definition for attribute][2] which says, "a quality, character, or characteristic ascribed to someone or something". 
+When we say "attributes" we are usually talking about internal Elixir structures. When a function accepts a simple map argument labeled `attr`, as seen in our example, I think we can lean on the [definition for attribute][2] which says, "a quality, character, or characteristic ascribed to someone or something".
 
 [2]: https://www.merriam-webster.com/dictionary/attribute
 
@@ -62,6 +62,6 @@ defmodule ContactSupport do
 end
 ```
 
-***
+---
 
 Short post today, but hopefully some helpful context about some community naming norms.

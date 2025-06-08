@@ -28,6 +28,6 @@ On the flip side, baseball is just around the corner, and I can't wait. Pitchers
 
 Related, I'm pumped for MLB: The Show 2023. It was greate to see [The Negro Leagues feature](https://theshow.com/news/mlb-the-show-23-introduces-a-new-game-experience-storylines-the-negro-leagues-season-1/) too -- that was something I explicitly asked for last year.
 
-*** 
+---
 
 "Everything will be okay in the end. If it's not okay, it's not the end."

@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: Trello'
+title: "31 Days, 31 Products: Trello"
 date: 2015-12-16T02:38:44+00:00
 aliases: /2015/12/15/31-days-31-products-trello/
 categories:
   - Recommended
-
 ---
+
 ## Day 19: Trello
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -32,12 +32,12 @@ In more recent time I&#8217;ve seen the [CocoaLove][6] team use Trello. They tra
 
 For more info check out [this walkthrough video][7] or Trello&#8217;s own [Getting Started Guide][8]. Experimenting with Trello is extremely low risk. They have free accounts that let&#8217;s you really get to the know the product and then [price tiers][9] if you want to start some more sophisticated collaboration or integration. Trello is highly recommended.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://trello.com/
- [3]: http://mikezornek.com/media/images/31products/simple-physical-board-w-card-types-e87dbe30.png "Sample Kanban board"
- [4]: http://mikezornek.com/media/images/31products/trello1.png "Simple"
- [5]: http://mikezornek.com/media/images/31products/trello2.png "Advanced"
- [6]: http://cocoalove.org/
- [7]: https://www.youtube.com/watch?v=7najSDZcn-U
- [8]: https://trello.com/guide
- [9]: https://trello.com/pricing
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://trello.com/
+[3]: http://mikezornek.com/media/images/31products/simple-physical-board-w-card-types-e87dbe30.png "Sample Kanban board"
+[4]: http://mikezornek.com/media/images/31products/trello1.png "Simple"
+[5]: http://mikezornek.com/media/images/31products/trello2.png "Advanced"
+[6]: http://cocoalove.org/
+[7]: https://www.youtube.com/watch?v=7najSDZcn-U
+[8]: https://trello.com/guide
+[9]: https://trello.com/pricing

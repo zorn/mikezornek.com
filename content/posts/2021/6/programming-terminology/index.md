@@ -6,7 +6,7 @@ date: 2021-06-06T12:00:00-04:00
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._
 
-One of our primary day-to-day responsibilities as programmers is to communicate. We need to express our ideas, explain our work and document our code. Having a strong vocabulary and explicit intentions behind the words you (and your team) choose can greatly help avoid confusion. 
+One of our primary day-to-day responsibilities as programmers is to communicate. We need to express our ideas, explain our work and document our code. Having a strong vocabulary and explicit intentions behind the words you (and your team) choose can greatly help avoid confusion.
 
 Take some time as a team to talk about how you name and describe things. Embrace productive confrontation when you identify inconsistencies and work towards creating (and documenting!) as much as a ubiquitous language as you can.
 
@@ -16,7 +16,7 @@ The following is a collection of terms I try to be mindful of in my own work. Ho
 
 ### Entity vs Value
 
-An **entity** is a structure that has identity. An `Account` in my application has a unique identifier and is thus is considered an entity. 
+An **entity** is a structure that has identity. An `Account` in my application has a unique identifier and is thus is considered an entity.
 
 A **value** is a structure without identity. A `Color` in my application might be made up of three scalars like red, green and blue. Collectively they make up the `Color` value but there is no identity.
 
@@ -48,7 +48,7 @@ In addition to the working on the names of the modules functions themselves, you
 
 There are a few notable Elixir patterns to be mindful of with the terms `get` vs `fetch`.
 
-First let's check out [Map.get/3](https://hexdocs.pm/elixir/Map.html#get/3) which will return a value for the given key or a default value if the key is not found. 
+First let's check out [Map.get/3](https://hexdocs.pm/elixir/Map.html#get/3) which will return a value for the given key or a default value if the key is not found.
 
 ```elixir
 iex> Map.get(%{}, :a)
@@ -79,10 +79,10 @@ iex> Map.fetch!(%{a: 1}, :a)
 
 The takeaways from these language patterns I take note of are the following:
 
-* `get_noun` should return the value or a default if not found.
-* `fetch_noun` should return a `:ok` tuple or an `:error` tuple.
-* Any function with a bang (exclamation point) will throw an exception, and that exception should be documented inside the inline documentation.
-* In general I try to avoid creating bang style functions as I feel like Elixir exceptions should be exceptional. You may notice that the there are Phoenix code generators out there that will create a `get!` style functions in generated contexts. That is pattern I am aware of but question in newer code.
+- `get_noun` should return the value or a default if not found.
+- `fetch_noun` should return a `:ok` tuple or an `:error` tuple.
+- Any function with a bang (exclamation point) will throw an exception, and that exception should be documented inside the inline documentation.
+- In general I try to avoid creating bang style functions as I feel like Elixir exceptions should be exceptional. You may notice that the there are Phoenix code generators out there that will create a `get!` style functions in generated contexts. That is pattern I am aware of but question in newer code.
 
 ### List vs Array
 
@@ -90,11 +90,11 @@ I do my best to be mindful of and embrace the terminology of the language I am w
 
 For a junior programmer this might seem like symantec nonsense but I think its an important distinction. Related, I honor the styles of the host language, for example using camel case for variables in JavaScript and underscores in Elixir. With luck a linter of some kind can help remind me if I loose my place.
 
-### Behavior vs Feature 
+### Behavior vs Feature
 
 When talking about what my code does I use the term behavior. I describe the behaviors I want to build and I document the behaviors I observe.
 
-The term feature is more a product or marketing term, usually describing a collection of end user observable behaviors. 
+The term feature is more a product or marketing term, usually describing a collection of end user observable behaviors.
 
 ## App and Business Domain Consistency
 
@@ -104,7 +104,7 @@ While I have some personal preferences to share below, ultimately every app will
 
 ### Authentication vs Authorization
 
-Many people simply talk about "auth" systems without being explicit but it's important to distinguish between authentication, figuring out who you are talking to, and authorization, figuring out if someone should be allowed to do something. 
+Many people simply talk about "auth" systems without being explicit but it's important to distinguish between authentication, figuring out who you are talking to, and authorization, figuring out if someone should be allowed to do something.
 
 ### Sign in vs Log in
 
@@ -128,13 +128,13 @@ Believing this, I try to avoid saying something is "bad code" or has a "code sme
 
 If you are doing a code review, instead of saying something has a "code smell", kickstart a discussion around getting more context around the decisions and constrains that led to this code's design. Ask if they considered an alternative or are aware of your concerns. These pull requests are opportunities for education and starting the process with judgement language is not going to result in many positive outcomes.
 
-* * *
+---
 
 You might also enjoy:
 
-* [Video: Building Beautiful Systems With Phoenix Contexts and Domain-Driven Design](https://www.youtube.com/watch?v=5MBGDM8xSQg)
-* [Domain-Driven Design Glossary](https://devonburriss.me/ddd-glossary/)
+- [Video: Building Beautiful Systems With Phoenix Contexts and Domain-Driven Design](https://www.youtube.com/watch?v=5MBGDM8xSQg)
+- [Domain-Driven Design Glossary](https://devonburriss.me/ddd-glossary/)
 
-* * *
+---
 
 What did I miss? What terminology are you protective of in your own code? Let me know: <mike@mikezornek.com>.

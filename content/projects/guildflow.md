@@ -17,8 +17,8 @@ Guildflow empowers meetup organizers to create a modern group website that respe
 
 Using Guildflow groups:
 
-* have more control of their data enabling true data portability
-* run a website using their own domain
-* can offer more fine grained privacy options for its members
+- have more control of their data enabling true data portability
+- run a website using their own domain
+- can offer more fine grained privacy options for its members
 
 **Related Tech:** Elixir, Phoenix, Ecto, GraphQL, iOS, Android, HTML5, CSS, Multi-tenant Databases.

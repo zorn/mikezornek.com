@@ -3,7 +3,6 @@ title: Now
 sectionHighlight: Now
 layout: onepage
 description: I like to think of a Now page as the things I'd share if you were an old friend and we saw each other and were asking, what's going on? What are you working on? What are you excited about?
-
 ---
 
 Updated: May 12, 2025
@@ -36,9 +35,9 @@ Easter candy leftovers.
 
 I'm interested in the possibility of building some side-project software for the audience of digital product builders. Specifically, I'm thinking about customer success tooling. Right now, I'm spending a little time looking at various tools and watering holes to understand the landscape better.
 
-This pivot from some notebook / journaling / [local-first](/posts/2025/2/what-is-local-first-software/) interests is primarily driven by money. I saw that project as more of an education / personal-itch to scratch and in the moment I a bit more paranoid about money so would like to prefer business-to-business app ideas where revenue (while still a long shot) feels more approachable.  
+This pivot from some notebook / journaling / [local-first](/posts/2025/2/what-is-local-first-software/) interests is primarily driven by money. I saw that project as more of an education / personal-itch to scratch and in the moment I a bit more paranoid about money so would like to prefer business-to-business app ideas where revenue (while still a long shot) feels more approachable.
 
-Blog upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content. 
+Blog upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content.
 
 Otherwise, my main side projects right now are learning projects:
 
@@ -48,24 +47,24 @@ Otherwise, my main side projects right now are learning projects:
 
 ## Currently Playing
 
-* MLB: The Show 2025 -- Been keeping up with live content and enjoying it. Avoiding the pay-to-win packs and consuming the normal content.
-* Played a small amount of [Lunar Silver Star Story](https://www.lunarremastered.com/) on my Steam Deck.
-* Very much thinking about a new Stardew Valley farm.
+- MLB: The Show 2025 -- Been keeping up with live content and enjoying it. Avoiding the pay-to-win packs and consuming the normal content.
+- Played a small amount of [Lunar Silver Star Story](https://www.lunarremastered.com/) on my Steam Deck.
+- Very much thinking about a new Stardew Valley farm.
 
 ## Currently Reading
 
-* [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
-* [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
-* [Essential TypeScript 5](https://www.manning.com/books/essential-typescript-5-third-edition) (looking to use TypeScript with my potential Svelte work)
-* [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
-* [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (currently stalled, but might pick it up with new time on my hands)
+- [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
+- [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
+- [Essential TypeScript 5](https://www.manning.com/books/essential-typescript-5-third-edition) (looking to use TypeScript with my potential Svelte work)
+- [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
+- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (currently stalled, but might pick it up with new time on my hands)
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-* Phillies baseball
-* Seinfeld (season 4)
+- Phillies baseball
+- Seinfeld (season 4)
 
 ## Upcoming Events
 

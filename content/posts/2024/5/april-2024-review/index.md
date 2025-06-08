@@ -56,8 +56,8 @@ I had jury duty this month and ended up in a three-day trial. Everyone jokes abo
 
 ## What's Next?
 
-More morning walks. More focused use of my free time towards some well defined personal projects that came out of quarterly planning. 
+More morning walks. More focused use of my free time towards some well defined personal projects that came out of quarterly planning.
 
-***
+---
 
 Hopefully, these notes are interesting to you (or me in the future). If you have any questions or feedback, [let me know](/contact).

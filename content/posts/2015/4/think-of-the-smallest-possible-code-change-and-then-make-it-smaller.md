@@ -5,23 +5,21 @@ aliases: /2015/04/15/think-of-the-smallest-possible-code-change-and-then-make-it
 categories:
   - Coding
   - Tips
-
 ---
+
 I&#8217;m working on a client project right now. We do peer review of the code via pull requests. It works great, but the quality of the reviews you get are very dependent on the size of the pull request you make.
 
 Take for example, one of my recent pull requests, which had the following git characteristics:
 
-    1,780 additions 
+    1,780 additions
     1,618 subtractions
     24 files changed
-    
 
 Not my largest pull request ever but still way larger than what I&#8217;d prefer. I got zero feedback. It was merged on first pass. Now take one I did the next day:
 
     80 additions
     1 subtraction
     7 files changed
-    
 
 We had 10 conversation posts on this pull request, discussing three distinct recommendations and/or questions. Questions on things I was already doing for a few pull requests already but I guess slipped by.
 

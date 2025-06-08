@@ -8,8 +8,8 @@ categories:
   - iOS
   - Tips
   - Xcode
-
 ---
+
 It&#8217;s time to turn off that family photo screensaver and switch to something that&#8217;s important, CI status screens!
 
 ![Bots Big Screen][1]
@@ -30,5 +30,5 @@ For Jenkins I&#8217;m currently using the [Build Monitor Plugin][2] which is pre
 
 Here&#8217;s to hoping all your returns from coffee breaks are bathed in green and passing tests.
 
- [1]: http://mikezornek.com/media/images/bots-big-screen.png "Bots Big Screen"
- [2]: https://wiki.jenkins-ci.org/display/JENKINS/Build+Monitor+Plugin
+[1]: http://mikezornek.com/media/images/bots-big-screen.png "Bots Big Screen"
+[2]: https://wiki.jenkins-ci.org/display/JENKINS/Build+Monitor+Plugin

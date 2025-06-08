@@ -3,7 +3,7 @@ title: "Thoughts on Mac Pros at WWDC"
 date: 2019-05-07T15:48:04-04:00
 ---
 
-Today I reread [the transcript](https://techcrunch.com/2017/04/06/transcript-phil-schiller-craig-federighi-and-john-ternus-on-the-state-of-apples-pro-macs/) of that closed door Mac roundtable event of 2017 where we were promised new Mac Pros. 
+Today I reread [the transcript](https://techcrunch.com/2017/04/06/transcript-phil-schiller-craig-federighi-and-john-ternus-on-the-state-of-apples-pro-macs/) of that closed door Mac roundtable event of 2017 where we were promised new Mac Pros.
 
 As I read it one of the things that frustrated me most is how Apple acknowledged and was almost proud of how "pros" have moved on to the portable line and even the iMacs without once considering that this purchasing behavior might be influenced by their own neglect of the Mac Pro line.
 
@@ -13,7 +13,7 @@ Later...
 
 > Phil Schiller: As part of doing a new Mac Pro — it is, by definition, a modular system — we will be doing a pro display as well. Now you won’t see any of those products this year; we’re in the process of that. We think it’s really important to create something great for our pro customers who want a Mac Pro modular system, and that’ll take longer than this year to do.
 
-That quote was in 2017 and oh how I remember us in the community jumping to conclusions that he must mean we'll see new Mac Pros in 2018 -- but alas they never materialized. 
+That quote was in 2017 and oh how I remember us in the community jumping to conclusions that he must mean we'll see new Mac Pros in 2018 -- but alas they never materialized.
 
 For a meeting who's goal was to clear things up, they sure did leave us speculating.
 

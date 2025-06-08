@@ -34,13 +34,13 @@ If there are other setup needs those should be documented here as well. The basi
 
 ### Development and Contribution
 
-Dedicated to the current and future developers of the project, this section should help someone who wants to contribute or test a development version of the project how to get their environment prepped and how to build the code base. 
+Dedicated to the current and future developers of the project, this section should help someone who wants to contribute or test a development version of the project how to get their environment prepped and how to build the code base.
 
-If there are processes for contributing bug reports, pull requests or documentation updates those should be documented here as well. 
+If there are processes for contributing bug reports, pull requests or documentation updates those should be documented here as well.
 
 If you have specific code style guidelines, those should also be linked to.
 
-Try not to make too many assumptions (we were all green devs at some point) and be as detailed as possible. 
+Try not to make too many assumptions (we were all green devs at some point) and be as detailed as possible.
 
 ### Deployment
 
@@ -52,7 +52,7 @@ If you have an active TestFlight beta page, link to it here.
 
 While many will encounter your README on places like GitHub, project repos can be moved around, archived, and so on. For that and general convenience, it’s a great idea to have a raw list of project links. From a project’s home page to it’s repository URL to other things like issue trackers, support forums and related blog posts.
 
-If you want to be really helpful link to your competition and other related projects too. 
+If you want to be really helpful link to your competition and other related projects too.
 
 ## Licensing
 

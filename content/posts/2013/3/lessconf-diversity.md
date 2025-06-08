@@ -5,8 +5,8 @@ aliases: /2013/03/14/lessconf-diversity/
 categories:
   - Conferences
   - Gripes
-
 ---
+
 I read [the following LessEverything blog post][1] and tweeted:
 
 > Maybe the irony is lost on me but this reads like pretentious bullshit.
@@ -54,9 +54,9 @@ More to the point, using a phrase like &#8220;not white heterosexual men&#8221; 
 And appreciated gratuitous use of the word &#8220;and&#8221;.
 
 > I don&#8217;t care who you are or where you fit in, I would like you to fit in at LessConf. Here&#8217;s a coupon for $100 off the price of the ticket. LessConfLovesMeTheWayIAm
-> 
+>
 > Please do come and feel safe to be and express who you are.
-> 
+>
 > This is from LessConf 2012: ([A photo][2] of what I assume is a group of white heterosexual men hugging.)
 
 If adding diversity to your conference was a real goal you wouldn&#8217;t announce it mere weeks before it opened. The whole thing smells like you haven&#8217;t sold out and are trying to use the &#8220;diversity&#8221; angle to sell more tickets, and very poorly at that.
@@ -67,5 +67,5 @@ Here&#8217;s an idea if you really want a diverse conference get people of diver
 
 Maybe Steven and company do want a diverse conference but I have to say making moves this late in the game with the above post is a pretty poor attempt.
 
- [1]: http://lesseverything.com/blog/archives/2013/03/11/you-are-welcome-at-lessconf-please-come/
- [2]: http://lesseverything.com/assets/513df1fd8ad7ca1b05000106/7.jpg
+[1]: http://lesseverything.com/blog/archives/2013/03/11/you-are-welcome-at-lessconf-please-come/
+[2]: http://lesseverything.com/assets/513df1fd8ad7ca1b05000106/7.jpg

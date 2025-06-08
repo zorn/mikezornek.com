@@ -29,15 +29,15 @@ Sometimes this nested list is broken across separate lines and presented like:
 
 ```elixir
 alias RetroTaxi.Boards.{
-    Board, 
-    Column, 
+    Board,
+    Column,
     TopicCard
 }
 ```
 
 ## Style Recommendation
 
-I highly recommend avoiding this nested presentation. The primary reason is to help keep the codebase plain-text searchable. By avoiding the nesting, you can quickly find which modules are referencing any module simply by searching for its name string like `RetroTaxi.Boards.Column`. Finding nested aliases would require a more complex regular expression or language server tooling. 
+I highly recommend avoiding this nested presentation. The primary reason is to help keep the codebase plain-text searchable. By avoiding the nesting, you can quickly find which modules are referencing any module simply by searching for its name string like `RetroTaxi.Boards.Column`. Finding nested aliases would require a more complex regular expression or language server tooling.
 
 If you want to enforce this style with a credo, check out [Credo.Check.Readability.MultiAlias] which is usually disabled on a default credo install.
 

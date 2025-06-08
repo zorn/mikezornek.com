@@ -4,7 +4,7 @@ date: 2022-06-03T09:44:00-04:00
 description: I keep a running list of project ideas in my notebook, and here is the shortlist I considered for the summer.
 ---
 
-During my time off this summer, I am looking for a project to sink my teeth into. Something to give me a bit of purpose and space to explore some technical tooling I am curious about. 
+During my time off this summer, I am looking for a project to sink my teeth into. Something to give me a bit of purpose and space to explore some technical tooling I am curious about.
 
 In the future, I hope to find a project to help serve my financial needs, but this specific summer side project is more about personal exploration without any profitability interests.
 
@@ -41,42 +41,42 @@ A few months ago, I increased my Notion use from a curious experiment to a prefe
 
 I'm not doing Notion Plugins because I'm still learning how to use Notion and how I **want** to use Notion. I think there are some opportunities to build "blocks" to help host live data sections on Notion pages. I envision a product dashboard that combines outwardly owned data (like sales and analytics) and pairs those views alongside project plans or daily standups.
 
-## Personal Blog Rewrite 
+## Personal Blog Rewrite
 
-Spoilers: This is what I am doing. 
+Spoilers: This is what I am doing.
 
 The first commit to this [repo] / blog system was in December of 2018. The site as it lives today is a static site generated with Hugo and hosted on a simple Linode webserver. It works well enough, but my wants/needs are changing.
 
 [repo]: https://github.com/zorn/mikezornek.com
 
-The first opportunity for improvement is to solve a bit of dysfunction in how I publish web content. 
+The first opportunity for improvement is to solve a bit of dysfunction in how I publish web content.
 
-Most of my tweet-like content gets posted to Micro.blog and then cross-posted to Twitter and Mastodon. Sometimes I post directly to Twitter because I want to embed a video, and frankly, the cross-posting from Micro.blog does not match how I expect that to work. 
+Most of my tweet-like content gets posted to Micro.blog and then cross-posted to Twitter and Mastodon. Sometimes I post directly to Twitter because I want to embed a video, and frankly, the cross-posting from Micro.blog does not match how I expect that to work.
 
 For longer content, I'll compose a post for this blog, which involves:
 
-* Using `hugo new` to create the file.
-* Editing the content (usually first in VS Code and then in Grammarly).
-* Committing the new files.
-* Pushing it to GitHub.
-* Waiting for it to publish (which is usually pretty fast).
-* Manually build a Micro.blog post to share the link (that will be cross-posted).
+- Using `hugo new` to create the file.
+- Editing the content (usually first in VS Code and then in Grammarly).
+- Committing the new files.
+- Pushing it to GitHub.
+- Waiting for it to publish (which is usually pretty fast).
+- Manually build a Micro.blog post to share the link (that will be cross-posted).
 
 The whole process is cumbersome.
 
-I want my website to become the true home to all my published content with this project. I am still interested in having content on social media, but I want my short-form content and long-form content to be intertwined into a single stream that is hosted on my domain. I want a single place on the web where I can compose a message, attach some media, and hit publish. Everything is on my site, but social media shares are generated automatically, in a format I find acceptable. 
+I want my website to become the true home to all my published content with this project. I am still interested in having content on social media, but I want my short-form content and long-form content to be intertwined into a single stream that is hosted on my domain. I want a single place on the web where I can compose a message, attach some media, and hit publish. Everything is on my site, but social media shares are generated automatically, in a format I find acceptable.
 
 In many ways, this is the promise of Micro.blog, but I never really embraced it. I always had my website separate and used Micro.blog purely for tweet-like content. If this were just about the user experience, I might more strongly consider using Micro.blog, but as I said in the beginning, this is more about a technical exploration, so I'll build it out myself.
 
 **Technical Plans**
 
-* The core will use a CQRS / event-source style code architecture. Total overkill for the needs of a blog, but as this is a learning opportunity, I want to give it a try.
-* I'll use Tailwind and a rich collection of Phoenix components to structure the UI. There won't be much interactivity on the user side, but the admin area will have some places for me to play. I'm very interested in the developer tooling around component design and management, so I'm hoping something interesting will come out of my time here.
-* While the cross-posting will be an internal module at first, I think it is possible to share it more broadly if it is successful. To speak to specific behaviors, I thought the Micro.blog cross-posting feature lacked good observability into what is in progress and managing the format and exception handling (when the share content breaks the platform validation rules).
+- The core will use a CQRS / event-source style code architecture. Total overkill for the needs of a blog, but as this is a learning opportunity, I want to give it a try.
+- I'll use Tailwind and a rich collection of Phoenix components to structure the UI. There won't be much interactivity on the user side, but the admin area will have some places for me to play. I'm very interested in the developer tooling around component design and management, so I'm hoping something interesting will come out of my time here.
+- While the cross-posting will be an internal module at first, I think it is possible to share it more broadly if it is successful. To speak to specific behaviors, I thought the Micro.blog cross-posting feature lacked good observability into what is in progress and managing the format and exception handling (when the share content breaks the platform validation rules).
 
 **Challenges and Risks**
 
-* Importing the old blog content will be a chore but something worth doing. Specifically, I'd like to have better accessibility constraints around media and will likely have to patch older posts with better captions and metadata.
-* Not using an out-of-the-box blog system will put notable stress on me to maintain the code and deployment. It will likely be more complex and costly than it was hosting a static website.
+- Importing the old blog content will be a chore but something worth doing. Specifically, I'd like to have better accessibility constraints around media and will likely have to patch older posts with better captions and metadata.
+- Not using an out-of-the-box blog system will put notable stress on me to maintain the code and deployment. It will likely be more complex and costly than it was hosting a static website.
 
 I'll do my best to share as I go. If you have any questions, let me know.

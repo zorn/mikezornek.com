@@ -28,13 +28,13 @@ For those who do decide to be on video or microphone, make sure there is **room 
 
 ## Create spaces for more happenstance connections.
 
-Sometimes people benefit from a little nudge towards social interactions. When building out your group try to build spaces and opportunities for more chance encounters. 
+Sometimes people benefit from a little nudge towards social interactions. When building out your group try to build spaces and opportunities for more chance encounters.
 
 If you are on Slack, consider the [donut meeting integration](https://phillyelixir.slack.com/apps/A11MJ51SR-donut) addon. "Donut introduces people who don't know each other well on teams of all sizes via direct messages, and encourages them to meet in person or virtually for a variety of programs."
 
 ## Successful onboarding takes time but is worth the effort.
 
-Your first step will be to draft an onboarding plan and share it with your group. Once everyone agrees, build out and automate your plan. Be sure to share these responsibilities with the other members and the leadership. The process will benefit greatly by being executed through a diverse collection of the membership. 
+Your first step will be to draft an onboarding plan and share it with your group. Once everyone agrees, build out and automate your plan. Be sure to share these responsibilities with the other members and the leadership. The process will benefit greatly by being executed through a diverse collection of the membership.
 
 If done well, proper onboarding will help new members feel connected faster and be more successful within your group.
 

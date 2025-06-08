@@ -1,11 +1,11 @@
 ---
-title: '31 Days, 31 Products: ScreenFlow'
+title: "31 Days, 31 Products: ScreenFlow"
 date: 2015-11-28T22:48:48+00:00
 aliases: /2015/11/28/31-days-31-products-screenflow/
 categories:
   - Recommended
-
 ---
+
 ## Day 05: ScreenFlow
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -18,8 +18,8 @@ So even though modern OS X has limited support in QuickTime for capturing the sc
 
 ScreenFlow has a [free trial download][4] available on it&#8217;s website and when your ready to buy a license it will cost you $99 from [Telestream&#8217;s store][5] or the Mac App Store.
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: http://www.telestream.net/screenflow/
- [3]: https://vimeo.com/phillycocoa
- [4]: http://www.telestream.net/controls/screenflow/download-screenflow.htm
- [5]: http://www.telestream.net/purchase/store.htm
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: http://www.telestream.net/screenflow/
+[3]: https://vimeo.com/phillycocoa
+[4]: http://www.telestream.net/controls/screenflow/download-screenflow.htm
+[5]: http://www.telestream.net/purchase/store.htm

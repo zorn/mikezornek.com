@@ -5,8 +5,8 @@ aliases: /2016/06/19/my-new-pc-gaming-computer/
 categories:
   - Gaming
   - Personal Projects
-
 ---
+
 Final Parts List: <http://pcpartpicker.com/list/4Wjcf8>
 
 I&#8217;m a fairly serious/casual gamer (as in serious love of many games, casual in that I can only play so many hours a week because of other life responsibilities). I play a lot of 3DS (Pokemon, Zelda) and I also own a Wii U, a PS4 and lots of other older/retro consoles.
@@ -53,26 +53,26 @@ My gaming PC is not near my cable modem so I need wireless connectivity and surp
 
 I&#8217;m sure I&#8217;ll buy some more in time (and would greatly love your recommendations, [email me][10]) but for now the primary PC games for me are:
 
-  * Final Fantasy 14
-  * Overwatch
-  * Civilization V
-  * World of Warcraft (idle until Legion)
-  * Stardew Valley (New, not played yet)
-  * Rocket League (New, not played yet)
-  * Undertale (New, not played yet)
-  * Hearthstone (I play this on my iMac and iPad as well but there are some nice Windows-only analytics add ons I might try.)
+- Final Fantasy 14
+- Overwatch
+- Civilization V
+- World of Warcraft (idle until Legion)
+- Stardew Valley (New, not played yet)
+- Rocket League (New, not played yet)
+- Undertale (New, not played yet)
+- Hearthstone (I play this on my iMac and iPad as well but there are some nice Windows-only analytics add ons I might try.)
 
 ## Final Thoughts
 
 I have mixed feeling about the time I spent doing the build. It does feel empowering to refresh my memory of how to do it all &#8212; but that said it&#8217;s not something I get a ton of enjoyment out of so let&#8217;s hope this box keeps ticking without too much maintenance in the years ahead. And while I do carry a little guilt about going for the super high end video card I also look forward to for the next few years being able to turn on ULTRA options without losing frames.
 
- [1]: http://mikezornek.com/media/images/gaming-pc/gtx1080.jpg "GTX 1080"
- [2]: http://www.nowinstock.net/computers/videocards/nvidia/gtx1080/
- [3]: http://pcpartpicker.com/list/4Wjcf8
- [4]: http://mikezornek.com/media/images/gaming-pc/workbench.jpg "Workbench"
- [5]: http://mikezornek.com/media/images/gaming-pc/motherboard.jpg "Motherboard"
- [6]: http://mikezornek.com/media/images/gaming-pc/motherboard-mounted.jpg "Motherboard Mounted"
- [7]: http://mikezornek.com/media/images/gaming-pc/all-done.jpg "All Done"
- [8]: http://mikezornek.com/media/images/gaming-pc/windows.jpg "Windows"
- [9]: http://www.howtogeek.com/224352/what%E2%80%99s-the-difference-between-windows-10%E2%80%99s-express-or-custom-setup/
- [10]: mailto:mike@mikezornek.com
+[1]: http://mikezornek.com/media/images/gaming-pc/gtx1080.jpg "GTX 1080"
+[2]: http://www.nowinstock.net/computers/videocards/nvidia/gtx1080/
+[3]: http://pcpartpicker.com/list/4Wjcf8
+[4]: http://mikezornek.com/media/images/gaming-pc/workbench.jpg "Workbench"
+[5]: http://mikezornek.com/media/images/gaming-pc/motherboard.jpg "Motherboard"
+[6]: http://mikezornek.com/media/images/gaming-pc/motherboard-mounted.jpg "Motherboard Mounted"
+[7]: http://mikezornek.com/media/images/gaming-pc/all-done.jpg "All Done"
+[8]: http://mikezornek.com/media/images/gaming-pc/windows.jpg "Windows"
+[9]: http://www.howtogeek.com/224352/what%E2%80%99s-the-difference-between-windows-10%E2%80%99s-express-or-custom-setup/
+[10]: mailto:mike@mikezornek.com

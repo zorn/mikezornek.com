@@ -5,8 +5,8 @@ aliases: /2016/10/16/a-few-dental-stories-amongst-subscribers/
 categories:
   - Life Notes
   - Recommended
-
 ---
+
 One of my guilty (and time consuming) pleasures is YouTube.
 
 I watch a lot of YouTube. Mostly [video game][1] and [movie][2] stuff, lots of [WoW channels][3] (even though I&#8217;m not playing much right now), a few [Let&#8217;s Players][4] and of course all of the upcoming [Pokemon Sun and Moon hype][5].
@@ -33,10 +33,10 @@ Why post this? For one, I&#8217;d like to share the story with Asmongold just to
 
 For anyone else who might be in a similar situation, I&#8217;ll say this, do try to get your teeth cleaned and/or fixed as soon as possible. It really sucks that it&#8217;s so expensive but it&#8217;s something that time will only make worse. I do wish I had reached out to my family about the problem and been more proactive about it in the past. I&#8217;m sure I would have gotten some support from them to make it happen sooner. If you have people to lean on, don&#8217;t be stubborn like me, let them help you. Good luck and feel better soon.
 
- [1]: https://www.youtube.com/channel/UCfAPTv1LgeEWevG8X_6PUOQ
- [2]: https://www.youtube.com/channel/UCrTNhL_yO3tPTdQ5XgmmWjA
- [3]: https://www.youtube.com/channel/UC_zmPqauxanOAGszXfdipEA
- [4]: https://www.youtube.com/channel/UCKrFXqpQj3gM98LF22Yq8Kg
- [5]: https://www.youtube.com/channel/UCKOnM_lSgM8vlw9MTM2J7Hw
- [6]: https://www.youtube.com/watch?v=KlkzcqY10HE
- [7]: http://mikezornek.com/2015/01/19/my-new-job-with-the-big-nerd-ranch/
+[1]: https://www.youtube.com/channel/UCfAPTv1LgeEWevG8X_6PUOQ
+[2]: https://www.youtube.com/channel/UCrTNhL_yO3tPTdQ5XgmmWjA
+[3]: https://www.youtube.com/channel/UC_zmPqauxanOAGszXfdipEA
+[4]: https://www.youtube.com/channel/UCKrFXqpQj3gM98LF22Yq8Kg
+[5]: https://www.youtube.com/channel/UCKOnM_lSgM8vlw9MTM2J7Hw
+[6]: https://www.youtube.com/watch?v=KlkzcqY10HE
+[7]: http://mikezornek.com/2015/01/19/my-new-job-with-the-big-nerd-ranch/

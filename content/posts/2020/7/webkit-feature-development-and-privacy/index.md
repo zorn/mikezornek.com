@@ -7,24 +7,24 @@ description: Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use 
 This didn't get much press at the time, but during WWDC the WebKit team listed [a bunch of web technologies they will apparently not be implementing](https://webkit.org/tracking-prevention/) in the name of privacy.
 
 > Fingerprinting involves measuring the uniqueness of static device configuration (e.g. built-in hardware), dynamic device or browser configuration (e.g. user settings or installed peripherals), and user browsing data (e.g. checking which sites the user is logged in to, so-called login fingerprinting).
-> 
+>
 > WebKit’s first line of defense against fingerprinting is to not implement web features which increase fingerprintability and offer no safe way to protect the user. Here are some examples of features we have decided to not implement in part due to fingerprinting concerns:
-> 
-> * Web Bluetooth
-> * Web MIDI API
-> * Magnetometer API
-> * Web NFC API
-> * Device Memory API
-> * Network Information API
-> * Battery Status API
-> * Ambient Light Sensor
-> * HDCP Policy Check extension for EME
-> * Proximity Sensor
-> * WebHID
-> * Serial API
-> * Web USB
-> * Geolocation Sensor (background geolocation)
-> * User Idle Detection
+>
+> - Web Bluetooth
+> - Web MIDI API
+> - Magnetometer API
+> - Web NFC API
+> - Device Memory API
+> - Network Information API
+> - Battery Status API
+> - Ambient Light Sensor
+> - HDCP Policy Check extension for EME
+> - Proximity Sensor
+> - WebHID
+> - Serial API
+> - Web USB
+> - Geolocation Sensor (background geolocation)
+> - User Idle Detection
 
 Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use Firefox. I block ads. I encrypt my DNS lookups. I'm building [a privacy-focused tool for meetups.](/projects/guildflow/) And with all that said, this worries me.
 

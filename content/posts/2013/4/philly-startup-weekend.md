@@ -6,8 +6,8 @@ categories:
   - Conferences
   - Entrepreneurship
   - Recommended
-
 ---
+
 This weekend I got to take part in [Philly Startup Weekend][1]!
 
 ![My Startup Weekend Badge][2]
@@ -44,12 +44,12 @@ I helped out with [MentorShake][7], a website that aims to help connect mentors 
 
 I&#8217;d like to again thank the organizers of the Philly Startup Weekend. It was a great time and I appreciate their hard work. If you are at all interested in this kind of thing I recommend you be on the lookout for a [Startup Weekend][9] in your area.
 
- [1]: http://philly.startupweekend.org/
- [2]: http://mikezornek.com/media/images/startup_weekend_badge.png "My Startup Weekend Badge"
- [3]: http://startupweekend.org/
- [4]: http://techcrunch.com/2011/02/01/launchrock-rocks-launches/
- [5]: https://twitter.com/zorn/status/327967234859335680
- [6]: http://www.workbridgeassociates.com/locations/philadelphia
- [7]: http://mentorshake.com/
- [8]: http://mentorshake.herokuapp.com/
- [9]: http://startupweekend.org/events/
+[1]: http://philly.startupweekend.org/
+[2]: http://mikezornek.com/media/images/startup_weekend_badge.png "My Startup Weekend Badge"
+[3]: http://startupweekend.org/
+[4]: http://techcrunch.com/2011/02/01/launchrock-rocks-launches/
+[5]: https://twitter.com/zorn/status/327967234859335680
+[6]: http://www.workbridgeassociates.com/locations/philadelphia
+[7]: http://mentorshake.com/
+[8]: http://mentorshake.herokuapp.com/
+[9]: http://startupweekend.org/events/

@@ -8,7 +8,7 @@ Sunday, January 22, 2023 -- First journal of the new year. Sorry, it took so lon
 
 ## Work
 
-Things are good. I recently picked up a new contract gig, helping to mature the GraphQL API for [REDACTED]. 
+Things are good. I recently picked up a new contract gig, helping to mature the GraphQL API for [REDACTED].
 
 ... it feels like a really good fit. I'm anxious to get more production time with GraphQL and [Absinthe]. This project also uses the [Relay] pattern, so I'm working on getting more comfortable with that too.
 
@@ -29,13 +29,13 @@ I need to spend some energy reaching out to the other members and try to spark m
 
 ## Franklin
 
-Via ElixirClub coworking sessions, I've made some small progress on Franklin. I've even started to get a bit of a mental nudge to push forward towards an actual release since there are aspects of my current blog deployment that are starting to show some concern. 
+Via ElixirClub coworking sessions, I've made some small progress on Franklin. I've even started to get a bit of a mental nudge to push forward towards an actual release since there are aspects of my current blog deployment that are starting to show some concern.
 
 > I mainly speak of the recent [CircleCI security breach](https://circleci.com/blog/jan-4-2023-incident-report/) and the fact that resolving the needed secret rotations was more complex than I would have liked.
 
 ## DockYard Academy
 
-When I was under-employed over the fall, I used my free time as a teacher assistant for the 12-week Elixir boot camp known as [DockYard Academy](https://academy.dockyard.com/). Looking ahead through February and March, I'm much less likely to be able to pop in as much. With that change, it was a coincidence that this past Friday represented the completion of their first beta cohort, with the students presenting all their projects. I got to see all the students show what they have learned through the completion of each's capstone project. It was amazing to see how far they had all come. 
+When I was under-employed over the fall, I used my free time as a teacher assistant for the 12-week Elixir boot camp known as [DockYard Academy](https://academy.dockyard.com/). Looking ahead through February and March, I'm much less likely to be able to pop in as much. With that change, it was a coincidence that this past Friday represented the completion of their first beta cohort, with the students presenting all their projects. I got to see all the students show what they have learned through the completion of each's capstone project. It was amazing to see how far they had all come.
 
 I'll still be on their Discord server and may jump in with an answer or two in chat, but I will likely be on my client project during their standard class times in the future.
 
@@ -55,6 +55,6 @@ The Philadelphia Eagles are doing incredibly well and won their playoff game las
 
 My morning walks have been much less frequent over the past month. Part of that is just the winter. When I have done my walks, I've been doing them on the indoor track at the YMCA. It is comfier, though the extra drive time adds up. Ideally, I'll keep my eye out for the temperature to nudge up and start bundling up and walking closer to my house to save some time and let me finish the morning walks a bit earlier in the morning hours and, thus, better align with the start of my client workday.
 
-***
+---
 
 Overall, things are busy but good. Now that the overwhelming onboarding weeks are complete and my new schedule is settling down, I can blog a bit more. It is always the hope anyway.

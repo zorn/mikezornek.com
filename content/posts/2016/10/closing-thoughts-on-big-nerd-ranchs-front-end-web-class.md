@@ -9,8 +9,8 @@ categories:
   - JavaScript
   - Life Notes
   - Recommended
-
 ---
+
 I posted a [few][1] [thoughts][2] while I was attending the [Front End Web class][3] last week and I figured I&#8217;d put a cap on it with some final thoughts.
 
 > Disclaimer: If you happen to find this post and don&#8217;t know, I do in fact work for Big Nerd Ranch, so yes I&#8217;m partial but these are still my honest opinions.
@@ -27,10 +27,10 @@ Having a full week to escape the distractions of work and personal obligations r
 
 The [table of contents titles][2] don&#8217;t really do justice to the details of each chapter. In total we build four separate projects:
 
-  * The first had us work with HTML5, CSS and JavaScript to do a moderately complex layout of a slideshow like page that included animations, responsive layout and modern markup techniques.
-  * The second project was a Coffee Order system the helped us use HTML5 forms, Bootstrap styles, and JavaScript to communicate with a backend via AJAX.
-  * The third project was a chat app, that utilized web sockets. For this app we not only built the front end but the backend too, in Node.js.
-  * The fourth and final project was an [EmberJS][6] app that would have us catalog monster sightings. Ember is a big framework but I think the book does a fair introduction. We got to work with a relationship of models, and executed all the big features.
+- The first had us work with HTML5, CSS and JavaScript to do a moderately complex layout of a slideshow like page that included animations, responsive layout and modern markup techniques.
+- The second project was a Coffee Order system the helped us use HTML5 forms, Bootstrap styles, and JavaScript to communicate with a backend via AJAX.
+- The third project was a chat app, that utilized web sockets. For this app we not only built the front end but the backend too, in Node.js.
+- The fourth and final project was an [EmberJS][6] app that would have us catalog monster sightings. Ember is a big framework but I think the book does a fair introduction. We got to work with a relationship of models, and executed all the big features.
 
 I thought the chapter and project progression went really well. There are some who might prefer to end with [Angular][7] or [React][8] instead of Ember but the good thing to know is the early class concepts give you a great JavaScript foundation to build on so you&#8217;ll be empowered to experiment with all of those projects and more over time.
 
@@ -46,14 +46,14 @@ In the afternoons we&#8217;d have time for a walk around the resort and on some 
 
 If you want to learn a new technology, in this case Front End Web Development, and in particular if there is a time-sensitive nature to your needs it&#8217;s hard to imagine a better environment than a Big Nerd Ranch class. The ticket price does include lodging and food for the week so keep that in mind when shopping around or putting together a formal company request. If you have any questions, feel free to contact [training support][11]. They&#8217;ll be happy to help you out.
 
- [1]: http://mikezornek.com/2016/10/02/greetings-from-the-ranch/
- [2]: http://mikezornek.com/2016/10/05/mid-week-checkin/
- [3]: https://training.bignerdranch.com/classes/front-end-essentials
- [4]: https://www.codeschool.com/
- [5]: https://www.codecademy.com
- [6]: http://emberjs.com/
- [7]: https://angularjs.org/
- [8]: https://facebook.github.io/react/
- [9]: http://www.callawaygardens.com/things-to-do/attractions/birds-of-prey
- [10]: http://www.callawaygardens.com/things-to-do/attractions/day-butterfly-center
- [11]: https://www.bignerdranch.com/contact/
+[1]: http://mikezornek.com/2016/10/02/greetings-from-the-ranch/
+[2]: http://mikezornek.com/2016/10/05/mid-week-checkin/
+[3]: https://training.bignerdranch.com/classes/front-end-essentials
+[4]: https://www.codeschool.com/
+[5]: https://www.codecademy.com
+[6]: http://emberjs.com/
+[7]: https://angularjs.org/
+[8]: https://facebook.github.io/react/
+[9]: http://www.callawaygardens.com/things-to-do/attractions/birds-of-prey
+[10]: http://www.callawaygardens.com/things-to-do/attractions/day-butterfly-center
+[11]: https://www.bignerdranch.com/contact/

@@ -8,7 +8,7 @@ Monday, September 11, 2023 -- A regular check-in of personal things.
 
 ## Work
 
-Work has been relatively busy. 
+Work has been relatively busy.
 
 My one client, who is in a maintenance-type contract, had multiple downtime issues recently. I was able to deal with the Elixir incident personally but was more on the sidelines for an Android build issue.
 
@@ -24,7 +24,7 @@ I finished up my experiment projects with [Ash](https://github.com/zorn/helpdesk
 
 With those experiments done, I kicked off my new project, StudyHall. I describe StudyHall with:
 
-> Goal: To create open-source software and an accessible platform that allows people to teach the art of programming. 
+> Goal: To create open-source software and an accessible platform that allows people to teach the art of programming.
 
 It's all vague as I'm still in the research phase. You can check out the [main project repo](https://github.com/studyhall-project/studyhall) and [project board](https://github.com/orgs/studyhall-project/projects/1). I am working on some tech things, but I plan to spend most of my upcoming time on wireframing and brainstorming ideas.
 
@@ -44,9 +44,9 @@ I finished listening to the audiobook Upgrade by Blake Crouch and [posted a revi
 
 Currently reading:
 
-* [Wireframing for Everyone](https://abookapart.com/products/wireframing-for-everyone) - to help me get into a good drawing mindset as I explore some courseware UI ideas.
-* [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/) as part of [Elixir Book Club](https://elixirbookclub.github.io/website/).
-* [Will It Fly?: How to Test Your Next Business Idea So You Don't Waste Your Time and Money](https://www.goodreads.com/book/show/28678036-will-it-fly) - an old audiobook I bought a while ago and thought I'd check it out. It's ok but pretty introductory so far.
+- [Wireframing for Everyone](https://abookapart.com/products/wireframing-for-everyone) - to help me get into a good drawing mindset as I explore some courseware UI ideas.
+- [Genetic Algorithms in Elixir](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/) as part of [Elixir Book Club](https://elixirbookclub.github.io/website/).
+- [Will It Fly?: How to Test Your Next Business Idea So You Don't Waste Your Time and Money](https://www.goodreads.com/book/show/28678036-will-it-fly) - an old audiobook I bought a while ago and thought I'd check it out. It's ok but pretty introductory so far.
 
 You can [follow me on GoodReads](https://www.goodreads.com/user/show/30324035-mike-zornek) for more book progress (though I am considering other options).
 
@@ -64,6 +64,6 @@ Casually playing Read Dead 2, and Stardew Valley on some nights, but nothing too
 
 I am doing better and have been walking a few days a week. I hope to start to mix in some other activities like swimming and basketball soon. I also need to follow up with better eating, but happy to make some progress.
 
-***
+---
 
 That was a lot of stuff. Once again, I am reminded I should do this more often.

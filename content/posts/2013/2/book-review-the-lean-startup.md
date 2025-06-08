@@ -1,13 +1,13 @@
 ---
-title: 'Book Review: The Lean Startup'
+title: "Book Review: The Lean Startup"
 date: 2013-02-25T19:16:54+00:00
 aliases: /2013/02/25/book-review-the-lean-startup/
 categories:
   - Books
   - Entrepreneurship
   - Recommended
-
 ---
+
 With the [sale of ProfitTrain complete][1], my schedule has room for a new project. There&#8217;s a handful of ideas I&#8217;m working through, but, before I jump into one, I think that now is a great opportunity to catch up with some business books I&#8217;ve had on my radar.
 
 [![The Lean Startup][2]][3]
@@ -28,13 +28,13 @@ Learning is an important, if not the most important, aspect for the Lean Startup
 
 The heartbeat of a Lean Startup is the feedback loop, named &#8220;Build-Measure-Learn.&#8221; In practice, your actual feedback loop might look something like this:
 
-  * Figure out what you want to learn about your customers. 
-  * Figure out how you&#8217;ll measure it.
-  * Build it into the product.
-  * Deploy it to the customers.
-  * Measure customer behavior.
-  * Use these measurements and metrics to define future work and pivots.
-  * Repeat.
+- Figure out what you want to learn about your customers.
+- Figure out how you&#8217;ll measure it.
+- Build it into the product.
+- Deploy it to the customers.
+- Measure customer behavior.
+- Use these measurements and metrics to define future work and pivots.
+- Repeat.
 
 The feedback loop should be as small as possible.
 
@@ -46,8 +46,8 @@ Regardless of what my next project may be, I&#8217;m definitely interested in ap
 
 To learn more, you can check out the book&#8217;s website: [theleanstartup.com][5].
 
- [1]: http://blog.clickablebliss.com/2013/02/18/profittrain-acquired-by-razorant-software/
- [2]: http://mikezornek.com/media/images/theleanstartup_book_cover.png "The Lean Startup"
- [3]: http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307887898&linkCode=as2&tag=mikezornekcom-20
- [4]: http://www.amazon.com/gp/product/1449305172/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449305172&linkCode=as2&tag=mikezornekcom-20
- [5]: http://theleanstartup.com
+[1]: http://blog.clickablebliss.com/2013/02/18/profittrain-acquired-by-razorant-software/
+[2]: http://mikezornek.com/media/images/theleanstartup_book_cover.png "The Lean Startup"
+[3]: http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307887898&linkCode=as2&tag=mikezornekcom-20
+[4]: http://www.amazon.com/gp/product/1449305172/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449305172&linkCode=as2&tag=mikezornekcom-20
+[5]: http://theleanstartup.com

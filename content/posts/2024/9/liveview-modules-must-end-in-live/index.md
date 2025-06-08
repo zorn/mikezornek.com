@@ -27,7 +27,7 @@ Should you use `action` names, your `LiveView` **must** end with `Live`. If it d
 
 ```
 == Compilation error in file lib/flick_web/router.ex ==
-** (ArgumentError) could not infer :as option because a live action was given 
+** (ArgumentError) could not infer :as option because a live action was given
 and the LiveView does not have a "Live" suffix. Please pass :as explicitly or
 make sure your LiveView is named like "FooLive" or "FooLive.Index"
   (phoenix_live_view 0.20.17) lib/phoenix_live_view/router.ex:479: Phoenix.LiveView.Router.inferred_as/3

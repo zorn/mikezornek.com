@@ -8,5 +8,5 @@ A short video talking about bartering your time with other developers to help ad
 
 {{< video filename="bartering_with_other_developers_on_side_projects.mp4" youtube="Y_EhML9rzkc" title="Bartering With Other Developers on Side Projects" >}}
 
-* [Video: Accountability via Masterminds (4m)](/posts/2020/5/video-accountability-via-masterminds/)
-* [VersionedFilesDemo](https://github.com/zorn/VersionedFilesDemo)
+- [Video: Accountability via Masterminds (4m)](/posts/2020/5/video-accountability-via-masterminds/)
+- [VersionedFilesDemo](https://github.com/zorn/VersionedFilesDemo)

@@ -6,7 +6,7 @@ description: A short check in with how my vacation is going.
 
 Figured I'd do a short check in with how my vacation is going.
 
-Book reading is a primary activity. Check out [my Goodreads profile](https://www.goodreads.com/zorn711 ) for more info. I like reading with Bob Ross or Rick Steve's Europe playing on the TV in the background. I like the background noise and something interesting to look at when I need to rest my eyes.
+Book reading is a primary activity. Check out [my Goodreads profile](https://www.goodreads.com/zorn711) for more info. I like reading with Bob Ross or Rick Steve's Europe playing on the TV in the background. I like the background noise and something interesting to look at when I need to rest my eyes.
 
 I've also caught up [on](https://twitter.com/zorn/status/1412889835774349314) [some](https://twitter.com/zorn/status/1414050505588936705) [games](https://twitter.com/zorn/status/1415048051874480130) and even finished [100% completion for Red Dead Redemption 2](https://twitter.com/zorn/status/1413597196654628866).
 

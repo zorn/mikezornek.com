@@ -5,8 +5,8 @@ aliases: /2018/03/04/gaming-update-march-2018/
 categories:
   - Gaming
   - Recommended
-
 ---
+
 Things have been pretty quite here so I thought I&#8217;d update you all on some things, you know the important stuff &#8212; like gaming!
 
 First, what I&#8217;m not playing, World of Warcraft. I still love WoW. I think the Legion expansion went very well. I do however find myself playing it too much. As an example, I can sit down for a WoW play session and it will go on for hours, sometimes filling up most of the day. Whereas when I play other games I usually cap out at a healthy 90 minutes or so. Thats what I need to do so I can keep up with my work side projects as well as get into a pile of games I&#8217;ve bought over the last year but haven&#8217;t gotten into. I&#8217;m sure I&#8217;ll be back to WoW in time but I&#8217;m due for a good break.
@@ -25,5 +25,5 @@ Finally we have Pokemon Ultra Moon. I didn&#8217;t get too far into this remix v
 
 What you playing? Ping me [on Micro.Blog][1] or [email][2] with your own gaming update.
 
- [1]: https://micro.blog/zorn
- [2]: mailto:zorn@zornlabs.com
+[1]: https://micro.blog/zorn
+[2]: mailto:zorn@zornlabs.com

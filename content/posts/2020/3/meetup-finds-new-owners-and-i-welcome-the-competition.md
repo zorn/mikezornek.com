@@ -3,9 +3,9 @@ title: "Meetup Finds New Owners and I Welcome the Competition"
 date: 2020-03-31T18:11:15-04:00
 ---
 
-For a long time I've felt Meetup's service offerings were pretty mediocre and stale. In 2017 they were purchased by WeWork and things only got worse. 
+For a long time I've felt Meetup's service offerings were pretty mediocre and stale. In 2017 they were purchased by WeWork and things only got worse.
 
-I've been a long time group organizer and feel very connected to the needs of the community, so much so that I've started working on a Meetup competitor called Club House Hosting. 
+I've been a long time group organizer and feel very connected to the needs of the community, so much so that I've started working on a Meetup competitor called Club House Hosting.
 
 > [Club House Hosting](/projects/guildflow/) enables you to create a group website with modern event and membership tools for your social or peer group. Honoring the ethos of the [IndieWeb](https://indieweb.org/), Club House Hosting lets you use your own domain, own your data and control your privacy.
 

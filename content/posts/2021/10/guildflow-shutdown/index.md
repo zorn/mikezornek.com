@@ -10,15 +10,15 @@ With a heavy heart, I share my decision to shut down my side project [Guildflow]
 
 ## Project Background
 
-My history attending and organizing meetups in Philadelphia goes pretty deep. I found meetup groups to be a great way to meet like-minded developers who would become good friends and coworkers over time. **Meetup groups were a huge positive impact on me.** 
+My history attending and organizing meetups in Philadelphia goes pretty deep. I found meetup groups to be a great way to meet like-minded developers who would become good friends and coworkers over time. **Meetup groups were a huge positive impact on me.**
 
 In early 2019 I was looking to sink my teeth into a new side project. I was not very happy with Meetup.com, the website we used to run Philly CocoaHeads and Philly Elixir. The platform had become pretty stagnant and had a bunch of restrictions on data access for things like member email addresses. There was also this shady practice where if you stopped paying the group subscription fee, Meetup.com would sell ownership of your group to any member with a credit card. The parent company of Meetup.com was WeWork, which was known to me as a bad actor in the coworking world. WeWork had Meetup.com do questionable promotions of their spaces and experimented with an unwise scheme to charge users to attend events. In short, while I had an enormous passion for meetups themselves, I was concerned Meetup.com would be unusable in a few years.
 
 The goals of my side project, in order of importance:
 
-* An opportunity to get deeper experience with Elixir and Phoenix (new tools I embraced after getting out of Apple development).
-* A drive to build software that I would use and crafted for an audience and purpose I could stand behind.
-* Create a modest stream of product revenue so that I could, over the long term, supplement and maybe replace my consulting income.
+- An opportunity to get deeper experience with Elixir and Phoenix (new tools I embraced after getting out of Apple development).
+- A drive to build software that I would use and crafted for an audience and purpose I could stand behind.
+- Create a modest stream of product revenue so that I could, over the long term, supplement and maybe replace my consulting income.
 
 I decided to work on a tool for meetup groups.
 
@@ -34,7 +34,7 @@ My first public sharing of work came from [a blog post in September 2019](https:
 
 Launching meetup software during those initial US COVID lockdowns was, to put it bluntly, devastating. I can't remember being personally productive at all during March/April 2020. It was scary and stressful. My paid work contract was cut short on April 1st, and new contracts were not to be found.
 
-By June, I started to get back in the swing of things. I still did not have paying work but did launch a [new Android Book Club](https://mikezornek.com/posts/2020/6/an-android-book-club-for-ios-developers/), hosted on Guildflow. Over the rest of the summer, I would work on new marketing pages, videos, and features for Guildflow. 
+By June, I started to get back in the swing of things. I still did not have paying work but did launch a [new Android Book Club](https://mikezornek.com/posts/2020/6/an-android-book-club-for-ios-developers/), hosted on Guildflow. Over the rest of the summer, I would work on new marketing pages, videos, and features for Guildflow.
 
 The meetup world was still in a state of shock during the summer of 2020. Some groups did find ways to do online meetings, but it came with new challenges. Many groups were falling apart. No new groups were forming. No one was interested in new meetup software offerings.
 
@@ -60,11 +60,11 @@ Group organizers will complain about the high Meetup.com monthly fee and complai
 
 The other big takeaway is that the cultural concept of a traditional "meetup" is downward trending. This downward trend was historically observable, but COVID has exacerbated it tremendously.
 
-I feel like many people traditionally consider a tech meetup to consist of "a monthly in-person event, in the board room of company X, where people interested in tech Y come by to see an educational presentation, talk shop, and eat pizza." 
+I feel like many people traditionally consider a tech meetup to consist of "a monthly in-person event, in the board room of company X, where people interested in tech Y come by to see an educational presentation, talk shop, and eat pizza."
 
 As much as this format has been enjoyed by myself and others, I suspect this format is dying.
 
-**It is dying because of the internet.** No one needs to wait for the monthly meetup (or conference, for that matter) to see a static, non-interactive demo of new tech Y or to talk shop with peers. There are SO MANY other outlets for this kind of exchange, including Twitter, blogs, YouTube, GitHub, Slack, Discord, email newsletters, and so on. 
+**It is dying because of the internet.** No one needs to wait for the monthly meetup (or conference, for that matter) to see a static, non-interactive demo of new tech Y or to talk shop with peers. There are SO MANY other outlets for this kind of exchange, including Twitter, blogs, YouTube, GitHub, Slack, Discord, email newsletters, and so on.
 
 **It is dying because remote work is here to stay.** COVID is still here, and that means hesitance about in-person events, but it also means the conference room you used to meet at isn't there anymore because the company went full remote or they can't allow the random public inside. The people who would usually stop by your meetup after work no longer drive into town for a job; they work from home.
 
@@ -76,12 +76,12 @@ I think the meetup groups that survive will rethink their positioning and build 
 
 While I continue to be supportive of the positive impact of local tech communities (or meetups if we still want to hang on to that term), my observation is that two types of people generally run these groups:
 
-* the **passionate volunteer** who loves the technology so much they just want to share it with like-minded people
-* the **corporate evangelist** who is running the group as part of their job to educate the public and get traction for their employer's interests
+- the **passionate volunteer** who loves the technology so much they just want to share it with like-minded people
+- the **corporate evangelist** who is running the group as part of their job to educate the public and get traction for their employer's interests
 
 One of the initial goals for Guildflow was: "Create a modest stream of product revenue so that I could, over the long term, supplement and later replace my consulting income." The problem I have is:
 
-The **passionate volunteer** has very little actual money to spend. Historically, they could not even get enough money to cover the pizza costs when passing around a donation jar. Their time is very limited for meta-group responsibilities like group marketing. They get tremendous value and exposure from the network effect of the current Meetup.com platform, which I am unlikely to compete with successfully. 
+The **passionate volunteer** has very little actual money to spend. Historically, they could not even get enough money to cover the pizza costs when passing around a donation jar. Their time is very limited for meta-group responsibilities like group marketing. They get tremendous value and exposure from the network effect of the current Meetup.com platform, which I am unlikely to compete with successfully.
 
 The **corporate evangelist** has some money to spend, but they are also interested in harvesting the group membership data for aggressive and questionable recruiting or marketing purposes. I am not interested in participating in that kind of business.
 
@@ -95,9 +95,9 @@ First, I have some shutdown tasks for Guildflow, like moving Philly Elixir to a 
 
 As for my next side project, I don't know. I have a lot of soul searching going on right now. A few bullets of thought:
 
-* Do more customer interviews.
-* Build smaller MVPs and faster.
-* More open source.
-* More sharing of progress.
+- Do more customer interviews.
+- Build smaller MVPs and faster.
+- More open source.
+- More sharing of progress.
 
 Be sure to [follow](https://mikezornek.com/follow/) me to hear more over the coming months.

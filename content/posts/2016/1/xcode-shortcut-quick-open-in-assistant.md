@@ -1,5 +1,5 @@
 ---
-title: 'Xcode Shortcut: Quick Open in Assistant'
+title: "Xcode Shortcut: Quick Open in Assistant"
 date: 2016-01-27T20:57:45+00:00
 aliases: /2016/01/27/xcode-shortcut-quick-open-in-assistant/
 categories:
@@ -7,8 +7,8 @@ categories:
   - iOS
   - Tips
   - Xcode
-
 ---
+
 This answer / revelation caused a bit of a stir in the [Philly CocoaHeads Slack][1] so I figured I&#8217;d share it here as well.
 
 Lots of people know and live by Xcode&#8217;s Quick Open Menu. You hit `Command-Shift-O` and start typing the name of a file, a class or a method and have some very good options made available to you. Make a selection, hit return and bam, the file is now live in your editor.
@@ -27,8 +27,8 @@ For a handy Xcode 7 Shortcut Reference Card check out the Big Nerd Ranch [iOS Co
 
 PS: Props to [@lyricsboy][5] for catching my typos!
 
- [1]: http://phillycocoa.org/slack
- [2]: http://mikezornek.com/media/images/quick-open-in-assistant.gif "Quick Open in Assistant in Action GIF"
- [3]: https://github.com/bignerdranch/iOSCourseResources/blob/master/Xcode%207%20Visual%20Reference%20Card.pdf
- [4]: http://amzn.to/1lTwb2H
- [5]: https://twitter.com/lyricsboy
+[1]: http://phillycocoa.org/slack
+[2]: http://mikezornek.com/media/images/quick-open-in-assistant.gif "Quick Open in Assistant in Action GIF"
+[3]: https://github.com/bignerdranch/iOSCourseResources/blob/master/Xcode%207%20Visual%20Reference%20Card.pdf
+[4]: http://amzn.to/1lTwb2H
+[5]: https://twitter.com/lyricsboy

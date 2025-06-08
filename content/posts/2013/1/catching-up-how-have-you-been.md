@@ -1,11 +1,11 @@
 ---
-title: 'Catching Up: How Have You Been?'
+title: "Catching Up: How Have You Been?"
 date: 2013-01-30T03:21:24+00:00
 aliases: /2013/01/29/catching-up-how-have-you-been/
 categories:
   - Life Notes
-
 ---
+
 Publishing to this blog is something I enjoy, but sadly not something I&#8217;m naturally good at doing on a regular basis. Forgive me Internets, it has been three months since my last confession, err blog post.
 
 So what&#8217;s been going on? Well, October and early November were a mix of client work and [Shindig][1] development, a continuation of a year&#8217;s worth of very long, hard development hours for me. This sadly led to a bit of burnout. I felt it coming, so I was honest with my Shindig co-founders and arranged to take some leave.
@@ -18,5 +18,5 @@ Alas, one can not stay cooped up forever, and now I&#8217;m working again at [In
 
 All in all, things are good and I hope to be posting more soon. As always, thanks for your interest, and best of luck to all in 2013! 🙂
 
- [1]: http://shindig.io
- [2]: http://indyhall.org/
+[1]: http://shindig.io
+[2]: http://indyhall.org/

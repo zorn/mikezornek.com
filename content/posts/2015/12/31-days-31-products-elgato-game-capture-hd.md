@@ -1,12 +1,12 @@
 ---
-title: '31 Days, 31 Products: Elgato Game Capture HD'
+title: "31 Days, 31 Products: Elgato Game Capture HD"
 date: 2015-12-12T02:36:44+00:00
 aliases: /2015/12/11/31-days-31-products-elgato-game-capture-hd/
 categories:
   - Gaming
   - Recommended
-
 ---
+
 ## Day 17: Elgato Game Capture HD
 
 > This post is part of [a larger series][1] where for 31 days I&#8217;m posting a story about a particular product or service I&#8217;ve come to enjoy.
@@ -25,12 +25,12 @@ ANYWAYS&#8230; the Elgato Game Capture HD found its way to be useful for me once
 
 If you are interested in video capture you can browse the [Elgato Gaming site][9] for a rundown of the current product lineup. The device I use is the base model and costs $150 retail but there are other options if you want higher frame rate capture (mine is 30 fps, they also have 60 fps available).
 
- [1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
- [2]: https://www.elgato.com/en/gaming/gamecapture-hd
- [3]: http://www.twitch.tv/
- [4]: https://www.youtube.com/user/HCBailly
- [5]: https://www.youtube.com/user/NintendoCapriSun
- [6]: https://www.youtube.com/user/cyberzorn
- [7]: http://mikezornek.com/2015/11/28/31-days-31-products-screenflow/
- [8]: https://vimeo.com/phillycocoa
- [9]: https://www.elgato.com/en/gaming
+[1]: http://mikezornek.com/2015/11/24/31-days-31-products-launch-post/
+[2]: https://www.elgato.com/en/gaming/gamecapture-hd
+[3]: http://www.twitch.tv/
+[4]: https://www.youtube.com/user/HCBailly
+[5]: https://www.youtube.com/user/NintendoCapriSun
+[6]: https://www.youtube.com/user/cyberzorn
+[7]: http://mikezornek.com/2015/11/28/31-days-31-products-screenflow/
+[8]: https://vimeo.com/phillycocoa
+[9]: https://www.elgato.com/en/gaming

@@ -5,11 +5,11 @@ date: 2020-04-16T09:54:46-04:00
 
 I don't do many book updates on this blog. In fact I don't read nearly as much as I would like. I'm a slow reader and in general am more visual, watching videos, movies and games.
 
-I do maintain a reading list [profile on Goodreads](https://www.goodreads.com/user/show/30324035-mike-zornek) and welcome friend invites there. 
+I do maintain a reading list [profile on Goodreads](https://www.goodreads.com/user/show/30324035-mike-zornek) and welcome friend invites there.
 
 Anyways, I recently finished and started some books that have really impressed me so I wanted to share.
 
-First, I finally finished [Permanent Record, by Edward Snowden](https://www.indiebound.org/book/9781250237231). It was really good. I related a lot to Ed's younger experiences with computers and learned a ton about his, um,  event. The problems with mass surveillance and the desecration of personal privacy are as important today than ever and this book has fortified me for the fights ahead.
+First, I finally finished [Permanent Record, by Edward Snowden](https://www.indiebound.org/book/9781250237231). It was really good. I related a lot to Ed's younger experiences with computers and learned a ton about his, um, event. The problems with mass surveillance and the desecration of personal privacy are as important today than ever and this book has fortified me for the fights ahead.
 
 Next I read / browsed through [iOS Unit Testing by Example
 by Jon Reid](https://pragprog.com/book/jrlegios/ios-unit-testing-by-example). I'm a fairly experienced tester so the introduction side of this book was skimmed over pretty quickly but I still picked up a ton of ideas and tricks to keep in mind for future projects. I'm thrilled a resource like this exists. Well technically the book is still in beta, but there is lots there to check out even today.

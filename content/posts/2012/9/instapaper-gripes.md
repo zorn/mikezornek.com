@@ -5,8 +5,8 @@ aliases: /2012/09/17/instapaper-gripes/
 categories:
   - Gripes
   - Interface Design
-
 ---
+
 First let me say that I really like [Instapaper][1]. It was one of the first apps that gave my iPad real purpose, and I use it pretty much daily. While the comments below might be negative and trite, there are tons of great things to love about this app too, so don&#8217;t take things too seriously. If you aren&#8217;t already using Instapaper, I&#8217;d recommend reading the [the MacStories review][2] to see what Instapaper is all about.
 
 A lot of these gripes are based on personal usage (described early in gripe 1) that, in theory, mirror large scale usage. I&#8217;ll be the first to say that I could be way off on that. I&#8217;m not currently aware of whether Marco captures the kind of usage data that would help him evaluate the effectiveness of the Instapaper user interface, or if he has ever made those numbers public.
@@ -61,8 +61,8 @@ There are many different collections, but only one basic cell design for the art
 
 Scenario: I&#8217;m browsing the Read Later collection from my couch. I have an hour to kill and want to catch up on things. The sort of the Read Later collection is based on when I added articles, so I&#8217;ll see the most recent at the top. My goals for this view are:
 
-  1. to remind myself about the article I added
-  2. to determine whether I want to read it now
+1. to remind myself about the article I added
+2. to determine whether I want to read it now
 
 To remind myself, the preview cell offers a mix of article title, source domain, author, and a short blurb. For me, the blurb is usually overkill. It could be subbed out for more useful information.
 
@@ -112,9 +112,9 @@ I understand that it makes sense to automatically show the navigation bar toward
 
 When you finish reading an article, part of the reason the navigation bar comes back up is because you have an action to perform:
 
-  * Like the article by tapping the heart icon.
-  * Archive the article by tapping the trash can and choosing &#8220;Move to Archive&#8221;.
-  * Delete the article by tapping the trash can and choosing &#8220;Delete&#8221;.
+- Like the article by tapping the heart icon.
+- Archive the article by tapping the trash can and choosing &#8220;Move to Archive&#8221;.
+- Delete the article by tapping the trash can and choosing &#8220;Delete&#8221;.
 
 ![Archive Menu][10]
 
@@ -130,11 +130,11 @@ Search in Instapaper works like this: there are various search buttons in the ap
 
 There are many problems with this experience:
 
-  * Search requires an internet connection. There is no way to simply search the stuff you have locally.
-  * In order to accept the search terms and present a result list, Instapaper uses a modal view that fills only 50% of the screen. Half the screen is left underutilized. Why is this not happening inline in the collection browser area, as I would have expected?
-  * There is no way to control your search context. The only option is &#8220;All.&#8221; For example, you cannot do a search for something in your Liked collection.
-  * There is no way to reorder the results; they are presented in an unknown order. There is no way to sort specifically by the liked on date or search term relevance. 
-  * When interacting with a result, the article is presented in a modal webview instead of the expected Instapaper article view. One of the major points of Instapaper is that it filters out a website&#8217;s frame for easier article reading. Why not a proper article view here?
+- Search requires an internet connection. There is no way to simply search the stuff you have locally.
+- In order to accept the search terms and present a result list, Instapaper uses a modal view that fills only 50% of the screen. Half the screen is left underutilized. Why is this not happening inline in the collection browser area, as I would have expected?
+- There is no way to control your search context. The only option is &#8220;All.&#8221; For example, you cannot do a search for something in your Liked collection.
+- There is no way to reorder the results; they are presented in an unknown order. There is no way to sort specifically by the liked on date or search term relevance.
+- When interacting with a result, the article is presented in a modal webview instead of the expected Instapaper article view. One of the major points of Instapaper is that it filters out a website&#8217;s frame for easier article reading. Why not a proper article view here?
 
 Overall search comes off as a minimum viable shipping feature, good enough to ship, but not where it should be. If it were just a young feature that would see improvement over time, I wouldn&#8217;t gripe as much, but search is actually the main unlock if you choose to pay extra for a monthly Instapaper subscription. In that context, I really think it&#8217;s important that search sees improvements soon. I don&#8217;t think it&#8217;s right to reward subscription buyers with such an elementary feature.
 
@@ -188,16 +188,16 @@ The biggest problem with the current Android version is the lack of scroll posit
 
 Again I&#8217;ll say that I really do like Instapaper, both the service and the apps overall. My gripes are meant as feedback and kickoffs for other user interface discussions. Please do not take offense.
 
- [1]: http://www.instapaper.com/
- [2]: http://www.macstories.net/news/instapaper-4-0-available-completely-redesigned-ipad-ui-new-features-search-subscription/
- [3]: http://mikezornek.com/media/images/instapaper/collections.png
- [4]: http://tapbots.com/software/tweetbot/
- [5]: http://mikezornek.com/media/images/instapaper/tweetbot.png
- [6]: http://mikezornek.com/media/images/instapaper/alignment-why.png
- [7]: http://mikezornek.com/media/images/instapaper/grid_with_arrows.png
- [8]: http://mikezornek.com/media/images/instapaper/article_nav.png
- [9]: http://mikezornek.com/media/images/instapaper/reading_zone.png
- [10]: http://mikezornek.com/media/images/instapaper/archive_menu.png
- [11]: http://mikezornek.com/media/images/instapaper/search.png
- [12]: http://mikezornek.com/media/images/instapaper/add_friends.png
- [13]: http://mikezornek.com/media/images/instapaper/settings.png
+[1]: http://www.instapaper.com/
+[2]: http://www.macstories.net/news/instapaper-4-0-available-completely-redesigned-ipad-ui-new-features-search-subscription/
+[3]: http://mikezornek.com/media/images/instapaper/collections.png
+[4]: http://tapbots.com/software/tweetbot/
+[5]: http://mikezornek.com/media/images/instapaper/tweetbot.png
+[6]: http://mikezornek.com/media/images/instapaper/alignment-why.png
+[7]: http://mikezornek.com/media/images/instapaper/grid_with_arrows.png
+[8]: http://mikezornek.com/media/images/instapaper/article_nav.png
+[9]: http://mikezornek.com/media/images/instapaper/reading_zone.png
+[10]: http://mikezornek.com/media/images/instapaper/archive_menu.png
+[11]: http://mikezornek.com/media/images/instapaper/search.png
+[12]: http://mikezornek.com/media/images/instapaper/add_friends.png
+[13]: http://mikezornek.com/media/images/instapaper/settings.png

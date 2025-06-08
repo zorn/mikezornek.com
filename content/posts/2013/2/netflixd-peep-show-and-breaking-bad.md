@@ -1,12 +1,12 @@
 ---
-title: 'Netflix’d: Peep Show and Breaking Bad'
+title: "Netflix’d: Peep Show and Breaking Bad"
 date: 2013-02-07T00:10:36+00:00
 aliases: /2013/02/06/netflixd-peep-show-and-breaking-bad/
 categories:
   - Netflix
   - Recommended
-
 ---
+
 When it comes to TV, you can usually catch me watching a mix of local sports. On the weekends, it might be some This Old House or Gordon Ramsey.
 
 I don&#8217;t tend to get into the episodic TV shows when they are actually released. I&#8217;d much prefer to watch these in bunches. Back in the day, it would be West Wing one DVD at a time but now, with Netflix and other streaming services, it is dangerously easy to lose a whole Saturday streaming one episode after another. Of my recent Netflix binges, two shows have been extremely enjoyable&#8230;
@@ -29,10 +29,10 @@ There are 5 seasons in total of Breaking Bad. Seasons 1 through 4 are on Netflix
 
 Hope you enjoyed the recommendations. If you have any for me, let me know via [email][6] or [twitter][7].
 
- [1]: http://mikezornek.com/media/images/peep_show.png "Peep Show"
- [2]: http://dvd.netflix.com/Movie/Peep-Show/70217140
- [3]: http://www.hulu.com/peep-show
- [4]: http://mikezornek.com/media/images/breaking_bad.png "Breaking Bad"
- [5]: http://movies.netflix.com/WiMovie/70143836
- [6]: mailto:mike@mikezornek.com
- [7]: https://jawns.club/@zorn
+[1]: http://mikezornek.com/media/images/peep_show.png "Peep Show"
+[2]: http://dvd.netflix.com/Movie/Peep-Show/70217140
+[3]: http://www.hulu.com/peep-show
+[4]: http://mikezornek.com/media/images/breaking_bad.png "Breaking Bad"
+[5]: http://movies.netflix.com/WiMovie/70143836
+[6]: mailto:mike@mikezornek.com
+[7]: https://jawns.club/@zorn

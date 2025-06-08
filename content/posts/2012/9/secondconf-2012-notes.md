@@ -4,12 +4,12 @@ date: 2012-09-26T03:20:15+00:00
 aliases: /2012/09/25/secondconf-2012-notes/
 categories:
   - Conferences
-
 ---
+
 For those who might not be familiar, [SecondConf][1] is a Chicago-based weekend conference that describes itself as:
 
 > An annual gathering of technologists passionate about creating great things.
-> 
+>
 > Well-crafted products, delightful experiences, enduring companies, research, journalism, education. Great things take many forms. We explore them all.
 
 While certainly not Apple exclusive, I think it&#8217;s a mistake to omit that the majority of the attendees have an Apple development background. SecondConf itself has inspirations from previous local Apple-oriented conferences: C4 and, previous to that, MacHack. I myself was a sporadic attendee of both C4 and MacHack and this was my second SecondConf of the three they&#8217;ve had.
@@ -42,20 +42,20 @@ I can honestly say from my own experiences that doing blitz talks are almost har
 
 I didn&#8217;t take too many pictures, but these fine people have shared a few.
 
-  * [From Kevin A. Mitchell][8]
-  * [From Michael Fey][9]
+- [From Kevin A. Mitchell][8]
+- [From Michael Fey][9]
 
 ### Videos
 
 Like [previous years][10], many of the sessions (minus the Panel and Dr. Wave&#8217;s talk) were recorded and should be available online in the near future.
 
- [1]: http://www.secondconf.com/
- [2]: http://twitter.com/RobotGrrl
- [3]: http://robobrrd.com/
- [4]: http://twitter.com/khanlou
- [5]: http://twitter.com/_aijaz_
- [6]: http://khanlou.com/2012/09/secondconf-2012-blitz-talk/
- [7]: http://aijazansari.com/2012/09/22/protecting-your-users-privacy/
- [8]: http://www.flickr.com/photos/23993495@N03/sets/72157631660328306/
- [9]: http://500px.com/MrRooni/sets/secondconf_2012
- [10]: http://www.secondconf.com/#vids
+[1]: http://www.secondconf.com/
+[2]: http://twitter.com/RobotGrrl
+[3]: http://robobrrd.com/
+[4]: http://twitter.com/khanlou
+[5]: http://twitter.com/_aijaz_
+[6]: http://khanlou.com/2012/09/secondconf-2012-blitz-talk/
+[7]: http://aijazansari.com/2012/09/22/protecting-your-users-privacy/
+[8]: http://www.flickr.com/photos/23993495@N03/sets/72157631660328306/
+[9]: http://500px.com/MrRooni/sets/secondconf_2012
+[10]: http://www.secondconf.com/#vids

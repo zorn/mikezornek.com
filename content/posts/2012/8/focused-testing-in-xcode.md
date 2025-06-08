@@ -5,8 +5,8 @@ aliases: /2012/08/26/focused-testing-in-xcode/
 categories:
   - Tips
   - Xcode
-
 ---
+
 I&#8217;ve set a very informal goal to produce content for this blog on a daily basis. We&#8217;re not there yet, but before the night is lost, here is a quick Xcode tip I fell into today.
 
 So I&#8217;m using [RestKit][1] in a client project. In this project we `POST` and `PUT` lots of records. RestKit does not currently have an option to, when serializing a record, include those record attributes which are `nil` as `null`s in the resulting `JSON`. While there has been an ongoing [ticket][2] for this feature, my own release date is approaching and so I dug in this weekend to see what I could do.
@@ -23,7 +23,7 @@ This can seriously speed up your editing cycle. Just make sure to switch them al
 
 As for my feature, I think I have it working, but will let things settle down before I generate a nice pull request for the RestKit development branch.
 
- [1]: https://github.com/RestKit/RestKit
- [2]: https://github.com/RestKit/RestKit/issues/669
- [3]: http://mikezornek.com/media/images/edit_xcode_schema_to_focus_your_testing.png "Edit Xcode Schema to Focus Your Testing"
- [4]: http://mikezornek.com/media/images/edit_xcode_schema_to_focus_your_testing.png
+[1]: https://github.com/RestKit/RestKit
+[2]: https://github.com/RestKit/RestKit/issues/669
+[3]: http://mikezornek.com/media/images/edit_xcode_schema_to_focus_your_testing.png "Edit Xcode Schema to Focus Your Testing"
+[4]: http://mikezornek.com/media/images/edit_xcode_schema_to_focus_your_testing.png
