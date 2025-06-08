@@ -56,6 +56,7 @@
   href="/fonts/ubuntu-v20-latin-700.woff2"
   as="font"
   type="font/woff2"
+  fetchpriority="high"
   crossorigin
 >
 <link
@@ -63,8 +64,15 @@
   href="/fonts/ubuntu-v20-latin-regular.woff2"
   as="font"
   type="font/woff2"
+  fetchpriority="high"
   crossorigin
 >
-<link rel="preload" href="/images/dark-mosaic.png" as="image">
+<link
+  rel="preload"
+  href="/images/dark-mosaic.png"
+  as="image"
+  fetchpriority="high"
+  type="image/png"
+>
 
 {{ partialCached "head/js.html" . }}
