@@ -1,0 +1,53 @@
+[
+    {
+      "path": "/*",
+      "resourceSizes": [
+        {
+          "resourceType": "total",
+          "budget": 200
+        }
+      ],
+      "timings": [
+        {
+          "metric": "first-contentful-paint",
+          "budget": 1000
+        },
+        {
+          "metric": "largest-contentful-paint",
+          "budget": 2000
+        },
+        {
+          "metric": "cumulative-layout-shift",
+          "budget": 0.1
+        },
+        {
+          "metric": "total-blocking-time",
+          "budget": 300
+        },
+        {
+          "metric": "speed-index",
+          "budget": 1000
+        },
+        {
+          "metric": "interactive",
+          "budget": 3500
+        },
+        {
+          "metric": "first-meaningful-paint",
+          "budget": 1000
+        },
+        {
+          "metric": "first-cpu-idle",
+          "budget": 2000
+        },
+        {
+          "metric": "max-potential-fid",
+          "budget": 100
+        },
+        {
+          "metric": "estimated-input-latency",
+          "budget": 50
+        }
+      ]
+    }
+  ]
