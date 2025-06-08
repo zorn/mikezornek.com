@@ -9,7 +9,7 @@ images:
 My full-time employment is coming to a close, and I am once again rebooting my self-employment life.
 
 <figure>
-<img src="freedom.jpeg" alt="Mike Zornek holds a framed comic strip titled 'New Life' by Alex Norris. The comic has three panels. In the first panel, a pink character escapes from a brick box labeled 'Employment,' saying, 'I will escape the confines of this box.' In the second panel, the character floats free and says, 'So I am free to decide my own projects & schedule.' In the third panel, the character is now inside a nearly identical brick box labeled 'Freelance' and says, 'oh no.' Mike Zornek is partially visible, with his eyes peeking over the top of the frame." data-action="zoom"/>
+<img src="freedom.jpeg" alt="Mike Zornek holds a framed comic strip titled 'New Life' by Alex Norris. The comic has three panels. In the first panel, a pink character escapes from a brick box labeled 'Employment,' saying, 'I will escape the confines of this box.' In the second panel, the character floats free and says, 'So I am free to decide my own projects & schedule.' In the third panel, the character is now inside a nearly identical brick box labeled 'Freelance' and says, 'oh no.' Mike Zornek is partially visible, with his eyes peeking over the top of the frame." data-action="zoom">
 </figure>
 
 From [web comic name](https://webcomicname.com/).

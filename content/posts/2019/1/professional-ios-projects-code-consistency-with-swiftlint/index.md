@@ -39,7 +39,7 @@ fi
 ```
 
 <figure>
-<img src="xcode-build-phase.png" alt="Xcode Build Phase Editor" data-action="zoom"/>
+<img src="xcode-build-phase.png" alt="Xcode Build Phase Editor" data-action="zoom">
 <figcaption>Xcode Build Phase Editor</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ This script will look for the `swiftlint` command line tool. If found, it will r
 With `swiftlint` installed and your Xcode project setup, you now will experience new inline warnings and errors, helping to identify code that might lean away from community standards. Sometimes the warnings or errors will even offer automated fix options too.
 
 <figure>
-<img src="xcode-editor.png" alt="Warnings and Errors in Xcode Editor" data-action="zoom"/>
+<img src="xcode-editor.png" alt="Warnings and Errors in Xcode Editor" data-action="zoom">
 <figcaption>Warnings and Errors in Xcode Editor</figcaption>
 </figure>
 

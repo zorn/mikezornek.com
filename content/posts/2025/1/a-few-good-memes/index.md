@@ -7,7 +7,7 @@ images:
 ---
 
 <figure>
-<img src="code-reviews-too-harsh.png" alt="A scene from the movie A Few Good Men. Base Commander Colonel Nathan Jessep is on the stand. The meme reads: CODE REVIEWS TOO HARSH? / YOU WANT ME ON THAT WALL, YOU NEED ME ON THAT WALL." data-action="zoom"/>
+<img src="code-reviews-too-harsh.png" alt="A scene from the movie A Few Good Men. Base Commander Colonel Nathan Jessep is on the stand. The meme reads: CODE REVIEWS TOO HARSH? / YOU WANT ME ON THAT WALL, YOU NEED ME ON THAT WALL." data-action="zoom">
 </figure>
 
 Yesterday I took to `r/ProgrammerHumor` to reply to [this post about code review](https://www.reddit.com/r/ProgrammerHumor/comments/1ib4ifc/titleisdealingwithatoxicsenior/). I used a meme I [crafted back in September](https://jawns.club/@zorn/113194431261362116) and posted this meme as I was preparing for quarterly performance review season. It since has gotten some replies that have me laughing out loud. Recording for prosperity.

@@ -19,17 +19,17 @@ When an app is young and has simple networking needs it's not uncommon to use UR
 In this talk I'll review the network design we've come up with. I'll demo what we have working and talk about how we want to extend it in the future. Attendee should walk away with new ideas that they can integrate into their own networking stacks.
 
 <figure>
-<img src="highres_477725961.jpeg" alt="Philly CocoaHeads, Mike Zornek" data-action="zoom"/>
+<img src="highres_477725961.jpeg" alt="Philly CocoaHeads, Mike Zornek" data-action="zoom">
 <figcaption>Philly CocoaHeads, Mike Zornek</figcaption>
 </figure>
 
 <figure>
-<img src="highres_477725960.jpeg" alt="Philly CocoaHeads, Group Shot" data-action="zoom"/>
+<img src="highres_477725960.jpeg" alt="Philly CocoaHeads, Group Shot" data-action="zoom">
 <figcaption>Philly CocoaHeads, Group Shot</figcaption>
 </figure>
 
 <figure>
-<img src="highres_477725968.jpeg" alt="Philly CocoaHeads, Slopes" data-action="zoom"/>
+<img src="highres_477725968.jpeg" alt="Philly CocoaHeads, Slopes" data-action="zoom">
 <figcaption>Philly CocoaHeads, Slopes</figcaption>
 </figure>
 
