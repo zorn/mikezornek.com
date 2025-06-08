@@ -4,16 +4,12 @@ sectionHighlight: Contact
 layout: onepage
 ---
 
-## Email
+{{< sr-only-title "Contact" >}}
 
-<mike@mikezornek.com>
-
-## Socials
+**Email:** <mike@mikezornek.com>
 
 **Mastodon:** <https://jawns.club/@zorn>
 
 **Bluesky:** <https://bsky.app/profile/mikezornek.com>
 
-## Calendar (create a meeting)
-
-<https://savvycal.com/zorn/chat>
+**Calendar:** <https://savvycal.com/zorn/chat>
