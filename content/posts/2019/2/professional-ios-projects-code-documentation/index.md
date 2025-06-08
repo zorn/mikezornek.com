@@ -63,9 +63,9 @@ To add documentation use three slashes `///` to start a line of documentation. Y
 
 > In Xcode you can also use `Option+Command+/` to bulk paste a documentation line template. This template is particularly useful when documenting a method with lots of parameters and other parts.
 
-<img src="xcode-menu.png" alt="Xcode Menu, Add Documentation" data-action="zoom" />
+<img src="xcode-menu.png" alt="Xcode Menu, Add Documentation" data-action="zoom">
 
-<img src="adding-documentation.gif" alt="Inline Editor Adding Documentation" data-action="zoom" />
+<img src="adding-documentation.gif" alt="Inline Editor Adding Documentation" data-action="zoom">
 
 Swift documentation supports Markdown and if you backtick mentions of a type it often will generate a link to that type when the documentation is rendered in Xcode.
 
@@ -110,13 +110,13 @@ class ContactStore {
 
 In this second example we use `MARK: - SectionName`. This helps split up our source file. In particular since we don’t have headers anymore I like how I can segregate `private` methods to the bottom.
 
-<img src="method-popup.png" alt="Xcode Method Popup" data-action="zoom" />
+<img src="method-popup.png" alt="Xcode Method Popup" data-action="zoom">
 
 Another example here includes the use of `//FIXME`. FIXME is not triple slashed so it’s not technically documentation but it will be showcased inside of Xcode’s editor.
 
 The main way you’ll encounter this documentation is through Xcode’s Quick Help. Option click a method and you’ll see:
 
-<img src="quickhelp.png" alt="Xcode Quick Help" data-action="zoom" />
+<img src="quickhelp.png" alt="Xcode Quick Help" data-action="zoom">
 
 Sadly there is no official support for HTML generation but there are third party tools like [Jazzy](https://github.com/realm/jazzy) that can help.
 

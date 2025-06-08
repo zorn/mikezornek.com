@@ -13,7 +13,7 @@ Starting Sunday, November 13th at 10:30am (Eastern Time), we'll meet for an hour
 ## Testing Elixir
 
 <figure style="width: 40%; margin: 0 auto;">
-<img src="testing-elixir.jpg" alt="Testing Elixir Book Cover" data-action="zoom" />
+<img src="testing-elixir.jpg" alt="Testing Elixir Book Cover" data-action="zoom">
 <figcaption>Testing Elixir Book Cover</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ To participate, you'll need to [join the Elixir Book Club Discord](https://disco
 If you are interested in software testing, I HIGHLY recommend this other book as well: U**nit Testing Principles, Practices, and Patterns**.
 
 <figure style="width: 40%; margin: 0 auto;">
-<img src="unit-testing.jpg" alt="Unit Testing Principles, Practices, and Patterns Book Cover" data-action="zoom" />
+<img src="unit-testing.jpg" alt="Unit Testing Principles, Practices, and Patterns Book Cover" data-action="zoom">
 <figcaption>Unit Testing Principles, Practices, and Patterns Book Cover</figcaption>
 </figure>
 

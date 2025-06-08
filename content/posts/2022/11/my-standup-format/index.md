@@ -12,7 +12,7 @@ An async standup, in short, is each day, typically in the morning hours, team me
 
 <figure style="width: 70%; margin: 0 auto;">
 <img src="we-are-fine.jpg" alt="StarWars: WHEN PROJECT MANAGER ASKING FOR UPDATE AT STANDUP CALL --
-WE ARE FINE WE ARE ALL FINE NOW. HOW ARE YOU?" data-action="zoom" />
+WE ARE FINE WE ARE ALL FINE NOW. HOW ARE YOU?" data-action="zoom">
 </figure>
 
 There is an async standup format I've been using for over a year now, and since it seems to be sticking, I figured I'd take a moment to share it and explain why I like it.

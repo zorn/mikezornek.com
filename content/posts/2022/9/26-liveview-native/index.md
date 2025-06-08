@@ -45,7 +45,7 @@ I've been working with Elixir since 2017 and LiveView since it was announced in 
 
 <figure style="width: 70%; margin: 0 auto;">
 <a href="https://twitter.com/zorn/status/1565370172311060482">
-  <img src="worlds-colliding.png" alt="Worlds Colliding Tweet" data-action="zoom" />
+  <img src="worlds-colliding.png" alt="Worlds Colliding Tweet" data-action="zoom">
 </a>
 </figure>
 
@@ -59,7 +59,7 @@ In the Phoenix project, you build a `CatsListLive` live view with SwiftUI-specif
 
 <figure style="width: 90%; margin: 0 auto;">
 <a href="swiftui-in-heex.png">
-  <img src="swiftui-in-heex.png" alt="LiveView with SwiftUI inside a `heex` template." />
+  <img src="swiftui-in-heex.png" alt="LiveView with SwiftUI inside a `heex` template.">
 </a>
 </figure>
 
@@ -69,7 +69,7 @@ When you launch the iOS app, the `LiveView` view class inside of SwiftUI will co
 
 <figure style="width: 90%; margin: 0 auto;">
 <a href="xcode.png">
-  <img src="xcode.png" alt="The Cats Demo in Xcode" />
+  <img src="xcode.png" alt="The Cats Demo in Xcode">
 </a>
 </figure>
 
@@ -87,7 +87,7 @@ However, this tool is not really built for them. So who is this being built for?
 
 <figure style="width: 70%; margin: 0 auto;">
 <a href="hot-take.jpg">
-  <img src="hot-take.jpg" alt="Hot Take House" />
+  <img src="hot-take.jpg" alt="Hot Take House">
 </a>
 </figure>
 
@@ -112,7 +112,7 @@ I'll also add that I have many friends already working in SwiftUI natively in Xc
 
 <figure style="width: 40%; margin: 0 auto;">
 <a href="app-store.jpg">
-  <img src="app-store.jpg" alt="App Store Review meme" />
+  <img src="app-store.jpg" alt="App Store Review meme">
 </a>
 </figure>
 

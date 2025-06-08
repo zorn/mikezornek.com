@@ -7,7 +7,7 @@ images:
 ---
 
 <figure style="width: 30%; margin: 0;">
-<img src="book-cover.jpg" alt="Company of One Book Cover" data-action="zoom" />
+<img src="book-cover.jpg" alt="Company of One Book Cover" data-action="zoom">
 <figcaption>Company of One Book Cover</figcaption>
 </figure>
 

@@ -34,6 +34,6 @@ In this talk I'll review the network design we've come up with. I'll demo what w
 </figure>
 
 <figure>
-<img src="highres_477725971.jpeg" alt="Philly CocoaHeads, Group Shot" data-action="zoom" />
+<img src="highres_477725971.jpeg" alt="Philly CocoaHeads, Group Shot" data-action="zoom">
 <figcaption>Philly CocoaHeads, Group Shot</figcaption>
 </figure>

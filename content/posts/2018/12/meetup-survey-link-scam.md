@@ -6,7 +6,7 @@ aliases: /2018/12/06/meetup-survey-link-scam/
 
 Someone has breached Meetup.com security and been sending out links to some sketchy surveys.
 
-<img src="http://mikezornek.com/media/images/meetup-survey.png" width="150px" alt="Push Notifications with survey link." data-action="zoom" />
+<img src="http://mikezornek.com/media/images/meetup-survey.png" width="150px" alt="Push Notifications with survey link." data-action="zoom">
 
 I saw some more yesterday so I figured I&#8217;d post a warning.
 

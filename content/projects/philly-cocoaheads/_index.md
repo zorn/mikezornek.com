@@ -8,9 +8,9 @@ layout: onepage
 
 <div class="screenshots">
 
-<a href="pc-home.png"><img src="pc-home.png" alt="Philly CocoaHeads Home Page" /></a>
+<a href="pc-home.png"><img src="pc-home.png" alt="Philly CocoaHeads Home Page"></a>
 
-<a href="pc-about.png"><img src="pc-about.png" alt="Philly CocoaHeads About Page" /></a>
+<a href="pc-about.png"><img src="pc-about.png" alt="Philly CocoaHeads About Page"></a>
 
 </div>
 

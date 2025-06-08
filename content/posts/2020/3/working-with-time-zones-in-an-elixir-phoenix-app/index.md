@@ -8,7 +8,7 @@ This talk was originally presented at the [Philly Elixir Group](https://www.meet
 "Today we are going to talk about time zones, specifically what they are, how Elixir handles them and then talk about some strategies you can apply when working with time zones in the context of an Elixir Phoenix app backed by an Ecto database."
 
 <video controls>
-  <source src="https://f002.backblazeb2.com/file/mikezornek-com-media/working_with_time_zones_in_an_elixir_phoenix_app.mp4" type="video/mp4" />
+  <source src="https://f002.backblazeb2.com/file/mikezornek-com-media/working_with_time_zones_in_an_elixir_phoenix_app.mp4" type="video/mp4">
   <a href="https://f002.backblazeb2.com/file/mikezornek-com-media/working_with_time_zones_in_an_elixir_phoenix_app.mp4">Download MP4.</a>
 </video>
 

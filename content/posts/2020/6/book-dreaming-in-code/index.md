@@ -6,7 +6,7 @@ images:
   - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
 ---
 
-<img src="thumnb.jpeg" alt="Dreaming in Code book cover." style="width:auto;" />
+<img src="thumnb.jpeg" alt="Dreaming in Code book cover." style="width:auto;">
 
 Dreaming in Code is a book by Scott Rosenberg. On [the book website](http://www.dreamingincode.com/) he write:
 

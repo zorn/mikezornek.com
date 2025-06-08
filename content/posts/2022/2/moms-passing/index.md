@@ -15,7 +15,7 @@ I look forward to connecting with everyone again after I take some time to get t
 ---
 
 <figure style="width: 30%; margin: 0;">
-<img src="mom.jpg" alt="Photo of Maureen L. Carney" data-action="zoom" />
+<img src="mom.jpg" alt="Photo of Maureen L. Carney" data-action="zoom">
 </figure>
 
 Maureen L. Carney (nee Heffernan)

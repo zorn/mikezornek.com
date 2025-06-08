@@ -10,14 +10,14 @@ In the closing days of summer this past year, I started to get an itch about bui
 
 <figure>
 <a href="computer.jpeg">
-<img src="computer.jpeg" alt="Assembled computer powered off." />
+<img src="computer.jpeg" alt="Assembled computer powered off.">
 </a>
 <figcaption>Assembled computer powered off.</figcaption>
 </figure>
 
 <figure>
 <a href="colors.jpeg">
-<img src="colors.jpeg" alt="Assembled computer powered on." />
+<img src="colors.jpeg" alt="Assembled computer powered on.">
 </a>
 <figcaption>Assembled computer powered on.</figcaption>
 </figure>
@@ -36,7 +36,7 @@ In recent years, I shelved the gaming PC and have, instead, enjoyed my game time
 
 <figure>
 <a href="parts.jpeg">
-<img src="parts.jpeg" alt="Various PC parts laid out for assembly." />
+<img src="parts.jpeg" alt="Various PC parts laid out for assembly.">
 </a>
 <figcaption>Various PC parts laid out for assembly.</figcaption>
 </figure>
@@ -77,7 +77,7 @@ After I got the computer to POST, one issue I did run into was fans. I misunders
 
 <figure>
 <a href="desk.jpeg">
-<img src="desk.jpeg" alt="The full desk shot." />
+<img src="desk.jpeg" alt="The full desk shot.">
 </a>
 <figcaption>The full desk shot.</figcaption>
 </figure>
@@ -87,7 +87,7 @@ After I got the computer to POST, one issue I did run into was fans. I misunders
 Not having a readily available Windows computer around, I followed some [instructions](https://windowsreport.com/windows-11-usb-installer-on-mac/) to download the Windows 11 installer and make a bootable USB drive from my Mac. This worked fine for me, though sadly, I did not get a working network driver for the motherboard's wifi chip from Windows, so I had to download some manual drivers onto a separate USB drive to get that working. Once I was on the wifi, I could get all the other drivers directly from this machine, as well as the many OS-level updates.
 
 <figure>
-<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES" />
+<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES">
 </figure>
 
 I had a Windows 10 license from my old gaming PC, which worked fine for registering this copy of Windows 11.
@@ -113,7 +113,7 @@ So far, my main games have been Civ 6, Stardew Valley (trying to finish perfecti
 As 2025 approaches, I'm looking forward to Civ 7 and a playthrough of Red Dead 2 with some mods to shake up the gameplay. There is a rumor that MLB: The Show might get a PC release this year, and if so, I might play it here.
 
 <video controls>
-  <source src="oh-yeah.mp4" type="video/mp4" />
+  <source src="oh-yeah.mp4" type="video/mp4">
   <a href="oh-yeah.mp4">Download MP4.</a>
 </video>
 
