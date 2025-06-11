@@ -28,9 +28,9 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2025/5/open-pairing-elixir-mentor-sessions/index.md
+hugo new posts/2025/6/beginner-web-dev-accessibility/index.md
 ```
 
 ## The `reborn` theme.
 
-This site uses a custom theme called `reborn`. It is not built as a drop in theme for other Hugo sites. Feel free to reference it but keep that limitation in mind. 
+This site uses a custom theme called `reborn`. It is not built as a drop in theme for other Hugo sites. Feel free to reference it but keep that limitation in mind.
