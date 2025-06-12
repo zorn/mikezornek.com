@@ -52,7 +52,7 @@ Reviewed how a lack of color contrast can impact people's readability with low v
 
 An example was shared from a Bloomberg article titled [Designing the Terminal for color accessibility](https://www.bloomberg.com/ux/2021/10/14/designing-the-terminal-for-color-accessibility/):
 
-![An animation comparing our Default Color Scheme to a CVD Color Scheme with a Deuteranopia simulation overlay. This example exposes how the CVD color scheme (right) improved the color accessibility of the "up" and "down" market sentiment compared to the default color scheme (left).](/posts/2025/6/beginner-web-dev-accessibility/color-vision-deficiency-demo.gif)
+![An animation comparing our Default Color Scheme to a CVD Color Scheme with a Deuteranopia simulation overlay. This example exposes how the CVD color scheme (right) improved the color accessibility of the "up" and "down" market sentiment compared to the default color scheme (left).](/posts/2025/6/becoming-an-accessibility-ally/color-vision-deficiency-demo.gif)
 
 Notice how the design chooses red and green with a wanted contrasting visual concept, but when viewed by people with color vision issues, they will not see that contrast. To make it work for those people, choose different colors or offer alternative themes.
 
@@ -74,21 +74,21 @@ With the course behind me, I wanted to apply what I've learned and start with my
 
 One of the first tools I used was the [axe DevTools Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/). This extension can help point out accessibly concerns (like label-less form elements, color contrast issues, and way more) with good notes on how to approach each problem. The company behind this is [Deque](https://www.deque.com) (which is actually where one of my accessibility-fluent peers went to work). A bit of a warning, many of the tools Deque offers have open source availability, but their website kind of steers you to buy the paid-for version, so be prepared to go hunting a bit.
 
-![axe DevTools Firefox extension showing a few errors](/posts/2025/6/beginner-web-dev-accessibility/axe-dev-tools-firefox-extension.webp)
+![axe DevTools Firefox extension showing a few errors](/posts/2025/6/becoming-an-accessibility-ally/axe-dev-tools-firefox-extension.webp)
 
 Another tool I relied on was [RocketValidator](https://rocketvalidator.com). This tool will accept a single URL, validate it and then follow the site links to provide a full review of your site. This is a paid tool, but you can use a very helpful and usable free tier to get started.
 
-![A error filled version of a RocketValidator report.](/posts/2025/6/beginner-web-dev-accessibility/rocket-validator-report-red.webp)
+![A error filled version of a RocketValidator report.](/posts/2025/6/becoming-an-accessibility-ally/rocket-validator-report-red.webp)
 
 See the [initial report for yourself](https://rocketvalidator.com/s/7b6cc10c-42ed-43f5-9abc-9ac27e3591c7). (Note: this is the pre-fix version of the report. I've fixed a ton of those issues.)
 
 When solving the issues I saw on my public site, I relied on the local HTML validator of the [Web Developer Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) to help me make sure I was solving the issue. This extension is packed with helpful tools, but today, the `Validate Local HTML` tool was invaluable, letting me test local dev changes without publishing.
 
-![A list of tools offered by the Web Developer extension.](/posts/2025/6/beginner-web-dev-accessibility/firefox-web-developer-extension.webp)
+![A list of tools offered by the Web Developer extension.](/posts/2025/6/becoming-an-accessibility-ally/firefox-web-developer-extension.webp)
 
 Towards the end of applying my fixes, I also utilized the [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/) provided by the [WebAIM organization](https://webaim.org/). The presentation of structured content and inline overlays of problem areas was helpful—an [example report](https://wave.webaim.org/report#/https://learn-a11y.netlify.app/screen-reader) using one of the test pages from the course.
 
-![WAVE Screenshot](/posts/2025/6/beginner-web-dev-accessibility/wave-tool.webp)
+![WAVE Screenshot](/posts/2025/6/becoming-an-accessibility-ally/wave-tool.webp)
 
 With most of the accessibility issues resolved, I still had some recommended tools I wanted to try.
 
@@ -96,7 +96,7 @@ With most of the accessibility issues resolved, I still had some recommended too
 
 I used some Lighthouse feedback to make some [slight changes](https://github.com/zorn/mikezornek.com/blob/2449017836dee2fbc0c91f2d120a8bd80a72aee7/themes/reborn/layouts/partials/head.html#L74) to my image preloads to ultimately help with `Largest Contentful Paint (LCP)` timings and drawing the page faster.
 
-![Lighthouse screenshot](/posts/2025/6/beginner-web-dev-accessibility/lighthouse.webp)
+![Lighthouse screenshot](/posts/2025/6/becoming-an-accessibility-ally/lighthouse.webp)
 
 What also caught my eye was some [Lighthouse CI tools](https://github.com/GoogleChrome/lighthouse-ci/). These can slip into your CI toolchain to generate reports, and enforce performance requirements. I did some [experiments](https://github.com/zorn/mikezornek.com/blob/main/.github/workflows/lighthouse.yaml) but would need more time to work correctly. There is even a [server](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server) you can run so you might track the status of various performance metrics over time. This could be really powerful for a site of importance, but it is well outside my work scope this week.
 
