@@ -1,6 +1,6 @@
 ---
 title: "Becoming an Accessibility Ally: My Early Journey and Resources"
-date: 2025-06-11T12:00:00-04:00
+date: 2025-06-12T10:00:00-04:00
 description: In today's post, I'll share some things I learned from the Website Accessibility course and a few tools and resources you can look into if you are interested in leveling up as well.
 images:
   - posts/2025/6/becoming-an-accessibility-ally/axe-dev-tools-firefox-extension.webp
@@ -30,7 +30,7 @@ The section ends with installing a screen reader, which will be used in the next
 
 Reviewed image alt text, semantic HTML, the cost and complexity of using `<div>` elements as intended buttons, and screen reader-only content. We then use our new screen readers to work through some examples, demonstrating how the screen readers consume content using good examples, bad examples, and encouragement to make the bad examples work better.
 
-I've used VoiceOver a little in the past. We did some very rudimentary demos of it when I taught the iOS classes for Big Nerd Ranch, but it was never something I leaned on much professionally. The space to install and use it on some basic exercises helped me greatly. I feel comfortable now, enabling it to walk content and even flip through rotor menus to see how it can navigate.
+I've used VoiceOver a little in the past. We did some very rudimentary demos of it when I taught the iOS classes for Big Nerd Ranch, but it was never something I leaned on much professionally. The space to use it on some basic exercises helped me greatly. I feel comfortable now, enabling it to walk content and even flip through rotor menus to see how it can navigate.
 
 ### 3. Managing Focus and Tab Order
 
@@ -120,3 +120,7 @@ In addition to Lighthouse CI, I also took note of [Pa11y](https://pa11y.org/) an
 - GitHub and other sites provide this cool detection of `tab` and immediately show a `Skip to Content` link at the top, and when you press `Enter,` it jumps to the content. I would love to add that to my blog.
 - Many web apps have aligned on showing keyboard shortcuts using `?`. I want to consider doing that for future web apps and maybe even search tools for the blog.
 - I've started moving my blog videos into a simple S3 bucket store. I want to figure out a way to provide text transcripts for them.
+
+---
+
+Every journey begins with a small step. I enjoyed the opportunity to skill up with accessibility, and hope to continue to apply it to future work.
