@@ -121,6 +121,4 @@ In addition to Lighthouse CI, I also took note of [Pa11y](https://pa11y.org/) an
 - Many web apps have aligned on showing keyboard shortcuts using `?`. I want to consider doing that for future web apps and maybe even search tools for the blog.
 - I've started moving my blog videos into a simple S3 bucket store. I want to figure out a way to provide text transcripts for them.
 
----
-
 Every journey begins with a small step. I enjoyed the opportunity to skill up with accessibility, and hope to continue to apply it to future work.
