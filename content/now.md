@@ -5,7 +5,7 @@ layout: onepage
 description: I like to think of a Now page as the things I'd share if you were an old friend and we saw each other and were asking, what's going on? What are you working on? What are you excited about?
 ---
 
-Updated: May 12, 2025
+Updated: June 19, 2025
 
 ## What is a Now page?
 
@@ -15,49 +15,36 @@ You can find more info here too: <https://nownownow.com/about>
 
 ## Personal
 
-Nervous excitement about [moving on from my previous full-time job](/posts/2025/5/returning-to-self-employment/).
+Just returned from a few nice days down the shore with my sister. Despite a questionable forecast, we ended up with some nice weather and good beach days. I love getting beat up by the waves, resting in the sun, and repeating. Did not get much beach book reading done, but good vibes to clear my head.
 
-Generally, there have been more positive vibes lately. I am a little worried about how I might use and misuse the upcoming excessive free time. Trying hard to block off time and set daily/weekly goals.
-
-Enjoying the baseball season. It is a wonderful distraction, even with a shaky bullpen.
-
-World news is still very concerning, but trying to avoid letting it saturate my attention and do good work with the tools I am given.
+Vacation time is a great reset, and I look forward to returning to work refreshed and revived.
 
 ## Currently Snacking On
 
-Easter candy leftovers.
+My beach candy of choice was 3 Musketeers. I have a few left over.
 
 ## Work
 
-[Looking for consulting work](/elixir-consulting/) is a big priority day-to-day. Doing a mix of cold outreach, preparing to publish Elixir content in the weeks ahead, and otherwise trying to make space for good happenstance.
+Finished up some small gig work and currently looking for a more meaty [elixir consulting](/elixir-consulting/) project. I'm mainly focused on blog content publishing and other community interactions to help create space for more personal introductions. Over time, I'll have to expand this and maybe even suspend my 32-hour per week limit (which is in place to allow me to have some personal investment time).
 
 ## Side Projects
 
-I'm interested in the possibility of building some side-project software for the audience of digital product builders. Specifically, I'm thinking about customer success tooling. Right now, I'm spending a little time looking at various tools and watering holes to understand the landscape better.
+I'm interested in the possibility of building some side-project software for the audience of digital product builders. Specifically, I'm thinking about customer communication and success tooling. Right now, I'm spending a little time looking at various tools and watering holes to understand the landscape better.
 
-This pivot from some notebook / journaling / [local-first](/posts/2025/2/what-is-local-first-software/) interests is primarily driven by money. I saw that project as more of an education / personal-itch to scratch and in the moment I a bit more paranoid about money so would like to prefer business-to-business app ideas where revenue (while still a long shot) feels more approachable.
-
-Blog upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content.
-
-Otherwise, my main side projects right now are learning projects:
-
-- Finishing up [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) for book club. Hoping to take some of the lessons learned and better package my upcoming side projects for self-hosting interests.
-- Reading through [Svelte](https://svelte.dev/tutorial/svelte/welcome-to-svelte) docs as I would like to use it for some more complex frontend components, even in my LiveView work.
-- Planning to work through a [web accessibility](https://frontendmasters.com/courses/accessibility-v3/) course.
+Blog infrastructure upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content.
 
 ## Currently Playing
 
+- Red Dead 2 (doing lots of side quests, finishing up chapter 2)
+- Stardew Valley (just started Year 1 Fall on my newest farm)
 - MLB: The Show 2025 -- Been keeping up with live content and enjoying it. Avoiding the pay-to-win packs and consuming the normal content.
-- Played a small amount of [Lunar Silver Star Story](https://www.lunarremastered.com/) on my Steam Deck.
-- Very much thinking about a new Stardew Valley farm.
 
 ## Currently Reading
 
-- [Engineering Elixir Applications](https://pragprog.com/titles/beamops/engineering-elixir-applications/) (for [book club](https://elixirbookclub.github.io/website/))
 - [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
-- [Essential TypeScript 5](https://www.manning.com/books/essential-typescript-5-third-edition) (looking to use TypeScript with my potential Svelte work)
+- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (doing this at my computer and typing out all the things to really get my head around things)
 - [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
-- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (currently stalled, but might pick it up with new time on my hands)
+- [Writing for Developers](https://www.manning.com/books/writing-for-developers)
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
@@ -68,4 +55,4 @@ If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Upcoming Events
 
-A June shore/beach trip with my sister.
+Nothing. Would like to plan something for August/September.
