@@ -42,7 +42,7 @@ Blog infrastructure upgrades continue but are slowing. Still interested in doing
 ## Currently Reading
 
 - [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
-- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (doing this at my computer and typing out all the things to really get my head around things)
+- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (doing this at my computer and typing out all the things to really get my head around this library)
 - [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
 - [Writing for Developers](https://www.manning.com/books/writing-for-developers)
 
