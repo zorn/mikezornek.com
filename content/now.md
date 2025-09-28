@@ -5,7 +5,7 @@ layout: onepage
 description: I like to think of a Now page as the things I'd share if you were an old friend and we saw each other and were asking, what's going on? What are you working on? What are you excited about?
 ---
 
-Updated: June 19, 2025
+Updated: September 28, 2025
 
 ## What is a Now page?
 
@@ -15,44 +15,35 @@ You can find more info here too: <https://nownownow.com/about>
 
 ## Personal
 
-Just returned from a few nice days down the shore with my sister. Despite a questionable forecast, we ended up with some nice weather and good beach days. I love getting beat up by the waves, resting in the sun, and repeating. Did not get much beach book reading done, but good vibes to clear my head.
-
-Vacation time is a great reset, and I look forward to returning to work refreshed and revived.
-
-## Currently Snacking On
-
-My beach candy of choice was 3 Musketeers. I have a few left over.
+Doing better as of late. Feel like July and August were down months with not much going well. In September things are getting back into a good rhythm with some client consulting work and otherwise productive days.
 
 ## Work
 
-Finished up some small gig work and currently looking for a more meaty [elixir consulting](/elixir-consulting/) project. I'm mainly focused on blog content publishing and other community interactions to help create space for more personal introductions. Over time, I'll have to expand this and maybe even suspend my 32-hour per week limit (which is in place to allow me to have some personal investment time).
+I found a new consulting client and have been onboarding for the last few weeks. It is a kitchen software platform, dealing with order capture (online and kiosk), kitchen management, fulfillment, and delivery. Bunch of new things to learn. It is mostly just me, which is kind of unfortunate (I'd love more people to interact with day-to-day), but I have some limited access to a previous developer for guidance and review.
+
+Most of the work to date has been basic maintenance updates and testing work. Have also been doing some work adjacent to get a Grafana/Prometheus setup working on my side project Flick (which ideally, I'd repurpose here as well).
 
 ## Side Projects
 
-I'm interested in the possibility of building some side-project software for the audience of digital product builders. Specifically, I'm thinking about customer communication and success tooling. Right now, I'm spending a little time looking at various tools and watering holes to understand the landscape better.
-
-Blog infrastructure upgrades continue but are slowing. Still interested in doing some more old Vimeo video migrations and introducing tags for blog content.
+My side project work has come to a crawl (minus the Grafana/Prometheus stuff mentioned). I'm not really sure what I want to pour my attention into right now.
 
 ## Currently Playing
 
-- Red Dead 2 (doing lots of side quests, finishing up chapter 2)
-- Stardew Valley (just started Year 1 Fall on my newest farm)
-- MLB: The Show 2025 -- Been keeping up with live content and enjoying it. Avoiding the pay-to-win packs and consuming the normal content.
+I've been playing a lot of Civ 6 over the summer, but am starting to consider other games. This weekend I started Sea of Stars (which I bought a while ago). I also pre-ordered Final Fantasy Tactics remake. I have a mixed history with FFT, but curious to give it a new try. I have a Red Dead 2 game in progress that I play on occasion (mid Chapter 4), and also playing MLB: The Show a bit, but less in the last few weeks.
 
 ## Currently Reading
 
-- [Designing Data-Intensive Applications](https://dataintensive.net/buy.html) (for [book club](https://elixirbookclub.github.io/website/))
-- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (doing this at my computer and typing out all the things to really get my head around this library)
-- [Traction](https://www.goodreads.com/book/show/25768015-traction) (to help me plan marketing efforts of upcoming side project work)
-- [Writing for Developers](https://www.manning.com/books/writing-for-developers)
+- [Ash Framework](https://pragprog.com/titles/ldash/ash-framework/) (for Elixir Book Club -- I finished up to chapter 6 during the summer and will continue once book club catches up)
+- [Consider the Lobster](https://en.wikipedia.org/wiki/Consider_the_Lobster)
+- [Man's Search for Meaning](https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning)
 
 If you use GoodReads you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
 - Phillies baseball
-- Seinfeld (season 4)
+- The Office (Season 2)
 
 ## Upcoming Events
 
-Nothing. Would like to plan something for August/September.
+- Sister's birthday party.
