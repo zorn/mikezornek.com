@@ -1,5 +1,5 @@
 ---
-title: "Github Copilot and Unhonored Branch Protection"
+title: "GitHub Copilot and Unhonored Branch Protection"
 date: 2025-10-15T10:40:25-04:00
 description: GitHub Copilot commits directly to `main` and ruins my night.
 ---
