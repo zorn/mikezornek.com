@@ -6,8 +6,8 @@ images:
   - posts/2025/5/phoenix-magic-link-authentication-review/2_register_form.png
 pain: "a junior dev needs to add user authentication and is aware of the `mix phx.gen.auth` tasks but is not sure what to expect"
 fix: "a high level technical overview of the core schemas and contexts at play; share a visual demonstrations and review of how it works"
-pain: "a senior dev who is already comfortable with `mix phx.gen.auth` is interested in learning what has changed in version 1.8 and what magic links are all about"
-fix: "provide a scannable review of what comes out of this code generation task; close the post with some pros and cons of the approach"
+pain2: "a senior dev who is already comfortable with `mix phx.gen.auth` is interested in learning what has changed in version 1.8 and what magic links are all about"
+fix2: "provide a scannable review of what comes out of this code generation task; close the post with some pros and cons of the approach"
 ---
 
 With Phoenix 1.8, the authentication code generator inside `phx.gen.auth` has been revamped, favoring an emailed 'magic link' authentication flow.
