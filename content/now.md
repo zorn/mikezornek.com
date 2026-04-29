@@ -5,7 +5,7 @@ layout: onepage
 description: I like to think of a Now page as the things I'd share if you were an old friend and we saw each other and were asking, what's going on? What are you working on? What are you excited about?
 ---
 
-Updated: December 8, 2025
+Updated: April 29, 2026
 
 ## What is a Now page?
 
@@ -15,32 +15,39 @@ You can find more info here too: <https://nownownow.com/about>
 
 ## Personal
 
-Feeling ok. Not in a particularly productive mindset, but not as down as I was during parts of the summer. This mindset is mostly fueled through gaming distractions during my off hours. While not ideal, I've been pretty content with "distracted" over down so, 🤷‍♂️.
+Finally starting to shake off the doldrums of winter. Enjoying the warmer weather and getting to open my windows. Trying to soak in the little things, like eating lunch outside. Need to reboot my morning walks.
 
 ## Work
 
-Been working a part-time maintenance contract for the last few months. Going well overall, but I am (for the most part) the only developer, so it is lonely work. Additionally, there is the challenge of learning a new code base, one inherited from a company that went out of business, and presents all the challenges one might expect. For now, the servers are running, and while some bugs are popping up, nothing too scary is happening. I expect this to stay the status quo while the upper management figures out what they want to do long-term.
+My part-time maintenance contract is starting to wind down, so I need to push efforts to find [more work](https://mikezornek.com/elixir-consulting/). Given how bad the job market is right now, I am a bit stressed out.
+
+While I'll engage the platforms like LinkedIn, my general (and historic) pattern here is to reach out to old peers and just try to publish more. The other half of that effort needs to include some self-improvement / educational tasks (which itself can fuel some publishing).
 
 ## Side Projects
 
-Nothing, and that is not good. One reason I justify a part-time contract is to invest in my own side projects, but I have not found an idea that pulls me in. It is so awkward being a software developer who believes the world needs less software.
+Started an [update branch](https://github.com/zorn/flick/pull/162) for Flick, but not much really. Have some ideas I may work on in the next few weeks.
 
 ## Currently Playing
 
-I (re)started leveling a Mage in World of Warcraft Classic that I created last year. I was excited about the upcoming re-release of The Burning Crusade, but my excitement has waned a little bit since I found out they will be launching with a significantly nerfed version. I'm probably not going to find the challenging heroics and raids I was looking forward to. If the place becomes a brainless loot piñata, I'm not sure it will hold my interest. The expansion itself probably won't release until Feb 2026, so plenty of time to hit classic level cap (60) and goof off.
+Enjoying MLB: The Show, though this year's release has been a buggy mess.
+
+Started a new Stardew Farm a few weeks ago. Still going strong, about to finish up Year 2. Time to decorate while waiting for that wine to process.
 
 ## Currently Reading
 
-My reading time has dropped drastically in the last few months. I am still chipping away at [Consider the Lobster](https://en.wikipedia.org/wiki/Consider_the_Lobster), but that is pretty much it. Even my Elixir Book Club is on hiatus until 2026.
+Read about half of [Advanced Functional Programming with Elixir](https://pragprog.com/titles/jkelixir/advanced-functional-programming-with-elixir/) (with the book club). It is interesting, but it is not holding me, and I'm likely to put it down.
+
+Read the first two chapters of [Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy](https://www.goodreads.com/book/show/57573212-learning-domain-driven-design). No strong feelings yet.
+
+I bought the second edition of [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/238227532-designing-data-intensive-applications) and am curious to read it (the first edition was very good), but I may favor the second edition of [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering-2nd/9781098179915/).
 
 If you use GoodReads, you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-- YouTube Warcraft things
-
-Planning to subscribe to Apple TV+ during holiday break to binge [Pluribus](https://www.rottentomatoes.com/tv/pluribus).
+- The Boys (Season 2) -- kind of meh writing, but Antony Starr as Homelander is fun to watch.
+- Project Hail Mary -- got to see this in IMAX and it was great. Looking forward to watching it again at home when it releases.
 
 ## Upcoming Events
 
-- Some holiday things.
+Not much. Will go to the shore with my sister in June. Did one Phillies game a week or so ago. Maybe try to do some day trips otherwise.
