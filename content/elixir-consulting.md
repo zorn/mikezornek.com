@@ -41,6 +41,11 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 <!-- This div helps add space under the above headline. -->
 <div>
 
+### 🧑‍🍳 Kitchen Display System
+
+**My role and work:** Joined a company that took ownership of a mission-critical kitchen software platform (web/mobile ordering, kitchen terminals, in-person ordering kiosks, etc.) but did not have dedicated software people in-house. Helped strengthen the platform foundations through documentation and execution of upgrades; analyzed active crashes and reduced system error rate; modernized and decommissioned unneeded production hardware to reduce costs.  
+**Product Impact:** Maintained high uptime and correctness of the platform through updates and bug fixes. Improved overall confidence and tooling, allowing for ongoing feature additions.
+
 ### 🥇 Budget Proposal Approval System
 
 **My role and work:** Collaborated with product leadership to refine and document a complex business logic tree request, shaking out many edge case concerns. Crafted the full-stack execution of this vision in Elixir and LiveView.  
