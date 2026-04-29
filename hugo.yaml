@@ -1,12 +1,14 @@
 baseURL: "https://mikezornek.com"
-languageCode: "en-us"
+locale: "en-us"
 title: "Mike Zornek"
 description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
 theme: "reborn"
 params:
   description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
   fediverse_creator: "@zorn@jawns.club"
-  author: Mike Zornek
+  author:
+    name: Mike Zornek
+    email: mike@mikezornek.com
 pagination:
   pagerSize: 20
 markup:

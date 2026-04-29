@@ -19,7 +19,7 @@
 
 {{ template "_internal/twitter_cards.html" . }}
 
-{{ with .Site.Params.author }}
+{{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}">
 {{ end }}
 

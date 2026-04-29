@@ -13,7 +13,7 @@ echo "Installing npm dependencies..."
 npm install --verbose
 
 # Install specific version of Hugo
-HUGO_VERSION="0.145.0"  # Change this to your required version
+HUGO_VERSION="0.161.1"  # Change this to your required version
 echo "Installing Hugo ${HUGO_VERSION}..."
 
 # Create directory for Hugo download and installation
