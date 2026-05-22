@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2025/10/github-copilot-and-branch-protection/index.md
+hugo new posts/2026/5/moral-struggles-of-ai-coding/index.md
 ```
 
 ## The `reborn` theme.
