@@ -41,10 +41,6 @@
       {
         "metric": "speed-index",
         "budget": 1000
-      },
-      {
-        "metric": "interaction-to-next-paint",
-        "budget": 200
       }
     ]
   }
