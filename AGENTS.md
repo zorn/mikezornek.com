@@ -1,8 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
-## What this is
+## About the project
 
 Personal website of Mike Zornek ([mikezornek.com](https://mikezornek.com)), built with Hugo and a custom theme called `reborn`. The site is hosted as a static site on Render; `bin/build.sh` is the production build script used by Render.
 
