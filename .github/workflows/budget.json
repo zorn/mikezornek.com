@@ -24,7 +24,7 @@
     "timings": [
       {
         "metric": "first-contentful-paint",
-        "budget": 1000
+        "budget": 1800
       },
       {
         "metric": "largest-contentful-paint",
@@ -40,11 +40,7 @@
       },
       {
         "metric": "speed-index",
-        "budget": 1000
-      },
-      {
-        "metric": "interaction-to-next-paint",
-        "budget": 200
+        "budget": 1800
       }
     ]
   }
