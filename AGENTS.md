@@ -36,10 +36,6 @@ The site uses a fully custom Hugo theme (`reborn`) that is not designed as a reu
 
 Tailwind v4 is configured here via `@import "tailwindcss"`. The file also loads the Typography plugin and pulls class names from `hugo_stats.json` (Hugo's build stats, used for Tailwind's content scanning). The comment at the top of `main.css` notes this CSS logically belongs in the theme but couldn't be hosted there — keep it here.
 
-### Root `layouts/` overrides
-
-A small `layouts/partials/` directory at the repo root lets you override individual theme partials without touching `themes/reborn/`. Prefer adding overrides here rather than editing the theme directly when only a partial needs changing.
-
 ### Content structure
 
 ```
