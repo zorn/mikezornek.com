@@ -42,6 +42,9 @@
           {{ .Content }}
         </div>
 
+        {{/* In-series prev/next (reading-order series only) */}}
+        {{ partial "series-nav.html" . }}
+
         {{/* Related posts */}}
         {{ $related := first 5 (.Site.RegularPages.Related .) }}
         {{ with $related }}
