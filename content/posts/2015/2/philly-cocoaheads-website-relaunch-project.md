@@ -2,10 +2,6 @@
 title: Philly CocoaHeads Website Relaunch Project
 date: 2015-02-22T23:37:27+00:00
 aliases: /2015/02/22/philly-cocoaheads-website-relaunch-project/
-categories:
-  - Coding
-  - iOS
-  - Personal Projects
 tags:
   - web-development
   - meetups

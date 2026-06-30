@@ -2,10 +2,6 @@
 title: "Video: Consuming JSON in Swift"
 date: 2016-01-18T17:04:53+00:00
 aliases: /2016/01/18/video-consuming-json-in-swift/
-categories:
-  - Coding
-  - Recommended
-  - Xcode
 tags:
   - ios
 ---

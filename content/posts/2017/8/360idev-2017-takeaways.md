@@ -2,8 +2,6 @@
 title: 360iDev 2017 Takeaways
 date: 2017-08-18T01:48:40+00:00
 aliases: /2017/08/17/360idev-2017-takeaways/
-categories:
-  - Uncategorized
 tags:
   - conferences
 ---

@@ -2,9 +2,6 @@
 title: "Running Lean: Problem Interviews"
 date: 2013-03-23T01:24:24+00:00
 aliases: /2013/03/22/running-lean-problem-interviews/
-categories:
-  - Entrepreneurship
-  - Personal Projects
 tags:
   - side-projects
 ---

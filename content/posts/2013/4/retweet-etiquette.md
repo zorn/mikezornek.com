@@ -2,9 +2,6 @@
 title: Retweet Etiquette
 date: 2013-04-18T20:12:34+00:00
 aliases: /2013/04/18/retweet-etiquette/
-categories:
-  - Entrepreneurship
-  - Tips
 ---
 
 I know I&#8217;ve done it. After months of working on a new project, I release it to the world and am extremely proud. I tweet about it and maybe even occasionally retweet some nice things people are saying.

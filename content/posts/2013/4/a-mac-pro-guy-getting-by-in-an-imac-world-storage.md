@@ -2,10 +2,6 @@
 title: "A Mac Pro Guy Getting By in an iMac World: Storage"
 date: 2013-04-17T04:39:47+00:00
 aliases: /2013/04/16/a-mac-pro-guy-getting-by-in-an-imac-world-storage/
-categories:
-  - Gripes
-  - Recommended
-  - Tips
 tags:
   - apple
   - hardware

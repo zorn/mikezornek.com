@@ -2,9 +2,6 @@
 title: “For the times they are a-changing”
 date: 2017-02-01T17:33:35+00:00
 aliases: /2017/02/01/for-the-times-they-are-a-changing/
-categories:
-  - Entrepreneurship
-  - Life Notes
 tags:
   - career
   - consulting

@@ -2,16 +2,6 @@
 title: "Video: Getting Started with iOS Development"
 date: 2014-05-19T13:28:47+00:00
 aliases: /2014/05/19/video-getting-started-with-ios-development/
-categories:
-  - Books
-  - Coding
-  - Conferences
-  - Entrepreneurship
-  - iOS
-  - Personal Projects
-  - Recommended
-  - Tips
-  - Xcode
 tags:
   - ios
 ---

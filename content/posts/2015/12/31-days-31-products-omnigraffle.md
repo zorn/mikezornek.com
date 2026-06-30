@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: OmniGraffle"
 date: 2015-12-17T19:28:26+00:00
 aliases: /2015/12/17/31-days-31-products-omnigraffle/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

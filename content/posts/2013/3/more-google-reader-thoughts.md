@@ -2,9 +2,6 @@
 title: More Google Reader Thoughts
 date: 2013-03-14T03:25:01+00:00
 aliases: /2013/03/13/more-google-reader-thoughts/
-categories:
-  - Industry News
-  - Personal Projects
 tags:
   - side-projects
 ---

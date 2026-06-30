@@ -2,9 +2,6 @@
 title: Instapaper Gripes
 date: 2012-09-18T03:17:27+00:00
 aliases: /2012/09/17/instapaper-gripes/
-categories:
-  - Gripes
-  - Interface Design
 tags:
   - reviews
 ---

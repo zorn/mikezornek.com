@@ -2,16 +2,6 @@
 title: Philly Craftsmanship
 date: 2014-08-03T00:52:02+00:00
 aliases: /2014/08/02/philly-craftsmanship/
-categories:
-  - Coding
-  - Conferences
-  - Continuous Integration
-  - Entrepreneurship
-  - Gaming
-  - JavaScript
-  - Life Notes
-  - Podcasts
-  - Recommended
 tags:
   - software-craft
   - meetups

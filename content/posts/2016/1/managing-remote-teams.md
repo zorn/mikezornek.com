@@ -2,11 +2,6 @@
 title: Managing Remote Teams
 date: 2016-01-28T21:25:28+00:00
 aliases: /2016/01/28/managing-remote-teams/
-categories:
-  - Coding
-  - Entrepreneurship
-  - Life Notes
-  - Project Management
 tags:
   - practices
 ---

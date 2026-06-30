@@ -2,11 +2,6 @@
 title: CocoaLove 2015 Notes
 date: 2015-10-13T00:58:44+00:00
 aliases: /2015/10/12/cocoalove-2015-notes/
-categories:
-  - Coding
-  - Conferences
-  - Entrepreneurship
-  - Personal Projects
 tags:
   - conferences
 ---

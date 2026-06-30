@@ -2,8 +2,6 @@
 title: My New Job with DmgCtrl
 date: 2013-10-30T03:00:27+00:00
 aliases: /2013/10/29/my-new-job-with-dmgctrl/
-categories:
-  - Life Notes
 tags:
   - career
 ---

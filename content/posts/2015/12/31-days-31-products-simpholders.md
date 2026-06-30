@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: SimPholders"
 date: 2015-12-01T19:38:25+00:00
 aliases: /2015/12/01/31-days-31-products-simpholders/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

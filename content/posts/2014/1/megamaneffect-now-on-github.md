@@ -2,10 +2,6 @@
 title: MegaManEffect now on GitHub
 date: 2014-01-12T20:25:35+00:00
 aliases: /2014/01/12/megamaneffect-now-on-github/
-categories:
-  - Coding
-  - Gaming
-  - Xcode
 tags:
   - side-projects
   - gaming

@@ -2,13 +2,6 @@
 title: Quick CocoaLove Recap
 date: 2014-11-01T00:35:46+00:00
 aliases: /2014/10/31/quick-cocoalove-recap/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Industry News
-  - iOS
-  - Life Notes
-  - Personal Projects
 tags:
   - conferences
 ---

@@ -2,9 +2,6 @@
 title: "31 Days, 31 Products: Fin"
 date: 2015-11-25T17:05:38+00:00
 aliases: /2015/11/25/31-days-31-products-fin/
-categories:
-  - iOS
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

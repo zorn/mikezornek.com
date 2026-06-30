@@ -2,11 +2,6 @@
 title: Introducing Zorn Labs LLC
 date: 2017-03-28T17:44:06+00:00
 aliases: /2017/03/28/introducing-zorn-labs-llc/
-categories:
-  - Coding
-  - Entrepreneurship
-  - iOS
-  - Life Notes
 tags:
   - career
   - consulting

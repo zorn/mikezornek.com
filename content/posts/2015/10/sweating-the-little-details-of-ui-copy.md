@@ -2,9 +2,6 @@
 title: Sweating the Little Details of UI Copy
 date: 2015-10-15T22:10:43+00:00
 aliases: /2015/10/15/sweating-the-little-details-of-ui-copy/
-categories:
-  - Interface Design
-  - iOS
 tags:
   - ios
 ---

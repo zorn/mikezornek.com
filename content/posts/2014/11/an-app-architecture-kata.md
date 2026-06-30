@@ -2,9 +2,6 @@
 title: An “App Architecture” Kata
 date: 2014-11-24T02:00:29+00:00
 aliases: /2014/11/23/an-app-architecture-kata/
-categories:
-  - Coding
-  - iOS
 tags:
   - ios
   - software-craft

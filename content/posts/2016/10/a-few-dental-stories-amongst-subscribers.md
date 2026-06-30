@@ -2,9 +2,6 @@
 title: A Few Dental Stories Amongst Subscribers
 date: 2016-10-16T21:39:22+00:00
 aliases: /2016/10/16/a-few-dental-stories-amongst-subscribers/
-categories:
-  - Life Notes
-  - Recommended
 series:
   - Journals
 ---

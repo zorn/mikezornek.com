@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Status Board"
 date: 2015-12-24T01:38:22+00:00
 aliases: /2015/12/23/31-days-31-products-status-board/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

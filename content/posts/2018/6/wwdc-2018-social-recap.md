@@ -2,12 +2,6 @@
 title: WWDC 2018 Social Recap
 date: 2018-06-09T02:49:05+00:00
 aliases: /2018/06/09/wwdc-2018-social-recap/
-categories:
-  - Conferences
-  - Gripes
-  - iOS
-  - Podcasts
-  - Recommended
 tags:
   - conferences
 ---

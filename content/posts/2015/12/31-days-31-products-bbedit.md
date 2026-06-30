@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: BBEdit"
 date: 2015-12-21T22:15:07+00:00
 aliases: /2015/12/21/31-days-31-products-bbedit/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

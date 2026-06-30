@@ -2,12 +2,6 @@
 title: "Philly CocoaHeads: History"
 date: 2016-01-21T21:53:29+00:00
 aliases: /2016/01/21/philly-cocoaheads-history/
-categories:
-  - iOS
-  - Life Notes
-  - Personal Projects
-  - Recommended
-  - Tips
 tags:
   - meetups
 ---

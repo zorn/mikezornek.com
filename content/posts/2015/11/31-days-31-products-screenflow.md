@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: ScreenFlow"
 date: 2015-11-28T22:48:48+00:00
 aliases: /2015/11/28/31-days-31-products-screenflow/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

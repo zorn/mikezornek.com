@@ -2,9 +2,6 @@
 title: "31 Days, 31 Products: Flixster"
 date: 2016-01-04T01:52:03+00:00
 aliases: /2016/01/03/31-days-31-products-flixster/
-categories:
-  - Movies
-  - Recommended
 tags:
   - reviews
 series:

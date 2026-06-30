@@ -2,8 +2,6 @@
 title: Gaming Update, May 2018
 date: 2018-05-18T15:15:35+00:00
 aliases: /2018/05/18/gaming-update-may-2018/
-categories:
-  - Uncategorized
 tags:
   - gaming
 ---

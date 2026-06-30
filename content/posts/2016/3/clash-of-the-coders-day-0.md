@@ -2,12 +2,6 @@
 title: "Clash of the Coders: Day 0"
 date: 2016-03-30T15:35:33+00:00
 aliases: /2016/03/30/clash-of-the-coders-day-0/
-categories:
-  - Coding
-  - iOS
-  - Life Notes
-  - Personal Projects
-  - Xcode
 tags:
   - side-projects
 ---

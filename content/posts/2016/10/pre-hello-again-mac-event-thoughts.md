@@ -2,12 +2,6 @@
 title: Pre-“Hello Again” Mac Event Thoughts
 date: 2016-10-22T22:34:21+00:00
 aliases: /2016/10/22/pre-hello-again-mac-event-thoughts/
-categories:
-  - Continuous Integration
-  - Gaming
-  - Industry News
-  - Personal Projects
-  - Xcode
 tags:
   - apple
 ---

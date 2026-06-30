@@ -2,9 +2,6 @@
 title: Ugly Swift Syntax for Checking Errors
 date: 2018-11-14T19:19:08+00:00
 aliases: /2018/11/14/ugly-swift-syntax-for-checking-errors/
-categories:
-  - Coding
-  - Gripes
 tags:
   - ios
 ---

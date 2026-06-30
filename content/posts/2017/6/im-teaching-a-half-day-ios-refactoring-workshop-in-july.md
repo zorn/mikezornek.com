@@ -2,11 +2,6 @@
 title: I'm Teaching a Half Day iOS Refactoring Workshop in July
 date: 2017-06-12T15:38:30+00:00
 aliases: /2017/06/12/im-teaching-a-half-day-ios-refactoring-workshop-in-july/
-categories:
-  - Entrepreneurship
-  - iOS
-  - Personal Projects
-  - Xcode
 tags:
   - ios
   - software-craft

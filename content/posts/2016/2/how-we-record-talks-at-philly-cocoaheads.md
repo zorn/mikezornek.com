@@ -2,11 +2,6 @@
 title: How We Record Talks at Philly CocoaHeads
 date: 2016-02-02T22:44:52+00:00
 aliases: /2016/02/02/how-we-record-talks-at-philly-cocoaheads/
-categories:
-  - Conferences
-  - iOS
-  - Recommended
-  - Tips
 tags:
   - meetups
 ---

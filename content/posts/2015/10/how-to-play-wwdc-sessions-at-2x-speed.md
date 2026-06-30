@@ -2,12 +2,6 @@
 title: How To Play WWDC Sessions at 2x Speed
 date: 2015-10-14T23:10:37+00:00
 aliases: /2015/10/14/how-to-play-wwdc-sessions-at-2x-speed/
-categories:
-  - Coding
-  - Conferences
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - ios
 ---

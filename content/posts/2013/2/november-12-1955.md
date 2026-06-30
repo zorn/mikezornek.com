@@ -2,8 +2,6 @@
 title: November 12, 1955
 date: 2013-02-19T21:31:25+00:00
 aliases: /2013/02/19/november-12-1955/
-categories:
-  - Life Notes
 series:
   - Journals
 ---

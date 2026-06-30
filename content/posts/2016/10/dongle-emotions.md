@@ -2,10 +2,6 @@
 title: Dongle Emotions
 date: 2016-10-30T22:08:18+00:00
 aliases: /2016/10/30/dongle-emotions/
-categories:
-  - Life Notes
-  - Project Management
-  - Tips
 series:
   - Journals
 ---

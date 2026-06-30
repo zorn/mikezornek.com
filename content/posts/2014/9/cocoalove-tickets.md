@@ -2,13 +2,6 @@
 title: CocoaLove Tickets
 date: 2014-09-04T01:02:47+00:00
 aliases: /2014/09/03/cocoalove-tickets/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Industry News
-  - iOS
-  - Life Notes
-  - Personal Projects
 tags:
   - conferences
 ---

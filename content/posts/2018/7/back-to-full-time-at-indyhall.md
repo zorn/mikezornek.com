@@ -2,8 +2,6 @@
 title: Back to Full Time at IndyHall (video 5m)
 date: 2018-07-19T20:06:18+00:00
 aliases: /2018/07/19/back-to-full-time-at-indyhall/
-categories:
-  - Life Notes
 tags:
   - career
 ---

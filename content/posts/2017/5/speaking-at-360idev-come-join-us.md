@@ -2,10 +2,6 @@
 title: Speaking at 360iDev, Come Join Us.
 date: 2017-05-22T16:17:25+00:00
 aliases: /2017/05/22/speaking-at-360idev-come-join-us/
-categories:
-  - Conferences
-  - iOS
-  - Life Notes
 tags:
   - conferences
 ---

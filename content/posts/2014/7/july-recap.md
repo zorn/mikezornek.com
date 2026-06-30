@@ -2,12 +2,6 @@
 title: July Recap
 date: 2014-07-29T03:08:13+00:00
 aliases: /2014/07/28/july-recap/
-categories:
-  - Coding
-  - Conferences
-  - iOS
-  - Life Notes
-  - Personal Projects
 series:
   - Journals
 ---

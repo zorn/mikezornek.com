@@ -2,8 +2,6 @@
 title: Say Hello at WWDC!
 date: 2018-06-02T01:49:44+00:00
 aliases: /2018/06/02/say-hello-at-wwdc/
-categories:
-  - Conferences
 tags:
   - conferences
 ---

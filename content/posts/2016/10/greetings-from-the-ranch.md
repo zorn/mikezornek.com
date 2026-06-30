@@ -2,10 +2,6 @@
 title: Greetings, from the Ranch
 date: 2016-10-03T02:08:59+00:00
 aliases: /2016/10/02/greetings-from-the-ranch/
-categories:
-  - Coding
-  - JavaScript
-  - Personal Projects
 tags:
   - web-development
   - side-projects

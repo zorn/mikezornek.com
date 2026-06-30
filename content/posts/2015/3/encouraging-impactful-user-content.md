@@ -2,8 +2,6 @@
 title: Encouraging Impactful User Content
 date: 2015-03-08T18:17:04+00:00
 aliases: /2015/03/08/encouraging-impactful-user-content/
-categories:
-  - Uncategorized
 tags:
   - side-projects
 ---

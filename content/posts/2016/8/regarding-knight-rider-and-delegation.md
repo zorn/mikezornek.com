@@ -2,10 +2,6 @@
 title: Regarding Knight Rider and Delegation
 date: 2016-08-02T22:14:36+00:00
 aliases: /2016/08/02/regarding-knight-rider-and-delegation/
-categories:
-  - Books
-  - Coding
-  - iOS
 tags:
   - ios
   - software-craft

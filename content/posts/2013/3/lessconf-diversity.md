@@ -2,9 +2,6 @@
 title: LessConf Diversity
 date: 2013-03-14T19:51:58+00:00
 aliases: /2013/03/14/lessconf-diversity/
-categories:
-  - Conferences
-  - Gripes
 tags:
   - conferences
 ---

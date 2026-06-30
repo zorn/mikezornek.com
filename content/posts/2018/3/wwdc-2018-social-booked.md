@@ -2,8 +2,6 @@
 title: WWDC 2018 Social, Booked
 date: 2018-03-13T19:39:04+00:00
 aliases: /2018/03/13/wwdc-2018-social-booked/
-categories:
-  - Conferences
 tags:
   - conferences
 ---

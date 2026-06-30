@@ -2,9 +2,6 @@
 title: Memorable Songs from Pivotal Indy Moments of Your Life
 date: 2015-10-25T20:44:04+00:00
 aliases: /2015/10/25/memorable-songs-from-pivotal-indy-moments-of-your-life/
-categories:
-  - Entrepreneurship
-  - Life Notes
 series:
   - Journals
 ---

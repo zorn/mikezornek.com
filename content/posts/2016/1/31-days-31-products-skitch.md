@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Skitch"
 date: 2016-01-15T21:16:17+00:00
 aliases: /2016/01/15/31-days-31-products-skitch/
-categories:
-  - Recommended
 tags:
   - reviews
 series:

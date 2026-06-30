@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Today"
 date: 2015-12-02T20:09:06+00:00
 aliases: /2015/12/02/31-days-31-products-today/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

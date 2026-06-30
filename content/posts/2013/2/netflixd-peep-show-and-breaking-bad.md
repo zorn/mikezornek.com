@@ -2,9 +2,6 @@
 title: "Netflix’d: Peep Show and Breaking Bad"
 date: 2013-02-07T00:10:36+00:00
 aliases: /2013/02/06/netflixd-peep-show-and-breaking-bad/
-categories:
-  - Netflix
-  - Recommended
 tags:
   - reviews
 ---

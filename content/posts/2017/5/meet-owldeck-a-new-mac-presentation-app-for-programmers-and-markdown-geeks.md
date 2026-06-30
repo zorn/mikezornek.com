@@ -2,11 +2,6 @@
 title: Meet OwlDeck, a New Mac Presentation App for Programmers and Markdown Geeks.
 date: 2017-05-04T02:44:09+00:00
 aliases: /2017/05/03/meet-owldeck-a-new-mac-presentation-app-for-programmers-and-markdown-geeks/
-categories:
-  - Coding
-  - Entrepreneurship
-  - Life Notes
-  - Personal Projects
 tags:
   - side-projects
 ---

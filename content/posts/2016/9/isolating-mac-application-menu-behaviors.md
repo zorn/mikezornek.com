@@ -2,8 +2,6 @@
 title: Isolating Mac Application Menu Behaviors
 date: 2016-09-12T17:34:58+00:00
 aliases: /2016/09/12/isolating-mac-application-menu-behaviors/
-categories:
-  - Coding
 tags:
   - ios
 ---

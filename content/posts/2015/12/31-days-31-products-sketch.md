@@ -2,9 +2,6 @@
 title: "31 Days, 31 Products: Sketch"
 date: 2015-12-27T18:19:08+00:00
 aliases: /2015/12/27/31-days-31-products-sketch/
-categories:
-  - Interface Design
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

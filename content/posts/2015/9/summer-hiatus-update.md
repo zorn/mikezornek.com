@@ -2,9 +2,6 @@
 title: Summer Hiatus Update
 date: 2015-09-24T20:44:59+00:00
 aliases: /2015/09/24/summer-hiatus-update/
-categories:
-  - Conferences
-  - Life Notes
 series:
   - Journals
 ---

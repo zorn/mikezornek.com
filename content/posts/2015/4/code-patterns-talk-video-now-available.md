@@ -2,12 +2,6 @@
 title: Code Patterns Talk, Video Now Available
 date: 2015-04-23T17:09:17+00:00
 aliases: /2015/04/23/code-patterns-talk-video-now-available/
-categories:
-  - Coding
-  - iOS
-  - Personal Projects
-  - Tips
-  - Xcode
 tags:
   - ios
   - software-craft

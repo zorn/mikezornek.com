@@ -2,10 +2,6 @@
 title: A Walled Garden of Shit
 date: 2014-08-12T00:55:27+00:00
 aliases: /2014/08/11/a-walled-garden-of-shit/
-categories:
-  - Gaming
-  - Gripes
-  - iOS
 tags:
   - apple
   - gaming

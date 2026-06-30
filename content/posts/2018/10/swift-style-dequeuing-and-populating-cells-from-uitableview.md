@@ -2,10 +2,6 @@
 title: "Swift Style: Dequeuing and Populating Cells From UITableView"
 date: 2018-10-15T23:03:40+00:00
 aliases: /2018/10/15/swift-style-dequeuing-and-populating-cells-from-uitableview/
-categories:
-  - Coding
-  - iOS
-  - Tips
 tags:
   - ios
 ---

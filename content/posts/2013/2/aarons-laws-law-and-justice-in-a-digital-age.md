@@ -2,8 +2,6 @@
 title: "Aaron’s Laws: Law and Justice in a Digital Age"
 date: 2013-02-23T18:41:30+00:00
 aliases: /2013/02/23/aarons-laws-law-and-justice-in-a-digital-age/
-categories:
-  - Recommended
 tags:
   - reviews
 ---

@@ -2,9 +2,6 @@
 title: Staying Secure on OS X with a Few Unsigned Apps
 date: 2015-10-19T22:10:33+00:00
 aliases: /2015/10/19/staying-secure-on-os-x-with-a-few-unsigned-apps/
-categories:
-  - Recommended
-  - Tips
 tags:
   - privacy
 ---

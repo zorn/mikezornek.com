@@ -2,9 +2,6 @@
 title: WWDC Student Scholarships
 date: 2013-04-29T23:17:59+00:00
 aliases: /2013/04/29/wwdc-student-scholarships/
-categories:
-  - Conferences
-  - Industry News
 tags:
   - conferences
 ---

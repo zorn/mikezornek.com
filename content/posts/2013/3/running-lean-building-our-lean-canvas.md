@@ -2,10 +2,6 @@
 title: "Running Lean: Building Our Lean Canvas"
 date: 2013-03-14T00:44:02+00:00
 aliases: /2013/03/13/running-lean-building-our-lean-canvas/
-categories:
-  - Entrepreneurship
-  - Personal Projects
-  - Recommended
 tags:
   - side-projects
 ---

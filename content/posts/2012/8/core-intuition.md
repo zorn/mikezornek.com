@@ -2,9 +2,6 @@
 title: Core Intuition
 date: 2012-08-24T02:48:47+00:00
 aliases: /2012/08/23/core-intuition/
-categories:
-  - Podcasts
-  - Recommended
 tags:
   - reviews
 ---

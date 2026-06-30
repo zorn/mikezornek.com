@@ -2,8 +2,6 @@
 title: WWDC 2015 Wish List
 date: 2015-05-02T23:48:58+00:00
 aliases: /2015/05/02/wwdc-2015-wish-list/
-categories:
-  - Uncategorized
 tags:
   - apple
 ---

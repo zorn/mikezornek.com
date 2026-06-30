@@ -2,8 +2,6 @@
 title: ElixirConf 2018 Notes
 date: 2018-09-09T19:54:59+00:00
 aliases: /2018/09/09/elixirconf-2018-notes/
-categories:
-  - Conferences
 tags:
   - conferences
   - elixir

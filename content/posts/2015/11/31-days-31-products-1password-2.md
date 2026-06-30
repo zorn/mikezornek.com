@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: 1Password"
 date: 2015-11-26T18:25:57+00:00
 aliases: /2015/11/26/31-days-31-products-1password-2/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

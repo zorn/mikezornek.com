@@ -2,9 +2,6 @@
 title: Phone Names
 date: 2014-10-02T00:26:27+00:00
 aliases: /2014/10/01/phone-names/
-categories:
-  - iOS
-  - Life Notes
 series:
   - Journals
 ---

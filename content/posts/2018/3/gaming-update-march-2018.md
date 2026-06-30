@@ -2,9 +2,6 @@
 title: Gaming Update, March 2018
 date: 2018-03-04T21:23:00+00:00
 aliases: /2018/03/04/gaming-update-march-2018/
-categories:
-  - Gaming
-  - Recommended
 tags:
   - gaming
 ---

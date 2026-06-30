@@ -2,8 +2,6 @@
 title: PragProg Thanksgiving Sale
 date: 2015-11-23T19:08:58+00:00
 aliases: /2015/11/23/pragprog-thanksgiving-sale/
-categories:
-  - Books
 tags:
   - books
 ---

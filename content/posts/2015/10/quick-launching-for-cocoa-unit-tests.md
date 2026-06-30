@@ -2,10 +2,6 @@
 title: Quick Launching for Cocoa Unit Tests
 date: 2015-10-14T01:22:26+00:00
 aliases: /2015/10/13/quick-launching-for-cocoa-unit-tests/
-categories:
-  - Coding
-  - Continuous Integration
-  - Tips
 tags:
   - ios
   - software-craft

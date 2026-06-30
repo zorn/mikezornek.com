@@ -2,8 +2,6 @@
 title: Panic’s Status Board for iPad
 date: 2013-04-24T20:39:42+00:00
 aliases: /2013/04/24/panics-status-board-for-ipad/
-categories:
-  - Recommended
 tags:
   - reviews
 ---

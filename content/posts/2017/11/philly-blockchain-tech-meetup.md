@@ -2,8 +2,6 @@
 title: Philly Blockchain Tech Meetup
 date: 2017-11-01T14:41:47+00:00
 aliases: /2017/11/01/philly-blockchain-tech-meetup/
-categories:
-  - Uncategorized
 tags:
   - meetups
 ---

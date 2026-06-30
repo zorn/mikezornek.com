@@ -2,15 +2,6 @@
 title: Side Projects
 date: 2014-04-19T03:08:02+00:00
 aliases: /2014/04/18/side-projects/
-categories:
-  - Books
-  - Coding
-  - CoffeeScript
-  - Conferences
-  - iOS
-  - JavaScript
-  - Life Notes
-  - Personal Projects
 tags:
   - side-projects
 ---

@@ -2,12 +2,6 @@
 title: Setup Bots Status as a Screensaver
 date: 2013-12-13T03:55:24+00:00
 aliases: /2013/12/12/setup-bots-status-as-a-screensaver/
-categories:
-  - Coding
-  - Continuous Integration
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - devops
   - ios

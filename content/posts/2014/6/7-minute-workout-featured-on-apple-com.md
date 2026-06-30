@@ -2,10 +2,6 @@
 title: 7 Minute Workout Featured on Apple.com
 date: 2014-06-10T19:24:00+00:00
 aliases: /2014/06/10/7-minute-workout-featured-on-apple-com/
-categories:
-  - iOS
-  - Life Notes
-  - Personal Projects
 tags:
   - ios
   - side-projects

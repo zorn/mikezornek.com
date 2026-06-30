@@ -2,11 +2,6 @@
 title: "New Blog: Rested Experience"
 date: 2016-07-05T15:29:25+00:00
 aliases: /2016/07/05/new-blog-rested-experience/
-categories:
-  - Entrepreneurship
-  - Life Notes
-  - Personal Projects
-  - Project Management
 tags:
   - side-projects
 ---

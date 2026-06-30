@@ -2,8 +2,6 @@
 title: "Swift and Cocoa: The Odd Couple"
 date: 2015-03-04T16:30:06+00:00
 aliases: /2015/03/04/swift-and-cocoa-the-odd-couple/
-categories:
-  - Uncategorized
 tags:
   - ios
 ---

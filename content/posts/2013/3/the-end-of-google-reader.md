@@ -2,9 +2,6 @@
 title: The End of Google Reader
 date: 2013-03-14T00:00:00+00:00
 aliases: /2013/03/13/the-end-of-google-reader/
-categories:
-  - Industry News
-  - Personal Projects
 tags:
   - side-projects
 ---

@@ -2,13 +2,6 @@
 title: "Designing & Planning Your iOS App Workshop Recap"
 date: 2014-11-11T18:34:29+00:00
 aliases: /2014/11/11/designing-planning-your-ios-app-workshop-recap/
-categories:
-  - Books
-  - Coding
-  - Entrepreneurship
-  - Interface Design
-  - iOS
-  - Personal Projects
 tags:
   - ios
 ---

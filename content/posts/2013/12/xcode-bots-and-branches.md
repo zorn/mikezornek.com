@@ -2,12 +2,6 @@
 title: Xcode Bots and Branches
 date: 2013-12-13T02:58:05+00:00
 aliases: /2013/12/12/xcode-bots-and-branches/
-categories:
-  - Coding
-  - Continuous Integration
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - devops
   - ios

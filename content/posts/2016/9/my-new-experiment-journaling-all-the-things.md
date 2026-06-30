@@ -2,8 +2,6 @@
 title: "My New Experiment: Journaling All the Things"
 date: 2016-09-13T21:34:36+00:00
 aliases: /2016/09/13/my-new-experiment-journaling-all-the-things/
-categories:
-  - Uncategorized
 tags:
   - practices
 ---

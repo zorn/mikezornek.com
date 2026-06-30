@@ -2,9 +2,6 @@
 title: Researching New Web Tools
 date: 2012-08-31T03:12:52+00:00
 aliases: /2012/08/30/researching-new-web-tools/
-categories:
-  - CoffeeScript
-  - JavaScript
 tags:
   - web-development
 ---

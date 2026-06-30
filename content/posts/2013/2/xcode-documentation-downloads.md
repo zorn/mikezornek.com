@@ -2,9 +2,6 @@
 title: Xcode Documentation Downloads
 date: 2013-02-20T19:22:19+00:00
 aliases: /2013/02/20/xcode-documentation-downloads/
-categories:
-  - Gripes
-  - Xcode
 tags:
   - ios
 ---

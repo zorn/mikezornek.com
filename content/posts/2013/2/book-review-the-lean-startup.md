@@ -2,10 +2,6 @@
 title: "Book Review: The Lean Startup"
 date: 2013-02-25T19:16:54+00:00
 aliases: /2013/02/25/book-review-the-lean-startup/
-categories:
-  - Books
-  - Entrepreneurship
-  - Recommended
 tags:
   - books
   - side-projects

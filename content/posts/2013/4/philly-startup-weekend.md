@@ -2,10 +2,6 @@
 title: Philly Startup Weekend
 date: 2013-04-30T00:50:22+00:00
 aliases: /2013/04/29/philly-startup-weekend/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Recommended
 tags:
   - conferences
   - side-projects

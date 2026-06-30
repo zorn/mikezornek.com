@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Vimeo"
 date: 2015-12-18T21:55:26+00:00
 aliases: /2015/12/18/31-days-31-products-vimeo/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

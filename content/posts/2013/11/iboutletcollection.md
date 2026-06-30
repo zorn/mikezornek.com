@@ -2,12 +2,6 @@
 title: IBOutletCollection
 date: 2013-11-28T01:35:39+00:00
 aliases: /2013/11/27/iboutletcollection/
-categories:
-  - Coding
-  - Interface Design
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - ios
 ---

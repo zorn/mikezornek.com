@@ -2,8 +2,6 @@
 title: Gaming Update, April 2018
 date: 2018-04-05T00:57:29+00:00
 aliases: /2018/04/04/gaming-update-april-2018/
-categories:
-  - Gaming
 tags:
   - gaming
 ---

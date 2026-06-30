@@ -2,10 +2,6 @@
 title: Announcing a New Project, CB Reader
 date: 2013-03-07T20:29:06+00:00
 aliases: /2013/03/07/announcing-a-new-project-cb-reader/
-categories:
-  - Entrepreneurship
-  - Life Notes
-  - Site News
 tags:
   - side-projects
 ---

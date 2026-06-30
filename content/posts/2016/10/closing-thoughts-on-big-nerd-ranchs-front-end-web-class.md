@@ -2,13 +2,6 @@
 title: Closing Thoughts on Big Nerd Ranch’s Front End Web Class
 date: 2016-10-13T01:48:24+00:00
 aliases: /2016/10/12/closing-thoughts-on-big-nerd-ranchs-front-end-web-class/
-categories:
-  - Coding
-  - Conferences
-  - Interface Design
-  - JavaScript
-  - Life Notes
-  - Recommended
 tags:
   - web-development
 ---

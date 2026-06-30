@@ -2,10 +2,6 @@
 title: Rebooting My Professional Side Projects
 date: 2015-11-17T04:25:06+00:00
 aliases: /2015/11/16/rebooting-my-professional-side-projects/
-categories:
-  - Entrepreneurship
-  - Life Notes
-  - Personal Projects
 tags:
   - side-projects
 ---

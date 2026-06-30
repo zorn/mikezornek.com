@@ -2,11 +2,6 @@
 title: "Video: Introduction to Objective-C Categories"
 date: 2013-05-23T18:01:37+00:00
 aliases: /2013/05/23/video-introduction-to-objective-c-categories/
-categories:
-  - Coding
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - ios
 ---

@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Dash"
 date: 2015-12-29T18:58:12+00:00
 aliases: /2015/12/29/31-days-31-products-dash/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

@@ -2,8 +2,6 @@
 title: Self Employment Estimate Numbers
 date: 2018-09-04T20:22:16+00:00
 aliases: /2018/09/04/self-employment-estimate-numbers/
-categories:
-  - Uncategorized
 tags:
   - career
 ---

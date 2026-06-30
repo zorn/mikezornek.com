@@ -2,11 +2,6 @@
 title: Mid-week Checkin
 date: 2016-10-06T01:34:06+00:00
 aliases: /2016/10/05/mid-week-checkin/
-categories:
-  - Books
-  - Coding
-  - JavaScript
-  - Recommended
 series:
   - Journals
 ---

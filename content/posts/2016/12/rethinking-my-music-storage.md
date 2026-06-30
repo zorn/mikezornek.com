@@ -2,10 +2,6 @@
 title: Rethinking My Music Storage
 date: 2016-12-10T02:58:07+00:00
 aliases: /2016/12/09/rethinking-my-music-storage/
-categories:
-  - Gripes
-  - Personal Projects
-  - Tips
 tags:
   - apple
   - hardware

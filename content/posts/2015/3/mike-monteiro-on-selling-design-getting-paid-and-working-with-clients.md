@@ -2,8 +2,6 @@
 title: Mike Monteiro on Selling Design, Getting Paid and Working with Clients
 date: 2015-03-17T18:51:47+00:00
 aliases: /2015/03/17/mike-monteiro-on-selling-design-getting-paid-and-working-with-clients/
-categories:
-  - Uncategorized
 tags:
   - consulting
 ---

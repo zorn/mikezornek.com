@@ -2,9 +2,6 @@
 title: Farewell Edge Cases
 date: 2015-04-23T15:43:46+00:00
 aliases: /2015/04/23/farewell-edge-cases/
-categories:
-  - Podcasts
-  - Recommended
 tags:
   - reviews
 ---

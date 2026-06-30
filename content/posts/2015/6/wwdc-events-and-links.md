@@ -2,8 +2,6 @@
 title: WWDC Events and Links
 date: 2015-06-01T19:13:14+00:00
 aliases: /2015/06/01/wwdc-events-and-links/
-categories:
-  - Conferences
 tags:
   - conferences
 ---

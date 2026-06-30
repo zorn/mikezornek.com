@@ -2,13 +2,6 @@
 title: CocoaConf Boston 2014 Recap
 date: 2014-11-19T01:21:36+00:00
 aliases: /2014/11/18/cocoaconf-boston-2014-recap/
-categories:
-  - Coding
-  - Conferences
-  - Entrepreneurship
-  - iOS
-  - Personal Projects
-  - Recommended
 tags:
   - conferences
 ---

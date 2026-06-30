@@ -2,8 +2,6 @@
 title: A Change of Scenery
 date: 2012-08-23T02:43:27+00:00
 aliases: /2012/08/22/a-change-of-scenery/
-categories:
-  - Life Notes
 tags:
   - career
 ---

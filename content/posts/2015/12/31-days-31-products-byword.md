@@ -2,8 +2,6 @@
 title: "31 Days, 31 Products: Byword"
 date: 2015-12-04T01:38:20+00:00
 aliases: /2015/12/03/31-days-31-products-byword/
-categories:
-  - Recommended
 series:
   - 31 Days 31 Products
 tags:

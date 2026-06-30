@@ -2,8 +2,6 @@
 title: Gaming Update, September 2018
 date: 2018-09-26T00:24:04+00:00
 aliases: /2018/09/26/gaming-update-september-2018/
-categories:
-  - Gaming
 tags:
   - gaming
 ---

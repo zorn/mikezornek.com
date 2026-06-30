@@ -2,8 +2,6 @@
 title: Fever Dreams
 date: 2017-02-07T02:11:31+00:00
 aliases: /2017/02/06/fever-dreams/
-categories:
-  - Life Notes
 series:
   - Journals
 ---

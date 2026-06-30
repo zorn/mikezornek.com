@@ -2,8 +2,6 @@
 title: My New Job with the Big Nerd Ranch
 date: 2015-01-19T22:26:40+00:00
 aliases: /2015/01/19/my-new-job-with-the-big-nerd-ranch/
-categories:
-  - Uncategorized
 tags:
   - career
 ---

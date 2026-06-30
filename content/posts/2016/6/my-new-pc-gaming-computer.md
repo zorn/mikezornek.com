@@ -2,9 +2,6 @@
 title: My New PC Gaming Computer
 date: 2016-06-19T22:53:29+00:00
 aliases: /2016/06/19/my-new-pc-gaming-computer/
-categories:
-  - Gaming
-  - Personal Projects
 tags:
   - gaming
   - hardware

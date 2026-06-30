@@ -2,11 +2,6 @@
 title: Enums and Switches
 date: 2013-12-29T17:31:47+00:00
 aliases: /2013/12/29/enums-and-switches/
-categories:
-  - Coding
-  - iOS
-  - Tips
-  - Xcode
 tags:
   - ios
 ---

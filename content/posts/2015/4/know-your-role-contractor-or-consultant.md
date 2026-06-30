@@ -2,9 +2,6 @@
 title: "Know Your Role: Contractor or Consultant"
 date: 2015-04-22T14:23:12+00:00
 aliases: /2015/04/22/know-your-role-contractor-or-consultant/
-categories:
-  - Coding
-  - Project Management
 tags:
   - consulting
 ---
