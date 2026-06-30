@@ -17,8 +17,8 @@ Some of the places include:
 
 ## Share Template
 
-✏️ New blog: "What is Local-first Software?"
+✏️ New blog: "Fresh Eyes on a Cucumbered Team"
 
-We believe that data ownership and real-time collaboration are not at odds with each other. It is possible to create software that has all the advantages of cloud apps, while also allowing you to retain full ownership of the data. We call this type of software local-first software. #localfirst
+There's a term for what happens when you've been on a team so long you stop noticing its quirks: you've been cucumbered. Here's what fresh eyes can (and can't responsibly) do about it.
 
-https://mikezornek.com/posts/2025/2/what-is-local-first-software/
+https://mikezornek.com/posts/2026/6/fresh-eyes-on-a-cucumbered-team/
