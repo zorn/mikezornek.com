@@ -2,6 +2,8 @@
 title: "Introducing Phoenix by Example"
 date: 2020-10-19T18:23:47-04:00
 description: With my increasing enjoyment of Elixir and Phoenix I've been anxious to find a teaching outlet using these technologies.
+tags:
+  - elixir
 ---
 
 Teaching has always been a big part of my self identity. Be it teaching at university, Big Nerd Ranch workshops or even my work with local tech meetups.

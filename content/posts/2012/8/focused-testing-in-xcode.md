@@ -5,6 +5,9 @@ aliases: /2012/08/26/focused-testing-in-xcode/
 categories:
   - Tips
   - Xcode
+tags:
+  - ios
+  - software-craft
 ---
 
 I&#8217;ve set a very informal goal to produce content for this blog on a daily basis. We&#8217;re not there yet, but before the night is lost, here is a quick Xcode tip I fell into today.

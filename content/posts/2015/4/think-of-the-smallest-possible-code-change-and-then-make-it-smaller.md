@@ -5,6 +5,8 @@ aliases: /2015/04/15/think-of-the-smallest-possible-code-change-and-then-make-it
 categories:
   - Coding
   - Tips
+tags:
+  - software-craft
 ---
 
 I&#8217;m working on a client project right now. We do peer review of the code via pull requests. It works great, but the quality of the reviews you get are very dependent on the size of the pull request you make.

@@ -4,6 +4,8 @@ date: 2025-05-06T20:21:54-04:00
 description: My full-time employment is coming to a close, and I am once again rebooting my self-employment life.
 images:
   - posts/2025/5/returning-to-self-employment/freedom.jpeg
+tags:
+  - career
 ---
 
 My full-time employment is coming to a close, and I am once again rebooting my self-employment life.

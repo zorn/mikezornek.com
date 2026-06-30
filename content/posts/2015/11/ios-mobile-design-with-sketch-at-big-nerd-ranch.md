@@ -6,6 +6,8 @@ categories:
   - Interface Design
   - iOS
   - Recommended
+tags:
+  - ios
 ---
 
 I&#8217;ve wanted to get better at using Sketch for a while now and it looks like I might get my wish!

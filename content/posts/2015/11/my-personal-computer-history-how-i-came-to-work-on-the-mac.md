@@ -5,6 +5,8 @@ aliases: /2015/11/30/my-personal-computer-history-how-i-came-to-work-on-the-mac/
 categories:
   - Coding
   - Life Notes
+tags:
+  - career
 ---
 
 I&#8217;m working on some other posts to recount the history of our CocoaHeads chapter. While brainstorming for it I couldn&#8217;t help but start to capture my own history and how I came to work on the Mac so I figured I&#8217;d write it up and share.

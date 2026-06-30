@@ -4,6 +4,8 @@ date: 2016-09-13T21:34:36+00:00
 aliases: /2016/09/13/my-new-experiment-journaling-all-the-things/
 categories:
   - Uncategorized
+tags:
+  - practices
 ---
 
 At [CocoaConf][1] I attended a session from my fellow [Big Nerd Ranch][2] coworker, [Mark Dalrymple][3]. In this session he explored the questions we ask when looking for bugs &#8212; or more specifically their solutions.

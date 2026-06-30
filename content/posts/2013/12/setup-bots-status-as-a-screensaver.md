@@ -8,6 +8,9 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - devops
+  - ios
 ---
 
 It&#8217;s time to turn off that family photo screensaver and switch to something that&#8217;s important, CI status screens!

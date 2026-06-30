@@ -2,6 +2,8 @@
 title: "Journal -- October 20, 2023"
 date: 2023-10-20T19:07:56-04:00
 description: It's been over a month since I did a casual journal -- so here we go.
+series:
+  - Journal
 ---
 
 Monday, October 20, 2023 -- It's been over a month since I did a casual journal -- so here we go.

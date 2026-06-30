@@ -2,6 +2,8 @@
 title: "Terraform on Linode Notes"
 date: 2020-12-23T05:54:53-05:00
 description: Over vacation I worked through a small project to use Terraform on Linode to provision a new webserver for my personal website. The following is a collection of notes and resources from the experience.
+tags:
+  - devops
 ---
 
 {{< video filename="terraform_on_linode_notes.mp4" youtube="F6AKTyrMz88" title="Terraform on Linode Notes" >}}

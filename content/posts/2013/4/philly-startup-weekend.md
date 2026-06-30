@@ -6,6 +6,9 @@ categories:
   - Conferences
   - Entrepreneurship
   - Recommended
+tags:
+  - conferences
+  - side-projects
 ---
 
 This weekend I got to take part in [Philly Startup Weekend][1]!

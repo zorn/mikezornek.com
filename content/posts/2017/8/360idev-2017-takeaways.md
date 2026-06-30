@@ -4,6 +4,8 @@ date: 2017-08-18T01:48:40+00:00
 aliases: /2017/08/17/360idev-2017-takeaways/
 categories:
   - Uncategorized
+tags:
+  - conferences
 ---
 
 [360iDev][1] is a long standing iOS developer conference held out in Denver, Colorado. This was my first year attending after hearing many good things from friends. Some quick notes:

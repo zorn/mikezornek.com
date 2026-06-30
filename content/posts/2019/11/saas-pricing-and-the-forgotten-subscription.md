@@ -2,6 +2,8 @@
 title: "SaaS Pricing and the Forgotten Subscription"
 date: 2019-11-26T17:17:09-05:00
 draft: true
+tags:
+  - side-projects
 ---
 
 Here is a question I would LOVE to get current SaaS owners to answer:

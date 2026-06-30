@@ -7,6 +7,8 @@ images:
 draft: true
 pain: for a consultant adopting a new project it can be overwhelming and not sure where to start; for a consulting joing a team you have a unique perspective to question the status quo and ask why
 fix: provie a brainstormy list of questions to ask yourself and team mates related to onboarding a new project
+tags:
+  - consulting
 ---
 
 As a consultant I have the benifit of joinging and observing a wide spectrum of projects. 

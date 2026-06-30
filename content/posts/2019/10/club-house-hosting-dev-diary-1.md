@@ -1,6 +1,8 @@
 ---
 title: "Club House Hosting Dev Diary 1: Some Introductions"
 date: 2019-10-21T11:08:21-04:00
+tags:
+  - side-projects
 ---
 
 The Project: [Club House Hosting](/projects/guildflow/)

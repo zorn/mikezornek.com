@@ -6,6 +6,9 @@ categories:
   - iOS
   - Life Notes
   - Personal Projects
+tags:
+  - ios
+  - side-projects
 ---
 
 One of the apps I worked on, [7 Minute Workout][1], has been featured by Apple again. This time it&#8217;s part of the [Strength TV ad][2] which features a bunch of great fitness apps on iOS.

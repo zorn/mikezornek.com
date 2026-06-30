@@ -2,6 +2,8 @@
 title: "A Look Back: Week Ending December 27th"
 date: 2020-12-29T17:41:34-05:00
 description: A terse review of what I've been up to.
+series:
+  - A Look Back
 ---
 
 Once again I missed my weekly updates so today notes include all items since the last check-in, [December 13th](/posts/2020/12/look-back-dec-13/). Additionally, I've been taking it easy during vacation so this list is lighter than usual.

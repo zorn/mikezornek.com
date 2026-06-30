@@ -2,6 +2,8 @@
 title: "The Moral Struggles of AI Coding"
 date: 2026-05-22T08:57:53-04:00
 description: A journal documenting my use of and personal ethics around AI coding as a programmer. 
+tags:
+  - ai
 ---
 
 This is more of a personal journal entry than a typical helpful blog post. Normally, I'd keep this in my private notebook, but since I want to link to these thoughts, I figured I'd post them on the blog.

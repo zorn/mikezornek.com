@@ -4,6 +4,10 @@ date: 2015-12-06T03:12:52+00:00
 aliases: /2015/12/05/31-days-31-products-instapaper/
 categories:
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 12: Instapaper

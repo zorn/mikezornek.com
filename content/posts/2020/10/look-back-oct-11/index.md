@@ -2,6 +2,8 @@
 title: "A Look Back: Week Ending October 11th"
 date: 2020-10-12T09:53:50-04:00
 description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+series:
+  - A Look Back
 ---
 
 Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.

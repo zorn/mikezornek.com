@@ -1,6 +1,8 @@
 ---
 title: "Gaming Update, December 2019"
 date: 2019-12-21T16:44:31-05:00
+tags:
+  - gaming
 ---
 
 With the holiday break going strong and my time for gaming increased, I figured I'd share what I've been playing lately.

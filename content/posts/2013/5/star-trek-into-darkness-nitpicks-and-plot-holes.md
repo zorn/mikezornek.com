@@ -5,6 +5,8 @@ aliases: /2013/05/26/star-trek-into-darkness-nitpicks-and-plot-holes/
 categories:
   - Gripes
   - Movies
+tags:
+  - reviews
 ---
 
 This is **Spoiler Country**. If you aren&#8217;t ready for spoilers, you might want to skip this post.

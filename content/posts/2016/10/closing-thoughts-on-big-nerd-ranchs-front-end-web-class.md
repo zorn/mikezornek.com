@@ -9,6 +9,8 @@ categories:
   - JavaScript
   - Life Notes
   - Recommended
+tags:
+  - web-development
 ---
 
 I posted a [few][1] [thoughts][2] while I was attending the [Front End Web class][3] last week and I figured I&#8217;d put a cap on it with some final thoughts.

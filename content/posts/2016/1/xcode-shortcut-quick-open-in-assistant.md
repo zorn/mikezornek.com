@@ -7,6 +7,8 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 This answer / revelation caused a bit of a stir in the [Philly CocoaHeads Slack][1] so I figured I&#8217;d share it here as well.

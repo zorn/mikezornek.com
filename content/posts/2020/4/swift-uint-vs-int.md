@@ -1,6 +1,8 @@
 ---
 title: "Swift UInt vs Int"
 date: 2020-04-09T15:23:36-04:00
+tags:
+  - ios
 ---
 
 I'm giving major consideration to utilizing Swift's `UInt` type for function returns and calculated properties in the future.

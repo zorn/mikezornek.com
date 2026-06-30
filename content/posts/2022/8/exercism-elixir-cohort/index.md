@@ -2,6 +2,8 @@
 title: "Exercism Elixir Cohort, New Video Series"
 date: 2022-08-02T19:39:16-04:00
 description: Exercism, the popular platform that teaches programming via structured coding exercises, is going to be hosting a free August cohort for their Elixir track. They brand the endeavour an "Exhort".
+tags:
+  - elixir
 ---
 
 Exercism, the popular platform that teaches programming via structured coding exercises, is going to be hosting [a free August cohort for their Elixir track](https://exercism.org/cohorts/exhort-aug-22). They brand the endeavour an "Exhort".

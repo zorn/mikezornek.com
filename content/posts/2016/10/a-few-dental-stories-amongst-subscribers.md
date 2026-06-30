@@ -5,6 +5,8 @@ aliases: /2016/10/16/a-few-dental-stories-amongst-subscribers/
 categories:
   - Life Notes
   - Recommended
+series:
+  - Journal
 ---
 
 One of my guilty (and time consuming) pleasures is YouTube.

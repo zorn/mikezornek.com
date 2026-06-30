@@ -4,6 +4,8 @@ date: 2022-10-27T20:10:37-04:00
 description: Please heed my warning or be cursed with coupled code!
 images:
   - posts/2022/10/fixture-rant/chose-poorly.jpg
+tags:
+  - software-craft
 ---
 
 Please heed my warning or be cursed with coupled test code!

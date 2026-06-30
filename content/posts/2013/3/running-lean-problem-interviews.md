@@ -5,6 +5,8 @@ aliases: /2013/03/22/running-lean-problem-interviews/
 categories:
   - Entrepreneurship
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 > The following post is part of a series of posts related to my new project, currently code named CB Reader. For the latest info, please consider [joining the CB Reader mailing list][1].

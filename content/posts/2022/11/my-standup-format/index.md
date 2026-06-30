@@ -4,6 +4,8 @@ date: 2022-11-09T15:00:32-05:00
 description: There is an async standup format I've been using for over a year now, and since it seems to be sticking, I figured I'd take a moment to share it and explain why I like it.
 images:
   - posts/2022/11/my-standup-format/we-are-fine.jpg
+tags:
+  - practices
 ---
 
 I find async standups to be a productive and low-cost ceremony in my development teams.

@@ -4,6 +4,8 @@ date: 2023-02-28T13:52:26-05:00
 description: I'm going to be doing a talk about GitHub Actions for ElixirClub.
 images:
   - posts/posts/2023/2/github-action-talk/github-actions.png
+tags:
+  - devops
 ---
 
 I'm going to be doing a talk about GitHub Actions for ElixirClub: [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.elixirclub.org/c/topic-events/github-actions).

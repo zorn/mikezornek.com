@@ -7,6 +7,8 @@ categories:
   - Entrepreneurship
   - Life Notes
   - Project Management
+tags:
+  - practices
 ---
 
 Local company [Wildbit][1] has been nice enough to host a running series of meetup events focused on running a software business and all that it can entail. Last night we discussed [Managing Remote Teams][2] and as a remote employee myself I was interested to hear what others people had to share. Below are some of my notes.

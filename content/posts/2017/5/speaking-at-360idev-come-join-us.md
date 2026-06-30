@@ -6,6 +6,8 @@ categories:
   - Conferences
   - iOS
   - Life Notes
+tags:
+  - conferences
 ---
 
 I&#8217;m happy to report some recent talk proposals were accepted and I&#8217;ll be [speaking at 360iDev][1] this August in Denver. I was already going to go to 360iDev regardless of the talks, I&#8217;ve heard great things from recent years, so this just makes the week that much more exciting.

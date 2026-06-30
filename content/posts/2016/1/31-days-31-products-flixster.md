@@ -5,6 +5,10 @@ aliases: /2016/01/03/31-days-31-products-flixster/
 categories:
   - Movies
   - Recommended
+tags:
+  - reviews
+series:
+  - 31 Days 31 Products
 ---
 
 ## Day 27: Flixster

@@ -7,6 +7,8 @@ categories:
   - Entrepreneurship
   - Life Notes
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 I have an application I&#8217;ve been working on. I&#8217;d love to get some feedback from people to see if this is a real problem for Twitter users. To do so I&#8217;ve made a short survey.

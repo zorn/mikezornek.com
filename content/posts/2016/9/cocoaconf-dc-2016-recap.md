@@ -6,6 +6,8 @@ categories:
   - Conferences
   - iOS
   - Personal Projects
+tags:
+  - conferences
 ---
 
 Had the pleasure to attend and speak at [CocoaConf DC][1] this past weekend.

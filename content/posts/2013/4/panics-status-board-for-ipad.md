@@ -4,6 +4,8 @@ date: 2013-04-24T20:39:42+00:00
 aliases: /2013/04/24/panics-status-board-for-ipad/
 categories:
   - Recommended
+tags:
+  - reviews
 ---
 
 I finally got some time to play with Panic&#8217;s new [Status Board][1] today and I have to say it&#8217;s pretty cool.

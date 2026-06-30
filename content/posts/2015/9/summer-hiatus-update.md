@@ -5,6 +5,8 @@ aliases: /2015/09/24/summer-hiatus-update/
 categories:
   - Conferences
   - Life Notes
+series:
+  - Journal
 ---
 
 Hello internets. So sorry for the summer hiatus here on the blog. So what have you been up to? ([Email me][1] and say hi!)

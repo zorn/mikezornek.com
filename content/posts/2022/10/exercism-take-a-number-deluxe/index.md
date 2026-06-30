@@ -2,6 +2,10 @@
 title: "Exercism Elixir Track: Take-A-Number Deluxe (GenServer)"
 date: 2022-10-19T16:19:28-04:00
 description: In today's Exercism Elixir Track video, we learn about GenServer while completing the Take-A-Number Deluxe exercise.
+tags:
+  - elixir
+series:
+  - Exercism Elixir Track
 ---
 
 In today's Exercism Elixir Track video, we learn about GenServer while completing the Take-A-Number Deluxe exercise.

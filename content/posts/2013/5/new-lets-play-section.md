@@ -5,6 +5,8 @@ aliases: /2013/05/06/new-lets-play-section/
 categories:
   - Gaming
   - Life Notes
+tags:
+  - gaming
 ---
 
 While I haven&#8217;t mentioned it too much on the blog, I&#8217;ve recently got back into Let&#8217;s Plays. From the new [Let&#8217;s Play index page][1]:

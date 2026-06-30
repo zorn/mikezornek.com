@@ -5,6 +5,8 @@ description: You've opened a project you didn't write, hit a wall, and found no 
 draft: true
 pain: the practices that keep a codebase healthy are easy to skip under pressure, and the cost lands on whoever inherits the project later
 fix: a scannable rundown of the non-code practices that make life better for the next developer -- and why each one is worth the effort
+tags:
+  - practices
 ---
 
 You've felt this. You open a project you didn't write, hit a wall, and there's no one left to ask. The code is all there, but the *why* is gone -- it left with whoever wrote it.

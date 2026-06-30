@@ -8,6 +8,9 @@ categories:
   - Personal Projects
   - Tips
   - Xcode
+tags:
+  - ios
+  - software-craft
 ---
 
 We&#8217;ve been trying to a better job of capturing our main talks at [Philly CocoaHeads][1]. You can find and subscribe to our small but growing collection of videos on Vimeo: <https://vimeo.com/phillycocoa>.

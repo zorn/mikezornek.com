@@ -4,6 +4,9 @@ date: 2022-09-04T13:25:37-04:00
 description: Some notes and takeaways from my time at ElixirConf.
 images:
   - posts/2022/9/elixir-conf-recap/selfie.jpeg
+tags:
+  - conferences
+  - elixir
 ---
 
 This past week I attended [ElixirConf](https://2022.elixirconf.com/) in Colorado. It was my first time out at an in-person conference since COVID lockdowns. As much as I hated the travel, it was great to see everyone.

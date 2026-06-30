@@ -1,6 +1,8 @@
 ---
 title: "2018 Retrospective; 2019 Goals"
 date: 2019-01-03T22:14:50-05:00
+tags:
+  - career
 ---
 
 Overall 2018 was a pretty good year.

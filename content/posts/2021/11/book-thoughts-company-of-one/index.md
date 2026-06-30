@@ -4,6 +4,9 @@ date: 2021-11-28T14:35:05-05:00
 description: I think this can be a helpful book for those like myself who are contemplating work opportunities, projects, or a new company. However, the valuable topics brought up are much more about growth than the title 'Company of One' really suggests.
 images:
   - posts/2021/11/book-thoughts-company-of-one/book-cover.jpg
+tags:
+  - books
+  - reviews
 ---
 
 <figure style="width: 30%; margin: 0;">

@@ -8,6 +8,9 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - devops
+  - ios
 ---
 
 Just a little quick tip tonight. If you create a Bot from within Xcode 5 it will assume that the branch you want this Bot to run on is the branch you are currently on. To change this, use the Xcode Bot Web interface. Select your Bot and look for the settings gear in the upper right and then edit the Bot, defining which branch you want to bot to run on.

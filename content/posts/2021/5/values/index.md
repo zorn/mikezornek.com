@@ -2,6 +2,8 @@
 title: "The Values That Define Us"
 date: 2021-05-17T10:30:00-04:00
 description: Having well-thought-out and excessively reenforced values are an extremely helpful tool to help shape and align the inevitable hard discussions and decisions that need to be made within an organization.
+tags:
+  - career
 ---
 
 Over the last year I've gained a much higher appreciation for the proper documentation of a company's values. When I was younger I was much more carefree about company values or even the company mission statement, but lately I find having well-thought-out and excessively reenforced values are an extremely helpful tool to help shape and align the inevitable hard discussions and decisions that need to be made within an organization.

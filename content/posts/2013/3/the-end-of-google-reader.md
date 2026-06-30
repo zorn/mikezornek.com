@@ -5,6 +5,8 @@ aliases: /2013/03/13/the-end-of-google-reader/
 categories:
   - Industry News
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 Alas, as the [prophecies foretold][1], Google Reader will be [shutting down July 1st][2] and with it hundreds if not thousands of apps that used Google Reader as their centralized RSS hub will be in trouble.

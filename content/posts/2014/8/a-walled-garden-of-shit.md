@@ -6,6 +6,9 @@ categories:
   - Gaming
   - Gripes
   - iOS
+tags:
+  - apple
+  - gaming
 ---
 
 From the [App Store Review Guidelines][1]:

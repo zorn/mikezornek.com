@@ -5,6 +5,8 @@ aliases: /2012/08/30/researching-new-web-tools/
 categories:
   - CoffeeScript
   - JavaScript
+tags:
+  - web-development
 ---
 
 I&#8217;ve been spec&#8217;ing out this app idea off and on for a few months. At first I was going to do it on the Mac, but, as time passed, I decided to make it a web app in the newer style instead. Not a &#8220;present form, hit submit, view results&#8221; kind of thing, but something that is always saving and receiving messages from the server &#8212; very dynamic.

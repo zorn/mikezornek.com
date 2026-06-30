@@ -4,6 +4,8 @@ date: 2018-09-04T20:22:16+00:00
 aliases: /2018/09/04/self-employment-estimate-numbers/
 categories:
   - Uncategorized
+tags:
+  - career
 ---
 
 In a world of being self-employed you need to constantly be evaluating your finances. I was lucky enough recently to finish paying off some long standing debit and so I did a revisit. Today I want to share with you how I do my estimate numbers and hopefully you can use some of these ideas to help plan your own independence and/or make sure your current indie life is in good shape.

@@ -4,6 +4,8 @@ date: 2025-05-26T16:26:55-04:00
 description: If you have an interesting side project in the works, an Elixir or LiveView question, or just want to chat about software development, schedule a call.
 images:
   - posts/2025/5/open-software-dev-coffee-talk/help-me-caffeine.jpg
+tags:
+  - consulting
 ---
 
 One of the joys of [self-employment](/elixir-consulting/) is having a little extra control over your day-to-day schedule.

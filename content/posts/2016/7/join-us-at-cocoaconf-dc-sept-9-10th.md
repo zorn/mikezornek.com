@@ -6,6 +6,8 @@ categories:
   - Coding
   - Conferences
   - iOS
+tags:
+  - conferences
 ---
 
 I&#8217;ve been to multiple [CocoaConfs][1] as an attendee and it&#8217;s with great pride I&#8217;m happy to say I&#8217;ll be a [speaker][2] at one soon.

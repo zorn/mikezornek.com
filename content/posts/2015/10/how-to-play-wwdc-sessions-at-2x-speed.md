@@ -8,6 +8,8 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 Now that all the new bits of iOS 9 and OS X 10.11 are in the wild you might find yourself wanting to get up to speed on some of the changes. One great resource to help you get started is [Apple&#8217;s WWDC videos][1].

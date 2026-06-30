@@ -2,6 +2,8 @@
 title: "Standup for Wednesday, June 8, 2022"
 date: 2022-06-08T13:35:42-04:00
 description: Daily standup journal for Wednesday, June 8, 2022.
+series:
+  - Standups
 ---
 
 ❤️ **Feeling:** Another low energy coding day day. Just not feeling it.

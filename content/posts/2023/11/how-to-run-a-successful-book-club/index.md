@@ -2,6 +2,9 @@
 title: "How to Run a Successful Book Club"
 date: 2023-11-10T12:21:13-05:00
 description: Running a book club can be a relatively low-cost and high-value experience. To help, I thought I'd document how I tend to prefer book clubs.
+tags:
+  - books
+  - meetups
 ---
 
 I've been a member (and organizer) of many professional-oriented book clubs in my career. I find them a valuable way to connect with peers, keep up with my reading goals, discover new ideas, and learn from other points of view.

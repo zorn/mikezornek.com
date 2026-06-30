@@ -2,6 +2,9 @@
 title: "Is WebKit Sabotaging the Future of the Open Web?"
 date: 2020-07-06T17:10:19-04:00
 description: Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use Firefox. I block ads. I encrypt my DNS lookups. I'm building a privacy-focused tool for meetups. And with all that said, this worries me.
+tags:
+  - privacy
+  - web-development
 ---
 
 This didn't get much press at the time, but during WWDC the WebKit team listed [a bunch of web technologies they will apparently not be implementing](https://webkit.org/tracking-prevention/) in the name of privacy.

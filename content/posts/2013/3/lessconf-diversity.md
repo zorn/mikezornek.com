@@ -5,6 +5,8 @@ aliases: /2013/03/14/lessconf-diversity/
 categories:
   - Conferences
   - Gripes
+tags:
+  - conferences
 ---
 
 I read [the following LessEverything blog post][1] and tweeted:

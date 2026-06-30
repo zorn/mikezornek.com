@@ -4,6 +4,8 @@ date: 2018-09-26T00:24:04+00:00
 aliases: /2018/09/26/gaming-update-september-2018/
 categories:
   - Gaming
+tags:
+  - gaming
 ---
 
 Forgive me, it&#8217;s been a while since my [last gaming update][1]. So, what am I playing?

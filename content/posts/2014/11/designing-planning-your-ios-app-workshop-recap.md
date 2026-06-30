@@ -9,6 +9,8 @@ categories:
   - Interface Design
   - iOS
   - Personal Projects
+tags:
+  - ios
 ---
 
 Workshops are a new effort from the [Philly CocoaHeads][1] group. Basic idea is: one workshop every other month, the workshop is a one day 5-6 hour event, that covers a single topic. Our first one was on Intermediate Objective-C and our second one, which was held last Saturday, covered [Designing & Planning Your iOS App][2].

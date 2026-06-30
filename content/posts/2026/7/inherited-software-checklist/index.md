@@ -5,6 +5,8 @@ description: "Inherited a live codebase with no one left who built it? Here's th
 draft: true
 pain: for a consultant adopting a new project, it can be overwhelming and not sure where to start
 fix: provide a checklist for stabilizing live software during the first week of an adoption/handoff engagement
+tags:
+  - practices
 ---
 
 Not every [consulting engagement](/elixir-consulting/) starts with joining a team that's humming along. Sometimes it starts with a handoff: the developers who built the software have moved on, but the software itself is still live, still has users, and still needs to keep working. There's no team culture to learn -- there might not be much of a team at all. This is how two of my recent client projects went. 

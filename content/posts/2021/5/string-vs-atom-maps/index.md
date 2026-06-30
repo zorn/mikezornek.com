@@ -4,6 +4,8 @@ slug: string-vs-atom-maps
 date: 2021-05-31T10:56:17-04:00
 pain: "confusion about lack of consistency regarding string-based maps vs atom-based maps"
 fix: "reaffirming the syntax rules and a guideline to follow in your own code"
+tags:
+  - elixir
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

@@ -4,6 +4,10 @@ date: 2016-01-05T03:05:02+00:00
 aliases: /2016/01/04/31-days-31-products-reeder/
 categories:
   - Recommended
+tags:
+  - reviews
+series:
+  - 31 Days 31 Products
 ---
 
 ## Day 28: Reeder

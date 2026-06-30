@@ -2,6 +2,8 @@
 title: "On Asking Multiple Questions"
 date: 2025-01-05T13:20:55-05:00
 description: Some notes on asking people multiple questions in a single message and how it can go south quickly.
+tags:
+  - practices
 ---
 
 On the socials [@jerzone shares](https://techhub.social/@jerzone/113759316836343224):

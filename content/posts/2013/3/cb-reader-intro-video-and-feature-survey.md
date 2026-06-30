@@ -4,6 +4,8 @@ date: 2013-03-23T01:16:46+00:00
 aliases: /2013/03/22/cb-reader-intro-video-and-feature-survey/
 categories:
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 Released earlier today, the [new intro video][1] starts to visualize some of the concepts I have in mind for CB Reader.

@@ -4,6 +4,8 @@ date: 2018-04-05T00:57:29+00:00
 aliases: /2018/04/04/gaming-update-april-2018/
 categories:
   - Gaming
+tags:
+  - gaming
 ---
 
 So [last month][1] I explained how I recently unsubscribed from WoW, somewhat because of it&#8217;s addictive nature and somewhat due to an interest in catching up with my growing game backlog. A few weeks in what do I do but replace it with new crack in the form of Stardew Valley.

@@ -4,6 +4,8 @@ date: 2025-02-03T09:11:28-05:00
 description: We believe that data ownership and real-time collaboration are not at odds with each other. It is possible to create software that has all the advantages of cloud apps, while also allowing you to retain full ownership of the data. We call this type of software local-first software.
 images:
   - posts/2025/2/what-is-local-first-software/offline-mode.jpg
+tags:
+  - privacy
 ---
 
 Local-first software is a term that came out of a research lab called Ink & Switch back in April 2019. In a [wonderful paper](https://www.inkandswitch.com/local-first), they explored some ideas that resonated with me.

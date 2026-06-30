@@ -5,6 +5,8 @@ aliases: /2013/02/06/netflixd-peep-show-and-breaking-bad/
 categories:
   - Netflix
   - Recommended
+tags:
+  - reviews
 ---
 
 When it comes to TV, you can usually catch me watching a mix of local sports. On the weekends, it might be some This Old House or Gordon Ramsey.

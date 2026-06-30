@@ -2,6 +2,8 @@
 title: "Journal -- July 1, 2022"
 date: 2022-07-01T11:27:42-04:00
 description: Journal -- July 1, 2022
+series:
+  - Journal
 ---
 
 Friday, July 1, 2022 -- Good news, I tested negative this morning and best I can tell have recovered from COVID. I'll be on the look out for a rebound infection as it is a possibility with the antivirals I was taking but overall very happy and excited.

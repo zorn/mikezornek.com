@@ -9,6 +9,8 @@ categories:
   - iOS
   - Life Notes
   - Personal Projects
+tags:
+  - conferences
 ---
 
 [CocoaLove][1] was a huge success. All of the talks were well received and the attendee side conversations vibrant and interesting. I think I saw 2 laptops open all weekend which to me is a huge sign people were engaged with our content. If you missed out, check out the [CocoaLove][2] site for some highlights of our tweet/photo live stream.

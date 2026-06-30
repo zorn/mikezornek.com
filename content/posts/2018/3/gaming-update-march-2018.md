@@ -5,6 +5,8 @@ aliases: /2018/03/04/gaming-update-march-2018/
 categories:
   - Gaming
   - Recommended
+tags:
+  - gaming
 ---
 
 Things have been pretty quite here so I thought I&#8217;d update you all on some things, you know the important stuff &#8212; like gaming!

@@ -4,6 +4,8 @@ date: 2013-02-23T18:41:30+00:00
 aliases: /2013/02/23/aarons-laws-law-and-justice-in-a-digital-age/
 categories:
   - Recommended
+tags:
+  - reviews
 ---
 
 A must watch lecture from Lawrence Lessig about the life of Aaron Swartz and the legal battle that led to his death.

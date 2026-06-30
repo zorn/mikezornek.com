@@ -6,6 +6,8 @@ categories:
   - Gripes
   - Life Notes
   - Personal Projects
+series:
+  - Journal
 ---
 
 {{< youtube N7Dwcpa21JM >}}

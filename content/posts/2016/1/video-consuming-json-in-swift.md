@@ -6,6 +6,8 @@ categories:
   - Coding
   - Recommended
   - Xcode
+tags:
+  - ios
 ---
 
 I gave a talk at Philly CocoaHeads last week reviewing various ways to consume JSON using Swift, including a preview a new open source project we have coming out soon™ from [Big Nerd Ranch][1] called [Freddy][2].

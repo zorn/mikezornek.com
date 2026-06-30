@@ -4,6 +4,10 @@ date: 2015-12-09T00:04:11+00:00
 aliases: /2015/12/08/31-days-31-products-charles-proxy/
 categories:
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 15: Charles Proxy

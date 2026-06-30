@@ -3,6 +3,9 @@ title: "Elixir Style: Prefer Unnested Aliases"
 slug: "style-aliases"
 date: 2022-04-01T12:31:06-04:00
 description: I recommend avoiding nested aliases since it negatively impacts your ability to text search a project for module usage.
+tags:
+  - elixir
+  - software-craft
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

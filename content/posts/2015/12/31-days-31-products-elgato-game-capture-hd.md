@@ -5,6 +5,12 @@ aliases: /2015/12/11/31-days-31-products-elgato-game-capture-hd/
 categories:
   - Gaming
   - Recommended
+tags:
+  - gaming
+  - hardware
+  - reviews
+series:
+  - 31 Days 31 Products
 ---
 
 ## Day 17: Elgato Game Capture HD

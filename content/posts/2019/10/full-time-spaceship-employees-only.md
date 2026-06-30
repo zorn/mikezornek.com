@@ -1,6 +1,8 @@
 ---
 title: "Full Time Spaceship Employees Only"
 date: 2019-10-22T17:22:29-04:00
+tags:
+  - apple
 ---
 
 Recent episodes of [Accidental Tech Podcast](https://atp.fm/) have brought up Apple's lack of quality developer documentation. The most recent discussion spawning after the release of a new website, [No Overview Available](https://nooverviewavailable.com/), which serves as "a survey of Apple developer documentation."

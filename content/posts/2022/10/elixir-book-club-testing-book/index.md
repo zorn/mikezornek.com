@@ -4,6 +4,10 @@ date: 2022-10-30T11:48:17-04:00
 description: I read this back in April of 2021 and thought well of it. It's a good overview of the various testing tools available and how to apply them to Elixir scenarios and patterns (OTP, Ecto, Phoenix).
 images:
   - posts/2022/10/elixir-book-club-testing-book/testing-elixir.jpg
+tags:
+  - elixir
+  - books
+  - meetups
 ---
 
 I am pleased to share the reboot of the Elixir Book Club.

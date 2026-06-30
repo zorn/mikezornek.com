@@ -2,6 +2,8 @@
 title: "Journal -- August 6, 2023"
 date: 2023-08-06T15:17:32-04:00
 description: A quick recap of recent personal things. Nothing earth-shattering, just a regular journal.
+series:
+  - Journal
 ---
 
 Sunday, August 6, 2023 -- A quick recap of recent personal things. Nothing earth-shattering, just a regular journal.

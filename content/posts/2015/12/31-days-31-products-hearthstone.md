@@ -5,6 +5,11 @@ aliases: /2015/12/10/31-days-31-products-hearthstone/
 categories:
   - Gaming
   - Recommended
+tags:
+  - gaming
+  - reviews
+series:
+  - 31 Days 31 Products
 ---
 
 ## Day 16: Hearthstone

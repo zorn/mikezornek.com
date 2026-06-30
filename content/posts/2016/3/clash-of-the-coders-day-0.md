@@ -8,6 +8,8 @@ categories:
   - Life Notes
   - Personal Projects
   - Xcode
+tags:
+  - side-projects
 ---
 
 One of the many interesting benefits I get working for [Big Nerd Ranch][1] is the opportunity to participate in many fun and unique events. One of the bigger ones is called Clash of the Coders.

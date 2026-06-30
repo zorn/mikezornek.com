@@ -1,6 +1,8 @@
 ---
 title: "iOS and Web Consulting Availability"
 date: 2020-01-03T10:53:23-05:00
+tags:
+  - consulting
 ---
 
 Happy New Year everyone. Hope you enjoyed your break.

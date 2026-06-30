@@ -4,6 +4,9 @@ date: 2022-09-30T14:12:39-04:00
 description: Deep work programming sessions are hard to come by. Find tiny ways to move your side project forward during the cracks of life.
 images:
   - posts/2022/9/side-project-tiny-tickets/tickets.jpg
+tags:
+  - side-projects
+  - practices
 ---
 
 If you have an active side project, I highly recommend you invest some of your valuable and limited time into ticket/issue creation to **plan out your work**. Specifically, you should **build up a collection** of ready-for-work tiny tickets in the **10-20 minute time completion** range.

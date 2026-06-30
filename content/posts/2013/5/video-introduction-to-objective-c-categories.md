@@ -7,6 +7,8 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 I&#8217;m hoping to do some formal screencasting, educational videos for iOS and Rails, in the future so for practice I hacked together this little Introduction to Objective-C Categories to try some stuff out. It&#8217;s not the worst thing ever so I thought I&#8217;d share it and my notes.

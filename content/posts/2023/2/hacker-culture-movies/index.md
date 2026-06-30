@@ -4,6 +4,8 @@ date: 2023-02-05T15:12:51-05:00
 description: For your amusement, a compiled list of hacker-culture movies to recommend to 'the kids'.
 images:
   - posts/2023/2/hacker-culture-movies/her.jpg
+tags:
+  - reviews
 ---
 
 At a recent [Philly CocoaHeads](http://phillycocoa.org/) Side Project Saturday event, which can best be described as a social club where the conversation jumps around in a chaotic nature amongst long-time friends and peers, we got to discussing impactful movies that helped define the computer hacking persona in our culture. Specifically, we were looking for recommendations for the younger members, born in the late 90s or 2000s, who have yet to enjoy these films.

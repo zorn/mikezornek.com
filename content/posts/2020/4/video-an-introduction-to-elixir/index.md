@@ -1,6 +1,8 @@
 ---
 title: "Video: An Introduction to Elixir"
 date: 2020-04-14T08:46:05-04:00
+tags:
+  - elixir
 ---
 
 This talk was originally presented at the [Philly Elixir Group](https://www.meetup.com/PhillyElixir/) April meeting.

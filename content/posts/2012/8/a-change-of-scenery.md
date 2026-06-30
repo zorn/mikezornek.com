@@ -4,6 +4,8 @@ date: 2012-08-23T02:43:27+00:00
 aliases: /2012/08/22/a-change-of-scenery/
 categories:
   - Life Notes
+tags:
+  - career
 ---
 
 After considering my options over the past few weeks, I made the move this past Sunday. It was another long Sunday night working at [IndyHall][1], and as I finished my work, I proceeded to pack up my iMac and all of its various wires. For the next few weeks I was going to work from home.

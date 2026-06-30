@@ -1,6 +1,8 @@
 ---
 title: "Meetup Finds New Owners and I Welcome the Competition"
 date: 2020-03-31T18:11:15-04:00
+tags:
+  - meetups
 ---
 
 For a long time I've felt Meetup's service offerings were pretty mediocre and stale. In 2017 they were purchased by WeWork and things only got worse.

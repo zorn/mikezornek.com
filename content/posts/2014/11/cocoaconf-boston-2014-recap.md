@@ -9,6 +9,8 @@ categories:
   - iOS
   - Personal Projects
   - Recommended
+tags:
+  - conferences
 ---
 
 After getting a solid [recommendation from Curtis][1], who attended the Washington DC variant, this weekend I headed north to CocoaConf Boston. It was my first CocoaConf and so I went into the weekend with a lot of blurred expectations.

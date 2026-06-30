@@ -4,6 +4,8 @@ date: 2017-02-13T19:53:35+00:00
 aliases: /2017/02/13/neck-surgery-recovery-update/
 categories:
   - Life Notes
+series:
+  - Journal
 ---
 
 My neck surgery on Friday was a success.

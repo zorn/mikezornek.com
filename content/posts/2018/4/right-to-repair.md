@@ -5,6 +5,8 @@ aliases: /2018/04/11/right-to-repair/
 categories:
   - Gripes
   - Industry News
+tags:
+  - apple
 ---
 
 [Via phoneArena:][1]

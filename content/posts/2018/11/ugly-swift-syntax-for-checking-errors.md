@@ -5,6 +5,8 @@ aliases: /2018/11/14/ugly-swift-syntax-for-checking-errors/
 categories:
   - Coding
   - Gripes
+tags:
+  - ios
 ---
 
 A common code pattern I see a lot in iOS code is:

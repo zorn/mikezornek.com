@@ -2,6 +2,8 @@
 title: "Standup for Monday, June 6, 2022"
 date: 2022-06-06T11:35:49-04:00
 description: Daily standup journal for Monday, June 6, 2022.
+series:
+  - Standups
 ---
 
 ❤️ **Feeling:** Feeling very lazy and unmotivated this morning but trying to get some things moving.

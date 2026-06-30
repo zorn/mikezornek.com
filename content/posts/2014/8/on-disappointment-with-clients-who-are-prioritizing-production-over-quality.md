@@ -6,6 +6,8 @@ categories:
   - Coding
   - Entrepreneurship
   - Tips
+tags:
+  - consulting
 ---
 
 A friend of mine emailed me, amongst a few others, asking for advice. He&#8217;s been working as a consultant for a little while now but has been unhappy about his recent clients. He says they haven&#8217;t been focused on the quality of things as much the general production speed and it disappoints him. My reply:

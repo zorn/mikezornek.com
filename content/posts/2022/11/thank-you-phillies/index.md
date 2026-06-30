@@ -4,6 +4,8 @@ date: 2022-11-07T19:38:45-05:00
 description: I look back on the 2022 season with immense pride for my team and offer particular thanks for giving me so much enjoyment during a time of personal need.
 images:
   - posts/2022/11/thank-you-phillies/zorn-at-the-bank.jpeg
+series:
+  - Journal
 ---
 
 This weekend the Phillies lost the World Series to the Houston Astros. Of course, this is a disappointing loss, but overall I look back on the 2022 season with immense pride for my team and offer particular thanks for giving me so much enjoyment during a time of personal need.

@@ -6,6 +6,8 @@ categories:
   - Coding
   - Life Notes
   - Personal Projects
+tags:
+  - career
 ---
 
 I&#8217;ve been kind of heads down with client work the last few months but wanted to say hi to those who still follow me here.

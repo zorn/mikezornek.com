@@ -8,6 +8,8 @@ categories:
   - iOS
   - Podcasts
   - Recommended
+tags:
+  - conferences
 ---
 
 I just got back from my WWDC 2018 Social trip and it was a lot of fun. I figured I&#8217;d do a quick recap of the social side and leave room to talk about the tech stuff as I get deeper into the session videos in the weeks to come.

@@ -7,6 +7,8 @@ categories:
   - Gripes
   - iOS
   - Xcode
+tags:
+  - ios
 ---
 
 Lots of WWDC predictions out there this week. Here&#8217;s a dream of mine. Sadly one that I&#8217;ve given up on, at least from Apple.

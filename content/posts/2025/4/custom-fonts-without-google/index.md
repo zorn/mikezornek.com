@@ -2,6 +2,9 @@
 title: "How I Got Rid of My Google-Hosted Web Fonts"
 date: 2025-04-15T08:19:13-04:00
 description: Some background on how I replaced Google-linked web fonts on this site with self-hosted ones to improve privacy concerns.
+tags:
+  - privacy
+  - web-development
 ---
 
 Over the last few weeks, I've been doing some infrastructure updates to the website, and one of those changes was to drop the use of [Google's linked web fonts](https://fonts.google.com/) and instead host custom fonts from my own server in the spirit of improving the privacy of my site visitors.

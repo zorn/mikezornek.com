@@ -5,6 +5,8 @@ aliases: /2015/04/23/farewell-edge-cases/
 categories:
   - Podcasts
   - Recommended
+tags:
+  - reviews
 ---
 
 Cue the [Journey song][1], [Edge Cases][2] is ending.

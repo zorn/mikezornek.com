@@ -6,6 +6,8 @@ categories:
   - Coding
   - iOS
   - Xcode
+tags:
+  - ios
 ---
 
 The [Introduction to iOS Development][1] class I&#8217;m teaching for Girl Develop It is open and tickets are for sale.

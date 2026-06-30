@@ -7,6 +7,8 @@ categories:
   - Conferences
   - Entrepreneurship
   - Personal Projects
+tags:
+  - conferences
 ---
 
 This weekend was the second annual [CocoaLove][1] event here in Philadelphia.

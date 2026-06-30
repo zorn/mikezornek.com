@@ -4,6 +4,8 @@ date: 2022-02-07T11:52:07-05:00
 description: Over the last few months, I have had to increasingly step back from friends and work to help take care of my mother. She passed away on Friday, February 4th.
 images:
   - posts/2022/2/moms-passing/mom.jpg
+series:
+  - Journal
 ---
 
 Over the last few months, I have had to increasingly step back from friends and work to help take care of my mother. She passed away on Friday, February 4th. Her [obituary] is shared below, and the memorial service will be this Saturday.

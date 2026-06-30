@@ -6,6 +6,8 @@ categories:
   - Entrepreneurship
   - Life Notes
   - Site News
+tags:
+  - side-projects
 ---
 
 Ah, the first public breath of a new project. So much potential and so much to do. Exciting times are afoot.

@@ -6,6 +6,9 @@ categories:
   - Coding
   - Continuous Integration
   - Tips
+tags:
+  - ios
+  - software-craft
 ---
 
 I was doing some proofreading and research today regarding the latest testing features in Xcode 7. In the process I ended up rereading this article from [Mark Dalrymple on code coverage][1]. It&#8217;s a great article but it also reminded me of a little tip I wanted to share on the blog.

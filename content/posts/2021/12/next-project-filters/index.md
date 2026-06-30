@@ -2,6 +2,8 @@
 title: "Filters Shaping My Next Project Idea"
 date: 2021-12-09T16:00:00-05:00
 description: A collection of notes on what my next project should and should not be.
+tags:
+  - side-projects
 ---
 
 _This post was updated on April 22, 2025, as I am again considering new side projects._

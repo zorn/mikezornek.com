@@ -7,6 +7,8 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 If you are one to use `enum` to define modes or types in your models or controllers, consider using `switch` statements to help branch the different behaviors. If you do so, the complier will help you when you have forgotten to implement behavior for a `enum` value.

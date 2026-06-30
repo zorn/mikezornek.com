@@ -1,6 +1,8 @@
 ---
 title: "Things Change Fast"
 date: 2020-03-26T10:54:14-04:00
+series:
+  - Journal
 ---
 
 It was only [March 1st](http://mikezornek.com/posts/2020/3/spinning-plates/) when I last did a rather normal personal update and man did things change fast for us all.

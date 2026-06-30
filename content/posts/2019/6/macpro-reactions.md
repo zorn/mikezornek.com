@@ -1,6 +1,9 @@
 ---
 title: "MacPro Reactions"
 date: 2019-06-04T19:41:48-04:00
+tags:
+  - apple
+  - hardware
 ---
 
 This year's WWDC as expected is overflowing with things to talk about. For now, let's scope this to just the MacPro (and its monitor).

@@ -4,6 +4,8 @@ date: 2017-02-07T02:11:31+00:00
 aliases: /2017/02/06/fever-dreams/
 categories:
   - Life Notes
+series:
+  - Journal
 ---
 
 While I had hopes of doing more productive things, I ended up spending the last few days in bed fighting off a pretty lousy sinus / chest cold.

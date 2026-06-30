@@ -2,6 +2,8 @@
 title: "Consulting Availability for iOS and Web Development"
 date: 2020-07-06T11:02:56-04:00
 description: More details about my freelance and consulting offerings on my For Hire page.
+tags:
+  - consulting
 ---
 
 While I know many are struggling with productivity during lock down (and I've certain had some bad days) on the whole I have been able to use the time fairly well. I've been putting major hours into [Guildflow](/projects/guildflow/) (Elixir / Phoenix web development), catching up with WWDC things (SwiftUI mostly) as well as kicking off my own [Android Book Club](/posts/2020/6/an-android-book-club-for-ios-developers/). And while these things are great, they are not how I make a living.

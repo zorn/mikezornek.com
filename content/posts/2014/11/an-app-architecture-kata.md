@@ -5,6 +5,9 @@ aliases: /2014/11/23/an-app-architecture-kata/
 categories:
   - Coding
   - iOS
+tags:
+  - ios
+  - software-craft
 ---
 
 At the last [Side Project Saturday][1] CocoaHeads event I ran a special little exercise. Here was how I described it.

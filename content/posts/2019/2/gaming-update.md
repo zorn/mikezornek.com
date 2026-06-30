@@ -1,6 +1,8 @@
 ---
 title: "Gaming Update, February 2019"
 date: 2019-02-13T12:00:00-05:00
+tags:
+  - gaming
 ---
 
 First and foremost I've been playing [Civilization VI](https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/), and getting better too. Civilization VI is by far one of the most complex games I've ever played (this is my first game in the series) but its been fun learning the game mechanics. I've been nudging up the AI difficulty as I go and it's starting to get rather challenging, though like many I do wish the AI was smarter rather than just more rewarded in order to draw its advantages.

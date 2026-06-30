@@ -2,6 +2,8 @@
 title: "Journal -- October 18, 2022"
 date: 2022-10-18T21:00:12-04:00
 description: Journal -- October 18, 2022
+series:
+  - Journal
 ---
 
 Tuesday, October 18, 2022 -- It's been three weeks since I posted a journal entry, and I have so much to share.

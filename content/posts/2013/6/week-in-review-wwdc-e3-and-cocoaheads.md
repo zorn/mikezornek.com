@@ -11,6 +11,9 @@ categories:
   - iOS
   - Life Notes
   - Xcode
+tags:
+  - conferences
+  - gaming
 ---
 
 It&#8217;s been a crazy week. Some random notes and observations&#8230;

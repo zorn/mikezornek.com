@@ -1,6 +1,8 @@
 ---
 title: "Video: Working With Time Zones in an Elixir Phoenix App"
 date: 2020-03-19T11:14:21-04:00
+tags:
+  - elixir
 ---
 
 This talk was originally presented at the [Philly Elixir Group](https://www.meetup.com/PhillyElixir/) February meeting.

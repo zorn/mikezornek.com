@@ -2,6 +2,8 @@
 title: "Journal -- August 5, 2022"
 date: 2022-08-05T17:42:14-04:00
 description: Journal -- August 5, 2022
+series:
+  - Journal
 ---
 
 Friday, August 5, 2022 -- Hello world, from my new laptop. I ordered this [two months ago](https://twitter.com/zorn/status/1532061941086097413) after an uncomfortable feeling that I was reliant on Mac hardware for my consulting income but the higher end model laptops of which I would want were becoming harder to order on short notice. Sure enough it took two months to get here but I am glad it has arrived.

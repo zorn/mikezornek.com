@@ -4,6 +4,10 @@ date: 2015-12-06T20:52:01+00:00
 aliases: /2015/12/06/31-days-31-products-sourcetree/
 categories:
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 13: SourceTree

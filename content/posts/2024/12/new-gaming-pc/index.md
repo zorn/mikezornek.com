@@ -4,6 +4,9 @@ date: 2024-12-29T09:22:54-05:00
 description: In the closing days of summer this past year, I started to get an itch about building a new gaming PC. In this post, I'll share what I built and some notes on its assembly.
 images:
   - posts//2024/12/new-gaming-pc/colors.jpeg
+tags:
+  - gaming
+  - hardware
 ---
 
 In the closing days of summer this past year, I started to get an itch about building a new gaming PC. In this post, I'll share what I built and some notes on its assembly.

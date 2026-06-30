@@ -2,6 +2,8 @@
 title: "Journal -- July 30, 2022"
 date: 2022-07-30T11:26:37-04:00
 description: Journal -- July 30, 2022
+series:
+  - Journal
 ---
 
 Saturday, July 30, 2022 -- It has been a calm week, and I am happy to have it.

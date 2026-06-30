@@ -6,6 +6,8 @@ categories:
   - Entrepreneurship
   - Personal Projects
   - Recommended
+tags:
+  - side-projects
 ---
 
 > The following post is part of a series of posts related to my new project, currently code named [CB Reader][1]. For the latest info, please consider [joining the CB Reader mailing list][2].

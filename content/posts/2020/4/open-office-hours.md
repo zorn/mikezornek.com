@@ -1,6 +1,8 @@
 ---
 title: "Open Office Hours"
 date: 2020-04-02T10:25:12-04:00
+tags:
+  - consulting
 ---
 
 Yesterday was my last day on contract and once again I have [Consulting Availability](http://mikezornek.com/posts/2020/3/consulting-availability/) and am available [for hire](http://mikezornek.com/for-hire/).

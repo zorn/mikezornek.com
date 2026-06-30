@@ -4,6 +4,8 @@ date: 2020-08-04T09:40:09-04:00
 description: Today I recorded some thoughts regarding the challenges meetups are facing as they've been forced online and ideas how those challenges can be met.
 images:
   - posts/2020/8/actionable-ideas-how-meetups-can-evolve-when-forced-online-only/thumb.jpeg
+tags:
+  - meetups
 ---
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).

@@ -1,6 +1,10 @@
 ---
 title: "The Great Monitor Search Continues"
 date: 2019-06-24T19:30:40-04:00
+tags:
+  - apple
+  - hardware
+  - reviews
 ---
 
 TLDR: The [LG 49 inch UltraWide monitor](https://www.lg.com/us/monitors/lg-49WL95C-W-ultrawide-monitor) is pretty cool, but not very Mac compatible (specifics defects below). Next up for me is the [Apple Store approved](https://www.apple.com/shop/product/HMUA2VC/A/lg-ultrafine-4k-display), 23.7-inch LG UltraFine 4K Display, which will trade screen real estate for retina, better color and native controls.

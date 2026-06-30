@@ -1,6 +1,8 @@
 ---
 title: "If Flying, Print Out MacBook Battery Status"
 date: 2019-08-23T21:43:50-04:00
+tags:
+  - apple
 ---
 
 In recent weeks the FAA has put a flight ban on the MacBook Pro laptops with recalled batteries. [NPR writes](https://www.npr.org/2019/08/13/750985881/u-s-air-regulators-ban-macbook-pros-with-recalled-batteries-from-flights):

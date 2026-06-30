@@ -1,6 +1,8 @@
 ---
 title: "A Smorgasbord of Updates, July 2019"
 date: 2019-07-29T15:12:22-04:00
+series:
+  - Journal
 ---
 
 That feeling when you realize you have not posted and the month is almost over. 😳

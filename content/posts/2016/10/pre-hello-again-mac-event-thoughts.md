@@ -8,6 +8,8 @@ categories:
   - Industry News
   - Personal Projects
   - Xcode
+tags:
+  - apple
 ---
 
 Having been a long time Mac user and developer it&#8217;s been very disappointing to see Apple ignore the hardware release cycle of the Mac platform over the last few years. I&#8217;m really anxious to see what&#8217;s going to come of the &#8220;Hello Again&#8221; event this week and I might even buy a new Mac depending.

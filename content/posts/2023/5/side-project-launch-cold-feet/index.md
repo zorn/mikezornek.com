@@ -2,6 +2,8 @@
 title: "Side Project Launch Cold Feet"
 date: 2023-05-13T19:55:49-04:00
 description: The good news, that project is functionally complete. The bad news, I’m not sure I want to launch it.
+tags:
+  - side-projects
 ---
 
 Almost [a year ago](https://mikezornek.com/posts/2022/6/side-project-idea-audit/) I documented my interest in re-building this blog in an Elixir/Phoenix/LiveView app for the purpose of learning event-sourcing and some new UI concepts. The good news, [that project](https://github.com/zorn/franklin) is functionally complete. The bad news, I'm not sure I want to launch it.

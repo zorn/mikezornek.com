@@ -2,6 +2,8 @@
 title: "Goal-oriented Side Event Ideas for Technical Meetups"
 date: 2020-09-21T14:17:26-04:00
 description: Goal-oriented events are the magnets that help attract members. Social bonds and community come through these events.
+tags:
+  - meetups
 ---
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).

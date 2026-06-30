@@ -4,6 +4,8 @@ date: 2017-11-01T14:41:47+00:00
 aliases: /2017/11/01/philly-blockchain-tech-meetup/
 categories:
   - Uncategorized
+tags:
+  - meetups
 ---
 
 Local geek friend [Ben DiFrancesc­o][1] is starting up a new meetup called [Philly Blockchain Tech][2]:

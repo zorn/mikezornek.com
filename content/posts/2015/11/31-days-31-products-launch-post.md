@@ -6,6 +6,8 @@ categories:
   - Conferences
   - Life Notes
   - Personal Projects
+series:
+  - 31 Days 31 Products
 ---
 
 At [CocoaLove 2015][1] we had the pleasure of listening to [Jaimee Newberry][2] speak and from [my notes][3] I recollect the following from her talk:

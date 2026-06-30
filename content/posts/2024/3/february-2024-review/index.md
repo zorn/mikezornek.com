@@ -2,6 +2,8 @@
 title: "February 2024 Review"
 date: 2024-03-12T20:25:14-04:00
 description: A collection of accomplishments, notes, and observations about February 2024.
+series:
+  - Monthly Reviews
 ---
 
 A collection of accomplishments, notes, and observations about February 2024.

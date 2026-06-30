@@ -5,6 +5,8 @@ aliases: /2013/03/13/more-google-reader-thoughts/
 categories:
   - Industry News
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 ## What was Google Reader?

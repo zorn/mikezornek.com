@@ -5,6 +5,8 @@ aliases: /2012/09/17/instapaper-gripes/
 categories:
   - Gripes
   - Interface Design
+tags:
+  - reviews
 ---
 
 First let me say that I really like [Instapaper][1]. It was one of the first apps that gave my iPad real purpose, and I use it pretty much daily. While the comments below might be negative and trite, there are tons of great things to love about this app too, so don&#8217;t take things too seriously. If you aren&#8217;t already using Instapaper, I&#8217;d recommend reading the [the MacStories review][2] to see what Instapaper is all about.

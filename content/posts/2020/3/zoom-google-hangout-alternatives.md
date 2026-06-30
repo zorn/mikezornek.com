@@ -1,6 +1,8 @@
 ---
 title: "Zoom / Google Hangout Alternatives"
 date: 2020-03-27T14:02:41-04:00
+tags:
+  - privacy
 ---
 
 With the need to do more video conferences and meetings many are turning to Zoom and Google Hangouts. Technically I've always thought Google Hangouts was pretty mediocre and Zoom, while a better user experience has shown [time](https://arstechnica.com/information-technology/2019/07/zoom-makes-it-too-easy-for-hackers-to-access-webcams-heres-what-to-do/) and [time](https://words.philpin.com/collection-of-your-personal-data-by-zoom) again not to be trustworthy software.

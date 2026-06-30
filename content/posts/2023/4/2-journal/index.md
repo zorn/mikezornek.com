@@ -2,6 +2,8 @@
 title: "Journal -- April 2, 2023"
 date: 2023-04-02T11:07:25-04:00
 description: The morning coffee has been consumed, and it's time for some Sunday journaling.
+series:
+  - Journal
 ---
 
 Sunday, April 2, 2023 -- The morning coffee has been consumed, and it's time for some Sunday journaling.

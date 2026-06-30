@@ -6,6 +6,8 @@ categories:
   - Coding
   - iOS
   - Tips
+tags:
+  - ios
 ---
 
 Everyone has an opinion when it comes to Swift code style, and here is mine when it comes to dequeuing and populating cells from `UITableView`.

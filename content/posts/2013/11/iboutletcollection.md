@@ -8,6 +8,8 @@ categories:
   - iOS
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 Did a short show and tell at the last CocoaHeads meeting demoing something I learned at work and hadn&#8217;t known about before, that being `IBOutletCollections`.

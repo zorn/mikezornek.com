@@ -7,6 +7,8 @@ categories:
   - iOS
   - Recommended
   - Tips
+tags:
+  - meetups
 ---
 
 I came across [this post][1] from Rico Jones on how he records the [Portland Ruby Brigade&#8217;s][2] monthly meetings and thought I&#8217;d do something similar for how we record the [Philly CocoaHead][3] presentations.

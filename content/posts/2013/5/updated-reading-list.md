@@ -5,6 +5,8 @@ aliases: /2013/05/05/updated-reading-list/
 categories:
   - Books
   - Site News
+tags:
+  - books
 ---
 
 Updated my [reading list][1]. Go check it out!

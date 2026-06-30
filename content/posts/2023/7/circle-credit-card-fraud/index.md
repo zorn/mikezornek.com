@@ -2,6 +2,8 @@
 title: "Circle Sign-Up Forms and Credit Card Fraud"
 date: 2023-07-04T13:00:00-04:00
 description: A short recap of issues I ran into where people were using my Circle community sign-up form to validate stolen credit cards and Circle's lack of proper response.
+tags:
+  - side-projects
 ---
 
 I'm a long-time fan of work done at freeCodeCamp and was sad to read this article a few years ago about how someone had [used their online donation form to test/validate stolen credit cards](https://www.freecodecamp.org/news/stopping-credit-card-fraud-and-saving-our-nonprofit/) (for later sale on the dark web). The amount of headaches this kind of thing causes (for all parties) is a nightmare. Refunds need to be issued, credit card fees paid regardless of refund status, cleaning up one's accounting and membership books.

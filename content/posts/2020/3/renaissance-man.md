@@ -1,6 +1,8 @@
 ---
 title: "Renaissance Man"
 date: 2020-03-16T15:39:04-04:00
+tags:
+  - software-craft
 ---
 
 👨‍💻 Right now I'm on a client project that has me working on an iOS SDK codebase but still touching GoLang, C and Kotlin/Android as well. I'm doing the best I can but it is challenging jumping around, particularly into languages I don't have a rich history with.

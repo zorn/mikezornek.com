@@ -4,6 +4,8 @@ date: 2022-09-26T08:00:00-04:00
 description: After working through the intro tutorial and demoing the project to my Apple friends, I figured I'd capture my notes and concerns.
 images:
   - posts/2022/9/26-liveview-native/hot-take.jpg
+tags:
+  - elixir
 ---
 
 This weekend I finally had some time to experiment with [LiveView Native], working through the [introduction tutorial] during a Side Project Saturday event run by my local Apple developer group. After working through the tutorial, I demoed the results to my Apple friends. We had some great discussions about the pros and cons of the approach. Those discussions locked in some of my early hot takes, and in this post, I'll try to capture and share some of my early thoughts and concerns.

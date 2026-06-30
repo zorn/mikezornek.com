@@ -4,6 +4,9 @@ date: 2020-06-30T10:03:23-04:00
 description: I am hoping to attract current iOS developers who are looking to expand their knowledge and use their current experiences with Swift and iOS to help shape the conversations at the weekly meetings.
 images:
   - posts/2020/6/an-android-book-club-for-ios-developers/thumb.jpeg
+tags:
+  - books
+  - meetups
 ---
 
 I'm starting a new book club that will teach Android development using Kotlin for current iOS developers. Details below.

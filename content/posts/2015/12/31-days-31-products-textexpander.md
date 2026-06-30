@@ -4,6 +4,10 @@ date: 2015-12-04T17:14:29+00:00
 aliases: /2015/12/04/31-days-31-products-textexpander/
 categories:
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 11: TextExpander

@@ -9,6 +9,9 @@ categories:
   - JavaScript
   - Tips
   - Xcode
+tags:
+  - devops
+  - ios
 ---
 
 I&#8217;ve setup some Jenkins servers in the past for Ruby on Rails apps but these days we are trying to get things running for iOS deployment and testing at work.

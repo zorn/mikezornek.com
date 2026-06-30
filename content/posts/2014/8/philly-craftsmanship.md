@@ -12,6 +12,9 @@ categories:
   - Life Notes
   - Podcasts
   - Recommended
+tags:
+  - software-craft
+  - meetups
 ---
 
 [Software as Craft Philadelphia][1]

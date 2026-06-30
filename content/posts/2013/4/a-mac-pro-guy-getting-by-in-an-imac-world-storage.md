@@ -6,6 +6,9 @@ categories:
   - Gripes
   - Recommended
   - Tips
+tags:
+  - apple
+  - hardware
 ---
 
 Recently I decommissioned my much beloved Mac Pro which served as a lowly file server since I moved to my loaded 27-inch iMac last year. The iMac is working out great though I would have still preferred a new Mac Pro for it&#8217;s overall expandability, particular to this post &#8212; it&#8217;s extra hard drive bays.

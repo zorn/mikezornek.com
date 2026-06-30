@@ -6,6 +6,8 @@ categories:
   - CoffeeScript
   - Interface Design
   - JavaScript
+tags:
+  - web-development
 ---
 
 Over the last three weeks, I&#8217;ve been slowly picking up [Ember.js][1] while helping some colleagues with a project. It&#8217;s pretty interesting tech and I&#8217;d like to share some early thoughts.

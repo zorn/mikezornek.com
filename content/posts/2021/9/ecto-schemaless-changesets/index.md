@@ -7,6 +7,8 @@ pain: my schemas have grown large and scary. I find myself making web-form speci
 fix: two options can help, break down domain into smaller entities, break the changeset dependencies using schemaless changesets
 next action: see how I do this in RetroTaxi, also see these docs and blog posts
 promise: after reading this post, you'll be able to break down complex needs of your phoenix app into small, manageable chunks.
+tags:
+  - elixir
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

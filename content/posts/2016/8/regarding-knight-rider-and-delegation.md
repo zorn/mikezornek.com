@@ -6,6 +6,9 @@ categories:
   - Books
   - Coding
   - iOS
+tags:
+  - ios
+  - software-craft
 ---
 
 One of the saddest aspects of being a [Big Nerd Ranch][1] instructor in 2016 is that students these days do not appreciate the Michael Knight is to Delegation, as RoboCop is to Subclassing discussion of yesteryear.

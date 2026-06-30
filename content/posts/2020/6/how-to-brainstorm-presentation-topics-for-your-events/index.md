@@ -2,6 +2,8 @@
 title: "How to Brainstorm Presentation Topics for Your Events"
 date: 2020-06-23T10:00:00-04:00
 description: What do you do when no one submits a presentation for the monthly meeting? You make it work and plan something yourself.
+tags:
+  - meetups
 ---
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).

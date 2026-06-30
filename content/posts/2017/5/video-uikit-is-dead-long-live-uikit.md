@@ -5,6 +5,8 @@ aliases: /2017/05/08/video-uikit-is-dead-long-live-uikit/
 categories:
   - Coding
   - iOS
+tags:
+  - ios
 ---
 
 [Philly CocoaHeads][1] held a joint meetup with our Android friends for Philly Tech Week. At said meetup there were a bunch of lightning talks, and I did one.

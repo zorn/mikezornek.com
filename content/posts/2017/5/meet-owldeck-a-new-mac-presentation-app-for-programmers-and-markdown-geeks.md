@@ -7,6 +7,8 @@ categories:
   - Entrepreneurship
   - Life Notes
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 Today I&#8217;m launching the teaser site for my new app, [OwlDeck][1].

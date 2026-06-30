@@ -5,6 +5,10 @@ aliases: /2015/11/25/31-days-31-products-fin/
 categories:
   - iOS
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 02: Fin

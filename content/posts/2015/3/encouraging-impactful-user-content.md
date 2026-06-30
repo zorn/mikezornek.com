@@ -4,6 +4,8 @@ date: 2015-03-08T18:17:04+00:00
 aliases: /2015/03/08/encouraging-impactful-user-content/
 categories:
   - Uncategorized
+tags:
+  - side-projects
 ---
 
 I&#8217;m not one to do a ton of online product reviews but after CocoaLove I was asked to do one for the walking tour we took on Sunday. The site was TripAdvisor and from what I hear having good reviews there is really important for companies so I figured I&#8217;d share the love.

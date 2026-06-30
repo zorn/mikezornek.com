@@ -5,6 +5,8 @@ aliases: /2012/08/23/core-intuition/
 categories:
   - Podcasts
   - Recommended
+tags:
+  - reviews
 ---
 
 ![Core Intuition Logo][1]

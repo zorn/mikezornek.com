@@ -12,6 +12,8 @@ categories:
   - Recommended
   - Tips
   - Xcode
+tags:
+  - ios
 ---
 
 Through my position with the [Philadelphia CocoaHeads][1] chapter I am often approached by people who are interested in learning how to program for iOS. The follow presentation serves as a collection of helpful information and recommendations for such people.

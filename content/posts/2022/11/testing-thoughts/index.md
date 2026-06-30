@@ -5,6 +5,8 @@ description: something tweet like
 images:
   - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
 draft: true
+tags:
+  - software-craft
 ---
 
 I've been wanted to write up my own Philosphy of Elixir Testing for a while.

@@ -6,6 +6,9 @@ aliases: /?p=699
 categories:
   - Conferences
   - Personal Projects
+tags:
+  - conferences
+  - meetups
 ---
 
 I&#8217;ll be attending 360iDev next week and am giving the following talk on meetups:

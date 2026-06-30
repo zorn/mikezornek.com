@@ -4,6 +4,10 @@ date: 2015-11-24T22:42:19+00:00
 aliases: /2015/11/24/31-days-31-products-mindnode/
 categories:
   - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 01: MindNode

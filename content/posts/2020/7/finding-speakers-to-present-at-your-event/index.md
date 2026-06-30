@@ -2,6 +2,8 @@
 title: "Finding Speakers to Present at Your Event"
 date: 2020-07-02T09:00:00-04:00
 description: A few ideas to help you keep your stress low and your speaker confirmations flowing.
+tags:
+  - meetups
 ---
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).

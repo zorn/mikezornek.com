@@ -5,6 +5,8 @@ aliases: /2015/04/22/know-your-role-contractor-or-consultant/
 categories:
   - Coding
   - Project Management
+tags:
+  - consulting
 ---
 
 I guess I could have use a more sophisticated reference in the title like [Know Thyself][1] but I can&#8217;t help quoting the most electrifying man in sports entertainment, The Rock.

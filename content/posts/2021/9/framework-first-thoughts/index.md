@@ -4,6 +4,9 @@ date: 2021-09-28T13:00:00-04:00
 description: It has only been a week, but so far I am very positive about my Framework laptop purchase.
 images:
   - posts/2021/9/framework-first-thoughts/thumb.jpeg
+tags:
+  - hardware
+  - reviews
 ---
 
 A few days ago I took delivery of a [Framework laptop][4], a new product that prioritized repairability in support of the [Right to Repair][3] movement. I'm enjoying it a lot and wanted to share some early observations.

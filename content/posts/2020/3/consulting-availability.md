@@ -1,6 +1,8 @@
 ---
 title: "Consulting Availability"
 date: 2020-03-20T11:39:29-04:00
+tags:
+  - consulting
 ---
 
 Just a quick post today to share that my current client project will end April 1st and I'll have consulting availability opening up.

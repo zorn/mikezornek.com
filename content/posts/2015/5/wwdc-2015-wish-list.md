@@ -4,6 +4,8 @@ date: 2015-05-02T23:48:58+00:00
 aliases: /2015/05/02/wwdc-2015-wish-list/
 categories:
   - Uncategorized
+tags:
+  - apple
 ---
 
 While I won&#8217;t be at WWDC proper I will be in San Francisco the week of WWDC. I have a ticket to [AltConf][1] and otherwise expect to be mingling about.

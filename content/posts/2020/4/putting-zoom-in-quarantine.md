@@ -1,6 +1,8 @@
 ---
 title: "Putting Zoom in Quarantine"
 date: 2020-04-09T16:03:22-04:00
+tags:
+  - privacy
 ---
 
 I've already blogged about my [interest in finding a Zoom alternative](http://mikezornek.com/posts/2020/3/zoom-google-hangout-alternatives/) for my own [groups](https://www.meetup.com/PhillyElixir/) and [meetings](http://mikezornek.com/posts/2020/4/open-office-hours/) but sadly it's not a platform I can completely shun since I have personal connections that still use it heavily.

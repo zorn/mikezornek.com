@@ -6,6 +6,9 @@ categories:
   - Coding
   - iOS
   - Personal Projects
+tags:
+  - web-development
+  - meetups
 ---
 
 I haven&#8217;t had an active side project in the last few months. When asked I would tell people [looking for a new job][1] **was** my side project. Now that I have that new job search (and my [Girl Develop It class][2] behind me it&#8217;s time to kick something off; we&#8217;re going to rebuild the Philly CocoaHeads website!

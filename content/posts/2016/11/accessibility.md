@@ -8,6 +8,8 @@ categories:
   - iOS
   - Personal Projects
   - Recommended
+tags:
+  - ios
 ---
 
 At the Apple event a few weeks ago they began with a short video on accessibility.

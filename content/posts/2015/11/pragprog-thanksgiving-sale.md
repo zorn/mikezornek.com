@@ -4,6 +4,8 @@ date: 2015-11-23T19:08:58+00:00
 aliases: /2015/11/23/pragprog-thanksgiving-sale/
 categories:
   - Books
+tags:
+  - books
 ---
 
 I started reading books from the Pragmatic Programmers back when I started learning about Rails 1.0 and over the years have built up quite a significant library from them.

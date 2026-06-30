@@ -7,6 +7,9 @@ categories:
   - iOS
   - Personal Projects
   - Xcode
+tags:
+  - ios
+  - software-craft
 ---
 
 When I re-entered the self-employed world last March and launched [Zorn Labs LLC][1] one of my main goals was to find a way to continue my education work. The first output of this effort has been workshops, specifically one on Refactoring iOS.

@@ -6,6 +6,9 @@ categories:
   - Gripes
   - Personal Projects
   - Tips
+tags:
+  - apple
+  - hardware
 ---
 
 I&#8217;m not a huge music collector, at least not compared to some other people I know. I do have about 150 GBs of music in my iTunes collection &#8212; lots of it being video game soundtracks I enjoy listening to while I program.

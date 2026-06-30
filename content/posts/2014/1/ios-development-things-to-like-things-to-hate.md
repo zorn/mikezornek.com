@@ -8,6 +8,8 @@ categories:
   - Gripes
   - iOS
   - Xcode
+tags:
+  - ios
 ---
 
 ## Things I like about iOS Development

@@ -2,6 +2,8 @@
 title: "Journal -- July 14, 2022"
 date: 2022-07-14T11:11:17-04:00
 description: Journal -- July 14, 2022
+series:
+  - Journal
 ---
 
 Thursday, July 14, 2022 -- Birthday recap from Monday is pretty basic. Had an excellent breakfast at a local diner with my sister. Got pancakes which were great though I can never finish them all. Played some games and then took a nap before dinner with my aunts and uncles at my favorite brick oven pizza place. A fine relaxing day. Got lots of goodies and chocolate gifts. Michelle made the family chocolate cake which was delicious. I have a slice in the freezer for later.

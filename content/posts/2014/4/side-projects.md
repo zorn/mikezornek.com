@@ -11,6 +11,8 @@ categories:
   - JavaScript
   - Life Notes
   - Personal Projects
+tags:
+  - side-projects
 ---
 
 Sorry for the dead air over the last few months. Things got a bit hectic at my job and I couldn&#8217;t seem to find the free time to post. On the plus side, things are starting to calm down. We&#8217;ve shipped some more software and I&#8217;m finally catching up with some side projects.

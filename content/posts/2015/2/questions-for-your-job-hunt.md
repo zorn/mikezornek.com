@@ -8,6 +8,8 @@ categories:
   - Continuous Integration
   - Life Notes
   - Tips
+tags:
+  - career
 ---
 
 ![Jobbies][1]

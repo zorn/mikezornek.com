@@ -1,6 +1,9 @@
 ---
 title: "New Project: Group Leadership Club"
 date: 2019-03-07T21:19:13-05:00
+tags:
+  - side-projects
+  - meetups
 ---
 
 Today I'd like to share a new project I've been working on called [Group Leadership Club](http://groupleadership.club/), Helping People Build Successful Technical Meetups.

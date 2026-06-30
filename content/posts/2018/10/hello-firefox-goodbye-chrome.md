@@ -6,6 +6,8 @@ categories:
   - Coding
   - Gripes
   - Industry News
+tags:
+  - privacy
 ---
 
 A few weeks ago I said to myself, enough was enough and dropped the Chrome web browser.
