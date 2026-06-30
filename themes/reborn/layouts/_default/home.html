@@ -23,16 +23,12 @@
 
     <h2>Recent Blog Posts</h2>
 
-    <ul>
-      {{ range first 7 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          |
-          <time datetime="{{ .Date.Format "2006-01-02" }}">
-            {{ .Date.Format "Jan 2, 2006" }}
-          </time>
-        </li>
-      {{ end }}
-    </ul>
+    {{ range first 7 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+      {{ partial "post-card.html" (dict "page" .) }}
+    {{ end }}
+
+    <p class="not-prose">
+      <a class="text-purple-700 hover:underline" href="/posts/">Browse all posts &rarr;</a>
+    </p>
   </div>
 {{ end }}

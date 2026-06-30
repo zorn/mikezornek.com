@@ -1,0 +1,55 @@
+{{- /*
+  Richer post listing item: title, date, series link, summary, tags.
+
+  @context {dict}
+    page       {page}   The post to render. (required)
+    hideSeries {bool}   Omit the series link (e.g. on a series page). (optional)
+
+  @example: {{ partial "post-card.html" (dict "page" .) }}
+*/ -}}
+{{- $p := .page }}
+{{- $hideSeries := .hideSeries }}
+
+{{- /* Prefer the front-matter description; ignore the placeholder; else auto-summary. */}}
+{{- $summary := $p.Description }}
+{{- if eq $summary "something tweet like" }}{{ $summary = "" }}{{ end }}
+{{- if not $summary }}{{ $summary = $p.Summary | plainify }}{{ end }}
+
+<article
+  class="not-prose mb-5 rounded-lg border border-gray-200 border-l-4 border-l-purple-500 bg-white p-5 shadow-xs transition hover:border-purple-300 hover:border-l-purple-600 hover:shadow-md"
+>
+  <h3 class="mt-0 mb-1 text-xl leading-snug font-semibold">
+    <a class="text-purple-700 hover:underline" href="{{ $p.RelPermalink }}">
+      {{ $p.Title }}
+    </a>
+  </h3>
+
+  <p class="mb-1 text-sm text-gray-600">
+    <time datetime="{{ $p.Date.Format "2006-01-02" }}">
+      {{ $p.Date.Format "Jan 2, 2006" }}
+    </time>
+    {{- if not $hideSeries }}
+      {{- with $p.GetTerms "series" }}
+        {{- range . }}
+          &middot; Series:
+          <a class="text-purple-700 underline" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  </p>
+
+  {{- with $summary }}
+    <p class="mb-2 text-gray-800">{{ . | truncate 220 }}</p>
+  {{- end }}
+
+  {{- with $p.GetTerms "tags" }}
+    <div class="flex flex-wrap gap-2">
+      {{- range . }}
+        <a
+          class="block border border-gray-300 px-2 py-0 text-xs text-purple-700 no-underline hover:bg-purple-600 hover:text-white"
+          href="{{ .RelPermalink }}"
+        >{{ .LinkTitle }}</a>
+      {{- end }}
+    </div>
+  {{- end }}
+</article>
