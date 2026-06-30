@@ -3,7 +3,7 @@ title: "Standup for Saturday, June 11, 2022"
 date: 2022-06-11T11:50:01-04:00
 description: Daily standup journal for Saturday, June 11, 2022.
 series:
-  - Standups
+  - Journals
 ---
 
 Normally I wouldn't journal over the weekend but since I missed yesterday.

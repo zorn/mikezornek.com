@@ -5,7 +5,7 @@ description: "A short video where I catch you all up on my various project: Guil
 images:
   - posts/2020/10/casual-updates/thumb.jpeg
 series:
-  - Journal
+  - Journals
 ---
 
 {{< video filename="casual_updates.mp4" youtube="irzzRkLUkdk" title="Casual Updates" >}}

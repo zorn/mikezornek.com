@@ -2,7 +2,7 @@
 title: "Spinning Plates"
 date: 2020-03-01T22:06:55-05:00
 series:
-  - Journal
+  - Journals
 ---
 
 I don't do a ton of writing here but I do like to post updates at least once a month. Sadly I missed February. 😢 Truth be told, things are just really busy right now.

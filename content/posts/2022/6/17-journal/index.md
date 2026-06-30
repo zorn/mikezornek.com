@@ -3,7 +3,7 @@ title: "Journal -- June 17, 2022"
 date: 2022-06-17T16:15:46-04:00
 description: Journal -- June 17, 2022
 series:
-  - Journal
+  - Journals
 ---
 
 June 17, 2022 -- I have been slacking on my journal entries so let's catch up.

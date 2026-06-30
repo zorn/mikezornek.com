@@ -3,7 +3,7 @@ title: "Standup for Thursday, June 2, 2022"
 date: 2022-06-02T10:14:02-04:00
 description: Daily standup journal for Thursday, June 2, 2022.
 series:
-  - Standups
+  - Journals
 ---
 
 ❤️ **Feeling:** Pretty good. I have to be careful not to over-medicate on the coffee with my extra reading time. I could have quickly gone over my three-cup limit yesterday. It is something I gravitate to while in my reading chair.

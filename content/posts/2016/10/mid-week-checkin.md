@@ -8,7 +8,7 @@ categories:
   - JavaScript
   - Recommended
 series:
-  - Journal
+  - Journals
 ---
 
 It&#8217;s Wednesday night and as expected it&#8217;s been both an exhausting and rewarding week so far here at the [Front End Web class][1]. Here is the table of contents we&#8217;ve been working through:

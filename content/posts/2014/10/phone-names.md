@@ -6,7 +6,7 @@ categories:
   - iOS
   - Life Notes
 series:
-  - Journal
+  - Journals
 ---
 
 I love coming up with fun names for my computer hardware. My computers typically are named after video game characters, for example my Mac mini CI server is called [GLaDOS][1]. She loves to test. My phones have similar names.

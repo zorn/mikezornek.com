@@ -5,7 +5,7 @@ aliases: /2012/08/21/a-new-beginning/
 categories:
   - Site News
 series:
-  - Journal
+  - Journals
 ---
 
 I miss blogging. For a while it was a major way I interacted with the community, shared my thoughts, and met new people.

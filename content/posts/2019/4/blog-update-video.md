@@ -2,7 +2,7 @@
 title: "Video: Blog Update, April 2019"
 date: 2019-04-22T09:00:00-05:00
 series:
-  - Journal
+  - Journals
 ---
 
 No big announcements, just a quick update.

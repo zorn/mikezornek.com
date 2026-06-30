@@ -3,7 +3,7 @@ title: "Journal -- January 22, 2023"
 date: 2023-01-22T12:49:50-05:00
 description: A collection of ramblings to catch you up with all of my happenings.
 series:
-  - Journal
+  - Journals
 ---
 
 Sunday, January 22, 2023 -- First journal of the new year. Sorry, it took so long—lots to cover.

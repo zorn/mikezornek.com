@@ -5,7 +5,7 @@ description: This weekend kicked off with some dedicated time to my office.
 images:
   - posts/2022/12/17-journal/IMG_2049.jpeg
 series:
-  - Journal
+  - Journals
 ---
 
 Saturday, December 17, 2022 -- This weekend kicked off with some dedicated time to my office. On Friday, I caught up on a stack of mail/bills/paperwork, and then today got over the hump of cleaning up the office itself. It's the first time since moving in during October that the office has been fully cleaned and set up. No boxes or random crap in the corner. It's all tidy and feels great.

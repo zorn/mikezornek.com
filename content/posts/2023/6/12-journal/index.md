@@ -3,7 +3,7 @@ title: "Journal -- June 12, 2023"
 date: 2023-06-12T14:16:24-04:00
 description: Time for the regular check-in to braindump what I've been up to and what I'm thinking about. Who reads this stuff?
 series:
-  - Journal
+  - Journals
 ---
 
 Monday, June 12, 2023 -- Time for the regular check-in to braindump what I've been up to and what I'm thinking about. Who reads this stuff?

@@ -6,7 +6,7 @@ categories:
   - Life Notes
   - Recommended
 series:
-  - Journal
+  - Journals
 ---
 
 One of my guilty (and time consuming) pleasures is YouTube.

@@ -3,7 +3,7 @@ title: "Journal -- June 27, 2022"
 date: 2022-06-27T17:56:04-04:00
 description: Journal -- June 27, 2022
 series:
-  - Journal
+  - Journals
 ---
 
 Monday, June 27, 2022 -- I had goals of waking up early and getting back to work today. Failed and ended up sleeping in most of the morning. After lunch was able to get some focus and be a little productive on the laptop from the recliner.

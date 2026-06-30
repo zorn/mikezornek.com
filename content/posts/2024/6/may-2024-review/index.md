@@ -3,7 +3,7 @@ title: "May 2024 Review"
 date: 2024-06-08T13:14:12-04:00
 description: A collection of accomplishments, notes, and observations about May 2024.
 series:
-  - Monthly Reviews
+  - Journals
 ---
 
 A collection of accomplishments, notes, and observations about May 2024.

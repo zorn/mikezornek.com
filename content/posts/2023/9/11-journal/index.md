@@ -3,7 +3,7 @@ title: "Journal -- September 11, 2023"
 date: 2023-09-11T20:24:24-04:00
 description: A regular check-in of personal things.
 series:
-  - Journal
+  - Journals
 ---
 
 Monday, September 11, 2023 -- A regular check-in of personal things.

@@ -5,7 +5,7 @@ description: After hosting a Christmas Eve party and visiting my Aunt's house fo
 images:
   - posts/2023/1/boston-2022-trip/IMG_2113.jpeg
 series:
-  - Journal
+  - Journals
 ---
 
 After hosting a Christmas Eve party and visiting my Aunt's house for Christmas Day, my sister and I went to Boston for a few days.

@@ -3,7 +3,7 @@ title: "Journal -- February 13, 2023"
 date: 2023-02-12T20:53:09-05:00
 description: The only consistent thing in this world is change.
 series:
-  - Journal
+  - Journals
 ---
 
 Monday, February 13, 2023 -- The only consistent thing in this world is change.

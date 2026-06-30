@@ -5,7 +5,7 @@ aliases: /2018/08/13/rainy-monday/
 categories:
   - Uncategorized
 series:
-  - Journal
+  - Journals
 ---
 
 {{< youtube XzNqYhUTRVg >}}

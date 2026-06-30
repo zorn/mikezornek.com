@@ -7,7 +7,7 @@ categories:
   - Life Notes
   - Personal Projects
 series:
-  - Journal
+  - Journals
 ---
 
 {{< youtube N7Dwcpa21JM >}}

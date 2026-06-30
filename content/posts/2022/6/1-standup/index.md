@@ -5,7 +5,7 @@ description: Daily standup journal for Wednesday, June 1, 2022.
 images:
   - posts/2022/6/1-standup/frogs-win.png
 series:
-  - Standups
+  - Journals
 ---
 
 ❤️ **Feeling:** Feeling great. Excited to be on vacation again and have an opportunity to work on some personal projects.

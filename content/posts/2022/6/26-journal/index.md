@@ -3,7 +3,7 @@ title: "Journal -- June 26, 2022"
 date: 2022-06-26T10:36:03-04:00
 description: Journal -- June 26, 2022
 series:
-  - Journal
+  - Journals
 ---
 
 Sunday, June 26, 2022 -- Day 5 of COVID. Doing ok. Symptoms are mild and fluctuate throughout the day. Still taking my flu-type medications and the antivirals. Nowhere near 100% of my normal self but not bed ridden either. I'm up most of the day, usually playing PS4 or watching the Ken Burn's Baseball documentary. Feel like I should try to do something more productive than laundry soon™ but we will see.

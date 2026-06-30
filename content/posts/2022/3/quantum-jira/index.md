@@ -5,7 +5,7 @@ description: Random crossover that occurred to me during a morning walk.
 images:
   - posts/2022/3/quantum-jira/logo.png
 series:
-  - Journal
+  - Journals
 ---
 
 Random crossover that occurred to me during a morning walk.

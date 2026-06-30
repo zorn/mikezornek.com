@@ -3,7 +3,7 @@ title: "Life Updates, Moving, Work, Side Projects and Learning Plans"
 date: 2021-04-17T10:00:39-04:00
 description: It's been a while since I posted here on the blog so figured I'd do a short life update.
 series:
-  - Journal
+  - Journals
 ---
 
 It's been a while since I posted here on the blog so figured I'd do a short life update.

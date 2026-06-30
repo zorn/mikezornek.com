@@ -9,7 +9,7 @@ categories:
   - Life Notes
   - Personal Projects
 series:
-  - Journal
+  - Journals
 ---
 
 I&#8217;d hate to go a month without posting so here&#8217;s some random updates!

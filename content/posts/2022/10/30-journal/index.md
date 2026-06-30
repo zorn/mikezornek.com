@@ -3,7 +3,7 @@ title: "Journal -- October 30, 2022"
 date: 2022-10-30T20:15:52-04:00
 description: Journal -- October 30, 2022
 series:
-  - Journal
+  - Journals
 ---
 
 Sunday, October 30, 2022 -- It is Sunday night, and after a chill day, I wanted to catch up on some journal entries.

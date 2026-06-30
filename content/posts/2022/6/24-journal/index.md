@@ -5,7 +5,7 @@ description: Journal -- June 24, 2022
 images:
   - posts/2022/6/24-journal/positive-test.jpeg
 series:
-  - Journal
+  - Journals
 ---
 
 June 24, 2022 -- I'm back from vacation early after getting COVID. 😭

@@ -3,7 +3,7 @@ title: "Journal -- September 18, 2022"
 date: 2022-09-18T11:10:58-04:00
 description: A short recap of the last two weeks since ElixirConf. A review of project progress and what's on tap for next week.
 series:
-  - Journal
+  - Journals
 ---
 
 Sunday, September 18, 2022 -- It has been too long since a general journal update so let's get into it.

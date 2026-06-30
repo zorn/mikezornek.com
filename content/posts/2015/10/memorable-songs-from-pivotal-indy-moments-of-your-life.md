@@ -6,7 +6,7 @@ categories:
   - Entrepreneurship
   - Life Notes
 series:
-  - Journal
+  - Journals
 ---
 
 While attending the [Release Notes Conference][1] this past week I saw a talk by [Mike Hurley][2] of [RelayFM][3] fame. A lot of the talk was pulling wisdoms from Mike&#8217;s own story, the history of his past projects up to working on RelayFM. One tidbit included an attachment to a song when he quit his job. For him the song was [Another One Bites the Dust, Queen][4].

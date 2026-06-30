@@ -6,7 +6,7 @@ categories:
   - Conferences
   - Life Notes
 series:
-  - Journal
+  - Journals
 ---
 
 Hello internets. So sorry for the summer hiatus here on the blog. So what have you been up to? ([Email me][1] and say hi!)

@@ -3,7 +3,7 @@ date: 2022-06-03T09:27:44-04:00
 title: "Standup for Friday, June 3, 2022"
 description: Daily standup journal for Friday, June 3, 2022.
 series:
-  - Standups
+  - Journals
 ---
 
 ❤️ **Feeling:** Good but a little guilty. I skipped my walk/workout this morning in favor of getting to my desk sooner. I have plans tonight so want to get some stuff done.

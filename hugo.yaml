@@ -12,10 +12,7 @@ params:
   # Series listed newest-first (personal logging). Others default to oldest-first
   # so reading-order series (e.g. tutorials) read top-to-bottom.
   seriesNewestFirst:
-    - Journal
-    - Standups
-    - A Look Back
-    - Monthly Reviews
+    - Journals
 pagination:
   pagerSize: 20
 markup:
