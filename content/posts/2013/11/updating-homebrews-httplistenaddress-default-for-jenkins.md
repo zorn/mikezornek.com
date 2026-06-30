@@ -2,13 +2,9 @@
 title: Updating Homebrew’s “httpListenAddress” Default for Jenkins
 date: 2013-11-25T02:49:20+00:00
 aliases: /2013/11/24/updating-homebrews-httplistenaddress-default-for-jenkins/
-categories:
-  - Coding
-  - Continuous Integration
-  - iOS
-  - JavaScript
-  - Tips
-  - Xcode
+tags:
+  - devops
+  - ios
 ---
 
 I&#8217;ve setup some Jenkins servers in the past for Ruby on Rails apps but these days we are trying to get things running for iOS deployment and testing at work.

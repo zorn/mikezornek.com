@@ -2,8 +2,8 @@
 title: "Catching Up: How Have You Been?"
 date: 2013-01-30T03:21:24+00:00
 aliases: /2013/01/29/catching-up-how-have-you-been/
-categories:
-  - Life Notes
+series:
+  - Journals
 ---
 
 Publishing to this blog is something I enjoy, but sadly not something I&#8217;m naturally good at doing on a regular basis. Forgive me Internets, it has been three months since my last confession, err blog post.

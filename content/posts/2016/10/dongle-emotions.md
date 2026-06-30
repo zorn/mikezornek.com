@@ -2,10 +2,8 @@
 title: Dongle Emotions
 date: 2016-10-30T22:08:18+00:00
 aliases: /2016/10/30/dongle-emotions/
-categories:
-  - Life Notes
-  - Project Management
-  - Tips
+series:
+  - Journals
 ---
 
 After letting my bedroom / office get out of hand, I took some time today to clean up and get organized. [I wrapped and grouped up my wires][1] and even opened up [some of the new USB3/Thunderbolt3 dongles][2] I had ordered to go along with my [new MacBook Pro order][3].

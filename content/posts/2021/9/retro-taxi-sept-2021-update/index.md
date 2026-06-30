@@ -2,6 +2,9 @@
 title: "Retro Taxi: September 2021 Update"
 slug: "retro-taxi-project-sept-2021-update"
 date: 2021-09-02T09:00:41-04:00
+tags:
+  - elixir
+  - side-projects
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

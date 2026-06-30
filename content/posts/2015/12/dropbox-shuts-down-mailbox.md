@@ -2,9 +2,6 @@
 title: Dropbox Shuts Down Mailbox
 date: 2015-12-07T19:37:06+00:00
 aliases: /2015/12/07/dropbox-shuts-down-mailbox/
-categories:
-  - Entrepreneurship
-  - Industry News
 ---
 
 From the [Mailbox homepage][1]:

@@ -2,6 +2,8 @@
 title: "Consulting Retrospective and Summer Learning Plans"
 date: 2021-06-25T16:51:24-04:00
 description: After dedicating a full time effort towards an Elixir/Phoenix consulting project since October, I'm taking some time off and looking forward to a nice mix of vacation and personal projects.
+tags:
+  - consulting
 ---
 
 After dedicating a full time effort towards an Elixir/Phoenix consulting project since October, I'm taking some time off and looking forward to a nice mix of vacation and personal projects.

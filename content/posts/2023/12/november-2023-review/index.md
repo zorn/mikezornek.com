@@ -2,6 +2,8 @@
 title: "November 2023 Review"
 date: 2023-12-01T12:08:16-05:00
 description: A collection of accomplishments, notes, and observations about November 2023.
+series:
+  - Journals
 ---
 
 A collection of accomplishments, notes, and observations about November 2023.

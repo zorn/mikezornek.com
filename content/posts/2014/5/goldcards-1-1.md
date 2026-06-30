@@ -2,10 +2,9 @@
 title: GoldCards 1.1
 date: 2014-05-20T13:43:03+00:00
 aliases: /2014/05/20/goldcards-1-1/
-categories:
-  - Gaming
-  - Life Notes
-  - Personal Projects
+tags:
+  - side-projects
+  - gaming
 ---
 
 [GoldCards, a Hearthstone reference guide][1] version 1.1 is live on the App Store.

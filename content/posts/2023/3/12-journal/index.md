@@ -2,6 +2,8 @@
 title: "Journal -- March 12, 2023"
 date: 2023-03-12T19:17:56-04:00
 description: Been a few weeks since the last journal. Let's catch up on things.
+series:
+  - Journals
 ---
 
 Sunday, March 12, 2023 -- Been a few weeks since the last journal. Let's catch up on things.

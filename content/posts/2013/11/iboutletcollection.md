@@ -2,12 +2,8 @@
 title: IBOutletCollection
 date: 2013-11-28T01:35:39+00:00
 aliases: /2013/11/27/iboutletcollection/
-categories:
-  - Coding
-  - Interface Design
-  - iOS
-  - Tips
-  - Xcode
+tags:
+  - ios
 ---
 
 Did a short show and tell at the last CocoaHeads meeting demoing something I learned at work and hadn&#8217;t known about before, that being `IBOutletCollections`.

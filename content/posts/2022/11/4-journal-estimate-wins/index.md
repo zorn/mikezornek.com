@@ -4,6 +4,9 @@ date: 2022-11-04T13:12:04-04:00
 description: The goal of this estimate is to, in a time-boxed format, create a framework for more meaningful discussions to happen. These numbers should not be looked at as facts but shape those first steps of discovery.
 images:
   - posts/2022/11/4-journal-estimate-wins/deadlines.jpg
+tags:
+  - consulting
+  - practices
 ---
 
 This week I completed my third week with a new client. It was a notably challenging week since the main goal was to write up a significant project estimate, which was due by Friday. We delivered the estimate earlier this morning, and I think we did a good job. I'm sure the estimates themselves are WAY off from where reality will land, but that isn't the goal as I see it.

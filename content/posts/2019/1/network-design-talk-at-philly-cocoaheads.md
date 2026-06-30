@@ -1,6 +1,9 @@
 ---
 title: "Network Design Talk at Philly CocoaHeads"
 date: 2019-01-03T10:25:00-05:00
+tags:
+  - ios
+  - meetups
 ---
 
 I'm going to be giving a talk at the local CocoaHeads next week. If you are in Philly area you should stop by.

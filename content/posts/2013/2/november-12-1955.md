@@ -2,8 +2,8 @@
 title: November 12, 1955
 date: 2013-02-19T21:31:25+00:00
 aliases: /2013/02/19/november-12-1955/
-categories:
-  - Life Notes
+series:
+  - Journals
 ---
 
 > Unbelievable that Old Biff could&#8217;ve chosen that particular date. It could mean that that point in time inherently contains some sort of cosmic significance, almost as if it were the temporal junction point of the entire space-time continuum. On the other hand, it could just be an amazing coincidence.

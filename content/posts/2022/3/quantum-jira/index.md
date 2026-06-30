@@ -4,6 +4,8 @@ date: 2022-03-07T20:00:41-05:00
 description: Random crossover that occurred to me during a morning walk.
 images:
   - posts/2022/3/quantum-jira/logo.png
+series:
+  - Journals
 ---
 
 Random crossover that occurred to me during a morning walk.

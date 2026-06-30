@@ -2,10 +2,8 @@
 title: Early Ember.js Thoughts
 date: 2013-02-05T17:03:16+00:00
 aliases: /2013/02/05/early-ember-js-thoughts/
-categories:
-  - CoffeeScript
-  - Interface Design
-  - JavaScript
+tags:
+  - web-development
 ---
 
 Over the last three weeks, I&#8217;ve been slowly picking up [Ember.js][1] while helping some colleagues with a project. It&#8217;s pretty interesting tech and I&#8217;d like to share some early thoughts.

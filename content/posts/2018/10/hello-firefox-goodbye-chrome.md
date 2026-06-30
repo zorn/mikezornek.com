@@ -2,10 +2,8 @@
 title: Hello Firefox, Goodbye Chrome
 date: 2018-10-08T01:46:34+00:00
 aliases: /2018/10/08/hello-firefox-goodbye-chrome/
-categories:
-  - Coding
-  - Gripes
-  - Industry News
+tags:
+  - privacy
 ---
 
 A few weeks ago I said to myself, enough was enough and dropped the Chrome web browser.

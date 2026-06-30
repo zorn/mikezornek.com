@@ -2,6 +2,9 @@
 title: "Announcing my New Full-Time Job"
 date: 2023-11-27T18:05:27-05:00
 description: "I have some big news: Starting December 4th, I'll be working full-time as a Senior Elixir Developer for Allovue, where they build web-based accounting software for school districts."
+tags:
+  - career
+  - elixir
 ---
 
 I have some big news: Starting December 4th, I'll be working full-time as a Senior Elixir Developer for [Allovue](https://www.allovue.com), where they build web-based accounting software for school districts.

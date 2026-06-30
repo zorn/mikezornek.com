@@ -2,9 +2,8 @@
 title: Right to Repair
 date: 2018-04-11T15:00:54+00:00
 aliases: /2018/04/11/right-to-repair/
-categories:
-  - Gripes
-  - Industry News
+tags:
+  - apple
 ---
 
 [Via phoneArena:][1]

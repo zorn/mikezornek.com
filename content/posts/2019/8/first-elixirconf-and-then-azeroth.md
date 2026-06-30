@@ -1,6 +1,10 @@
 ---
 title: "First ElixirConf, and Then Azeroth"
 date: 2019-08-23T15:20:41-04:00
+tags:
+  - conferences
+  - elixir
+  - gaming
 ---
 
 Happy Friday everyone. Hope you all had a good and productive week. I myself am feeling pretty good.

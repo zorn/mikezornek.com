@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: OmniFocus"
 date: 2015-12-07T23:22:05+00:00
 aliases: /2015/12/07/31-days-31-products-omnifocus/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 14: OmniFocus

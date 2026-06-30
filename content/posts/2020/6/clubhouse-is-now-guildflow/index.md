@@ -1,6 +1,8 @@
 ---
 title: "Clubhouse is Now Guildflow"
 date: 2020-06-19T11:38:06-04:00
+tags:
+  - side-projects
 ---
 
 Just a quick note, that I have a new name for my meetup project. Say hello to Guildflow!

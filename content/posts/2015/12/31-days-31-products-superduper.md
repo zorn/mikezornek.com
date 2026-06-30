@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: SuperDuper!"
 date: 2015-12-26T19:47:44+00:00
 aliases: /2015/12/26/31-days-31-products-superduper/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 24: SuperDuper!

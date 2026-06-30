@@ -2,6 +2,8 @@
 title: "September 2021 Elixir Consulting Availability"
 date: 2021-08-24T13:23:17-04:00
 description: My summer vacation is coming to a close and I am once again looking for my next consulting project.
+tags:
+  - consulting
 ---
 
 My summer vacation is coming to a close and I am once again looking for my next consulting project.

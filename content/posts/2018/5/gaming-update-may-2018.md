@@ -2,8 +2,8 @@
 title: Gaming Update, May 2018
 date: 2018-05-18T15:15:35+00:00
 aliases: /2018/05/18/gaming-update-may-2018/
-categories:
-  - Uncategorized
+tags:
+  - gaming
 ---
 
 From [April trends][1], I continued to play Stardew Valley into early May. It kind of died off over the last few weeks though since I don&#8217;t have much left to do, beside more and more money.

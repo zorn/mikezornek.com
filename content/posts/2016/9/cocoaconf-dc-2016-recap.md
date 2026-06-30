@@ -2,10 +2,8 @@
 title: CocoaConf DC 2016 Recap
 date: 2016-09-11T17:41:00+00:00
 aliases: /2016/09/11/cocoaconf-dc-2016-recap/
-categories:
-  - Conferences
-  - iOS
-  - Personal Projects
+tags:
+  - conferences
 ---
 
 Had the pleasure to attend and speak at [CocoaConf DC][1] this past weekend.

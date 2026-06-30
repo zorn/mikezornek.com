@@ -1,6 +1,8 @@
 ---
 title: "Code Documentation"
 date: 2019-02-19T10:00:00-05:00
+tags:
+  - software-craft
 ---
 
 > This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).

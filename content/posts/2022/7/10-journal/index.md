@@ -2,6 +2,8 @@
 title: "Journal -- July 10, 2022"
 date: 2022-07-10T13:27:22-04:00
 description: Journal -- July 10, 2022
+series:
+  - Journals
 ---
 
 Sunday, July 10, 2022 -- A week of distractions, some pleasant and others not so much. Let's catch up.

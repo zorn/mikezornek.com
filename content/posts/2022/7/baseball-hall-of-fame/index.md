@@ -4,6 +4,8 @@ date: 2022-07-23T12:05:18-04:00
 description: I just returned from my trip to the Baseball Hall of Fame in Cooperstown, NY, and I thought I'd share some notes and photos.
 images:
   - posts/2022/7/baseball-hall-of-fame/front-selfie.jpeg
+series:
+  - Journals
 ---
 
 I just returned from my trip to the [Baseball Hall of Fame] in Cooperstown, NY, and I thought I'd share some notes and photos.

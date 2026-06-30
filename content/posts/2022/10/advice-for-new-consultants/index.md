@@ -2,6 +2,8 @@
 title: "Advice for New Consultants"
 date: 2022-10-11T10:34:09-04:00
 description: Build in public as much as possible, blog what you learn to teach others and when you have time, don't be afraid to approach the people/projects you care about and ask, "how can I help?"
+tags:
+  - consulting
 ---
 
 Was introduced to a new member of the Philly CocoaHeads who is starting out as an iOS consultant. He asked for my advice and I figured I'd share it will you all too:

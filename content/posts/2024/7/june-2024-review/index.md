@@ -2,6 +2,8 @@
 title: "June 2024 Review"
 date: 2024-07-12T11:46:11-04:00
 description: A collection of accomplishments, notes, and observations about June 2024 (and some early July things too).
+series:
+  - Journals
 ---
 
 A collection of accomplishments, notes, and observations about June 2024 (and some early July things too).

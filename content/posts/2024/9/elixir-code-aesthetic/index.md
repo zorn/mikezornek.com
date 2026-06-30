@@ -2,6 +2,9 @@
 title: "Personal Elixir Code Aesthetics"
 date: 2024-09-29T20:25:46-04:00
 description: With my side project Flick hitting an MVP milestone and inspired by some conversations during Elixir Book Club, I thought I’d take a moment to document some code aesthetic choices I made in this project.
+tags:
+  - elixir
+  - software-craft
 ---
 
 With my side project [Flick] hitting an MVP milestone and inspired by some conversations during [Elixir Book Club](https://elixirbookclub.github.io/website/), I thought I'd take a moment to document some code aesthetic choices I made in this project.

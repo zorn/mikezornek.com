@@ -2,6 +2,8 @@
 title: "Consulting Availability: Elixir, iOS and User Experience"
 date: 2020-09-10T12:04:34-04:00
 description: Almost all the work I get is through referrals so your help means a lot.
+tags:
+  - consulting
 ---
 
 I would like to once again remind people I am looking for work. You can see more details about my freelance and consulting offerings on my [For Hire](/for-hire/) page but to summarize, the following types of projects are usually a good match for me:

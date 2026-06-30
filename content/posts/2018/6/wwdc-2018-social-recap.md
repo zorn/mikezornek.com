@@ -2,12 +2,8 @@
 title: WWDC 2018 Social Recap
 date: 2018-06-09T02:49:05+00:00
 aliases: /2018/06/09/wwdc-2018-social-recap/
-categories:
-  - Conferences
-  - Gripes
-  - iOS
-  - Podcasts
-  - Recommended
+tags:
+  - conferences
 ---
 
 I just got back from my WWDC 2018 Social trip and it was a lot of fun. I figured I&#8217;d do a quick recap of the social side and leave room to talk about the tech stuff as I get deeper into the session videos in the weeks to come.

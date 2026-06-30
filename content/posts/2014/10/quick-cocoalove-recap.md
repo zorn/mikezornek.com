@@ -2,13 +2,8 @@
 title: Quick CocoaLove Recap
 date: 2014-11-01T00:35:46+00:00
 aliases: /2014/10/31/quick-cocoalove-recap/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Industry News
-  - iOS
-  - Life Notes
-  - Personal Projects
+tags:
+  - conferences
 ---
 
 [CocoaLove][1] was a huge success. All of the talks were well received and the attendee side conversations vibrant and interesting. I think I saw 2 laptops open all weekend which to me is a huge sign people were engaged with our content. If you missed out, check out the [CocoaLove][2] site for some highlights of our tweet/photo live stream.

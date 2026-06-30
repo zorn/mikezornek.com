@@ -2,10 +2,8 @@
 title: Join Us at CocoaConf DC, Sept 9-10th
 date: 2016-07-28T00:40:59+00:00
 aliases: /2016/07/27/join-us-at-cocoaconf-dc-sept-9-10th/
-categories:
-  - Coding
-  - Conferences
-  - iOS
+tags:
+  - conferences
 ---
 
 I&#8217;ve been to multiple [CocoaConfs][1] as an attendee and it&#8217;s with great pride I&#8217;m happy to say I&#8217;ll be a [speaker][2] at one soon.

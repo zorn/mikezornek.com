@@ -2,8 +2,8 @@
 title: Mike Monteiro on Selling Design, Getting Paid and Working with Clients
 date: 2015-03-17T18:51:47+00:00
 aliases: /2015/03/17/mike-monteiro-on-selling-design-getting-paid-and-working-with-clients/
-categories:
-  - Uncategorized
+tags:
+  - consulting
 ---
 
 I&#8217;m not sure if &#8220;Selling Design&#8221; is the real title for the [Keynote at Interaction15][1] (1h5m) but that&#8217;s the topic your are going to see. Mike Monteiro a does a great job reviewing some of the pitfalls creative people run into when working with and presenting their work to clients and all the delicacies of those relationships. For those doing contract work, a must see.

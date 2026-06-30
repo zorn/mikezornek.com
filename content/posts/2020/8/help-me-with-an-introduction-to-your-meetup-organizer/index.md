@@ -3,6 +3,8 @@ title: "Help Me with an Introduction to Your Meetup Organizer"
 date: 2020-08-03T11:01:35-04:00
 description: I'm trying to schedule some more customer research (not selling anything) phone calls (30m) with other meetup organizers.
 aliases: /posts/2020/8/introduction/
+tags:
+  - meetups
 ---
 
 It's an open secret that I've been working on [some new software to help meetups](/projects/guildflow/), specifically with an early focus towards technical meetups.

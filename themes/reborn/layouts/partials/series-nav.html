@@ -1,0 +1,49 @@
+{{- /*
+  In-series prev/next navigation for reading-order series.
+
+  Shown only for series NOT listed in params.seriesNewestFirst (i.e. sequential
+  series like tutorials/countdowns, not the newest-first logging series).
+  Ordered oldest-first; renders "Part N of M" plus previous/next links.
+
+  @context {page} the current post.
+*/ -}}
+{{- $page := . }}
+{{- range $page.GetTerms "series" }}
+  {{- if not (in site.Params.seriesNewestFirst .Title) }}
+    {{- $term := . }}
+    {{- $ordered := $term.Pages.ByDate }}
+    {{- $total := len $ordered }}
+    {{- $idx := -1 }}
+    {{- range $i, $p := $ordered }}
+      {{- if eq $p.RelPermalink $page.RelPermalink }}{{ $idx = $i }}{{ end }}
+    {{- end }}
+    {{- if ge $idx 0 }}
+      {{- $prev := false }}
+      {{- $next := false }}
+      {{- if gt $idx 0 }}{{ $prev = index $ordered (sub $idx 1) }}{{ end }}
+      {{- if lt $idx (sub $total 1) }}{{ $next = index $ordered (add $idx 1) }}{{ end }}
+      <nav
+        class="not-prose mt-10 rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm"
+        aria-label="Series navigation"
+      >
+        <p class="m-0 mb-2 text-gray-600">
+          <a class="font-semibold text-purple-700 underline" href="{{ $term.RelPermalink }}">{{ $term.LinkTitle }}</a>
+          &middot; Part {{ add $idx 1 }} of {{ $total }}
+        </p>
+        {{- with $prev }}
+          <p class="m-0">
+            &larr; Previous:
+            <a class="text-purple-700 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </p>
+        {{- end }}
+        {{- with $next }}
+          <p class="m-0">
+            Next:
+            <a class="text-purple-700 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            &rarr;
+          </p>
+        {{- end }}
+      </nav>
+    {{- end }}
+  {{- end }}
+{{- end }}

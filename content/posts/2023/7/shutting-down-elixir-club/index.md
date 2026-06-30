@@ -2,6 +2,9 @@
 title: "Shutting Down ElixirClub"
 date: 2023-07-04T12:00:00-04:00
 description: After six months, today I announced ElixirClub's closure.
+tags:
+  - side-projects
+  - elixir
 ---
 
 After six months, today I announced ElixirClub's closure. For context and for those many souls who did not know:

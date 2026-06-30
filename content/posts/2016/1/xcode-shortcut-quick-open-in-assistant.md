@@ -2,11 +2,8 @@
 title: "Xcode Shortcut: Quick Open in Assistant"
 date: 2016-01-27T20:57:45+00:00
 aliases: /2016/01/27/xcode-shortcut-quick-open-in-assistant/
-categories:
-  - Coding
-  - iOS
-  - Tips
-  - Xcode
+tags:
+  - ios
 ---
 
 This answer / revelation caused a bit of a stir in the [Philly CocoaHeads Slack][1] so I figured I&#8217;d share it here as well.

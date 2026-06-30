@@ -2,6 +2,8 @@
 title: "2025 Tools Audit"
 date: 2025-04-03T09:00:00-08:00
 description: A snapshot and inventory of the tools I use regularly.
+tags:
+  - reviews
 ---
 
 It is good to take inventory of things from time to time. Here is a list of the tools I use regularly as of April 2025.

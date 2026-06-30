@@ -2,12 +2,9 @@
 title: Code Patterns Talk, Video Now Available
 date: 2015-04-23T17:09:17+00:00
 aliases: /2015/04/23/code-patterns-talk-video-now-available/
-categories:
-  - Coding
-  - iOS
-  - Personal Projects
-  - Tips
-  - Xcode
+tags:
+  - ios
+  - software-craft
 ---
 
 We&#8217;ve been trying to a better job of capturing our main talks at [Philly CocoaHeads][1]. You can find and subscribe to our small but growing collection of videos on Vimeo: <https://vimeo.com/phillycocoa>.

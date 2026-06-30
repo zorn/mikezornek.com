@@ -2,10 +2,10 @@
 title: "Book Review: The Lean Startup"
 date: 2013-02-25T19:16:54+00:00
 aliases: /2013/02/25/book-review-the-lean-startup/
-categories:
-  - Books
-  - Entrepreneurship
-  - Recommended
+tags:
+  - books
+  - side-projects
+  - reviews
 ---
 
 With the [sale of ProfitTrain complete][1], my schedule has room for a new project. There&#8217;s a handful of ideas I&#8217;m working through, but, before I jump into one, I think that now is a great opportunity to catch up with some business books I&#8217;ve had on my radar.

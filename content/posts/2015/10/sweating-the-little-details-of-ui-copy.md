@@ -2,9 +2,8 @@
 title: Sweating the Little Details of UI Copy
 date: 2015-10-15T22:10:43+00:00
 aliases: /2015/10/15/sweating-the-little-details-of-ui-copy/
-categories:
-  - Interface Design
-  - iOS
+tags:
+  - ios
 ---
 
 While user interface design is not a core responsibility at my current job I do believe it is an important skill in my field and I try to improve all the time. A large aspect of user interface design is choosing the right words. For example, a good UI designer when crafting an iOS alert will honor and consider Apple recommendations. Some notes from the [HIG][1]:

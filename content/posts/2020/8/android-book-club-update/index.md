@@ -4,6 +4,9 @@ date: 2020-08-10T09:22:55-04:00
 description: We are moving from our Kotlin book to the Android book. Great time to join us!
 images:
   - posts/2020/8/android-book-club-update/thumb.jpeg
+tags:
+  - books
+  - meetups
 ---
 
 <iframe src="https://player.vimeo.com/video/446471481" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

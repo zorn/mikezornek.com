@@ -2,6 +2,8 @@
 title: "Budget Revisit 2022"
 date: 2022-04-02T15:37:36-04:00
 description: I'll share how I collect and organize my numbers, and hopefully, it will inspire you to revisit or improve your budgeting solution.
+tags:
+  - practices
 ---
 
 The last time I [wrote about my budgeting habits][1] was back in September 2018, and the last time I looked over my numbers was in 2020 when I had [just lost my active contract][2] due to the beginning of the COVID pandemic. Today as I look ahead to the summer and the future completion of my current contract gig, it was a good time to revisit my numbers.

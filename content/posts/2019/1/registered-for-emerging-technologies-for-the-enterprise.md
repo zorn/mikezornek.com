@@ -1,6 +1,8 @@
 ---
 title: "Registered for Emerging Technologies for the Enterprise 2019"
 date: 2019-01-22T12:35:09-05:00
+tags:
+  - conferences
 ---
 
 Just took advantage of the early bird pricing for [Emerging Technologies for the Enterprise 2019](https://2019.phillyemergingtech.com/) and got registered.

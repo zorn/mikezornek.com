@@ -2,10 +2,8 @@
 title: "31 Days, 31 Products: Launch Post"
 date: 2015-11-24T22:38:33+00:00
 aliases: /2015/11/24/31-days-31-products-launch-post/
-categories:
-  - Conferences
-  - Life Notes
-  - Personal Projects
+series:
+  - 31 Days 31 Products
 ---
 
 At [CocoaLove 2015][1] we had the pleasure of listening to [Jaimee Newberry][2] speak and from [my notes][3] I recollect the following from her talk:

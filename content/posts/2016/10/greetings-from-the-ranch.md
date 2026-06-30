@@ -2,10 +2,9 @@
 title: Greetings, from the Ranch
 date: 2016-10-03T02:08:59+00:00
 aliases: /2016/10/02/greetings-from-the-ranch/
-categories:
-  - Coding
-  - JavaScript
-  - Personal Projects
+tags:
+  - web-development
+  - side-projects
 ---
 
 One of the great perks of working at [Big Nerd Ranch][1] is that you are allowed to take one Big Nerd Ranch class a year. This week I&#8217;m taking the [Front End Web class][2], and am really looking forward to it.

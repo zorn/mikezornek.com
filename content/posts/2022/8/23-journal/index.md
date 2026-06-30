@@ -2,6 +2,8 @@
 title: "Journal -- August 23, 2022"
 date: 2022-08-23T12:49:53-04:00
 description: "People; People who need people; Are the luckiest people in the world."
+series:
+  - Journals
 ---
 
 Tuesday, August 23, 2022 -- As the great Barbra Streisand [sings](https://www.youtube.com/watch?v=YWrNZ6SySfg): "People; People who need people; Are the luckiest people in the world." (1)

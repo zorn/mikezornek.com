@@ -9,6 +9,10 @@ params:
   author:
     name: Mike Zornek
     email: mike@mikezornek.com
+  # Series listed newest-first (personal logging). Others default to oldest-first
+  # so reading-order series (e.g. tutorials) read top-to-bottom.
+  seriesNewestFirst:
+    - Journals
 pagination:
   pagerSize: 20
 markup:
@@ -19,6 +23,26 @@ markup:
       unsafe: true
 mainSections:
   - posts
+
+# Keep taxonomy term titles as authored (e.g. "ios", "ai") instead of
+# auto-capitalizing to "Ios"/"Ai". Section pages set their own titles.
+capitalizeListTitles: false
+
+taxonomies:
+  tag: tags
+  series: series
+
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: series
+      weight: 40
+    - name: date
+      weight: 10
 menu:
   main:
     - name: Home
@@ -42,6 +66,10 @@ menu:
     - name: Contact
       url: /contact/
       weight: 60
+    - name: 🎲
+      title: Read a random post
+      url: /random/
+      weight: 65
 
 outputs:
   home: ["HTML", "RSS", "JSON"]

@@ -2,9 +2,8 @@
 title: Think of the Smallest Possible Code Change, and Then Make It Smaller
 date: 2015-04-16T03:23:25+00:00
 aliases: /2015/04/15/think-of-the-smallest-possible-code-change-and-then-make-it-smaller/
-categories:
-  - Coding
-  - Tips
+tags:
+  - software-craft
 ---
 
 I&#8217;m working on a client project right now. We do peer review of the code via pull requests. It works great, but the quality of the reviews you get are very dependent on the size of the pull request you make.

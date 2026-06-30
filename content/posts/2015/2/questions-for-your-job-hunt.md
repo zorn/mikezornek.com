@@ -2,12 +2,8 @@
 title: Questions for Your Job Hunt
 date: 2015-02-10T03:45:49+00:00
 aliases: /2015/02/09/questions-for-your-job-hunt/
-categories:
-  - Coding
-  - Conferences
-  - Continuous Integration
-  - Life Notes
-  - Tips
+tags:
+  - career
 ---
 
 ![Jobbies][1]

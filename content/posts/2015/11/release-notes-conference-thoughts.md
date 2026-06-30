@@ -2,10 +2,8 @@
 title: Release Notes Conference Thoughts
 date: 2015-11-02T16:38:42+00:00
 aliases: /2015/11/02/release-notes-conference-thoughts/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Recommended
+tags:
+  - conferences
 ---
 
 This post is delayed due to a head cold I had last week, but considering the amount of effort and love that went into producing the [Release Notes Conference][1] I figured the least I can do is share my reaction.

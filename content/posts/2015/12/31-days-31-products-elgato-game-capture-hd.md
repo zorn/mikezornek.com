@@ -2,9 +2,12 @@
 title: "31 Days, 31 Products: Elgato Game Capture HD"
 date: 2015-12-12T02:36:44+00:00
 aliases: /2015/12/11/31-days-31-products-elgato-game-capture-hd/
-categories:
-  - Gaming
-  - Recommended
+tags:
+  - gaming
+  - hardware
+  - reviews
+series:
+  - 31 Days 31 Products
 ---
 
 ## Day 17: Elgato Game Capture HD

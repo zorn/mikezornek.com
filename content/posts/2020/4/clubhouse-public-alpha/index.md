@@ -1,6 +1,8 @@
 ---
 title: "Clubhouse Public Alpha"
 date: 2020-04-21T10:50:28-04:00
+tags:
+  - side-projects
 ---
 
 Today, after more than a year of side project progress, I finally am starting to share some of my progress regarding [Clubhouse Hosting](/projects/guildflow/) through the release of the first Public Alpha.

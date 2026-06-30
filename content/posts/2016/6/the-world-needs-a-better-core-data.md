@@ -2,11 +2,8 @@
 title: The World Needs a Better Core Data
 date: 2016-06-07T19:50:24+00:00
 aliases: /2016/06/07/the-world-needs-a-better-core-data/
-categories:
-  - Coding
-  - Gripes
-  - iOS
-  - Xcode
+tags:
+  - ios
 ---
 
 Lots of WWDC predictions out there this week. Here&#8217;s a dream of mine. Sadly one that I&#8217;ve given up on, at least from Apple.

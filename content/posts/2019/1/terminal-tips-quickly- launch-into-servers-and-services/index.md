@@ -1,6 +1,8 @@
 ---
 title: "Terminal Tip: Quickly Launch Into Servers and Services"
 date: 2019-01-12T12:00:00-05:00
+tags:
+  - devops
 ---
 
 With my enjoyment of [Elixir](https://elixir-lang.org/) and things like [the new engine of this blog](http://mikezornek.com/posts/2019/1/new-year-new-site/) I find myself back in the Mac OS X Terminal more and more.

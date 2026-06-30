@@ -2,6 +2,8 @@
 title: "Side Project Idea Audit"
 date: 2022-06-03T09:44:00-04:00
 description: I keep a running list of project ideas in my notebook, and here is the shortlist I considered for the summer.
+tags:
+  - side-projects
 ---
 
 During my time off this summer, I am looking for a project to sink my teeth into. Something to give me a bit of purpose and space to explore some technical tooling I am curious about.

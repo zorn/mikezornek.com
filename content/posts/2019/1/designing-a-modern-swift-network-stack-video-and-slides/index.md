@@ -1,6 +1,8 @@
 ---
 title: "Designing a Modern Swift Network Stack, Video and Slides"
 date: 2019-01-15T15:00:00-05:00
+tags:
+  - ios
 ---
 
 **UPDATE 1.16:** Fixed some slide typos (didn't bother to edit video). If you spot anymore, [let me know](/contact). Thanks!

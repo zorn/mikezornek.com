@@ -2,6 +2,8 @@
 title: "Early Svelte Thoughts"
 date: 2023-07-22T17:25:51-04:00
 description: I started learning Svelte for web frontend UI development and so far feeling pretty positive about it. Here I review my early thoughts and plans.
+tags:
+  - web-development
 ---
 
 After more than five years of giving my **full** attention to Elixir, Phoenix, and LiveView as the primary toolkit I use to build web apps, over the last few weeks, I've started to sample some other tech stacks, with an initial focus on [Svelte](https://svelte.dev) and [SvelteKit](https://kit.svelte.dev/). Here are some early thoughts.

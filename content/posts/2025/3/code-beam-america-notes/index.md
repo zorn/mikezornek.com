@@ -4,6 +4,9 @@ date: 2025-03-10T09:56:13-08:00
 description: I had a great time at the CodeBEAM conference. The content was high quality and well presented. Here are some of my notes and links.
 images:
   - posts/2025/3/code-beam-america-notes/codebeam-banner.jpg
+tags:
+  - conferences
+  - elixir
 ---
 
 After a run of bad luck where I had to cancel Elixir-related conferences at the last minute (once because of the smoke storms that hit NY, and once because I got COVID before the conference), this week I enjoyed some time at [CodeBEAM America 2025 in San Francisco](https://codebeamamerica.com/).

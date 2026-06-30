@@ -4,6 +4,8 @@ date: 2026-06-30T10:43:44-04:00
 description: "There's a term for what happens when you've been on a team so long you stop noticing its quirks: you've been cucumbered. Here's what fresh eyes can (and can't responsibly) do about it."
 pain: teams (and the people on them) stop noticing their own quirks and workarounds the longer they're embedded in a project; this isn't a character flaw, it's structural
 fix: explain the "cucumbered" metaphor and what fresh eyes can (and can't) responsibly do about it
+tags:
+  - practices
 ---
 
 I once did some subcontracting for [Test Double](https://testdouble.com/) (wonderful consultancy btw, really good people there). While there I picked up a term for what happens when you've been inside an organization so long you stop noticing its quirks: you've been "cucumbered." Left in the brine long enough, you become indistinguishable from the brine itself.

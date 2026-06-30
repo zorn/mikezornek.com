@@ -1,0 +1,49 @@
+{{ define "main" }}
+  <main>
+    <div class="mx-auto max-w-screen-md px-4 md:px-0">
+      <div
+        class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
+      >
+        {{ if eq .Kind "taxonomy" }}
+          {{/* Taxonomy root: list every term with a post count. */}}
+          <h1>{{ .Title | title }}</h1>
+          {{ with .Content }}{{ . }}{{ end }}
+          {{ partial "term-pills.html" .Data.Terms.ByCount }}
+        {{ else }}
+          {{/* Single term: list its posts (series read oldest-first). */}}
+          {{ $isSeries := eq .Data.Plural "series" }}
+          {{ $newestFirst := and $isSeries (in site.Params.seriesNewestFirst .Title) }}
+          {{ $pages := .Pages }}
+          {{ if $isSeries }}
+            {{ $pages = .Pages.ByDate }}
+            {{ if $newestFirst }}
+              {{ $pages = $pages.Reverse }}
+            {{ end }}
+          {{ end }}
+
+          <p class="not-prose mb-1 text-sm">
+            <a class="text-purple-700 hover:underline" href="{{ .Parent.RelPermalink }}">
+              &larr; All {{ .Data.Plural }}
+            </a>
+          </p>
+          <h1 style="margin-bottom:0;">
+            {{ if $isSeries }}
+              Series: {{ .Title }}
+            {{ else }}
+              Posts tagged “{{ .Title }}”
+            {{ end }}
+          </h1>
+          <p style="margin-top:0;color:#595959;">
+            {{ len $pages }} post{{ if ne (len $pages) 1 }}s{{ end }}{{ if $isSeries }}{{ if $newestFirst }}, newest first{{ else }}, oldest first{{ end }}{{ end }}.
+          </p>
+
+          {{ with .Content }}{{ . }}{{ end }}
+
+          {{ range $pages }}
+            {{ partial "post-card.html" (dict "page" . "hideSeries" $isSeries) }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </main>
+{{ end }}

@@ -8,6 +8,8 @@ pain: "a junior dev needs to add user authentication and is aware of the `mix ph
 fix: "a high level technical overview of the core schemas and contexts at play; share a visual demonstrations and review of how it works"
 pain2: "a senior dev who is already comfortable with `mix phx.gen.auth` is interested in learning what has changed in version 1.8 and what magic links are all about"
 fix2: "provide a scannable review of what comes out of this code generation task; close the post with some pros and cons of the approach"
+tags:
+  - elixir
 ---
 
 With Phoenix 1.8, the authentication code generator inside `phx.gen.auth` has been revamped, favoring an emailed 'magic link' authentication flow.

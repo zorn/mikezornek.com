@@ -2,11 +2,9 @@
 title: I'm Teaching a Half Day iOS Refactoring Workshop in July
 date: 2017-06-12T15:38:30+00:00
 aliases: /2017/06/12/im-teaching-a-half-day-ios-refactoring-workshop-in-july/
-categories:
-  - Entrepreneurship
-  - iOS
-  - Personal Projects
-  - Xcode
+tags:
+  - ios
+  - software-craft
 ---
 
 When I re-entered the self-employed world last March and launched [Zorn Labs LLC][1] one of my main goals was to find a way to continue my education work. The first output of this effort has been workshops, specifically one on Refactoring iOS.

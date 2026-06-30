@@ -2,10 +2,8 @@
 title: On Using and Not Using Twitter (video 8m)
 date: 2018-07-17T18:27:14+00:00
 aliases: /2018/07/17/on-using-and-not-using-twitter/
-categories:
-  - Gripes
-  - Life Notes
-  - Personal Projects
+series:
+  - Journals
 ---
 
 {{< youtube N7Dwcpa21JM >}}

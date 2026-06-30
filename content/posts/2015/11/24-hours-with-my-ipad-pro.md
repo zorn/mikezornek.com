@@ -2,9 +2,10 @@
 title: 24 Hours with My iPad Pro
 date: 2015-11-15T00:46:33+00:00
 aliases: /2015/11/14/24-hours-with-my-ipad-pro/
-categories:
-  - iOS
-  - Life Notes
+tags:
+  - apple
+  - hardware
+  - reviews
 ---
 
 I&#8217;ve always been a big fan of the iPad. I&#8217;ve owned an: iPad 1, iPad 2 (which I sold to upgrade to an iPad 3), an iPad mini (retina), and now an [iPad Pro][1].

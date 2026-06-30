@@ -5,6 +5,8 @@ description: "A window into how I track work: issue statuses, types, and pull re
 draft: true
 pain: curious developers like to read how others work and get inspired
 fix: a window into my own opinionated system -- issue tracking, a status flow, issue types, and PR conventions -- to discover and cherry-pick from
+tags:
+  - practices
 ---
 
 When I have management responsibility on a project and influence to shape workflows, this is how I typically manage issues and pull requests. None of this is the One True Way -- it's just the system I've arrived at, and I find writing it down useful both for myself and for blog readers who enjoy reading about such things to evolve their own flows. 

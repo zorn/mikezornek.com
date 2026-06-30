@@ -2,12 +2,8 @@
 title: "Philly CocoaHeads: History"
 date: 2016-01-21T21:53:29+00:00
 aliases: /2016/01/21/philly-cocoaheads-history/
-categories:
-  - iOS
-  - Life Notes
-  - Personal Projects
-  - Recommended
-  - Tips
+tags:
+  - meetups
 ---
 
 Being the lead organizer of the [Philly chapter][1] of [CocoaHeads][2], I always welcome the opportunity to chat with members of other meetups. It&#8217;s great to compare notes on how we run our groups, what&#8217;s worked and what&#8217;s failed. In particular I&#8217;ve recently chatted with the leadership of the Nashville CocoaHeads and was also able to attend an Atlanta CocoaHeads meeting while visiting Big Nerd Ranch. It was a great experience and has me inspired to capture some of my thoughts here on the blog. This first article is a walk down memory lane to document the history of Philly CocoaHeads.

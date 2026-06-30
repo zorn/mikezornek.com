@@ -2,10 +2,6 @@
 title: You Don’t End Schindler’s List with a Pepsi Ad.
 date: 2016-10-21T19:20:01+00:00
 aliases: /2016/10/21/you-dont-end-schindlers-list-with-a-pepsi-ad/
-categories:
-  - Entrepreneurship
-  - Gripes
-  - Podcasts
 ---
 
 It&#8217;s Friday. I&#8217;m actually a little low energy and so I decide to go out and pick up a late lunch. I&#8217;ll eat it in my car listening to a podcast and get some outside / sun time. The podcast of choice is [Startup][1], a podcast about starting a business to make podcasts. It&#8217;s a good show, with interesting stories and high production values. It&#8217;s in season 4 so we are well past the pitch stuff and into the real forced growth issues that all VCs seem to face.

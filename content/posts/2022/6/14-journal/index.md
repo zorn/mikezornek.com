@@ -2,6 +2,8 @@
 title: "Journal -- June 14, 2022"
 date: 2022-06-14T14:19:27-04:00
 description: Journal -- June 14, 2022
+series:
+  - Journals
 ---
 
 June 14, 2022 -- Got a small coding session in yesterday though it ended early when some family errands came up. Got the basics of [Commanded] installed and some starter events made. Not a notable amount of work for a normal day but for a vacation day it will do.

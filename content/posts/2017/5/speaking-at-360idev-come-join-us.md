@@ -2,10 +2,8 @@
 title: Speaking at 360iDev, Come Join Us.
 date: 2017-05-22T16:17:25+00:00
 aliases: /2017/05/22/speaking-at-360idev-come-join-us/
-categories:
-  - Conferences
-  - iOS
-  - Life Notes
+tags:
+  - conferences
 ---
 
 I&#8217;m happy to report some recent talk proposals were accepted and I&#8217;ll be [speaking at 360iDev][1] this August in Denver. I was already going to go to 360iDev regardless of the talks, I&#8217;ve heard great things from recent years, so this just makes the week that much more exciting.

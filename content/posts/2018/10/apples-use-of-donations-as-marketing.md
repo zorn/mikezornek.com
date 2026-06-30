@@ -2,8 +2,8 @@
 title: Apple’s Use of Donations as Marketing
 date: 2018-10-04T16:07:40+00:00
 aliases: /2018/10/04/apples-use-of-donations-as-marketing/
-categories:
-  - Uncategorized
+tags:
+  - apple
 ---
 
 The other day Tim Cook (‪@tim_cook‬) [tweeted][1]:

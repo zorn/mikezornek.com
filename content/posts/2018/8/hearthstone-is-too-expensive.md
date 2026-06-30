@@ -2,8 +2,8 @@
 title: Hearthstone is too expensive.
 date: 2018-08-06T13:25:31+00:00
 aliases: /2018/08/06/hearthstone-is-too-expensive/
-categories:
-  - Gaming
+tags:
+  - gaming
 ---
 
 {{< youtube WAf8O5nq8ms >}}

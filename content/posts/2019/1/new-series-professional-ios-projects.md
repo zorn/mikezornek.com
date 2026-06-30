@@ -2,6 +2,9 @@
 title: "New Series: Professional iOS Projects"
 date: 2019-01-08T12:40:03-05:00
 aliases: /posts/2019/1/new-series-anatomy-of-a-modern-ios-project/
+tags:
+  - ios
+  - software-craft
 ---
 
 One of the lessons learned from [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer) by Andrew Hunt and David Thomas is to **learn a new language every year**.

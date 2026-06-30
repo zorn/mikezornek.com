@@ -2,9 +2,8 @@
 title: Updated Reading List
 date: 2013-05-05T20:34:21+00:00
 aliases: /2013/05/05/updated-reading-list/
-categories:
-  - Books
-  - Site News
+tags:
+  - books
 ---
 
 Updated my [reading list][1]. Go check it out!

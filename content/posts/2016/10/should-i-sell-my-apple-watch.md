@@ -2,8 +2,9 @@
 title: Should I Sell My Apple Watch?
 date: 2016-10-07T21:55:30+00:00
 aliases: /2016/10/07/should-i-sell-my-apple-watch/
-categories:
-  - iOS
+tags:
+  - apple
+  - hardware
 ---
 
 I did not partake in the first release of Apple Watch. I was curious but not curious enough. I bought a Playstation 4 instead.

@@ -2,6 +2,8 @@
 title: "Journal -- July 24, 2022"
 date: 2022-07-24T12:51:34-04:00
 description: Journal -- July 24, 2022
+series:
+  - Journals
 ---
 
 Sunday, July 24, 2022 -- I'm back from my mid-week Baseball Hall of Fame trip. [A recap with photos](https://mikezornek.com/posts/2022/7/baseball-hall-of-fame/) has been posted if you are curious how it went. Other updates below.

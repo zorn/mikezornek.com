@@ -2,6 +2,8 @@
 title: Meetup.com Survey Links
 date: 2018-12-06T17:06:54+00:00
 aliases: /2018/12/06/meetup-survey-link-scam/
+tags:
+  - meetups
 ---
 
 Someone has breached Meetup.com security and been sending out links to some sketchy surveys.

@@ -2,6 +2,8 @@
 title: "The README File"
 date: 2019-01-08T12:51:32-05:00
 aliases: /posts/2019/1/anatomy-of-a-modern-ios-project-the-readme-file/
+tags:
+  - software-craft
 ---
 
 > This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).

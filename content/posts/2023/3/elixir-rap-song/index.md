@@ -4,6 +4,9 @@ date: 2023-03-14T14:43:35-04:00
 description: Had too much fun asking ChatGPT to generate haiku poems and rap songs about programming tools and languages. Here is one about Elixir.
 images:
   - posts/2023/3/elixir-rap-song/rapping.webp
+tags:
+  - ai
+  - elixir
 ---
 
 Had too much fun asking ChatGPT to generate haiku poems and rap songs about programming tools and languages. Here is one about Elixir.

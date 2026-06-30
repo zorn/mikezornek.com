@@ -2,10 +2,8 @@
 title: Announcing a New Project, CB Reader
 date: 2013-03-07T20:29:06+00:00
 aliases: /2013/03/07/announcing-a-new-project-cb-reader/
-categories:
-  - Entrepreneurship
-  - Life Notes
-  - Site News
+tags:
+  - side-projects
 ---
 
 Ah, the first public breath of a new project. So much potential and so much to do. Exciting times are afoot.

@@ -4,6 +4,8 @@ date: 2023-04-17T10:42:07-04:00
 description: Some captured notes about technical debt from recent book club discussions.
 images:
   - posts/2023/4/technical-debt/tech-debt-header.jpg
+tags:
+  - software-craft
 ---
 
 The [Elixir Book Club][2] is reading [Software Design X-Rays:

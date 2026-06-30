@@ -11,9 +11,59 @@
             {{ .Date.Format "Jan 2, 2006" }}
           </time>
         </p>
+
+        {{/* Series link (under the date) */}}
+        {{ with .GetTerms "series" }}
+          {{ range . }}
+            <p class="not-prose mt-0 mb-2 text-sm text-gray-600">
+              Part of the series:
+              <a
+                class="font-semibold text-purple-700 underline"
+                href="{{ .RelPermalink }}"
+              >{{ .LinkTitle }}</a>
+            </p>
+          {{ end }}
+        {{ end }}
+
+        {{/* Tags (under the date) */}}
+        {{ with .GetTerms "tags" }}
+          <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
+            <span class="text-sm text-gray-600">Tagged:</span>
+            {{ range . }}
+              <a
+                href="{{ .RelPermalink }}"
+                class="block border border-gray-400 px-2 py-0 text-sm text-purple-700 no-underline hover:bg-purple-600 hover:text-white"
+              >{{ .LinkTitle }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+
         <div>
           {{ .Content }}
         </div>
+
+        {{/* In-series prev/next (reading-order series only) */}}
+        {{ partial "series-nav.html" . }}
+
+        {{/* Related posts */}}
+        {{ $related := first 5 (.Site.RegularPages.Related .) }}
+        {{ with $related }}
+          <div class="mt-10">
+            <h2 class="mb-2">You might also like</h2>
+            <ol class="m-0 list-none p-0">
+              {{ range . }}
+                <li class="m-0 p-0">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  |
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "Jan 2, 2006" }}
+                  </time>
+                </li>
+              {{ end }}
+            </ol>
+          </div>
+        {{ end }}
+
         <div>
           <hr>
           <!-- prettier-ignore -->
@@ -30,20 +80,6 @@
               Hopefully, you found interest in my scribbles. If you have commentary or a response, I'd love to <a href="https://mikezornek.com/contact/">hear it</a>.
           </p>
         </div>
-
-        {{ with .Params.tags }}
-          <div>
-            <ul id="tags">
-              {{ range . }}
-                <li>
-                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-                    {{ . }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
-          </div>
-        {{ end }}
       </article>
     </div>
   </main>

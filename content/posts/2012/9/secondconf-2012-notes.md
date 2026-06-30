@@ -2,8 +2,8 @@
 title: SecondConf 2012 Notes
 date: 2012-09-26T03:20:15+00:00
 aliases: /2012/09/25/secondconf-2012-notes/
-categories:
-  - Conferences
+tags:
+  - conferences
 ---
 
 For those who might not be familiar, [SecondConf][1] is a Chicago-based weekend conference that describes itself as:

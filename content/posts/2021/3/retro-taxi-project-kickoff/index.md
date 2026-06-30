@@ -2,6 +2,9 @@
 title: "RetroTaxi Project Kickoff"
 date: 2021-03-14T16:55:21-04:00
 slug: retro-taxi-project-kickoff
+tags:
+  - elixir
+  - side-projects
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

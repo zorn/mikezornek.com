@@ -6,6 +6,8 @@ images:
   - posts/2025/6/becoming-an-accessibility-ally/axe-dev-tools-firefox-extension.webp
 pain: web developer who might be less experienced on the frontend wants to be an accessibility ally but is not sure where to start
 fix: share my own learning journey from last week, pointing out the resources and tools I discovered along the way
+tags:
+  - web-development
 ---
 
 Here is a hard truth: while I **want** to be viewed as an ally to accessibility, I probably would not score very high if you judged me by my actions. In the past, I've worked a little extra to find the correct semantic HTML tags to use in various situations. I have included the random image `alt` attribute but not much else.

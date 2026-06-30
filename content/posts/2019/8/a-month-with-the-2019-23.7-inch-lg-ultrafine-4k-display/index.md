@@ -1,6 +1,10 @@
 ---
 title: "A Month with the 2019 23.7-inch LG UltraFine 4K Display"
 date: 2019-08-01T20:00:00-04:00
+tags:
+  - apple
+  - hardware
+  - reviews
 ---
 
 > Previously on, [The Great Monitor Search Continues](http://mikezornek.com/posts/2019/6/the-great-monitor-search-continues/). After identifying a need to get a new external display for my MacBook Pro, I first paused to see what WWDC might bring. After Apple released [a monitor that I could not afford](https://www.apple.com/pro-display-xdr/) I instead went with the [LG 49-inch UltraWide monitor](https://www.lg.com/us/monitors/lg-49WL95C-W-ultrawide-monitor) which, while productive and cool in many ways, did not jive with Mac OS X day-to-day. It was returned. Now having my second choice monitor, the [2019 23.7-inch LG UltraFine 4K Display](https://www.apple.com/shop/product/HMUA2VC/A/lg-ultrafine-4k-display), how is it going?

@@ -2,12 +2,8 @@
 title: "Clash of the Coders: Day 0"
 date: 2016-03-30T15:35:33+00:00
 aliases: /2016/03/30/clash-of-the-coders-day-0/
-categories:
-  - Coding
-  - iOS
-  - Life Notes
-  - Personal Projects
-  - Xcode
+tags:
+  - side-projects
 ---
 
 One of the many interesting benefits I get working for [Big Nerd Ranch][1] is the opportunity to participate in many fun and unique events. One of the bigger ones is called Clash of the Coders.

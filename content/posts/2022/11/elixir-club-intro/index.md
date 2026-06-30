@@ -2,6 +2,9 @@
 title: "A New Project: ElixirClub"
 date: 2022-11-27T21:14:14-05:00
 description: ElixirClub is an outcome-oriented community that helps Elixir developers finish their side projects.
+tags:
+  - side-projects
+  - elixir
 ---
 
 Today I am announcing a new project of mine taking shape. It's called ElixirClub.

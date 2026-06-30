@@ -4,6 +4,8 @@ date: 2025-01-29T08:46:05-05:00
 description: My meme about code reviews, got some great replies. I have to share.
 images:
   - posts/2025/1/a-few-good-memes/code-reviews-too-harsh.png
+tags:
+  - software-craft
 ---
 
 <figure>

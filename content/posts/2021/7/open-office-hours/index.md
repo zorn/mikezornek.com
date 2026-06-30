@@ -2,6 +2,8 @@
 title: "Open Office Hours: Summer 2021"
 date: 2021-07-01T17:32:00-04:00
 description: I love hearing what people are excited about and working on. Noting too formal, just coffee over a Zoom video chat.
+tags:
+  - consulting
 ---
 
 With some well earned [extended summer downtime](/posts/2021/6/summer-plans/) underway I once again have a more flexible schedule and want to promote my open office hours!

@@ -1,6 +1,9 @@
 ---
 title: "Book: The Common Good"
 date: 2019-03-18T10:00:00-05:00
+tags:
+  - books
+  - reviews
 ---
 
 I've been a long time fan of [Robert Reich](http://robertreich.org/) and particularly enjoyed his documentary [Inequality for All](http://inequalityforall.com/) from 2013. This year he has a new book, [The Common Good](https://amzn.to/2Y6TiM3) -- and I liked it a lot.

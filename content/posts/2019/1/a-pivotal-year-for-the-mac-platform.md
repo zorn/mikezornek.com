@@ -1,6 +1,8 @@
 ---
 title: "A Pivotal Year for the Mac Platform"
 date: 2019-01-17T18:55:05-05:00
+tags:
+  - apple
 ---
 
 This is going to be a pivotal year for the Mac platform and my relationship to it.

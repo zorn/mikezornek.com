@@ -2,6 +2,9 @@
 title: "Resources and Suggestions to Find Elixir-based Employment"
 slug: "elixir-job-resources"
 date: 2021-07-16T16:12:03-04:00
+tags:
+  - elixir
+  - career
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

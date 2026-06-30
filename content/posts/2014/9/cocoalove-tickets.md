@@ -2,13 +2,8 @@
 title: CocoaLove Tickets
 date: 2014-09-04T01:02:47+00:00
 aliases: /2014/09/03/cocoalove-tickets/
-categories:
-  - Conferences
-  - Entrepreneurship
-  - Industry News
-  - iOS
-  - Life Notes
-  - Personal Projects
+tags:
+  - conferences
 ---
 
 It&#8217;s September, which means next month is October, which means [CocoaLove][1] is coming up fast!

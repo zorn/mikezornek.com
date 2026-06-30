@@ -2,6 +2,8 @@
 title: "March 2024 Review"
 date: 2024-04-01T19:43:02-04:00
 description: A collection of accomplishments, notes, and observations about March 2024.
+series:
+  - Journals
 ---
 
 A collection of accomplishments, notes, and observations about March 2024.

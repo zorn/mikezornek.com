@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: Duet"
 date: 2015-11-29T21:15:42+00:00
 aliases: /2015/11/29/31-days-31-products-duet/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 06: Duet

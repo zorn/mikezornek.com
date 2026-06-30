@@ -2,10 +2,8 @@
 title: Rebooting My Professional Side Projects
 date: 2015-11-17T04:25:06+00:00
 aliases: /2015/11/16/rebooting-my-professional-side-projects/
-categories:
-  - Entrepreneurship
-  - Life Notes
-  - Personal Projects
+tags:
+  - side-projects
 ---
 
 It&#8217;s been a little over two years since I put [Clickable Bliss][1], the company name for my personal projects, then self-employment, on hiatus after taking a job at DmgCtrl (which then turned into a job at Big Nerd Ranch). Back then when [I wrote about the change][2], I mentioned that team work was something I was really missing after my group startup Shindig ended. The good news is, in the last 2 years time I&#8217;ve gotten to work with some very talented people and have learned a ton from them. The sad news is, the yearning to work on something longterm, something of my own, something I can have a meaningful impact on does not go away. Today I&#8217;d like to share my intent to reboot my professional side projects.

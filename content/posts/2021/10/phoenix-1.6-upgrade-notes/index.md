@@ -7,6 +7,8 @@ pain: confusion and scared about editing generated templates
 fix: some tips for success
 next action: update your project
 back of the book promise: after reading this post you'll have a battle plan to update to Phoenix 1.6
+tags:
+  - elixir
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

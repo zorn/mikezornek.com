@@ -2,12 +2,8 @@
 title: Accessibility
 date: 2016-11-05T19:28:54+00:00
 aliases: /2016/11/05/accessibility/
-categories:
-  - Coding
-  - Entrepreneurship
-  - iOS
-  - Personal Projects
-  - Recommended
+tags:
+  - ios
 ---
 
 At the Apple event a few weeks ago they began with a short video on accessibility.

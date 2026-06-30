@@ -2,6 +2,8 @@
 title: "Journal -- November 20, 2022"
 date: 2022-11-20T19:20:08-05:00
 description: It's another Sunday night journal entry. Let's go!
+series:
+  - Journals
 ---
 
 Sunday, November 20, 2022 -- It's another Sunday night journal entry. Let's go!

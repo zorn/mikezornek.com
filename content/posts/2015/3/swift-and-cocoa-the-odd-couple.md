@@ -2,8 +2,8 @@
 title: "Swift and Cocoa: The Odd Couple"
 date: 2015-03-04T16:30:06+00:00
 aliases: /2015/03/04/swift-and-cocoa-the-odd-couple/
-categories:
-  - Uncategorized
+tags:
+  - ios
 ---
 
 Swift and Cocoa are like The Odd Couple. Two people, with drastically different personalities who are joined by fate to live with each other.

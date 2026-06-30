@@ -2,8 +2,8 @@
 title: Hello from Linode
 date: 2018-04-07T19:20:26+00:00
 aliases: /2018/04/07/hello-from-linode/
-categories:
-  - Coding
+tags:
+  - devops
 ---
 
 If you are reading this, then the DNS gods have shown you to my new [Linode][1] web server!

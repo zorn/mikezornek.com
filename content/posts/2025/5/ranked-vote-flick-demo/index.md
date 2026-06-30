@@ -2,6 +2,9 @@
 title: "Ranked Vote Flick Demo"
 date: 2025-05-01T19:58:04-04:00
 description: something tweet like
+tags:
+  - side-projects
+  - elixir
 ---
 
 Took a few moments tonight to record a short demo of [RankedVote.app](https://rankedvote.app/) (Project name: [Flick](https://github.com/zorn/flick)) tonight.

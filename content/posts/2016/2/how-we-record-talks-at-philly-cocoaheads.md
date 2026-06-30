@@ -2,11 +2,8 @@
 title: How We Record Talks at Philly CocoaHeads
 date: 2016-02-02T22:44:52+00:00
 aliases: /2016/02/02/how-we-record-talks-at-philly-cocoaheads/
-categories:
-  - Conferences
-  - iOS
-  - Recommended
-  - Tips
+tags:
+  - meetups
 ---
 
 I came across [this post][1] from Rico Jones on how he records the [Portland Ruby Brigade&#8217;s][2] monthly meetings and thought I&#8217;d do something similar for how we record the [Philly CocoaHead][3] presentations.

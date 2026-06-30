@@ -2,6 +2,8 @@
 title: "Best Vinyl of 2024"
 date: 2024-12-31T10:14:11-05:00
 description: Reviewing a few special albums from this past year.
+tags:
+  - reviews
 ---
 
 In March of 2024, I purchased a record player after seeing one at my cousin's place.

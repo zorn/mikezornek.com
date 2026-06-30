@@ -2,6 +2,8 @@
 title: "Journal -- June 13, 2022"
 date: 2022-06-13T13:13:36-04:00
 description: Journal -- June 13, 2022
+series:
+  - Journals
 ---
 
 June 13, 2022 -- Had a nice weekend. On Saturday ran some errands and got my usual weekend pretzels. In the afternoon I did some cleaning around the apartment, organizing the hallway linen closet and a mix of drawers. Around 4pm I watched the Phillies. Sunday saw the weekly food pickup. Made a point to get some snacks for my week at shore, which is coming up next week. I watched the early part of the Phillies game at 1pm but when the game got out of reach I took to my own distractions in some books and games.

@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: Postbox"
 date: 2015-12-14T01:50:45+00:00
 aliases: /2015/12/13/31-days-31-products-postbox/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 18: Postbox

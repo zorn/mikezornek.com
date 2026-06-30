@@ -19,8 +19,7 @@ var fuseOptions = {
     keys: [
         {name: "title", weight: 0.45},
         {name: "contents", weight: 0.4},
-        {name: "tags", weight: 0.1},
-        {name: "categories", weight: 0.05}
+        {name: "tags", weight: 0.1}
     ]
 };
 
@@ -100,7 +99,6 @@ function populateResults(results) {
             title: value.item.title,
             link: value.item.permalink,
             tags: tags,
-            categories: value.item.categories,
             snippet: snippet,
             date: value.item.date,
             formattedDate: formatDate(value.item.date)

@@ -2,6 +2,8 @@
 title: "LiveView Modules Must End in `Live`"
 date: 2024-09-03T20:32:57-04:00
 description: A review of the technical situation where the `Live` suffix is more than an optional naming pattern.
+tags:
+  - elixir
 ---
 
 When working with [LiveView] you'll notice people naming modules with the suffix `Live`, as seen in module names like `FlickWeb.Ballots.IndexLive` or `FlickWeb.Vote.VoteCaptureLive`.

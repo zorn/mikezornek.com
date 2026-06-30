@@ -2,6 +2,8 @@
 title: "Vacation is Good, I Recommend It"
 date: 2021-07-21T16:43:23-04:00
 description: A short check in with how my vacation is going.
+series:
+  - Journals
 ---
 
 Figured I'd do a short check in with how my vacation is going.

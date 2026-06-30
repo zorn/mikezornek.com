@@ -2,11 +2,9 @@
 title: Introducing Zorn Labs LLC
 date: 2017-03-28T17:44:06+00:00
 aliases: /2017/03/28/introducing-zorn-labs-llc/
-categories:
-  - Coding
-  - Entrepreneurship
-  - iOS
-  - Life Notes
+tags:
+  - career
+  - consulting
 ---
 
 As I alluded to after [loosing my job][1] at the end of January, I knew I&#8217;d take the majority of February to [recover from my neck surgery][2] and then get serious about work in March. We&#8217;ll it&#8217;s almost the end of March so I figured I&#8217;d do an update.

@@ -2,10 +2,8 @@
 title: 2017 Retrospective
 date: 2018-01-04T04:22:45+00:00
 aliases: /2018/01/03/2017-retrospective/
-categories:
-  - Coding
-  - Life Notes
-  - Personal Projects
+tags:
+  - career
 ---
 
 I&#8217;ve been kind of heads down with client work the last few months but wanted to say hi to those who still follow me here.

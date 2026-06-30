@@ -2,10 +2,9 @@
 title: MegaManEffect now on GitHub
 date: 2014-01-12T20:25:35+00:00
 aliases: /2014/01/12/megamaneffect-now-on-github/
-categories:
-  - Coding
-  - Gaming
-  - Xcode
+tags:
+  - side-projects
+  - gaming
 ---
 
 A few days ago I started to archive a lot of the [Clickable Bliss website][1], replacing it with a smaller &#8220;hiatus&#8221; version. In the process I moved the MegaManEffect which lived primarily via a blog post and a GoogleCode subversion repo to GitHub.

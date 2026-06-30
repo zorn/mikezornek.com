@@ -3,9 +3,9 @@ title: Are You Attending 360iDev? Do You Help Run a Meetup? I need your help.
 date: 2017-08-09T15:36:03+00:00
 draft: true
 aliases: /?p=699
-categories:
-  - Conferences
-  - Personal Projects
+tags:
+  - conferences
+  - meetups
 ---
 
 I&#8217;ll be attending 360iDev next week and am giving the following talk on meetups:

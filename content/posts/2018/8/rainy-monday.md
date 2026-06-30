@@ -2,8 +2,8 @@
 title: Rainy Monday
 date: 2018-08-13T19:09:29+00:00
 aliases: /2018/08/13/rainy-monday/
-categories:
-  - Uncategorized
+series:
+  - Journals
 ---
 
 {{< youtube XzNqYhUTRVg >}}

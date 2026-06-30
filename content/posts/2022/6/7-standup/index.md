@@ -2,6 +2,8 @@
 title: "Standup for Tuesday, June 7, 2022"
 date: 2022-06-07T17:18:44-04:00
 description: Daily standup journal for Tuesday, June 7, 2022.
+series:
+  - Journals
 ---
 
 ❤️ **Feeling:** Not very motivated to get deep into my coding [side project] and instead have been binging on video games and extra sleep. I guess that is what vacation is for though. 🤷‍♂️ Posting this as the day is almost over.

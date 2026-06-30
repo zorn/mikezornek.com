@@ -1,6 +1,8 @@
 ---
 title: "April Book Update"
 date: 2020-04-16T09:54:46-04:00
+tags:
+  - books
 ---
 
 I don't do many book updates on this blog. In fact I don't read nearly as much as I would like. I'm a slow reader and in general am more visual, watching videos, movies and games.

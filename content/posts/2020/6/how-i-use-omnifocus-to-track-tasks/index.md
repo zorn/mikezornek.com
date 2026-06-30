@@ -4,6 +4,8 @@ date: 2020-06-10T09:59:22-04:00
 description: I've been a fan of Getting Things Done and a casual user of OmniFocus for years, mostly focusing on long term projects. For weekly stuff I used to do a manual list in Bear but a few weeks ago I took the time to see if I could make OmniFocus work for my weekly list, and so far it's working out great. This video is a review of what's changed.
 images:
   - posts/2020/6/how-i-use-omnifocus-to-track-tasks/this-week-perspective.png
+tags:
+  - practices
 ---
 
 [OmniFocus](https://www.omnigroup.com/omnifocus/) is a task manager that was built around the concepts of [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done), a popular action management system by David Allen.

@@ -2,6 +2,8 @@
 title: "Journal -- September 28, 2022"
 date: 2022-09-28T18:24:40-04:00
 description: Journal -- September 28, 2022
+series:
+  - Journals
 ---
 
 Wednesday, September 28, 2022 -- Woke up around 8am and after a some breakfast headed out to run errands.

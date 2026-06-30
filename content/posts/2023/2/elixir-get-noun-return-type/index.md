@@ -2,6 +2,9 @@
 title: "Elixir Context Accessor Function: Which Return Type Do You Prefer?"
 date: 2023-02-12T13:55:42-05:00
 description: something tweet like
+tags:
+  - elixir
+  - software-craft
 ---
 
 During a recent [Elixir Book Club](https://elixirbookclub.github.io/website/) meeting we had a back and forth discussion on a simple code style question:

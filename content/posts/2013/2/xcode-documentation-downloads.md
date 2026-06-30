@@ -2,9 +2,8 @@
 title: Xcode Documentation Downloads
 date: 2013-02-20T19:22:19+00:00
 aliases: /2013/02/20/xcode-documentation-downloads/
-categories:
-  - Gripes
-  - Xcode
+tags:
+  - ios
 ---
 
 Rather that use the Mac App Store and re-download Xcode each time I need to install it on a new Mac, I take advantage of [developer downloads directory][1] and grab the Xcode DMG file so I can put on my USB disk and move around from Mac to Mac and avoid the duplicate downloads.

@@ -2,10 +2,8 @@
 title: "Girl Develop It: Introduction to iOS Development"
 date: 2014-12-31T18:05:32+00:00
 aliases: /2014/12/31/girl-develop-it-introduction-to-ios-development/
-categories:
-  - Coding
-  - iOS
-  - Xcode
+tags:
+  - ios
 ---
 
 The [Introduction to iOS Development][1] class I&#8217;m teaching for Girl Develop It is open and tickets are for sale.

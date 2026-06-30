@@ -2,6 +2,8 @@
 title: "Providing New Member Onboarding for Online Meetups During COVID"
 date: 2020-09-28T11:41:34-04:00
 description: Draft a plan, automate the execution, share the responsibilities, learn how to better serve your members.
+tags:
+  - meetups
 ---
 
 > This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).

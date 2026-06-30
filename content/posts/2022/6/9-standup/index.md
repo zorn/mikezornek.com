@@ -2,6 +2,8 @@
 title: "Standup for Thursday, June 9, 2022"
 date: 2022-06-09T10:57:43-04:00
 description: Daily standup journal for Thursday, June 9, 2022.
+series:
+  - Journals
 ---
 
 ❤️ **Feeling:** The Phillies have [won](https://www.mlb.com/gameday/phillies-vs-brewers/2022/06/08/661188) six in a row and I don't know what planet I am on anymore.

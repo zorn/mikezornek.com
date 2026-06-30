@@ -2,9 +2,9 @@
 title: “For the times they are a-changing”
 date: 2017-02-01T17:33:35+00:00
 aliases: /2017/02/01/for-the-times-they-are-a-changing/
-categories:
-  - Entrepreneurship
-  - Life Notes
+tags:
+  - career
+  - consulting
 ---
 
 I am no longer an employee of Big Nerd Ranch. The news came down on Monday. I can&#8217;t speak to any of the details but suffice to say I am disappointed. I really enjoyed working at BNR. My time there was productive, for my own personal growth as well as that of my students and clients. I wish them well, and continue to recommend them as a good source for iOS education.

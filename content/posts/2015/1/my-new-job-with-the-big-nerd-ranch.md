@@ -2,8 +2,8 @@
 title: My New Job with the Big Nerd Ranch
 date: 2015-01-19T22:26:40+00:00
 aliases: /2015/01/19/my-new-job-with-the-big-nerd-ranch/
-categories:
-  - Uncategorized
+tags:
+  - career
 ---
 
 As I [posted on Twitter a few weeks ago][1], I recently accepted a new job with the [Big Nerd Ranch][2]. The job itself starts tomorrow and I&#8217;m really excited.

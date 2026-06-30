@@ -1,6 +1,8 @@
 ---
 title: "Apple's EU Antitrust Investigation is Long Overdue"
 date: 2020-06-16T17:58:01-04:00
+tags:
+  - apple
 ---
 
 [European Commission](https://ec.europa.eu/commission/presscorner/detail/en/ip_20_1073):

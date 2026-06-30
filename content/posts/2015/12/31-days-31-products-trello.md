@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: Trello"
 date: 2015-12-16T02:38:44+00:00
 aliases: /2015/12/15/31-days-31-products-trello/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 19: Trello

@@ -2,6 +2,9 @@
 title: "Improve the Clarity of Your Elixir Code Through Expressive and Consistent Language"
 slug: "programming-terminology"
 date: 2021-06-06T12:00:00-04:00
+tags:
+  - elixir
+  - software-craft
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

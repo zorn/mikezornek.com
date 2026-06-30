@@ -1,6 +1,9 @@
 ---
 title: "Philly Elixir Meetup is Rebooting"
 date: 2019-04-22T10:00:00-05:00
+tags:
+  - meetups
+  - elixir
 ---
 
 After too long of a hiatus, the Philly Elixir Meetup group is rebooting!

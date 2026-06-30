@@ -2,10 +2,9 @@
 title: 7 Minute Workout Featured on Apple.com
 date: 2014-06-10T19:24:00+00:00
 aliases: /2014/06/10/7-minute-workout-featured-on-apple-com/
-categories:
-  - iOS
-  - Life Notes
-  - Personal Projects
+tags:
+  - ios
+  - side-projects
 ---
 
 One of the apps I worked on, [7 Minute Workout][1], has been featured by Apple again. This time it&#8217;s part of the [Strength TV ad][2] which features a bunch of great fitness apps on iOS.

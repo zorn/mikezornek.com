@@ -2,6 +2,8 @@
 title: "A Look Back: Week Ending December 13th"
 date: 2020-12-13T15:48:20-05:00
 description: A terse review of what I've been up to.
+series:
+  - Journals
 ---
 
 Once again I missed my weekly updates so today notes include all items since the last check-in, [November 22nd](/posts/2020/11/look-back-nov-22/).

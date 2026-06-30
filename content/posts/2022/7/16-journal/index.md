@@ -2,6 +2,8 @@
 title: "Journal -- July 16, 2022"
 date: 2022-07-16T13:49:27-04:00
 description: Journal -- July 16, 2022
+series:
+  - Journals
 ---
 
 Saturday, July 16, 2022 -- Yesterday I did some more apartment hunting and scheduled even more tours next week. Starting to get my head around what I want and what I will compromise on. Have high hopes for the scheduled tour next Friday as it is a more isolated place near a park and walking trail, which looks nice. We'll see.

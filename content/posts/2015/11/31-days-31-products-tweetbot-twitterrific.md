@@ -2,8 +2,10 @@
 title: "31 Days, 31 Products: TweetBot & Twitterrific"
 date: 2015-11-30T15:35:51+00:00
 aliases: /2015/11/30/31-days-31-products-tweetbot-twitterrific/
-categories:
-  - Recommended
+series:
+  - 31 Days 31 Products
+tags:
+  - reviews
 ---
 
 ## Day 07: TweetBot & Twitterrific

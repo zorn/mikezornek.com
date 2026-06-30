@@ -2,10 +2,8 @@
 title: iOS Mobile Design with Sketch at Big Nerd Ranch
 date: 2015-11-19T03:01:39+00:00
 aliases: /2015/11/18/ios-mobile-design-with-sketch-at-big-nerd-ranch/
-categories:
-  - Interface Design
-  - iOS
-  - Recommended
+tags:
+  - ios
 ---
 
 I&#8217;ve wanted to get better at using Sketch for a while now and it looks like I might get my wish!

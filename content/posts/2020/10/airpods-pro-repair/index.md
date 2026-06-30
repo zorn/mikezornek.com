@@ -2,6 +2,9 @@
 title: "Airpods Pro Repair: How hard is it to ship an empty box?"
 date: 2020-10-11T13:02:23-04:00
 description: What followed was an hour long customer support session that continues to erode my enjoyment of Apple products.
+tags:
+  - apple
+  - hardware
 ---
 
 The Apple AirPods Pro earbuds I ordered in February are broken. The left pod has this really bad vibration that just never seems to never go away. It's particularly noticeable during my walks. I had some connection issues before and re-pairing the device with the phone fixed it back then, but this new problem will not go away.

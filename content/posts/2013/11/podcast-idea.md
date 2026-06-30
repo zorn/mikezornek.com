@@ -2,9 +2,6 @@
 title: Podcast Idea
 date: 2013-11-28T01:54:42+00:00
 aliases: /2013/11/27/podcast-idea/
-categories:
-  - Coding
-  - Podcasts
 ---
 
 A podcast idea&#8230;

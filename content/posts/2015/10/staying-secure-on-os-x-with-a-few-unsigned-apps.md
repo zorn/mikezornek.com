@@ -2,9 +2,8 @@
 title: Staying Secure on OS X with a Few Unsigned Apps
 date: 2015-10-19T22:10:33+00:00
 aliases: /2015/10/19/staying-secure-on-os-x-with-a-few-unsigned-apps/
-categories:
-  - Recommended
-  - Tips
+tags:
+  - privacy
 ---
 
 I could get into some real heavy talk regarding Apple&#8217;s policies about installing software outside their stores (and maybe I will someday) but for now let us all be thankful that not all Mac software must come to us through Cupertino. Let us also be thankful for [Gatekeeper][1], a nice compromise Apple offers.

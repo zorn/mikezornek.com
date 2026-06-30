@@ -2,9 +2,9 @@
 title: An “App Architecture” Kata
 date: 2014-11-24T02:00:29+00:00
 aliases: /2014/11/23/an-app-architecture-kata/
-categories:
-  - Coding
-  - iOS
+tags:
+  - ios
+  - software-craft
 ---
 
 At the last [Side Project Saturday][1] CocoaHeads event I ran a special little exercise. Here was how I described it.

@@ -2,6 +2,10 @@
 title: "Exercism Elixir Track: DNA Encoding (Bitstrings and Tail Call Recursion)"
 date: 2022-08-28T14:38:27-04:00
 description: In today's Exercism Elixir Track video, we learn about Bitstrings and Tail Call Recursion while completing the DNA Encoding exercise.
+tags:
+  - elixir
+series:
+  - Exercism Elixir Track
 ---
 
 In today's Exercism Elixir Track video, we learn about Bitstrings and Tail Call Recursion while completing the DNA Encoding exercise.

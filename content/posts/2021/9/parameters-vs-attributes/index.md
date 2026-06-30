@@ -7,6 +7,8 @@ pain: confusion about seeing the two terms for roughly the same behavior
 fix: an explanation of the differences
 next action: next
 back of the book promise: promise
+tags:
+  - elixir
 ---
 
 _This post was originally written for my old ElixirFocus blog, and transfer here after its closure._

@@ -2,11 +2,8 @@
 title: Enums and Switches
 date: 2013-12-29T17:31:47+00:00
 aliases: /2013/12/29/enums-and-switches/
-categories:
-  - Coding
-  - iOS
-  - Tips
-  - Xcode
+tags:
+  - ios
 ---
 
 If you are one to use `enum` to define modes or types in your models or controllers, consider using `switch` statements to help branch the different behaviors. If you do so, the complier will help you when you have forgotten to implement behavior for a `enum` value.

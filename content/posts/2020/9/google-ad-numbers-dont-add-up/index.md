@@ -4,6 +4,8 @@ date: 2020-09-05T10:46:27-04:00
 description: I tried to run some Google Ads but can't reconcile the numbers. I've been duped!
 images:
   - posts/2020/9/google-ad-numbers-dont-add-up/thumb.jpeg
+tags:
+  - side-projects
 ---
 
 I tried to run some Google Ads but can't reconcile the numbers. I've been duped!

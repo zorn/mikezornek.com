@@ -4,6 +4,8 @@ date: 2022-08-12T18:57:30-04:00
 description: "The past week started with some enjoyable and relaxing beach days down the shore."
 images:
   - posts/2022/8/12-journal/IMG_3807.jpeg
+series:
+  - Journals
 ---
 
 Friday, August 12, 2022 -- The past week started with some enjoyable and relaxing beach days down the shore.

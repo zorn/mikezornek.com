@@ -2,6 +2,8 @@
 title: "Don't Waste My Time (Video 2m)"
 date: 2020-09-07T13:17:43-04:00
 description: A few thoughts on cutting to the chase in videos for an online audience.
+tags:
+  - practices
 ---
 
 I love the enthusiasm and energy of [this video](https://www.youtube.com/watch?v=IrrdC_pkmGM).

@@ -4,6 +4,9 @@ date: 2020-07-04T11:32:28-04:00
 description: A quick tour of some of the tools you'll want to use to help learn Kotlin.
 images:
   - posts/2020/7/kotlin-tools-for-android-book-club/thumb.jpeg
+tags:
+  - books
+  - meetups
 ---
 
 A quick tour of some of the tools you'll want to use to help learn Kotlin.

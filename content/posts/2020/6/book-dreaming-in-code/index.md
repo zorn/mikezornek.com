@@ -4,6 +4,9 @@ date: 2020-06-15T10:41:17-04:00
 description: I finished this book over the weekend. Here were a few highlights.
 images:
   - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
+tags:
+  - books
+  - reviews
 ---
 
 <img src="thumnb.jpeg" alt="Dreaming in Code book cover." style="width:auto;">

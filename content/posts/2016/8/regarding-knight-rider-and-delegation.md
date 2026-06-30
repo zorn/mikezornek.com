@@ -2,10 +2,9 @@
 title: Regarding Knight Rider and Delegation
 date: 2016-08-02T22:14:36+00:00
 aliases: /2016/08/02/regarding-knight-rider-and-delegation/
-categories:
-  - Books
-  - Coding
-  - iOS
+tags:
+  - ios
+  - software-craft
 ---
 
 One of the saddest aspects of being a [Big Nerd Ranch][1] instructor in 2016 is that students these days do not appreciate the Michael Knight is to Delegation, as RoboCop is to Subclassing discussion of yesteryear.

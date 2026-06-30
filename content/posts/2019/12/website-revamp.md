@@ -1,6 +1,8 @@
 ---
 title: "Website Revamp"
 date: 2019-12-17T14:01:51-05:00
+tags:
+  - web-development
 ---
 
 At the end of November I took a few days and revamped this site. Let me know if you spot any issues or typos. Thanks!

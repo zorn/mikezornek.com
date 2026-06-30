@@ -2,6 +2,8 @@
 title: "December 2023 Review"
 date: 2024-01-01T16:09:46-05:00
 description: A collection of accomplishments, notes, and observations about December 2023.
+series:
+  - Journals
 ---
 
 A collection of accomplishments, notes, and observations about December 2023.

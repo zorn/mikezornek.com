@@ -2,8 +2,8 @@
 title: Documentation for NSViewController init(nibName:bundle:) is incorrect
 date: 2016-10-17T17:48:45+00:00
 aliases: /2016/10/17/documentation-for-nsviewcontroller-initnibnamebundle-is-incorrect/
-categories:
-  - Coding
+tags:
+  - ios
 ---
 
 Radar: #28802828

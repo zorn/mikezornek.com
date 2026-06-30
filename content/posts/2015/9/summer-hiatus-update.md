@@ -2,9 +2,8 @@
 title: Summer Hiatus Update
 date: 2015-09-24T20:44:59+00:00
 aliases: /2015/09/24/summer-hiatus-update/
-categories:
-  - Conferences
-  - Life Notes
+series:
+  - Journals
 ---
 
 Hello internets. So sorry for the summer hiatus here on the blog. So what have you been up to? ([Email me][1] and say hi!)

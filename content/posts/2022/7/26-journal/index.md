@@ -2,6 +2,8 @@
 title: "Journal -- July 26, 2022"
 date: 2022-07-26T13:38:46-04:00
 description: Journal -- July 26, 2022
+series:
+  - Journals
 ---
 
 Tuesday, July 26, 2022 -- Attended the Phillies game last night. They [came back](https://twitter.com/NBCSPhilly/status/1551919037705224193) to defeat the Braves with a 3-run home run by Bryson Stott in the bottom of the eighth inning! It was glorious.

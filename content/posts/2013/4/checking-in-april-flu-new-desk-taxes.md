@@ -2,8 +2,8 @@
 title: "Checking In: April Flu, New Desk, Taxes"
 date: 2013-04-10T21:17:48+00:00
 aliases: /2013/04/10/checking-in-april-flu-new-desk-taxes/
-categories:
-  - Life Notes
+series:
+  - Journals
 ---
 
 Sorry for the lack of updates. I kind of fell into a work drought over last few weeks with a mixture of a bad stomach bug, a new desk which required lots of teardown of my office and now a few days of tax paperwork. Oh how I loath the tax paperwork.

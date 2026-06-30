@@ -37,16 +37,17 @@
     {{ with .Site.Menus.main }}
       <nav>
         <div class="mb-12">
-          <ol class="my-4 list-none">
+          <ol class="my-4 flex list-none flex-wrap items-center gap-x-4 gap-y-1">
             {{ range . }}
               <li
-                class="mr-4 mb-2 inline-block font-[Ubuntu] text-2xl font-bold md:mb-0 md:inline"
+                class="font-[Ubuntu] text-xl font-bold{{ if eq .URL "/random/" }} md:ml-auto{{ end }}"
               >
                 <a
                   class="{{ if (eq .Name $currentSectionHighlight) }}
                     border-b-8 pb-1 border-purple-700
                   {{ end }}"
                   href="{{ .URL | relURL }}"
+                  {{- with .Title }} title="{{ . }}" aria-label="{{ . }}"{{ end }}
                 >
                   {{ .Name }}
                 </a>

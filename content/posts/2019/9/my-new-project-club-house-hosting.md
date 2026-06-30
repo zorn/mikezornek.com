@@ -1,6 +1,8 @@
 ---
 title: "My New Project: Club House Hosting"
 date: 2019-09-17T11:30:26-04:00
+tags:
+  - side-projects
 ---
 
 Over the past few months I've been tinkering on a new project and it's time to start to talking about it publicly.
