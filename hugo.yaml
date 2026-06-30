@@ -67,6 +67,10 @@ menu:
     - name: Contact
       url: /contact/
       weight: 60
+    - name: 🎲
+      title: Read a random post
+      url: /random/
+      weight: 65
 
 outputs:
   home: ["HTML", "RSS", "JSON"]

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Post</title>
+    {{- $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    <script>
+      const posts = [
+        {{- range $posts }}{{ .RelPermalink }},{{ end }}
+      ];
+      if (posts.length) {
+        location.replace(posts[Math.floor(Math.random() * posts.length)]);
+      }
+    </script>
+  </head>
+  <body>
+    <p style="font-family: sans-serif; padding: 2rem;">
+      Sending you to a random post…
+      {{- with $posts }}
+        <a href="{{ (index . 0).RelPermalink }}">Continue</a>
+      {{- end }}
+    </p>
+  </body>
+</html>
