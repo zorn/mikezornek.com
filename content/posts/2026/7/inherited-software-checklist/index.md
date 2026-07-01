@@ -1,17 +1,24 @@
 ---
 title: "Stabilizing Inherited Software: My First-Week Checklist"
-date: 2026-07-01T01:07:10-04:00
+date: 2026-07-01T11:17:33-04:00
 description: "Inherited a live codebase with no one left who built it? Here's the checklist I run through in week one — before touching a single feature."
-draft: true
 pain: for a consultant adopting a new project, it can be overwhelming and not sure where to start
 fix: provide a checklist for stabilizing live software during the first week of an adoption/handoff engagement
 tags:
   - practices
+  - consulting
 ---
 
-Not every [consulting engagement](/elixir-consulting/) starts with joining a team that's humming along. Sometimes it starts with a handoff: the developers who built the software have moved on, but the software itself is still live, still has users, and still needs to keep working. There's no team culture to learn -- there might not be much of a team at all. This is how two of my recent client projects went. 
+Not every [consulting engagement](/elixir-consulting/) starts with joining a team that's humming along. Sometimes it starts with a handoff: the developers who built the software have moved on, but the software itself is still live, still has users, and still needs to keep working. There's no team culture to learn -- there might not be much of a team at all. This is how two of my recent client projects went.
 
 The goal in week one on these projects isn't to improve anything. It's narrower than that: get to a place where you can react safely if something breaks. Everything below is in service of that one goal.
+
+<figure style="max-width: 20rem; margin-inline: auto;">
+<a href="orly-previous-developers-long-gone.png">
+<img src="orly-previous-developers-long-gone.png" alt="A parody O'Reilly book cover with a woodcut illustration of a cow. The header reads 'Some assembly required. Instructions not included.' The title is 'The Previous Developers are Long Gone' with the subtitle 'This is our problem now.' Signed Mike Zornek." style="border: 1px solid #ddd;">
+</a>
+<figcaption>The Previous Developers are Long Gone: This is our problem now.</figcaption>
+</figure>
 
 ## Get the app running locally
 
