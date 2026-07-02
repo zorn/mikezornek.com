@@ -1,12 +1,13 @@
 ---
 title: "Decision Records, Playbooks, and Other Acts of Kindness"
-date: 2026-07-02T01:07:10-04:00
+date: 2026-07-02T11:19:12-04:00
 description: You've opened a project you didn't write, hit a wall, and found no one left to ask. The code is there but the why is gone. Here are the small habits that spare the next developer that moment.
-draft: true
 pain: the practices that keep a codebase healthy are easy to skip under pressure, and the cost lands on whoever inherits the project later
 fix: a scannable rundown of the non-code practices that make life better for the next developer -- and why each one is worth the effort
 tags:
   - practices
+  - software-craft
+  - career
 ---
 
 You've felt this. You open a project you didn't write, hit a wall, and there's no one left to ask. The code is all there, but the *why* is gone -- it left with whoever wrote it.
@@ -25,11 +26,11 @@ I fix this with **playbooks** -- articles on how to actually operate the platfor
 
 I tend to keep the playbooks right in the repo, and in those playbooks I document not only how to do something but also why we do it.
 
-## When you need to understand for investigation or recreate that custom SQL production fix
+## When you need to recreate that custom SQL production fix
 
-Six months from now, there will be an issue that pops up that reminds you of something that was patched by hand last winter. You either want details of the manual SQL patch for some performance investigation or need to redo the patch yourself for a second instance that has popped up. You have no idea what the previous developer did last winter.
+Six months from now, an issue will pop up that reminds you of something patched by hand last winter. You either want details of the manual SQL patch for some performance investigation or need to redo the patch yourself for a second instance that has popped up. You have no idea what the previous developer did last winter.
 
-For those, I keep an **OPS_LOG**: a dated Markdown file that notes what was done and why. Low ceremony on purpose. When the strange patter turns up later, there's a place to look before anyone starts guessing, and it has useful details.
+For those, I keep an **OPS_LOG**: a dated Markdown file that notes what was done and why. Low ceremony on purpose. When the strange pattern turns up later, there's a place to look before anyone starts guessing, and it has useful details.
 
 In fact, what I often do is open a PR that updates the `OPS_LOG` with an UPCOMING tasks list for review before the work is executed.
 
