@@ -1,21 +1,22 @@
 ---
 title: "A Place for Everything: How I Track Work"
-date: 2026-07-03T01:07:10-04:00
+date: 2026-07-03T13:56:35-04:00
 description: "A window into how I track work: issue statuses, types, and pull request conventions, with sample PR templates you can copy. Take a look around and keep what's useful."
-draft: true
 pain: curious developers like to read how others work and get inspired
 fix: a window into my own opinionated system -- issue tracking, a status flow, issue types, and PR conventions -- to discover and cherry-pick from
 tags:
   - practices
+  - software-craft
+  - consulting
 ---
 
-When I have management responsibility on a project and influence to shape workflows, this is how I typically manage issues and pull requests. None of this is the One True Way -- it's just the system I've arrived at, and I find writing it down useful both for myself and for blog readers who enjoy reading about such things to evolve their own flows. 
+When I have management responsibility on a project and influence to shape workflows, this is how I typically manage issues and pull requests. None of this is the One True Way -- it's just the system I've arrived at, and I find writing it down useful both for myself and for blog readers who enjoy such things and want to evolve their own flows.
 
 Aside: If I'm joining a team that already has a working software lifecycle, I don't inject any of this out of the blue. I might ask a lot of questions about their process and why they landed there, but any changes are more gradual through team discussion and choice.
 
 ## Issue Tracking
 
-I like to keep issues in GitHub Issues and present progress / scheduling via GitHub Projects. I choose GitHub as close to the code/repo as possible. Two reasons:
+I like to keep issues in GitHub Issues and present progress / scheduling via GitHub Projects. I choose GitHub to be as close to the code/repo as possible. Two reasons:
 
 - Knowledge stays next to the code it's about, instead of drifting off into a separate tool that's easy to lose. (I find people shift documentation tools a lot, and switching out of GitHub seems doubtful -- though that wind might be changing these days.)
 - Stakeholders get visibility -- they can see what's in flight, watch epic-level progress, and gauge risk against a schedule.
@@ -97,4 +98,6 @@ Fixes #<issue-number> / Related to #<issue-number>
 - [ ] Are there any follow-up issues worth opening before this is forgotten?
 ```
 
-The exact questions matter less than the habit they encourage: a moment of self-review before a PR becomes someone else's responsibility. Don't waste your peer's time. Respect them by giving them the context and tools they need to do a good review. It should not need saying, but keep the PRs as small as possible. Learn to break down your changes.
+The exact questions matter less than the habit they encourage: a moment of self-review before a PR becomes someone else's responsibility. Don't waste your peer's time. Respect them by giving them the context and tools they need to do a good review.
+
+And it should not need saying, but keep the PRs as small as possible. Learn to break down your changes.
