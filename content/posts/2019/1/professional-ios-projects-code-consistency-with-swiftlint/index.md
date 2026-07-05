@@ -9,6 +9,11 @@ tags:
 
 > This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).
 
+<!-- Left as raw HTML on purpose: this cover floats right beside the text, a
+     layout the centered `figure` shortcode isn't meant to express. The tradeoff
+     is that the relative `src` stays trailing-slash sensitive (issue #90) — it
+     only loads on the canonical `.../slug/` URL. Revisit if the shortcode ever
+     grows a float/inline variant. -->
 <img src="book-cover.jpg" style="float: right; width: 300px;" alt="A parody 'O RLY?' book cover spoofing O'Reilly, with a woodcut llama, titled 'Writing Code that Nobody Else Can Read: The Definitive Guide.' The top tagline reads 'Does it run? Just leave it alone.' Credited to @ThePracticalDev.">
 
 Have you ever opened a source file and knew instantly it was written by a specific member of the team because of all the curious syntax choices they made? Perhaps they are green and don’t know the community standards or perhaps they spend most of their days in another language which has its own preferred style. What do you do?
