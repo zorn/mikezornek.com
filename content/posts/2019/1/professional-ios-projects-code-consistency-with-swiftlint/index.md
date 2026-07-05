@@ -9,7 +9,7 @@ tags:
 
 > This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).
 
-<img src="book-cover.jpg" style="float: right; width: 300px;" alt="A parody 'O RLY?' book cover spoofing O'Reilly, with a woodcut llama, titled 'Writing Code that Nobody Else Can Read: The Definitive Guide.' The top tagline reads 'Does it run? Just leave it alone.' Credited to @ThePracticalDev." data-action="zoom">
+<img src="book-cover.jpg" style="float: right; width: 300px;" alt="A parody 'O RLY?' book cover spoofing O'Reilly, with a woodcut llama, titled 'Writing Code that Nobody Else Can Read: The Definitive Guide.' The top tagline reads 'Does it run? Just leave it alone.' Credited to @ThePracticalDev.">
 
 Have you ever opened a source file and knew instantly it was written by a specific member of the team because of all the curious syntax choices they made? Perhaps they are green and don’t know the community standards or perhaps they spend most of their days in another language which has its own preferred style. What do you do?
 
