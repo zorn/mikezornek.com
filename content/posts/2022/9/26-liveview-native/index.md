@@ -45,11 +45,8 @@ It's a unique take on the problem that unlocks potentially impressive solutions,
 
 I've been working with Elixir since 2017 and LiveView since it was announced in 2019. Before Elixir, I spent more than a decade doing Apple platform development, first on the Mac and then on the iPhone. By the end, I was teaching iOS programming classes at places like Amazon and Google via my job at Big Nerd Ranch. So when this announcement came out, I felt like worlds were colliding and said as much.
 
-<figure style="width: 70%; margin: 0 auto;">
-<a href="https://twitter.com/zorn/status/1565370172311060482">
-  <img src="worlds-colliding.png" alt="A tweet from me (@zorn) pairing a conference slide titled 'What is LiveView Native?' with the Seinfeld meme of George Costanza, captioned 'Worlds are colliding.'" data-action="zoom">
-</a>
-</figure>
+{{< figure src="worlds-colliding.png" width="70%" link="https://twitter.com/zorn/status/1565370172311060482"
+  alt="A tweet from me (@zorn) pairing a conference slide titled 'What is LiveView Native?' with the Seinfeld meme of George Costanza, captioned 'Worlds are colliding.'" >}}
 
 I have many historic pessimistic opinions on multi-platform frameworks that try to sell "write once, deploy everywhere." I'll get into some of those later, but first, I'll share my tutorial observations.
 
@@ -59,21 +56,15 @@ During the first half of Side Project Saturday, I worked through the [Your First
 
 In the Phoenix project, you build a `CatsListLive` live view with SwiftUI-specific `heex` template content.
 
-<figure style="width: 90%; margin: 0 auto;">
-<a href="swiftui-in-heex.png">
-  <img src="swiftui-in-heex.png" alt="A code editor showing an Elixir LiveView module beside a .heex template that contains SwiftUI-style elements like NavigationLink, HStack, AsyncImage, and a star Button.">
-</a>
-</figure>
+{{< figure src="swiftui-in-heex.png" width="90%"
+  alt="A code editor showing an Elixir LiveView module beside a .heex template that contains SwiftUI-style elements like NavigationLink, HStack, AsyncImage, and a star Button." >}}
 
 In the iOS project, you'll add some of the LiveView Native package dependencies and then configure the default `ContentView` to load the swifty `LiveView` view class, which points at a `localhost:4000` URI via configuration.
 
 When you launch the iOS app, the `LiveView` view class inside of SwiftUI will connect to the Phoenix server, which makes a live view server process for `CatsListLive` and then sends down the template. When received inside of iOS, the view hierarchy is injected, and then regular old SwiftUI will render it just as if it had complied typically.
 
-<figure style="width: 90%; margin: 0 auto;">
-<a href="xcode.png">
-  <img src="xcode.png" alt="Xcode running the LiveView Native cats demo: SwiftUI code on the left and an iPhone simulator on the right showing a scrollable list of cats with photos and favorite-star buttons.">
-</a>
-</figure>
+{{< figure src="xcode.png" width="90%"
+  alt="Xcode running the LiveView Native cats demo: SwiftUI code on the left and an iPhone simulator on the right showing a scrollable list of cats with photos and favorite-star buttons." >}}
 
 You may notice that the SwiftUI code templated in `heex` has things like `phx-click="toggle-favorite"`. When the button is "clicked" in the iOS app, the event is sent via the websocket to the live view process on the server, the state is updated per standard LiveView lifecycle mechanics, and then the template is re-rendered, and diffs are applied.
 
@@ -87,11 +78,8 @@ However, this tool is not really built for them. So who is this being built for?
 
 # What pain is LiveView Native is trying to solve?
 
-<figure style="width: 70%; margin: 0 auto;">
-<a href="hot-take.jpg">
-  <img src="hot-take.jpg" alt="A glowing roadside marquee at dusk reading 'Hot Take House,' with a neon 'Open 24 Hours' sign below.">
-</a>
-</figure>
+{{< figure src="hot-take.jpg" width="70%"
+  alt="A glowing roadside marquee at dusk reading 'Hot Take House,' with a neon 'Open 24 Hours' sign below." >}}
 
 The [marketing site](https://native.live) for the project states:
 
@@ -112,11 +100,8 @@ I'll also add that I have many friends already working in SwiftUI natively in Xc
 
 ## Will Apple approve this?
 
-<figure style="width: 40%; margin: 0 auto;">
-<a href="app-store.jpg">
-  <img src="app-store.jpg" alt="The 'Henry Cavill strolling while Jason Momoa sneaks up behind' meme: Cavill, labeled 'LiveView developers,' walks calmly while a grinning Momoa, labeled 'the chaos of App Store reviews,' creeps up behind him.">
-</a>
-</figure>
+{{< figure src="app-store.jpg" width="40%"
+  alt="The 'Henry Cavill strolling while Jason Momoa sneaks up behind' meme: Cavill, labeled 'LiveView developers,' walks calmly while a grinning Momoa, labeled 'the chaos of App Store reviews,' creeps up behind him." >}}
 
 I hate app store review and distribution exclusivity. It was one of the primary reasons why I left the platform years ago.
 

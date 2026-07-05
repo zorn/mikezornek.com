@@ -20,22 +20,18 @@ When an app is young and has simple networking needs it's not uncommon to use UR
 
 In this talk I'll review the network design we've come up with. I'll demo what we have working and talk about how we want to extend it in the future. Attendee should walk away with new ideas that they can integrate into their own networking stacks.
 
-<figure>
-<img src="highres_477725961.jpeg" alt="Me presenting in a red polo shirt, gesturing beside my projected title slide 'Designing a Modern Swift Network Stack,' as attendees watch from a table." data-action="zoom">
-<figcaption>Philly CocoaHeads, Mike Zornek</figcaption>
-</figure>
+{{< figure src="highres_477725961.jpeg"
+  caption="Philly CocoaHeads, Mike Zornek"
+  alt="Me presenting in a red polo shirt, gesturing beside my projected title slide 'Designing a Modern Swift Network Stack,' as attendees watch from a table." >}}
 
-<figure>
-<img src="highres_477725960.jpeg" alt="A wide view of the Philly CocoaHeads meetup room: attendees at tables with laptops face the front, where I stand beside a screen reading 'Hello,' with pizza boxes on a side table." data-action="zoom">
-<figcaption>Philly CocoaHeads, Group Shot</figcaption>
-</figure>
+{{< figure src="highres_477725960.jpeg"
+  caption="Philly CocoaHeads, Group Shot"
+  alt="A wide view of the Philly CocoaHeads meetup room: attendees at tables with laptops face the front, where I stand beside a screen reading 'Hello,' with pizza boxes on a side table." >}}
 
-<figure>
-<img src="highres_477725968.jpeg" alt="Curtis Herbert presenting his Slopes skiing app on the projector at Philly CocoaHeads, with several attendees seated and watching." data-action="zoom">
-<figcaption>Philly CocoaHeads, Slopes</figcaption>
-</figure>
+{{< figure src="highres_477725968.jpeg"
+  caption="Philly CocoaHeads, Slopes"
+  alt="Curtis Herbert presenting his Slopes skiing app on the projector at Philly CocoaHeads, with several attendees seated and watching." >}}
 
-<figure>
-<img src="highres_477725971.jpeg" alt="The Philly CocoaHeads meetup room during a sponsor slide for 'The Meet Group,' attendees working on laptops at tables." data-action="zoom">
-<figcaption>Philly CocoaHeads, Group Shot</figcaption>
-</figure>
+{{< figure src="highres_477725971.jpeg"
+  caption="Philly CocoaHeads, Group Shot"
+  alt="The Philly CocoaHeads meetup room during a sponsor slide for 'The Meet Group,' attendees working on laptops at tables." >}}

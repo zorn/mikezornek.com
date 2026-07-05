@@ -17,21 +17,17 @@ From the scope of the [original pitch document](https://github.com/elixirfocus/r
 
 First, a user can visit the home page and create a new board. This create board form also asks for their name, since they will be displayed as the meeting's facilitator to future collaborators.
 
-<figure>
- <a href="new-board.png">
- <img src="new-board-thumb.png" alt="The RetroTaxi 'Create Board' form in a browser, with board name and facilitator name fields ('Demos are Good' and 'Mike Zornek') above a yellow Create Board button."></a>
- <figcaption>Create new board form.</figcaption>
-</figure>
+{{< figure src="new-board-thumb.png" link="new-board.png"
+  caption="Create new board form."
+  alt="The RetroTaxi 'Create Board' form in a browser, with board name and facilitator name fields ('Demos are Good' and 'Mike Zornek') above a yellow Create Board button." >}}
 
 With the board created you are redirected to the board page, which shows the custom title and displays the facilitator in the to-be-fleshed-out "who's here" section.
 
 Each board has four columns and each column has content cards. You can add cards to columns and you can edit cards. There is no active pub/sub between multiple people viewing the board and seeing the cards change (yet), that is still forthcoming.
 
-<figure>
- <a href="board-columns.png">
- <img src="board-columns-thumb.png" alt="A RetroTaxi board titled 'Demos are Good' with Start, Stop, Continue, and Actions columns of blue topic cards, each with a vote button; one card is open in an editable state."></a>
- <figcaption>Sample of current board with editable content cards.</figcaption>
-</figure>
+{{< figure src="board-columns-thumb.png" link="board-columns.png"
+  caption="Sample of current board with editable content cards."
+  alt="A RetroTaxi board titled 'Demos are Good' with Start, Stop, Continue, and Actions columns of blue topic cards, each with a vote button; one card is open in an editable state." >}}
 
 The site is styled with Tailwind CSS through I wouldn't say it represents a final visual language by any means. I hope to finish the project with a vanilla Phoenix LiveView setup and then move on to experiment with [Surface](https://surface-ui.org/) for a fuller UI component experience.
 

@@ -13,9 +13,8 @@ This week I completed my third week with a new client. It was a notably challeng
 
 The goal of this estimate is to, in a time-boxed format, create a framework for more meaningful discussions to happen. These numbers should not be looked at as facts but shape those first steps of discovery.
 
-<figure style="width: 50%; margin: 0 auto;">
-<img src="deadlines.jpg" alt="The Austin Powers meme of Dr. Evil and his henchmen laughing together, captioned: 'We'll ask for estimates and then treat them as deadlines.'" data-action="zoom">
-</figure>
+{{< figure src="deadlines.jpg" width="50%"
+  alt="The Austin Powers meme of Dr. Evil and his henchmen laughing together, captioned: 'We'll ask for estimates and then treat them as deadlines.'" >}}
 
 A few notes and observations:
 

@@ -51,10 +51,9 @@ Lets explain.
 
 First, having any chunk of code touch too many layers begins to handicap your ability to refactor. I tend to align with the thought that "Good Code Is Easy To Change Code". If you are looking for a simple measurement when evaluating the quality of a codebase, changeability is as good as any principle to lean on.
 
-<figure>
- <img src="layers.png" alt="A diagram of four stacked layers in a Phoenix app with arrows flowing between them: an HTML form, ProfileController.edit/2, Accounts.change_user/2, and User.changeset/2.">
- <figcaption>A common but brittle approach that creates strong dependencies across all the layers.</figcaption>
-</figure>
+{{< figure src="layers.png" link="false"
+  caption="A common but brittle approach that creates strong dependencies across all the layers."
+  alt="A diagram of four stacked layers in a Phoenix app with arrows flowing between them: an HTML form, ProfileController.edit/2, Accounts.change_user/2, and User.changeset/2." >}}
 
 Second, having low stack changesets dictate web form behavior creates a dysfunctional approach to user experience design where you force the user to represent their work as it will (eventually) be persisted in a database table row. In an ideal situation you'll be crafting custom web forms to capture user intent and then transform the incoming data into the needed persistance format. Do not let the database dictate the user interface!
 
