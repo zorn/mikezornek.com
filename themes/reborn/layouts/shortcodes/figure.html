@@ -11,8 +11,10 @@
                merely repeats the alt text — a caption should add context, not
                restate the description.
   - `width`:   CSS max-width for the figure, e.g. "20rem". Omit for full width.
-  - `link`:    set to "false" to disable the click-through to the full-size
-               image. Defaults to linking.
+  - `link`:    controls the click-through. Omit to link to the image itself
+               (view full size); set "false" for no link; or pass another
+               resource filename or a URL to link there instead (e.g. a
+               separate full-resolution image, or a source tweet).
 
   Example:
     {{< figure src="cover.png" width="20rem"
@@ -23,7 +25,7 @@
 {{- $alt := .Get "alt" -}}
 {{- $caption := .Get "caption" -}}
 {{- $width := .Get "width" -}}
-{{- $link := ne (.Get "link") "false" -}}
+{{- $linkParam := .Get "link" -}}
 {{- $res := "" -}}
 {{- with $src }}{{ $res = $.Page.Resources.GetMatch . }}{{ end -}}
 
@@ -53,14 +55,29 @@
     {{- $w = $res.Height -}}
     {{- $h = $res.Width -}}
   {{- end -}}
+  {{/* Link target: omit to link to the image itself; "false" for none; or an
+       explicit resource filename or URL to link elsewhere (e.g. a full-res
+       image or a source tweet). */}}
+  {{- $href := "" -}}
+  {{- if eq $linkParam "false" -}}
+  {{- else if $linkParam -}}
+    {{- $lu := urls.Parse $linkParam -}}
+    {{- if or $lu.IsAbs (strings.HasPrefix $linkParam "/") -}}
+      {{- $href = $linkParam -}}
+    {{- else -}}
+      {{- with $.Page.Resources.GetMatch $linkParam -}}{{- $href = .RelPermalink -}}{{- else -}}{{- $href = $linkParam -}}{{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $href = $res.RelPermalink -}}
+  {{- end -}}
   <figure{{ with $width }} style="max-width: {{ . }}; margin-inline: auto;"{{ end }}>
-    {{- if $link }}<a href="{{ $res.RelPermalink }}">{{ end -}}
+    {{- with $href }}<a href="{{ . }}">{{ end -}}
     <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}"
       {{- if $isRaster }} width="{{ $w }}" height="{{ $h }}"{{ end }}
       loading="lazy" decoding="async" class="border border-gray-300">
-    {{- if $link }}</a>{{ end -}}
+    {{- with $href }}</a>{{ end -}}
     {{- with $caption }}
-    <figcaption>{{ . }}</figcaption>
+    <figcaption>{{ . | safeHTML }}</figcaption>
     {{- end }}
   </figure>
 {{- end -}}
