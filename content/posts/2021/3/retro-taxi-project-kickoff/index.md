@@ -32,7 +32,7 @@ The [first](https://github.com/phoenix-by-example/greeter) [two](https://github.
 
 <figure>
  <a href="breadboards.jpeg">
- <img src="breadboards-thumb.jpeg" alt="Sample of some early discovery sketching and interface breadboarding."></a>
+ <img src="breadboards-thumb.jpeg" alt="An early hand-drawn iPad sketch of the retro board's Start, Stop, and Continue columns, annotated with notes about hiding the add buttons between phases and signaling when others are writing."></a>
  <figcaption>Sample of some early discovery sketching and interface <a href="https://basecamp.com/shapeup/1.3-chapter-04#breadboarding">breadboarding</a>.</figcaption>
 </figure>
 
@@ -40,13 +40,13 @@ Some mockups from the pitch document:
 
 <figure>
  <a href="board-layout.png">
- <img src="board-layout-thumb.jpeg" alt="Board layout."></a>
+ <img src="board-layout-thumb.jpeg" alt="A low-fidelity wireframe of the retro board web page: a header with board settings and participant info above four columns -- Start, Stop, Continue, and Actions -- each holding card slots."></a>
  <figcaption>Board layout.</figcaption>
 </figure>
 
 <figure>
  <a href="card-state.png">
- <img src="card-state-thumb.jpeg" alt="Card state."></a>
+ <img src="card-state-thumb.jpeg" alt="An annotated mockup of a retro board column showing a topic card's states -- editable text, a vote button, an inline vote count, and a voted state -- with margin notes explaining each."></a>
  <figcaption>Card state.</figcaption>
 </figure>
 

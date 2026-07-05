@@ -20,7 +20,7 @@ In the closing days of summer this past year, I started to get an itch about bui
 
 <figure>
 <a href="colors.jpeg">
-<img src="colors.jpeg" alt="Assembled computer powered on.">
+<img src="colors.jpeg" alt="The assembled white PC tower powered on, its glass panels glowing with blue and purple RGB light from the fans and light strips. Inside are a white air cooler, a GeForce RTX graphics card, and three side fans with small circular LCD screens showing temperatures (47C, 42C) and load (9%).">
 </a>
 <figcaption>Assembled computer powered on.</figcaption>
 </figure>
@@ -90,7 +90,7 @@ After I got the computer to POST, one issue I did run into was fans. I misunders
 Not having a readily available Windows computer around, I followed some [instructions](https://windowsreport.com/windows-11-usb-installer-on-mac/) to download the Windows 11 installer and make a bootable USB drive from my Mac. This worked fine for me, though sadly, I did not get a working network driver for the motherboard's wifi chip from Windows, so I had to download some manual drivers onto a separate USB drive to get that working. Once I was on the wifi, I could get all the other drivers directly from this machine, as well as the many OS-level updates.
 
 <figure>
-<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES">
+<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: 'We have some updates for you, PC.' Aragorn: 'We already had it.' Pippin: 'We've had one, yes. What about second updates?'">
 </figure>
 
 I had a Windows 10 license from my old gaming PC, which worked fine for registering this copy of Windows 11.

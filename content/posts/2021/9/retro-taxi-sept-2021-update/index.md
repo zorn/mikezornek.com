@@ -19,7 +19,7 @@ First, a user can visit the home page and create a new board. This create board 
 
 <figure>
  <a href="new-board.png">
- <img src="new-board-thumb.png" alt="Create new board form."></a>
+ <img src="new-board-thumb.png" alt="The RetroTaxi 'Create Board' form in a browser, with board name and facilitator name fields ('Demos are Good' and 'Mike Zornek') above a yellow Create Board button."></a>
  <figcaption>Create new board form.</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ Each board has four columns and each column has content cards. You can add cards
 
 <figure>
  <a href="board-columns.png">
- <img src="board-columns-thumb.png" alt="Sample of current board with editable content cards."></a>
+ <img src="board-columns-thumb.png" alt="A RetroTaxi board titled 'Demos are Good' with Start, Stop, Continue, and Actions columns of blue topic cards, each with a vote button; one card is open in an editable state."></a>
  <figcaption>Sample of current board with editable content cards.</figcaption>
 </figure>
 

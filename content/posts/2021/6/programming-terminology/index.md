@@ -39,7 +39,7 @@ As you define the core domain nouns of your app you'll inevitably start to build
 
 <figure class="">
  <a href="delete-new-search.png">
- <img class="" style="max-width: 50%; "src="delete-new-search.png" alt="Delete and New as used inside of Elixir."></a>
+ <img class="" style="max-width: 50%; "src="delete-new-search.png" alt="Two side-by-side Elixir documentation searches: 'delete' returning functions like Keyword.delete/2 and List.delete/2, and 'new' returning Date.new/4, DateTime.new/4, and similar constructors."></a>
  <figcaption class="">Delete and New as used inside of Elixir.</figcaption>
 </figure>
 

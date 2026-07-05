@@ -47,7 +47,7 @@ I've been working with Elixir since 2017 and LiveView since it was announced in 
 
 <figure style="width: 70%; margin: 0 auto;">
 <a href="https://twitter.com/zorn/status/1565370172311060482">
-  <img src="worlds-colliding.png" alt="Worlds Colliding Tweet" data-action="zoom">
+  <img src="worlds-colliding.png" alt="A tweet from me (@zorn) pairing a conference slide titled 'What is LiveView Native?' with the Seinfeld meme of George Costanza, captioned 'Worlds are colliding.'" data-action="zoom">
 </a>
 </figure>
 
@@ -61,7 +61,7 @@ In the Phoenix project, you build a `CatsListLive` live view with SwiftUI-specif
 
 <figure style="width: 90%; margin: 0 auto;">
 <a href="swiftui-in-heex.png">
-  <img src="swiftui-in-heex.png" alt="LiveView with SwiftUI inside a `heex` template.">
+  <img src="swiftui-in-heex.png" alt="A code editor showing an Elixir LiveView module beside a .heex template that contains SwiftUI-style elements like NavigationLink, HStack, AsyncImage, and a star Button.">
 </a>
 </figure>
 
@@ -71,7 +71,7 @@ When you launch the iOS app, the `LiveView` view class inside of SwiftUI will co
 
 <figure style="width: 90%; margin: 0 auto;">
 <a href="xcode.png">
-  <img src="xcode.png" alt="The Cats Demo in Xcode">
+  <img src="xcode.png" alt="Xcode running the LiveView Native cats demo: SwiftUI code on the left and an iPhone simulator on the right showing a scrollable list of cats with photos and favorite-star buttons.">
 </a>
 </figure>
 
@@ -89,7 +89,7 @@ However, this tool is not really built for them. So who is this being built for?
 
 <figure style="width: 70%; margin: 0 auto;">
 <a href="hot-take.jpg">
-  <img src="hot-take.jpg" alt="Hot Take House">
+  <img src="hot-take.jpg" alt="A glowing roadside marquee at dusk reading 'Hot Take House,' with a neon 'Open 24 Hours' sign below.">
 </a>
 </figure>
 
@@ -114,7 +114,7 @@ I'll also add that I have many friends already working in SwiftUI natively in Xc
 
 <figure style="width: 40%; margin: 0 auto;">
 <a href="app-store.jpg">
-  <img src="app-store.jpg" alt="App Store Review meme">
+  <img src="app-store.jpg" alt="The 'Henry Cavill strolling while Jason Momoa sneaks up behind' meme: Cavill, labeled 'LiveView developers,' walks calmly while a grinning Momoa, labeled 'the chaos of App Store reviews,' creeps up behind him.">
 </a>
 </figure>
 
