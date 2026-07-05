@@ -1,0 +1,37 @@
+{{- /*
+  Image render hook.
+
+  Motivation (see issue #90): markdown images written with a bare, bundle-relative
+  filename — e.g. `![Alt](main-stage.jpeg)` — render as a relative <img src>. A
+  relative src resolves against the URL in the address bar, so it only loads when
+  the visitor is on the canonical trailing-slash URL (`/posts/.../slug/`). Land on
+  the same page without the slash and every local image 404s.
+
+  This hook resolves such images as page resources and emits an absolute
+  RelPermalink, removing the trailing-slash dependency. It also adds lazy loading
+  and intrinsic width/height (which helps CLS / the Lighthouse budget). Remote and
+  already-absolute (`/...`) sources are passed through untouched.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $u := urls.Parse $dest -}}
+{{- $src := $dest -}}
+{{- $width := "" -}}
+{{- $height := "" -}}
+{{- if and (not $u.IsAbs) (not (strings.HasPrefix $dest "/")) -}}
+  {{- with .Page.Resources.GetMatch $dest -}}
+    {{- $src = .RelPermalink -}}
+    {{- if eq .MediaType.MainType "image" -}}
+      {{- if and (ne .MediaType.SubType "svg") (ne .MediaType.SubType "gif") -}}
+        {{- $width = .Width -}}
+        {{- $height = .Height -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "render-image: no resource found for %q on page %q" $dest .Page.Path -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- with $width }} width="{{ . }}"{{ end }}
+  {{- with $height }} height="{{ . }}"{{ end }}
+  loading="lazy" decoding="async">

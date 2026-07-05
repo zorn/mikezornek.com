@@ -1,0 +1,66 @@
+{{/* Accessible image figure for an image stored next to this page's index.md.
+
+  Resolves the image as a page resource, so the emitted <img src> is an absolute
+  URL that loads regardless of a trailing slash on the post URL (see issue #90),
+  and carries intrinsic width/height plus lazy loading. Available arguments:
+
+  - `src`:     (required) filename of the adjacent image resource.
+  - `alt`:     (required) alt text. THE BUILD FAILS if this is empty, so an
+               image can never ship without a text alternative.
+  - `caption`: visible <figcaption>. Optional. A build *warning* fires if it
+               merely repeats the alt text — a caption should add context, not
+               restate the description.
+  - `width`:   CSS max-width for the figure, e.g. "20rem". Omit for full width.
+  - `link`:    set to "false" to disable the click-through to the full-size
+               image. Defaults to linking.
+
+  Example:
+    {{< figure src="cover.png" width="20rem"
+       alt="A detailed description of what the image shows."
+       caption="A short supplementary label." >}}
+*/}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" -}}
+{{- $link := ne (.Get "link") "false" -}}
+{{- $res := "" -}}
+{{- with $src }}{{ $res = $.Page.Resources.GetMatch . }}{{ end -}}
+
+{{/* Validate first. errorf logs an error and fails the build but does NOT stop
+     template execution, so guard the render behind these checks to avoid a
+     confusing secondary error (and to surface a single, clear message). */}}
+{{- if not $src -}}
+  {{- errorf "figure shortcode on page %q: missing required 'src' parameter" .Page.Path -}}
+{{- else if not $alt -}}
+  {{- errorf "figure shortcode on page %q: image %q is missing required 'alt' text" .Page.Path $src -}}
+{{- else if not $res -}}
+  {{- errorf "figure shortcode on page %q: no image resource matches src=%q" .Page.Path $src -}}
+{{- else -}}
+  {{- if and $caption (eq (lower $alt) (lower $caption)) -}}
+    {{- warnf "figure shortcode on page %q: caption duplicates the alt text for %q; a caption should add context, not repeat the description" .Page.Path $src -}}
+  {{- end -}}
+  {{- $isRaster := and (eq $res.MediaType.MainType "image") (not (in (slice "svg" "gif") $res.MediaType.SubType)) -}}
+  {{/* Hugo's .Width/.Height report raw pixel dimensions and ignore the EXIF
+       orientation flag, but browsers honor it. For images the flag rotates 90
+       degrees (orientation 5-8), the displayed image is portrait while the raw
+       pixels are landscape, so swap the emitted dimensions to match what the
+       browser actually renders. This keeps the intrinsic aspect ratio correct
+       (no layout shift) without ever touching or re-encoding the source file. */}}
+  {{- $w := $res.Width -}}
+  {{- $h := $res.Height -}}
+  {{- if and $isRaster (in (slice 5 6 7 8) $res.Meta.Orientation) -}}
+    {{- $w = $res.Height -}}
+    {{- $h = $res.Width -}}
+  {{- end -}}
+  <figure{{ with $width }} style="max-width: {{ . }}; margin-inline: auto;"{{ end }}>
+    {{- if $link }}<a href="{{ $res.RelPermalink }}">{{ end -}}
+    <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}"
+      {{- if $isRaster }} width="{{ $w }}" height="{{ $h }}"{{ end }}
+      loading="lazy" decoding="async" class="border border-gray-300">
+    {{- if $link }}</a>{{ end -}}
+    {{- with $caption }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
+  </figure>
+{{- end -}}
