@@ -16,5 +16,19 @@
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" . }}
+    {{ if hugo.IsServer }}
+      {{/* Dev-only alt-text overlay for accessibility review. Guarded by
+           hugo.IsServer so it only runs under `hugo server` and never ships to
+           production. Remove once the alt-text review pass is complete. */}}
+      <script>
+        document.querySelectorAll("main img[alt]").forEach((img) => {
+          const tag = document.createElement("div");
+          tag.textContent = "ALT: " + img.getAttribute("alt");
+          tag.style.cssText =
+            "font:12px/1.4 monospace;background:#ffc;color:#000;border:1px solid #e0c000;padding:4px 6px;margin:4px 0;white-space:pre-wrap;";
+          (img.closest("figure") || img).insertAdjacentElement("afterend", tag);
+        });
+      </script>
+    {{ end }}
   </body>
 </html>
