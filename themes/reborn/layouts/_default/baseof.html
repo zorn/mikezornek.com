@@ -19,7 +19,7 @@
     {{ if hugo.IsServer }}
       {{/* Dev-only alt-text overlay for accessibility review. Guarded by
         hugo.IsServer so it only runs under `hugo server` and never ships to
-        production. Remove once the alt-text review pass is complete.
+        production.
       */}}
       <script>
         document.querySelectorAll("main img[alt]").forEach((img) => {

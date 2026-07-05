@@ -41,6 +41,9 @@
     {{- warnf "render-image: no resource found for %q on page %q" $dest .Page.Path -}}
   {{- end -}}
 {{- end -}}
+{{- if not (trim .PlainText " ") -}}
+  {{- warnf "render-image: missing alt text for image %q on page %q" $dest .Page.Path -}}
+{{- end -}}
 <img src="{{ $src }}" alt="{{ .PlainText }}"
   {{- with .Title }} title="{{ . }}"{{ end }}
   {{- with $width }} width="{{ . }}"{{ end }}
