@@ -1,0 +1,9 @@
+# Whitespace-sensitive Hugo templates that prettier-plugin-go-template mangles.
+#
+# These emit HTML where inter-attribute spacing is controlled by literal spaces
+# sitting next to `{{- ... }}` whitespace-trim markers. Prettier reflows the
+# attributes onto separate lines and drops those spaces, so the `{{-` trim then
+# glues attributes together (e.g. `alt="x"width="y"`) — malformed output. And
+# figure.html the plugin can't even print ("invalid node root"). See issue #114.
+themes/reborn/layouts/_markup/render-image.html
+themes/reborn/layouts/shortcodes/figure.html

@@ -41,12 +41,8 @@
     {{- warnf "render-image: no resource found for %q on page %q" $dest .Page.Path -}}
   {{- end -}}
 {{- end -}}
-<img
-  src="{{ $src }}"
-  alt="{{ .PlainText }}"
-  {{- with .Title }}title="{{ . }}"{{ end }}
-  {{- with $width }}width="{{ . }}"{{ end }}
-  {{- with $height }}height="{{ . }}"{{ end }}
-  loading="lazy"
-  decoding="async"
->
+<img src="{{ $src }}" alt="{{ .PlainText }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- with $width }} width="{{ . }}"{{ end }}
+  {{- with $height }} height="{{ . }}"{{ end }}
+  loading="lazy" decoding="async">
