@@ -1,7 +1,8 @@
 {{/* Accessible image figure for an image stored next to this page's index.md.
 
-  Resolves the image as a page resource, so the emitted <img src> is an absolute
-  URL that loads regardless of a trailing slash on the post URL (see issue #90),
+  Resolves the image as a page resource, so the emitted <img src> is a
+  root-relative URL that loads regardless of a trailing slash on the post URL
+  (see issue #90),
   and carries intrinsic width/height plus lazy loading. Available arguments:
 
   - `src`:     (required) filename of the adjacent image resource.
@@ -34,7 +35,7 @@
      confusing secondary error (and to surface a single, clear message). */}}
 {{- if not $src -}}
   {{- errorf "figure shortcode on page %q: missing required 'src' parameter" .Page.Path -}}
-{{- else if not $alt -}}
+{{- else if not (trim $alt " \t\r\n") -}}
   {{- errorf "figure shortcode on page %q: image %q is missing required 'alt' text" .Page.Path $src -}}
 {{- else if not $res -}}
   {{- errorf "figure shortcode on page %q: no image resource matches src=%q" .Page.Path $src -}}
@@ -65,7 +66,15 @@
     {{- if or $lu.IsAbs (strings.HasPrefix $linkParam "/") -}}
       {{- $href = $linkParam -}}
     {{- else -}}
-      {{- with $.Page.Resources.GetMatch $linkParam -}}{{- $href = .RelPermalink -}}{{- else -}}{{- $href = $linkParam -}}{{- end -}}
+      {{- with $.Page.Resources.GetMatch $linkParam -}}
+        {{- $href = .RelPermalink -}}
+      {{- else -}}
+        {{/* Neither an absolute URL nor a matching resource. Warn rather than
+             silently shipping a verbatim relative href, which is trailing-slash
+             sensitive (the very bug #90 targets) and is likely a typo. */}}
+        {{- warnf "figure shortcode on page %q: link=%q matched no image resource and is not an absolute URL; using it verbatim" .Page.Path $linkParam -}}
+        {{- $href = $linkParam -}}
+      {{- end -}}
     {{- end -}}
   {{- else -}}
     {{- $href = $res.RelPermalink -}}
