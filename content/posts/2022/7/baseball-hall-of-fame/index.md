@@ -46,25 +46,55 @@ The Hall of Fame is spread across three floors. You start with exhibits on the s
 
 I took a few photos, mostly of Phillies stuff that caught my eye or other players I am fond of. My goal with photos of museums like this is not high quality per se but to capture a few visuals to help me recall the trip and the feeling of the place. The goal here is NOT to fully document the place; how can one even try.
 
-![](IMG_1573.jpeg)
-![](IMG_1597.jpeg)
-![](IMG_1605.jpeg)
-![](IMG_1607.jpeg)
-![](IMG_1610.jpeg)
-![](IMG_1616.jpeg)
-![](IMG_1617.jpeg)
-![](IMG_1620.jpeg)
-![](IMG_1622.jpeg)
-![](IMG_1623.jpeg)
-![](IMG_1665.jpeg)
-![](IMG_1644.jpeg)
-![](IMG_1631.jpeg)
-![](IMG_1636.jpeg)
-![](IMG_1646.jpeg)
-![](IMG_1650.jpeg)
-![](IMG_1651.jpeg)
-![](IMG_1658.jpeg)
-![](IMG_1664.jpeg)
+{{< figure src="IMG_1573.jpeg"  alt="A museum wall display honoring the 1950 Phillies \"Whiz Kids,\" with black-and-white player photos, a team photo, and a Phillies jersey and cap in a glass case." >}}
+
+{{< figure src="IMG_1597.jpeg"  alt="Greg Maddux's Chicago Cubs cap on display beside a card marking his 355 career wins, with rows of baseballs behind it." >}}
+
+{{< figure src="IMG_1605.jpeg"
+  alt="A placard describing the jersey Roy Halladay wore for his no-hitter in Game One of the 2010 Phillies-Reds NLDS." >}}
+
+{{< figure src="IMG_1607.jpeg"
+  alt="A Phillies 2008 World Series championship ring on black velvet among other teams' championship rings labeled by year." >}}
+
+{{< figure src="IMG_1610.jpeg"  alt="Brad Lidge's red Phillies cap from the 2008 World Series in a display case, with a card noting his perfect season of 48 saves." >}}
+
+{{< figure src="IMG_1616.jpeg"
+  alt="A locker-style case of red Phillies caps, a jersey, and a baseball, beside a Phillies panel listing the team's retired numbers." >}}
+
+{{< figure src="IMG_1617.jpeg"
+  alt="Phillies memorabilia in a locker case: Cole Hamels' and Cliff Lee's caps, a perfect-game ball, and a pinstriped Phillies jersey." >}}
+
+{{< figure src="IMG_1620.jpeg"
+  alt="Ryan Howard's Phillies cap displayed above his and Joe Blanton's bats from the 2008 World Series, with descriptive placards." >}}
+
+{{< figure src="IMG_1622.jpeg"
+  alt="Aaron Rowand's well-worn tan Rawlings fielding glove on display with a placard." >}}
+
+{{< figure src="IMG_1623.jpeg"
+  alt="Jamie Moyer's black glove, embroidered with his name, beside a placard noting he became the majors' oldest pitcher to win a game, at age 49." >}}
+
+{{< figure src="IMG_1665.jpeg"
+  alt="A museum panel honoring Phillies broadcaster Harry Kalas with his photo and career summary; below it, a broadcaster's quote reads \"Juuust a bit outside.\"" >}}
+
+{{< figure src="IMG_1644.jpeg"
+  alt="The marble-columned entrance to the Hall of Fame plaque gallery, visitors passing through an arched doorway; a young man sits on a bench in the foreground." >}}
+
+{{< figure src="IMG_1631.jpeg"  alt="Connie Mack's bronze Hall of Fame plaque, honoring the longtime Philadelphia Athletics manager." >}}
+
+{{< figure src="IMG_1636.jpeg"  alt="Jackie Robinson's bronze Hall of Fame plaque." >}}
+
+{{< figure src="IMG_1646.jpeg"  alt="Satchel Paige's bronze Hall of Fame plaque, noting his years in the Negro Leagues and the majors." >}}
+
+{{< figure src="IMG_1650.jpeg"
+  alt="Mike Schmidt's bronze Hall of Fame plaque, photographed at an angle." >}}
+
+{{< figure src="IMG_1651.jpeg"
+  alt="Richie Ashburn's bronze Hall of Fame plaque, photographed at an angle." >}}
+
+{{< figure src="IMG_1658.jpeg"  alt="Tom Glavine's bronze Hall of Fame plaque." >}}
+
+{{< figure src="IMG_1664.jpeg"
+  alt="A corner of the plaque gallery: rows of bronze inductee plaques on wood paneling beside blank silver plaques awaiting future inductees." >}}
 
 The Hall of Fame was very enjoyable. Visiting it alongside my rewatching of the Ken Burns Baseball documentary (which I've been working through over the past few weeks) put me in an excellent mindset to appreciate everything I was looking at. Lots of cool memorabilia and some great pull quotes/stories shared. I like those more than the raw statistics, still appreciating how numbers help one compare the play style and successes of one player vs. another.
 
@@ -82,9 +112,14 @@ I wanted a little mini bat souvenir, and there are a few bat store options in to
 
 Also, let us have some empathy for the poor souls running the Hall of Fame gift shop.
 
-![](no-fun-1.jpeg)
-![](no-fun-2.jpeg)
-![](no-fun-3.jpeg)
+{{< figure src="no-fun-1.jpeg"
+  alt="A rack of wooden souvenir bats in the gift shop, with a sign reading \"Please DO NOT Swing Bats in Store.\"" >}}
+
+{{< figure src="no-fun-2.jpeg"
+  alt="Bins of souvenir baseballs in the gift shop, with a sign reading \"Please Do Not Bounce the Balls in the Store.\"" >}}
+
+{{< figure src="no-fun-3.jpeg"
+  alt="A shelf of player bobbleheads in the gift shop, with a sign reading \"Please DO NOT Touch the Bobbleheads!\"" >}}
 
 I ended the afternoon with a small scoop of peanut butter and chocolate ice cream and then headed back to the inn. There I relaxed a bit. I enjoyed some hard iced tea drinks and read [a Phillies book](https://twitter.com/zorn/status/1549896657512407040) I brought with me on the inn's patio. Around dinner time, I walked over to a nearby pizza place. The pizza was "NY style" with a thinker crust. Not my preference, but it was pretty good. Back at the inn, I rested in my air-conditioned room. Was happy to discover Moneyball playing on TV and watched it.
 
