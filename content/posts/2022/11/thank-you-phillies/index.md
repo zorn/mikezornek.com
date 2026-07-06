@@ -10,12 +10,7 @@ series:
 
 This weekend the Phillies lost the World Series to the Houston Astros. Of course, this is a disappointing loss, but overall I look back on the 2022 season with immense pride for my team and offer particular thanks for giving me so much enjoyment during a time of personal need.
 
-<figure style="width: 70%; margin: 0 auto;">
-<a href="zorn-at-the-bank.jpeg">
-<img src="zorn-at-the-bank.jpeg" alt="Zorn at Citizens Bank Park wearing a Phillies cap." data-action="zoom">
-</a>
-<figcaption>Zorn at Citizens Bank Park wearing a Phillies cap.</figcaption>
-</figure>
+{{< figure src="zorn-at-the-bank.jpeg" width="70%" alt="Zorn at Citizens Bank Park wearing a Phillies cap." >}}
 
 With the loss of my mother in early February, I was greatly looking to the upcoming baseball season as a chance for escape. I've always been a baseball fan (my high school years being a notable peak), but this year's distraction opportunity would be very welcome.
 

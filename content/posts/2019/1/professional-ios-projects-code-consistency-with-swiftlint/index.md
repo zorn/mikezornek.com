@@ -9,7 +9,12 @@ tags:
 
 > This article is part of a series, [Professional iOS Projects](/professional-ios-projects/).
 
-<img src="book-cover.jpg" style="float: right; width: 300px;" alt="Book Cover: Writing Code No One Else Can Read" data-action="zoom">
+<!-- Left as raw HTML on purpose: this cover floats right beside the text, a
+     layout the centered `figure` shortcode isn't meant to express. The tradeoff
+     is that the relative `src` stays trailing-slash sensitive (issue #90) — it
+     only loads on the canonical `.../slug/` URL. Revisit if the shortcode ever
+     grows a float/inline variant. -->
+<img src="book-cover.jpg" style="float: right; width: 300px;" alt="A parody 'O RLY?' book cover spoofing O'Reilly, with a woodcut llama, titled 'Writing Code that Nobody Else Can Read: The Definitive Guide.' The top tagline reads 'Does it run? Just leave it alone.' Credited to @ThePracticalDev.">
 
 Have you ever opened a source file and knew instantly it was written by a specific member of the team because of all the curious syntax choices they made? Perhaps they are green and don’t know the community standards or perhaps they spend most of their days in another language which has its own preferred style. What do you do?
 
@@ -41,10 +46,9 @@ else
 fi
 ```
 
-<figure>
-<img src="xcode-build-phase.png" alt="Xcode Build Phase Editor" data-action="zoom">
-<figcaption>Xcode Build Phase Editor</figcaption>
-</figure>
+{{< figure src="xcode-build-phase.png"
+  caption="Xcode Build Phase Editor"
+  alt="An Xcode Run Script build phase containing a shell snippet that runs SwiftLint if installed, or prints a 'SwiftLint not installed' warning otherwise." >}}
 
 This script will look for the `swiftlint` command line tool. If found, it will run it on your project's source files. If not found, it will still allow the build to finish but will post a short message to the console.
 
@@ -52,10 +56,9 @@ This script will look for the `swiftlint` command line tool. If found, it will r
 
 With `swiftlint` installed and your Xcode project setup, you now will experience new inline warnings and errors, helping to identify code that might lean away from community standards. Sometimes the warnings or errors will even offer automated fix options too.
 
-<figure>
-<img src="xcode-editor.png" alt="Warnings and Errors in Xcode Editor" data-action="zoom">
-<figcaption>Warnings and Errors in Xcode Editor</figcaption>
-</figure>
+{{< figure src="xcode-editor.png"
+  caption="Warnings and Errors in Xcode Editor"
+  alt="Swift code in Xcode with inline SwiftLint annotations: a red Force Cast Violation and a yellow Colon Violation flagged beside the offending lines." >}}
 
 ## Customizing the Rules
 

@@ -1,0 +1,92 @@
+{{/* Accessible image figure for an image stored next to this page's index.md.
+
+  Resolves the image as a page resource, so the emitted <img src> is a
+  root-relative URL that loads regardless of a trailing slash on the post URL
+  (see issue #90),
+  and carries intrinsic width/height plus lazy loading. Available arguments:
+
+  - `src`:     (required) filename of the adjacent image resource.
+  - `alt`:     (required) alt text. THE BUILD FAILS if this is empty, so an
+               image can never ship without a text alternative.
+  - `caption`: visible <figcaption>. Optional. A build *warning* fires if it
+               merely repeats the alt text — a caption should add context, not
+               restate the description.
+  - `width`:   CSS max-width for the figure, e.g. "20rem". Omit for full width.
+  - `link`:    controls the click-through. Omit to link to the image itself
+               (view full size); set "false" for no link; or pass another
+               resource filename or a URL to link there instead (e.g. a
+               separate full-resolution image, or a source tweet).
+
+  Example:
+    {{< figure src="cover.png" width="20rem"
+       alt="A detailed description of what the image shows."
+       caption="A short supplementary label." >}}
+*/}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" -}}
+{{- $linkParam := .Get "link" -}}
+{{- $res := "" -}}
+{{- with $src }}{{ $res = $.Page.Resources.GetMatch . }}{{ end -}}
+
+{{/* Validate first. errorf logs an error and fails the build but does NOT stop
+     template execution, so guard the render behind these checks to avoid a
+     confusing secondary error (and to surface a single, clear message). */}}
+{{- if not $src -}}
+  {{- errorf "figure shortcode on page %q: missing required 'src' parameter" .Page.Path -}}
+{{- else if not (trim $alt " \t\r\n") -}}
+  {{- errorf "figure shortcode on page %q: image %q is missing required 'alt' text" .Page.Path $src -}}
+{{- else if not $res -}}
+  {{- errorf "figure shortcode on page %q: no image resource matches src=%q" .Page.Path $src -}}
+{{- else -}}
+  {{- if and $caption (eq (lower $alt) (lower $caption)) -}}
+    {{- warnf "figure shortcode on page %q: caption duplicates the alt text for %q; a caption should add context, not repeat the description" .Page.Path $src -}}
+  {{- end -}}
+  {{- $isRaster := and (eq $res.MediaType.MainType "image") (not (in (slice "svg" "gif") $res.MediaType.SubType)) -}}
+  {{/* Hugo's .Width/.Height report raw pixel dimensions and ignore the EXIF
+       orientation flag, but browsers honor it. For images the flag rotates 90
+       degrees (orientation 5-8), the displayed image is portrait while the raw
+       pixels are landscape, so swap the emitted dimensions to match what the
+       browser actually renders. This keeps the intrinsic aspect ratio correct
+       (no layout shift) without ever touching or re-encoding the source file. */}}
+  {{- $w := $res.Width -}}
+  {{- $h := $res.Height -}}
+  {{- if and $isRaster (in (slice 5 6 7 8) $res.Meta.Orientation) -}}
+    {{- $w = $res.Height -}}
+    {{- $h = $res.Width -}}
+  {{- end -}}
+  {{/* Link target: omit to link to the image itself; "false" for none; or an
+       explicit resource filename or URL to link elsewhere (e.g. a full-res
+       image or a source tweet). */}}
+  {{- $href := "" -}}
+  {{- if eq $linkParam "false" -}}
+  {{- else if $linkParam -}}
+    {{- $lu := urls.Parse $linkParam -}}
+    {{- if or $lu.IsAbs (strings.HasPrefix $linkParam "/") -}}
+      {{- $href = $linkParam -}}
+    {{- else -}}
+      {{- with $.Page.Resources.GetMatch $linkParam -}}
+        {{- $href = .RelPermalink -}}
+      {{- else -}}
+        {{/* Neither an absolute URL nor a matching resource. Warn rather than
+             silently shipping a verbatim relative href, which is trailing-slash
+             sensitive (the very bug #90 targets) and is likely a typo. */}}
+        {{- warnf "figure shortcode on page %q: link=%q matched no image resource and is not an absolute URL; using it verbatim" .Page.Path $linkParam -}}
+        {{- $href = $linkParam -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $href = $res.RelPermalink -}}
+  {{- end -}}
+  <figure{{ with $width }} style="max-width: {{ . }}; margin-inline: auto;"{{ end }}>
+    {{- with $href }}<a href="{{ . }}">{{ end -}}
+    <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}"
+      {{- if $isRaster }} width="{{ $w }}" height="{{ $h }}"{{ end }}
+      loading="lazy" decoding="async" class="border border-gray-300">
+    {{- with $href }}</a>{{ end -}}
+    {{- with $caption }}
+    <figcaption>{{ . | safeHTML }}</figcaption>
+    {{- end }}
+  </figure>
+{{- end -}}

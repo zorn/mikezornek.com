@@ -11,19 +11,11 @@ tags:
 
 In the closing days of summer this past year, I started to get an itch about building a new gaming PC. In this post, I'll share what I built and some notes on its assembly.
 
-<figure>
-<a href="computer.jpeg">
-<img src="computer.jpeg" alt="Assembled computer powered off.">
-</a>
-<figcaption>Assembled computer powered off.</figcaption>
-</figure>
+{{< figure src="computer.jpeg" alt="Assembled computer powered off." >}}
 
-<figure>
-<a href="colors.jpeg">
-<img src="colors.jpeg" alt="Assembled computer powered on.">
-</a>
-<figcaption>Assembled computer powered on.</figcaption>
-</figure>
+{{< figure src="colors.jpeg"
+  caption="Assembled computer powered on."
+  alt="The assembled white PC tower powered on, its glass panels glowing with blue and purple RGB light from the fans and light strips. Inside are a white air cooler, a GeForce RTX graphics card, and three side fans with small circular LCD screens showing temperatures (47C, 42C) and load (9%)." >}}
 
 ## Inspiration
 
@@ -37,12 +29,7 @@ In recent years, I shelved the gaming PC and have, instead, enjoyed my game time
 
 [PC Parts list.](https://pcpartpicker.com/list/zCygTY)
 
-<figure>
-<a href="parts.jpeg">
-<img src="parts.jpeg" alt="Various PC parts laid out for assembly.">
-</a>
-<figcaption>Various PC parts laid out for assembly.</figcaption>
-</figure>
+{{< figure src="parts.jpeg" alt="Various PC parts laid out for assembly." >}}
 
 For this build, I wanted to lean more toward a visual presentation. My last build was very economical, a traditional black tower with no real frills. It would be fun to give this some personality. It's a white build with some limited RGB lighting that would lean towards a purple hue.
 
@@ -78,20 +65,14 @@ If I were doing this again, I might suggest buying a test bench setup or otherwi
 
 After I got the computer to POST, one issue I did run into was fans. I misunderstood the wide range of fan models Lian Li was selling and ended up buying a mix of fans and controllers that were not fully compatible. I made a midday MicroCenter run to buy compatible alternatives and had to reinstall them a few times to get it all worked out. Ultimately, I had to install two separate fan controllers (one for the LCD fans and another for the simple RGB fans).
 
-<figure>
-<a href="desk.jpeg">
-<img src="desk.jpeg" alt="The full desk shot.">
-</a>
-<figcaption>The full desk shot.</figcaption>
-</figure>
+{{< figure src="desk.jpeg" alt="The full desk shot." >}}
 
 ## Windows
 
 Not having a readily available Windows computer around, I followed some [instructions](https://windowsreport.com/windows-11-usb-installer-on-mac/) to download the Windows 11 installer and make a bootable USB drive from my Mac. This worked fine for me, though sadly, I did not get a working network driver for the motherboard's wifi chip from Windows, so I had to download some manual drivers onto a separate USB drive to get that working. Once I was on the wifi, I could get all the other drivers directly from this machine, as well as the many OS-level updates.
 
-<figure>
-<img src="second-updates.png" alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: We have some updates for you PC. Aragorn: We already had it. Pippin: We've had one yes. WHAT ABOUT SECOND UPDATES">
-</figure>
+{{< figure src="second-updates.png" link="false"
+  alt="A Lord of the Rings meme about Windows updates. Merry and Pippin: 'We have some updates for you, PC.' Aragorn: 'We already had it.' Pippin: 'We've had one, yes. What about second updates?'" >}}
 
 I had a Windows 10 license from my old gaming PC, which worked fine for registering this copy of Windows 11.
 

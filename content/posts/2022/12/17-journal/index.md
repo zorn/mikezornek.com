@@ -10,10 +10,17 @@ series:
 
 Saturday, December 17, 2022 -- This weekend kicked off with some dedicated time to my office. On Friday, I caught up on a stack of mail/bills/paperwork, and then today got over the hump of cleaning up the office itself. It's the first time since moving in during October that the office has been fully cleaned and set up. No boxes or random crap in the corner. It's all tidy and feels great.
 
-![](IMG_2046.jpeg)
-![](IMG_2047.jpeg)
-![](IMG_2048.jpeg)
-![](IMG_2049.jpeg)
+{{< figure src="IMG_2046.jpeg"
+  alt="A tidy home office with an L-shaped butcher-block desk holding a laptop and dual monitors, an orange task chair, and a curtained window." >}}
+
+{{< figure src="IMG_2047.jpeg"
+  alt="A wider view of the office: the desk with a laptop on a stand, monitors on arms, and a camera on a tripod; a red side table with Phillies caps and a lamp, a Phillie Phanatic plush on the chair, and a Peanuts cartoon on the TV." >}}
+
+{{< figure src="IMG_2048.jpeg"
+  alt="Another angle of the office showing the dual-monitor desk, a bright floor lamp, a corkboard and December calendar on the wall, and stuffed toys in the corner." >}}
+
+{{< figure src="IMG_2049.jpeg"
+  alt="A selfie of me smiling in the freshly set-up office, with the desk, monitors, and stairs visible behind me." >}}
 
 On Monday I am scheduled to take delivery of a new bookcase for the office. In the new year I'm also planning to look into some alternative lighting, better cable management, more wall art, and maybe a motorized standing desk.
 

@@ -6,13 +6,9 @@ layout: onepage
 
 ## Philly CocoaHeads Website (Hugo)
 
-<div class="screenshots">
+{{< figure src="pc-home.png" alt="The Philly CocoaHeads home page, a clean single-column layout introducing the group and its upcoming meetups." >}}
 
-<a href="pc-home.png"><img src="pc-home.png" alt="Philly CocoaHeads Home Page"></a>
-
-<a href="pc-about.png"><img src="pc-about.png" alt="Philly CocoaHeads About Page"></a>
-
-</div>
+{{< figure src="pc-about.png" alt="The Philly CocoaHeads about page, describing the group's history and what to expect at a meeting." >}}
 
 Project Goals:
 

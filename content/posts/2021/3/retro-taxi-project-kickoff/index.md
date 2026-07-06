@@ -30,25 +30,19 @@ RetroTaxi will utilize [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/P
 
 The [first](https://github.com/phoenix-by-example/greeter) [two](https://github.com/phoenix-by-example/get_shorty) projects of Phoenix by Example were fairly simplistic in nature and one of the first goals is of RetroTaxi is to do **a more through exploration of a real world project process**. As such you'll see some early discovery time has been spent in preparing [a pitch document](https://github.com/phoenix-by-example/retro_taxi/blob/main/docs/c1/feature_post_and_vote.md), which is a slice of the larger Shape Up process.
 
-<figure>
- <a href="breadboards.jpeg">
- <img src="breadboards-thumb.jpeg" alt="Sample of some early discovery sketching and interface breadboarding."></a>
- <figcaption>Sample of some early discovery sketching and interface <a href="https://basecamp.com/shapeup/1.3-chapter-04#breadboarding">breadboarding</a>.</figcaption>
-</figure>
+{{< figure src="breadboards-thumb.jpeg" link="breadboards.jpeg"
+  caption="Sample of some early discovery sketching and interface <a href='https://basecamp.com/shapeup/1.3-chapter-04#breadboarding'>breadboarding</a>."
+  alt="An early hand-drawn iPad sketch of the retro board's Start, Stop, and Continue columns, annotated with notes about hiding the add buttons between phases and signaling when others are writing." >}}
 
 Some mockups from the pitch document:
 
-<figure>
- <a href="board-layout.png">
- <img src="board-layout-thumb.jpeg" alt="Board layout."></a>
- <figcaption>Board layout.</figcaption>
-</figure>
+{{< figure src="board-layout-thumb.jpeg" link="board-layout.png"
+  caption="Board layout."
+  alt="A low-fidelity wireframe of the retro board web page: a header with board settings and participant info above four columns -- Start, Stop, Continue, and Actions -- each holding card slots." >}}
 
-<figure>
- <a href="card-state.png">
- <img src="card-state-thumb.jpeg" alt="Card state."></a>
- <figcaption>Card state.</figcaption>
-</figure>
+{{< figure src="card-state-thumb.jpeg" link="card-state.png"
+  caption="Card state."
+  alt="An annotated mockup of a retro board column showing a topic card's states -- editable text, a vote button, an inline vote count, and a voted state -- with margin notes explaining each." >}}
 
 The second project goal is to (hopefully) **provide more useful and usable solutions to real world problems**. When I built the [GetShorty](https://github.com/phoenix-by-example/get_shorty) link shortener example there were no real aspirations that anyone would actually use the tool day-to-day, but moving forward I'd like to find small slices of opinionated, usefulness solutions to model the examples after. If you find this and have thoughts on retro meeting and the tools involved, please [reach out](mailto:mike@mikezornek.com). I'd love to hear your observations.
 

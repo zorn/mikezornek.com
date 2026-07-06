@@ -37,11 +37,9 @@ Sometimes when we talk about entities we'll get into the deeper discussions of h
 
 As you define the core domain nouns of your app you'll inevitably start to build out a series of modules that help you manage these nouns. When designing the interfaces of these modules have an explicit pattern for how to name behaviors and try when possible to lean on community patterns. Ask yourself, "how does the Elixir language or popular frameworks use these terms?"
 
-<figure class="">
- <a href="delete-new-search.png">
- <img class="" style="max-width: 50%; "src="delete-new-search.png" alt="Delete and New as used inside of Elixir."></a>
- <figcaption class="">Delete and New as used inside of Elixir.</figcaption>
-</figure>
+{{< figure src="delete-new-search.png" width="50%"
+  caption="Delete and New as used inside of Elixir."
+  alt="Two side-by-side Elixir documentation searches: 'delete' returning functions like Keyword.delete/2 and List.delete/2, and 'new' returning Date.new/4, DateTime.new/4, and similar constructors." >}}
 
 You can also take advantage of the various Phoenix/Ecto generates for a peek at some pattern recommendations from the framework authors. These are usually a great place to start, although I don't consider the patterns to be gospel.
 

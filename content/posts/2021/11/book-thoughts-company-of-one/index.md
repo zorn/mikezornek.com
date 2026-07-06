@@ -9,10 +9,7 @@ tags:
   - reviews
 ---
 
-<figure style="width: 30%; margin: 0;">
-<img src="book-cover.jpg" alt="Company of One Book Cover" data-action="zoom">
-<figcaption>Company of One Book Cover</figcaption>
-</figure>
+{{< figure src="book-cover.jpg" width="30%" alt="Company of One Book Cover" >}}
 
 This weekend I finished [Company of One] by Paul Jarvis. The book pitches:
 

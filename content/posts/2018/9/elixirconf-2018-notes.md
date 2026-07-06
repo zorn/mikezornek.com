@@ -31,21 +31,21 @@ For more on Elixir check out [its homepage][2].
 
 ## Photos
 
-- ![][5]
-- ![][6]
-- ![][7]
-- ![][8]
-- ![][9]
-- ![][10]
-- ![][11]
-- ![][12]
-- ![][13]
-- ![][14]
-- ![][15]
-- ![][16]
-- ![][17]
-- ![][18]
-- ![][19]
+- ![A speaker gives a thumbs-up in front of a slide reading "Welcome back to… Building Production-Ready GraphQL APIs."][5]
+- ![Two ElixirConf attendees smile at the camera from a training-room table, laptops open in front of them.][6]
+- ![A conference slide titled "The power of open source" summarizing the 2018 Elixir ecosystem: 7,200+ libraries, 190+ meetups, 25+ books, and 15+ conferences.][7]
+- ![A Pulp Fiction meme of Samuel L. Jackson pointing a pistol, captioned "Say blockchain one more time."][8]
+- ![A sunny Bellevue park with a curved reflecting channel bordering a green lawn, trees, and downtown buildings in the distance.][9]
+- ![An ElixirConf attendee badge reading "Michael Zornek, Zorn Labs LLC, Bellevue, WA, September 4–7, 2018."][10]
+- ![Looking straight up through a circular glass-domed skylight in a hotel atrium, with surrounding towers visible through the glass.][11]
+- ![A cluster of attendees huddled around a laptop on stage in front of a 2018 ElixirConf US backdrop.][12]
+- ![An audience watching a talk whose screen reads "Ice Cream Driven Development," with the speaker at a lit podium.][13]
+- ![A keynote slide listing two bullets: "We started working on a type system" and "We stopped working on a type system."][14]
+- ![A large hotel ballroom full of attendees at round tables under chandeliers, facing a distant stage.][15]
+- ![A dimly lit training room where rows of attendees work on laptops, facing a projected slide.][16]
+- ![A Raspberry Pi touchscreen and a laptop both displaying a hand-drawn "It's Fine" sketch during a Nerves hardware demo.][17]
+- ![A Raspberry Pi board laid out on a table with its case pieces, a screwdriver, an SD card, and cables.][18]
+- ![A freestanding ElixirConf 2018 banner in a hallway, listing sponsors DockYard, POA, Plataformatec, and WM Engineering.][19]
 
 [1]: https://elixirconf.com
 [2]: https://elixir-lang.org

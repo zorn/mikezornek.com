@@ -16,17 +16,22 @@ My sister and her friend like to go to the beach later and stay late. We had som
 
 We had a very bright moon, and the colors that came out at the end of the day were notably pretty.
 
-![](IMG_3805.jpeg)
+{{< figure src="IMG_3805.jpeg"
+  alt="Dusk beach scene: pale crepuscular rays fan up from the horizon across a deep blue sky, the full moon low at right, waves rolling onto the sand." >}}
 
-![](IMG_3807.jpeg)
+{{< figure src="IMG_3807.jpeg"
+  alt="A wide beach at twilight, wet sand mirroring a pastel sky, a few people and shorebirds near the waterline, an amusement-pier roller coaster silhouetted in the distance." >}}
 
-![](IMG_3808.jpeg)
+{{< figure src="IMG_3808.jpeg"
+  alt="Twilight over the ocean, the deep blue sky streaked with crepuscular rays, the full moon glowing, a lone figure small on the sand at right." >}}
 
 To be clear, this is the moon, not the sun. The day is over--we are headed home.
 
-![](IMG_3816.jpeg)
+{{< figure src="IMG_3816.jpeg"
+  alt="The full moon high in a deep blue evening sky, its light reflecting in a long shimmer across the ocean and wet sand." >}}
 
-![](IMG_3821.jpeg)
+{{< figure src="IMG_3821.jpeg"
+  alt="My sister Michelle Dunster and I walk across the moonlit beach pulling a beach cart, me waving to the camera, the full moon glowing above the water behind us." >}}
 
 When I returned to the city Wednesday night, I caught up on random emails and hosted the Philly Elixir meetup.
 

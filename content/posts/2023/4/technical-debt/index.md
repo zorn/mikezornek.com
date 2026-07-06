@@ -36,10 +36,9 @@ What the book **does not** get into is the discussions around getting time alloc
 
 ## Selling
 
-<figure style="width: 50%; margin: 0 auto;">
-<img src= "tech-debt-meme.jpg" alt= "Construction worker in front of a very broken house being asked why it takes so long to add a new window." data-action=" zoom"/>
-<figcaption>Technical Debt Meme</figcaption>
-</figure>
+{{< figure src="tech-debt-meme.jpg" width="50%"
+  caption="Technical Debt Meme"
+  alt="Construction worker in front of a very broken house being asked why it takes so long to add a new window." >}}
 
 Saw this meme over the weekend, and it's a good discussion starting point for the common perspective challenges of technical debt.
 
