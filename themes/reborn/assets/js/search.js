@@ -44,6 +44,7 @@ if (inputBox !== null) {
  */
 function executeSearch(searchQuery) {
     show(document.querySelector('.search-loading'));
+    showExternalSearch(searchQuery);
 
     fetch('/index.json').then(function (response) {
         if (response.status !== 200) {
@@ -64,6 +65,37 @@ function executeSearch(searchQuery) {
         .catch(function (err) {
             console.log('Fetch Error :-S', err);
         });
+    });
+}
+
+/**
+ * Reveals the "search this site elsewhere" links (which appear both above and
+ * below the results), pointing DuckDuckGo and Google at a site-scoped query so
+ * readers can lean on those engines too.
+ * @param {string} searchQuery - The search term to look for
+ */
+function showExternalSearch(searchQuery) {
+    var containers = document.querySelectorAll('.external-search');
+    if (containers.length === 0) {
+        return;
+    }
+
+    var scopedQuery = 'site:mikezornek.com ' + searchQuery;
+    var ddgHref = 'https://duckduckgo.com/?q=' + encodeURIComponent(scopedQuery);
+    var googleHref = 'https://www.google.com/search?q=' + encodeURIComponent(scopedQuery);
+
+    containers.forEach(function (container) {
+        var ddg = container.querySelector('.external-search-ddg');
+        if (ddg !== null) {
+            ddg.href = ddgHref;
+        }
+
+        var google = container.querySelector('.external-search-google');
+        if (google !== null) {
+            google.href = googleHref;
+        }
+
+        container.classList.remove('hidden');
     });
 }
 
