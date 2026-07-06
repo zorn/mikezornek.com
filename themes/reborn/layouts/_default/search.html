@@ -3,6 +3,8 @@
     <div class="mx-auto max-w-screen-md px-4 md:px-0">
       {{ partial "search-form.html" . }}
 
+      {{ partial "search-external.html" (dict "extraClass" "-mt-4 mb-8") }}
+
 
       <div
         class="prose prose-p:leading-[1.5] prose-headings:mb-0 prose-headings:mt-12 prose-p:mt-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
@@ -14,6 +16,8 @@
           ></div>
           <p class="mt-2 text-gray-600">Searching...</p>
         </div>
+
+        {{ partial "search-external.html" (dict "extraClass" "mt-12 border-t border-gray-200 pt-6") }}
       </div>
 
       <script id="search-result-template" type="text/x-js-template">
