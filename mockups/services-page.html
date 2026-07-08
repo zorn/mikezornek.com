@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elixir Stabilization — services (mock)</title>
+<style>
+  :root{
+    --ink:#1f2430; --muted:#5a5470; --faint:#8a84a0;
+    --purple:#7673ce; --purple-dk:#5a56b0; --wash:#f4f2fb; --line:#e4e0f2;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);
+       margin:0;background:#fff}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
+  .mockbar{background:#2b2740;color:#cfc9e6;font:13px/1.4 ui-monospace,monospace;
+           text-align:center;padding:6px}
+  a{color:var(--purple-dk)}
+  h1{font-size:40px;line-height:1.15;margin:.4em 0 .2em}
+  h2{font-size:27px;margin:1.6em 0 .2em}
+  h3{font-size:20px;margin:0 0 .3em}
+  .lede{font-size:21px;color:var(--muted);margin:.2em 0 0}
+  .eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:13px;
+           font-weight:700;color:var(--purple)}
+
+  /* hero */
+  header.hero{background:linear-gradient(180deg,var(--wash),#fff);border-bottom:1px solid var(--line);
+              padding:56px 0 44px}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+  .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:9px;
+       padding:14px 22px}
+  .btn-primary{background:var(--purple);color:#fff}
+  .btn-primary small{display:block;font-weight:400;font-size:13px;opacity:.85}
+  .btn-ghost{background:#fff;color:var(--purple-dk);border:1.5px solid var(--line)}
+
+  /* proof */
+  .quote{border-left:4px solid var(--purple);background:var(--wash);border-radius:0 8px 8px 0;
+         padding:14px 18px;margin:14px 0;color:#2c2a3a}
+  .quote cite{display:block;margin-top:6px;font-style:normal;color:var(--faint);font-size:15px}
+
+  /* on-ramp doors */
+  .doors{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+  .door{border:1.5px solid var(--line);border-radius:12px;padding:22px}
+  .door.lead{border-color:var(--purple);box-shadow:0 6px 22px rgba(118,115,206,.12)}
+  .door .tag{font-size:13px;font-weight:700;color:var(--purple);margin-bottom:6px}
+  .door p{color:var(--muted);margin:.3em 0 1em;font-size:16px}
+  .door .go{font-weight:700;text-decoration:none;color:var(--purple-dk)}
+
+  /* plans */
+  .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+  .plan{border:1.5px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+  .plan.mid{border-color:var(--purple);position:relative}
+  .plan.mid .pick{position:absolute;top:-11px;left:22px;background:var(--purple);color:#fff;
+                  font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px}
+  .plan .hrs{font-size:15px;color:var(--faint);font-weight:700}
+  .plan .price{font-size:26px;font-weight:800;margin:.1em 0 .5em}
+  .plan .price span{font-size:14px;font-weight:500;color:var(--faint)}
+  .plan .ceiling{font-size:15px;color:var(--muted);flex:1}
+  .soft{background:var(--wash);border-radius:10px;padding:14px 18px;margin-top:16px;
+        font-size:15px;color:var(--muted)}
+
+  footer{background:#2b2740;color:#cfc9e6;padding:44px 0;margin-top:56px}
+  footer a{color:#fff}
+  @media(max-width:680px){.doors,.plans{grid-template-columns:1fr}h1{font-size:32px}}
+</style>
+
+<div class="mockbar">MOCKUP — /elixir-stabilization (convert surface). Not live. Reflects session decisions.</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Elixir Stabilization</div>
+    <h1>Your Elixir app, made calm.</h1>
+    <p class="lede">A senior engineer who parachutes into your codebase and burns down the
+      bugs, slow spots, flaky tests, and upgrade debt — in small, well-documented PRs,
+      without hand-holding. So your team can ship with confidence again.</p>
+
+    <div class="cta-row">
+      <!-- PRIMARY CTA = the on-ramp, not the plan -->
+      <a class="btn btn-primary" href="intake-form.html">
+        Start with an Audit
+        <small>Fixed price · a prioritized Roadmap in ~a week</small>
+      </a>
+      <a class="btn btn-ghost" href="intake-form.html">Know what you need? Hand me the first fix →</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- PROOF early: borrow trust before asking for anything -->
+  <section>
+    <h2>Teams I've done this for</h2>
+    <div class="quote">
+      He's a great engineer, and a deep appreciation for context permeates all the work he
+      does. You should work with Mike if you get the chance.
+      <cite>— Peter Berg, Founder at Forward</cite>
+    </div>
+    <div class="quote">
+      He dramatically improved the quality of our code base… leading by example in software
+      development best practices. We would gladly work with Michael again.
+      <cite>— Taun Chapman, CTO &amp; Co-founder at ROAR for Good</cite>
+    </div>
+    <p style="color:var(--faint);font-size:15px">More on <a href="#">LinkedIn</a>.
+      (Testimonials reused from the generalist consulting page.)</p>
+  </section>
+
+  <!-- THE TWO ON-RAMPS -->
+  <section>
+    <h2>Where to start</h2>
+    <p class="lede" style="font-size:18px">Two front doors, depending on how well you already
+      know the problem.</p>
+    <div class="doors">
+      <div class="door lead">
+        <div class="tag">▸ Not sure what's wrong</div>
+        <h3>The Stabilization Audit</h3>
+        <p>I get read access, run your codebase against the stabilization checklist, and hand
+          you a prioritized <strong>Roadmap</strong> — what's fragile, in what order to fix it,
+          and what it'll take. Fixed price, ~a week. You keep the Roadmap whether or not you
+          hire me for the fixes.</p>
+        <a class="go" href="intake-form.html">Start an Audit →</a>
+      </div>
+      <div class="door">
+        <div class="tag">▸ You already know</div>
+        <h3>A one-off fix</h3>
+        <p>Got a specific thing on your list — an upgrade, an Ember→LiveView corner, a set of
+          flaky tests? Describe it and I'll quote a fixed-scope engagement. A low-commitment
+          way to see how I work before anything ongoing.</p>
+        <a class="go" href="intake-form.html">Describe the work →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PLAN = destination, shown after the on-ramps -->
+  <section>
+    <h2>…then keep it healthy</h2>
+    <p class="lede" style="font-size:18px">Once I know your codebase, most teams move onto a
+      <strong>Monthly Stabilization Plan</strong> — steady senior hands on your backlog, every
+      month, as clean PRs.</p>
+
+    <div class="plans">
+      <div class="plan">
+        <div class="hrs">~10 hrs / month</div>
+        <div class="price">$—<span> / mo</span></div>
+        <div class="ceiling"><strong>Healthy.</strong> Ongoing code review, dependency &amp;
+          bug burndown, one meaningful improvement a month. Keeps rot from setting in.</div>
+      </div>
+      <div class="plan mid">
+        <div class="pick">most teams</div>
+        <div class="hrs">~20 hrs / month</div>
+        <div class="price">$—<span> / mo</span></div>
+        <div class="ceiling"><strong>Active.</strong> Steady, visible progress against a real
+          backlog — the stuff that's been nagging you for months.</div>
+      </div>
+      <div class="plan">
+        <div class="hrs">~40 hrs / month</div>
+        <div class="price">$—<span> / mo</span></div>
+        <div class="ceiling"><strong>Embedded.</strong> Near-half-time momentum. Enough to
+          drive a genuine initiative, not just hold the line.</div>
+      </div>
+    </div>
+
+    <div class="soft">
+      <strong>These are plans, not stopwatches.</strong> Some months run a little under, some a
+      little over — that's the point of a plan. Monthly, cancel anytime. No lock-in, no
+      pay-to-have-me-on-standby games.
+    </div>
+  </section>
+
+  <section>
+    <h2>Ready?</h2>
+    <p>Tell me what's going on. I'll reply within a business day with specifics — usually a
+      fixed quote, no sales call required.</p>
+    <a class="btn btn-primary" href="intake-form.html" style="margin-top:8px">Get started →</a>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Prefer to just email? <a href="#">zorn@zornlabs.com</a> · Or read
+    <a href="checklist-hub.html">The Elixir Stabilization Checklist</a> and DIY it.
+  </div>
+</footer>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stabilization intake — Google Form (mock)</title>
+<style>
+  :root{--ink:#1f2430;--muted:#5a5470;--faint:#8a84a0;--purple:#7673ce;--wash:#f4f2fb;--line:#e4e0f2}
+  *{box-sizing:border-box}
+  body{font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--wash);
+       color:var(--ink);margin:0;padding:28px 16px}
+  .mockbar{max-width:660px;margin:0 auto 18px;background:#2b2740;color:#cfc9e6;
+           font:13px/1.5 ui-monospace,monospace;text-align:center;padding:8px 12px;border-radius:8px}
+  .form{max-width:660px;margin:0 auto}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:0 0 14px}
+  .card.top{border-top:9px solid var(--purple);padding-bottom:16px}
+  h1{font-size:24px;margin:.1em 0 .3em}
+  .lede{color:var(--muted);margin:.2em 0 0;font-size:15px}
+  label.q{display:block;font-weight:600;margin:0 0 12px}
+  .req{color:#c0392b}
+  .opt{font-weight:400;color:var(--faint);font-size:13px}
+  .field{width:100%;border:none;border-bottom:1px solid #cfc9e6;padding:8px 2px;
+         font:inherit;background:transparent}
+  .field:focus{outline:none;border-bottom:2px solid var(--purple)}
+  textarea.field{border:1px solid #cfc9e6;border-radius:7px;min-height:76px;padding:9px}
+  .choice{display:flex;align-items:flex-start;gap:11px;padding:7px 0}
+  .choice input{margin-top:5px}
+  .section-label{max-width:660px;margin:22px auto 8px;font:600 13px/1.4 ui-monospace,monospace;
+                 color:var(--purple);background:#efeafc;border-radius:20px;padding:6px 14px;
+                 display:inline-block}
+  .branch{border-left:3px dashed var(--purple);margin-left:2px;padding-left:14px}
+  .note{max-width:660px;margin:6px auto 20px;color:var(--faint);font-size:13px}
+</style>
+
+<div class="mockbar">MOCKUP of the Google Form. No real form is wired up. Dashed sections
+  are revealed by "go to section based on answer" branching on the router question.</div>
+
+<div class="form">
+
+  <div class="card top">
+    <h1>Let's stabilize your Elixir app</h1>
+    <p class="lede">A few questions so I can point you at the right first step and reply with
+      specifics — usually within one business day. No sales call required.</p>
+  </div>
+
+  <!-- Contact: every path -->
+  <div class="card">
+    <label class="q">Your name <span class="req">*</span></label>
+    <input class="field" placeholder="Your answer">
+  </div>
+  <div class="card">
+    <label class="q">Email <span class="req">*</span></label>
+    <input class="field" placeholder="you@company.com">
+  </div>
+  <div class="card">
+    <label class="q">Company / product <span class="opt">(optional)</span></label>
+    <input class="field" placeholder="Your answer">
+  </div>
+
+  <!-- Router -->
+  <div class="card">
+    <label class="q">What brings you here? <span class="req">*</span></label>
+    <div class="choice"><input type="radio" name="r"><span>Something feels wrong, but I'm not sure what — diagnose it &nbsp;<span class="opt">→ Audit</span></span></div>
+    <div class="choice"><input type="radio" name="r"><span>I know exactly what I need fixed &nbsp;<span class="opt">→ one-off</span></span></div>
+    <div class="choice"><input type="radio" name="r"><span>I want ongoing help keeping my app healthy &nbsp;<span class="opt">→ plan</span></span></div>
+    <div class="choice"><input type="radio" name="r"><span>Just exploring / not sure yet</span></div>
+  </div>
+</div>
+
+<!-- ================= AUDIT SECTION ================= -->
+<div class="section-label">▸ Section shown when: "diagnose it"</div>
+<div class="note">Google Form: this radio option → "Go to section: Audit."</div>
+<div class="form"><div class="branch">
+  <div class="card">
+    <label class="q">What feels wrong? <span class="req">*</span></label>
+    <textarea class="field" placeholder="e.g. app gets slow under load, tests are flaky, scared to deploy, mystery crashes…"></textarea>
+  </div>
+  <div class="card">
+    <label class="q">Roughly how big is the codebase / team? <span class="opt">(a guess is fine)</span></label>
+    <input class="field" placeholder="e.g. ~80k LOC, 3 devs">
+  </div>
+  <div class="card">
+    <label class="q">Elixir / Phoenix / LiveView versions <span class="opt">(a guess is fine)</span></label>
+    <input class="field" placeholder="e.g. Elixir 1.14, Phoenix 1.6, not sure on LV">
+  </div>
+  <div class="card">
+    <label class="q">Can you grant read access to the repo for the audit? <span class="req">*</span></label>
+    <div class="choice"><input type="radio" name="a"><span>Yes</span></div>
+    <div class="choice"><input type="radio" name="a"><span>Yes, after we talk</span></div>
+    <div class="choice"><input type="radio" name="a"><span>No / can't</span></div>
+  </div>
+</div></div>
+
+<!-- ================= ONE-OFF SECTION ================= -->
+<div class="section-label">▸ Section shown when: "I know what I need"</div>
+<div class="form"><div class="branch">
+  <div class="card">
+    <label class="q">Describe the work you want done <span class="req">*</span></label>
+    <textarea class="field" placeholder="e.g. convert 6 remaining Ember pages to LiveView; upgrade Phoenix 1.6→1.7; kill our flaky test suite…"></textarea>
+  </div>
+  <div class="card">
+    <label class="q">Codebase context &amp; versions <span class="opt">(optional but speeds up my quote)</span></label>
+    <input class="field" placeholder="e.g. ~80k LOC, Elixir 1.14 / Phoenix 1.6">
+  </div>
+  <div class="card">
+    <label class="q">Any deadline or timing pressure? <span class="opt">(optional)</span></label>
+    <input class="field" placeholder="e.g. want it done before our Q4 launch">
+  </div>
+</div></div>
+
+<!-- ================= PLAN SECTION ================= -->
+<div class="section-label">▸ Section shown when: "ongoing help"</div>
+<div class="form"><div class="branch">
+  <div class="card">
+    <label class="q">What kind of ongoing help? <span class="req">*</span></label>
+    <div class="choice"><input type="radio" name="p"><span>~10 hrs/mo — Healthy (reviews + small burndown)</span></div>
+    <div class="choice"><input type="radio" name="p"><span>~20 hrs/mo — Active (steady backlog progress)</span></div>
+    <div class="choice"><input type="radio" name="p"><span>~40 hrs/mo — Embedded (drive an initiative)</span></div>
+    <div class="choice"><input type="radio" name="p"><span>Not sure — help me pick</span></div>
+  </div>
+  <div class="card">
+    <label class="q">What's on your stabilization backlog right now? <span class="req">*</span></label>
+    <textarea class="field" placeholder="e.g. Sentry is full of ignored errors, deps are 2 years behind, no senior Elixir reviewer on the team…"></textarea>
+  </div>
+  <div class="card">
+    <label class="q">Have I already worked in this codebase? <span class="opt">(if not, we'll likely start with an audit or a first fix so I'm fluent before the plan begins)</span></label>
+    <div class="choice"><input type="radio" name="fluent"><span>Yes</span></div>
+    <div class="choice"><input type="radio" name="fluent"><span>No — brand new to you</span></div>
+  </div>
+</div></div>
+
+<!-- ================= COMMON TAIL ================= -->
+<div class="section-label">▸ Final section (all paths)</div>
+<div class="form">
+  <div class="card">
+    <label class="q">Anything else I should know? <span class="opt">(optional)</span></label>
+    <textarea class="field" placeholder="Your answer"></textarea>
+  </div>
+  <div class="card" style="text-align:center;color:var(--faint);font-size:14px">
+    [ Submit ] — you'll get a reply within one business day, usually with a fixed quote.
+  </div>
+</div>
+</html>

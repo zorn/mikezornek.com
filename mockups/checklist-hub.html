@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Elixir Stabilization Checklist (mock)</title>
+<style>
+  :root{--ink:#1f2430;--muted:#5a5470;--faint:#8a84a0;--purple:#7673ce;--purple-dk:#5a56b0;
+        --wash:#f4f2fb;--line:#e4e0f2}
+  *{box-sizing:border-box}
+  body{font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);margin:0;background:#fff}
+  .mockbar{background:#2b2740;color:#cfc9e6;font:13px/1.4 ui-monospace,monospace;text-align:center;padding:6px}
+  .wrap{max-width:800px;margin:0 auto;padding:0 20px}
+  a{color:var(--purple-dk)}
+  h1{font-size:36px;line-height:1.15;margin:.4em 0 .1em}
+  .lede{font-size:20px;color:var(--muted)}
+  .eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:700;color:var(--purple)}
+  header.hero{background:linear-gradient(180deg,var(--wash),#fff);border-bottom:1px solid var(--line);padding:48px 0 34px}
+
+  .group{margin:34px 0}
+  .group h2{font-size:22px;margin:0 0 4px;display:flex;align-items:center;gap:10px}
+  .group h2 .n{font:700 13px/1 ui-monospace,monospace;color:#fff;background:var(--purple);
+               border-radius:6px;padding:5px 7px}
+  ul.check{list-style:none;padding:0;margin:10px 0 0}
+  ul.check li{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
+  ul.check li::before{content:"☐";color:var(--purple);font-size:19px;line-height:1.3}
+  ul.check li .body{flex:1}
+  ul.check li .body a{font-weight:600}
+  ul.check li .body .why{display:block;color:var(--faint);font-size:14.5px}
+
+  .cta{background:var(--wash);border:1px solid var(--line);border-radius:14px;
+       padding:26px 26px;margin:44px 0}
+  .cta h3{margin:0 0 .3em;font-size:22px}
+  .cta p{color:var(--muted);margin:.2em 0 1em}
+  .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:9px;
+       padding:13px 20px;background:var(--purple);color:#fff}
+  .skip{color:var(--faint);font-size:15px;margin-top:14px}
+  footer{color:var(--faint);font-size:14px;padding:30px 0 50px;text-align:center}
+</style>
+
+<div class="mockbar">MOCKUP — the checklist hub (give surface). Terse by design. Items link to
+  future deep-dive "spoke" posts.</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Reference</div>
+    <h1>The Elixir Stabilization Checklist</h1>
+    <p class="lede">Everything I look at when I parachute into an Elixir codebase to make it
+      calm again. Skim it. Skip what you've already got. The gaps are your roadmap.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="group">
+    <h2><span class="n">1</span> Version control &amp; change safety</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">Work happens on branches, merged via PRs</a>
+        <span class="why">Not committing straight to <code>main</code>. Every change is reviewable and revertable.</span></div></li>
+      <li><div class="body"><a href="#">Any change can be reverted in minutes</a>
+        <span class="why">Small, atomic commits. You can back out a bad deploy without archaeology.</span></div></li>
+      <li><div class="body"><a href="#">Main is always deployable</a>
+        <span class="why">Green build = shippable. No "don't deploy, Dave's mid-refactor."</span></div></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h2><span class="n">2</span> Static analysis &amp; consistency</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">Credo runs in CI, not just on someone's laptop</a>
+        <span class="why">Consistency enforced automatically, so review is about logic, not style.</span></div></li>
+      <li><div class="body"><a href="#">Dialyzer / type checking is set up and green</a>
+        <span class="why">Catches whole classes of bugs before they reach production.</span></div></li>
+      <li><div class="body"><a href="#">Formatter is enforced (<code>mix format --check-formatted</code>)</a>
+        <span class="why">Zero-effort consistency; no more diff noise from whitespace.</span></div></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h2><span class="n">3</span> Tests you can trust</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">The suite is green and nobody ignores failures</a>
+        <span class="why">A suite people route around is worse than no suite — it launders false confidence.</span></div></li>
+      <li><div class="body"><a href="#">No flaky tests (or they're quarantined and tracked)</a>
+        <span class="why">Flakiness trains your team to hit "re-run" and stop reading failures.</span></div></li>
+      <li><div class="body"><a href="#">Coverage where it counts — money paths, auth, data integrity</a>
+        <span class="why">Not a coverage number; the *right* things covered.</span></div></li>
+      <li><div class="body"><a href="#">Tests run fast enough that people actually run them</a>
+        <span class="why">A slow suite is a skipped suite.</span></div></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h2><span class="n">4</span> CI &amp; delivery</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">CI checks format, Credo, Dialyzer, tests — every PR</a>
+        <span class="why">The gate is automatic, not a reviewer remembering to look.</span></div></li>
+      <li><div class="body"><a href="#">Builds are fast (cached deps, cached PLTs, parallelism)</a>
+        <span class="why">Slow CI is a tax on every single change your team ships.</span></div></li>
+      <li><div class="body"><a href="#">Deploys are boring, repeatable, and reversible</a>
+        <span class="why">Shipping shouldn't require holding your breath.</span></div></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h2><span class="n">5</span> Dependencies &amp; the runtime</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">Elixir / Phoenix / LiveView are current (or on a plan to be)</a>
+        <span class="why">Falling behind compounds; the longer you wait, the scarier the jump.</span></div></li>
+      <li><div class="body"><a href="#">No unmaintained or vulnerable deps (<code>mix hex.audit</code>, <code>mix deps.unlock --check-unused</code>)</a>
+        <span class="why">Know what you're standing on before it gives way.</span></div></li>
+      <li><div class="body"><a href="#">You understand your OTP/supervision tree</a>
+        <span class="why">When something crashes at 2am, the process design is either your friend or your enemy.</span></div></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h2><span class="n">6</span> Observability &amp; performance</h2>
+    <ul class="check">
+      <li><div class="body"><a href="#">Errors are captured and someone actually triages them (Sentry, etc.)</a>
+        <span class="why">A Sentry nobody reads is a smoke alarm with the battery out.</span></div></li>
+      <li><div class="body"><a href="#">You can see slow requests / slow queries</a>
+        <span class="why">You can't fix "the app feels slow" — you fix the N+1 on the dashboard.</span></div></li>
+      <li><div class="body"><a href="#">The database has the indexes its queries need</a>
+        <span class="why">The single most common source of "it got slow as we grew."</span></div></li>
+    </ul>
+  </div>
+
+  <!-- soft, honest bridge to the convert surface -->
+  <div class="cta">
+    <h3>That's the list. Want it done, not just read?</h3>
+    <p>If you nodded at half of these and thought "…yeah, we don't have time for that" —
+      that's exactly what I do. I'll run this against your codebase and hand you a
+      prioritized plan, or just keep it healthy month to month.</p>
+    <a class="btn" href="services-page.html">See how I can help →</a>
+    <div class="skip">No pitch if you're just here for the list — take it, apply it, ship with
+      more confidence. That's a win either way.</div>
+  </div>
+
+</main>
+
+<footer class="wrap">
+  Each item will link to a deep-dive post. — mikezornek.com
+</footer>
+</html>
