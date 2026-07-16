@@ -1,183 +1,117 @@
 ---
-title: "Pitch Three Years of Evolving Ai Workflows"
+title: "Three Years of Changing How I Use AI"
 date: 2026-07-16T10:33:48-04:00
-description: something tweet like
+description: Notes on how my use of AI has changed over three years, the Matt Pocock skills I've been trying inside LocalCents, and where I'm still uneasy.
 images:
   - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
 draft: true
-pain: 
-fix: 
+pain: the AI tooling changes so fast that it's hard to know if you're using it well, and most of us aren't comparing notes about what's actually working
+fix: share the honest version of my own three years so a peer can measure it against theirs
+tags:
+  - ai
+  - software-craft
 ---
 
-## Raw notes (to be rebuilt)
+I want to talk through how my use of AI has changed over the last three years. Not because I've got it figured out. I don't. But the tooling is moving fast enough that I don't think any of us can keep up on our own, and the way I've always sorted through a confusing stretch of this industry is by comparing notes with my peers.
 
-### 2023 — AI starts to get serious
+So think of this as the version of that conversation I'd have with you if we grabbed a coffee. Here's what I've been doing, what's working, what isn't, and the parts I'm honestly still not at peace with.
 
-- AI started to become serious for me around 2023. Didn't use it too much in the beginning.
-- Made a kinda dumb little blog post where I had it write a rap song for Alexa. https://mikezornek.com/posts/2023/3/elixir-rap-song/
+## The slow start
 
-### 2024 — Copilot autocomplete + ChatGPT as a helper
+For me, AI started to feel like a real thing around 2023, but I didn't use it much at first. The clearest artifact I have from that year is a [dumb little blog post where I had it write a rap song for Alexa](https://mikezornek.com/posts/2023/3/elixir-rap-song/). That was about the level of seriousness I brought to it.
 
-- Started using Copilot autocomplete inside VS Code. First in personal projects, then later at my full-time career job.
-- The career job was on a very isolated computer with firm rules about what systems we could use. They had an explicit contract with Microsoft, so everything went through Copilot.
-- They encouraged a lot of experimentation, but it mostly ended up being about autocomplete. Agents were starting to get a little ground back then, but we didn't really use that much.
-- Another 2024 use: building my gaming computer. https://mikezornek.com/posts/2024/12/new-gaming-pc/ Hadn't built a computer in a while; ran into bizarre error codes, had questions about configuring a Windows bootloader. Asked ChatGPT for advice. About 50% successful at that point. Even when it wasn't successful, the terminology it gave me was usually helpful enough to steer me in the right direction.
+In 2024 the first genuinely useful thing showed up: Copilot autocomplete inside VS Code. I started with it in my personal projects, then it followed me to my full-time job. That job ran on a locked-down machine with firm rules about what we were allowed to use, but they had an explicit contract with Microsoft, so everything went through Copilot. There was a lot of encouragement to experiment. In practice it mostly came out as autocomplete. Agents were starting to get a little bit of ground back then, but we weren't really leaning on them.
 
-### 2025 — Autocomplete matures, then Cursor (CodeBeam America)
+The other 2024 memory is from outside of work entirely. I [built a new gaming computer](https://mikezornek.com/posts/2024/12/new-gaming-pc/), which I hadn't done in a while, and I kept running into strange error codes and questions about things like configuring a Windows bootloader. I'd ask ChatGPT for advice. I'd call it about 50% successful at the time. But even when it was wrong, the vocabulary it handed me was usually enough to point me in the right direction, which turned out to be worth a lot on its own.
 
-- As 2024 turned into 2025, main use case was still mostly autocomplete. Particularly helpful for repetitive chunks of code.
-- Example: I write a lot of test files. I'd start by writing out the different test descriptions I was interested in, build the implementation of the first test, and by the second/third/fourth, autocomplete was particularly helpful at filling out the test logic — and following the "zornisms" of my particular coding style.
-- Big moment: attending the CodeBeam America conference in San Francisco in 2025. https://mikezornek.com/posts/2025/3/code-beam-america-notes/ Walked away with a deeper understanding of how people were using Cursor. Came home and immediately started experimenting with Cursor more myself.
-- Cursor was a better autocomplete tool, but it also had the embedded chat window. Got a lot of value out of that for exploration of ideas, asking questions about the codebase, finding out information. As much about a pair-programming-partner style — asking lots of questions while working through the problem.
+## Cursor, and learning to ask questions
 
-### 2025 — First friction: reviewing peers' AI-generated PRs
+Rolling into 2025, my main use was still mostly autocomplete. It was especially good at the repetitive stuff. I write a lot of test files, and my habit is to write out the test descriptions I care about, implement the first one by hand, and by the time I'm on the second, third, and fourth, autocomplete is quietly filling in the logic. Better still, it was following the little "zornisms" of how I like to write things.
 
-- As 2025 continued, I started seeing pull requests posted by peers that were clearly AI-generated. This was a real challenge.
-- The PRs tended to be way larger than I'd have liked. Hard to review. Normally I'd ask someone why they chose a particular approach, or whether they'd considered other options — but it felt awkward to post that knowing they didn't write the code themselves.
-- Compounding it: I'm a part-time, asynchronous member of the team. Not a lot of time overlap with these people, no deep shared understanding of what we're doing. Found it particularly challenging. It reinforced a personal bias against generated code.
+The turning point that year was attending [CodeBeam America in San Francisco](https://mikezornek.com/posts/2025/3/code-beam-america-notes/). I came away with a much better sense of how people were actually using Cursor day to day, and I went home and started experimenting with it myself. Cursor was a nicer autocomplete tool, sure, but the part I got the most out of was the embedded chat window. It became a place to explore ideas, ask questions about the codebase, and generally poke around. It felt less like a code generator and more like a pairing partner I could ask a bunch of questions while I worked a problem out.
 
-### 2025 — The "let it run loose" demo that didn't land for me
+## The part that made me uneasy
 
-- Around this time (2025) I remember seeing keynotes from Chris (of the Phoenix project) demonstrating tooling he'd built: throw in a prompt, turn on all the dangerous permissions, and let the bot run loose and build something (e.g. a Tetris game in Phoenix LiveView). He'd kick off the demo at the start of his talk, do his talking, then show what the AI had built at the end.
-- I personally found that demonstration not exciting. It didn't fit into the day-to-day work I do.
-- My thinking: if there's value in building a throwaway prototype, maybe this could be good — but it didn't align with my sense of what software engineering really is, or how my personal experience influences the quality of the things I build. Walked away from that demo not particularly excited.
+Also in 2025, I started running into pull requests from peers that were clearly generated with AI, and I found that genuinely hard to deal with.
 
-### 2026 — Deciding I had to go deeper (and doing it on client work)
+The PRs tended to be much bigger than I'd want. And reviewing them was awkward in a way I didn't expect. Normally I'd ask a coworker why they chose an approach, or whether they'd considered some alternative, but it felt strange to post that kind of question knowing they hadn't really written the code themselves. It didn't help that I'm often a part-time, asynchronous member of these teams, without a lot of shared hours to build the kind of trust where that conversation comes easily. It reinforced a bias I already had against generated code.
 
-- Rolling into 2026, it became apparent I needed to do more exploration into these AI tools. A personal introspection: if I'm going to remain in the software industry as a software engineer, I need more hands-on time with these tools.
-- Found it very challenging to envision a future where I could choose complete AI avoidance and continue to find active client work.
-- Surprisingly, the last two significant client projects have both been for non-technical founders who didn't have a particularly strong feeling about AI when I took the job. At the start of those projects they didn't have a lot of opinions about how I used AI.
-- I was very clear in expressing it: I am using Cursor, and later, I am using Claude. Needed to make that clear in my legal contracts.
-- Even then, for a long time I wasn't using it to generate lots of code. More for introspection — asking questions about the codebase, looking into crash logs, investigating performance issues. [note cut off: "Um, you..."]
+Around the same time I watched some [conference keynotes](https://www.youtube.com/watch?v=ojL_VHc4gLk), including ones from Chris McCord of the Phoenix project, where the demo was to hand a prompt to the tool, flip on all the dangerous permissions, and let it run loose in a sandbox. Kick it off at the top of the talk, do the talk, and reveal a working Tetris game in LiveView at the end. I know a lot of people loved that, and I kind of get why. It just didn't look like the work I actually do. If there's real value in a throwaway prototype, then fine. But it didn't match my sense of what software engineering is, or how much my own experience shapes the quality of what I build, and I walked away more skeptical than excited.
 
-### 2026 — Getting serious with Claude Code (May → present)
+## Deciding I couldn't sit it out
 
-- Around May 2026, after working through the doldrums of winter, I started to get more serious about experimentation. Installed Claude Code and started to tinker with it more.
-- Even in the early days I was very careful about letting it generate code. Early settings files basically disallowed Claude the ability to commit — because every commit is something I'm going to read.
-- I still kind of do that, though I now let Claude commit to feature branches, but I'm still aggressively reading the code. People who just YOLO code don't align with my vision / philosophy / values.
-- Those early Claude days still leaned more toward introspection than code generation. But that's flipped over the last ~8 weeks (June into July).
-- During this time I wanted to increase the volume of experiments. One plan: take a little side project I'd been tinkering with — LocalCents ("local sense") — and really start using AI code generation, and more specifically AI *workflows*, to convert my idea into actual code.
+As 2026 arrived, it became clear to me that I needed more hands-on time with these tools, whether I liked the vibe of them or not. It was a fairly plain bit of self-reflection: if I want to keep working as a software engineer, I can't really picture a version of the next few years where I opt out of AI entirely and still find steady client work.
 
-### 2026 — AGENTS.md, then getting serious about skills
+Interestingly, my last two significant client projects were both for non-technical founders who didn't have strong feelings about AI when I signed on. They didn't come in with opinions about how I used it. I made a point of being clear anyway, that I was using Cursor, and later Claude, and I put that in writing in my contracts. And even then, for a long stretch, I wasn't using it to generate much code. I used it to understand things: asking questions about the codebase, reading through crash logs, digging into performance issues. Introspection, not production.
 
-- Evolution of my use with Claude: when I was on Cursor, I didn't invest a lot of time into a really proper agents file. We had one at work built by a coworker, but I didn't spend much time on it.
-- As I started working with Claude, I made a point to spend more time on a better agents file. The one specialty: I store my content inside `AGENTS.md` and symlink `CLAUDE.md` to it — so if I keep jumping between different AI tools, they'll all find that starting point.
-- When I decided to get more serious, a natural next step was thinking about skill use. Skills = a prepackaged markdown phrasing/explanation of the work needed to be done. Sometimes a skill has scripts alongside it; some are just plain markdown files.
-- Wanted to get more serious with skills, so I looked around to piggyback on people who'd already been doing this (skills have been around a little while). Found two:
-  - **superpowers** (https://github.com/obra/superpowers) — some POCs at work were using it. Seemed more like you install it and don't think about it much. More set-it-and-forget-it / vibe-coding style.
-  - **Matt Pocock's skills** (https://github.com/mattpocock/skills) — I was more interested in this. Better aligned with the engineering vocabulary and practices I was already using. Matt's were also much more self-invoked.
-- I was way more interested in creating/using skills that help execute an engineering perspective, rather than the "set it and forget it and walk away" style.
+## Getting serious with Claude Code
 
-### 2026 — The Matt Pocock skills I actually get value from
+Around May of 2026, after grinding through the winter doldrums, I decided to actually push on this. I installed Claude Code and started tinkering more seriously.
 
-- Matt has a lot of skills; I haven't been using all of them. Want to talk specifically about the ones I get a lot of value out of.
-- **Grill with Docs** — a skill/workflow that has the AI present you with a lot of questions to fill in the blanks. You come to the skill with an idea you want to build; the AI browses your existing code structure and environment, then comes up with follow-up questions to fill in the blanks.
-- What I really like about Grill with Docs: it piggybacks on community engineering practices like Architectural Decision Records (ADRs) and ubiquitous language from Domain-Driven Design. As you work through it, you're also working with skills like domain modeling, and these create artifacts:
-  - additions/changes to your ubiquitous language
-  - decision records documenting things that are hard to change or have interesting trade-offs that were considered
-- The general workflow: go from Grill with Docs into tools like **to-spec** and **to-tickets**, which further break down the work. Another practice I'm very happy to see — finding ways to create small units of work.
-- Matt's motivation for small units of work: he wants to put an agent in AFK mode to go off and implement it, keeping a smaller context window and staying out of "the dumb zone" (as he describes it) — basically more than ~40% of token usage.
-- My motivation is different: I'm interested in small units of work because I still read the code.
+Even early on I was careful about letting it write code. Some of my first settings files flat-out disallowed Claude from committing, because every commit is something I intend to read. I've loosened that a little since then. I let it commit to feature branches now, but I'm still reading the code closely. The "turn it loose and don't look" style just doesn't sit right with my quality standards.
 
-### 2026 — Where I diverge: manual, single-agent, heavy review (not AFK orchestration)
+Those early Claude days still leaned more toward introspection than generation. But that balance has flipped over the last eight weeks or so, June into July, as I decided to run more experiments. The main one was to take a little side project I'd been poking at, [LocalCents](https://github.com/zorn/local_cents/), and use it as a place to really lean on AI code generation, and more specifically on AI *workflows*, to turn ideas into working code.
 
-- Matt and a core group utilizing his workflow prefer to create AFK work. Matt specifically has a thing called **Sandcastle** (https://github.com/mattpocock/sandcastle) — he uses it to orchestrate a collection of agents to implement his spec across tickets/issues.
-- I'm still doing a lot of this more manually. Most of the time I work with a single agent in a single session: talk through a problem, watch it build the code.
-- I do lots of code commentary before and after the PR. I add comments on the PR just as I would to a historic human's code, then ship it right back to the AI agent: "address this feedback." Sometimes it's things I want to change; sometimes it's just questions about how or why they did something a certain way.
-- I still have very strong opinions about what the code is and how it should work. (Future blog post will detail the guardrails.) I'm constantly nudging it through additional CI checks or coding-standards files that articulate what I want. Examples:
-  - When creating an Elixir typespec, name the arguments — don't say `string, string, string`, say what those three arguments are via named typespec arguments.
-  - Variable/attribute naming: a Phoenix component might have a simple `title` attribute (assumed to be a string). Another attribute might be a `date` — if you say `date`, the expectation is you pass a date value. But to present a *formatted* date you need a pattern. In LocalCents the pattern is `_display` — if you see `date_display`, you know to pass a formatted string of the date, not the date value itself.
-- These are nuanced and nitpicky, and how much you care depends on the project's lifespan, number of contributors, etc. For me: I value strong code readability standards and consistency.
-- More than ever, the *current state of the codebase* is really important. In the past a human had the awareness that "module A is the old style, module B is the new style, follow B." But unless you have strong rule sets telling the AI to follow a certain pattern, it will find the old way and use *that* as the standard. So more than ever, I want to keep the codebase up to date with what I consider good code.
+## Borrowing someone else's workflow
 
-### 2026 — The research skill
+Here's a small evolution worth naming. Back on Cursor I never invested much in maintaining a proper agents file. We had one at work that a coworker built, but I didn't put much of myself into it. When I moved to Claude, I made a point of writing a better one. The one wrinkle I added is that I keep my content in `AGENTS.md` and symlink `CLAUDE.md` to it, so if I keep hopping between tools, they all find the same starting point.
 
-- Another Matt skill I enjoy: the **research** skill. In short, it often kicks off as a subagent. In the middle of your work you can just say "I want to research this idea," give it a couple of sources you find valuable (or just describe them), and it goes off, does research, and comes back with an artifact: "this is what I researched, and this is what I found."
-- I find it particularly helpful for thinking about my own coding patterns.
-- Example: the other day I wanted awareness about a particular variable name. Inside a LiveView hook event you often have an argument for parameters; my codebase just had `params`. Should I name it `book_params` or `expense_params`? Kicked off a research task across blog/logic documentation as well as actual projects and generators out there, figured out the community norm, and that influenced my own coding style.
-- Did a similar thing for documentation patterns — understanding community norms around phrasing/wording for inline docs and making sure we followed those norms.
+Once I wanted to get more serious, the natural next step was skills. A skill is basically a prepackaged bit of markdown describing the work to be done, sometimes with scripts alongside it, sometimes just plain prose. Rather than invent my own from scratch, I went looking for people who'd already been at it. Two collections stood out.
 
-### 2026 — The skill I don't love: code review
+Aside: One thing worth saying out loud before I go further: skills are also a real security vulnerability. You're letting a third party inject their own instructions, and sometimes their own commands, straight into your AI's context. If you're not careful about whose skills you install and what's actually in them, you're opening yourself up to a lot of problems.
 
-- Probably the one Matt skill I haven't been fully enjoying: the **code review** skill. Not a disagreement with its underlying structure or what it looks for — but the way it packages up the findings and presents the prompt for you to decide what to fix vs. not fix is very clunky and hard to read. Considering future changes to it.
+One collection I looked at was [superpowers](https://github.com/obra/superpowers), from Jesse Vincent, which I'd seen some proof-of-concepts use at work. It's powerful and very opinionated: the skills fire automatically and march you through a fixed workflow. It wants to run the show its own way.
 
-### 2026 — Public skills as a starting point; I expect to fork my own
+The other was [Matt Pocock's skills](https://github.com/mattpocock/skills), and that's the one I connected with. It lined up better with the engineering vocabulary and practices I already use, and it leans on skills I invoke deliberately (grill me on this, turn it into a spec, break it into tickets) rather than ones that drive on their own. I'd rather stay the one holding the wheel, with skills that help me execute my own engineering point of view.
 
-- Saying aloud (and I've seen Matt say this in presentations): the curious/opinionated developer can get a lot of value out of a public community skill to get started, but will probably end up crafting their own.
-- I expect that to happen. He'd be shocked if over the next 3–6 months I was still using Matt's skills one-for-one. I think I'll slowly start to extract or fork some of these skills to serve my own needs — my own workflow preferences, even terminology.
-- Example — terminology: historically I keep a folder called `decisions`. In Matt's skills they're all referred to as **ADRs** (Architectural Decision Records).
-  - Such a small thing, but I'd prefer to just say "decision." Framing it as an "architectural decision record" puts a lot of weight on the file that shouldn't be there and inhibits people from creating them.
-  - I want to encourage people to document their trade-offs and considerations. Putting it behind a heavy term (plus a folder and day-to-day verbiage of "ADR") is added complexity.
-  - Every time I say "ADR" my brain has to take those three letters, pause, and unpack the abbreviation. I hate that. I'd rather just say the full word: "decision," "decision document," or the "decisions folder."
+## The skills that are working
 
-### 2026 — Closing thoughts: introspection is still the biggest value; I still read the code
+Matt has a lot of skills and I haven't touched all of them, but let me talk about the ones I get real value from.
 
-- Closing thought: while I am using AI (and more sophisticated models) to generate code, the largest value I get out of it is still **introspection** — either introspecting the existing system to understand how something works, or to understand a performance characteristic that isn't working as well as we want.
-- I do still read the code. I'm not at the point of leaning hard into *not* reading the code.
-- One exception: I created an AI-generated script that lives in my personal notebook to cross-post to Bluesky. After I post to Mastodon, I copy/paste the URL and say "cross-post this to Bluesky," and it handles the post plus attachments and the alt text for those attachments. I generated it, validated that it works (it's written in Elixir because it asked me), but I've never really looked at the code.
-- Why that's fine: it's a one-off, extremely tight scope. If it breaks, it doesn't have a big impact on my day. It's not code contributed by multiple people, doesn't need to be observed in production via telemetry, doesn't need security updates over time, etc.
-- When we talk about **production systems and production code**, that's where I want to read the code — make sure it's being the best engineering citizen it can be, including following my personal preferences on coding styles, context boundaries, and how we want to test things.
-- You can document some of this to suggest to the AI agent how you want generated code to be. But firsthand: just because I have a coding-standards rule saying something should be followed doesn't mean it's always followed. You end up being the policeman — watching things and making sure everything's going right.
+The big one is `/grill-with-docs`. You bring it an idea you want to build, it reads through your existing code and setup, and then it interrogates you with follow-up questions to fill in the blanks. What I like is that it leans on practices I already respect: [architectural decision records](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), and the idea of a [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) from domain-driven design. As you work through it, you're also pulling in related skills like domain modeling, and the session leaves behind real artifacts. Additions or edits to your ubiquitous language. Decision records that capture the things that are hard to change or that had interesting trade-offs worth remembering.
 
-### 2026 — The honest emotional / ethical note
+From there the flow usually runs into tools like **to-spec** and **to-tickets**, which break the work down further. That's another habit I'm glad to see baked in, this push toward small, well-scoped units of work.
 
-- Another thing to say aloud: I had a happy hour with a friend and tried to summarize my mental state about the current situation. I can't say I'm very happy about how this has gone.
-- I got into coding and had a level of enjoyment about it — it was a completely different world. Where we've ended up regarding code generation, the moral and ethical issues surrounding AI code generation, surveillance capitalism, and so on (without getting too deep into the weeds) — it's a mess.
-- I've blogged about this before: https://mikezornek.com/posts/2026/5/moral-struggles-of-ai-coding/
+Now, Matt wants small units for a specific reason. He's aiming to hand each one to an agent running unattended, and small pieces keep the context window tight and, as he puts it, out of "the dumb zone," which is roughly anything past 40% of the token budget. My reason is simpler and a little more old-fashioned: I want small units because I'm still reading all of the code.
 
-### 2026 — What's next / upcoming AI experiments
+I also lean on his **research** skill, which usually kicks off as a subagent. In the middle of some other work I can say "go research this," point it at a couple of sources I trust or just describe them, and it goes off and comes back with a written artifact: here's what I looked at, here's what I found. It's been great for settling my own coding-style questions. Just the other day I was staring at a LiveView hook event where I had a plain `params` argument, wondering whether it should be `book_params` or `expense_params`. I sent research off across community docs, real projects, and generators, and it left behind [a written note on what the norm actually is](https://github.com/zorn/local_cents/blob/main/docs/research/params-variable-naming-convention.md), which then shaped my choice. I've done the same for documentation conventions, just trying to understand how the community phrases inline docs so I'm following the grain rather than fighting it.
 
-- Close with some upcoming AI things I'd like to keep experimenting with.
-- **Continue experimenting with Matt's other skills.** Given a lot of them good experiment time on LocalCents, but there are others I want to get deeper into.
-  - Specifically **Wayfinder** — a new skill Matt recently created. He describes it as "Grill with Docs on steroids."
-  - My view: Grill with Docs is a single session where we talk and go through a lot of Q&A about a topic; the outcome is a couple of artifacts (ADRs, ubiquitous-language changes).
-  - Wayfinder is more like "let's take time to do a more thorough investigation of new work." As you work through it, you create artifacts as GitHub issues describing a very large decision/research tree. You work through that, and only after finishing plotting the map do you convert it into a proper specification or tickets before going to implementation.
-  - The **research nodes** and **prototype nodes** of Wayfinder seem particularly powerful — e.g. having the AI sketch a throwaway prototype demonstrating three or four different approaches to a UI.
-  - For my current thread of work I'm still finishing my main epic (an MVP-level of work). Once that's done, I'll probably give Wayfinder a deeper try.
-- **Broader experiments** (beyond more general experimentation with Claude Code and its advanced features):
-  - I'd really like to look into the **pi.dev** harness (https://pi.dev/) — my understanding is it's more of an open-source, vendor-neutral coding harness. Could be particularly interesting.
-  - Longer term I'm very interested in seeing what I can accomplish with **local models**. Very hesitant about being so reliant on a third party for this stuff. Want to see how far I can get with local models.
-  - That requires beefy local hardware I don't have — my current computer is an M1 Max — but it's something I want to keep experimenting with.
+## Where I do things differently
 
-### 2026 — Closing thought: the changed feeling of the work (and burnout risk)
+Matt and a chunk of the people using his workflow are really into unattended, away-from-keyboard work. He's got a tool called [Sandcastle](https://github.com/mattpocock/sandcastle) for orchestrating a whole collection of agents to implement a spec across a batch of tickets. That's not where I am. I aggressively read and review the code, even at the small steps. 
 
-- Another closing thought: being a programmer has always required a certain level of continuous education as the technology changes.
-- But the amount and volatility of the AI tooling changes — plus the fact that when you're working on actual work (accomplishing some goal for somebody), you're also spending a lot more cognitive time on complex problems *and* policing the AI — gives it a different feeling of work.
-- It can very much feel exhausting at times. That has concerns for a job that can lead to burnout pretty easily.
+The few times I've tried running multiple agents at once, using git worktrees to keep them apart, it felt pretty clunky. So while worktrees are clearly part of where this is heading, I haven't found a version of the multi-agent flow that feels good to me yet.
 
-### 2026 — Aside: voice entry has been surprisingly powerful
+Most of my work is still a single agent in a single session. I talk through the problem, I watch it build, and then I do a lot of manual code review. I comment on the PR the same way I would on a human coworker's, both before and after, and then I hand it right back to the agent: here's the feedback, address this. Sometimes that's a change I want. Sometimes it's just a question about why it did something a certain way.
 
-- One thing I never really got into but should mention: I've really enjoyed using the voice entry system of Claude Code to talk through things and ask for changes. Really, really powerful.
-- So much so that I've found myself wanting the ability to dictate into the computer for other things too — like a GitHub issue comment — a lot.
-- May start looking into assistive tools to help me dictate more across other mediums.
+I also lean on two layers of automated review before I dig in myself: a local pass with Claude, and the Copilot review that's wired into the pull request. The Copilot one earns its keep. It regularly flags things worth addressing, both structural issues and outright crashing bugs.
 
-### 2026 — Worktrees: multi-agent attempts felt clunky
+Underneath all of it, I still have strong opinions about what the code should be. I'll write up a specific guardrails in a follow-up post soon™, but the short version is that I'm constantly nudging the tool with extra CI checks and coding-standards files that spell out what I want. Some of it is small. When you write an Elixir typespec, [name the arguments](https://github.com/zorn/local_cents/blob/ebc46e1ee9bcf24378b1d1ccc503db98ae5de0e7/CODING_STANDARDS.md?plain=1#L47-L70) instead of leaving a row of anonymous `String.t(), String.t(), String.t()`. Some of it is about naming conventions. A Phoenix component might have a simple `title` attribute where passing a string is obvious. But a `date` attribute is trickier: if it's called `date`, you'd expect a date value, and if you actually want a formatted string you need a convention for it. In LocalCents that convention is a `_display` suffix, so `date_display` tells you to pass the formatted string rather than the raw date.
 
-- Worth talking about worktrees a little: while most of my work has been on a single agent session, the few recent times I tried running multiple agents at the same time — done via git worktrees — it was really clunky.
+Yes, this is nitpicky, and how much you care depends on the lifespan of the project and how many people touch it. For me, I value readability and consistency, and I've come to think the *current* state of the codebase matters more than ever. A human reviewer used to hold the "modernness" that module A was the old way and module B is the new way, so follow B. An AI doesn't carry that unless you are very explicit. Left alone, it'll find the old pattern and treat it as the house style. So keeping the codebase aligned with what I actually consider [good code](https://mikezornek.com/posts/2026/7/what-is-good-code/) has become a bigger part of the job, not a smaller one.
 
----
+## The skill I'm not sold on, and making it mine
 
-## Repo findings (not dictated — pulled from LocalCents, vet before rebuild)
+Not everything has clicked. The one Matt skill I haven't enjoyed is the `/code-review` one. Structurally I don't have a problem with what it looks for. My issue is what you're left with when it finishes: not a clear, scannable to-do list of things to fix, but a long, paragraph-style collection of findings. It's hard to scan, and hard to turn into clear feedback, and it's near the top of my list of things to change.
 
-Captured from a scan of the `local_cents` repo. These are things Mike is actually doing that weren't in the dictated notes. Vet/trim before folding into the draft.
+Which gets at something Matt himself talks about, including in [his talk on software fundamentals](https://www.youtube.com/watch?v=v4F1gFy-hqg). A curious, opinionated developer can get a lot out of a public community skill to get started, but will probably end up building their own. I fully expect that. I'd be surprised if, three to six months from now, I'm still running his skills one-for-one. I can already feel myself wanting to fork pieces of them to fit my own workflow and even my own vocabulary.
 
-- **Standards are an index + focused topic files, not a monolith.** `CODING_STANDARDS.md` is a thin index linking out to `docs/moduledoc-style.md`, `docs/comment-style.md`, `docs/module-boundaries.md`, etc. (each rule has an authoritative home). Reinforces the "keep the codebase current / re-anchor the AI" point.
-- **The ADR tension is live in the repo.** Despite preferring "decision" over "ADR," LocalCents has `docs/adr/` with 17 numbered records (0001–0017) — not renamed yet. Honest, self-aware proof of "start with the public skill's vocabulary, fork it later."
-- **Already started forking/authoring my own skills.** `docs/agents/` holds `issue-tracker.md`, `triage-labels.md`, `domain.md` — my own agent/skill definitions for a GitHub-issue triage workflow. So "I expect to fork my own" is already present-tense.
-- **Research skill outputs are on disk as proof.** `docs/research/` has `params-variable-naming-convention.md` and `route-path-param-naming.md` (the exact params anecdote), plus `apple-hig-destructive-confirmation-alerts.md` — research also covers UX/HIG norms, not just code patterns.
-- **Ubiquitous language is real and partitioned three ways:** `CONTEXT.md` (domain nouns), `docs/ui-language.md` (UI verbs), `docs/software-terms.md` (DDD terms).
-- **Breadboarding (Shape Up) as a design-first step.** `docs/breadboards/` + `docs/breadboard-demo.md` — a pre-code design practice feeding the workflow.
-- **`command-line-history.md`** — a running log of notable generator prompts/commands (skill-install gist, storybook generator, `rustler.new`). Cheap reproducibility habit.
-- **usage_rules → deferred.** Auto-includes dependency usage rules into `AGENTS.md`. Holding this for the follow-up tooling post, not this article.
+The vocabulary thing is a good example. For years I've kept a folder called `decisions` in my projects. Matt's skills call these ADRs, architectural decision records. It's a tiny thing, but I really do prefer just saying "decision." Wrapping it in a heavy, formal term puts a weight on the file that I don't think belongs there, and I suspect it quietly discourages people from writing them. I want people documenting their trade-offs and considerations, and I don't want the ceremony of an acronym in the way. Every time I say "ADR" my brain has to spend a beat unpacking the three letters. I'd rather just say "decision," or "decision document," or point at the "decisions folder."
 
-## Scope notes / boundaries
+> As a counterpoint to myself: one thing you gain by embracing the acronym ADR is that it carries a lot of built-in software-engineering assumptions the LLM will pick up on, where it might read a plain word like "decision" more generically.
 
-- CI guardrail suite (`build-and-test`, `dialyzer`, `code-quality`, `lint-pr`, custom `.credo.exs`, `.sobelow-conf`, `mix precommit`) belongs to the **CI guardrails / bowling-bumpers** post. This article can gesture at it, not itemize it.
-- Deep `AGENTS.md` Phoenix/Tauri rules = mechanics, for a different post.
+## What I still use AI for most
 
-## Rebuild TODO (structural gaps)
+For all the talk about code generation, the biggest value I get out of AI is introspection. Understanding how an existing system works. Chasing down a performance characteristic that isn't behaving. Having it brainstorm the unhappy paths of software specifications.
 
-- **The frame is undictated.** The curiosity / comparing-notes-with-peers thesis (the reader payoff) has no captured content — it's the opening and needs writing.
-- **No explicit close / CTA.** The "your turn — what are you seeing?" invitation the frame promises isn't stated.
-- **Emotional sequencing.** Decide where the ethical-mess / burnout low note lands; current order (experiments after) rescues the ending — preserve that.
-- **Front matter** — real title, description, `pain`/`fix`, tags still needed.
+## What I want to try next
+
+I want to keep working through more of Matt's skills. I've given a good chunk of them real time on LocalCents, but there are others I haven't gotten deep into. The one I'm most interested in is **Wayfinder**, which he describes as `/grill-with-docs` on steroids. The way I understand it: Grill with Docs is a single session of back-and-forth that leaves you with a couple of artifacts. Wayfinder is a more thorough investigation, where you build out a larger decision-and-research tree as GitHub issues, and only once the map is plotted do you turn it into a proper spec and tickets. The research nodes and prototype nodes are what intrigue me most, the idea of having it sketch a few throwaway prototypes to compare three or four different takes on a UI. My current work is still finishing an MVP-level epic, but once that's wrapped I want to give Wayfinder a serious try.
+
+Beyond that, and beyond just going deeper on Claude Code's more advanced features, two things are on my mind. I want to look into the [Pi](https://pi.dev/) harness, which as I understand it is more of an open-source, vendor-neutral coding harness. And longer term I'm really interested in what I can do with local models. I'm uneasy about being this dependent on a third party for something so central to my work, and I'd like to see how far local models can take me. That needs beefier hardware than my M1 Max, so it's a slower experiment, but it's one I want to keep chipping at.
+
+One last small thing I never expected to care about: I've loved using voice entry in Claude Code to talk through changes. It's been powerful enough that I now find myself wanting to dictate everywhere, GitHub issue comments and all, so I'm looking into some assistive tools to do more of it across the board.
+
+If you'd like to hear other people's notes and not just mine, German Velasco has been recording a series of pairing conversations where developers walk through their actual AI workflows. They're a good companion to this post: [Pairing with Claudio Ortolina on his AI Workflow](https://www.youtube.com/watch?v=wyxksxePBCU) and [Pairing with Tomasz Tomczyk on his AI Workflow](https://www.youtube.com/watch?v=9c3J4J8U6a8).
+
+So those are my notes. I'd really like to hear yours. What's working in your setup, what did you try and drop, what are you seeing that I'm not? [Let me know.](/contact/)
