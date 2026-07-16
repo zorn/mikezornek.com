@@ -1,10 +1,9 @@
 ---
-title: "Three Years of Changing How I Use AI"
-date: 2026-07-16T10:33:48-04:00
-description: Notes on how my use of AI has changed over three years, the Matt Pocock skills I've been trying inside LocalCents, and where I'm still uneasy.
+title: "My Notes on Three Years of Coding with AI"
+date: 2026-07-16T13:08:11-04:00
+description: Notes on how my use of AI has changed over three years, the Matt Pocock skills I've been trying recently inside LocalCents, and what's working and what isn't.
 images:
   - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
-draft: true
 pain: the AI tooling changes so fast that it's hard to know if you're using it well, and most of us aren't comparing notes about what's actually working
 fix: share the honest version of my own three years so a peer can measure it against theirs
 tags:
@@ -14,7 +13,7 @@ tags:
 
 I want to talk through how my use of AI has changed over the last three years. Not because I've got it figured out. I don't. But the tooling is moving fast enough that I don't think any of us can keep up on our own, and the way I've always sorted through a confusing stretch of this industry is by comparing notes with my peers.
 
-So think of this as the version of that conversation I'd have with you if we grabbed a coffee. Here's what I've been doing, what's working, what isn't, and the parts I'm honestly still not at peace with.
+So think of this as the version of that conversation I'd have with you if we grabbed a coffee. Here's what I've been doing, what's working, and what isn't.
 
 ## The slow start
 
@@ -58,7 +57,7 @@ Here's a small evolution worth naming. Back on Cursor I never invested much in m
 
 Once I wanted to get more serious, the natural next step was skills. A skill is basically a prepackaged bit of markdown describing the work to be done, sometimes with scripts alongside it, sometimes just plain prose. Rather than invent my own from scratch, I went looking for people who'd already been at it. Two collections stood out.
 
-Aside: One thing worth saying out loud before I go further: skills are also a real security vulnerability. You're letting a third party inject their own instructions, and sometimes their own commands, straight into your AI's context. If you're not careful about whose skills you install and what's actually in them, you're opening yourself up to a lot of problems.
+One thing worth saying before I go further: skills are also a real security vulnerability. You're letting a third party inject their own instructions, and sometimes their own commands, straight into your AI's context. If you're not careful about whose skills you install and what's actually in them, you're opening yourself up to a lot of problems.
 
 One collection I looked at was [superpowers](https://github.com/obra/superpowers), from Jesse Vincent, which I'd seen some proof-of-concepts use at work. It's powerful and very opinionated: the skills fire automatically and march you through a fixed workflow. It wants to run the show its own way.
 
@@ -70,15 +69,15 @@ Matt has a lot of skills and I haven't touched all of them, but let me talk abou
 
 The big one is `/grill-with-docs`. You bring it an idea you want to build, it reads through your existing code and setup, and then it interrogates you with follow-up questions to fill in the blanks. What I like is that it leans on practices I already respect: [architectural decision records](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), and the idea of a [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) from domain-driven design. As you work through it, you're also pulling in related skills like domain modeling, and the session leaves behind real artifacts. Additions or edits to your ubiquitous language. Decision records that capture the things that are hard to change or that had interesting trade-offs worth remembering.
 
-From there the flow usually runs into tools like **to-spec** and **to-tickets**, which break the work down further. That's another habit I'm glad to see baked in, this push toward small, well-scoped units of work.
+From there the flow usually runs into skills like `/to-spec` and `/to-tickets`, which break the work down further. That's another habit I'm glad to see baked in, this push toward small, well-scoped units of work.
 
 Now, Matt wants small units for a specific reason. He's aiming to hand each one to an agent running unattended, and small pieces keep the context window tight and, as he puts it, out of "the dumb zone," which is roughly anything past 40% of the token budget. My reason is simpler and a little more old-fashioned: I want small units because I'm still reading all of the code.
 
-I also lean on his **research** skill, which usually kicks off as a subagent. In the middle of some other work I can say "go research this," point it at a couple of sources I trust or just describe them, and it goes off and comes back with a written artifact: here's what I looked at, here's what I found. It's been great for settling my own coding-style questions. Just the other day I was staring at a LiveView hook event where I had a plain `params` argument, wondering whether it should be `book_params` or `expense_params`. I sent research off across community docs, real projects, and generators, and it left behind [a written note on what the norm actually is](https://github.com/zorn/local_cents/blob/main/docs/research/params-variable-naming-convention.md), which then shaped my choice. I've done the same for documentation conventions, just trying to understand how the community phrases inline docs so I'm following the grain rather than fighting it.
+I also lean on his `/research` skill, which usually kicks off as a subagent. In the middle of some other work I can say "go research this," point it at a couple of sources I trust or just describe them, and it goes off and comes back with a written artifact: here's what I looked at, here's what I found. It's been great for settling my own coding-style questions. Just the other day I was staring at a LiveView hook event where I had a plain `params` argument, wondering whether it should be `book_params` or `expense_params`. I sent research off across community docs, real projects, and generators, and it left behind [a written note on what the norm actually is](https://github.com/zorn/local_cents/blob/main/docs/research/params-variable-naming-convention.md), which then shaped my choice. I've done the same for documentation conventions, just trying to understand how the community phrases inline docs so I'm following the grain rather than fighting it.
 
 ## Where I do things differently
 
-Matt and a chunk of the people using his workflow are really into unattended, away-from-keyboard work. He's got a tool called [Sandcastle](https://github.com/mattpocock/sandcastle) for orchestrating a whole collection of agents to implement a spec across a batch of tickets. That's not where I am. I aggressively read and review the code, even at the small steps. 
+Matt and a chunk of the people using his workflow are really into unattended, away-from-keyboard work. He's got a tool called [Sandcastle](https://github.com/mattpocock/sandcastle) for orchestrating a whole collection of agents to implement a spec across a batch of tickets. That's not where I am. 
 
 The few times I've tried running multiple agents at once, using git worktrees to keep them apart, it felt pretty clunky. So while worktrees are clearly part of where this is heading, I haven't found a version of the multi-agent flow that feels good to me yet.
 
@@ -86,9 +85,9 @@ Most of my work is still a single agent in a single session. I talk through the 
 
 I also lean on two layers of automated review before I dig in myself: a local pass with Claude, and the Copilot review that's wired into the pull request. The Copilot one earns its keep. It regularly flags things worth addressing, both structural issues and outright crashing bugs.
 
-Underneath all of it, I still have strong opinions about what the code should be. I'll write up a specific guardrails in a follow-up post soon™, but the short version is that I'm constantly nudging the tool with extra CI checks and coding-standards files that spell out what I want. Some of it is small. When you write an Elixir typespec, [name the arguments](https://github.com/zorn/local_cents/blob/ebc46e1ee9bcf24378b1d1ccc503db98ae5de0e7/CODING_STANDARDS.md?plain=1#L47-L70) instead of leaving a row of anonymous `String.t(), String.t(), String.t()`. Some of it is about naming conventions. A Phoenix component might have a simple `title` attribute where passing a string is obvious. But a `date` attribute is trickier: if it's called `date`, you'd expect a date value, and if you actually want a formatted string you need a convention for it. In LocalCents that convention is a `_display` suffix, so `date_display` tells you to pass the formatted string rather than the raw date.
+Underneath all of it, I still have strong opinions about what the code should be. I'll write up the specific guardrails in a follow-up post soon™, but the short version is that I'm constantly nudging the tool with extra CI checks and coding-standards files that spell out what I want. Some of it is small. When you write an Elixir typespec, [name the arguments](https://github.com/zorn/local_cents/blob/ebc46e1ee9bcf24378b1d1ccc503db98ae5de0e7/CODING_STANDARDS.md?plain=1#L47-L70) instead of leaving a row of anonymous `String.t(), String.t(), String.t()`. Some of it is about naming conventions. A Phoenix component might have a simple `title` attribute where passing a string is obvious. But a `date` attribute is trickier: if it's called `date`, you'd expect a date value, and if you actually want a formatted string you need a convention for it. In LocalCents that convention is a `_display` suffix, so `date_display` tells you to pass the formatted string rather than the raw date.
 
-Yes, this is nitpicky, and how much you care depends on the lifespan of the project and how many people touch it. For me, I value readability and consistency, and I've come to think the *current* state of the codebase matters more than ever. A human reviewer used to hold the "modernness" that module A was the old way and module B is the new way, so follow B. An AI doesn't carry that unless you are very explicit. Left alone, it'll find the old pattern and treat it as the house style. So keeping the codebase aligned with what I actually consider [good code](https://mikezornek.com/posts/2026/7/what-is-good-code/) has become a bigger part of the job, not a smaller one.
+Yes, this is nitpicky, and how much you care depends on the lifespan of the project and how many people touch it. For me, I value readability and consistency, and I've come to think the *current* state of the codebase matters more than ever. A human reviewer used to carry the context that module A was the old way and module B is the new, so follow B. An AI doesn't carry that unless you are very explicit. Left alone, it'll find the old pattern and treat it as the house style. So keeping the codebase aligned with what I actually consider [good code](https://mikezornek.com/posts/2026/7/what-is-good-code/) has become a bigger part of the job, not a smaller one.
 
 ## The skill I'm not sold on, and making it mine
 
@@ -102,13 +101,15 @@ The vocabulary thing is a good example. For years I've kept a folder called `dec
 
 ## What I still use AI for most
 
-For all the talk about code generation, the biggest value I get out of AI is introspection. Understanding how an existing system works. Chasing down a performance characteristic that isn't behaving. Having it brainstorm the unhappy paths of software specifications.
+For all the talk about code generation, the biggest value I get out of AI is introspection. Understanding how an existing system works. Chasing down a performance problem. Having it brainstorm the unhappy paths of software specifications.
 
 ## What I want to try next
 
-I want to keep working through more of Matt's skills. I've given a good chunk of them real time on LocalCents, but there are others I haven't gotten deep into. The one I'm most interested in is **Wayfinder**, which he describes as `/grill-with-docs` on steroids. The way I understand it: Grill with Docs is a single session of back-and-forth that leaves you with a couple of artifacts. Wayfinder is a more thorough investigation, where you build out a larger decision-and-research tree as GitHub issues, and only once the map is plotted do you turn it into a proper spec and tickets. The research nodes and prototype nodes are what intrigue me most, the idea of having it sketch a few throwaway prototypes to compare three or four different takes on a UI. My current work is still finishing an MVP-level epic, but once that's wrapped I want to give Wayfinder a serious try.
+I want to keep working through more of Matt's skills. I've given a good chunk of them real time on LocalCents, but there are others I haven't gotten deep into. The one I'm most interested in is `/wayfinder`, which he describes as `/grill-with-docs` on steroids. The way I understand it: `/grill-with-docs` is a single session of back-and-forth that leaves you with a couple of artifacts. `/wayfinder` is a more thorough investigation, where you build out a larger decision-and-research tree as GitHub issues, and only once the map is plotted do you turn it into a proper spec and tickets. The research nodes and prototype nodes are what intrigue me most, the idea of having it sketch a few throwaway prototypes to compare three or four different takes on a UI. My current work is still finishing an MVP-level epic, but once that's wrapped I want to give `/wayfinder` a serious try.
 
 Beyond that, and beyond just going deeper on Claude Code's more advanced features, two things are on my mind. I want to look into the [Pi](https://pi.dev/) harness, which as I understand it is more of an open-source, vendor-neutral coding harness. And longer term I'm really interested in what I can do with local models. I'm uneasy about being this dependent on a third party for something so central to my work, and I'd like to see how far local models can take me. That needs beefier hardware than my M1 Max, so it's a slower experiment, but it's one I want to keep chipping at.
+
+Related to that swapping, I want to add some observability to my agent sessions. Right now I don't keep any real record of what a given session cost or how it ran. I'd like to start tracking metadata over time: the runtime, the token cost, which models I used, and some way to categorize the kind of work. Part of it is just wanting a clearer picture of what all this actually costs me. But it also lays a foundation for the harness and model swapping I just mentioned, because those are exactly the numbers that should drive those calls, and right now I'm mostly going on feel.
 
 One last small thing I never expected to care about: I've loved using voice entry in Claude Code to talk through changes. It's been powerful enough that I now find myself wanting to dictate everywhere, GitHub issue comments and all, so I'm looking into some assistive tools to do more of it across the board.
 
