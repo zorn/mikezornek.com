@@ -67,6 +67,36 @@ Matt has a lot of skills and I haven't touched all of them, but let me talk abou
 
 The big one is `/grill-with-docs`. You bring it an idea you want to build, it reads through your existing code and setup, and then it interrogates you with follow-up questions to fill in the blanks. What I like is that it leans on practices I already respect: [architectural decision records](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), and the idea of a [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) from [domain-driven design](https://www.dddcommunity.org/book/evans_2003/). As you work through it, it pulls in related skills like `/domain-modeling`, and the session leaves behind real artifacts: updates to your ubiquitous language, and decision records that capture the choices that are hard to reverse or that came with trade-offs worth remembering.
 
+There's a clip from the movie _Phenomenon_ that reminds me of what `/grill-with-docs` does.
+
+{{< video filename="grill-with-docs.mp4" title="Using /grill-with-docs" >}}
+
+<div class="sr-only">
+  <h3>Transcript of the <i>Phenomenon</i> clip</h3>
+  <p><b>Dr. Niedorf:</b> All right, I'll start the questions, and I'll be timing your responses, and we'll be recording. Any questions?</p>
+  <p><b>George:</b> What's your first name?</p>
+  <p><b>Dr. Niedorf:</b> Uh, my first name is Bob. (George reaches across the wide table to shake hands.)</p>
+  <p><b>George:</b> Shoot, Bob.</p>
+  <p><b>Dr. Niedorf:</b> Right. Name as many mammals as you can in 60 seconds. Ready? Go. (Starts stopwatch.)</p>
+  <p><b>George:</b> Hmm. 60 seconds. Well, how would you like that? How about alphabetical? Aardvark, baboon, caribou, dolphin, eohippus, fox, gorilla, hyena, ibex, jackal, kangaroo, lion, marmoset, Newfoundland, ocelot, panda, rat, sloth, tiger, unicorn, varmint, whale, yak, zebra. Now "varmint" is a stretch; so is "Newfoundland" (that's a dog breed); "unicorn" is mythical, "eohippus" is prehistoric. But you weren't being very specific. Now were you, Bob?</p>
+  <p><b>Dr. Niedorf:</b> (Pauses, then stops watch and laughs.) Well! Ahh, I'll, uh — I'll try to be more specific. You ready for the next one?</p>
+  <p><b>George:</b> Shoot.</p>
+  <p><b>Dr. Niedorf:</b> Answer as quickly as you can... how old is a person born in 1928? (Starts stopwatch.)</p>
+  <p><b>George:</b> Man or a woman?</p>
+  <p><b>Dr. Niedorf:</b> (Stops stopwatch and pauses.) Why?</p>
+  <p><b>George:</b> Specifics, Bob.</p>
+  <p><b>Dr. Niedorf:</b> Okay, one more time. How old is a MAN born in 1928? (Starts stopwatch.)</p>
+  <p><b>George:</b> Still alive?</p>
+  <p><b>Dr. Niedorf:</b> (Stops watch, pauses, nods.) If a man is born in 1928, and he's still alive, how old is he? (Starts stopwatch.)</p>
+  <p><b>George:</b> What month?</p>
+  <p><b>Dr. Niedorf:</b> (Stops stopwatch.) If a man was born October 3, 1928, and he's still alive, how old is he? (Starts stopwatch.)</p>
+  <p><b>George:</b> What time?</p>
+  <p><b>Dr. Niedorf:</b> 10:00... PM! (Starts stopwatch.)</p>
+  <p><b>George:</b> Where?</p>
+  <p><b>Dr. Niedorf:</b> (Stops stopwatch; now impatient.) Anywhere!</p>
+  <p><b>George:</b> Well. Let's get specific, Bob! I mean, if the guy's still alive, born in California, October 3, 1928, 10:00 PM, he's 67 years, 9 months, 22 days, 14 hours, and... (Takes Bob's hand to see his wristwatch.) ...and 12 minutes. If he was born in New York, he's 3 hours older, now isn't he?</p>
+</div>
+
 From there the flow usually runs into skills like `/to-spec` and `/to-tickets`, which break the work down further. That's another habit I'm glad to see baked in, this push toward small, well-scoped units of work.
 
 Now, Matt wants small units for a specific reason. He's aiming to hand each one to an agent running unattended, and small pieces keep the context window tight and, as he puts it, out of ["the dumb zone"](https://github.com/mattpocock/dictionary-of-ai-coding#smart-zone). My reason is simpler and a little more old-fashioned: I want small units because I'm still reading all of the code.
