@@ -2,8 +2,6 @@
 title: "My Notes on Three Years of Coding with AI"
 date: 2026-07-16T13:08:11-04:00
 description: Notes on how my use of AI has changed over three years, the Matt Pocock skills I've been trying recently inside LocalCents, and what's working and what isn't.
-images:
-  - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
 pain: the AI tooling changes so fast that it's hard to know if you're using it well, and most of us aren't comparing notes about what's actually working
 fix: share the honest version of my own three years so a peer can measure it against theirs
 tags:
