@@ -1,7 +1,7 @@
 ---
-title: "Conference Notes: CodeBEAM America (San Francisco) 2025"
+title: "Conference Notes: Code BEAM America (San Francisco) 2025"
 date: 2025-03-10T09:56:13-08:00
-description: I had a great time at the CodeBEAM conference. The content was high quality and well presented. Here are some of my notes and links.
+description: I had a great time at the Code BEAM conference. The content was high quality and well presented. Here are some of my notes and links.
 images:
   - posts/2025/3/code-beam-america-notes/codebeam-banner.jpg
 tags:
@@ -9,7 +9,7 @@ tags:
   - elixir
 ---
 
-After a run of bad luck where I had to cancel Elixir-related conferences at the last minute (once because of the smoke storms that hit NY, and once because I got COVID before the conference), this week I enjoyed some time at [CodeBEAM America 2025 in San Francisco](https://codebeamamerica.com/).
+After a run of bad luck where I had to cancel Elixir-related conferences at the last minute (once because of the smoke storms that hit NY, and once because I got COVID before the conference), this week I enjoyed some time at [Code BEAM America 2025 in San Francisco](https://codebeamamerica.com/).
 
 I had a great time at the conference. The content was high quality and well presented. The in-person attendees totaled around 100 people, with another 150 online. I got some well-enjoyed real-world face time with a few old friends, online book club peeps, and maybe even some future clients.
 
@@ -48,4 +48,4 @@ A few notable talks that landed for me:
 
 ---
 
-While I disliked the travel, and boy was I grumpy after the travel day on Wednesday, the conference was a tremendous success. This was my first time at a CodeBEAM event, and I highly recommend it.
+While I disliked the travel, and boy was I grumpy after the travel day on Wednesday, the conference was a tremendous success. This was my first time at a Code BEAM event, and I highly recommend it.
