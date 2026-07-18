@@ -30,7 +30,7 @@ I'm also trying to stay connected with old friends, a mix of in-person happy hou
 
 My part-time maintenance contract is now part-part time (about 30 hours a month), so I am pushing to find [more work](https://mikezornek.com/elixir-consulting/). I'm open to part or full time consulting, and even considering full-time job opportunities. Given how tough the market is right now, it's a bit stressful.
 
-My general (and historic) pattern here is to reach out to old peers and publish more. The other half of that is the educational projects and book reading that fuel the writing. 
+My general (and historic) pattern here is to reach out to old peers and publish more. The other half of that is the educational projects and book reading that fuel the writing.
 
 ## Side Projects
 
