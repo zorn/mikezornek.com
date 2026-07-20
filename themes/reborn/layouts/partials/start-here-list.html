@@ -1,5 +1,5 @@
 {{- /*
-  Renders the Start Here list from data/selected.yaml as open content: a
+  Renders the Start Here list from data/start-here.yaml as open content: a
   heading, a lead line, and the entries divided by hairlines, with no background
   or border of its own.
 
@@ -14,8 +14,8 @@
   headingLevel     {string} Heading tag for the section heading. Default "h2".
   lead             {string} Optional framing sentence rendered under the heading
   and above the panel. (optional)
-  cardHeadingLevel {string} Heading tag for each entry title. Default "h3" —
-  set to keep the outline from skipping a level.
+  cardHeadingLevel {string} Heading tag for each entry title. Default "h3";
+  set it to keep the outline from skipping a level.
 
   @example: {{ partial "start-here-list.html" (dict "heading" "Start Here" "cardHeadingLevel" "h3")
 }}
@@ -24,7 +24,7 @@
 {{- $headingLevel := .headingLevel | default "h2" }}
 {{- $lead := .lead }}
 {{- $cardLevel := .cardHeadingLevel | default "h3" }}
-{{- with hugo.Data.selected.posts }}
+{{- with (index hugo.Data "start-here").posts }}
   <div class="not-prose mb-6">
     {{- with $heading }}
       {{ printf `<%s class="mt-0 mb-1 text-xl font-semibold">%s</%s>` $headingLevel . $headingLevel | safeHTML }}
