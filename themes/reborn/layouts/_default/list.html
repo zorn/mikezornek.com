@@ -5,11 +5,17 @@
         class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
       >
         {{ if and (eq .Section "posts") (eq .Paginator.PageNumber 1) }}
-          {{ partial "browse-taxonomies.html" . }}
+          <div class="flex flex-col gap-x-8 md:flex-row md:items-start">
+            <div class="md:flex-[7] md:pt-5">
+              {{ partial "start-here-list.html" (dict "heading" "Start Here" "headingLevel" "h2" "lead" "New to the blog? Start with these." "cardHeadingLevel" "h3") }}
+            </div>
+            <div class="md:flex-[3]">
+              {{ partial "browse-taxonomies.html" . }}
+            </div>
+          </div>
         {{ end }}
 
         {{ partial "pagination.html" . }}
-
 
         {{ range .Paginator.Pages }}
           {{ partial "post-card.html" (dict "page" .) }}

@@ -1,0 +1,41 @@
+{{- /*
+  Renders the Start Here list from data/selected.yaml as open content: a
+  heading, a lead line, and the entries divided by hairlines, with no background
+  or border of its own.
+
+  Resolves each entry's logical path to a Page and skips any that no longer
+  resolve. Renders nothing at all when the list is empty (empty-state guard) so
+  no bare heading or panel ever appears.
+
+  @context {dict}
+  heading          {string} Optional section heading rendered above the panel
+  (e.g. "Start Here"). Omit on pages that already
+  have their own title. (optional)
+  headingLevel     {string} Heading tag for the section heading. Default "h2".
+  lead             {string} Optional framing sentence rendered under the heading
+  and above the panel. (optional)
+  cardHeadingLevel {string} Heading tag for each entry title. Default "h3" —
+  set to keep the outline from skipping a level.
+
+  @example: {{ partial "start-here-list.html" (dict "heading" "Start Here" "cardHeadingLevel" "h3")
+}}
+*/ -}}
+{{- $heading := .heading }}
+{{- $headingLevel := .headingLevel | default "h2" }}
+{{- $lead := .lead }}
+{{- $cardLevel := .cardHeadingLevel | default "h3" }}
+{{- with hugo.Data.selected.posts }}
+  <div class="not-prose mb-6">
+    {{- with $heading }}
+      {{ printf `<%s class="mt-0 mb-1 text-xl font-semibold">%s</%s>` $headingLevel . $headingLevel | safeHTML }}
+    {{- end }}
+    {{- with $lead }}
+      <p class="mt-0 mb-2 text-gray-700">{{ . }}</p>
+    {{- end }}
+    {{- range $entry := . }}
+      {{- with (site.GetPage $entry.path) }}
+        {{ partial "start-here-card.html" (dict "page" . "note" $entry.note "headingLevel" $cardLevel) }}
+      {{- end }}
+    {{- end }}
+  </div>
+{{- end }}

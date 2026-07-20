@@ -1,0 +1,35 @@
+{{- /*
+  Start Here card: one entry inside the curated panel (see start-here-list.html).
+  Leads with the title and the editorial note (why a newcomer should read this).
+  Each entry carries a top hairline, so the first one also divides the list from
+  the panel's heading/lead above it.
+
+  @context {dict}
+  page         {page}   The post to render. (required)
+  note         {string} Editorial note for this entry. (optional — falls back
+  to the post's description.)
+  headingLevel {string} Heading tag for the title, e.g. "h2". Default "h3" —
+  set it to match the card's nesting depth so the heading
+  outline never skips a level. (optional)
+
+  @example: {{ partial "start-here-card.html" (dict "page" $p "note" "…" "headingLevel" "h2")
+}}
+*/ -}}
+{{- $p := .page }}
+{{- $note := .note }}
+{{- if not $note }}{{ $note = $p.Description }}{{ end }}
+{{- if eq $note "something tweet like" }}{{ $note = "" }}{{ end }}
+{{- $heading := .headingLevel | default "h3" }}
+
+
+<article class="not-prose border-t border-gray-200 py-3">
+  {{ printf `<%s class="m-0 text-lg leading-snug font-semibold">` $heading | safeHTML }}
+  <a class="text-purple-800 hover:underline" href="{{ $p.RelPermalink }}">
+    {{ $p.Title }}
+  </a>
+  {{ printf "</%s>" $heading | safeHTML }}
+
+  {{- with $note }}
+    <p class="mt-1 mb-0 text-gray-700">{{ . }}</p>
+  {{- end }}
+</article>
