@@ -7,7 +7,7 @@
         {{ if and (eq .Section "posts") (eq .Paginator.PageNumber 1) }}
           <div class="flex flex-col gap-x-8 md:flex-row md:items-start">
             <div class="md:flex-[7] md:pt-5">
-              {{ partial "start-here-list.html" (dict "heading" "Start Here" "headingLevel" "h2" "lead" "New to the blog? Start with these." "cardHeadingLevel" "h3") }}
+              {{ partial "start-here-list.html" (dict "heading" "Start Here" "headingLevel" "h2" "lead" "New here? Here are some quality posts to get you started." "cardHeadingLevel" "h3") }}
             </div>
             <div class="md:flex-[3]">
               {{ partial "browse-taxonomies.html" . }}
