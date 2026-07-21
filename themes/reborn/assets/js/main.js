@@ -8,15 +8,13 @@
 // the event with the current page, so signups are source-attributed by which
 // post the reader was on. The submit only fires once the browser's built-in
 // email validation passes, so this counts genuine signup attempts.
-document.addEventListener(
-  "submit",
-  function (event) {
-    var form = event.target;
-    if (form && form.getAttribute && form.getAttribute("data-sv-form")) {
-      window.plausible("Newsletter Signup", {
-        props: { path: window.location.pathname },
-      });
-    }
-  },
-  false,
-);
+function trackNewsletterSignup(event) {
+  var form = event.target;
+  if (form && form.getAttribute && form.getAttribute("data-sv-form")) {
+    window.plausible("Newsletter Signup", {
+      props: { path: window.location.pathname },
+    });
+  }
+}
+
+document.addEventListener("submit", trackNewsletterSignup);
