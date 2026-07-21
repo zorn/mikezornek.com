@@ -1,0 +1,21 @@
+# The "Start Here" list: a hand-ranked, newcomer-facing on-ramp of my strongest,
+# most approachable technical posts. See CONTEXT.md and
+# docs/adr/0001-curated-list-via-data-file.md.
+#
+# Order here IS display order (top = shown first).
+# Each entry:
+#   path  - logical path to the post bundle (the URL path without the domain)
+#   note  - editorial note: one sentence on why a newcomer should read this.
+#           Optional; falls back to the post's `description`. Standard practice
+#           is to always write one.
+posts:
+  - path: /posts/2026/7/three-years-coding-with-ai
+    note: "A non-hype version of what daily AI-assisted coding actually looks like after three years, written like a conversation over coffee."
+  - path: /posts/2024/9/elixir-code-aesthetic
+    note: "A tour of some small personal choices behind clean, readable Elixir code I strive for."
+  - path: /posts/2025/1/presenting-datetime-in-user-time-zone-phoenix-live-view
+    note: "A concrete walk through a real Phoenix problem: showing timestamps in each reader's own time zone."
+  - path: /posts/2025/2/what-is-local-first-software
+    note: "Why data ownership and offline-friendly software matter to me, and where local-first is heading. It's a problem space I'm digging into right now."
+  - path: /posts/2022/11/my-standup-format
+    note: "The simple async standup format I've leaned on for years to keep a team honest, human, and unblocked."

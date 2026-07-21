@@ -23,6 +23,9 @@
       baseball and playing video games (mostly laid-back simulations and RPGs).
     </p>
 
+    {{ partial "start-here-list.html" . }}
+
+
     <h2>Recent Blog Posts</h2>
 
     {{ range first 7 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
