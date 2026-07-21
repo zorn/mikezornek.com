@@ -16,6 +16,6 @@ posts:
   - path: /posts/2025/1/presenting-datetime-in-user-time-zone-phoenix-live-view
     note: "A concrete walk through a real Phoenix problem: showing timestamps in each reader's own time zone."
   - path: /posts/2025/2/what-is-local-first-software
-    note: "Why data ownership and offline-friendly software matter to me, and where local-first is heading. It's an problem space I'm digging into right now."
+    note: "Why data ownership and offline-friendly software matter to me, and where local-first is heading. It's a problem space I'm digging into right now."
   - path: /posts/2022/11/my-standup-format
     note: "The simple async standup format I've leaned on for years to keep a team honest, human, and unblocked."
