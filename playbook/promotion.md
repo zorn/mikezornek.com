@@ -16,6 +16,10 @@ Some of the places include:
 - Philly Cocoa Slack
 - IndyHall self promotion channel.
 
+Some venues post as a thread, not just a body: **Elixir Forum**, **Reddit
+r/elixir**, and **ElixirStatus** each need a title. Reuse the blog post's own
+title verbatim rather than inventing a new one.
+
 ## UTM tagging
 
 Tag every shared link with UTM params so Plausible can tell me *which venue*
