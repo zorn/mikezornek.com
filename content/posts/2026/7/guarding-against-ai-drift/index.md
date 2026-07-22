@@ -4,6 +4,7 @@ date: 2026-07-22T11:14:06-04:00
 description: As I experiment more with AI code generation, I've hardened LocalCents with more automated Elixir quality checks than I've ever run. Here's the whole guardrail setup, each linked to how it's wired in the real repo.
 pain: as I generate more code with AI, I'm shipping more than ever and worried it will quietly drift away from my own standard of good code
 fix: walk through the automated Elixir guardrails I run on LocalCents, each linked to its real implementation, so a peer can steal the ones they're missing
+bob-promise: after reading this you'll have a concrete, copyable checklist of Elixir CI guardrails to keep AI-generated code from drifting toward the median
 tags:
   - elixir
   - ai
@@ -44,13 +45,13 @@ One habit worth building around all of this: Credo itself adds new checks fairly
 
 **[Dialyzer](https://github.com/jeremyjh/dialyxir)** (via dialyxir). A static analysis tool, living down in the Erlang layer, that infers types across your code, cross-checks them against any typespecs you've written, and flags the spots it can *prove* are inconsistent. It's conservative by design, so it catches less than a full type checker but rarely cries wolf. It has real costs: it's slowish, and its errors read a little awkwardly (less so with an LLM to help interpret them these days). Elixir's own type system keeps getting stronger, and I love that, but it hasn't made Dialyzer redundant for me yet, because Dialyzer still surfaces a little more. And I get a lot of value from writing typespecs to document incoming and outgoing types. Because it's slower than the other checks, Dialyzer gets its own [GitHub Actions workflow](https://github.com/zorn/local_cents/blob/main/.github/workflows/dialyzer.yaml), separate from the rest. The PLT it depends on (the table of type information it has to build before it can analyze anything) is cached, so each push doesn't rebuild it from scratch.
 
-**[Boundary](https://github.com/sasa1977/boundary).** From Saša Jurić, this enforces that call sites respect your context boundaries. Elixir's own privacy is module-scoped: a function is either public or private, with no way to say "public within this bounded context, private to everyone else." Boundary gives you that. If you're leaning on domain-driven design, it stops other code from reaching past your context's public API into its internals. This is my first project using it, and it's earned its place. When an agent tries to take a shortcut into a private implementation to get something done, the compile-time check catches the mistake and corrects it.
+**[Boundary](https://github.com/sasa1977/boundary).** From Saša Jurić, this enforces that call sites respect your context boundaries. Elixir's own privacy is module-scoped: a function is either public or private, with no way to say "public within this bounded context, private to everyone else." Boundary gives you that. If you're leaning on domain-driven design, it stops other code from reaching past your context's public API into its internals. This is my first project using it, and it's earned its place. When an agent tries to take a shortcut into a private implementation to get something done, the compile-time check catches the mistake and forces a correction.
 
 ## Security
 
 **[Sobelow](https://github.com/nccgroup/sobelow).** A security-focused static analysis pass for Phoenix apps, catching things like user input flowing into a file path. It's the tool that helped me get a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) in place too.
 
-**[mix_audit](https://github.com/mirego/mix_audit)** (`mix deps.audit`). Cross-reference your locked dependency tree against community security advisories, so a known CVE in something you depend on results in a failed build.
+**[mix_audit](https://github.com/mirego/mix_audit)** (`mix deps.audit`). Cross-references your locked dependency tree against community security advisories, so a known CVE in something you depend on results in a failed build.
 
 **`mix hex.audit`.** Different tool, similar name. This one is built into Hex itself and flags any locked dependency whose maintainer has retired or pulled the version out from under you.
 
