@@ -13,12 +13,15 @@ Some of the places include:
 - Reddit r/elixir
 - https://elixirstatus.com
 - Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60
+- Elixir Discord (#share channel)
 - Philly Cocoa Slack
 - 30x500 Slack (share as an ebomb)
 
 Some venues post as a thread, not just a body: **Elixir Forum**, **Reddit
-r/elixir**, and **ElixirStatus** each need a title. Reuse the blog post's own
-title verbatim rather than inventing a new one.
+r/elixir**, **ElixirStatus**, and the **Elixir Discord #share channel** each
+need a title. Reuse the blog post's own title verbatim rather than inventing a
+new one. The Discord #share channel is a forum channel, so it also takes post
+tags (set `Blog posts` and `Elixir`) in place of hashtags.
 
 ## UTM tagging
 
@@ -46,7 +49,7 @@ Source vocabulary (keep these stable so trends hold across posts):
 
 - `mastodon`, `twitter`, `bluesky`
 - `linkedin`, `linkedin-elixir`
-- `reddit`, `elixir-forum`, `elixirstatus`
+- `reddit`, `elixir-forum`, `elixirstatus`, `elixir-discord`
 - `elixir-slack`, `philly-cocoa`, `30x500`
 
 A tagged link looks like:
