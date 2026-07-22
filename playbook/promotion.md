@@ -11,11 +11,17 @@ Some of the places include:
 - LinkedIn
 - LinkedIn Elixir Group
 - Reddit r/elixir
-- https://elixirstatus.com
+- https://elixirstatus.com — also feeds [Elixir Weekly](https://elixirweekly.net/),
+  which is curated from ElixirStatus, so posting here is the submission path for
+  both; no separate Elixir Weekly step needed.
 - Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60
 - Elixir Discord (#share channel)
 - Philly Cocoa Slack
 - 30x500 Slack (share as an ebomb)
+- [Elixir Radar](https://elixir-radar.com/) newsletter — submit by email to
+  Hugo at Elixir Radar <hugo@elixir-radar.com>, opening with "For consideration
+  in the newsletter:" and the tagged post URL. Not a self-serve post: it's a
+  curated newsletter, so it's a suggestion, not a guaranteed placement.
 
 Some venues post as a thread, not just a body: **Elixir Forum**, **Reddit
 r/elixir**, **ElixirStatus**, and the **Elixir Discord #share channel** each
@@ -50,7 +56,7 @@ Source vocabulary (keep these stable so trends hold across posts):
 - `mastodon`, `twitter`, `bluesky`
 - `linkedin`, `linkedin-elixir`
 - `reddit`, `elixir-forum`, `elixirstatus`, `elixir-discord`
-- `elixir-slack`, `philly-cocoa`, `30x500`
+- `elixir-slack`, `elixir-radar`, `philly-cocoa`, `30x500`
 
 A tagged link looks like:
 
