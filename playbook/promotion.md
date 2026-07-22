@@ -6,6 +6,7 @@ Some of the places include:
 
 - Personal Mastodon
 - Personal Twitter
+- Personal Bluesky
 - Elixir Slack (#blogs room)
 - LinkedIn
 - LinkedIn Elixir Group
@@ -39,7 +40,7 @@ name, so it earns nothing.
 
 Source vocabulary (keep these stable so trends hold across posts):
 
-- `mastodon`, `twitter`
+- `mastodon`, `twitter`, `bluesky`
 - `linkedin`, `linkedin-elixir`
 - `reddit`, `elixir-forum`, `elixirstatus`
 - `elixir-slack`, `philly-cocoa`, `indyhall`
@@ -58,6 +59,11 @@ The tagged URL is long, but it costs almost nothing where it matters:
   as a flat ~23 characters toward the post limit (X wraps in `t.co`, Mastodon
   applies a fixed 23-char count regardless of the URL). So UTMs are effectively
   free against your character budget there. Don't worry about them.
+- **Bluesky is the exception: inline link text counts against the 300-char
+  limit in full.** A tagged URL can eat a third of the post. So on Bluesky,
+  paste the URL to generate a link card, then delete the raw URL from the text
+  before posting — the card keeps the UTMs and costs zero characters. Only fall
+  back to an inline URL if no card generates, and trim the copy to fit.
 - **Where the raw URL shows (LinkedIn body, forum posts), it's usually replaced
   by a link-preview card**, or readers click it regardless of length. Put the
   URL on its own line at the end so its length doesn't break up the copy.
