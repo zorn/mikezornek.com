@@ -14,7 +14,7 @@ Some of the places include:
 - https://elixirstatus.com
 - Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60
 - Philly Cocoa Slack
-- IndyHall self promotion channel.
+- 30x500 Slack (share as an ebomb)
 
 Some venues post as a thread, not just a body: **Elixir Forum**, **Reddit
 r/elixir**, and **ElixirStatus** each need a title. Reuse the blog post's own
@@ -47,7 +47,7 @@ Source vocabulary (keep these stable so trends hold across posts):
 - `mastodon`, `twitter`, `bluesky`
 - `linkedin`, `linkedin-elixir`
 - `reddit`, `elixir-forum`, `elixirstatus`
-- `elixir-slack`, `philly-cocoa`, `indyhall`
+- `elixir-slack`, `philly-cocoa`, `30x500`
 
 A tagged link looks like:
 
