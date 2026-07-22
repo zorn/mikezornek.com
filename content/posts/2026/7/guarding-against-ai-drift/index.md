@@ -119,6 +119,8 @@ I keep spending that attention even when the generated code is fine, because fin
 
 One honest gap in this layer: Copilot's review only reads a [`.github/copilot-instructions.md`](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions), not an arbitrary standards file, and I haven't wired that up yet. So my written standards reach the Claude side of review but not Copilot.
 
+And one habit to build for the long run: when you catch the AI missing the same preference again and again, treat that as a signal to update the standard, not just the pull request. Fold the recurring misses back into your `AGENTS.md` and `CODING_STANDARDS.md` so the next session starts closer to right. Those files quietly go stale as the project and your taste evolve, so it's worth a standing reminder, something on a monthly checklist, to reread them and prune what no longer fits.
+
 ## What I'm not doing (yet)
 
 Just as useful as the list of what I run is the honest list of what I don't.
