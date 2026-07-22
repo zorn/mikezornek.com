@@ -101,9 +101,7 @@ For the Elixir dependencies specifically, I don't just merge what Dependabot pro
 
 ## It all collapses into one command
 
-A written standard only goes so far, and the gap between "I wrote it down" and "it actually happened" is real. So wherever I can turn a standard into a check, I do. A standards file is a suggestion. A failing build is not.
-
-That's what makes the whole list livable: almost every code-facing check above is bundled into a single [`mix precommit`](https://github.com/zorn/local_cents/blob/main/mix.exs) alias that runs them all in one shot. The agent runs it constantly as it works, and CI runs it on the way in. One command is the difference between guardrails I have to remember and guardrails that are just always on.
+What makes the whole list livable is that almost every code-facing check above is bundled into a single [`mix precommit`](https://github.com/zorn/local_cents/blob/main/mix.exs) alias that runs them all in one shot. The agent runs it constantly as it works, and CI runs it on the way in. One command is the difference between guardrails I have to remember and guardrails that are just always on.
 
 {{< figure src="ci-all-checks-passed.png"
    alt="A GitHub pull request status panel headed 'All checks have passed, 6 successful checks,' with a green checkmark beside each of Actionlint, Build and Test, Code Quality / Lint, Code Quality / Security, Lint PR / Validate PR title, and Run Dialyzer, above a green 'No conflicts with base branch' row." >}}
