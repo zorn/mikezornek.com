@@ -66,6 +66,50 @@ The tagged URL is long, but it costs almost nothing where it matters:
   long-but-honest URL is the better trade. If you ever must shorten, use one that
   preserves query params.
 
+## Hashtags
+
+Hashtags are the discovery mechanism that carries a post past my own
+followers. They matter most on **Mastodon**, where tags are a primary way
+people find posts (there's no algorithmic feed doing it for them). They help a
+little on **LinkedIn**. Skip them on **Reddit and the forums** — hashtags read
+as spam there; use the venue's own flair/category instead.
+
+The prominent one for anything Elixir-focused:
+
+- **`#elixirlang`** — the load-bearing tag. Use it on every Elixir post. The
+  bare word "elixir" is also potions, cough syrup, and drink brands, so the
+  community disambiguated on `#elixirlang` (mirrors `#golang`, `#swiftlang`).
+  This is the one Elixir folks actually follow.
+
+Add alongside it, when they fit the post:
+
+- **`#myelixirstatus`** — a community convention left over from the Twitter
+  days; posts carrying it get picked up by [elixirstatus.com](https://elixirstatus.com).
+  Worth including on Elixir posts for the extra distribution.
+- **`#elixir`** — plain and high-volume but noisy (catches the non-programming
+  senses). Fine to include as a second Elixir tag; don't rely on it alone.
+- **`#phoenixframework`** — for Phoenix / LiveView-specific posts.
+- **`#erlang`, `#beam`** — for posts that genuinely touch the BEAM or Erlang,
+  not by default.
+
+For the non-Elixir corners of what I write:
+
+- Apple / iOS posts (`ios`, `apple` tags): **`#iOSDev`**, **`#swiftlang`**.
+- Software-craft / practices / AI posts: **`#softwaredevelopment`** or
+  **`#programming`**, plus **`#ai`** / **`#llm`** when AI is the subject (both
+  noisy — one is plenty).
+
+A couple of mechanics:
+
+- **CamelCase multi-word tags** (`#iOSDev`, not `#iosdev`). Mastodon and
+  screen readers split on the capitals, so the tag stays readable.
+- **Two or three tags is the sweet spot.** A wall of hashtags reads as spam and
+  dilutes the ones that matter. Lead with `#elixirlang`.
+- Put tags on their own line at the end of the post, after the link.
+
+So a typical Elixir share carries `#elixirlang #myelixirstatus`, and I reach
+for the others only when the post's subject actually calls for them.
+
 ## Share Template
 
 ✏️ New blog: "Fresh Eyes on a Cucumbered Team"
@@ -74,5 +118,8 @@ There's a term for what happens when you've been on a team so long you stop noti
 
 https://mikezornek.com/posts/2026/6/fresh-eyes-on-a-cucumbered-team/?utm_source=mastodon&utm_campaign=cucumbered-team
 
+#elixirlang #myelixirstatus
+
 (Swap `utm_source` per venue; keep `utm_campaign` the same across all shares of
-one post.)
+one post. Adjust the hashtags to the post's subject — see Hashtags above; drop
+them entirely on Reddit and the forums.)
