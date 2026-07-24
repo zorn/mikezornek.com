@@ -3,7 +3,7 @@ title: "Shimming Your Way Off a Dead Elixir Dependency"
 date: 2026-07-24T11:46:39-04:00
 description: An abandoned dependency was blocking a major upgrade I needed. Here are the two ways I retire one, and when a shim beats a big-bang rewrite.
 pain: on a long-lived Elixir project, a routine dependency bump stalls because an abandoned library pins an old version of a shared transitive dependency, and ripping it out means editing call sites everywhere in one scary PR
-fix: two ways to retire a stuck dependency: a hard replacement when the footprint is small, or a shim you introduce and prove with comparison tests and then swap in at the call sites as a separate PR
+fix: "two ways to retire a stuck dependency: a hard replacement when the footprint is small, or a shim you introduce and prove with comparison tests and then swap in at the call sites as a separate PR"
 bob-promise: after reading this you'll know how to retire an abandoned Elixir dependency incrementally, without a big-bang PR and without wondering whether you preserved its behavior
 tags:
   - elixir
