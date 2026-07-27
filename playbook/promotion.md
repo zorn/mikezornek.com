@@ -14,7 +14,13 @@ Some of the places include:
 - https://elixirstatus.com — also feeds [Elixir Weekly](https://elixirweekly.net/),
   which is curated from ElixirStatus, so posting here is the submission path for
   both; no separate Elixir Weekly step needed.
-- Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60
+- Elixir Forum? https://elixirforum.com/c/learning-resources/blogs-podcasts/60 —
+  under Blogs & Podcasts, post in the **Blog Posts** subcategory, *not* the
+  **Blogs** one. **Blogs** is for blog posts written on the forum itself, and its
+  composer says so outright: "this section is for on-forum blog posts only (if
+  you are posting a link to a blog post, use the Blog Posts section)." It also
+  demands a `blog-cat-…` tag, which is the tell that you've picked the wrong
+  subcategory. A link back to mikezornek.com always belongs in **Blog Posts**.
 - Elixir Discord (#share channel)
 - Philly Cocoa Slack
 - 30x500 Slack (share as an ebomb)
