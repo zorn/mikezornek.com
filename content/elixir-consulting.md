@@ -82,7 +82,7 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 I am available and looking for new consulting projects. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed.
 
-My rate is $125-$150 per hour, with discounts available for open-source initiatives or long-term commitments.
+My rate is $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments.
 
 ## Technical Proficiencies
 
