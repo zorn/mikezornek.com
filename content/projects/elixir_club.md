@@ -12,7 +12,7 @@ You can check out this kickoff video for a sense of what I was trying to build.
 
 {{<youtube 6WvHGGqfggM>}}
 
-As I shared in my [shut down announcement blog post](http://localhost:1313/posts/2023/7/shutting-down-elixir-club/):
+As I shared in my [shut down announcement blog post](/posts/2023/7/shutting-down-elixir-club/):
 
 > I ran the site on Circle, hosted some weekly events and async project update threads – but the hard truth is that I was not able to create even the modest-sized community that I was aiming for.
 >
