@@ -130,16 +130,14 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 
 ## Examples of My Work
 
-### Community
-
-- [Elixir Book Club](https://elixirbookclub.github.io/website/) (group administrator) biweekly book club reading and discussing topics of Elixir and general programming.
-
 ### Blog Articles
 
-- [Personal Elixir Code Aesthetics](https://mikezornek.com/posts/2024/9/elixir-code-aesthetic/)
+- [Stabilizing Inherited Software: My First-Week Checklist](https://mikezornek.com/posts/2026/7/inherited-software-checklist/)
+- [Shimming Your Way Off a Dead Elixir Dependency](https://mikezornek.com/posts/2026/7/shim-off-a-dead-elixir-dependency/)
+- [Guarding Against AI Drift: My Automated Elixir Quality Checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/)
+- [Decision Records, Playbooks, and Other Acts of Kindness](https://mikezornek.com/posts/2026/7/decision-records-and-playbooks/)
+- [Fresh Eyes on a Cucumbered Team](https://mikezornek.com/posts/2026/6/fresh-eyes-on-a-cucumbered-team/)
 - [Potential Consulting Client Questions](https://mikezornek.com/posts/2023/3/potential-consulting-client-questions/)
-- [Notes about Technical Debt](https://mikezornek.com/posts/2023/4/technical-debt/)
-- [Securing Webhook Payload Delivery in Phoenix](https://mikezornek.com/posts/2021/2/securing-webhook-payload-delivery/)
 
 ### Open Source
 
@@ -151,5 +149,9 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 - [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.youtube.com/watch?v=wF3llh4VLlQ)
 - [GitHub Projects to Help You Organize Your Side Project TODO List](https://www.youtube.com/watch?v=bUE846fGFec)
 - [Exercism Elixir Track](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
+
+### Community
+
+- [Elixir Book Club](https://elixirbookclub.github.io/website/) is a biweekly book club reading and discussing Elixir and general programming titles. I ran the group as administrator for several years.
 
 {{< consulting-contact-buttons >}}
