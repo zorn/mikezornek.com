@@ -143,8 +143,8 @@ My rate is $125-$150 per hour, with discounts available for open-source initiati
 
 ### Open Source
 
+- [LocalCents](https://github.com/zorn/local_cents/) is my current side project, an open-source expense tracker built for [local-first](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), offline collaboration across devices using the [Automerge](https://automerge.org/) CRDT. It's also where I'm experimenting with AI-assisted workflows and code generation, which produced [my notes on three years of coding with AI](https://mikezornek.com/posts/2026/7/three-years-coding-with-ai/) and a [full writeup of my automated Elixir quality checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/).
 - [Flick](https://github.com/zorn/flick) is a simple Elixir / Phoenix LiveView app to help capture ranked votes. You can see this project in action at <https://rankedvote.app/>. This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books but is open for all to use.
-- [Franklin](https://github.com/zorn/franklin) was an intentionally over-engineered blog application written in Elixir. It was a project I worked on to get more familiar with event sourcing using [Commanded](https://github.com/commanded/commanded). While I am anxious to use event sourcing in the future, this project did not ship and remains an abandoned historic tinker space.
 
 ### Videos
 
