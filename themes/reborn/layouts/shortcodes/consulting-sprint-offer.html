@@ -3,19 +3,40 @@
   for the variants that lost.
 */}}
 
+{{/* Each focus may point at one supporting post. Rather than listing post
+  titles (which would compete with the offer itself), the link is folded into
+  the description: `phrase` names the words inside `desc` that become the link,
+  and `url` is where they go. A focus with no `url` simply renders as plain
+  text, so this degrades quietly until the writing exists.
+
+  Focuses with nothing to link yet, and worth writing: performance tuning, and
+  a real exception/Sentry burndown post.
+*/}}
 {{ $services := slice
   (dict "name" "CI and code quality guardrails"
-  "desc" "Formatting, Credo, Dialyzer, and coverage checks wired into CI so drift gets caught before review does.")
+  "desc" "Formatting, Credo, Dialyzer, and coverage checks wired into CI so drift gets caught before review does."
+  "phrase" "wired into CI"
+  "url" "/posts/2026/7/guarding-against-ai-drift/")
   (dict "name" "Performance audit and tuning"
-  "desc" "Profile the slow paths, find the N+1 queries and missing indexes, then fix the worst offenders.")
+  "desc" "Profile the slow paths, find the N+1 queries and missing indexes, then fix the worst offenders."
+  "phrase" ""
+  "url" "")
   (dict "name" "Slow and flaky test refactoring"
-  "desc" "Track down the nondeterminism, cut the suite's runtime, and make a green build mean something again.")
+  "desc" "Track down the nondeterminism, cut the suite's runtime, and make a green build mean something again."
+  "phrase" "Track down the nondeterminism"
+  "url" "/posts/2022/10/fixture-rant/")
   (dict "name" "Dependency and version updates"
-  "desc" "Get current on Elixir, Phoenix, LiveView and friends through incremental pull requests instead of one scary one.")
+  "desc" "Get current on Elixir, Phoenix, LiveView and friends through incremental pull requests instead of one scary one."
+  "phrase" "instead of one scary one"
+  "url" "/posts/2026/7/shim-off-a-dead-elixir-dependency/")
   (dict "name" "Exception burndown and stability work"
-  "desc" "Work the error tracker back from noise to signal, fixing root causes and quieting the rest.")
+  "desc" "Work the error tracker back from noise to signal, fixing root causes and quieting the rest."
+  "phrase" "back from noise to signal"
+  "url" "/posts/2026/7/inherited-software-checklist/")
   (dict "name" "Mentoring and code review"
-  "desc" "A senior Elixir voice on your pull requests and in pairing sessions, for a team that does not have one.")
+  "desc" "A senior Elixir voice on your pull requests and in pairing sessions, for a team that does not have one."
+  "phrase" "A senior Elixir voice"
+  "url" "/posts/2026/7/what-is-good-code/")
 }}
 
 
@@ -40,7 +61,14 @@
     {{ range $services }}
       <div>
         <h4 class="font-bold">{{ .name }}</h4>
-        <p class="mt-1 text-base leading-relaxed text-gray-700">{{ .desc }}</p>
+        <p class="mt-1 text-base leading-relaxed text-gray-700">
+          {{- if .url -}}
+            {{ $link := printf "<a href=\"%s\" class=\"text-purple-600 underline visited:text-purple-900 hover:text-purple-800\">%s</a>" .url .phrase }}
+            {{ replace .desc .phrase $link | safeHTML }}
+          {{- else -}}
+            {{ .desc }}
+          {{- end -}}
+        </p>
       </div>
     {{ end }}
   </div>
