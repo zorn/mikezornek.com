@@ -16,7 +16,9 @@ aliases:
 
 {{< consulting-quote >}}
 
-{{< consulting-contact-buttons >}}
+{{< consulting-sprint-offer >}}
+
+Need something longer or less defined? I also take on ongoing hourly work at $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed. [Email me what you need](mailto:mike@mikezornek.com?subject=Ongoing%20Elixir%20consulting) or [grab a time on my calendar](https://savvycal.com/zorn/chat).
 
 ## Testimonials
 
@@ -76,15 +78,31 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 </div>
 
-{{< consulting-contact-buttons >}}
+## Examples of My Work
 
-## Rate and Availability
+### Blog Articles
 
-I am available and looking for new consulting projects.
+- [Stabilizing Inherited Software: My First-Week Checklist](https://mikezornek.com/posts/2026/7/inherited-software-checklist/)
+- [Shimming Your Way Off a Dead Elixir Dependency](https://mikezornek.com/posts/2026/7/shim-off-a-dead-elixir-dependency/)
+- [Guarding Against AI Drift: My Automated Elixir Quality Checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/)
+- [Decision Records, Playbooks, and Other Acts of Kindness](https://mikezornek.com/posts/2026/7/decision-records-and-playbooks/)
+- [Fresh Eyes on a Cucumbered Team](https://mikezornek.com/posts/2026/6/fresh-eyes-on-a-cucumbered-team/)
+- [Potential Consulting Client Questions](https://mikezornek.com/posts/2023/3/potential-consulting-client-questions/)
 
-{{< consulting-sprint-offer >}}
+### Open Source
 
-Need something longer or less defined? I also take on ongoing hourly work at $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed. [Tell me what you need.](mailto:mike@mikezornek.com?subject=Ongoing%20Elixir%20consulting)
+- [LocalCents](https://github.com/zorn/local_cents/) is my current side project, an open-source expense tracker built for [local-first](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), offline collaboration across devices using the [Automerge](https://automerge.org/) CRDT. It's also where I'm experimenting with AI-assisted workflows and code generation, which produced [my notes on three years of coding with AI](https://mikezornek.com/posts/2026/7/three-years-coding-with-ai/) and a [full writeup of my automated Elixir quality checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/).
+- [Flick](https://github.com/zorn/flick) is a simple Elixir / Phoenix LiveView app to help capture ranked votes. You can see this project in action at <https://rankedvote.app/>. This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books but is open for all to use.
+
+### Videos
+
+- [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.youtube.com/watch?v=wF3llh4VLlQ)
+- [GitHub Projects to Help You Organize Your Side Project TODO List](https://www.youtube.com/watch?v=bUE846fGFec)
+- [Exercism Elixir Track](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
+
+### Community
+
+- [Elixir Book Club](https://elixirbookclub.github.io/website/) is a biweekly book club reading and discussing Elixir and general programming titles. I ran the group as administrator for several years.
 
 ## Technical Proficiencies
 
@@ -129,31 +147,5 @@ Need something longer or less defined? I also take on ongoing hourly work at $12
 {{< tag title="PHP" bgColor="bg-[#617cbe]" textColor="text-white" >}}
 {{< tag title="Perl" bgColor="bg-[#0196c1]" textColor="text-white" >}}
 </div>
-
-## Examples of My Work
-
-### Blog Articles
-
-- [Stabilizing Inherited Software: My First-Week Checklist](https://mikezornek.com/posts/2026/7/inherited-software-checklist/)
-- [Shimming Your Way Off a Dead Elixir Dependency](https://mikezornek.com/posts/2026/7/shim-off-a-dead-elixir-dependency/)
-- [Guarding Against AI Drift: My Automated Elixir Quality Checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/)
-- [Decision Records, Playbooks, and Other Acts of Kindness](https://mikezornek.com/posts/2026/7/decision-records-and-playbooks/)
-- [Fresh Eyes on a Cucumbered Team](https://mikezornek.com/posts/2026/6/fresh-eyes-on-a-cucumbered-team/)
-- [Potential Consulting Client Questions](https://mikezornek.com/posts/2023/3/potential-consulting-client-questions/)
-
-### Open Source
-
-- [LocalCents](https://github.com/zorn/local_cents/) is my current side project, an open-source expense tracker built for [local-first](https://mikezornek.com/posts/2025/2/what-is-local-first-software/), offline collaboration across devices using the [Automerge](https://automerge.org/) CRDT. It's also where I'm experimenting with AI-assisted workflows and code generation, which produced [my notes on three years of coding with AI](https://mikezornek.com/posts/2026/7/three-years-coding-with-ai/) and a [full writeup of my automated Elixir quality checks](https://mikezornek.com/posts/2026/7/guarding-against-ai-drift/).
-- [Flick](https://github.com/zorn/flick) is a simple Elixir / Phoenix LiveView app to help capture ranked votes. You can see this project in action at <https://rankedvote.app/>. This project was built to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books but is open for all to use.
-
-### Videos
-
-- [Creating Your First Elixir/Phoenix CI Check with GitHub Actions](https://www.youtube.com/watch?v=wF3llh4VLlQ)
-- [GitHub Projects to Help You Organize Your Side Project TODO List](https://www.youtube.com/watch?v=bUE846fGFec)
-- [Exercism Elixir Track](https://www.youtube.com/playlist?list=PLcuknvxBZ9L6wgG61cQnfyjfNUSFX2G5O)
-
-### Community
-
-- [Elixir Book Club](https://elixirbookclub.github.io/website/) is a biweekly book club reading and discussing Elixir and general programming titles. I ran the group as administrator for several years.
 
 {{< consulting-contact-buttons >}}
