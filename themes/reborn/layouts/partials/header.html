@@ -5,6 +5,7 @@
 */}}
 {{ if ne .Title "Elixir Consulting" }}
   <a
+    id="availability-banner"
     href="/elixir-consulting/"
     class="block bg-amber-300 text-black no-underline hover:bg-amber-200"
   >
@@ -19,11 +20,28 @@
           ></span>
         </span>
         <span class="text-lg font-bold">Available now for Elixir work.</span>
-        <span class="text-lg">Two weeks. One problem. $6,000.</span>
+        <span class="text-lg">{{ site.Params.sprint.headline }}</span>
         <span class="text-lg font-bold underline">Details &rarr;</span>
       </p>
     </div>
   </a>
+
+  <script>
+    (function () {
+      // Record clicks on the availability banner as a Plausible custom event.
+      // The banner is site-wide, so `page` records which page the reader was
+      // on when the offer caught them, which is the interesting part.
+      var banner = document.getElementById("availability-banner");
+      if (!banner) return;
+      banner.addEventListener("click", function () {
+        if (typeof window.plausible === "function") {
+          window.plausible("Availability Banner", {
+            props: { page: location.pathname },
+          });
+        }
+      });
+    })();
+  </script>
 {{ end }}
 
 

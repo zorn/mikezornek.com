@@ -1,0 +1,14 @@
+{{/* Shared Tailwind class strings for the consulting page's bordered cards, so
+  the sprint offer and the closing give stay visually identical without
+  repeating the literals in both shortcodes.
+
+  Assign the returned dict to a variable at the top of a template, then use
+  its keys in class attributes: card, eyebrow, cta, ctaSecondary, link.
+*/}}
+{{ return dict
+  "card" "not-prose rounded-lg border-2 border-purple-600 p-6 md:p-8"
+  "eyebrow" "text-sm font-bold tracking-widest text-purple-700 uppercase"
+  "cta" "inline-block rounded-lg border-2 border-purple-600 bg-purple-600 px-4 py-2 text-lg font-bold text-white no-underline hover:bg-purple-700"
+  "ctaSecondary" "inline-block rounded-lg border-2 border-purple-600 px-4 py-2 text-lg font-bold text-purple-700 no-underline hover:bg-purple-600 hover:text-white"
+  "link" "text-purple-600 underline visited:text-purple-900 hover:text-purple-800"
+}}

@@ -39,13 +39,13 @@
   "url" "/posts/2026/7/what-is-good-code/")
 }}
 
+{{ $c := partial "consulting-classes.html" . }}
 
-<div class="not-prose my-8 rounded-lg border-2 border-purple-600 p-6 md:p-8">
-  <p class="text-sm font-bold tracking-widest text-purple-700 uppercase">
-    Introductory offer
-  </p>
 
-  <h2 class="mt-2 text-4xl font-bold">Two weeks. One problem. $6,000.</h2>
+<div class="{{ $c.card }} my-8">
+  <p class="{{ $c.eyebrow }}">Introductory offer</p>
+
+  <h2 class="mt-2 text-4xl font-bold">{{ site.Params.sprint.headline }}</h2>
 
   <p class="mt-4 max-w-2xl text-lg leading-relaxed">
     Sixty hours of my time across two weeks, aimed at a single thing that has
@@ -53,9 +53,7 @@
     writeup at the end of what changed and what I would do next.
   </p>
 
-  <h3 class="mt-8 text-sm font-bold tracking-widest text-purple-700 uppercase">
-    Pick one focus
-  </h3>
+  <h3 class="mt-8 {{ $c.eyebrow }}">Pick one focus</h3>
 
   <div class="mt-4 grid gap-x-8 gap-y-5 md:grid-cols-2">
     {{ range $services }}
@@ -63,7 +61,15 @@
         <h4 class="font-bold">{{ .name }}</h4>
         <p class="mt-1 text-base leading-relaxed text-gray-700">
           {{- if .url -}}
-            {{ $link := printf "<a href=\"%s\" class=\"text-purple-600 underline visited:text-purple-900 hover:text-purple-800\">%s</a>" .url .phrase }}
+            {{/* Fail the build rather than silently rendering an unlinked
+              focus: an empty phrase would splice the anchor between every
+              character, and a phrase that has drifted out of desc would just
+              vanish.
+            */}}
+            {{- if not (and .phrase (in .desc .phrase)) -}}
+              {{- errorf "consulting-sprint-offer: focus %q sets a url but its phrase %q was not found in its desc" .name .phrase -}}
+            {{- end -}}
+            {{- $link := printf "<a href=%q class=%q>%s</a>" .url $c.link .phrase -}}
             {{ replace .desc .phrase $link | safeHTML }}
           {{- else -}}
             {{ .desc }}
@@ -108,14 +114,11 @@
     <div class="mt-5 flex flex-wrap gap-3">
       <a
         href="mailto:mike@mikezornek.com?subject=Two-week%20Elixir%20sprint&body=%5BThanks%20for%20your%20interest.%20Answering%20a%20few%20of%20these%20makes%20it%20easy%20for%20me%20to%20tell%20you%20what%20is%20realistic%20in%20two%20weeks.%20Delete%20anything%20that%20does%20not%20apply.%5D%0A%0AA%20little%20about%20you%20and%20your%20project%3A%0A%0AWhat%20has%20been%20nagging%20you%2C%20and%20what%20you%20would%20like%20me%20to%20work%20on%3A%0A%0AWhat%20would%20make%20these%20two%20weeks%20a%20success%3A%0A%0ALinks%20that%20would%20help%20%28repo%2C%20error%20tracker%2C%20docs%2C%20anything%29%3A%0A%0AWhen%20you%20would%20like%20to%20start%3A%0A%0ASend%20it%20over%20and%20I%20will%20take%20a%20look.%20If%20you%20would%20rather%20talk%20it%20through%20first%3A%20https%3A%2F%2Fsavvycal.com%2Fzorn%2Fchat%0A"
-        class="inline-block rounded-lg border-2 border-purple-600 bg-purple-600 px-4 py-2 text-lg font-bold text-white no-underline hover:bg-purple-700"
+        class="{{ $c.cta }}"
       >
         Start with an email
       </a>
-      <a
-        href="https://savvycal.com/zorn/chat"
-        class="inline-block rounded-lg border-2 border-purple-600 px-4 py-2 text-lg font-bold text-purple-700 no-underline hover:bg-purple-600 hover:text-white"
-      >
+      <a href="https://savvycal.com/zorn/chat" class="{{ $c.ctaSecondary }}">
         Book a call
       </a>
     </div>

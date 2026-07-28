@@ -9,6 +9,13 @@ params:
   author:
     name: Mike Zornek
     email: mike@mikezornek.com
+  # The fixed-price consulting offer. Kept here so the site-wide availability
+  # banner and the consulting page's offer box cannot drift apart. Note the
+  # price also appears in the consulting page's `description` front matter,
+  # which templates cannot reach.
+  sprint:
+    headline: "Two weeks. One problem. $6,000."
+    price: "$6,000"
   # Series listed newest-first (personal logging). Others default to oldest-first
   # so reading-order series (e.g. tutorials) read top-to-bottom.
   seriesNewestFirst:

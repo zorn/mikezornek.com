@@ -78,7 +78,7 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 ### 🛠️ Ember.js to LiveView Conversion
 
-{{< project-tags "Upgrades" "Stability" >}}
+{{< project-tags "Technical debt" "Stability" >}}
 
 **My role and work:** Augmented a development team building SMS communication software and took ownership of converting some historic corners of the app that were still using Ember.js to a modern LiveView implementation. Some of these pages were rich CSV import flows, and care had to be taken related to maintain speed and stability.  
 **Product Impact:** By employing me as a consultant focused on technical debt, the full-time staff was able to focus on more involved and structural platform initiatives. By removing Ember.js, the build and delivery tech stack was greatly simplified.
