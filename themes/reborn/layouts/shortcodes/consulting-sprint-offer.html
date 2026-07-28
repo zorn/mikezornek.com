@@ -1,0 +1,76 @@
+{{/* The fixed-price "two week sprint" offer box for the Elixir Consulting page.
+  Layout and copy were chosen from a set of prototypes; see the commit history
+  for the variants that lost.
+*/}}
+
+{{ $services := slice
+  (dict "name" "CI and code quality guardrails"
+  "desc" "Formatting, Credo, Dialyzer, and coverage checks wired into CI so drift gets caught before review does.")
+  (dict "name" "Performance audit and tuning"
+  "desc" "Profile the slow paths, find the N+1 queries and missing indexes, then fix the worst offenders.")
+  (dict "name" "Slow and flaky test refactoring"
+  "desc" "Track down the nondeterminism, cut the suite's runtime, and make a green build mean something again.")
+  (dict "name" "Dependency and version updates"
+  "desc" "Get current on Elixir, Phoenix, LiveView and friends through incremental pull requests instead of one scary one.")
+  (dict "name" "Exception burndown and stability work"
+  "desc" "Work the error tracker back from noise to signal, fixing root causes and quieting the rest.")
+  (dict "name" "Mentoring and code review"
+  "desc" "A senior Elixir voice on your pull requests and in pairing sessions, for a team that does not have one.")
+}}
+
+
+<div class="not-prose my-8 rounded-lg border-2 border-purple-600 p-6 md:p-8">
+  <p class="text-sm font-bold tracking-widest text-purple-700 uppercase">
+    Introductory offer
+  </p>
+
+  <h2 class="mt-2 text-4xl font-bold">Two weeks. One problem. $6,000.</h2>
+
+  <p class="mt-4 max-w-2xl text-lg leading-relaxed">
+    Sixty hours of my time across two weeks, aimed at a single thing that has
+    been nagging your team. Small documented pull requests as I go, and a
+    writeup at the end of what changed and what I would do next.
+  </p>
+
+  <h3 class="mt-8 text-sm font-bold tracking-widest text-purple-700 uppercase">
+    Pick one focus
+  </h3>
+
+  <div class="mt-4 grid gap-x-8 gap-y-5 md:grid-cols-2">
+    {{ range $services }}
+      <div>
+        <h4 class="font-bold">{{ .name }}</h4>
+        <p class="mt-1 text-base leading-relaxed text-gray-700">{{ .desc }}</p>
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="mt-8 border-t-2 border-purple-200 pt-6">
+    <p class="max-w-2xl text-base leading-relaxed">
+      <strong>Why $6,000?</strong>
+      Two weeks is enough to meaningfully improve one corner of your project,
+      and it is a small enough number that most teams can approve it without a
+      budget meeting. It works out to $100 an hour, below my usual rate. I am
+      betting that once you have seen how I work, the next conversation is an
+      easier one.
+    </p>
+
+    {{/* The mailto body prefills the intake questions, so the first email
+      arrives with enough detail to quote against. Percent-encoded by hand
+      (rather than piped through urlquery) because urlquery encodes spaces as
+      "+", which some mail clients render literally in a body. Plain text:
+
+      Which focus area:
+      What has been nagging you:
+      What would make these two weeks a win:
+      A link to the repo, or a quick description of the stack:
+      When you would like to start:
+    */}}
+    <a
+      href="mailto:mike@mikezornek.com?subject=Two-week%20Elixir%20sprint&body=Which%20focus%20area%3A%0A%0AWhat%20has%20been%20nagging%20you%3A%0A%0AWhat%20would%20make%20these%20two%20weeks%20a%20win%3A%0A%0AA%20link%20to%20the%20repo%2C%20or%20a%20quick%20description%20of%20the%20stack%3A%0A%0AWhen%20you%20would%20like%20to%20start%3A%0A"
+      class="mt-5 inline-block rounded-lg border-2 border-purple-600 bg-purple-600 px-4 py-2 text-lg font-bold text-white no-underline hover:bg-purple-700"
+    >
+      Claim a two-week slot
+    </a>
+  </div>
+</div>

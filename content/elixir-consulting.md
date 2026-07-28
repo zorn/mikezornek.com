@@ -80,9 +80,11 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 ## Rate and Availability
 
-I am available and looking for new consulting projects. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed.
+I am available and looking for new consulting projects.
 
-My rate is $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments.
+{{< consulting-sprint-offer >}}
+
+Need something longer or less defined? I also take on ongoing hourly work at $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed. [Tell me what you need.](mailto:mike@mikezornek.com?subject=Ongoing%20Elixir%20consulting)
 
 ## Technical Proficiencies
 
