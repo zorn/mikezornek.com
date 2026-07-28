@@ -1,0 +1,141 @@
+{{/* The fixed-price "two week sprint" offer box for the Elixir Consulting page.
+  Layout and copy were chosen from a set of prototypes; see the commit history
+  for the variants that lost.
+*/}}
+
+{{/* Each focus may point at one supporting post. Rather than listing post
+  titles (which would compete with the offer itself), the link is folded into
+  the description: `phrase` names the words inside `desc` that become the link,
+  and `url` is where they go. A focus with no `url` simply renders as plain
+  text, so this degrades quietly until the writing exists.
+
+  Focuses with nothing to link yet, and worth writing: performance tuning, and
+  a real exception/Sentry burndown post.
+*/}}
+{{ $services := slice
+  (dict "name" "CI and code quality guardrails"
+  "desc" "Formatting, Credo, Dialyzer, and coverage checks wired into CI so drift gets caught before review does."
+  "phrase" "wired into CI"
+  "url" "/posts/2026/7/guarding-against-ai-drift/")
+  (dict "name" "Performance audit and tuning"
+  "desc" "Profile the slow paths, find the N+1 queries and missing indexes, then fix the worst offenders."
+  "phrase" ""
+  "url" "")
+  (dict "name" "Slow and flaky test refactoring"
+  "desc" "Track down the nondeterminism, cut the suite's runtime, and make a green build mean something again."
+  "phrase" "Track down the nondeterminism"
+  "url" "/posts/2022/10/fixture-rant/")
+  (dict "name" "Dependency and version updates"
+  "desc" "Get current on Elixir, Phoenix, LiveView and friends through incremental pull requests instead of one scary one."
+  "phrase" "instead of one scary one"
+  "url" "/posts/2026/7/shim-off-a-dead-elixir-dependency/")
+  (dict "name" "Exception burndown and stability work"
+  "desc" "Work the error tracker back from noise to signal, fixing root causes and quieting the rest."
+  "phrase" "back from noise to signal"
+  "url" "/posts/2026/7/inherited-software-checklist/")
+  (dict "name" "Mentoring and code review"
+  "desc" "A senior Elixir voice on your pull requests and in pairing sessions, for a team that does not have one."
+  "phrase" "A senior Elixir voice"
+  "url" "/posts/2026/7/what-is-good-code/")
+}}
+
+{{ $c := partial "consulting-classes.html" . }}
+
+
+<div class="{{ $c.card }} my-8">
+  <p class="{{ $c.eyebrow }}">Introductory offer</p>
+
+  <h2 class="mt-2 text-4xl font-bold">{{ site.Params.sprint.headline }}</h2>
+
+  <p class="mt-4 max-w-2xl text-lg leading-relaxed">
+    Sixty hours of my time across two weeks, aimed at a single thing that has
+    been nagging your team. Small documented pull requests as I go, and a
+    writeup at the end of what changed and what I would do next.
+  </p>
+
+  <h3 class="mt-8 {{ $c.eyebrow }}">Pick one focus</h3>
+
+  <div class="mt-4 grid gap-x-8 gap-y-5 md:grid-cols-2">
+    {{ range $services }}
+      <div>
+        <h4 class="font-bold">{{ .name }}</h4>
+        <p class="mt-1 text-base leading-relaxed text-gray-700">
+          {{- if .url -}}
+            {{/* Fail the build rather than silently rendering an unlinked
+              focus: an empty phrase would splice the anchor between every
+              character, and a phrase that has drifted out of desc would just
+              vanish.
+            */}}
+            {{- if not (and .phrase (in .desc .phrase)) -}}
+              {{- errorf "consulting-sprint-offer: focus %q sets a url but its phrase %q was not found in its desc" .name .phrase -}}
+            {{- end -}}
+            {{/* Split around the phrase and emit a real anchor between the two
+              halves, rather than building the tag as a string and disabling
+              escaping for the whole description with safeHTML. Hugo keeps
+              escaping the prose, so an ampersand or angle bracket in a
+              description can never produce broken markup. Rejoining everything
+              after the first part with the phrase means only the first
+              occurrence becomes a link.
+            */}}
+            {{/* The trim markers are load-bearing: without them Prettier is
+              free to put the anchor on its own line, and that newline renders
+              as a space before whatever follows the phrase (", cut the…" would
+              become " , cut the…").
+            */}}
+            {{- $parts := split .desc .phrase -}}
+            {{- index $parts 0 -}}
+            <a href="{{ .url }}" class="{{ $c.link }}">{{ .phrase }}</a>
+            {{- delimit (after 1 $parts) .phrase -}}
+          {{- else -}}
+            {{ .desc }}
+          {{- end -}}
+        </p>
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="mt-8 border-t-2 border-purple-200 pt-6">
+    <p class="max-w-2xl text-base leading-relaxed">
+      <strong>Why $6,000?</strong>
+      Two weeks is enough to meaningfully improve one corner of your project,
+      and it is a small enough number that most teams can approve it without a
+      budget meeting. It works out to $100 an hour, below my usual rate. I am
+      betting that once you have seen how I work, the next conversation is an
+      easier one.
+    </p>
+
+    {{/* The mailto body prefills the intake questions, so the first email
+      arrives with enough detail to quote against. Percent-encoded by hand
+      (rather than piped through urlquery) because urlquery encodes spaces as
+      "+", which some mail clients render literally in a body. Plain text:
+
+      [Thanks for your interest. Answering a few of these makes it easy for me
+      to tell you what is realistic in two weeks. Delete anything that does not
+      apply.]
+
+      A little about you and your project:
+
+      What has been nagging you, and what you would like me to work on:
+
+      What would make these two weeks a success:
+
+      Links that would help (repo, error tracker, docs, anything):
+
+      When you would like to start:
+
+      Send it over and I will take a look. If you would rather talk it through
+      first: https://savvycal.com/zorn/chat
+    */}}
+    <div class="mt-5 flex flex-wrap gap-3">
+      <a
+        href="mailto:mike@mikezornek.com?subject=Two-week%20Elixir%20sprint&body=%5BThanks%20for%20your%20interest.%20Answering%20a%20few%20of%20these%20makes%20it%20easy%20for%20me%20to%20tell%20you%20what%20is%20realistic%20in%20two%20weeks.%20Delete%20anything%20that%20does%20not%20apply.%5D%0A%0AA%20little%20about%20you%20and%20your%20project%3A%0A%0AWhat%20has%20been%20nagging%20you%2C%20and%20what%20you%20would%20like%20me%20to%20work%20on%3A%0A%0AWhat%20would%20make%20these%20two%20weeks%20a%20success%3A%0A%0ALinks%20that%20would%20help%20%28repo%2C%20error%20tracker%2C%20docs%2C%20anything%29%3A%0A%0AWhen%20you%20would%20like%20to%20start%3A%0A%0ASend%20it%20over%20and%20I%20will%20take%20a%20look.%20If%20you%20would%20rather%20talk%20it%20through%20first%3A%20https%3A%2F%2Fsavvycal.com%2Fzorn%2Fchat%0A"
+        class="{{ $c.cta }}"
+      >
+        Start with an email
+      </a>
+      <a href="https://savvycal.com/zorn/chat" class="{{ $c.ctaSecondary }}">
+        Book a call
+      </a>
+    </div>
+  </div>
+</div>

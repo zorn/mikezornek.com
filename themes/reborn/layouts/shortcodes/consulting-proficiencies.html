@@ -1,0 +1,50 @@
+{{/* Technical proficiencies as a single left-to-right confidence spectrum rather
+  than ranked tiers. The section has two jobs: prove core competence, and show
+  range and currency. The gradient carries the ranking so the later columns can
+  hold things I am not selling (older platform work, current study) without
+  either overstating them or labelling myself a beginner.
+*/}}
+
+{{ $columns := slice
+  (dict "title" "Expert"
+  "class" "text-purple-800"
+  "items" (slice "Elixir" "Phoenix" "LiveView"))
+  (dict "title" "In production"
+  "class" "text-purple-700"
+  "items" (slice "Sentry" "OpenTelemetry" "Credo" "Dialyzer" "GitHub Actions" "Postgres" "Ecto" "Oban" "Absinthe/GraphQL" "Docker" "Tailwind"))
+  (dict "title" "Shipped in the past"
+  "class" "text-purple-600"
+  "items" (slice "AppSignal" "Terraform" "React Native" "Swift" "Objective-C" "Ruby on Rails"))
+  (dict "title" "In the lab"
+  "class" "text-gray-500"
+  "items" (slice "Local-first" "Automerge / CRDTs" "Rust / Rustler" "Tauri" "CQRS / event sourcing" "Ash Framework" "Svelte"))
+}}
+
+
+<div class="not-prose my-6">
+  {{/* The gradient reads as a left-to-right scale only while the columns are
+    side by side. Below `md` the grid stacks and the bar would span the full
+    width while the ranking runs downward, so it is hidden there.
+  */}}
+  <div
+    class="hidden h-2 w-full rounded-full bg-gradient-to-r from-purple-600 via-purple-300 to-gray-200 md:block"
+  ></div>
+
+  <div class="mt-3 grid gap-6 md:grid-cols-4">
+    {{ range $columns }}
+      <div>
+        <h3 class="text-sm font-bold {{ .class }}">{{ .title }}</h3>
+        <ul class="mt-1 space-y-0.5 text-base">
+          {{ range .items }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
+
+  <p class="mt-4 max-w-2xl text-base leading-relaxed text-gray-700">
+    From what I would stake a project on, down to what I am reading about on
+    weekends.
+  </p>
+</div>

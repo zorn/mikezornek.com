@@ -1,0 +1,19 @@
+{{/*
+  Scannable focus pills for a client project on the consulting page.
+
+  Usage: {{< project-tags "Inherited codebase" "Upgrades" "Stability" >}}
+
+  The pills give a reader the shape of an engagement at a glance; the prose
+  below is there for whoever wants the detail. Keep the vocabulary small and
+  reuse existing terms rather than inventing a near-duplicate, so the same
+  words recur across projects and stay scannable.
+*/}}
+
+<div class="not-prose mt-1 mb-3 flex flex-wrap gap-1">
+  {{ range .Params }}
+    <span
+      class="rounded-full bg-purple-100 px-2 py-0.5 text-xs font-bold text-purple-800"
+      >{{ . }}</span
+    >
+  {{ end }}
+</div>

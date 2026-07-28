@@ -1,0 +1,34 @@
+{{/* Closing block for the consulting page. Ends on something the reader can take
+  and use rather than another request: the free first-week checklist. The one
+  contact line is framed as a follow-on to running it, so it reads as a next
+  step instead of a fourth "email me" on the same page.
+*/}}
+
+{{ $c := partial "consulting-classes.html" . }}
+
+
+<div class="{{ $c.card }} my-12">
+  <p class="{{ $c.eyebrow }}">Before you hire anyone</p>
+
+  <h2 class="mt-2 text-3xl font-bold">Run the checklist yourself.</h2>
+
+  <p class="mt-4 max-w-2xl text-lg leading-relaxed">
+    This is the list I work through in week one whenever I take over software I
+    did not write: what to check, what to write down, and what to leave alone
+    until you understand it. Free, and useful whether or not you ever hire me.
+  </p>
+
+  <a
+    href="/posts/2026/7/inherited-software-checklist/"
+    class="mt-5 {{ $c.cta }}"
+  >
+    Read the checklist
+  </a>
+
+  <p class="mt-5 text-base">
+    When you want a hand with what it turns up, write me at
+    <a href="mailto:mike@mikezornek.com" class="{{ $c.link }}">
+      mike@mikezornek.com
+    </a>
+  </p>
+</div>
