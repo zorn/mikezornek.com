@@ -106,46 +106,6 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 ## Technical Proficiencies
 
-<h3 class="not-prose font-bold">Expert</h3>
-
-<div class="flex items-center gap-1">
-{{< tag title=Elixir bgColor="bg-[#7673ce]" textColor="text-white" >}}
-{{< tag title=Phoenix bgColor="bg-[#ed8702]" textColor="text-white" >}}
-{{< tag title="LiveView" bgColor="bg-[#ed8702]" textColor="text-white" >}}
-</div>
-
-<h3 class="not-prose font-bold mt-2">Experienced</h3>
-
-<div class="flex items-center gap-1">
-{{< tag title="Absinthe/GraphQL" bgColor="bg-[#7673ce]" textColor="text-white" >}}
-{{< tag title=Tailwind bgColor="bg-[#38bdf8]" textColor="text-white" >}}
-{{< tag title="GitHub Actions" bgColor="bg-[#000000]" textColor="text-white" >}}
-{{< tag title="Postgres" bgColor="bg-[#316192]" textColor="text-white" >}}
-{{< tag title="Oban" bgColor="bg-[#186328]" textColor="text-white" >}}
-</div>
-
-<h3 class="not-prose font-bold mt-2">Beginner</h3>
-
-<div class="flex items-center gap-1">
-{{< tag title="CQRS/Event Sourcing" bgColor="bg-red-500" textColor="text-white" >}}
-{{< tag title="Ash Framework" bgColor="bg-[#ed8702]" textColor="text-white" >}}
-{{< tag title=Rust bgColor="bg-[#f74b00]" textColor="text-white" >}}
-{{< tag title="Docker" bgColor="bg-[#2088ff]" textColor="text-white" >}}
-{{< tag title="Svelte" bgColor="bg-[#f35124]" textColor="text-white" >}}
-{{< tag title="SvelteKit" bgColor="bg-[#f35124]" textColor="text-white" >}}
-{{< tag title="React" bgColor="bg-[#005466]" textColor="text-white" >}}
-</div>
-
-<h3 class="not-prose font-bold mt-2">Historical</h3>
-
-<div class="flex items-center gap-1">
-{{< tag title="Objective-C" bgColor="bg-[#349eff]" textColor="text-white" >}}
-{{< tag title=Swift bgColor="bg-[#f04e29]" textColor="text-white" >}}
-{{< tag title="MacOS" bgColor="bg-[#2a5099]" textColor="text-white" >}}
-{{< tag title="iOS" bgColor="bg-[#000000]" textColor="text-white" >}}
-{{< tag title="Ruby on Rails" bgColor="bg-[#dc0000]" textColor="text-white" >}}
-{{< tag title="PHP" bgColor="bg-[#617cbe]" textColor="text-white" >}}
-{{< tag title="Perl" bgColor="bg-[#0196c1]" textColor="text-white" >}}
-</div>
+{{< consulting-proficiencies >}}
 
 {{< consulting-contact-buttons >}}
