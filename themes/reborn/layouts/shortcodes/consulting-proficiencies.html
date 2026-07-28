@@ -22,8 +22,12 @@
 
 
 <div class="not-prose my-6">
+  {{/* The gradient reads as a left-to-right scale only while the columns are
+    side by side. Below `md` the grid stacks and the bar would span the full
+    width while the ranking runs downward, so it is hidden there.
+  */}}
   <div
-    class="h-2 w-full rounded-full bg-gradient-to-r from-purple-600 via-purple-300 to-gray-200"
+    class="hidden h-2 w-full rounded-full bg-gradient-to-r from-purple-600 via-purple-300 to-gray-200 md:block"
   ></div>
 
   <div class="mt-3 grid gap-6 md:grid-cols-4">

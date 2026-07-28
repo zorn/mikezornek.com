@@ -1,23 +1,29 @@
+{{/* Availability banner, shown on every page except the consulting page it
+  points at. Amber rather than the site's purple so it reads as a notice and
+  does not blend into the header below it. The live dot is green-700 because
+  a brighter green vibrates against amber.
+*/}}
 {{ if ne .Title "Elixir Consulting" }}
-  <div class="bg-black text-white">
-    <div class="mx-auto max-w-screen-md text-center py-2.5 px-4">
-      <a
-        href="/elixir-consulting/"
-        class="inline-flex items-center gap-2 font-medium text-white hover:opacity-90"
-      >
+  <a
+    href="/elixir-consulting/"
+    class="block bg-amber-300 text-black no-underline hover:bg-amber-200"
+  >
+    <div class="mx-auto max-w-screen-md px-4 py-3 text-center">
+      <p class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
         <span class="relative flex h-2.5 w-2.5">
           <span
-            class="absolute inline-flex h-full w-full motion-safe:animate-ping motion-reduce:hidden rounded-full bg-green-400 opacity-75"
+            class="absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75 motion-safe:animate-ping motion-reduce:hidden"
           ></span>
           <span
-            class="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500"
+            class="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-700"
           ></span>
         </span>
-        Available now for Elixir &amp; web development
-        <span class="underline">let's talk&nbsp;&rarr;</span>
-      </a>
+        <span class="text-lg font-bold">Available now for Elixir work.</span>
+        <span class="text-lg">Two weeks. One problem. $6,000.</span>
+        <span class="text-lg font-bold underline">Details &rarr;</span>
+      </p>
     </div>
-  </div>
+  </a>
 {{ end }}
 
 
@@ -49,17 +55,23 @@
     {{ with .Site.Menus.main }}
       <nav>
         <div class="mb-12">
-          <ol class="my-4 flex list-none flex-wrap items-center gap-x-4 gap-y-1">
+          <ol
+            class="my-4 flex list-none flex-wrap items-center gap-x-4 gap-y-1"
+          >
             {{ range . }}
               <li
-                class="font-[Ubuntu] text-xl font-bold{{ if eq .URL "/random/" }} md:ml-auto{{ end }}"
+                class="font-[Ubuntu] text-xl font-bold{{ if eq .URL "/random/" }}
+                  md:ml-auto
+                {{ end }}"
               >
                 <a
                   class="{{ if (eq .Name $currentSectionHighlight) }}
                     border-b-8 pb-1 border-purple-700
                   {{ end }}"
                   href="{{ .URL | relURL }}"
-                  {{- with .Title }} title="{{ . }}" aria-label="{{ . }}"{{ end }}
+                  {{- with .Title }}
+                    title="{{ . }}" aria-label="{{ . }}"
+                  {{ end }}
                 >
                   {{ .Name }}
                 </a>
