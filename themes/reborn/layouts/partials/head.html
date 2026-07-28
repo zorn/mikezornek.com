@@ -17,6 +17,9 @@
   <meta name="fediverse:creator" content="{{ . }}">
 {{ end }}
 
+
+<link rel="canonical" href="{{ .Permalink }}">
+
 {{ template "_internal/twitter_cards.html" . }}
 
 {{ with .Site.Params.author.name }}
@@ -28,17 +31,38 @@
 {{- end }}
 
 
+<!-- Privacy-friendly analytics by Plausible -->
 <script
-  defer
-  data-domain="mikezornek.com"
-  src="https://plausible.io/js/script.file-downloads.outbound-links.js"
+  async
+  src="https://plausible.io/js/pa-Gwiat_BEp46VFL880jKBR.js"
 ></script>
 <script>
   window.plausible =
     window.plausible ||
     function () {
-      (window.plausible.q = window.plausible.q || []).push(arguments);
+      (plausible.q = plausible.q || []).push(arguments);
     };
+  plausible.init =
+    plausible.init ||
+    function (i) {
+      plausible.o = i || {};
+    };
+  // Report every pageview under the page's Hugo-generated canonical URL so
+  // trailing-slash variants (e.g. /post vs /post/) collapse into one row.
+  // Falls back to the URL as-loaded if no canonical link is present.
+  plausible.init({
+    transformRequest: function (payload) {
+      try {
+        var canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical && canonical.href) {
+          var target = new URL(canonical.href);
+          target.search = new URL(payload.u).search;
+          payload.u = target.toString();
+        }
+      } catch (e) {}
+      return payload;
+    },
+  });
 </script>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

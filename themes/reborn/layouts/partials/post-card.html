@@ -2,13 +2,17 @@
   Richer post listing item: title, date, series link, summary, tags.
 
   @context {dict}
-    page       {page}   The post to render. (required)
-    hideSeries {bool}   Omit the series link (e.g. on a series page). (optional)
+    page         {page}   The post to render. (required)
+    hideSeries   {bool}   Omit the series link (e.g. on a series page). (optional)
+    headingLevel {string} Heading tag for the title, e.g. "h2". Default "h3" —
+                          set to match the card's nesting depth on the page so the
+                          heading outline never skips a level. (optional)
 
   @example: {{ partial "post-card.html" (dict "page" .) }}
 */ -}}
 {{- $p := .page }}
 {{- $hideSeries := .hideSeries }}
+{{- $heading := .headingLevel | default "h3" }}
 
 {{- /* Prefer the front-matter description; ignore the placeholder; else auto-summary. */}}
 {{- $summary := $p.Description }}
@@ -18,11 +22,11 @@
 <article
   class="not-prose mb-5 rounded-lg border border-gray-200 border-l-4 border-l-purple-500 bg-white p-5 shadow-xs transition hover:border-purple-300 hover:border-l-purple-600 hover:shadow-md"
 >
-  <h3 class="mt-0 mb-1 text-xl leading-snug font-semibold">
+  {{ printf `<%s class="mt-0 mb-1 text-xl leading-snug font-semibold">` $heading | safeHTML }}
     <a class="text-purple-700 hover:underline" href="{{ $p.RelPermalink }}">
       {{ $p.Title }}
     </a>
-  </h3>
+  {{ printf "</%s>" $heading | safeHTML }}
 
   <p class="mb-1 text-sm text-gray-600">
     <time datetime="{{ $p.Date.Format "2006-01-02" }}">

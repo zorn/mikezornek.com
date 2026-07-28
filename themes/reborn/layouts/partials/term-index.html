@@ -1,0 +1,23 @@
+{{- /*
+  Renders an ordered taxonomy as a vertical index: one term per row, name on the
+  left and post count on the right. A calmer alternative to term-pills.html for
+  narrow sidebar columns (e.g. the blog-index browse panel).
+
+  @context the ordered taxonomy slice (e.g. site.Taxonomies.tags.ByCount).
+
+  @example: {{ partial "term-index.html" site.Taxonomies.tags.ByCount
+}}
+*/ -}}
+<ul class="not-prose flex list-none flex-col pl-0">
+  {{- range . }}
+    <li>
+      <a
+        class="flex items-baseline justify-between gap-2 border-t border-gray-200 py-1 text-sm text-purple-700 no-underline first:border-t-0 hover:text-purple-900"
+        href="{{ .Page.RelPermalink }}"
+      >
+        <span>{{ .Page.Title }}</span>
+        <span class="text-xs text-gray-400 tabular-nums">{{ .Count }}</span>
+      </a>
+    </li>
+  {{- end }}
+</ul>

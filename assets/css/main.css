@@ -5,6 +5,12 @@ not the site. I've been unable to host them in the `themes` folder so far. */
 @plugin "@tailwindcss/typography";
 @source "hugo_stats.json";
 
+/* Keep inline code (e.g. slash-commands like /grill-with-docs) from breaking
+   across lines at their hyphens. Block code inside <pre> is unaffected. */
+.prose :not(pre) > code {
+  white-space: nowrap;
+}
+
 /* Download fonts: https://gwfh.mranftl.com/fonts/ubuntu?subsets=latin */
 
 /* ubuntu-regular - latin */

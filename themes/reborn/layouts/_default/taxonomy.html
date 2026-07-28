@@ -39,8 +39,9 @@
 
           {{ with .Content }}{{ . }}{{ end }}
 
+          {{/* Cards sit directly under this page's h1, so their title is an h2. */}}
           {{ range $pages }}
-            {{ partial "post-card.html" (dict "page" . "hideSeries" $isSeries) }}
+            {{ partial "post-card.html" (dict "page" . "hideSeries" $isSeries "headingLevel" "h2") }}
           {{ end }}
         {{ end }}
       </div>

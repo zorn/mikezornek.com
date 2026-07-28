@@ -42,6 +42,11 @@
           {{ .Content }}
         </div>
 
+        {{/* Newsletter signup (blog posts only, right after the content) */}}
+        {{ if eq .Section "posts" }}
+          {{ partial "newsletter-signup.html" . }}
+        {{ end }}
+
         {{/* In-series prev/next (reading-order series only) */}}
         {{ partial "series-nav.html" . }}
 

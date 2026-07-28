@@ -24,6 +24,14 @@
 
   <script>
     (function () {
+      // Record the missing URL to Plausible as a custom "404" event so broken
+      // links and bad guesses show up in the dashboard, broken down by path.
+      if (typeof window.plausible === 'function') {
+        window.plausible('404', {
+          props: { path: location.pathname },
+        });
+      }
+
       // Guess search terms from the requested path, e.g.
       // /posts/2019/1/code-consistency-with-swiftlint/ -> "code consistency with swiftlint"
       var skip = { posts: 1, tags: 1, series: 1, projects: 1, page: 1, random: 1 };

@@ -1,0 +1,25 @@
+{{- /*
+  Renders the Start Here list from data/start-here.yaml as open content: an
+  <h2> heading, a lead line, and the entries divided by hairlines, with no
+  background or border of its own.
+
+  Resolves each entry's logical path to a Page and skips any that no longer
+  resolve. Renders nothing at all when the list is empty (empty-state guard) so
+  no bare heading or panel ever appears.
+
+  Takes no context — the heading, lead, and heading levels are fixed here since
+  every caller renders the same list the same way.
+
+  @example: {{ partial "start-here-list.html" . }}
+*/ -}}
+{{- with (index hugo.Data "start-here").posts }}
+  <div class="not-prose mb-6">
+    <h2 class="mt-0 mb-1 text-xl font-semibold">Start Here</h2>
+    <p class="mt-0 mb-2 text-gray-700">New here? Here are some quality posts to get you started.</p>
+    {{- range $entry := . }}
+      {{- with (site.GetPage $entry.path) }}
+        {{ partial "start-here-card.html" (dict "page" . "note" $entry.note "headingLevel" "h3") }}
+      {{- end }}
+    {{- end }}
+  </div>
+{{- end }}

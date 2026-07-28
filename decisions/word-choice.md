@@ -25,3 +25,23 @@ single rule with no exceptions and reads as current tech voice.
 - ✅ lifecycle management
 - ❌ the software life cycle
 - ❌ a life-cycle analysis
+
+---
+
+## em dashes
+
+**Preferred:** avoid the em dash (`—`) and its double-hyphen stand-in (` -- `)
+as a default connector. Reach for a comma, colon, parentheses, or a full stop
+instead.
+
+**Why:** Heavy em-dash use reads as an AI tell and drifts away from Mike's own
+voice. This is a *tone-down*, not an absolute ban — an occasional dash for a
+genuine aside is fine, but it should be a deliberate choice, not the reflex
+punctuation for every clause break.
+
+**Examples:**
+
+- ✅ Everything I do to keep a codebase healthy (the CI checks, the standards
+  files) is in service of one thing.
+- ✅ Here are the four attributes I look for, and the practices that protect them.
+- ❌ Everything I do -- the CI checks, the standards files -- is in service of one thing.

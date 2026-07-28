@@ -55,6 +55,7 @@ function executeSearch(searchQuery) {
         response.json().then(function (pages) {
             var fuse = new Fuse(pages, fuseOptions);
             var result = fuse.search(searchQuery);
+            trackSearch(searchQuery, result.length);
             if (result.length > 0) {
                 populateResults(result);
             } else {
@@ -65,6 +66,31 @@ function executeSearch(searchQuery) {
         .catch(function (err) {
             console.log('Fetch Error :-S', err);
         });
+    });
+}
+
+/**
+ * Reports a search to Plausible as a custom "Search" event. The `query`
+ * property (lowercased/trimmed so casing variants aggregate) shows what people
+ * look for; `results` captures the hit count so zero-result searches — the
+ * clearest signal of missing content — surface in the dashboard.
+ * @param {string} searchQuery - The term that was searched
+ * @param {number} resultCount - How many matches Fuse.js returned
+ */
+function trackSearch(searchQuery, resultCount) {
+    if (typeof window.plausible !== 'function') {
+        return;
+    }
+    var query = String(searchQuery).toLowerCase().trim();
+    if (!query) {
+        return;
+    }
+    window.plausible('Search', {
+        props: {
+            query: query,
+            results: resultCount,
+            has_results: resultCount > 0
+        }
     });
 }
 
