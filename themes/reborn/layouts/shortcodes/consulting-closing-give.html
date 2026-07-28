@@ -1,7 +1,14 @@
 {{/* Closing block for the consulting page. Ends on something the reader can take
-  and use rather than another request: the free first-week checklist. The one
-  contact line is framed as a follow-on to running it, so it reads as a next
-  step instead of a fourth "email me" on the same page.
+  and use rather than another request. The one contact line is framed as a
+  follow-on to using it, so it reads as a next step instead of a fourth
+  "email me" on the same page.
+
+  The give points at the AI-drift guardrails post rather than the first-week
+  inherited-software checklist. That checklist is written from the consultant's
+  side of a handoff (its own opening says so), and the visitor here is not
+  arriving at an unfamiliar codebase, they already own one. The guardrails post
+  is Elixir-specific, is a list of things they can turn on themselves this week,
+  and links every check to its real implementation.
 */}}
 
 {{ $c := partial "consulting-classes.html" . }}
@@ -10,19 +17,18 @@
 <div class="{{ $c.card }} my-12">
   <p class="{{ $c.eyebrow }}">Before you hire anyone</p>
 
-  <h2 class="mt-2 text-3xl font-bold">Run the checklist yourself.</h2>
+  <h2 class="mt-2 text-3xl font-bold">Steal my guardrails.</h2>
 
   <p class="mt-4 max-w-2xl text-lg leading-relaxed">
-    This is the list I work through in week one whenever I take over software I
-    did not write: what to check, what to write down, and what to leave alone
-    until you understand it. Free, and useful whether or not you ever hire me.
+    Every automated check I run on my own Elixir project, written up in one
+    place: compiler flags, Credo, Dialyzer, Sobelow, dependency audits, and the
+    CI wiring behind them. Each one links to how it is set up in a real repo, so
+    you can turn on the ones you are missing without me. Free, and useful
+    whether or not you ever hire me.
   </p>
 
-  <a
-    href="/posts/2026/7/inherited-software-checklist/"
-    class="mt-5 {{ $c.cta }}"
-  >
-    Read the checklist
+  <a href="/posts/2026/7/guarding-against-ai-drift/" class="mt-5 {{ $c.cta }}">
+    Read the writeup
   </a>
 
   <p class="mt-5 text-base">
