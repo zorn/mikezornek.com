@@ -69,11 +69,23 @@
             {{- if not (and .phrase (in .desc .phrase)) -}}
               {{- errorf "consulting-sprint-offer: focus %q sets a url but its phrase %q was not found in its desc" .name .phrase -}}
             {{- end -}}
-            {{- $link := printf "<a href=%q class=%q>%s</a>" .url $c.link .phrase -}}
-            {{/* Limited to the first occurrence: a phrase that appears twice
-              should link once, not turn into two identical links.
+            {{/* Split around the phrase and emit a real anchor between the two
+              halves, rather than building the tag as a string and disabling
+              escaping for the whole description with safeHTML. Hugo keeps
+              escaping the prose, so an ampersand or angle bracket in a
+              description can never produce broken markup. Rejoining everything
+              after the first part with the phrase means only the first
+              occurrence becomes a link.
             */}}
-            {{ replace .desc .phrase $link 1 | safeHTML }}
+            {{/* The trim markers are load-bearing: without them Prettier is
+              free to put the anchor on its own line, and that newline renders
+              as a space before whatever follows the phrase (", cut the…" would
+              become " , cut the…").
+            */}}
+            {{- $parts := split .desc .phrase -}}
+            {{- index $parts 0 -}}
+            <a href="{{ .url }}" class="{{ $c.link }}">{{ .phrase }}</a>
+            {{- delimit (after 1 $parts) .phrase -}}
           {{- else -}}
             {{ .desc }}
           {{- end -}}
