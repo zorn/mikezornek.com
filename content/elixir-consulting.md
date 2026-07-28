@@ -2,7 +2,7 @@
 title: Elixir Consulting
 sectionHighlight: Elixir Consulting
 layout: onepage
-description: Freelance software developer/consultant. Focusing on Elixir, Phoenix, teaching, and mentoring.
+description: Elixir and Phoenix consulting. Fixed-price two-week sprints at $6,000, or ongoing hourly work, for teams that need upgrades, stability, and senior review.
 images:
   - images/zorn_square.png
 aliases:
@@ -122,4 +122,4 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 {{< consulting-proficiencies >}}
 
-{{< consulting-contact-buttons >}}
+{{< consulting-closing-give >}}
