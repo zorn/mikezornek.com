@@ -3,45 +3,84 @@
   does not blend into the header below it. The live dot is green-700 because
   a brighter green vibrates against amber.
 */}}
-{{ if ne .Title "Elixir Consulting" }}
-  <a
-    id="availability-banner"
-    href="/elixir-consulting/"
-    class="block bg-amber-300 text-black no-underline hover:bg-amber-200"
-  >
-    <div class="mx-auto max-w-screen-md px-4 py-3 text-center">
-      <p class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
-        <span class="relative flex h-2.5 w-2.5">
-          <span
-            class="absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75 motion-safe:animate-ping motion-reduce:hidden"
-          ></span>
-          <span
-            class="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-700"
-          ></span>
-        </span>
-        <span class="text-lg font-bold">Available now for Elixir work.</span>
-        <span class="text-lg">{{ site.Params.sprint.headline }}</span>
-        <span class="text-lg font-bold underline">Details &rarr;</span>
-      </p>
-    </div>
-  </a>
+{{/* Looked up rather than hardcoded, so the banner's link target and the page
+  it hides itself on can never disagree, and neither breaks if the page is
+  renamed or retitled. If the page is missing entirely there is nothing worth
+  linking to, so the banner does not render at all.
+*/}}
+{{ with site.GetPage "/elixir-consulting" }}
+  {{ if ne $.RelPermalink .RelPermalink }}
+    <a
+      id="availability-banner"
+      href="{{ .RelPermalink }}"
+      class="block bg-amber-300 text-black no-underline hover:bg-amber-200"
+    >
+      <div class="mx-auto max-w-screen-md px-4 py-3 text-center">
+        <p class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+          <span class="relative flex h-2.5 w-2.5">
+            <span
+              class="absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75 motion-safe:animate-ping motion-reduce:hidden"
+            ></span>
+            <span
+              class="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-700"
+            ></span>
+          </span>
+          <span class="text-lg font-bold">Available now for Elixir work.</span>
+          <span class="text-lg">{{ site.Params.sprint.headline }}</span>
+          <span class="text-lg font-bold underline">Details &rarr;</span>
+        </p>
+      </div>
+    </a>
 
-  <script>
-    (function () {
-      // Record clicks on the availability banner as a Plausible custom event.
-      // The banner is site-wide, so `page` records which page the reader was
-      // on when the offer caught them, which is the interesting part.
-      var banner = document.getElementById("availability-banner");
-      if (!banner) return;
-      banner.addEventListener("click", function () {
-        if (typeof window.plausible === "function") {
-          window.plausible("Availability Banner", {
-            props: { page: location.pathname },
-          });
-        }
-      });
-    })();
-  </script>
+    <script>
+      (function () {
+        // Record clicks on the availability banner as a Plausible custom event.
+        // The banner is site-wide, so `page` records which page the reader was
+        // on when the offer caught them, which is the interesting part.
+        var banner = document.getElementById("availability-banner");
+        if (!banner) return;
+
+        banner.addEventListener("click", function (event) {
+          if (typeof window.plausible !== "function") return;
+
+          var props = { props: { page: location.pathname } };
+
+          // A click that is not a plain same-tab navigation (new tab, new
+          // window, download, or a handler that already cancelled) leaves this
+          // page intact, so the event has time to send on its own.
+          var opensElsewhere =
+            event.defaultPrevented ||
+            event.button !== 0 ||
+            event.metaKey ||
+            event.ctrlKey ||
+            event.shiftKey ||
+            event.altKey ||
+            banner.target === "_blank";
+
+          if (opensElsewhere) {
+            window.plausible("Availability Banner", props);
+            return;
+          }
+
+          // Otherwise the page is about to unload, which can cut the request
+          // short. Hold navigation until Plausible reports the event sent, with
+          // a short timeout so a blocked or slow analytics request can never
+          // strand the reader.
+          event.preventDefault();
+          var navigated = false;
+          var go = function () {
+            if (navigated) return;
+            navigated = true;
+            window.location = banner.href;
+          };
+
+          props.callback = go;
+          window.plausible("Availability Banner", props);
+          setTimeout(go, 500);
+        });
+      })();
+    </script>
+  {{ end }}
 {{ end }}
 
 

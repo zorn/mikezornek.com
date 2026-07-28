@@ -70,7 +70,10 @@
               {{- errorf "consulting-sprint-offer: focus %q sets a url but its phrase %q was not found in its desc" .name .phrase -}}
             {{- end -}}
             {{- $link := printf "<a href=%q class=%q>%s</a>" .url $c.link .phrase -}}
-            {{ replace .desc .phrase $link | safeHTML }}
+            {{/* Limited to the first occurrence: a phrase that appears twice
+              should link once, not turn into two identical links.
+            */}}
+            {{ replace .desc .phrase $link 1 | safeHTML }}
           {{- else -}}
             {{ .desc }}
           {{- end -}}
