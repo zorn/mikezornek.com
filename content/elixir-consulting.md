@@ -43,35 +43,49 @@ More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek
 
 ### 🧑‍🍳 Kitchen Display System
 
+{{< project-tags "Inherited codebase" "Upgrades" "Stability" >}}
+
 **My role and work:** Joined a company that took ownership of a mission-critical kitchen software platform (web/mobile ordering, kitchen terminals, in-person ordering kiosks, etc.) but did not have dedicated software people in-house. Helped strengthen the platform foundations through documentation and execution of upgrades; analyzed active crashes and reduced system error rate; modernized and decommissioned unneeded production hardware to reduce costs.  
 **Product Impact:** Maintained high uptime and correctness of the platform through updates and bug fixes. Improved overall confidence and tooling, allowing for ongoing feature additions.
 
 ### 🥇 Budget Proposal Approval System
+
+{{< project-tags "Feature delivery" "Documentation" >}}
 
 **My role and work:** Collaborated with product leadership to refine and document a complex business logic tree request, shaking out many edge case concerns. Crafted the full-stack execution of this vision in Elixir and LiveView.  
 **Product Impact:** Added a powerful feature to the client's budgeting product, allowing their customers to create custom rule-bound approval flows.
 
 ### 📊 Revenue and Expense Interactive Charts
 
+{{< project-tags "Feature delivery" "Test suite" >}}
+
 **My role and work:** Transformed custom chart concepts from the design team and executed them using the Highcharts charting library. Reworked internal data fetching modules to define new data shaping patterns and testing approaches.  
 **Product Impact:** With the addition of expressive and interactive visuals, customers have a greater sense of where the money is going.
 
 ### 🔒 Third-party Integrations for a Security Dashboard Platform
+
+{{< project-tags "API integrations" "Feature delivery" >}}
 
 **My role and work:** A security platform wanted to expand its integrations with popular vendors, including Zoom, Google, and Microsoft. I added OAuth authentication workflows and various platform API consumption to centralize a security vision for customer accounts.  
 **Product Impact:** Increased customer value in understanding what tools housed insecure accounts. Provided direct guidance on improving security and keeping it secure over time.
 
 ### 🧑‍⚕️ Ongoing Maintenance for HIPAA-compliant Healthcare Platform
 
+{{< project-tags "Inherited codebase" "Stability" "Feature delivery" >}}
+
 **My role and work:** Took ownership of a platform (web and mobile apps) previously built by a separate development agency. Shepherded it through a down development cycle, addressing bugs and adding features as needed. Nothing too sexy but honest work using a spread of tech, including Elixir, GraphQL, and React Native.  
 **Product Impact:** Maintained customer delivery of product during a major developer handoff. Provided confidence and relief to the non-technical founders who could rely on someone when problems arose.
 
 ### 🛠️ Ember.js to LiveView Conversion
 
+{{< project-tags "Upgrades" "Stability" >}}
+
 **My role and work:** Augmented a development team building SMS communication software and took ownership of converting some historic corners of the app that were still using Ember.js to a modern LiveView implementation. Some of these pages were rich CSV import flows, and care had to be taken related to maintain speed and stability.  
 **Product Impact:** By employing me as a consultant focused on technical debt, the full-time staff was able to focus on more involved and structural platform initiatives. By removing Ember.js, the build and delivery tech stack was greatly simplified.
 
 ### 🎓 Elixir Mentor to Java Converts
+
+{{< project-tags "Mentoring & code review" "API integrations" >}}
 
 **My role and work:** Augmented a full-time team that recently embraced Elixir and was actively converting the entire platform from Java to Elixir. I joined a team and helped mentor Java developers to master functional programming and Phoenix LiveView patterns. I also owned threads of work related to Facebook Marketplace API integrations.  
 **Product Impact:** The team greatly appreciated having Elixir-experienced people around for questions, feedback, and timely pull request code reviews.
