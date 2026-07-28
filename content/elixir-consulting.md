@@ -20,6 +20,10 @@ aliases:
 
 ## Testimonials
 
+> Something I particularly valued about Michael is that beyond being a great developer, he is also a very thoughtful strategist. Rather than focusing only on individual building blocks one at a time, he would always help us zoom out and consider the bigger picture [...] Then he would translate that strategy into action and take responsibility for that action. In sum, his skills and experience enable him to deliver the perfect blend of strategy and execution.
+
+<p class="mb-12">~ Anthony Citrano, 3x Founder / Executive Operator</p>
+
 > Michael's worked with us on multiple projects as a fractional engineering leader and I couldn't recommend him more highly. He's excellent at working with non-technical stakeholders and junior engineers alike, he's a great engineer, and a deep appreciation for context permeates all the work he does. He's also a really nice guy and very easy to work with. You should work with Mike if you get the chance.
 
 <p class="mb-12">~ Peter Berg, Founder at Forward</p>
@@ -27,12 +31,6 @@ aliases:
 > Zorn is a great Software Engineer, but also a great mentor to other Engineers on the team and an amazing partner and resource for Product teams. I would love to work with him again!
 
 <p class="mb-12">~ Robert Prehn, Fractional CTO & Tech Lead</p>
-
-> We would highly recommend Michael to anyone who would benefit from a senior software developer with an excellent technical approach, wide and deep knowledge as well as a great attitude.
->
-> Michael was a valuable contributor to our startup project. His feedback during code reviews was invaluable. He dramatically improved the quality of our code base. As if that wasn't enough, Michael did an excellent job leading by example in software development best practices, while demonstrating excellent initiative, and self management. We would gladly work with Michael again.
-
-<p class="mb-12">~ Taun Chapman, CTO & Co-founder at ROAR for Good</p>
 
 More testimonials available [on LinkedIn](https://www.linkedin.com/in/mikezornek/).
 
