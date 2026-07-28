@@ -39,5 +39,13 @@ hugo version
 # Return to project directory
 cd "$ORIGINAL_DIR"
 
+# Guard against dev-server URLs shipping to production. A link pasted from
+# `hugo server` is broken for every visitor, so fail the build instead.
+echo "Checking for dev-server URLs..."
+if grep -rn -E 'https?://(localhost|127\.0\.0\.1):1313' content static themes data; then
+  echo "ERROR: found dev-server URL(s) above. Use a root-relative link instead."
+  exit 1
+fi
+
 # Now you can add your Hugo build commands here
 hugo --logLevel info
