@@ -1,6 +1,7 @@
 ---
 title: "Video: An Introduction to Elixir"
 date: 2020-04-14T08:46:05-04:00
+description: Talk video and slides introducing Elixir, covering the language basics, what it is good for, and why it fits certain problems well.
 tags:
   - elixir
 ---

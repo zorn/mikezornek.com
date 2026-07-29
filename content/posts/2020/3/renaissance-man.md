@@ -1,6 +1,7 @@
 ---
 title: "Renaissance Man"
 date: 2020-03-16T15:39:04-04:00
+description: Bouncing between iOS, Go, C, and Kotlin on one client project, and why I think good programmers are better off knowing many languages.
 tags:
   - software-craft
 ---

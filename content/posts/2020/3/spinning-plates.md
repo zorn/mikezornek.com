@@ -1,6 +1,7 @@
 ---
 title: "Spinning Plates"
 date: 2020-03-01T22:06:55-05:00
+description: A personal update on new iOS contract work, side project progress, and the plates I am trying to keep spinning this month.
 series:
   - Journals
 ---

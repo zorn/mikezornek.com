@@ -1,6 +1,7 @@
 ---
 title: "Things Change Fast"
 date: 2020-03-26T10:54:14-04:00
+description: My personal record of how fast early 2020 changed, from canceled conference trips to a household settling into lockdown.
 series:
   - Journals
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Apple's EU Antitrust Investigation is Long Overdue"
 date: 2020-06-16T17:58:01-04:00
+description: The EU opened formal antitrust investigations into Apple's App Store rules. My take on why the scrutiny is long overdue.
 tags:
   - apple
 ---

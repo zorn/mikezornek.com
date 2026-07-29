@@ -1,6 +1,7 @@
 ---
 title: "Swift UInt vs Int"
 date: 2020-04-09T15:23:36-04:00
+description: Why I am tempted to return Swift's UInt for values that can never be negative, even though the community leans on Int.
 tags:
   - ios
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Consulting Availability"
 date: 2020-03-20T11:39:29-04:00
+description: My client project wraps April 1st, so I have consulting availability again. Here is the kind of work that fits me best.
 tags:
   - consulting
 ---

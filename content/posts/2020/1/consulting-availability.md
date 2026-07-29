@@ -1,6 +1,7 @@
 ---
 title: "iOS and Web Consulting Availability"
 date: 2020-01-03T10:53:23-05:00
+description: I have consulting availability opening up. Here are the kinds of iOS, Elixir, and CI projects that tend to be a good fit for me.
 tags:
   - consulting
 ---

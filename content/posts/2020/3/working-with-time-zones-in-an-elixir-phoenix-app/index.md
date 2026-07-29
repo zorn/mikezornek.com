@@ -1,6 +1,7 @@
 ---
 title: "Video: Working With Time Zones in an Elixir Phoenix App"
 date: 2020-03-19T11:14:21-04:00
+description: Talk video and slides on what time zones are, how Elixir models them, and strategies for handling them in a Phoenix app backed by Ecto.
 tags:
   - elixir
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Clubhouse is Now Guildflow"
 date: 2020-06-19T11:38:06-04:00
+description: My meetup project has a new name. Why Campfire and Clubhouse did not survive the trademark checks, and what Guildflow means.
 tags:
   - side-projects
 ---

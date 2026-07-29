@@ -1,6 +1,7 @@
 ---
 title: "Zoom / Google Hangout Alternatives"
 date: 2020-03-27T14:02:41-04:00
+description: Zoom and Google Hangouts both leave me uneasy. A running list of video conferencing alternatives that better respect user privacy.
 tags:
   - privacy
 ---

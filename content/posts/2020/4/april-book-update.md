@@ -1,6 +1,7 @@
 ---
 title: "April Book Update"
 date: 2020-04-16T09:54:46-04:00
+description: "Three books worth your time, from a slow reader: Snowden's Permanent Record, Swift for Good, and Mike Monteiro's Ruined by Design."
 tags:
   - books
 ---
