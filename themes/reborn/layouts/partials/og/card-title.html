@@ -1,0 +1,30 @@
+{{- /*
+  The title printed on a page's social card, which is not always the page's own
+  title.
+
+  Two pages have a title that works as navigation and fails as a card, and only
+  those two are special-cased. Everything else renders `.Title` as authored, so
+  authored titles stay authoritative. See decisions/og-images.md.
+
+  Note this affects the card image only. The `og:title` meta tag still carries
+  the page's real title, because that is what a reader is choosing to click.
+  */ -}}
+
+{{- $title := .Title -}}
+
+{{- if .IsHome -}}
+  {{- /* The home page title is deliberately "Mike Zornek" (see
+    decisions/page-metadata.md), which is the same words as the wordmark
+    printed directly above it on the card. */ -}}
+  {{- $title = "Elixir, Phoenix, and the craft of shipping software" -}}
+{{- else if and (eq .Kind "term") (eq .Data.Plural "tags") -}}
+  {{- /* `capitalizeListTitles: false` keeps tag terms as authored, so these
+    titles are bare lowercase words. A card reading just "elixir" lands as a
+    stray fragment rather than a destination.
+
+    Series terms are deliberately excluded: their titles are authored and
+    capitalised ("Journals", "31 Days 31 Products") and read fine alone. */ -}}
+  {{- $title = printf "Posts tagged %s" .Title -}}
+{{- end -}}
+
+{{- return $title -}}

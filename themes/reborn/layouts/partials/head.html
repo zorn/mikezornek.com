@@ -24,10 +24,17 @@
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* Open Graph is what Mastodon, Bluesky, LinkedIn, Slack, and Discord read.
-  Twitter cards stay alongside it for the venues that only speak that.
+  The embedded template owns everything except the image.
 */}}
-{{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
+
+{{/* `og:image` for pages without one of their own, plus the Twitter block.
+  `_internal/twitter_cards.html` is deliberately not used here: it hardcodes
+  `twitter:card` to `summary` whenever a page has no authored image, which is
+  the wrong claim once every page carries a generated 1200x630 card. See
+  decisions/og-images.md.
+*/}}
+{{ partial "og/social-image.html" . }}
 
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}">

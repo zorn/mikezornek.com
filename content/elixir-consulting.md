@@ -3,8 +3,6 @@ title: Elixir Consulting
 sectionHighlight: Elixir Consulting
 layout: onepage
 description: Elixir and Phoenix consulting. Fixed-price two-week sprints at $6,000, or ongoing hourly work, for teams that need upgrades, stability, and senior review.
-images:
-  - images/zorn_square.png
 aliases:
   - /for-hire/
   - /posts/2022/8/elixir-consulting-availability/

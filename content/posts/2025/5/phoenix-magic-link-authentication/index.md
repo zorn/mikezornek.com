@@ -3,7 +3,7 @@ title: "A Visual Tour of Phoenix's Updated 'magic link' Authentication Code Gene
 date: 2025-05-27T08:00:00-04:00
 description: A visual tour of how `phx.gen.auth` looks to the user, what the core schemas/contexts look like, and I'll sprinkle in some personal commentary as we go.
 images:
-  - posts/2025/5/phoenix-magic-link-authentication-review/2_register_form.png
+  - posts/2025/5/phoenix-magic-link-authentication/2_register_form.png
 pain: "a junior dev needs to add user authentication and is aware of the `mix phx.gen.auth` tasks but is not sure what to expect"
 fix: "a high level technical overview of the core schemas and contexts at play; share a visual demonstrations and review of how it works"
 pain2: "a senior dev who is already comfortable with `mix phx.gen.auth` is interested in learning what has changed in version 1.8 and what magic links are all about"

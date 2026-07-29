@@ -1,0 +1,54 @@
+{{- /*
+  The work list for `bin/og-images.mjs`, written to `public/og-manifest.json`.
+
+  One row per page that needs a generated social card: where to write the file,
+  and the words to put on it. Pages that already resolve an image of their own
+  are skipped, because an authored image wins (see decisions/og-images.md).
+
+  `path` comes from the same `og/card-path` partial that `head.html` uses to
+  emit the `og:image` URL, so the file the generator writes and the URL the page
+  advertises cannot disagree.
+
+  `plainify | htmlUnescape` matches the treatment in `head.html`. Without the
+  `htmlUnescape`, a title containing an entity ships it literally and the card
+  renders visible `&rsquo;` text.
+*/ -}}
+{{- /* Ranges `site.Pages`, which excludes pages built with `build.list: never`.
+    Today the only one is `content/random.md`, and that is correct: it has a
+    standalone layout that never loads `head.html`, emits no social tags at all,
+    and is marked noindex, so a card for it would be referenced by nothing.
+
+    A future `list: never` page that DOES use `head.html` would advertise a card
+    this manifest never asked for. That is a real hazard and it is guarded rather
+    than prevented: bin/verify-og-images.mjs fails the build on any page whose
+    `og:image` does not resolve, so the gap surfaces as a red build instead of a
+    broken share. `.Params.build` reads as nil from a template, so there is no
+    way to detect these pages here. */ -}}
+{{- $cards := slice -}}
+{{- range site.Pages -}}
+  {{- if not (partial "og/has-authored-image" .) -}}
+    {{- $cards = $cards | append (dict
+      "path" (partial "og/card-path" .)
+      "url" .RelPermalink
+      "title" (partial "og/card-title" . | plainify | htmlUnescape)
+      "description" (.Description | plainify | htmlUnescape)
+    ) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* The static card, which the 404 page points at and which every failed
+    render falls back to. Its words come from the home page, so it cannot drift
+    from the site's own identity card and the generator does not have to carry a
+    second copy of this wording in JavaScript.
+
+    The path is built here rather than through `og/card-path`, because that
+    partial keys the default off `.Kind` and there is no 404 page object to hand
+    it. Both read `params.ogCardVersion`, so a version bump still happens in one
+    place; only the filename itself is stated twice, in these two templates. */ -}}
+{{- $default := dict
+  "path" (printf "og/%s/default.png" (site.Params.ogCardVersion | default "v1"))
+  "title" (partial "og/card-title" site.Home | plainify | htmlUnescape)
+  "description" (site.Home.Description | plainify | htmlUnescape)
+-}}
+
+{{- dict "default" $default "cards" $cards | jsonify -}}
