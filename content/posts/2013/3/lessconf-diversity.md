@@ -1,6 +1,7 @@
 ---
 title: LessConf Diversity
 date: 2013-03-14T19:51:58+00:00
+description: I called a LessConf diversity post pretentious and was asked to explain myself. This is the line-by-line explanation.
 aliases: /2013/03/14/lessconf-diversity/
 tags:
   - conferences

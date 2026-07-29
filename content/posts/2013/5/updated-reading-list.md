@@ -1,6 +1,7 @@
 ---
 title: Updated Reading List
 date: 2013-05-05T20:34:21+00:00
+description: I refreshed my reading list page. Take a look, and send recommendations if you have any.
 aliases: /2013/05/05/updated-reading-list/
 tags:
   - books

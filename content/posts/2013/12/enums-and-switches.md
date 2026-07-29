@@ -1,6 +1,7 @@
 ---
 title: Enums and Switches
 date: 2013-12-29T17:31:47+00:00
+description: If you branch on an enum, use a switch statement. The compiler will then tell you when you forget to handle a new case.
 aliases: /2013/12/29/enums-and-switches/
 tags:
   - ios

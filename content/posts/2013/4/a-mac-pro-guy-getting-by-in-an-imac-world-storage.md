@@ -1,6 +1,7 @@
 ---
 title: "A Mac Pro Guy Getting By in an iMac World: Storage"
 date: 2013-04-17T04:39:47+00:00
+description: I retired my Mac Pro for a 27-inch iMac and lost all those drive bays. How I solved storage without them.
 aliases: /2013/04/16/a-mac-pro-guy-getting-by-in-an-imac-world-storage/
 tags:
   - apple

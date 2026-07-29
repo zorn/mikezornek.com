@@ -1,6 +1,7 @@
 ---
 title: "Star Trek: Into Darkness, Nitpicks and Plot Holes"
 date: 2013-05-27T03:50:06+00:00
+description: Spoiler country. My running list of nitpicks and plot holes in Star Trek Into Darkness, starting with Khan's blood.
 aliases: /2013/05/26/star-trek-into-darkness-nitpicks-and-plot-holes/
 tags:
   - reviews

@@ -1,6 +1,7 @@
 ---
 title: November 12, 1955
 date: 2013-02-19T21:31:25+00:00
+description: On the cosmic significance of November 12, 1955, and the Back to the Future quote that has lived in my head ever since.
 aliases: /2013/02/19/november-12-1955/
 series:
   - Journals

@@ -1,6 +1,7 @@
 ---
 title: The End of Google Reader
 date: 2013-03-14T00:00:00+00:00
+description: Google Reader shuts down July 1st and the apps built on it are in trouble. Part of why I started CB Reader.
 aliases: /2013/03/13/the-end-of-google-reader/
 tags:
   - side-projects

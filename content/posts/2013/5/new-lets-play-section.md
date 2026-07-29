@@ -1,6 +1,7 @@
 ---
 title: New Let’s Play Section
 date: 2013-05-06T15:38:17+00:00
+description: I added a Let's Play index to the site. What LPs are, and the channels I keep coming back to.
 aliases: /2013/05/06/new-lets-play-section/
 tags:
   - gaming

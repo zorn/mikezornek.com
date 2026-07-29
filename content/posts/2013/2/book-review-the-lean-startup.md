@@ -1,6 +1,7 @@
 ---
 title: "Book Review: The Lean Startup"
 date: 2013-02-25T19:16:54+00:00
+description: A review of Eric Ries's The Lean Startup, read while deciding what project to take on after selling ProfitTrain.
 aliases: /2013/02/25/book-review-the-lean-startup/
 tags:
   - books

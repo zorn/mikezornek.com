@@ -1,6 +1,7 @@
 ---
 title: Xcode Bots and Branches
 date: 2013-12-13T02:58:05+00:00
+description: A quick tip. Xcode 5 assumes a new Bot runs on your current branch, and you change that from the Bot web interface.
 aliases: /2013/12/12/xcode-bots-and-branches/
 tags:
   - devops

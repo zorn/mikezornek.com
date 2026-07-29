@@ -1,6 +1,7 @@
 ---
 title: WWDC Student Scholarships
 date: 2013-04-29T23:17:59+00:00
+description: WWDC 2013 sold out fast, but students still have Apple's scholarship program. I went on one, so apply by May 2nd.
 aliases: /2013/04/29/wwdc-student-scholarships/
 tags:
   - conferences

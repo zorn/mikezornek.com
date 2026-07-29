@@ -1,6 +1,7 @@
 ---
 title: CB Reader Intro Video and Feature Survey
 date: 2013-03-23T01:16:46+00:00
+description: The CB Reader intro video is up, along with a feature survey to help me work out what has to make the first launch.
 aliases: /2013/03/22/cb-reader-intro-video-and-feature-survey/
 tags:
   - side-projects

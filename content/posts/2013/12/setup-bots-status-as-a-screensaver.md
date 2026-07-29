@@ -1,6 +1,7 @@
 ---
 title: Setup Bots Status as a Screensaver
 date: 2013-12-13T03:55:24+00:00
+description: Retire the family photo screensaver and put your CI status up on the big screen. The screensaver and setup I use.
 aliases: /2013/12/12/setup-bots-status-as-a-screensaver/
 tags:
   - devops

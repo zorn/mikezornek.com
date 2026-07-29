@@ -1,6 +1,7 @@
 ---
 title: Panic’s Status Board for iPad
 date: 2013-04-24T20:39:42+00:00
+description: A first look at Panic's Status Board for iPad, and why the free-form widgets are where the real power sits.
 aliases: /2013/04/24/panics-status-board-for-ipad/
 tags:
   - reviews

@@ -1,6 +1,7 @@
 ---
 title: Announcing a New Project, CB Reader
 date: 2013-03-07T20:29:06+00:00
+description: Announcing CB Reader, a project to centralize your incoming articles and organize them by semantic analysis and social signals.
 aliases: /2013/03/07/announcing-a-new-project-cb-reader/
 tags:
   - side-projects

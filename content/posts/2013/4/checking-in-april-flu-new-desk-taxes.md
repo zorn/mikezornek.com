@@ -1,6 +1,7 @@
 ---
 title: "Checking In: April Flu, New Desk, Taxes"
 date: 2013-04-10T21:17:48+00:00
+description: A quiet few weeks. A stomach bug, a new desk that tore up the office, tax paperwork, and some Starcraft 2.
 aliases: /2013/04/10/checking-in-april-flu-new-desk-taxes/
 series:
   - Journals

@@ -1,6 +1,7 @@
 ---
 title: Podcast Idea
 date: 2013-11-28T01:54:42+00:00
+description: A podcast I want to exist. Merge Conflicts, where two guests debate Cocoa choices like Core Data versus custom SQL.
 aliases: /2013/11/27/podcast-idea/
 ---
 
