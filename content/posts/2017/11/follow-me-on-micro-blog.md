@@ -1,6 +1,7 @@
 ---
 title: Follow Me on Micro.Blog
 date: 2017-11-07T18:31:33+00:00
+description: I have been leaning toward Micro.blog over Twitter lately, helped along by the new Mac client. Come find me over there.
 aliases: /2017/11/07/follow-me-on-micro-blog/
 ---
 

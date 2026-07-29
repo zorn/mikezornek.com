@@ -1,6 +1,7 @@
 ---
 title: Fever Dreams
 date: 2017-02-07T02:11:31+00:00
+description: A few days lost to a sinus and chest cold, some strange feverish dreams, and a reminder that your health is worth appreciating.
 aliases: /2017/02/06/fever-dreams/
 series:
   - Journals

@@ -1,6 +1,7 @@
 ---
 title: "Video: UIKit is Dead, Long Live UIKit!"
 date: 2017-05-08T17:52:22+00:00
+description: A lightning talk video on how UIKit's MVC heritage became a bottleneck for new ideas, and what might replace it in the years ahead.
 aliases: /2017/05/08/video-uikit-is-dead-long-live-uikit/
 tags:
   - ios

@@ -1,6 +1,7 @@
 ---
 title: Philly Blockchain Tech Meetup
 date: 2017-11-01T14:41:47+00:00
+description: Ben DiFrancesco is starting Philly Blockchain Tech, a new local meetup. Details on the first meeting and what it will cover.
 aliases: /2017/11/01/philly-blockchain-tech-meetup/
 tags:
   - meetups

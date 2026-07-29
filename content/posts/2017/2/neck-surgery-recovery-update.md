@@ -1,6 +1,7 @@
 ---
 title: Neck Surgery Recovery Update
 date: 2017-02-13T19:53:35+00:00
+description: My neck surgery ran longer than planned but was a success. An update on the cyst, the stitches, and the recovery ahead.
 aliases: /2017/02/13/neck-surgery-recovery-update/
 series:
   - Journals
