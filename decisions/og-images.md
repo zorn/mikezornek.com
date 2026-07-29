@@ -49,7 +49,22 @@ regenerates everything. The generation step therefore times itself and prints
 the duration, so the Render log reports the real number against that budget
 rather than us guessing at it.
 
-If that number turns out to be bad, the documented escape hatch is
+**Measured on the first production deploy (2026-07-29): 9.1 seconds for 444
+cards, 20.4ms each.** Locally the same run takes 7.0s at 15.9ms, so Render's
+two-CPU builder is roughly 30% slower, which is unremarkable. Against a budget
+of 500 pipeline minutes a month, nine seconds a deploy is not a number worth
+optimising: even a hundred deploys in a month spends about fifteen minutes of it
+on cards. The question this entry was written to answer is settled, and the
+answer is that it does not matter.
+
+Two things that deploy also confirmed. `Cleaned │ 0` in Hugo's summary shows
+`--cleanDestinationDir` is a no-op on Render, because every build starts from a
+fresh checkout; it earns its place for local runs only. And the native takumi
+binary resolved on `linux/amd64` without incident, which retires the sharpest
+risk in the research note: there is no Rust toolchain on the build image, so a
+missing prebuilt binary would have failed the deploy outright.
+
+If that number ever does turn bad, the documented escape hatch is
 `$XDG_CACHE_HOME`, which Render persists between builds. Note the research flags
 it as undocumented for static sites specifically, so it is a lead, not a plan.
 
