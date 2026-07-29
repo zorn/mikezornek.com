@@ -1,6 +1,7 @@
 ---
 title: ElixirConf 2018 Notes
 date: 2018-09-09T19:54:59+00:00
+description: Notes from ElixirConf 2018, and why Elixir is the ecosystem I settled on after years of sampling everything outside Apple's.
 aliases: /2018/09/09/elixirconf-2018-notes/
 tags:
   - conferences

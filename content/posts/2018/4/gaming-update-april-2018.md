@@ -1,6 +1,7 @@
 ---
 title: Gaming Update, April 2018
 date: 2018-04-05T00:57:29+00:00
+description: I quit World of Warcraft and immediately replaced it with Stardew Valley. An April update on the backlog I meant to be clearing.
 aliases: /2018/04/04/gaming-update-april-2018/
 tags:
   - gaming

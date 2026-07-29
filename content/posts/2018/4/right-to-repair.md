@@ -1,6 +1,7 @@
 ---
 title: Right to Repair
 date: 2018-04-11T15:00:54+00:00
+description: iOS 11.3 disabled iPhone 8 screens installed by third-party repair shops. Another disappointment from Apple on right to repair.
 aliases: /2018/04/11/right-to-repair/
 tags:
   - apple

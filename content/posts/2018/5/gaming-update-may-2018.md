@@ -1,6 +1,7 @@
 ---
 title: Gaming Update, May 2018
 date: 2018-05-18T15:15:35+00:00
+description: "A May gaming update: Stardew Valley winding down, a new Hearthstone expansion, and a second, better attempt at Zelda on Switch."
 aliases: /2018/05/18/gaming-update-may-2018/
 tags:
   - gaming

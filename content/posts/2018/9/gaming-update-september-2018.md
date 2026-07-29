@@ -1,6 +1,7 @@
 ---
 title: Gaming Update, September 2018
 date: 2018-09-26T00:24:04+00:00
+description: A September gaming update. Officially done with Hearthstone, a rogue leveled to 120, and unsubscribing right as the raid dropped.
 aliases: /2018/09/26/gaming-update-september-2018/
 tags:
   - gaming

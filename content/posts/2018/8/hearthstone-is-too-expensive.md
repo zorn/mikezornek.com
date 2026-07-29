@@ -1,6 +1,7 @@
 ---
 title: Hearthstone is too expensive.
 date: 2018-08-06T13:25:31+00:00
+description: Hearthstone went from expensive to ludicrous over the past year, so I am out. A short video on what pushed me over the line.
 aliases: /2018/08/06/hearthstone-is-too-expensive/
 tags:
   - gaming

@@ -1,6 +1,7 @@
 ---
 title: 2017 Retrospective
 date: 2018-01-04T04:22:45+00:00
+description: 2017 handed me a job loss and a neck surgery. How I rebooted self-employment under a new LLC and got things stable again.
 aliases: /2018/01/03/2017-retrospective/
 tags:
   - career

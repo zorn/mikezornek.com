@@ -1,6 +1,7 @@
 ---
 title: Hello from Linode
 date: 2018-04-07T19:20:26+00:00
+description: This blog has moved to a new Linode server, closing out an old account and $40 a month. Still on WordPress, for now.
 aliases: /2018/04/07/hello-from-linode/
 tags:
   - devops
