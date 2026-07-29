@@ -75,7 +75,7 @@ async function exists(path) {
 }
 
 // Maps an advertised URL back to the file that should satisfy it. Returns null
-// for anything hosted elsewhere, which we cannot and should not check.
+// for anything on another host, which cannot be checked from disk.
 function localPathFor(url, baseUrl) {
   if (!url.startsWith(baseUrl)) return null;
   const path = decodeURIComponent(url.slice(baseUrl.length)).replace(
@@ -114,7 +114,7 @@ async function main() {
     for (const [, tag, url] of matches) {
       const local = localPathFor(url, baseUrl);
       if (local === null) {
-        offsite.add(url);
+        offsite.add(`${page}  ${tag}  ->  ${url}`);
         continue;
       }
       checked += 1;
@@ -127,8 +127,6 @@ async function main() {
   log(
     `${pages} pages, ${checked} image URLs checked against ${baseUrl}, ${skipped} redirect/noindex pages skipped`,
   );
-  if (offsite.size > 0) log(`${offsite.size} off-site image URL(s) skipped`);
-
   let failed = false;
 
   // A run that checked nothing is a broken check, not a passing one. Without
@@ -151,6 +149,20 @@ async function main() {
     report("page(s) emit no og:image at all", missingImage);
   if (brokenUrls.length > 0) {
     report("image URL(s) point at a file that does not exist", brokenUrls);
+  }
+
+  // An image on another host cannot be checked from disk, so tolerating it
+  // would be a hole in the invariant rather than a convenience. No page on this
+  // site legitimately points elsewhere. In practice this fires when a stray
+  // `hugo server` has rewritten public/ with `localhost:1313` URLs, which is the
+  // built-output twin of the dev-server check bin/build.sh already runs over
+  // content. If a genuinely external image is ever wanted, allow it explicitly
+  // rather than by weakening this.
+  if (offsite.size > 0) {
+    report(
+      `image URL(s) point at another host, so nothing could verify them (expected ${baseUrl})`,
+      [...offsite],
+    );
   }
 
   if (failed) process.exit(1);
