@@ -6,7 +6,7 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+The feature I'd been chasing for two weeks finally landed and shipped. Here's that week, plus everything that happened around it.
 
 ## [Guildflow](/projects/guildflow/)
 

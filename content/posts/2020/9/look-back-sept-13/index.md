@@ -6,7 +6,7 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+It's easy to fixate on the one big feature that didn't quite make the deployment. Adding up the rest of the week tells a much better story.
 
 ## [Guildflow](/projects/guildflow/)
 

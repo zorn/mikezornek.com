@@ -6,8 +6,6 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
-
 I missed last week's update so consider this one a twofer.
 
 ## [Guildflow](/projects/guildflow/)

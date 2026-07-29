@@ -6,7 +6,7 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+Mostly a marketing week. Most of what I did was about getting Guildflow in front of people rather than adding anything to it.
 
 ## [Guildflow](/projects/guildflow/)
 

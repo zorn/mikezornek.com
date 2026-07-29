@@ -6,7 +6,7 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+A quieter week for Guildflow, since a new full time client project started up and took most of the oxygen. Here's how it shook out.
 
 ## [Guildflow](/projects/guildflow/)
 

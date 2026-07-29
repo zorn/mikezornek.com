@@ -6,7 +6,7 @@ series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+A good week for the work other people can see, and for a fair bit they never will. Adding it all up from last week.
 
 ## [Guildflow](/projects/guildflow/)
 
