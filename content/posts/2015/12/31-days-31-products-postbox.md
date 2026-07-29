@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Postbox"
 date: 2015-12-14T01:50:45+00:00
+description: Day 18 of 31 Days, 31 Products. Postbox, the mail client sitting on top of my heavily filtered Gmail setup.
 aliases: /2015/12/13/31-days-31-products-postbox/
 series:
   - 31 Days 31 Products

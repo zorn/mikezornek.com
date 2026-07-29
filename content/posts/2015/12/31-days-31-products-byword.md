@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Byword"
 date: 2015-12-04T01:38:20+00:00
+description: Day 10 of 31 Days, 31 Products. Byword, my Markdown editor of choice, plus a pitch for writing in Markdown at all.
 aliases: /2015/12/03/31-days-31-products-byword/
 series:
   - 31 Days 31 Products

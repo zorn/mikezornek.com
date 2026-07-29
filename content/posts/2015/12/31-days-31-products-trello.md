@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Trello"
 date: 2015-12-16T02:38:44+00:00
+description: Day 19 of 31 Days, 31 Products. Trello, an online Kanban board I have leaned on for years to see the flow of work.
 aliases: /2015/12/15/31-days-31-products-trello/
 series:
   - 31 Days 31 Products

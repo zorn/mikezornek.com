@@ -1,6 +1,7 @@
 ---
 title: Questions for Your Job Hunt
 date: 2015-02-10T03:45:49+00:00
+description: The list of questions I built up while job hunting, on culture, process, and pay, meant to tell me whether a company fits.
 aliases: /2015/02/09/questions-for-your-job-hunt/
 tags:
   - career

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: MindNode"
 date: 2015-11-24T22:42:19+00:00
+description: Day 01 of 31 Days, 31 Products. MindNode, the mind mapping tool I use to branch out from an idea and see where it goes.
 aliases: /2015/11/24/31-days-31-products-mindnode/
 series:
   - 31 Days 31 Products

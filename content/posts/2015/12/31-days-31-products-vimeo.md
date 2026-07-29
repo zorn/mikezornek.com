@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Vimeo"
 date: 2015-12-18T21:55:26+00:00
+description: Day 21 of 31 Days, 31 Products. Vimeo, where I host video because paying for it buys real control over presentation.
 aliases: /2015/12/18/31-days-31-products-vimeo/
 series:
   - 31 Days 31 Products

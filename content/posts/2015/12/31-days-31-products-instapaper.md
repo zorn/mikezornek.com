@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Instapaper"
 date: 2015-12-06T03:12:52+00:00
+description: Day 12 of 31 Days, 31 Products. Instapaper, for saving articles to read later in a clean, ad-free view.
 aliases: /2015/12/05/31-days-31-products-instapaper/
 series:
   - 31 Days 31 Products

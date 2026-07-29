@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Duet"
 date: 2015-11-29T21:15:42+00:00
+description: Day 06 of 31 Days, 31 Products. Duet, which turns an iPad into a wired second monitor with none of the AirPlay lag.
 aliases: /2015/11/29/31-days-31-products-duet/
 series:
   - 31 Days 31 Products

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: SuperDuper!"
 date: 2015-12-26T19:47:44+00:00
+description: Day 24 of 31 Days, 31 Products. SuperDuper, the backup tool that kept me calm when my 2TB media drive would not mount.
 aliases: /2015/12/26/31-days-31-products-superduper/
 series:
   - 31 Days 31 Products

@@ -1,6 +1,7 @@
 ---
 title: "Know Your Role: Contractor or Consultant"
 date: 2015-04-22T14:23:12+00:00
+description: Contractor or consultant? Naming which one you are sets client expectations before the relationship goes sideways.
 aliases: /2015/04/22/know-your-role-contractor-or-consultant/
 tags:
   - consulting

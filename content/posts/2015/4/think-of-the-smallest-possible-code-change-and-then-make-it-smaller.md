@@ -1,6 +1,7 @@
 ---
 title: Think of the Smallest Possible Code Change, and Then Make It Smaller
 date: 2015-04-16T03:23:25+00:00
+description: A 1,780-line pull request gets a worse review than a small one. Why I keep working to make my changes smaller than that.
 aliases: /2015/04/15/think-of-the-smallest-possible-code-change-and-then-make-it-smaller/
 tags:
   - software-craft

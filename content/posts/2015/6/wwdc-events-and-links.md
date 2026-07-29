@@ -1,6 +1,7 @@
 ---
 title: WWDC Events and Links
 date: 2015-06-01T19:13:14+00:00
+description: WWDC is around the corner and I will be next door at AltConf. Links to the events, the speaker lineup, and the live stream.
 aliases: /2015/06/01/wwdc-events-and-links/
 tags:
   - conferences

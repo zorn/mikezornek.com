@@ -1,6 +1,7 @@
 ---
 title: Staying Secure on OS X with a Few Unsigned Apps
 date: 2015-10-19T22:10:33+00:00
+description: Gatekeeper is a fair compromise, but some good Mac software is unsigned. How I run those few apps without dropping my guard.
 aliases: /2015/10/19/staying-secure-on-os-x-with-a-few-unsigned-apps/
 tags:
   - privacy

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Today"
 date: 2015-12-02T20:09:06+00:00
+description: Day 09 of 31 Days, 31 Products. Today, my weather app of choice, mostly for its visual seven day highs and lows.
 aliases: /2015/12/02/31-days-31-products-today/
 series:
   - 31 Days 31 Products

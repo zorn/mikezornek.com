@@ -1,6 +1,7 @@
 ---
 title: Release Notes Conference Thoughts
 date: 2015-11-02T16:38:42+00:00
+description: Thoughts on the Release Notes Conference, an action-oriented event about the business of apps rather than the code.
 aliases: /2015/11/02/release-notes-conference-thoughts/
 tags:
   - conferences

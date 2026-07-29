@@ -1,6 +1,7 @@
 ---
 title: Quick Launching for Cocoa Unit Tests
 date: 2015-10-14T01:22:26+00:00
+description: A small tip that makes Cocoa unit test runs launch faster by bailing out of the app delegate early when tests are the target.
 aliases: /2015/10/13/quick-launching-for-cocoa-unit-tests/
 tags:
   - ios

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: TweetBot & Twitterrific"
 date: 2015-11-30T15:35:51+00:00
+description: Day 07 of 31 Days, 31 Products. TweetBot and Twitterrific, the two clients that have made Twitter usable for me since 2007.
 aliases: /2015/11/30/31-days-31-products-tweetbot-twitterrific/
 series:
   - 31 Days 31 Products

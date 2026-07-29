@@ -1,6 +1,7 @@
 ---
 title: My Personal Computer History, How I Came to Work on the Mac
 date: 2015-11-30T16:14:25+00:00
+description: How I got from a high school computer lab to writing Mac software for a living, with a pile of Way Back Machine links.
 aliases: /2015/11/30/my-personal-computer-history-how-i-came-to-work-on-the-mac/
 tags:
   - career

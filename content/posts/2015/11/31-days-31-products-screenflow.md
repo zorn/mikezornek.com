@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: ScreenFlow"
 date: 2015-11-28T22:48:48+00:00
+description: Day 05 of 31 Days, 31 Products. ScreenFlow, my tool of choice for recording and editing screencasts.
 aliases: /2015/11/28/31-days-31-products-screenflow/
 series:
   - 31 Days 31 Products

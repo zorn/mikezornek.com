@@ -1,6 +1,7 @@
 ---
 title: 24 Hours with My iPad Pro
 date: 2015-11-15T00:46:33+00:00
+description: First impressions after a day with the iPad Pro, from someone who has owned nearly every iPad since the original.
 aliases: /2015/11/14/24-hours-with-my-ipad-pro/
 tags:
   - apple

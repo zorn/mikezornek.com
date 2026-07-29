@@ -1,6 +1,7 @@
 ---
 title: Rebooting My Professional Side Projects
 date: 2015-11-17T04:25:06+00:00
+description: Two years after putting Clickable Bliss on hiatus for a full time job, I am starting my own professional side projects again.
 aliases: /2015/11/16/rebooting-my-professional-side-projects/
 tags:
   - side-projects

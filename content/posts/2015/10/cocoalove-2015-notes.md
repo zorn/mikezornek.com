@@ -1,6 +1,7 @@
 ---
 title: CocoaLove 2015 Notes
 date: 2015-10-13T00:58:44+00:00
+description: Notes from the second CocoaLove in Philadelphia, a conference about the people in the iOS and Mac community rather than the tech.
 aliases: /2015/10/12/cocoalove-2015-notes/
 tags:
   - conferences

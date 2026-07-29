@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Fin"
 date: 2015-11-25T17:05:38+00:00
+description: Day 02 of 31 Days, 31 Products. Fin, an iOS app that turns your device into a large countdown timer for talks and performances.
 aliases: /2015/11/25/31-days-31-products-fin/
 series:
   - 31 Days 31 Products

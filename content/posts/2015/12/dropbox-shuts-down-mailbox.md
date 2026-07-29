@@ -1,6 +1,7 @@
 ---
 title: Dropbox Shuts Down Mailbox
 date: 2015-12-07T19:37:06+00:00
+description: Dropbox is shutting down Mailbox in February. What its closing note says about how much an email app can really fix.
 aliases: /2015/12/07/dropbox-shuts-down-mailbox/
 ---
 

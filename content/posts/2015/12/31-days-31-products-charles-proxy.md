@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Charles Proxy"
 date: 2015-12-09T00:04:11+00:00
+description: Day 15 of 31 Days, 31 Products. Charles Proxy, for watching the HTTP traffic your web or mobile app is actually sending.
 aliases: /2015/12/08/31-days-31-products-charles-proxy/
 series:
   - 31 Days 31 Products

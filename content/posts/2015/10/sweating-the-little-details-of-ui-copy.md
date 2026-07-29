@@ -1,6 +1,7 @@
 ---
 title: Sweating the Little Details of UI Copy
 date: 2015-10-15T22:10:43+00:00
+description: Interface design is largely word choice. What Apple's HIG says about alert buttons, and why copy deserves the care code gets.
 aliases: /2015/10/15/sweating-the-little-details-of-ui-copy/
 tags:
   - ios

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: SourceTree"
 date: 2015-12-06T20:52:01+00:00
+description: Day 13 of 31 Days, 31 Products. SourceTree, a Mac front end for Git that makes history and staging much easier to see.
 aliases: /2015/12/06/31-days-31-products-sourcetree/
 series:
   - 31 Days 31 Products
