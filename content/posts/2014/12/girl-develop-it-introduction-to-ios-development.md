@@ -1,6 +1,7 @@
 ---
 title: "Girl Develop It: Introduction to iOS Development"
 date: 2014-12-31T18:05:32+00:00
+description: Tickets are open for the two-day Introduction to iOS Development class I am teaching for Girl Develop It in February.
 aliases: /2014/12/31/girl-develop-it-introduction-to-ios-development/
 tags:
   - ios

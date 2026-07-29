@@ -1,6 +1,7 @@
 ---
 title: MegaManEffect now on GitHub
 date: 2014-01-12T20:25:35+00:00
+description: MegaManEffect, my old Mac app that plays a Mega Man 2 animation on app launch, has moved from GoogleCode to GitHub.
 aliases: /2014/01/12/megamaneffect-now-on-github/
 tags:
   - side-projects

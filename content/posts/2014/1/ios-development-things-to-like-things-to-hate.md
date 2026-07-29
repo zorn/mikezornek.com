@@ -1,6 +1,7 @@
 ---
 title: "iOS Development: Things to Like; Things to Hate"
 date: 2014-01-15T01:54:57+00:00
+description: An honest list of what I love about iOS development and what wears on me, from Objective-C to the App Store.
 aliases: /2014/01/14/ios-development-things-to-like-things-to-hate/
 tags:
   - ios

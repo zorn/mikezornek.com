@@ -1,6 +1,7 @@
 ---
 title: An “App Architecture” Kata
 date: 2014-11-24T02:00:29+00:00
+description: An architecture kata I ran at a CocoaHeads Side Project Saturday. Pair up, design one app, then compare what everyone built.
 aliases: /2014/11/23/an-app-architecture-kata/
 tags:
   - ios

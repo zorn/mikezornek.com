@@ -1,6 +1,7 @@
 ---
 title: Side Projects
 date: 2014-04-19T03:08:02+00:00
+description: Back after a hectic stretch at work, with an update on GoldCards, the Hearthstone reference app I started at a CocoaHeads hackday.
 aliases: /2014/04/18/side-projects/
 tags:
   - side-projects

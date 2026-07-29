@@ -1,6 +1,7 @@
 ---
 title: 7 Minute Workout Featured on Apple.com
 date: 2014-06-10T19:24:00+00:00
+description: 7 Minute Workout, an app I worked on, turns up in Apple's Strength TV ad. Plus news on the DmgCtrl and Tonic merger.
 aliases: /2014/06/10/7-minute-workout-featured-on-apple-com/
 tags:
   - ios

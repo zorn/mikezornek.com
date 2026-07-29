@@ -1,6 +1,7 @@
 ---
 title: July Recap
 date: 2014-07-29T03:08:13+00:00
+description: A July catch-all. A packed CocoaHeads WWDC meeting, growing Side Project Saturdays, and what else has been going on.
 aliases: /2014/07/28/july-recap/
 series:
   - Journals
