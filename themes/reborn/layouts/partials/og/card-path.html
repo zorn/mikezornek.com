@@ -1,0 +1,37 @@
+{{- /*
+  The publish-relative path of a page's generated social card.
+
+  Single source of truth for where a card lives. `head.html` calls this to emit
+  the `og:image` URL, and `index.ogmanifest.json` calls it to tell the generator
+  where to write the file. Because both read the same partial, the tag and the
+  file cannot drift apart.
+
+  The version segment is a cache-busting lever, not decoration: LinkedIn caches
+  a link preview per exact URL effectively forever, so the only way to reissue
+  cards after a design change is to change their URLs. It is set once as
+  `params.ogCardVersion` in hugo.yaml, so bumping it there re-mints every card
+  URL on the site at once. See decisions/og-images.md.
+
+  Returns a path with no leading slash, e.g. `og/v1/posts/2026/6/slug.png`.
+
+  Note the single `return` at the end: Hugo only accepts `return` at a
+  template's top level, so branching has to assign to a variable instead.
+  */ -}}
+
+{{- $version := site.Params.ogCardVersion | default "v1" -}}
+{{- $path := "" -}}
+
+{{- if eq .Kind "404" -}}
+  {{- /* The 404 page takes the static card. It is absent from `site.Pages`, so
+    the generator never sees it, and it has no front matter to build a card
+    from anyway. */ -}}
+  {{- $path = printf "og/%s/default.png" $version -}}
+{{- else -}}
+  {{- $slug := strings.Trim .RelPermalink "/" -}}
+  {{- if eq $slug "" -}}
+    {{- $slug = "index" -}}
+  {{- end -}}
+  {{- $path = printf "og/%s/%s.png" $version $slug -}}
+{{- end -}}
+
+{{- return $path -}}

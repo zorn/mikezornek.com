@@ -7,3 +7,20 @@
 # figure.html the plugin can't even print ("invalid node root"). See issue #114.
 themes/reborn/layouts/_markup/render-image.html
 themes/reborn/layouts/shortcodes/figure.html
+
+# Go templates that happen to end in `.json`. Prettier picks the JSON parser off
+# the extension and fails on the first `{{`, since the file is a template that
+# emits JSON rather than JSON itself.
+themes/reborn/layouts/_default/index.json
+themes/reborn/layouts/_default/index.ogmanifest.json
+
+# Templates whose comments carry whitespace-trim markers. The plugin reflows
+# `*/ -}}` onto two lines, and Go's lexer only accepts the trim marker directly
+# after the `*/`, so the reflowed version fails to parse:
+#
+#   comment ends before closing delimiter in action started at ...
+#
+# That breaks the whole site build, not just the one template, and it breaks it
+# silently at format time rather than at edit time. Formatting these by hand is
+# the cheaper trade.
+themes/reborn/layouts/partials/og/

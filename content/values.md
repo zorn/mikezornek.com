@@ -3,8 +3,6 @@ title: Values
 sectionHighlight: Values
 layout: onepage
 description: The values I align with regarding my work in product design and software development.
-images:
-  - images/zorn_square.png
 ---
 
 The values I align with regarding my work in product design and software development.

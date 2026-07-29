@@ -1,6 +1,6 @@
 ---
 title: Mike Zornek
-description: Mike Zornek is a developer and teacher from the suburbs of Philadelphia, writing about Elixir, Phoenix, iOS, and the craft of shipping software.
+description: Blogging since 2012 from a developer and teacher in the suburbs of Philadelphia, plus Elixir consulting and a pile of side projects.
 sectionHighlight: Home
 layout: home
 ---

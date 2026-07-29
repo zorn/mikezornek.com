@@ -5,6 +5,13 @@ description: Personal website of Mike Zornek, a developer and teacher from the s
 theme: "reborn"
 params:
   description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
+  # Version segment in every generated social card URL (/og/<version>/...).
+  # LinkedIn caches a link preview per exact URL effectively forever, so the only
+  # way to reissue cards after a design change is to change their URLs. Bumping
+  # this re-mints every card URL on the site at once. It lives here rather than
+  # in a template so the partial that builds card URLs and the manifest that
+  # tells the generator where to write them cannot disagree.
+  ogCardVersion: v1
   fediverse_creator: "@zorn@jawns.club"
   author:
     name: Mike Zornek
@@ -79,8 +86,19 @@ menu:
       url: /random/
       weight: 65
 
+# `ogmanifest` is the work list for bin/og-images.mjs: one row per page that
+# needs a generated social card. It is a build artifact for the generator, not a
+# page, so `notAlternative` keeps it out of `.AlternativeOutputFormats` and off
+# the `<link rel=alternate>` tags in the head.
+outputFormats:
+  ogmanifest:
+    mediaType: application/json
+    baseName: og-manifest
+    isPlainText: true
+    notAlternative: true
+
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home: ["HTML", "RSS", "JSON", "ogmanifest"]
 
 build:
   buildStats:

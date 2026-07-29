@@ -92,6 +92,15 @@ The embedded template also reads `_funcs/get-page-images`, which resolves the
 `*cover*`, or `*thumbnail*`. Note the archetype's `thumb.jpeg` convention does
 **not** match `*thumbnail*`.
 
+**Narrowed by [og-images.md](og-images.md):** this holds for the Open Graph
+template and no longer for the Twitter one. Generated cards need
+`summary_large_image`, and `_internal/twitter_cards.html` always emits
+`twitter:card` as `summary` when a page has no image, with no way to override it
+short of emitting the tag twice. So those four tags are now hand-written. The
+reasoning above survives intact: it was about the roughly 35 lines of
+`article:*` and `og:*` machinery the Open Graph template owns, and the Twitter
+template has none of that.
+
 ---
 
 ## No truncation in the template
@@ -127,7 +136,7 @@ as a text-only card.
 image of their own — the same picture on most of the blog — and would also flip
 `twitter:card` to `summary_large_image` for all of them, claiming a large image
 where there's only a small square. Generating a real per-post image is the
-actual fix, tracked in #103.
+actual fix, tracked in #103 and now decided in [og-images.md](og-images.md).
 
 Worth knowing: a page that _does_ set `images` gets `summary_large_image`
 regardless of the file's dimensions, so pointing `images` at a small square

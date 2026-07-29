@@ -1,0 +1,16 @@
+{{- /*
+  Whether a page already resolves a social image of its own, in which case it
+  does not get a generated card.
+
+  This deliberately asks Hugo's own `_funcs/get-page-images`, the same function
+  the embedded Open Graph and Twitter templates use, rather than checking
+  `.Params.images` directly. The two are not the same set: Hugo prefers page
+  resources matching *feature*, *cover*, or *thumbnail* BEFORE consulting the
+  front matter, so a page can emit an `og:image` while setting no `images` key
+  at all. `content/posts/2019/1/professional-ios-projects-code-consistency-with-swiftlint/`
+  is exactly that case, via its `book-cover.jpg`.
+
+  Checking the front matter instead would give that page an auto-detected cover
+  and a generated card competing for the same tag.
+  */ -}}
+{{- return (gt (len (partial "_funcs/get-page-images" .)) 0) -}}
