@@ -1,5 +1,5 @@
 baseURL: "https://mikezornek.com"
-locale: "en-us"
+locale: "en-US"
 title: "Mike Zornek"
 description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
 theme: "reborn"

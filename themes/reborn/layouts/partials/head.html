@@ -9,7 +9,10 @@
 
 </title>
 
-{{ with .Site.Params.description }}
+{{/* Page's own description, falling back to the site's. Deliberately does not
+  fall back to `.Summary` — see decisions/page-metadata.md.
+*/}}
+{{ with or .Description site.Params.description | plainify }}
   <meta name="description" content="{{ . }}">
 {{ end }}
 
@@ -20,7 +23,11 @@
 
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{/* Open Graph is what Mastodon, Bluesky, LinkedIn, Slack, and Discord read.
+  Twitter cards stay alongside it for the venues that only speak that.
+*/}}
 {{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
 
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}">
