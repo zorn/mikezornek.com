@@ -3,7 +3,7 @@ title: "Using Google Sheets to Catalog Expenses for Budgeting Considerations"
 date: 2025-04-19T11:07:02-04:00
 description: This is how I catalog my planned expenses when reviewing personal budget scenarios. Google sheet and video demo attached.
 images:
-  - posts/posts/2025/4/google-sheets-expense-budgeting/budget-preview.png
+  - posts/2025/4/google-sheets-expense-budgeting/budget-preview.png
 tags:
   - practices
 ---
