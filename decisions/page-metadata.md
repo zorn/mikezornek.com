@@ -19,14 +19,21 @@ snippet for another: search engines discount a weak description and synthesize
 their own either way, so the fallback buys nothing and risks worse.
 
 Pages with no `description` front matter therefore emit the site description,
-exactly as they did before. The fix for those is to write the description, not
-to generate one. See the open issue for authoring the missing ones.
+exactly as they did before — currently **251 of 519 rendered pages**, almost
+all of them the pre-2020 post archive plus every page under
+`content/projects/`. The fix for those is to write the description, not to
+generate one; that backfill is issue #155.
 
 ---
 
 ## `og:description` is allowed to differ from `meta description`
 
-This looks like sloppiness and isn't. `_internal/opengraph.html` and
+**Preferred:** Let the two tags disagree on pages with no authored description.
+
+**Rejected:** Hand-writing the Open Graph and Twitter blocks so a single
+expression feeds all three tags.
+
+**Why:** This looks like sloppiness and isn't. `_internal/opengraph.html` and
 `_internal/twitter_cards.html` both use their own chain:
 
 ```go-html-template
@@ -48,8 +55,13 @@ The two tags have different consumers and different failure modes:
   suburbs of Philadelphia" tells a reader nothing about the link. The page's own
   first two sentences, imperfect as they are, tell them something.
 
-Once every page has an authored `description`, the divergence disappears on its
-own, because both chains start at `.Description`.
+Once every page has an authored `description` (#155), the divergence
+disappears on its own, because both chains start at `.Description`.
+
+The one thing to keep in step is escaping: `head.html` applies
+`plainify | htmlUnescape`, matching the embedded templates. Without the
+`htmlUnescape`, `plainify` returns `template.HTML` and Go stops escaping, so a
+description containing a bare `&` emits it raw.
 
 ---
 
@@ -61,8 +73,8 @@ existing `_internal/twitter_cards.html`.
 **Rejected:** A hand-written partial giving one canonical description
 expression across all three tags.
 
-**Why:** Hand-rolling buys consistency on ~34 pages that are going to get
-authored descriptions anyway, and costs roughly 35 lines we'd own forever —
+**Why:** Hand-rolling buys consistency on the pages that are going to get
+authored descriptions anyway (#155), and costs roughly 35 lines we'd own —
 including `og:site_name`, `og:type`, `article:section`,
 `article:published_time`, `article:modified_time`, and `article:tag`, which the
 embedded template already emits correctly and keeps current across Hugo
@@ -98,11 +110,34 @@ as a text-only card.
 **Rejected:** Falling back to `images/zorn_square.png` via `site.Params.images`.
 
 **Why:** The only social-usable asset on the site is a 480×480 avatar. Setting
-`site.Params.images` would apply it to the 179 posts that carry no image of
-their own — the same picture on most of the blog — and would also flip
+`site.Params.images` would apply it to the **394 of 447 posts** that carry no
+image of their own — the same picture on most of the blog — and would also flip
 `twitter:card` to `summary_large_image` for all of them, claiming a large image
 where there's only a small square. Generating a real per-post image is the
-actual fix and is tracked separately.
+actual fix, tracked in #103.
+
+Worth knowing: a page that _does_ set `images` gets `summary_large_image`
+regardless of the file's dimensions, so pointing `images` at a small square
+produces exactly the mismatch described above. `elixir-consulting.md` and
+`values.md` both point at the 480×480 avatar today.
+
+---
+
+## The home page's title is `Mike Zornek`, not `Home`
+
+**Preferred:** `title: Mike Zornek` in `content/_index.md`.
+
+**Rejected:** Keeping `title: Home` and special-casing `.IsHome` in the
+metadata templates.
+
+**Why:** `og:title` and `twitter:title` both read `.Title`, so the front page
+was going to share as "Home". The embedded templates can't be told otherwise
+without hand-rolling them, but the title itself has no other consumer: the
+`<h1>` in `home.html` is hardcoded ("Who is Mike Zornek?"), the nav highlights
+off `sectionHighlight`, and `index.json` ranges `.Site.RegularPages`, which
+excludes the home page. So renaming it fixes both tags and changes nothing
+visible. The `.IsHome` branch in the `<title>` tag is now redundant, and is
+left alone as harmless.
 
 ---
 

@@ -12,7 +12,7 @@
 {{/* Page's own description, falling back to the site's. Deliberately does not
   fall back to `.Summary` — see decisions/page-metadata.md.
 */}}
-{{ with or .Description site.Params.description | plainify }}
+{{ with or .Description site.Params.description | plainify | htmlUnescape }}
   <meta name="description" content="{{ . }}">
 {{ end }}
 
