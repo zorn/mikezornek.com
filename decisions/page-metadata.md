@@ -107,10 +107,11 @@ own. Doing it in the template hides bad authoring instead of surfacing it, and
 archetype already asks for "tweet-length"; descriptions that overshoot should
 be rewritten by hand.
 
-#155 did exactly that for the 42 that had overshot. The working target is
-**160 characters as a ceiling, roughly 100–140 as the comfortable band**: long
-enough to say something specific, short enough that Google and the social cards
-both show the whole sentence.
+#155 did exactly that for the 42 that had overshot. The working target is **160
+characters as a hard ceiling**, and roughly 100–140 where the page has that
+much worth saying: long enough to be specific, short enough that Google and the
+social cards both show the whole sentence. Shorter is fine when the page is
+simple; only the ceiling is a rule.
 
 ---
 

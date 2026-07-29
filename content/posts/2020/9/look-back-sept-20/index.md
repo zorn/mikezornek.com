@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending September 20th"
 date: 2020-09-21T11:36:54-04:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. A draft terms of service, editable navigation running into UI problems, and a move to Fathom Analytics.
 series:
   - Journals
 ---

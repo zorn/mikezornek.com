@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending October 25th"
 date: 2020-10-25T19:12:02-04:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. Podcast marketing experiments, a screenshot gallery, and what a community manager taught me.
 series:
   - Journals
 ---

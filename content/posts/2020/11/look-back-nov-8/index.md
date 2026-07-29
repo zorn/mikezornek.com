@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending November 8th"
 date: 2020-11-09T21:18:28-05:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. Shipping Add to Calendar, renewing SSL certs, the last Android Book Club, and a new 16-inch MacBook Pro.
 series:
   - Journals
 ---

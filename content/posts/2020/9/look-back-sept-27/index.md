@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending September 27th"
 date: 2020-09-27T19:32:06-04:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. Guildflow 0.11 ships with editable navigation, plus a pair of short feature demo videos.
 series:
   - Journals
 ---

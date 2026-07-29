@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending November 1st"
 date: 2020-11-02T18:17:25-05:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. Sponsoring the Release Notes podcast, a screenshot gallery on the marketing site, and a Philly GDG demo.
 series:
   - Journals
 ---
