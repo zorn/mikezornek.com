@@ -2,6 +2,7 @@
 title: "Resources and Suggestions to Find Elixir-based Employment"
 slug: "elixir-job-resources"
 date: 2021-07-16T16:12:03-04:00
+description: Job boards, Slack rooms, newsletters, and other places to look when you want full time or contract work writing Elixir.
 tags:
   - elixir
   - career

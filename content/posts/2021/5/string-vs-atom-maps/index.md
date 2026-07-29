@@ -2,6 +2,7 @@
 title: "Understanding when to use String-based Maps vs Atom-based Maps"
 slug: string-vs-atom-maps
 date: 2021-05-31T10:56:17-04:00
+description: Elixir maps take string keys or atom keys, and the mix trips up beginners. Here is how I decide which to use, and where the boundary belongs.
 pain: "confusion about lack of consistency regarding string-based maps vs atom-based maps"
 fix: "reaffirming the syntax rules and a guideline to follow in your own code"
 tags:

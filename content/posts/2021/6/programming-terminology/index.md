@@ -2,6 +2,7 @@
 title: "Improve the Clarity of Your Elixir Code Through Expressive and Consistent Language"
 slug: "programming-terminology"
 date: 2021-06-06T12:00:00-04:00
+description: A list of terms I try to use consistently in my Elixir code, and a nudge to build a shared vocabulary with your team.
 tags:
   - elixir
   - software-craft
