@@ -119,6 +119,13 @@ async function draw(assets, html) {
 // If nothing fits, the smallest size is used and the title still renders in
 // full: the title is never truncated, so an unprecedented title overflows
 // visibly rather than losing words silently.
+//
+// The fonts must be passed here as well as at render time. Measuring without
+// them silently falls back to a different face, and the metrics are not close:
+// the archive's longest title measures 260px unfonted against 195px in Ubuntu,
+// which is a whole extra line and enough to pick the wrong size. The mistake
+// hides well, because a Renderer that has already drawn something retains its
+// fonts, so only the first card of a run measures wrong.
 async function fitTitleSize(assets, title) {
   for (const size of TITLE_LADDER) {
     const html = `<div style="display:flex;width:${CONTENT_WIDTH}px"><span style="font-family:Ubuntu;font-weight:700;font-size:${size}px;line-height:${TITLE_LINE_HEIGHT}">${escapeHtml(title)}</span></div>`;
@@ -126,6 +133,7 @@ async function fitTitleSize(assets, title) {
     const measured = await assets.renderer.measure(node, {
       width: CONTENT_WIDTH,
       height: HEIGHT,
+      fonts: assets.fonts,
     });
     // The +1 absorbs sub-pixel rounding, so a title that lands exactly on the
     // line limit is not bumped down a size by a fraction of a pixel.

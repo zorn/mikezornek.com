@@ -400,9 +400,9 @@ telling crawlers not to index it is not a page anyone shares.
 
 ---
 
-## Three things that will bite whoever touches this next
+## Four things that will bite whoever touches this next
 
-All three cost real debugging time, and none is documented upstream.
+All four cost real debugging time, and none is documented upstream.
 
 **Prettier silently breaks these Hugo templates.** `prettier-plugin-go-template`
 reflows a comment's closing `*/ -}}` onto two lines, and Go's lexer only accepts
@@ -418,6 +418,16 @@ warning, just a flat background where the texture should be. Images have to be
 passed through the `images` render option keyed by `src`, and the markup then
 references that `src`. The first probe reported six passes and one of them was a
 no-op whose output was byte-identical to a blank canvas.
+
+**`measure()` needs the fonts handed to it, same as `render()`.** Measure without
+them and it silently falls back to a different face, with metrics that are not
+close: the archive's longest title measures 260px unfonted against 195px in
+Ubuntu, a whole extra line, enough to pick the wrong size off the ladder. What
+makes it nasty is that a `Renderer` retains fonts once it has drawn something, so
+only the very first card of a run measures wrong. With today's content that first
+card is the static one, whose title is short enough to land on the same size
+either way, so the defect produced byte-identical output and would have waited
+for a wording change to appear.
 
 **takumi does not clip a repeating background to its element's box.** It paints
 whole tiles and lets the overflow spill onto whatever sits underneath. On a
