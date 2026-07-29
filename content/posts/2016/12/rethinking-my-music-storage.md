@@ -1,6 +1,7 @@
 ---
 title: Rethinking My Music Storage
 date: 2016-12-10T02:58:07+00:00
+description: 150 GB of music, a 256 GB SSD, and an iTunes library I have never liked. How I rethought where my collection actually lives.
 aliases: /2016/12/09/rethinking-my-music-storage/
 tags:
   - apple

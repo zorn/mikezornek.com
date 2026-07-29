@@ -1,6 +1,7 @@
 ---
 title: Join Us at CocoaConf DC, Sept 9-10th
 date: 2016-07-28T00:40:59+00:00
+description: I am speaking at CocoaConf DC on September 9th and 10th, a conference still small enough to actually meet the speakers.
 aliases: /2016/07/27/join-us-at-cocoaconf-dc-sept-9-10th/
 tags:
   - conferences

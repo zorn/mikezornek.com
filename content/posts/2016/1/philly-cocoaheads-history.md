@@ -1,6 +1,7 @@
 ---
 title: "Philly CocoaHeads: History"
 date: 2016-01-21T21:53:29+00:00
+description: The history of Philly CocoaHeads, written down after years of comparing notes with organizers from other chapters.
 aliases: /2016/01/21/philly-cocoaheads-history/
 tags:
   - meetups

@@ -1,6 +1,7 @@
 ---
 title: Greetings, from the Ranch
 date: 2016-10-03T02:08:59+00:00
+description: Taking Big Nerd Ranch's Front End Web class this week, plus the wiki side project I plan to build in the evenings.
 aliases: /2016/10/02/greetings-from-the-ranch/
 tags:
   - web-development

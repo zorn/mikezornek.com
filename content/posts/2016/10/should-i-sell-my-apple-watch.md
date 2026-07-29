@@ -1,6 +1,7 @@
 ---
 title: Should I Sell My Apple Watch?
 date: 2016-10-07T21:55:30+00:00
+description: A month in with an Apple Watch Series 2 and I am not sure it earned its place. Talking myself through whether to sell it.
 aliases: /2016/10/07/should-i-sell-my-apple-watch/
 tags:
   - apple

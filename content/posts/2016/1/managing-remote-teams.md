@@ -1,6 +1,7 @@
 ---
 title: Managing Remote Teams
 date: 2016-01-28T21:25:28+00:00
+description: Notes from a Wildbit meetup on managing remote teams, taken as a remote employee curious how other companies handle it.
 aliases: /2016/01/28/managing-remote-teams/
 tags:
   - practices

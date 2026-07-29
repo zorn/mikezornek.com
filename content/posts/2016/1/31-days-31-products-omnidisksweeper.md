@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: OmniDiskSweeper"
 date: 2016-01-12T02:40:39+00:00
+description: Day 30 of 31 Days, 31 Products. OmniDiskSweeper, the free OmniGroup tool for finding what is actually eating your hard drive.
 aliases: /2016/01/11/31-days-31-products-omnidisksweeper/
 tags:
   - reviews

@@ -1,6 +1,7 @@
 ---
 title: My New PC Gaming Computer
 date: 2016-06-19T22:53:29+00:00
+description: The parts list and the reasoning behind my new gaming PC, built mostly to run World of Warcraft and Final Fantasy 14.
 aliases: /2016/06/19/my-new-pc-gaming-computer/
 tags:
   - gaming

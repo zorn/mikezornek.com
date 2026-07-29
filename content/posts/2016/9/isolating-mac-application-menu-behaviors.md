@@ -1,6 +1,7 @@
 ---
 title: Isolating Mac Application Menu Behaviors
 date: 2016-09-12T17:34:58+00:00
+description: Adding a Send Feedback item to a Mac app's Help menu, and where the behavior behind a menu item should actually live.
 aliases: /2016/09/12/isolating-mac-application-menu-behaviors/
 tags:
   - ios

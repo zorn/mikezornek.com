@@ -1,6 +1,7 @@
 ---
 title: CocoaConf DC 2016 Recap
 date: 2016-09-11T17:41:00+00:00
+description: A recap of speaking at and attending CocoaConf DC 2016, a conference at the comfortable size of about a hundred developers.
 aliases: /2016/09/11/cocoaconf-dc-2016-recap/
 tags:
   - conferences

@@ -1,6 +1,7 @@
 ---
 title: You Don’t End Schindler’s List with a Pepsi Ad.
 date: 2016-10-21T19:20:01+00:00
+description: A Startup podcast episode cut from an emotional moment straight into an ad read. A note on empathy and where ads do not belong.
 aliases: /2016/10/21/you-dont-end-schindlers-list-with-a-pepsi-ad/
 ---
 

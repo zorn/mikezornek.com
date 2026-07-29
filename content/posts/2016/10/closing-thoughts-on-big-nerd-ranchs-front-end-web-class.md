@@ -1,6 +1,7 @@
 ---
 title: Closing Thoughts on Big Nerd Ranch’s Front End Web Class
 date: 2016-10-13T01:48:24+00:00
+description: Final thoughts on Big Nerd Ranch's Front End Web class. Who it is for, and what you should already know before you go.
 aliases: /2016/10/12/closing-thoughts-on-big-nerd-ranchs-front-end-web-class/
 tags:
   - web-development

@@ -1,6 +1,7 @@
 ---
 title: "Clash of the Coders: Day 0"
 date: 2016-03-30T15:35:33+00:00
+description: Day zero of Clash of the Coders, the annual competition where Big Nerd Ranch shuts down so everyone can build something wizardly.
 aliases: /2016/03/30/clash-of-the-coders-day-0/
 tags:
   - side-projects

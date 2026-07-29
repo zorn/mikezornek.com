@@ -1,6 +1,7 @@
 ---
 title: "Video: Consuming JSON in Swift"
 date: 2016-01-18T17:04:53+00:00
+description: A Philly CocoaHeads talk on the various ways to consume JSON in Swift, including an early look at Big Nerd Ranch's Freddy.
 aliases: /2016/01/18/video-consuming-json-in-swift/
 tags:
   - ios

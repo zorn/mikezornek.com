@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Skitch"
 date: 2016-01-15T21:16:17+00:00
+description: Day 31 of 31 Days, 31 Products. Skitch, the screenshot and annotation tool I lean on when I am running an app audit.
 aliases: /2016/01/15/31-days-31-products-skitch/
 tags:
   - reviews
