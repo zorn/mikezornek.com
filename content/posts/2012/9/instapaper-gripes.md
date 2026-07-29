@@ -1,6 +1,7 @@
 ---
 title: Instapaper Gripes
 date: 2012-09-18T03:17:27+00:00
+description: A list of gripes from a daily Instapaper user who still likes the app. Small annoyances, mostly about how I read.
 aliases: /2012/09/17/instapaper-gripes/
 tags:
   - reviews

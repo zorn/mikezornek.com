@@ -1,6 +1,7 @@
 ---
 title: Focused Testing in Xcode
 date: 2012-08-27T03:10:55+00:00
+description: An Xcode tip found while wrestling with RestKit serialization. How to run only the tests you care about right now.
 aliases: /2012/08/26/focused-testing-in-xcode/
 tags:
   - ios

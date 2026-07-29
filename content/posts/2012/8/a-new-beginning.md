@@ -1,6 +1,7 @@
 ---
 title: A New Beginning
 date: 2012-08-22T02:20:46+00:00
+description: Restarting this blog after folding it into a company site. Why I want one place for all of it again, not just the tech.
 aliases: /2012/08/21/a-new-beginning/
 series:
   - Journals

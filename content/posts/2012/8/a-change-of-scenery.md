@@ -1,6 +1,7 @@
 ---
 title: A Change of Scenery
 date: 2012-08-23T02:43:27+00:00
+description: I packed up my iMac and left the coworking space for a while. Not about IndyHall, about my own trouble balancing time.
 aliases: /2012/08/22/a-change-of-scenery/
 tags:
   - career

@@ -1,6 +1,7 @@
 ---
 title: SecondConf 2012 Notes
 date: 2012-09-26T03:20:15+00:00
+description: Notes from SecondConf in Chicago, a weekend conference about making great things, with a heavily Apple-flavored crowd.
 aliases: /2012/09/25/secondconf-2012-notes/
 tags:
   - conferences

@@ -1,6 +1,7 @@
 ---
 title: Core Intuition
 date: 2012-08-24T02:48:47+00:00
+description: Core Intuition is a weekly podcast about the indie Mac and iOS software business, hosted by Daniel Jalkut and Manton Reece.
 aliases: /2012/08/23/core-intuition/
 tags:
   - reviews

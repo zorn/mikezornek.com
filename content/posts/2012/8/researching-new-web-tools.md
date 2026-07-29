@@ -1,6 +1,7 @@
 ---
 title: Researching New Web Tools
 date: 2012-08-31T03:12:52+00:00
+description: Turning a Mac app idea into a dynamic web app, and surveying the frameworks and libraries worth building it on.
 aliases: /2012/08/30/researching-new-web-tools/
 tags:
   - web-development
