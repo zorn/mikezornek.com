@@ -1,6 +1,7 @@
 ---
 title: "Code Consistency with SwiftLint"
 date: 2019-01-24T12:00:00-05:00
+description: Why consistent code style matters more than which style you pick, and how SwiftLint keeps an iOS project honest about it.
 aliases: /posts/2019/1/anatomy-of-a-modern-ios-project-code-consistency-with-swiftlint/
 tags:
   - ios

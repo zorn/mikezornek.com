@@ -1,6 +1,7 @@
 ---
 title: "A Smorgasbord of Updates, July 2019"
 date: 2019-07-29T15:12:22-04:00
+description: "A July catch-all: a shore vacation, turning 40, quiet client work, and the new project we kick-started at the end of the month."
 series:
   - Journals
 ---

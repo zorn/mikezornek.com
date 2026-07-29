@@ -1,6 +1,7 @@
 ---
 title: "My New Project: Club House Hosting"
 date: 2019-09-17T11:30:26-04:00
+description: Introducing Club House Hosting, a platform for group organizers to run their own site with event RSVPs and member directories.
 tags:
   - side-projects
 ---

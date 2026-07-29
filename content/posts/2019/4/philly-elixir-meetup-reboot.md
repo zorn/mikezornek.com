@@ -1,6 +1,7 @@
 ---
 title: "Philly Elixir Meetup is Rebooting"
 date: 2019-04-22T10:00:00-05:00
+description: The Philly Elixir Meetup is coming back after too long a hiatus. First meeting is May 6th at PromptWorks. Come say hello.
 tags:
   - meetups
   - elixir

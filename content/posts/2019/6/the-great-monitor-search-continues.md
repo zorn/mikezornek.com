@@ -1,6 +1,7 @@
 ---
 title: "The Great Monitor Search Continues"
 date: 2019-06-24T19:30:40-04:00
+description: The LG 49-inch UltraWide is cool but fights macOS. Why I am trading screen real estate for the 4K UltraFine instead.
 tags:
   - apple
   - hardware

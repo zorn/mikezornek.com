@@ -1,6 +1,7 @@
 ---
 title: "Available for Consulting: Web and Mobile, Elixir and iOS"
 date: 2019-10-24T13:16:52-04:00
+description: Some projects were postponed, so I have Elixir and iOS consulting availability opening up for November and December.
 tags:
   - consulting
 ---

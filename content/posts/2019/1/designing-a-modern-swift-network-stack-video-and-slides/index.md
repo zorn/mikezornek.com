@@ -1,6 +1,7 @@
 ---
 title: "Designing a Modern Swift Network Stack, Video and Slides"
 date: 2019-01-15T15:00:00-05:00
+description: Video and slides from my Philly CocoaHeads talk on building a Swift network layer that survives auth, token renewal, testing, and caching.
 tags:
   - ios
 ---

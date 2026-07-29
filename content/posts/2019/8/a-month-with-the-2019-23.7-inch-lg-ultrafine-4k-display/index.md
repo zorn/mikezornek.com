@@ -1,6 +1,7 @@
 ---
 title: "A Month with the 2019 23.7-inch LG UltraFine 4K Display"
 date: 2019-08-01T20:00:00-04:00
+description: One month with the 23.7-inch LG UltraFine 4K after returning the UltraWide, and what retina and native controls actually buy you.
 tags:
   - apple
   - hardware

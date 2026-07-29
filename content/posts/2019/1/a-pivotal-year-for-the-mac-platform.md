@@ -1,6 +1,7 @@
 ---
 title: "A Pivotal Year for the Mac Platform"
 date: 2019-01-17T18:55:05-05:00
+description: The Mac Pro is finally due for a real refresh, and I have been waiting since 2011. Why 2019 decides my relationship with the platform.
 tags:
   - apple
 ---

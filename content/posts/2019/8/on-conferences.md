@@ -1,6 +1,7 @@
 ---
 title: "On Conferences"
 date: 2019-08-14T11:23:59-04:00
+description: "Two conference rules I would love to try someday: everyone presents something, and no laptops or phones in the hall."
 aliases: /posts/2019/78/on-conferences/
 tags:
   - conferences

@@ -1,6 +1,7 @@
 ---
 title: "If Flying, Print Out MacBook Battery Status"
 date: 2019-08-23T21:43:50-04:00
+description: The FAA banned certain recalled-battery MacBook Pros from flights. Check your serial number and bring proof to the airport.
 tags:
   - apple
 ---

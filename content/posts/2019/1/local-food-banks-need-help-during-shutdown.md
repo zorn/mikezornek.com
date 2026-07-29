@@ -1,6 +1,7 @@
 ---
 title: "Local Food Banks Need Help During Shutdown"
 date: 2019-01-11T15:55:55-05:00
+description: The government shutdown is pushing more families toward food banks. Philabundance could use your help right now.
 ---
 
 [Philabundance Blog](https://www.philabundance.org/on-the-menu-the-government-shut-down/) writes:

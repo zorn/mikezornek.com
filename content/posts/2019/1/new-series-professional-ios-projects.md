@@ -1,6 +1,7 @@
 ---
 title: "New Series: Professional iOS Projects"
 date: 2019-01-08T12:40:03-05:00
+description: Kicking off a series on what separates a professional iOS project from a hobby one, starting with why I keep learning new languages.
 aliases: /posts/2019/1/new-series-anatomy-of-a-modern-ios-project/
 tags:
   - ios

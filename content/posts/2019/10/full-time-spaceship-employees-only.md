@@ -1,6 +1,7 @@
 ---
 title: "Full Time Spaceship Employees Only"
 date: 2019-10-22T17:22:29-04:00
+description: Apple's documentation problem is not only about money. Its unwillingness to hire remote writers is the factor nobody brings up.
 tags:
   - apple
 ---

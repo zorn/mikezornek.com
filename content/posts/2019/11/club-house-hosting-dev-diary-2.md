@@ -1,6 +1,7 @@
 ---
 title: "Club House Hosting Dev Diary 2: A Tour of UI Sketches"
 date: 2019-11-04T13:42:04-05:00
+description: Dev diary two for Club House Hosting, touring the early UI sketches and what I plan to tackle this week.
 tags:
   - side-projects
 ---

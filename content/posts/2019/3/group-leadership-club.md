@@ -1,6 +1,7 @@
 ---
 title: "New Project: Group Leadership Club"
 date: 2019-03-07T21:19:13-05:00
+description: Announcing Group Leadership Club, a site of articles and a forum for people who start, run, and sustain technical meetup groups.
 tags:
   - side-projects
   - meetups

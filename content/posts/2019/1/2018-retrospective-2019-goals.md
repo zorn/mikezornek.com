@@ -1,6 +1,7 @@
 ---
 title: "2018 Retrospective; 2019 Goals"
 date: 2019-01-03T22:14:50-05:00
+description: A look back at my first full year of self-employment round two, what actually worked, and the goals I am setting for 2019.
 tags:
   - career
 ---

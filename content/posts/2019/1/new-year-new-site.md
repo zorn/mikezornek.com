@@ -1,6 +1,7 @@
 ---
 title: "New Year, New Site"
 date: 2019-01-01T19:51:21-05:00
+description: I spent my holiday break rebuilding this site on Hugo, GitHub, and CircleCI, retiring the WordPress setup that came before it.
 aliases: /posts/2019/01/new-year-new-site/
 tags:
   - web-development

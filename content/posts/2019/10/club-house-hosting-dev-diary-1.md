@@ -1,6 +1,7 @@
 ---
 title: "Club House Hosting Dev Diary 1: Some Introductions"
 date: 2019-10-21T11:08:21-04:00
+description: The first dev diary video for Club House Hosting, with introductions to me, the project, and the timeline I have in mind.
 tags:
   - side-projects
 ---
