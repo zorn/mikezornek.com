@@ -1,7 +1,7 @@
 ---
 title: "The Purpose of a Business is People"
 date: 2021-08-05T14:04:56-04:00
-description: The primary goal of the ideal business should be to provide a long-term, welcoming and supportive environment for its workers. Worker satisfaction comes from meaningful, rewarding and sustainable work.
+description: The purpose of a business should be to give its workers a long-term, welcoming environment and meaningful, sustainable work.
 images:
   - posts/2021/8/people-first/purpose-of-business.png
 tags:

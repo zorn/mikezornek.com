@@ -2,7 +2,7 @@
 title: "Elixir Terminology: Parameters vs Attributes"
 slug: "parameters-vs-attributes"
 date: 2021-09-13T10:00:00-04:00
-description: When we say "parameters" we are usually talking about data coming into the system from external actors; When we say "attributes" we are usually talking about internal Elixir structures.
+description: Parameters are data arriving from outside the system. Attributes are the internal Elixir structures. Why I keep them straight.
 pain: confusion about seeing the two terms for roughly the same behavior
 fix: an explanation of the differences
 next action: next

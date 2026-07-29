@@ -1,7 +1,7 @@
 ---
 title: "Elixir Book Club: Testing Elixir, Starts November 13th"
 date: 2022-10-30T11:48:17-04:00
-description: I read this back in April of 2021 and thought well of it. It's a good overview of the various testing tools available and how to apply them to Elixir scenarios and patterns (OTP, Ecto, Phoenix).
+description: Elixir Book Club is reading Testing Elixir starting November 13th, a solid tour of testing tools across OTP, Ecto, and Phoenix.
 images:
   - posts/2022/10/elixir-book-club-testing-book/testing-elixir.jpg
 tags:

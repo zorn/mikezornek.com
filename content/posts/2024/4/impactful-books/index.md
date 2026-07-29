@@ -1,7 +1,7 @@
 ---
 title: "Impactful Books"
 date: 2024-04-14T14:39:36-04:00
-description: A local developer Slack had an icebreaker post asking for programming books that impacted your career. I figured I'd share mine in a more long-lived format. Some are more timeless than others.
+description: A Slack icebreaker asked which programming books shaped your career. Here are mine, in a more long-lived format.
 tags:
   - books
   - reviews

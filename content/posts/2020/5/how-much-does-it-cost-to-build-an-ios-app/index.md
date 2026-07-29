@@ -1,7 +1,7 @@
 ---
 title: "How Much Does It Cost to Build an iOS App?"
 date: 2020-05-17T16:26:38-04:00
-description: Most quality iOS apps cost between $100,000 to $1,000,000 to build. Some apps will be less and some more. If you're looking for an app built with great design, superior development, and clever marketing though, it will be somewhere in that range.
+description: Most quality iOS apps cost between $100,000 and $1,000,000 to build. Where that range comes from, and what moves you inside it.
 images:
   - posts/2020/5/how-much-does-it-cost-to-build-an-ios-app/thumb.jpg
 tags:

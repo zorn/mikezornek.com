@@ -1,7 +1,7 @@
 ---
 title: "Extended Vacation (Again)"
 date: 2022-06-01T16:51:29-04:00
-description: Repeating my choice from last year, I have decided to take an extended vacation from consulting this summer to catch up on some learning plans and otherwise invest in personal projects.
+description: Repeating last summer's choice, I am taking an extended vacation from consulting to catch up on learning and side projects.
 series:
   - Journals
 ---

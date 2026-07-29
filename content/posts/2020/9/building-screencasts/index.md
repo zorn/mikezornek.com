@@ -1,7 +1,7 @@
 ---
 title: "A Screencast about Building Screencasts: How I Built the Guildflow 70-second Introduction Video"
 date: 2020-09-03T12:12:44-04:00
-description: I generalize the term screencast here as any video where you see primarily a computer or user interface, with a voice and optional video feed of a person doing some kind of demonstration.
+description: How I built the 70-second Guildflow introduction video, and what I have learned about making screencasts in general.
 images:
   - posts/2020/9/building-screencasts/thumb.jpeg
 tags:

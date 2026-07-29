@@ -1,7 +1,7 @@
 ---
 title: "Phoenix LiveView: Presenting DateTime in User's Time Zone"
 date: 2025-01-22T19:47:37-05:00
-description: This past weekend, I added a feature to Flick (RankedVote.app) where we now present domain-specific `DateTime` values, like `published_at` and `closed_at`, on the live view page using the user's time zone. I thought I'd capture some notes on how this was accomplished, some known limitations, ideas to solve those in your own work, and a set of resource links to learn more.
+description: Notes on rendering `DateTime` values in the user's time zone on a Phoenix LiveView page, including the limitations I ran into.
 images:
   - posts/2025/1/presenting-datetime-in-user-time-zone-phoenix-live-view/days-since-last-timezone-issue.png
 tags:

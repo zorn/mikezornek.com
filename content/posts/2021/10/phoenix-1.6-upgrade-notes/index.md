@@ -2,7 +2,7 @@
 title: "Personal Phoenix 1.6 Upgrade Notes"
 slug: "phoenix-1.6-upgrade-notes"
 date: 2021-10-18T12:00:00-04:00
-description: Over the past few days I've been upgrading my projects to Phoenix 1.6 and like any project that comes out of a template-based generator, migrating a Phoenix project to a new version can be a little scary and error prone, particularly for people new to Elixir and Phoenix. Today I'll share some personal notes and tips to help make the process a little smoother.
+description: Migrating a Phoenix project to a new version can be scary and error prone. Personal notes and tips from upgrading mine to 1.6.
 pain: confusion and scared about editing generated templates
 fix: some tips for success
 next action: update your project

@@ -2,7 +2,7 @@
 title: Now
 sectionHighlight: Now
 layout: onepage
-description: I like to think of a Now page as the things I'd share if you were an old friend and we saw each other and were asking, what's going on? What are you working on? What are you excited about?
+description: What I would tell an old friend who asked what is going on. What I am working on, what I am excited about, what has my attention.
 ---
 
 Updated: July 18, 2026

@@ -1,7 +1,7 @@
 ---
 title: "Fresh Eyes on a Cucumbered Team"
 date: 2026-06-30T10:43:44-04:00
-description: "There's a term for what happens when you've been on a team so long you stop noticing its quirks: you've been cucumbered. Here's what fresh eyes can (and can't responsibly) do about it."
+description: There is a term for being on a team so long you stop noticing its quirks. What fresh eyes can, and cannot responsibly, do about it.
 pain: teams (and the people on them) stop noticing their own quirks and workarounds the longer they're embedded in a project; this isn't a character flaw, it's structural
 fix: explain the "cucumbered" metaphor and what fresh eyes can (and can't) responsibly do about it
 tags:

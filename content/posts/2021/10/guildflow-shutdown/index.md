@@ -1,7 +1,7 @@
 ---
 title: "Shutting Down my Side Project Guildflow"
 date: 2021-11-08T12:00:00-04:00
-description: I am shutting down Guildflow because after living in the meetup headspace for two years, I have a hard time seeing a pathway to some level of financial stability which could adequately compensate me for my time.
+description: I am shutting down Guildflow. After two years in the meetup headspace I cannot see a path to paying myself for the time.
 tags:
   - side-projects
 ---

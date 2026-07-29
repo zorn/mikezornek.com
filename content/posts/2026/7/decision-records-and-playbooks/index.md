@@ -1,7 +1,7 @@
 ---
 title: "Decision Records, Playbooks, and Other Acts of Kindness"
 date: 2026-07-02T11:19:12-04:00
-description: You've opened a project you didn't write, hit a wall, and found no one left to ask. The code is there but the why is gone. Here are the small habits that spare the next developer that moment.
+description: You open a project you did not write, hit a wall, and find no one left to ask. The habits that spare the next developer that moment.
 pain: the practices that keep a codebase healthy are easy to skip under pressure, and the cost lands on whoever inherits the project later
 fix: a scannable rundown of the non-code practices that make life better for the next developer -- and why each one is worth the effort
 tags:

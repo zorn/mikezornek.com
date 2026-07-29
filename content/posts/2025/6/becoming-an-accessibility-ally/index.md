@@ -1,7 +1,7 @@
 ---
 title: "Becoming an Accessibility Ally: My Early Journey and Resources"
 date: 2025-06-12T10:00:00-04:00
-description: In today's post, I'll share some things I learned from the Website Accessibility course and a few tools and resources you can look into if you are interested in leveling up as well.
+description: What I learned from a Website Accessibility course, plus the tools and resources worth a look if you want to level up too.
 images:
   - posts/2025/6/becoming-an-accessibility-ally/axe-dev-tools-firefox-extension.webp
 pain: web developer who might be less experienced on the frontend wants to be an accessibility ally but is not sure where to start

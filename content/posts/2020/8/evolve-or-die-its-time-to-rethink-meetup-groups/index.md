@@ -1,7 +1,7 @@
 ---
 title: "Evolve or Die: It's Time to Rethink Meetup Groups"
 date: 2020-08-30T14:10:57-04:00
-description: While meetups have lots of individual and social benefits, many have not evolved and are on a declining trajectory. In today’s video we’ll ponder as to the causes of this decline and how you can evolve your own meetup group to not only survive, but thrive.
+description: Many meetup groups have not evolved and are in decline. A video on why that happens and how to help your own group thrive.
 images:
   - posts/2020/8/evolve-or-die-its-time-to-rethink-meetup-groups/thumb.jpeg
 tags:
