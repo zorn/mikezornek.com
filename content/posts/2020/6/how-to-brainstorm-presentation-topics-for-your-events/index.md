@@ -6,7 +6,7 @@ tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 In my experience running meetup groups for over a decade, the social aspect or hallway conversations can sometimes be the most beneficial aspects of an event yet to hold **an event without a speaker or topic can usually lead to an empty RSVP list**.
 

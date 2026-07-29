@@ -6,7 +6,7 @@ tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 I'm a firm believer that going forward, [successful technical meetup groups need to evolve past the once-a-month event style](/posts/2020/8/evolve-or-die-its-time-to-rethink-meetup-groups/) to more of an ongoing community presence, with smaller goal-oriented events happening more often. I believe it is through these events the social connections that ultimately lead to a successful community are solidified.
 

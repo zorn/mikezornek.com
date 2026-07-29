@@ -8,7 +8,7 @@ tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 Today I recorded some thoughts regarding the challenges meetups are facing as they've been forced online and ideas how those challenges can be met.
 

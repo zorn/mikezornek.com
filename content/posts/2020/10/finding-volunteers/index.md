@@ -6,7 +6,7 @@ tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 One of the biggest milestones of any meetup or community is when the group evolves beyond: "Mike's group" to "our group". (Substitute your own name for mine. 😀)
 
