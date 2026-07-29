@@ -9,9 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      # Read the version from `.node-version` rather than repeating it here, so
+      # this check runs on the same Node the deploy does. Render reads that file
+      # too, though a `NODE_VERSION` env var in the Render dashboard takes
+      # precedence over it if one is set.
       - uses: actions/setup-node@v7
         with:
-          node-version: "22"
+          node-version-file: ".node-version"
       # Runs the same script Render uses to deploy. Because bin/build.sh sets
       # `errexit`, any Hugo error (bad YAML front matter, broken ref/relref
       # links, template errors, missing image resources) becomes a red check
