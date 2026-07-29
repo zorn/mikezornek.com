@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending December 27th"
 date: 2020-12-29T17:41:34-05:00
-description: A terse review of what I've been up to.
+description: A lighter vacation-week look back, with group messaging progress in Guildflow and some early brainstorming on 2021 goals.
 series:
   - Journals
 ---

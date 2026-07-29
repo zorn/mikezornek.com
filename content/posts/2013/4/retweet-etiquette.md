@@ -1,6 +1,7 @@
 ---
 title: Retweet Etiquette
 date: 2013-04-18T20:12:34+00:00
+description: How much self-promotion is too much after you ship? Some thoughts on retweet etiquette, prompted by Dave Winer.
 aliases: /2013/04/18/retweet-etiquette/
 ---
 

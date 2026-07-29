@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Flixster"
 date: 2016-01-04T01:52:03+00:00
+description: Day 27 of 31 Days, 31 Products. Flixster, the app I keep on my phone for movie trailers, showtimes, and the release calendar.
 aliases: /2016/01/03/31-days-31-products-flixster/
 tags:
   - reviews

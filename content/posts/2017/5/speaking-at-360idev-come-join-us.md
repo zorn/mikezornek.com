@@ -1,6 +1,7 @@
 ---
 title: Speaking at 360iDev, Come Join Us.
 date: 2017-05-22T16:17:25+00:00
+description: Two of my talk proposals were accepted for 360iDev this August in Denver, including one on the stress around code review.
 aliases: /2017/05/22/speaking-at-360idev-come-join-us/
 tags:
   - conferences

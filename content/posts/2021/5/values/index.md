@@ -1,7 +1,7 @@
 ---
 title: "The Values That Define Us"
 date: 2021-05-17T10:30:00-04:00
-description: Having well-thought-out and excessively reenforced values are an extremely helpful tool to help shape and align the inevitable hard discussions and decisions that need to be made within an organization.
+description: Well-considered values shape the hard discussions and decisions an organization has to make. Here are the ones I hold.
 tags:
   - career
 ---

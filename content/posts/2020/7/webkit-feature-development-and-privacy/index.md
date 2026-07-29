@@ -1,7 +1,7 @@
 ---
 title: "Is WebKit Sabotaging the Future of the Open Web?"
 date: 2020-07-06T17:10:19-04:00
-description: Just to be clear, I am a privacy advocate. I use DuckDuckGo. I use Firefox. I block ads. I encrypt my DNS lookups. I'm building a privacy-focused tool for meetups. And with all that said, this worries me.
+description: I am a privacy advocate by every measure, and WebKit's approach to new web features still worries me. Here is why.
 tags:
   - privacy
   - web-development

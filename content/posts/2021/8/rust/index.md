@@ -1,7 +1,7 @@
 ---
 title: "Learning Rust via Game Development"
 date: 2021-08-12T11:59:26-04:00
-description: A short show and tell for how I am learning Rust through game development.
+description: A short show and tell on how I am learning Rust by working through game development exercises.
 tags:
   - rust
   - gaming

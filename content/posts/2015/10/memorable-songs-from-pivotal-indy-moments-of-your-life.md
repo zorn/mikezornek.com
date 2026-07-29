@@ -1,6 +1,7 @@
 ---
 title: Memorable Songs from Pivotal Indy Moments of Your Life
 date: 2015-10-25T20:44:04+00:00
+description: Mike Hurley tied a song to the day he quit his job. Here is mine, from when I left ASMP to go full time on Mac development.
 aliases: /2015/10/25/memorable-songs-from-pivotal-indy-moments-of-your-life/
 series:
   - Journals

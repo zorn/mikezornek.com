@@ -1,6 +1,7 @@
 ---
 title: Philly Startup Weekend
 date: 2013-04-30T00:50:22+00:00
+description: I finally made it to Philly Startup Weekend, 54 hours to launch a startup from nothing. Notes from the weekend.
 aliases: /2013/04/29/philly-startup-weekend/
 tags:
   - conferences

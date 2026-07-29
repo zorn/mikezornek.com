@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Hearthstone"
 date: 2015-12-10T05:01:10+00:00
+description: Day 16 of 31 Days, 31 Products. Hearthstone, the card game that became my way to destress between long coding sessions.
 aliases: /2015/12/10/31-days-31-products-hearthstone/
 tags:
   - gaming

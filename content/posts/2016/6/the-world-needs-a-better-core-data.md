@@ -1,6 +1,7 @@
 ---
 title: The World Needs a Better Core Data
 date: 2016-06-07T19:50:24+00:00
+description: A WWDC dream I have mostly given up on. What a better Core Data would look like, starting with migrations worth the name.
 aliases: /2016/06/07/the-world-needs-a-better-core-data/
 tags:
   - ios

@@ -1,6 +1,7 @@
 ---
 title: Self Employment Estimate Numbers
 date: 2018-09-04T20:22:16+00:00
+description: How I run the estimate numbers that tell me whether self-employment is on track, worked out in Soulver or any spreadsheet.
 aliases: /2018/09/04/self-employment-estimate-numbers/
 tags:
   - career

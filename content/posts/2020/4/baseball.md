@@ -1,6 +1,7 @@
 ---
 title: "Baseball"
 date: 2020-04-18T14:32:59-04:00
+description: With the season on hold, I have been working through Ken Burns' Baseball documentary. The passage that opens it still gets me.
 ---
 
 > It is played everywhere: in parks and playgrounds, prison yards, in back alleys and farmers’ fields; by small boys and old men, raw amateurs and millionaire professionals. It is a leisurely game that demands blinding speed; the only game in which the defense has the ball. It follows the seasons, beginning each year with the fond expectancy of springtime and ending with the hard facts of autumn.

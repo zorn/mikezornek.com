@@ -1,6 +1,7 @@
 ---
 title: "Book: The Common Good"
 date: 2019-03-18T10:00:00-05:00
+description: Notes on Robert Reich's The Common Good, a case that a shared moral imagination is the essence of any functioning society.
 tags:
   - books
   - reviews

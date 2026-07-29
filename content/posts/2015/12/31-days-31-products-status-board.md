@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Status Board"
 date: 2015-12-24T01:38:22+00:00
+description: Day 23 of 31 Days, 31 Products. Status Board, Panic's app for turning an old iPad into a wall of actionable data.
 aliases: /2015/12/23/31-days-31-products-status-board/
 series:
   - 31 Days 31 Products

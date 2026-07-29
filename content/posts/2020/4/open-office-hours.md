@@ -1,6 +1,7 @@
 ---
 title: "Open Office Hours"
 date: 2020-04-02T10:25:12-04:00
+description: I am opening free one-hour office hours for casual consults on Swift, Elixir, testing, CI, and static sites. Grab a slot.
 tags:
   - consulting
 ---

@@ -1,6 +1,7 @@
 ---
 title: Summer Hiatus Update
 date: 2015-09-24T20:44:59+00:00
+description: Back after a summer away. WWDC in June, a week down the shore, and my first time writing Swift in production.
 aliases: /2015/09/24/summer-hiatus-update/
 series:
   - Journals

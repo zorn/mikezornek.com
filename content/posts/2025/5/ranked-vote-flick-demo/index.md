@@ -1,7 +1,7 @@
 ---
 title: "Ranked Vote Flick Demo"
 date: 2025-05-01T19:58:04-04:00
-description: something tweet like
+description: A short demo video of RankedVote.app (Flick), the Elixir and Phoenix LiveView app I built to help the Elixir Book Club pick books.
 tags:
   - side-projects
   - elixir

@@ -6,7 +6,7 @@ tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 Even in the before times, being a new person at a meetup event was potentially an extremely overwhelming experience. Now that most group events and socializing are happening online it is even more important to make sure you as a group organizer have a plan for how to onboard new members and make them feel welcome.
 

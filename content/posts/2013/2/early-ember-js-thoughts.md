@@ -1,6 +1,7 @@
 ---
 title: Early Ember.js Thoughts
 date: 2013-02-05T17:03:16+00:00
+description: Three weeks into Ember.js and some early thoughts, starting with the fact that its homepage explains almost nothing.
 aliases: /2013/02/05/early-ember-js-thoughts/
 tags:
   - web-development

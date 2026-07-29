@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Sketch"
 date: 2015-12-27T18:19:08+00:00
+description: Day 25 of 31 Days, 31 Products. Sketch, the Mac vector tool that has become a standard for designing user interfaces.
 aliases: /2015/12/27/31-days-31-products-sketch/
 series:
   - 31 Days 31 Products

@@ -1,6 +1,7 @@
 ---
 title: Accessibility
 date: 2016-11-05T19:28:54+00:00
+description: Apple opened its fall event with accessibility. What I have learned building for it on iOS, and seeing Philly CocoaHeads take it up.
 aliases: /2016/11/05/accessibility/
 tags:
   - ios

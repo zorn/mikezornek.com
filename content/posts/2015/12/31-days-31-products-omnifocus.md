@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: OmniFocus"
 date: 2015-12-07T23:22:05+00:00
+description: Day 14 of 31 Days, 31 Products. OmniFocus, the task manager I keep coming back to for Getting Things Done.
 aliases: /2015/12/07/31-days-31-products-omnifocus/
 series:
   - 31 Days 31 Products

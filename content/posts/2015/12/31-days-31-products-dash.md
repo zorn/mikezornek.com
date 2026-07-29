@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Dash"
 date: 2015-12-29T18:58:12+00:00
+description: Day 26 of 31 Days, 31 Products. Dash, a clean API documentation browser with 150 docsets and good editor integration.
 aliases: /2015/12/29/31-days-31-products-dash/
 series:
   - 31 Days 31 Products

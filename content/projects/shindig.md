@@ -1,5 +1,6 @@
 ---
 title: Shindig
+description: Shindig was a startup where I served as co-owner and CTO, generating iOS, Android, and web apps for conference attendees off a Rails backend.
 sectionHighlight: Projects
 layout: onepage
 ---

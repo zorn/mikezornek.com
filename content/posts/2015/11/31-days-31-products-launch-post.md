@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Launch Post"
 date: 2015-11-24T22:38:33+00:00
+description: Kicking off 31 Days, 31 Products, a month of short write-ups on software I actually use, inspired by Jaimee Newberry.
 aliases: /2015/11/24/31-days-31-products-launch-post/
 series:
   - 31 Days 31 Products

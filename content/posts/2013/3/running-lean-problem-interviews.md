@@ -1,6 +1,7 @@
 ---
 title: "Running Lean: Problem Interviews"
 date: 2013-03-23T01:24:24+00:00
+description: The next phase of Running Lean for CB Reader is problem interviews, where you find out whether the problem is even real.
 aliases: /2013/03/22/running-lean-problem-interviews/
 tags:
   - side-projects

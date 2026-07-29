@@ -1,6 +1,7 @@
 ---
 title: Hello Firefox, Goodbye Chrome
 date: 2018-10-08T01:46:34+00:00
+description: Why I dropped Chrome for Firefox, starting with AMP and the years of Google decisions that have been hostile to the open web.
 aliases: /2018/10/08/hello-firefox-goodbye-chrome/
 tags:
   - privacy

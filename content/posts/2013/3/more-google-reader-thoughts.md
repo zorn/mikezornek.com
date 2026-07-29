@@ -1,6 +1,7 @@
 ---
 title: More Google Reader Thoughts
 date: 2013-03-14T03:25:01+00:00
+description: Google Reader was two things, a web app and an unofficial API, and the second one is why its shutdown hurts so much.
 aliases: /2013/03/13/more-google-reader-thoughts/
 tags:
   - side-projects

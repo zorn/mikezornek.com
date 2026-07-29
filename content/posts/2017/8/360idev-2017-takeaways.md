@@ -1,6 +1,7 @@
 ---
 title: 360iDev 2017 Takeaways
 date: 2017-08-18T01:48:40+00:00
+description: Notes from my first 360iDev in Denver, including where the workshop day worked and where I think the pacing went wrong.
 aliases: /2017/08/17/360idev-2017-takeaways/
 tags:
   - conferences

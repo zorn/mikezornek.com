@@ -18,11 +18,16 @@ and runs past 300 characters. Feeding that to `meta description` trades one bad
 snippet for another: search engines discount a weak description and synthesize
 their own either way, so the fallback buys nothing and risks worse.
 
-Pages with no `description` front matter therefore emit the site description,
-exactly as they did before — currently **251 of 519 rendered pages**, almost
-all of them the pre-2020 post archive plus every page under
-`content/projects/`. The fix for those is to write the description, not to
-generate one; that backfill is issue #155.
+Pages with no `description` front matter therefore emit the site description.
+That was **251 of 519 rendered pages** when this was written, almost all of
+them the pre-2020 post archive plus every page under `content/projects/`. The
+fix was to write the description, not to generate one; issue #155 backfilled
+all of them. Today the only page still on the fallback is `404.html`, which has
+no front matter to write.
+
+That is the state to keep. A new page without a `description` silently rejoins
+the fallback, so the archetype's placeholder is a prompt, not a default to
+ship.
 
 ---
 
@@ -55,8 +60,10 @@ The two tags have different consumers and different failure modes:
   suburbs of Philadelphia" tells a reader nothing about the link. The page's own
   first two sentences, imperfect as they are, tell them something.
 
-Once every page has an authored `description` (#155), the divergence
-disappears on its own, because both chains start at `.Description`.
+Now that every page has an authored `description` (#155), the divergence is
+gone, because both chains start at `.Description` and find it. The tolerance
+above is what keeps a future page without one from being a bug rather than a
+cosmetic mismatch.
 
 The one thing to keep in step is escaping: `head.html` applies
 `plainify | htmlUnescape`, matching the embedded templates. Without the
@@ -99,6 +106,12 @@ own. Doing it in the template hides bad authoring instead of surfacing it, and
 `truncate` cuts wherever it lands rather than where a sentence ends. The
 archetype already asks for "tweet-length"; descriptions that overshoot should
 be rewritten by hand.
+
+#155 did exactly that for the 42 that had overshot. The working target is **160
+characters as a hard ceiling**, and roughly 100–140 where the page has that
+much worth saying: long enough to be specific, short enough that Google and the
+social cards both show the whole sentence. Shorter is fine when the page is
+simple; only the ceiling is a rule.
 
 ---
 

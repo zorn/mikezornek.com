@@ -1,6 +1,7 @@
 ---
 title: Micro.Manton
 date: 2018-04-13T18:56:35+00:00
+description: A joke at Manton Reece's expense. After Micro.blog and microcasts, the micro format has taken over the whole Reece household.
 aliases: /2018/04/13/micro-manton/
 ---
 

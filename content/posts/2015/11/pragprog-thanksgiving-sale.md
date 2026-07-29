@@ -1,6 +1,7 @@
 ---
 title: PragProg Thanksgiving Sale
 date: 2015-11-23T19:08:58+00:00
+description: The Pragmatic Programmers annual Thanksgiving sale is on. My pick this year is The Nature of Software Development.
 aliases: /2015/11/23/pragprog-thanksgiving-sale/
 tags:
   - books

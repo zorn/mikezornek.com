@@ -1,6 +1,7 @@
 ---
 title: Philly CocoaHeads Website Relaunch Project
 date: 2015-02-22T23:37:27+00:00
+description: Kicking off a new side project, rebuilding the Philly CocoaHeads website that has been running on inherited code since 2010.
 aliases: /2015/02/22/philly-cocoaheads-website-relaunch-project/
 tags:
   - web-development

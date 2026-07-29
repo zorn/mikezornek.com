@@ -1,6 +1,7 @@
 ---
 title: Back to Full Time at IndyHall (video 5m)
 date: 2018-07-19T20:06:18+00:00
+description: A five-minute video on returning to IndyHall full time, and what makes Philadelphia's best coworking space worth the cost.
 aliases: /2018/07/19/back-to-full-time-at-indyhall/
 tags:
   - career

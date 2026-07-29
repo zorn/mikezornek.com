@@ -1,5 +1,6 @@
 ---
 title: OwlDeck
+description: OwlDeck was a macOS presentation tool for programmers who live in Markdown. I shelved it after fighting the low-level macOS text system.
 sectionHighlight: Projects
 layout: onepage
 ---

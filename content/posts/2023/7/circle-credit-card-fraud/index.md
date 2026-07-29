@@ -1,7 +1,7 @@
 ---
 title: "Circle Sign-Up Forms and Credit Card Fraud"
 date: 2023-07-04T13:00:00-04:00
-description: A short recap of issues I ran into where people were using my Circle community sign-up form to validate stolen credit cards and Circle's lack of proper response.
+description: People used my Circle community sign-up form to validate stolen credit cards, and Circle never responded properly.
 tags:
   - side-projects
 ---

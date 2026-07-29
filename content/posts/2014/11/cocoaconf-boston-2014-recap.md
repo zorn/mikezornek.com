@@ -1,6 +1,7 @@
 ---
 title: CocoaConf Boston 2014 Recap
 date: 2014-11-19T01:21:36+00:00
+description: My first CocoaConf, in Boston. High speaker quality, a good weekend, and the reason I plan to catch a future tour stop.
 aliases: /2014/11/18/cocoaconf-boston-2014-recap/
 tags:
   - conferences

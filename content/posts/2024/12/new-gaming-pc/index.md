@@ -1,7 +1,7 @@
 ---
 title: "New Gaming PC"
 date: 2024-12-29T09:22:54-05:00
-description: In the closing days of summer this past year, I started to get an itch about building a new gaming PC. In this post, I'll share what I built and some notes on its assembly.
+description: I got an itch to build a new gaming PC at the end of summer. What I picked, and some notes from the assembly.
 images:
   - posts//2024/12/new-gaming-pc/colors.jpeg
 tags:

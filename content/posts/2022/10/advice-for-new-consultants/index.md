@@ -1,7 +1,7 @@
 ---
 title: "Advice for New Consultants"
 date: 2022-10-11T10:34:09-04:00
-description: Build in public as much as possible, blog what you learn to teach others and when you have time, don't be afraid to approach the people/projects you care about and ask, "how can I help?"
+description: Build in public, blog what you learn, and do not be afraid to ask the people and projects you care about how you can help.
 tags:
   - consulting
 ---

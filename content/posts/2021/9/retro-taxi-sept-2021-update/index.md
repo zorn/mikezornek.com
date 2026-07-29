@@ -2,6 +2,7 @@
 title: "Retro Taxi: September 2021 Update"
 slug: "retro-taxi-project-sept-2021-update"
 date: 2021-09-02T09:00:41-04:00
+description: A progress update on RetroTaxi, my Phoenix LiveView retrospective board, with a video walkthrough of what works so far.
 tags:
   - elixir
   - side-projects

@@ -1,6 +1,7 @@
 ---
 title: "Putting Zoom in Quarantine"
 date: 2020-04-09T16:03:22-04:00
+description: An update on my hunt for a Zoom alternative, including how Jitsi and Whereby actually fared with my Elixir meetup group.
 tags:
   - privacy
 ---

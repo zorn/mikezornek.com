@@ -1,5 +1,6 @@
 ---
 title: MegaManEffect
+description: MegaManEffect was my first real Mac app, playing a MegaMan 2 animation as you launched apps. Built at MacHack, later featured on Attack of the Show.
 sectionHighlight: Projects
 layout: onepage
 ---

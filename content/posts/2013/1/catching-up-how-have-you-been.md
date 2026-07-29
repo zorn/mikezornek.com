@@ -1,6 +1,7 @@
 ---
 title: "Catching Up: How Have You Been?"
 date: 2013-01-30T03:21:24+00:00
+description: Three months without a post. Catching up on client work, Shindig development, and what has been eating all of my time.
 aliases: /2013/01/29/catching-up-how-have-you-been/
 series:
   - Journals

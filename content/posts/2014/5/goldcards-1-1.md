@@ -1,6 +1,7 @@
 ---
 title: GoldCards 1.1
 date: 2014-05-20T13:43:03+00:00
+description: GoldCards 1.1 is on the App Store, mostly a data update for the Unleash the Hounds nerf plus a few bug fixes.
 aliases: /2014/05/20/goldcards-1-1/
 tags:
   - side-projects

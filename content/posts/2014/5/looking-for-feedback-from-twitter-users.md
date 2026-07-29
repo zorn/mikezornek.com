@@ -1,6 +1,7 @@
 ---
 title: Looking for feedback from Twitter users
 date: 2014-05-04T02:39:54+00:00
+description: I am working on an app for Twitter users and want to know if the problem is real. A short survey, if you have a minute.
 aliases: /2014/05/03/looking-for-feedback-from-twitter-users/
 tags:
   - side-projects

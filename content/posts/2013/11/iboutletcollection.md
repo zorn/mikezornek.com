@@ -1,6 +1,7 @@
 ---
 title: IBOutletCollection
 date: 2013-11-28T01:35:39+00:00
+description: A short CocoaHeads show and tell on IBOutletCollection, the outlet type that hands you an array of views instead of one.
 aliases: /2013/11/27/iboutletcollection/
 tags:
   - ios

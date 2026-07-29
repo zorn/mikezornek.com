@@ -1,7 +1,7 @@
 ---
 title: "ElixirConf Talks of Interest"
 date: 2022-08-29T16:38:56-04:00
-description: I'm attending ElixirConf this week, and in preparation, I looked over the session schedule to see what talks are of interest to me. I figured I'd share my notes in case anyone is curious about what's on my mind.
+description: I went through the ElixirConf schedule to pick out the talks I want to catch. Sharing my notes in case they are useful.
 tags:
   - conferences
   - elixir

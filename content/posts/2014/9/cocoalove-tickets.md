@@ -1,6 +1,7 @@
 ---
 title: CocoaLove Tickets
 date: 2014-09-04T01:02:47+00:00
+description: CocoaLove is next month and we are on the last marketing push. Grab a ticket, or get in touch about sponsoring.
 aliases: /2014/09/03/cocoalove-tickets/
 tags:
   - conferences

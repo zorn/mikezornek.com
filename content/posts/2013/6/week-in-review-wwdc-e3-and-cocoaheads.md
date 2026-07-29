@@ -1,6 +1,7 @@
 ---
 title: "Week in Review: WWDC, E3 and CocoaHeads"
 date: 2013-06-16T21:02:27+00:00
+description: A week in review covering the WWDC keynote and Mavericks, E3, and the latest Philly CocoaHeads meeting.
 aliases: /2013/06/16/week-in-review-wwdc-e3-and-cocoaheads/
 tags:
   - conferences

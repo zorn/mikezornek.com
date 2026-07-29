@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Elgato Game Capture HD"
 date: 2015-12-12T02:36:44+00:00
+description: Day 17 of 31 Days, 31 Products. Elgato Game Capture HD, a passthrough box for recording whatever is on your console or screen.
 aliases: /2015/12/11/31-days-31-products-elgato-game-capture-hd/
 tags:
   - gaming

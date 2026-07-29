@@ -1,5 +1,6 @@
 ---
 title: Mike Zornek (Personal Website)
+description: Background on this website, a Hugo static site with a handcrafted theme, open source on GitHub and published automatically on every push.
 sectionHighlight: Projects
 layout: onepage
 ---

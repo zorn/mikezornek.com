@@ -1,6 +1,7 @@
 ---
 title: "MacPro Reactions"
 date: 2019-06-04T19:41:48-04:00
+description: The 2019 Mac Pro is technically everything I asked for, from expandable RAM to PCI slots. My reactions after the WWDC reveal.
 tags:
   - apple
   - hardware

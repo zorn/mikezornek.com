@@ -1,6 +1,7 @@
 ---
 title: "Website Revamp"
 date: 2019-12-17T14:01:51-05:00
+description: I rebuilt this site's Hugo theme from scratch over a few days, added a bit of branding, and stood up a new For Hire section.
 tags:
   - web-development
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Learning Rust via Game Development: Starting Dungeon Crawler"
 date: 2021-09-02T09:45:54-04:00
-description: A short show and tell for how I am learning Rust through game development.
+description: A second Hands-on Rust update, this time building a graphic turn-based dungeon crawler. Video demo included.
 tags:
   - rust
   - gaming

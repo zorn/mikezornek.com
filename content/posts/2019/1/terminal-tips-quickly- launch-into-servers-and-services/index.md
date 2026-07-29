@@ -1,6 +1,7 @@
 ---
 title: "Terminal Tip: Quickly Launch Into Servers and Services"
 date: 2019-01-12T12:00:00-05:00
+description: "A Terminal tip: use profiles to open a window that jumps to a project folder, starts a local server, and color codes itself."
 tags:
   - devops
 ---

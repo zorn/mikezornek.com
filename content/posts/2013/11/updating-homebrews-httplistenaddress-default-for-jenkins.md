@@ -1,6 +1,7 @@
 ---
 title: Updating Homebrew’s “httpListenAddress” Default for Jenkins
 date: 2013-11-25T02:49:20+00:00
+description: Homebrew's Jenkins install binds to localhost only. How to change httpListenAddress so you can reach the server from another Mac.
 aliases: /2013/11/24/updating-homebrews-httplistenaddress-default-for-jenkins/
 tags:
   - devops

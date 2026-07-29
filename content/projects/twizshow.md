@@ -1,5 +1,6 @@
 ---
 title: TwizShow
+description: TwizShow was an iOS game that built a game show out of your Twitter data. Fun to make, no traction, pulled when Twitter changed its API rules.
 sectionHighlight: Projects
 layout: onepage
 ---

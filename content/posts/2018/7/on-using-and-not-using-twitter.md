@@ -1,6 +1,7 @@
 ---
 title: On Using and Not Using Twitter (video 8m)
 date: 2018-07-17T18:27:14+00:00
+description: An eight-minute video journal on my history with Twitter, my problems with the platform, and where I am headed instead.
 aliases: /2018/07/17/on-using-and-not-using-twitter/
 series:
   - Journals

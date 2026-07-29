@@ -1,6 +1,7 @@
 ---
 title: Rainy Monday
 date: 2018-08-13T19:09:29+00:00
+description: A short video journal. Rain washes out my ride to work, a Riker flashback lunch, and WoW patch day.
 aliases: /2018/08/13/rainy-monday/
 series:
   - Journals

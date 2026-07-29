@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: A running list of what I have built, including personal side projects, past products, and client work, with write-ups on how each one went.
 sectionHighlight: Projects
 layout: onepage
 ---

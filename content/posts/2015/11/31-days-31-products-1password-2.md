@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: 1Password"
 date: 2015-11-26T18:25:57+00:00
+description: Day 03 of 31 Days, 31 Products. 1Password, for generating and retrieving a unique password for every site you use.
 aliases: /2015/11/26/31-days-31-products-1password-2/
 series:
   - 31 Days 31 Products

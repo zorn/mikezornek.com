@@ -1,6 +1,7 @@
 ---
 title: "Meetup Finds New Owners and I Welcome the Competition"
 date: 2020-03-31T18:11:15-04:00
+description: Meetup has been sold again. Why I welcome the competition, and how it relates to the IndieWeb-minded alternative I am building.
 tags:
   - meetups
 ---

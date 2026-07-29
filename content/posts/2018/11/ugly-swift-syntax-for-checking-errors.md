@@ -1,6 +1,7 @@
 ---
 title: Ugly Swift Syntax for Checking Errors
 date: 2018-11-14T19:19:08+00:00
+description: The `if let error = error` pattern is everywhere in iOS callback code. Why I reach for a guard statement instead.
 aliases: /2018/11/14/ugly-swift-syntax-for-checking-errors/
 tags:
   - ios

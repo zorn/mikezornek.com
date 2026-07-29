@@ -1,6 +1,7 @@
 ---
 title: "Thoughts on Mac Pros at WWDC"
 date: 2019-05-07T15:48:04-04:00
+description: Rereading Apple's 2017 Mac roundtable transcript, and why blaming pros for moving to laptops ignores Apple's own neglect.
 tags:
   - apple
   - hardware

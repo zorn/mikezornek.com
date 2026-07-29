@@ -1,6 +1,7 @@
 ---
 title: "Swift and Cocoa: The Odd Couple"
 date: 2015-03-04T16:30:06+00:00
+description: Swift wants everything explicit and Cocoa is happy to sort it out later. Two personalities that fate has made roommates.
 aliases: /2015/03/04/swift-and-cocoa-the-odd-couple/
 tags:
   - ios

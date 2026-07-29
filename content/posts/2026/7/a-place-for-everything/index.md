@@ -1,7 +1,7 @@
 ---
 title: "A Place for Everything: How I Track Work"
 date: 2026-07-03T13:56:35-04:00
-description: "A window into how I track work: issue statuses, types, and pull request conventions, with sample PR templates you can copy. Take a look around and keep what's useful."
+description: How I track work, from issue statuses and types to pull request conventions, with sample PR templates you can copy.
 pain: curious developers like to read how others work and get inspired
 fix: a window into my own opinionated system -- issue tracking, a status flow, issue types, and PR conventions -- to discover and cherry-pick from
 tags:

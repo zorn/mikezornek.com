@@ -1,5 +1,6 @@
 ---
 title: ROAR For Good
+description: ROAR For Good's AlwaysOn is a panic-button safety platform for hotel staff. I helped build its backend and admin tools in Elixir and Phoenix.
 sectionHighlight: Projects
 layout: onepage
 ---

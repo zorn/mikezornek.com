@@ -1,6 +1,7 @@
 ---
 title: How We Record Talks at Philly CocoaHeads
 date: 2016-02-02T22:44:52+00:00
+description: The gear and process we use to record Philly CocoaHeads talks, and why we only ever record the main presentation.
 aliases: /2016/02/02/how-we-record-talks-at-philly-cocoaheads/
 tags:
   - meetups

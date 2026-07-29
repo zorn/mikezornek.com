@@ -1,6 +1,7 @@
 ---
 title: "Code Documentation"
 date: 2019-02-19T10:00:00-05:00
+description: "Professional iOS projects document two ways: inline comments on the types, and guides that explain the thinking above them."
 tags:
   - software-craft
 ---

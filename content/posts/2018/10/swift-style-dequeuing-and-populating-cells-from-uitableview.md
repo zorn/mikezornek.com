@@ -1,6 +1,7 @@
 ---
 title: "Swift Style: Dequeuing and Populating Cells From UITableView"
 date: 2018-10-15T23:03:40+00:00
+description: UITableView still ships two dequeue methods and only one of them is any good. My style for dequeuing and populating cells in Swift.
 aliases: /2018/10/15/swift-style-dequeuing-and-populating-cells-from-uitableview/
 tags:
   - ios

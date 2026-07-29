@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Reeder"
 date: 2016-01-05T03:05:02+00:00
+description: Day 28 of 31 Days, 31 Products. Reeder, the RSS app that got out of the way when my reading habit came back with the iPad Pro.
 aliases: /2016/01/04/31-days-31-products-reeder/
 tags:
   - reviews

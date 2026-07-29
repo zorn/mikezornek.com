@@ -1,6 +1,7 @@
 ---
 title: Code Patterns Talk, Video Now Available
 date: 2015-04-23T17:09:17+00:00
+description: My Philly CocoaHeads talk reviewing a handful of iOS code patterns, and where to find our growing archive of meeting videos.
 aliases: /2015/04/23/code-patterns-talk-video-now-available/
 tags:
   - ios

@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: Acorn"
 date: 2015-11-27T20:54:47+00:00
+description: Day 04 of 31 Days, 31 Products. Acorn, a Mac image editor with a truly native feel and some of the best docs around.
 aliases: /2015/11/27/31-days-31-products-acorn/
 series:
   - 31 Days 31 Products

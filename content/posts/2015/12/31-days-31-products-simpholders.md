@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: SimPholders"
 date: 2015-12-01T19:38:25+00:00
+description: Day 08 of 31 Days, 31 Products. SimPholders, a menu bar app that gets you into recent Xcode simulator builds in a click.
 aliases: /2015/12/01/31-days-31-products-simpholders/
 series:
   - 31 Days 31 Products

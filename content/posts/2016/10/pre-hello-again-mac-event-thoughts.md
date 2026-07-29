@@ -1,6 +1,7 @@
 ---
 title: Pre-“Hello Again” Mac Event Thoughts
 date: 2016-10-22T22:34:21+00:00
+description: Ahead of Apple's Hello Again event, where my aging 2011 iMac leaves me and what I am hoping Apple finally ships.
 aliases: /2016/10/22/pre-hello-again-mac-event-thoughts/
 tags:
   - apple

@@ -1,6 +1,7 @@
 ---
 title: "My New Experiment: Journaling All the Things"
 date: 2016-09-13T21:34:36+00:00
+description: After watching Mark Dalrymple rubber duck a bug in a text file, I am trying to journal my own assumptions and questions.
 aliases: /2016/09/13/my-new-experiment-journaling-all-the-things/
 tags:
   - practices

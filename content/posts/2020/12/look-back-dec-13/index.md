@@ -1,7 +1,7 @@
 ---
 title: "A Look Back: Week Ending December 13th"
 date: 2020-12-13T15:48:20-05:00
-description: A terse review of what I've been up to.
+description: A look back covering the Ethical Ads campaign results, deployment automation for Guildflow, and where things stand.
 series:
   - Journals
 ---

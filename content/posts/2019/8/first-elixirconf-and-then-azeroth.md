@@ -1,6 +1,7 @@
 ---
 title: "First ElixirConf, and Then Azeroth"
 date: 2019-08-23T15:20:41-04:00
+description: Heading to my first ElixirConf for four days of workshops and talks, including LiveView. Then some well-earned time in Azeroth.
 tags:
   - conferences
   - elixir

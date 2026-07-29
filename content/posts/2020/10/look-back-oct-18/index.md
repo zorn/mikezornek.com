@@ -1,12 +1,12 @@
 ---
 title: "A Look Back: Week Ending October 18th"
 date: 2020-10-19T10:21:06-04:00
-description: Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+description: A weekly look back. My Postmark broadcast pull request merged into Swoosh, and an Add to Calendar feature for events.
 series:
   - Journals
 ---
 
-Lots of times it's easy to feel bad about missing deadlines but when you add it all up, it turns out a lot of things happened last week.
+Some weeks a thing you've been chipping away at gets merged and the whole list feels lighter. Last week was one of those.
 
 ## [Guildflow](/projects/guildflow/)
 

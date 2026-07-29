@@ -1,6 +1,7 @@
 ---
 title: "Gaming Update, February 2019"
 date: 2019-02-13T12:00:00-05:00
+description: What I am playing in February 2019, mostly Civilization VI and learning its mechanics ahead of the Gathering Storm expansion.
 tags:
   - gaming
 ---

@@ -1,6 +1,7 @@
 ---
 title: “For the times they are a-changing”
 date: 2017-02-01T17:33:35+00:00
+description: I am no longer an employee of Big Nerd Ranch. What happened, what comes next, and the neck surgery I have scheduled for February.
 aliases: /2017/02/01/for-the-times-they-are-a-changing/
 tags:
   - career

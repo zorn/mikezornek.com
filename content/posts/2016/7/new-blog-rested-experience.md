@@ -1,6 +1,7 @@
 ---
 title: "New Blog: Rested Experience"
 date: 2016-07-05T15:29:25+00:00
+description: I started a new blog, Rested Experience, to journal the Mac app I have been building for the past month.
 aliases: /2016/07/05/new-blog-rested-experience/
 tags:
   - side-projects

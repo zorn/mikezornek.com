@@ -1,6 +1,7 @@
 ---
 title: Mid-week Checkin
 date: 2016-10-06T01:34:06+00:00
+description: A midweek check-in from the Front End Web class, with the full table of contents we have been working through.
 aliases: /2016/10/05/mid-week-checkin/
 series:
   - Journals

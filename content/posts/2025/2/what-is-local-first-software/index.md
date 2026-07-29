@@ -1,7 +1,7 @@
 ---
 title: "What is Local-first Software?"
 date: 2025-02-03T09:11:28-05:00
-description: We believe that data ownership and real-time collaboration are not at odds with each other. It is possible to create software that has all the advantages of cloud apps, while also allowing you to retain full ownership of the data. We call this type of software local-first software.
+description: A look at local-first software, the idea that you can have the collaboration of cloud apps while still fully owning your data.
 images:
   - posts/2025/2/what-is-local-first-software/offline-mode.jpg
 tags:

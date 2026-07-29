@@ -1,7 +1,7 @@
 ---
 title: "My Standup Format"
 date: 2022-11-09T15:00:32-05:00
-description: There is an async standup format I've been using for over a year now, and since it seems to be sticking, I figured I'd take a moment to share it and explain why I like it.
+description: The async standup format I have used for over a year now, and why it has stuck when other formats did not.
 images:
   - posts/2022/11/my-standup-format/we-are-fine.jpg
 tags:

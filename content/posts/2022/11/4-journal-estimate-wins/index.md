@@ -1,7 +1,7 @@
 ---
 title: "Recent Estimating Work Notes"
 date: 2022-11-04T13:12:04-04:00
-description: The goal of this estimate is to, in a time-boxed format, create a framework for more meaningful discussions to happen. These numbers should not be looked at as facts but shape those first steps of discovery.
+description: An estimate is not a set of facts, it is a time-boxed framework for a better discussion. Notes from recent estimating work.
 images:
   - posts/2022/11/4-journal-estimate-wins/deadlines.jpg
 tags:

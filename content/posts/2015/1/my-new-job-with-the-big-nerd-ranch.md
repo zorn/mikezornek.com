@@ -1,6 +1,7 @@
 ---
 title: My New Job with the Big Nerd Ranch
 date: 2015-01-19T22:26:40+00:00
+description: I accepted a job with Big Nerd Ranch. What Aaron Hillegass's Cocoa Programming book did for my career, and why this move matters.
 aliases: /2015/01/19/my-new-job-with-the-big-nerd-ranch/
 tags:
   - career

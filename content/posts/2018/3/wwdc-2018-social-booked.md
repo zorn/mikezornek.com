@@ -1,6 +1,7 @@
 ---
 title: WWDC 2018 Social, Booked
 date: 2018-03-13T19:39:04+00:00
+description: I am booked for WWDC week in San Jose, June 3rd to 7th. Not attending the conference itself, just the alternative events.
 aliases: /2018/03/13/wwdc-2018-social-booked/
 tags:
   - conferences

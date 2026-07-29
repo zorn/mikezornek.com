@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: OmniGraffle"
 date: 2015-12-17T19:28:26+00:00
+description: Day 20 of 31 Days, 31 Products. OmniGraffle, my go-to for flow charts, data models, and website wireframes.
 aliases: /2015/12/17/31-days-31-products-omnigraffle/
 series:
   - 31 Days 31 Products

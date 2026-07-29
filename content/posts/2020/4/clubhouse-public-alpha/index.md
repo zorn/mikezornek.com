@@ -1,6 +1,7 @@
 ---
 title: "Clubhouse Public Alpha"
 date: 2020-04-21T10:50:28-04:00
+description: After more than a year of side project nights, the first public alpha of Clubhouse, my IndieWeb-minded alternative to Meetup, is out.
 tags:
   - side-projects
 ---

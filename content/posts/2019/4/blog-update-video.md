@@ -1,6 +1,7 @@
 ---
 title: "Video: Blog Update, April 2019"
 date: 2019-04-22T09:00:00-05:00
+description: A short video update on the blog. No big announcements, just where things stand in April 2019.
 series:
   - Journals
 ---

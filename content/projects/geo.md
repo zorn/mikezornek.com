@@ -1,5 +1,6 @@
 ---
 title: GEO
+description: GEO was a 2010 team project, an iOS game that turned walking your neighborhood into fighting monsters and leveling up. Pokemon Go, a few years early.
 sectionHighlight: Projects
 layout: onepage
 ---

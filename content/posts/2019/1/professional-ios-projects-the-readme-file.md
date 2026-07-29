@@ -1,6 +1,7 @@
 ---
 title: "The README File"
 date: 2019-01-08T12:51:32-05:00
+description: The README is the first thing anyone meets in your project, including future you. Here is what I make sure mine covers.
 aliases: /posts/2019/1/anatomy-of-a-modern-ios-project-the-readme-file/
 tags:
   - software-craft

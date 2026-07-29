@@ -1,6 +1,7 @@
 ---
 title: A Few Dental Stories Amongst Subscribers
 date: 2016-10-16T21:39:22+00:00
+description: A YouTuber's story about his teeth pulled out my own. Years without dental care, a cracked molar I ignored, and what it cost.
 aliases: /2016/10/16/a-few-dental-stories-amongst-subscribers/
 series:
   - Journals

@@ -1,5 +1,6 @@
 ---
 title: Franklin
+description: Franklin was an intentionally over-engineered blog app in Elixir, Phoenix, and LiveView, built to learn event sourcing and CQRS with Commanded.
 sectionHighlight: Projects
 layout: onepage
 ---

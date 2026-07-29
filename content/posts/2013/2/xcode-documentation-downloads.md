@@ -1,6 +1,7 @@
 ---
 title: Xcode Documentation Downloads
 date: 2013-02-20T19:22:19+00:00
+description: Grabbing Xcode as a DMG saves re-downloading from the Mac App Store, but a 1.3 GB docs download still waits at first launch.
 aliases: /2013/02/20/xcode-documentation-downloads/
 tags:
   - ios

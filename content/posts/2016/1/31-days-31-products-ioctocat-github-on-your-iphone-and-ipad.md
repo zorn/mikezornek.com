@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: iOctocat, GitHub on your iPhone and iPad"
 date: 2016-01-05T23:11:29+00:00
+description: Day 29 of 31 Days, 31 Products. iOctocat, the iPhone and iPad app I use to track GitHub pull requests while on the road.
 aliases: /2016/01/05/31-days-31-products-ioctocat-github-on-your-iphone-and-ipad/
 tags:
   - reviews

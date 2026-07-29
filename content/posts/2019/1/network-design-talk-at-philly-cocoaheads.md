@@ -1,6 +1,7 @@
 ---
 title: "Network Design Talk at Philly CocoaHeads"
 date: 2019-01-03T10:25:00-05:00
+description: I am giving a talk on designing a modern Swift network stack at Philly CocoaHeads on January 10th. Details and RSVP inside.
 tags:
   - ios
   - meetups

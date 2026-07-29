@@ -1,6 +1,7 @@
 ---
 title: I'm Teaching a Half Day iOS Refactoring Workshop in July
 date: 2017-06-12T15:38:30+00:00
+description: I am running my half-day iOS Refactoring workshop publicly in July, on mastering small improvements instead of risky rewrites.
 aliases: /2017/06/12/im-teaching-a-half-day-ios-refactoring-workshop-in-july/
 tags:
   - ios

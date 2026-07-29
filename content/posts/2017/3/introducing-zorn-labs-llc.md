@@ -1,6 +1,7 @@
 ---
 title: Introducing Zorn Labs LLC
 date: 2017-03-28T17:44:06+00:00
+description: Introducing Zorn Labs LLC, the new home for my consulting and product work, and the kind of iOS work I am looking for.
 aliases: /2017/03/28/introducing-zorn-labs-llc/
 tags:
   - career

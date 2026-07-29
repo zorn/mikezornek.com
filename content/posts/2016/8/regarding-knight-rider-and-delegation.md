@@ -1,6 +1,7 @@
 ---
 title: Regarding Knight Rider and Delegation
 date: 2016-08-02T22:14:36+00:00
+description: Students no longer get the Knight Rider analogy for delegation, and that is a small tragedy for a Big Nerd Ranch instructor.
 aliases: /2016/08/02/regarding-knight-rider-and-delegation/
 tags:
   - ios

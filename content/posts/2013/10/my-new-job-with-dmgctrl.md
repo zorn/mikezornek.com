@@ -1,6 +1,7 @@
 ---
 title: My New Job with DmgCtrl
 date: 2013-10-30T03:00:27+00:00
+description: After almost eight years of self-employment I have taken a job at DmgCtrl in Philadelphia. Why this shop, and why now.
 aliases: /2013/10/29/my-new-job-with-dmgctrl/
 tags:
   - career

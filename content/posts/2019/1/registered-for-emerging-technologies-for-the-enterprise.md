@@ -1,6 +1,7 @@
 ---
 title: "Registered for Emerging Technologies for the Enterprise 2019"
 date: 2019-01-22T12:35:09-05:00
+description: I grabbed early bird tickets for Emerging Technologies for the Enterprise 2019, and why I like sampling topics outside my iOS circles.
 tags:
   - conferences
 ---

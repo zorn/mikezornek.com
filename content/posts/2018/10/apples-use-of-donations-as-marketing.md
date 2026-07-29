@@ -1,6 +1,7 @@
 ---
 title: Apple’s Use of Donations as Marketing
 date: 2018-10-04T16:07:40+00:00
+description: Apple donated $1 million after the Sulawesi earthquake. Scaled against its profits, that is about $1.86 from someone earning $100,000.
 aliases: /2018/10/04/apples-use-of-donations-as-marketing/
 tags:
   - apple

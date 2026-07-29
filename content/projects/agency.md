@@ -1,5 +1,6 @@
 ---
 title: Agency Projects
+description: A generic look at the NDA'd iOS and Android work I did as a full-time employee at a pair of large agencies.
 sectionHighlight: Projects
 layout: onepage
 ---

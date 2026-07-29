@@ -1,6 +1,7 @@
 ---
 title: "Running Lean: Building Our Lean Canvas"
 date: 2013-03-14T00:44:02+00:00
+description: Building a Lean Canvas for CB Reader, using Ash Maurya's Running Lean to turn vague ideas into testable hypotheses.
 aliases: /2013/03/13/running-lean-building-our-lean-canvas/
 tags:
   - side-projects

@@ -1,7 +1,7 @@
 ---
 title: "Elixir Context Accessor Function: Which Return Type Do You Prefer?"
 date: 2023-02-12T13:55:42-05:00
-description: something tweet like
+description: Should a context accessor return `{:ok, noun}` or a bare `noun` or `nil`? Why I am moving toward fetch functions and tuples.
 tags:
   - elixir
   - software-craft

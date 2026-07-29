@@ -1,6 +1,7 @@
 ---
 title: Say Hello at WWDC!
 date: 2018-06-02T01:49:44+00:00
+description: I will be in San Jose for WWDC week, hanging around AltConf and the other events rather than the conference itself.
 aliases: /2018/06/02/say-hello-at-wwdc/
 tags:
   - conferences

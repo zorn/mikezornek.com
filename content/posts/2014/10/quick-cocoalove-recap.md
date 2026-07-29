@@ -1,6 +1,7 @@
 ---
 title: Quick CocoaLove Recap
 date: 2014-11-01T00:35:46+00:00
+description: A quick recap of the first CocoaLove. I counted two open laptops all weekend, which tells you how engaged the room was.
 aliases: /2014/10/31/quick-cocoalove-recap/
 tags:
   - conferences

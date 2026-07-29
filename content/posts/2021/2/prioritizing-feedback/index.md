@@ -1,7 +1,7 @@
 ---
 title: "Prioritizing Customer Feedback"
 date: 2021-02-20T13:22:33-05:00
-description: It is important to be mindful of how you are spending your time. It can be very easy to fall into a cycle of reacting to things, feeling busy but not actually moving the needle of your business in the way you need to be.
+description: It is easy to react to every piece of customer feedback, feel busy, and move nothing. How I decide what actually gets built.
 tags:
   - side-projects
 ---

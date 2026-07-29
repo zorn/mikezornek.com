@@ -1,6 +1,7 @@
 ---
 title: Farewell Edge Cases
 date: 2015-04-23T15:43:46+00:00
+description: Edge Cases is ending after 128 episodes. A goodbye to the rare Apple developer podcast that actually talked about code.
 aliases: /2015/04/23/farewell-edge-cases/
 tags:
   - reviews

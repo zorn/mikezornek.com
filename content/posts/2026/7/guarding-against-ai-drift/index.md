@@ -1,7 +1,7 @@
 ---
 title: "Guarding Against AI Drift: My Automated Elixir Quality Checks"
 date: 2026-07-22T11:14:06-04:00
-description: As I experiment more with AI code generation, I've hardened LocalCents with more automated Elixir quality checks than I've ever run. Here's the whole guardrail setup, each linked to how it's wired in the real repo.
+description: I have hardened LocalCents with more automated Elixir quality checks than I have ever run. The whole guardrail setup, wired in a real repo.
 pain: as I generate more code with AI, I'm shipping more than ever and worried it will quietly drift away from my own standard of good code
 fix: walk through the automated Elixir guardrails I run on LocalCents, each linked to its real implementation, so a peer can steal the ones they're missing
 bob-promise: after reading this you'll have a concrete, copyable checklist of Elixir CI guardrails to keep AI-generated code from drifting toward the median

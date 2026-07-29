@@ -1,6 +1,7 @@
 ---
 title: Philly Craftsmanship
 date: 2014-08-03T00:52:02+00:00
+description: Notes from the first Software as Craft Philadelphia meeting, a good mix of discussion and hands-on pairing.
 aliases: /2014/08/02/philly-craftsmanship/
 tags:
   - software-craft

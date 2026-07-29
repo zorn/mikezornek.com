@@ -1,12 +1,12 @@
 ---
 title: "Finding Volunteers for Your Meetup Group"
 date: 2020-10-19T10:00:27-04:00
-description: The easiest way to find volunteers for your meetup group is to ask for help. Be specific and define meaningful, approachable tasks that are easy for group regulars to take on.
+description: The easiest way to find meetup volunteers is to ask. Be specific, and define approachable tasks a group regular can take on.
 tags:
   - meetups
 ---
 
-> This blog post was orientally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
+> This blog post was originally posted to the Guildflow product blog, which will soon [be shutdown](/posts/2021/10/guildflow-shutdown/).
 
 One of the biggest milestones of any meetup or community is when the group evolves beyond: "Mike's group" to "our group". (Substitute your own name for mine. 😀)
 

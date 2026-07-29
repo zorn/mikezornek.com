@@ -1,5 +1,6 @@
 ---
 title: Follow
+description: RSS feeds and platform accounts where you can follow my writing and videos, including Mastodon, Bluesky, YouTube, and GitHub.
 sectionHighlight: Follow
 layout: onepage
 aliases: /feeds/

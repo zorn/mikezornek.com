@@ -1,6 +1,7 @@
 ---
 title: Phone Names
 date: 2014-10-02T00:26:27+00:00
+description: I name my hardware after video game characters. A short history of my phone names, starting with an iPhone 4 called Dex.
 aliases: /2014/10/01/phone-names/
 series:
   - Journals

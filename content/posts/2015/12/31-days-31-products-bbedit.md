@@ -1,6 +1,7 @@
 ---
 title: "31 Days, 31 Products: BBEdit"
 date: 2015-12-21T22:15:07+00:00
+description: Day 22 of 31 Days, 31 Products. BBEdit, the editor I reach for on huge files, giant find-and-replaces, and config work.
 aliases: /2015/12/21/31-days-31-products-bbedit/
 series:
   - 31 Days 31 Products

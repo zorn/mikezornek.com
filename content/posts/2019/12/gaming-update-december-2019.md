@@ -1,6 +1,7 @@
 ---
 title: "Gaming Update, December 2019"
 date: 2019-12-21T16:44:31-05:00
+description: What I have been playing over the holiday break, including WoW Classic on an RP-PvP server and the Link's Awakening remake.
 tags:
   - gaming
 ---

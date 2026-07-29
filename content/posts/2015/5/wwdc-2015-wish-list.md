@@ -1,6 +1,7 @@
 ---
 title: WWDC 2015 Wish List
 date: 2015-05-02T23:48:58+00:00
+description: "My WWDC 2015 wish list, mostly Swift tooling: refactoring in Xcode, Instruments support, and something like gofmt."
 aliases: /2015/05/02/wwdc-2015-wish-list/
 tags:
   - apple

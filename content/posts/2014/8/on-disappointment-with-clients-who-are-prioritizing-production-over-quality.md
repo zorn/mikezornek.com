@@ -1,6 +1,7 @@
 ---
 title: On disappointment with clients who are prioritizing production over quality
 date: 2014-08-24T02:28:52+00:00
+description: A friend asked how to handle clients who value speed over quality. My reply, which starts by looking inward first.
 aliases: /2014/08/23/on-disappointment-with-clients-who-are-prioritizing-production-over-quality/
 tags:
   - consulting

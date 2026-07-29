@@ -1,6 +1,7 @@
 ---
 title: A Walled Garden of Shit
 date: 2014-08-12T00:55:27+00:00
+description: Apple's review guidelines promise to reject apps that are not useful or entertaining. A look at how well that holds up.
 aliases: /2014/08/11/a-walled-garden-of-shit/
 tags:
   - apple

@@ -1,6 +1,7 @@
 ---
 title: "RetroTaxi Project Kickoff"
 date: 2021-03-14T16:55:21-04:00
+description: Kicking off RetroTaxi, an open source Phoenix LiveView retrospective board I am building as a teaching example, starting from its pitch document.
 slug: retro-taxi-project-kickoff
 tags:
   - elixir

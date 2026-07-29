@@ -1,7 +1,7 @@
 ---
 title: "Personal Lockdown Update"
 date: 2020-04-30T09:57:51-04:00
-description: Again, I'm thankful for my privilege. I have savings to live off for a while. But let's not forget, there are people out there starving and this program right now is bringing no relief.
+description: A lockdown check-in. I am thankful for savings and privilege, and mindful that this relief program is reaching nobody yet.
 series:
   - Journals
 ---

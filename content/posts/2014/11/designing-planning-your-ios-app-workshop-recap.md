@@ -1,6 +1,7 @@
 ---
 title: "Designing & Planning Your iOS App Workshop Recap"
 date: 2014-11-11T18:34:29+00:00
+description: A recap of the second Philly CocoaHeads workshop, a full day on designing and planning an iOS app before you build it.
 aliases: /2014/11/11/designing-planning-your-ios-app-workshop-recap/
 tags:
   - ios

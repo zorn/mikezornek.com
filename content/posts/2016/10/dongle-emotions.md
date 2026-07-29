@@ -1,6 +1,7 @@
 ---
 title: Dongle Emotions
 date: 2016-10-30T22:08:18+00:00
+description: Cleaning up the office, opening a pile of new USB-C dongles, and a funny story from my early self-employed contracting days.
 aliases: /2016/10/30/dongle-emotions/
 series:
   - Journals

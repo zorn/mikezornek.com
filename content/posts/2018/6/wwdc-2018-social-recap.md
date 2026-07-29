@@ -1,6 +1,7 @@
 ---
 title: WWDC 2018 Social Recap
 date: 2018-06-09T02:49:05+00:00
+description: A recap of the social side of WWDC 2018, including a full cost breakdown of doing the week without a conference ticket.
 aliases: /2018/06/09/wwdc-2018-social-recap/
 tags:
   - conferences

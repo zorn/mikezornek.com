@@ -1,7 +1,7 @@
 ---
 title: "An Android Book Club for iOS Developers"
 date: 2020-06-30T10:03:23-04:00
-description: I am hoping to attract current iOS developers who are looking to expand their knowledge and use their current experiences with Swift and iOS to help shape the conversations at the weekly meetings.
+description: An Android book club aimed at iOS developers, using what you already know from Swift and iOS to shape the conversation.
 images:
   - posts/2020/6/an-android-book-club-for-ios-developers/thumb.jpeg
 tags:

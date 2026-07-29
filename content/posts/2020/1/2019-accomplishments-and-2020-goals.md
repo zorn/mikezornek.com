@@ -1,6 +1,7 @@
 ---
 title: "2019 Accomplishments and 2020 Goals"
 date: 2020-01-14T12:22:38-05:00
+description: Looking back at how my 2019 goals actually went, and setting the ones I want to chase through 2020.
 tags:
   - career
 ---
