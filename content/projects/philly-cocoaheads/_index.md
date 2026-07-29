@@ -1,5 +1,6 @@
 ---
 title: Philly CocoaHeads Website
+description: How I rebuilt the Philly CocoaHeads website, moving off WordPress and onto Hugo with a custom theme and automated publishing.
 sectionHighlight: Projects
 layout: onepage
 ---

@@ -1,5 +1,6 @@
 ---
 title: Elixir Club
+description: ElixirClub was a community site meant to help Elixir developers finish their side projects. I ran it for about six months before shutting it down.
 sectionHighlight: Projects
 layout: onepage
 ---

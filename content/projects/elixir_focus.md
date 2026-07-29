@@ -1,5 +1,6 @@
 ---
 title: Elixir Focus / Phoenix by Example
+description: Phoenix by Example, later renamed Elixir Focus, was my run at paid educational content for Elixir developers, and why I stepped away from it.
 sectionHighlight: Projects
 layout: onepage
 ---

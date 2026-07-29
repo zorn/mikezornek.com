@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: "Ways to reach me: email, Mastodon, Bluesky, or grab a slot on my calendar for a chat."
 sectionHighlight: Contact
 layout: onepage
 ---

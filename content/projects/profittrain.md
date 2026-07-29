@@ -1,5 +1,6 @@
 ---
 title: ProfitTrain
+description: ProfitTrain, formerly Billable, was my time tracking and invoicing app for Mac. A small, successful product I eventually sold to RazorAnt.
 sectionHighlight: Projects
 layout: onepage
 ---

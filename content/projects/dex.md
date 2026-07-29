@@ -1,5 +1,6 @@
 ---
 title: Dex
+description: Dex was my first real iOS app, a Pokemon reference tool that hit about a million downloads before Nintendo legal asked for its removal.
 sectionHighlight: Projects
 layout: onepage
 ---

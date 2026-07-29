@@ -1,5 +1,6 @@
 ---
 title: Guildflow
+description: Guildflow gave meetup organizers a modern group website that respected member data and privacy. I ran it for two years, then shut it down.
 sectionHighlight: Projects
 layout: onepage
 aliases: /projects/club-house-hosting/

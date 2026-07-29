@@ -1,5 +1,6 @@
 ---
 title: Talks
+description: A record of the conferences and meetups I have spoken at and attended over the years, with links to the talks I gave.
 sectionHighlight: Talks
 layout: onepage
 ---

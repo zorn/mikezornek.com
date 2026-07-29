@@ -1,5 +1,6 @@
 ---
 title: TrafficCast
+description: Two years of iOS consulting for TrafficCast, including a rebuild of their network stack that I later turned into a conference talk.
 sectionHighlight: Projects
 layout: onepage
 ---
