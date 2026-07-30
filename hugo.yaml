@@ -96,9 +96,19 @@ outputFormats:
     baseName: og-manifest
     isPlainText: true
     notAlternative: true
+  # /llms.txt — a plain-text guide to the site for language models. Like
+  # `ogmanifest` it is a machine artifact rather than a page, so `notAlternative`
+  # keeps it out of `.AlternativeOutputFormats` and off the `<link rel=alternate>`
+  # tags in the head. See decisions/llms-txt.md, including the part about this
+  # being an unproven convention.
+  llmstxt:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
 
 outputs:
-  home: ["HTML", "RSS", "JSON", "ogmanifest"]
+  home: ["HTML", "RSS", "JSON", "ogmanifest", "llmstxt"]
 
 build:
   buildStats:
