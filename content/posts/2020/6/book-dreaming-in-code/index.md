@@ -3,13 +3,13 @@ title: "Book Notes: Dreaming in Code "
 date: 2020-06-15T10:41:17-04:00
 description: I finished this book over the weekend. Here were a few highlights.
 images:
-  - posts/2020/6/book-dreaming-in-code/thumnb.jpeg
+  - posts/2020/6/book-dreaming-in-code/thumb.jpeg
 tags:
   - books
   - reviews
 ---
 
-{{< figure src="thumnb.jpeg" link="false" alt="Dreaming in Code book cover." >}}
+{{< figure src="thumb.jpeg" link="false" alt="Dreaming in Code book cover." >}}
 
 Dreaming in Code is a book by Scott Rosenberg. On [the book website](http://www.dreamingincode.com/) he write:
 
