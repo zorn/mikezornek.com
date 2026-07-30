@@ -1,4 +1,4 @@
-# Declare one Person entity, and reference it from every page
+# Declare one Person entity, and reference it from the pages that carry markup
 
 Every page that emits structured data emits a single
 `<script type="application/ld+json">` holding a `@graph` with two nodes: a
@@ -23,7 +23,7 @@ node to the GitHub, LinkedIn, Mastodon, Bluesky, YouTube, and GoodReads
 accounts, which is what lets a search for the name resolve to a person rather
 than to a guess.
 
-**Why the Person node is repeated on every page** instead of declared once on
+**Why the Person node is repeated on each of those pages** instead of declared once on
 the homepage and referenced from everywhere else: **Google parses each page
 independently.** A bare `@id` pointing at a node defined on another URL is
 unresolvable at the moment it is read. The `@graph` gets both properties at

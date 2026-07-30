@@ -28,8 +28,9 @@ params:
   sprint:
     headline: "Two weeks. One problem. $6,000."
     price: "$6,000"
-  # Facts about Mike-the-person, for the JSON-LD `Person` node that every page
-  # emits. See decisions/structured-data.md.
+  # Facts about Mike-the-person, for the JSON-LD `Person` node emitted on the
+  # home page and on blog posts. No other page type carries structured data.
+  # See decisions/structured-data.md.
   #
   # This is editorial copy aimed at machines rather than readers, which is
   # exactly why it lives here instead of being buried in a template: it is the
