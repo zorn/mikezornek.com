@@ -36,6 +36,11 @@
 */}}
 {{ partial "og/social-image.html" . }}
 
+{{/* schema.org JSON-LD. Invisible to readers; it tells search engines what
+  this page is and who it is by. See decisions/structured-data.md.
+*/}}
+{{ partial "schema/structured-data.html" . }}
+
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}">
 {{ end }}

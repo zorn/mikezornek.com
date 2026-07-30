@@ -28,6 +28,34 @@ params:
   sprint:
     headline: "Two weeks. One problem. $6,000."
     price: "$6,000"
+  # Facts about Mike-the-person, for the JSON-LD `Person` node that every page
+  # emits. See decisions/structured-data.md.
+  #
+  # This is editorial copy aimed at machines rather than readers, which is
+  # exactly why it lives here instead of being buried in a template: it is the
+  # answer to "who is this site about," and it should be as easy to revise as
+  # any other bit of site copy.
+  #
+  # Keep it true. `sameAs` comes from data/profiles.yaml, and `makesOffer` from
+  # the `sprint` block above, so neither is repeated here.
+  identity:
+    # Short enough to read as a title, not a pitch. The homepage says "I
+    # describe myself as both a developer and teacher"; this matches.
+    jobTitle: Developer and Teacher
+    description: Developer and teacher from the suburbs of Philadelphia, building digital products for over 25 years and working primarily in Elixir.
+    # Subjects this site actually has a body of writing about, roughly in
+    # proportion to the tag counts. Not an aspirational skills list.
+    knowsAbout:
+      - Elixir
+      - Phoenix Framework
+      - Software Craft
+      - Software Consulting
+      - iOS Development
+    # Coarse on purpose. "Suburbs of Philadelphia" is what the homepage says,
+    # and a street address has no business in a public JSON blob.
+    addressRegion: PA
+    addressCountry: US
+    image: /images/zorn_square_256.webp
   # Series listed newest-first (personal logging). Others default to oldest-first
   # so reading-order series (e.g. tutorials) read top-to-bottom.
   seriesNewestFirst:
