@@ -1,5 +1,9 @@
 baseURL: "https://mikezornek.com"
 locale: "en-US"
+# Render themes/reborn/layouts/robots.txt. Off by default in Hugo, and while it
+# was off the site served a 404 at /robots.txt, so no crawler was ever told
+# where the sitemap lives. See decisions/ai-crawlers.md.
+enableRobotsTXT: true
 title: "Mike Zornek"
 description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
 theme: "reborn"
