@@ -1,0 +1,12 @@
+{{/* The Follow page's "Platform Accounts" list.
+
+  Every entry rendered here also lands in the `sameAs` array of the site's
+  structured data, which is the point of driving both from
+  data/profiles.yaml — an account claimed to a search engine but not shown to a
+  reader is a claim the site does not back up.
+*/}}
+<ul>
+  {{- range site.Data.profiles.accounts }}
+    <li><a href="{{ .url }}">{{ .name }}</a></li>
+  {{- end }}
+</ul>

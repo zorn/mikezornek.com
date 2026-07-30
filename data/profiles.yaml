@@ -1,0 +1,37 @@
+# Mike's accounts on other platforms: the single source for both the visible
+# Follow page and the `sameAs` array in the site's structured data.
+#
+# Why one list instead of two: `sameAs` tells search engines "the entity
+# described on this site is the same entity as these external profiles." A
+# `sameAs` array that disagrees with the links a reader can actually see is
+# worse than no `sameAs` at all — it asserts a connection the site does not
+# make. Keeping both renderings on one list means they cannot drift.
+#
+# Same reasoning as docs/adr/0001-curated-list-via-data-file.md: a curated list
+# where each entry carries display text belongs in a data file, not scattered
+# across prose and templates.
+#
+# Order here IS display order on the Follow page.
+# Each entry:
+#   name - display text for the link. Also used for the feed link, suffixed
+#          with " RSS".
+#   url  - the profile page. Every url in this list ends up in `sameAs`, so
+#          only add things that are genuinely a profile of Mike. A feed, a
+#          project page, or someone else's site does not belong here.
+#   feed - optional RSS/Atom URL for that account. Entries with one are also
+#          listed in the Follow page's RSS section.
+accounts:
+  - name: Mastodon @zorn@jawns.club
+    url: https://jawns.club/@zorn
+    feed: https://jawns.club/@zorn.rss
+  - name: Bluesky
+    url: https://bsky.app/profile/mikezornek.com
+  - name: Personal YouTube Channel
+    url: https://www.youtube.com/channel/UCZVgPg6CmFAA4dHyKklG0Nw
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCZVgPg6CmFAA4dHyKklG0Nw
+  - name: Personal GitHub Profile
+    url: https://github.com/zorn
+  - name: LinkedIn Profile
+    url: https://www.linkedin.com/in/mikezornek/
+  - name: GoodReads
+    url: https://www.goodreads.com/user/show/30324035-mike-zornek
