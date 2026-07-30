@@ -89,8 +89,9 @@ upgrades.
 
 The embedded template also reads `_funcs/get-page-images`, which resolves the
 `images` front matter and auto-detects page resources matching `*feature*`,
-`*cover*`, or `*thumbnail*`. Note the archetype's `thumb.jpeg` convention does
-**not** match `*thumbnail*`.
+`*cover*`, or `*thumbnail*`. Note the site's `thumb.jpeg` convention does
+**not** match `*thumbnail*`, so those posts reach `og:image` through their
+`images` front matter and not by auto-detection.
 
 **Narrowed by [og-images.md](og-images.md):** this holds for the Open Graph
 template and no longer for the Twitter one. Generated cards need

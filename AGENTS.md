@@ -51,8 +51,8 @@ Post front matter fields (from the archetype):
 title: "Post Title"
 date: 2026-06-28T12:00:00-04:00
 description: something tweet-length
-images:
-  - posts/2026/6/post-slug/thumb.jpeg
+# images: # optional: an authored image from this post's own bundle; leave it
+#   - thumb.jpeg # out and the post takes a generated social card
 draft: true
 pain:   # optional: the problem this post addresses
 fix:    # optional: the resolution
