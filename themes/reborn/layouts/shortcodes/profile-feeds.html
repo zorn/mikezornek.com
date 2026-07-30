@@ -12,7 +12,7 @@
   {{- with site.Home.OutputFormats.Get "RSS" }}
     <li><a href="{{ .Permalink }}">Mike Zornek.com RSS</a></li>
   {{- end }}
-  {{- range site.Data.profiles.accounts }}
+  {{- range hugo.Data.profiles.accounts }}
     {{- $account := . }}
     {{- with .feed }}
       <li><a href="{{ . }}">{{ $account.name }} RSS</a></li>

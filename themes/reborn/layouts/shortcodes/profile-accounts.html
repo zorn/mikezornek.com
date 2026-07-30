@@ -6,7 +6,7 @@
   reader is a claim the site does not back up.
 */}}
 <ul>
-  {{- range site.Data.profiles.accounts }}
+  {{- range hugo.Data.profiles.accounts }}
     <li><a href="{{ .url }}">{{ .name }}</a></li>
   {{- end }}
 </ul>
