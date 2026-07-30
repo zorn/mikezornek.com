@@ -12,12 +12,22 @@ in an issue disappears when the issue closes; this does not.
 
 ## What the site publishes for crawlers
 
-| Artifact      | URL                                                           | Notes                                                                                                             |
-| ------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Sitemap       | `https://mikezornek.com/sitemap.xml`                          | ~497 URLs, per-page `lastmod`. Hugo generates it.                                                                 |
-| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. Lands in #167; 404s until that merges. See `decisions/ai-crawlers.md`. |
-| RSS           | `https://mikezornek.com/index.xml`                            | Full archive, full post bodies.                                                                                   |
-| IndexNow key  | `https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` | Proves domain ownership to IndexNow. Contents must be exactly the key, nothing else.                              |
+| Artifact      | URL                                                           | Notes                                                                                |
+| ------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Sitemap       | `https://mikezornek.com/sitemap.xml`                          | ~497 URLs, per-page `lastmod`. Hugo generates it.                                    |
+| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. See `decisions/ai-crawlers.md`.           |
+| RSS           | `https://mikezornek.com/index.xml`                            | Full archive, full post bodies.                                                      |
+| IndexNow key  | `https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` | Proves domain ownership to IndexNow. Contents must be exactly the key, nothing else. |
+
+**Last verified live: 2026-07-30.** `robots.txt` serves 200 as `text/plain`, its
+`Sitemap:` line resolves to a 200 XML document, and it is byte-identical when
+fetched under a Googlebot user agent. `/random/` is crawlable and still carries
+its `noindex` tag, which is the arrangement that lets the tag be read at all.
+The IndexNow key file is not live yet — it ships with this change.
+
+One caching note: Cloudflare fronts these with `s-maxage=300`, so an edit to
+`robots.txt` can take up to five minutes to reach crawlers. A stale response
+right after a deploy is expected rather than a bug.
 
 ## Registrations
 
@@ -97,8 +107,7 @@ Status is what has actually been confirmed, not what was intended.
 Worth ten minutes a couple of times a year, or any time search referrals in the
 Signal Log look wrong:
 
-1. `curl -sI https://mikezornek.com/robots.txt` returns 200. (Until #167 merges
-   and deploys, this is a 404 — that is the gap #167 closes, not a regression.)
+1. `curl -sI https://mikezornek.com/robots.txt` returns 200.
 2. `curl -sI https://mikezornek.com/sitemap.xml` returns 200.
 3. `curl -s https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` prints
    the key and nothing else.
