@@ -12,12 +12,12 @@ in an issue disappears when the issue closes; this does not.
 
 ## What the site publishes for crawlers
 
-| Artifact      | URL                                                           | Notes                                                                                |
-| ------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Sitemap       | `https://mikezornek.com/sitemap.xml`                          | ~497 URLs, per-page `lastmod`. Hugo generates it.                                    |
-| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. See `decisions/ai-crawlers.md`.           |
-| RSS           | `https://mikezornek.com/index.xml`                            | Full archive, full post bodies.                                                      |
-| IndexNow key  | `https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` | Proves domain ownership to IndexNow. Contents must be exactly the key, nothing else. |
+| Artifact      | URL                                                           | Notes                                                                                                             |
+| ------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Sitemap       | `https://mikezornek.com/sitemap.xml`                          | ~497 URLs, per-page `lastmod`. Hugo generates it.                                                                 |
+| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. Lands in #167; 404s until that merges. See `decisions/ai-crawlers.md`. |
+| RSS           | `https://mikezornek.com/index.xml`                            | Full archive, full post bodies.                                                                                   |
+| IndexNow key  | `https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` | Proves domain ownership to IndexNow. Contents must be exactly the key, nothing else.                              |
 
 ## Registrations
 
@@ -97,7 +97,8 @@ Status is what has actually been confirmed, not what was intended.
 Worth ten minutes a couple of times a year, or any time search referrals in the
 Signal Log look wrong:
 
-1. `curl -sI https://mikezornek.com/robots.txt` returns 200.
+1. `curl -sI https://mikezornek.com/robots.txt` returns 200. (Until #167 merges
+   and deploys, this is a 404 — that is the gap #167 closes, not a regression.)
 2. `curl -sI https://mikezornek.com/sitemap.xml` returns 200.
 3. `curl -s https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` prints
    the key and nothing else.
