@@ -2,6 +2,23 @@
 
 After posting something I am particularly proud of I tend to share it for more exposure.
 
+## First, once the deploy is live
+
+Ping the search indexes so they crawl the new post now instead of waiting to
+rediscover it:
+
+```bash
+bin/indexnow.sh https://mikezornek.com/posts/2026/7/my-new-post/
+```
+
+Reaches Bing (and therefore DuckDuckGo), Yandex, Seznam, and Naver in one call.
+Google does not participate. The script refuses to submit until it has seen a
+200 from the URL, so if it complains, the Render deploy is probably still
+building — wait and re-run. See `playbook/search-consoles.md` for the wider
+picture of what is registered where.
+
+## Then share it
+
 Some of the places include:
 
 - Personal Mastodon
