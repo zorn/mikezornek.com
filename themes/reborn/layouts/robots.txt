@@ -11,11 +11,14 @@
   crawlers. The reasoning, and what we would have to see to change our minds,
   is in decisions/ai-crawlers.md.
 
-  Note what is *not* here: `/random/` and `/search/` carry `noindex` meta tags
-  and are deliberately left crawlable. A `Disallow` would prevent those pages
-  from being fetched, so the `noindex` would never be read, and search engines
-  can index a blocked URL anyway on the strength of inbound links. Blocking is
-  the wrong tool for keeping a page out of an index.
+  Note what is *not* here: `/random/` carries a `noindex` meta tag and is
+  deliberately left crawlable anyway. A `Disallow` would stop the page being
+  fetched, so the `noindex` would never be read, and search engines can index a
+  blocked URL regardless on the strength of inbound links. Blocking is the
+  wrong tool for keeping a page out of an index.
+
+  `/search/` has no `noindex` and is not blocked here either. Whether it should
+  be kept out of the index is a separate question from crawl policy; see #175.
 */ -}}
 User-agent: *
 Allow: /
