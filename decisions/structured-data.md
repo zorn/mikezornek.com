@@ -98,5 +98,9 @@ parsing schema.org.
   check is that **every `@id` reference resolves within the same page**, which
   is the invariant this whole document describes and the one thing reading the
   template cannot confirm.
-- A post title over 110 characters now fails the build, because Google rejects
-  an Article headline past that. The longest today is 97.
+- **No headline length check**, deliberately. Google's Article docs used to cap
+  `headline` at 110 characters, and an early draft of the verifier failed the
+  build past that. Google dropped the cap in January 2023; the docs now say only
+  "consider using a concise title, as long titles may be truncated on some
+  devices." That is advice about taste, not a rule a build should enforce, so
+  there is nothing here to enforce it. Write the title the post needs.

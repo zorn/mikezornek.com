@@ -47,11 +47,6 @@ const NOINDEX = /<meta\s+name="robots"\s+content="[^"]*noindex/i;
 // not posts and carry no BlogPosting.
 const POST_PATH = /^posts\/\d{4}\/\d{1,2}\/[^/]+\/index\.html$/;
 
-// Google rejects an Article headline over 110 characters. The longest post
-// title today is 97, so this is a guard against a future title rather than a
-// present failure.
-const MAX_HEADLINE = 110;
-
 const REQUIRED = {
   Person: ["name", "url", "sameAs"],
   ProfilePage: ["mainEntity"],
@@ -165,14 +160,6 @@ async function main() {
         }
 
         if (type === "BlogPosting") {
-          if (
-            typeof node.headline === "string" &&
-            node.headline.length > MAX_HEADLINE
-          ) {
-            errors.push(
-              `${page}  BlogPosting headline is ${node.headline.length} chars, over Google's ${MAX_HEADLINE} limit. Shorten the post title.`,
-            );
-          }
           const twitter = html.match(TWITTER_IMAGE)?.[1];
           if (twitter && node.image !== twitter) {
             errors.push(
