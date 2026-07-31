@@ -41,22 +41,28 @@
   {{ $sameAs = $sameAs | append .url }}
 {{ end }}
 
-{{/* The consulting sprint, expressed as an Offer hanging off the Person rather
+{{/* The consulting work, expressed as an Offer hanging off the Person rather
   than as a standalone Service node on the consulting page. One entity that
   offers something beats two nodes a search engine has to reconcile.
 
-  The price is derived from `params.sprint.price` ("$6,000") by stripping
-  everything that is not a digit, because schema.org wants a bare number and
-  the human-facing string is the one that must not drift.
+  Deliberately no `price`, `priceCurrency`, or "two-week fixed-price sprint"
+  wording, even though `params.sprint` has all of it. This node ships on every
+  page the site emits and it sits next to `sameAs` and `knowsAbout`, which stay
+  true for years. The shape and price of the current offer do not. A stale
+  price here would be valid JSON with every required property present, so
+  verify-structured-data.mjs could never catch it — the same invisible failure
+  this whole file exists to prevent, one level up. Google documents no rich
+  result for an Offer on a Person either, so the number buys nothing to offset
+  the risk of it going quietly wrong.
+
+  What is left is the durable claim: this person offers Elixir and Phoenix
+  consulting, and here is the page about it. See decisions/structured-data.md.
 */}}
 {{ $offer := false }}
 {{ with site.GetPage "/elixir-consulting" }}
   {{ $offer = dict
     "@type" "Offer"
-    "name" "Fixed-price two-week Elixir consulting sprint"
     "url" .Permalink
-    "price" (replaceRE "[^0-9]" "" site.Params.sprint.price)
-    "priceCurrency" "USD"
     "itemOffered" (dict
     "@type" "Service"
     "name" "Elixir and Phoenix consulting"

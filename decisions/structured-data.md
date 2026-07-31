@@ -79,6 +79,21 @@ parsing schema.org.
 - **A standalone `Service` node on the consulting page** — folded into
   `Person.makesOffer` instead. One entity that offers something beats two nodes
   a search engine has to reconcile into one.
+- **A `price` on the `Offer`**, and the "fixed-price two-week sprint" wording
+  with it. `params.sprint` has both, and an earlier draft emitted them. The
+  problem is half-life: the `Person` node ships on every page the site emits,
+  next to `sameAs` and `knowsAbout`, which stay true for years. The shape and
+  price of the current consulting offer do not. Worse, a stale price would be
+  valid JSON with every required property present, so
+  `bin/verify-structured-data.mjs` could never flag it — the same silent
+  failure this whole design is built to avoid, at the semantic level instead of
+  the syntactic one. And there is nothing on the other side of the trade:
+  Google's Search Gallery documents no feature that reads an `Offer` on a
+  `Person`; price data earns a rich result only through `Product` and
+  `LocalBusiness`. `priceValidUntil` was the alternative, but it converts a
+  silent staleness problem into an expiry date nobody is reminded to bump. What
+  the `Offer` keeps is the durable claim: this person offers Elixir and Phoenix
+  consulting, and here is the page about it.
 - **`WebSite` with a `SearchAction`** — Google removed the sitelinks searchbox
   that consumed it.
 - **Deriving `knowsAbout` from tag counts** — cute, but the tag vocabulary
@@ -92,8 +107,8 @@ parsing schema.org.
   aimed at machines, and it should be as easy to revise as any other site copy.
 - `sameAs` reads from `data/profiles.yaml`, the same list the Follow page
   renders, so it can never claim an account the site does not visibly link.
-- The `Offer` price is derived from `params.sprint.price` by stripping
-  non-digits, so the human-facing string stays the one source.
+- The `Offer` carries no price, so `params.sprint` stays purely human-facing
+  copy and changing the sprint's price or shape needs no thought about schema.
 - `bin/verify-structured-data.mjs` runs on every build. Its most important
   check is that **every `@id` reference resolves within the same page**, which
   is the invariant this whole document describes and the one thing reading the
