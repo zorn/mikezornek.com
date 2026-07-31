@@ -15,17 +15,14 @@
   contradicts, the "use the embedded templates" decision.
   */ -}}
 
-{{- /* `_funcs/get-page-images` returns image objects, not URL strings, so the
-  first one has to be dereferenced. Indexing is guarded because `index` on an
-  empty slice is an error, not an empty value. */ -}}
-{{- $images := partial "_funcs/get-page-images" . -}}
-{{- $image := "" -}}
-{{- if gt (len $images) 0 -}}
-  {{- $image = (index $images 0).Permalink -}}
-{{- end -}}
+{{- /* Resolving "authored image or generated card" now lives in
+  `og/image-url.html`, because the page's JSON-LD needs the same answer and two
+  copies of the rule would drift. The `og:image` tag is still emitted only for
+  pages without an authored image, since `_internal/opengraph.html` already
+  emitted one for the rest. */ -}}
+{{- $image := partial "og/image-url.html" . -}}
 
-{{- if not $image -}}
-  {{- $image = partial "og/card-path" . | absURL -}}
+{{- if not (partial "og/has-authored-image.html" .) -}}
   <meta property="og:image" content="{{ $image }}">
 {{- end }}
 

@@ -76,3 +76,11 @@ node bin/og-images.mjs
 # posts had shipped broken paths this way before the check existed. See #159.
 echo "Verifying social images..."
 node bin/verify-og-images.mjs
+
+# Fail the build if the page's JSON-LD is malformed, incomplete, or references
+# an entity no node on that page declares. Structured data is never rendered, so
+# a mistake in it is invisible in a way even a broken og:image is not: nobody
+# sees a wrong share preview and reports it. Same class of silent failure as
+# #159, checked the same way. See decisions/structured-data.md.
+echo "Verifying structured data..."
+node bin/verify-structured-data.mjs

@@ -1,0 +1,141 @@
+{{/* The page's JSON-LD: a schema.org description of what this page is and who
+  it is by, written for machines rather than readers.
+
+  Structure, and the reasoning, are recorded in decisions/structured-data.md.
+  The short version:
+
+  Every page that emits anything emits ONE script tag holding a `@graph` with
+  two nodes — the `Person` (Mike) and a node for the page itself, which points
+  at the Person by `@id` rather than repeating him inline.
+
+  The Person node is repeated in full on every such page rather than declared
+  once on the homepage. That looks redundant and is not: Google parses each
+  page independently, so a bare `@id` reference to a node defined on some other
+  URL is unresolvable at the moment it matters. The `@graph` gives both
+  properties at once — self-contained per page, and tied together across pages
+  by the shared `@id`.
+
+  Pages covered:
+  home  -> ProfilePage, whose mainEntity is the Person
+  posts -> BlogPosting, authored and published by the Person
+  everything else -> nothing at all, deliberately. A `Person` node hung on
+  /values/ or /contact/ would assert that those pages are about him in the
+  same way the homepage is, which is not true and not useful.
+
+  The graph is built as Hugo maps and rendered with `jsonify`, not assembled as
+  a string. Hand-written JSON in a template is one unescaped quote in a post
+  title away from emitting a broken block, and a broken block fails silently.
+  `bin/verify-structured-data.mjs` checks the output on every build.
+*/}}
+
+{{ $personID := "#mike" | absURL }}
+{{ $identity := site.Params.identity }}
+
+{{/* `sameAs` is the property that tells a search engine the entity on this
+  site and the accounts on those other sites are one and the same. It reads
+  from data/profiles.yaml, the same list the Follow page renders, so it can
+  never claim an account the site does not visibly link.
+*/}}
+{{ $sameAs := slice }}
+{{ range hugo.Data.profiles.accounts }}
+  {{ $sameAs = $sameAs | append .url }}
+{{ end }}
+
+{{/* The consulting work, expressed as an Offer hanging off the Person rather
+  than as a standalone Service node on the consulting page. One entity that
+  offers something beats two nodes a search engine has to reconcile.
+
+  Deliberately no `price`, `priceCurrency`, or "two-week fixed-price sprint"
+  wording, even though `params.sprint` has all of it. This node ships on every
+  page the site emits and it sits next to `sameAs` and `knowsAbout`, which stay
+  true for years. The shape and price of the current offer do not. A stale
+  price here would be valid JSON with every required property present, so
+  verify-structured-data.mjs could never catch it — the same invisible failure
+  this whole file exists to prevent, one level up. Google documents no rich
+  result for an Offer on a Person either, so the number buys nothing to offset
+  the risk of it going quietly wrong.
+
+  What is left is the durable claim: this person offers Elixir and Phoenix
+  consulting, and here is the page about it. See decisions/structured-data.md.
+*/}}
+{{ $offer := false }}
+{{ with site.GetPage "/elixir-consulting" }}
+  {{ $offer = dict
+    "@type" "Offer"
+    "url" .Permalink
+    "itemOffered" (dict
+    "@type" "Service"
+    "name" "Elixir and Phoenix consulting"
+    "provider" (dict "@id" $personID)
+    )
+  }}
+{{ end }}
+
+{{ $person := dict
+  "@type" "Person"
+  "@id" $personID
+  "name" site.Params.author.name
+  "url" site.Home.Permalink
+  "jobTitle" $identity.jobTitle
+  "description" $identity.description
+  "knowsAbout" $identity.knowsAbout
+  "image" ($identity.image | absURL)
+  "address" (dict
+  "@type" "PostalAddress"
+  "addressRegion" $identity.addressRegion
+  "addressCountry" $identity.addressCountry
+  )
+  "sameAs" $sameAs
+}}
+{{ if $offer }}
+  {{ $person = merge $person (dict "makesOffer" $offer) }}
+{{ end }}
+
+{{/* The page node. `$pageNode` staying false is the signal to emit nothing. */}}
+{{ $pageNode := false }}
+
+{{ if .IsHome }}
+  {{/* The homepage qualifies as a profile page under Google's rule that "the
+    primary focus of the page must be a single person or organization that is
+    affiliated with the overall website" — its h1 is "Who is Mike Zornek?"
+    followed by a first-person bio. It is the one page type here with a
+    documented search feature attached.
+  */}}
+  {{ $pageNode = dict
+    "@type" "ProfilePage"
+    "@id" (printf "%s#profilepage" .Permalink)
+    "url" .Permalink
+    "name" site.Title
+    "mainEntity" (dict "@id" $personID)
+  }}
+  {{ with .Lastmod }}
+    {{ $pageNode = merge $pageNode (dict "dateModified" (. | time.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
+{{ else if and .IsPage (in site.Params.mainSections .Type) }}
+  {{ $pageNode = dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#post" .Permalink)
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "headline" .Title
+    "datePublished" (.Date | time.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod | time.Format "2006-01-02T15:04:05Z07:00")
+    "image" (partial "og/image-url.html" .)
+    "author" (dict "@id" $personID)
+    "publisher" (dict "@id" $personID)
+    "inLanguage" "en-US"
+  }}
+  {{ with or .Description site.Params.description | plainify | htmlUnescape }}
+    {{ $pageNode = merge $pageNode (dict "description" .) }}
+  {{ end }}
+  {{ with .Params.tags }}
+    {{ $pageNode = merge $pageNode (dict "keywords" (delimit . ", ")) }}
+  {{ end }}
+{{ end }}
+
+{{ if $pageNode }}
+  {{ $graph := dict "@context" "https://schema.org" "@graph" (slice $pageNode $person) }}
+  <script type="application/ld+json">
+    {{ $graph | jsonify (dict "indent" "  ") | safeJS }}
+  </script>
+{{ end }}
