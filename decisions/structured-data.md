@@ -119,3 +119,26 @@ parsing schema.org.
   "consider using a concise title, as long titles may be truncated on some
   devices." That is advice about taste, not a rule a build should enforce, so
   there is nothing here to enforce it. Write the title the post needs.
+
+## Verified on production
+
+Checked against Google's Rich Results Test on 2026-07-31, the day this shipped.
+Both pages crawled successfully and neither returned a warnings section, which
+is where Google lists recommended properties it did not find.
+
+| URL | Result |
+| --- | --- |
+| `https://mikezornek.com/` | Profile page — 1 valid item detected |
+| `https://mikezornek.com/posts/2026/7/shim-off-a-dead-elixir-dependency/` | Articles — 1 valid item detected |
+
+The post reports as **Articles** rather than BlogPosting because `BlogPosting`
+is a subtype of `Article` and the tool names the feature family, not the schema
+type. That is the expected result, not a mismatch.
+
+"Valid item detected" means **eligible**, not that anything visual will appear.
+Per the expectations above, the Article eligibility buys better title, image,
+and date handling on an ordinary blue link; the homepage Profile page is the
+only result here with a documented visual feature behind it. Re-run the test
+after any change to `schema/structured-data.html`, since the build check
+verifies structure and `@id` resolution but knows nothing about Google's
+eligibility rules.
