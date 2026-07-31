@@ -76,19 +76,36 @@ Status is what has actually been confirmed, not what was intended.
 
 ### Bing Webmaster Tools
 
-- **Status:** unknown. Assume not set up.
+- **Status:** set up 2026-07-31 by signing in at
+  <https://www.bing.com/webmasters> with Google, on the same zornlabs.com
+  identity as Search Console. The property is `https://mikezornek.com/`.
 - **Why it matters more than Bing's market share suggests:** Bing's index feeds
   DuckDuckGo and several AI answer engines.
-- **To set up:** sign in at <https://www.bing.com/webmasters> and use "Import
-  from Google Search Console" — it carries over site verification and sitemaps
-  in one step, which is much less work than verifying the domain again.
-- **Then:** confirm `sitemap.xml` is listed, and check the IndexNow section for
-  submission stats.
+- **"Import from Google Search Console" does not import the sitemap.** It
+  carries verification across, which is the tedious part, but the Sitemaps
+  screen was still empty afterward (0 rows) and the home page banner asks you to
+  submit one. `https://mikezornek.com/sitemap.xml` was submitted by hand on
+  2026-07-31 and was processing at the end of the session. Confirm it landed and
+  reads 497 URLs.
+- **Bing has no equivalent of Google's Domain property,** so the property is
+  scheme-specific. Check it says `https://`. An `http://` property would repeat
+  the mistake that left the Google sitemap unread from 2023 to 2026.
+- **Reports take up to 48 hours** to populate after setup, same idea as Google's
+  backfill.
+- **Then:** check the IndexNow section for submission stats, but not until the
+  key file is actually live. See below.
 
 ### IndexNow
 
-- **Status:** key file ships with the site; script is in the repo. First real
-  submission happens the next time a post goes out.
+- **Status:** key file and script are in the repo, but **the key is not live
+  until this branch merges to `main`.** Confirmed 404 on 2026-07-31. First real
+  submission happens the next time a post goes out after that deploy.
+- **Do not let Bing generate a key for you.** Bing's IndexNow screen offers to
+  mint one. Taking it would leave Bing expecting a key the site does not serve,
+  since `509ce3a92525b2bfc2bdba120987afa2` is already committed in `static/`.
+- **Check it is live before the first submission:**
+  `curl -s -o /dev/null -w "%{http_code}" https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt`
+  should print 200.
 - **How to use:** after a deploy is live, `bin/indexnow.sh <url>`. This is a
   step in `playbook/promotion.md`, not part of the build — see the comment at
   the top of the script for why.
@@ -137,8 +154,12 @@ discovery surface, and being in main search does not put you in it.
 - [ ] After 2026-08-02, once Page indexing backfills: export the #56 "Blocked
       due to other 4xx" URL list and paste it into #56, or record that the
       warning does not appear on this property. Tracked in #177.
-- [ ] Set up Bing Webmaster Tools via Import from Google Search Console
-- [ ] Confirm `sitemap.xml` is listed in Bing Webmaster Tools
+- [x] Set up Bing Webmaster Tools via Import from Google Search Console
+      (2026-07-31, https property, signed in with Google)
+- [ ] Confirm the hand-submitted `sitemap.xml` finished processing in Bing and
+      reads 497 URLs
+- [ ] After this branch merges, confirm the IndexNow key file returns 200 before
+      the first `bin/indexnow.sh` run
 
 ## Re-check ritual
 
