@@ -35,16 +35,41 @@ Status is what has actually been confirmed, not what was intended.
 
 ### Google Search Console
 
-- **Status:** account exists. **Sitemap submission unconfirmed.**
-- **To confirm:** Search Console → Indexing → Sitemaps. `sitemap.xml` should be
-  listed with a recent "Last read" date and status Success.
-- **If missing:** add `sitemap.xml` in that screen. One-time.
-- **Also pull while you are in there:** the URL list behind the "Blocked due to
-  other 4xx issue" warning (Indexing → Pages → click the reason → Export). That
-  report is the only way to diagnose #56 — the problem is not reproducible from
-  outside. Verified 2026-07-30: no bot blocking under a Googlebot user agent, no
-  rate limiting across a 25-request burst, and missing pages return clean 404s.
-  Paste the export into #56.
+- **Status:** verified 2026-07-31 under the **zorn@zornlabs.com** Google
+  account, as a **Domain property** (`sc-domain:mikezornek.com`), which covers
+  http, https, and all subdomains at once.
+- **Verification is a DNS TXT record at the apex,** `@` on mikezornek.com in
+  Hover. It must be `@`, not `*`. A wildcard TXT never answers for the apex
+  itself, so Google reads it as no record at all and verification fails. That
+  mistake cost an evening. Hover took about three minutes to publish the record
+  before `dig +short TXT mikezornek.com` returned it.
+- **Sitemap: submitted, but it was stale.** The answer to the question that
+  opened #144 is that a sitemap had been submitted on 2020-08-22, pointing at
+  `http://mikezornek.com/sitemap.xml`. That URL now 301s to https. Google last
+  read it 2023-01-15 and knew about 430 pages, against 497 in the live sitemap.
+  The https URL was submitted 2026-07-31 and the http row removed. Google read
+  it the same day: status Success, 497 discovered pages, matching the live file
+  exactly. Resubmission is read within minutes, not the day or two the indexing
+  reports need.
+- **The lesson worth keeping:** "a sitemap is listed" is not the same as "the
+  right sitemap is being read." Check the Last read date and the discovered page
+  count against `curl -s https://mikezornek.com/sitemap.xml | grep -c "<loc>"`,
+  not just the green Success label.
+- **The #56 4xx export is not available yet.** Indexing → Pages reads
+  "Processing data, please check again in a day or so" as of 2026-07-31, because
+  the Domain property was verified the same day and its reports have not
+  backfilled. Check again after 2026-08-02; tracked in #177. That report is the
+  only way to
+  diagnose #56, since the problem is not reproducible from outside: verified
+  2026-07-30 that there is no bot blocking under a Googlebot user agent, no rate
+  limiting across a 25-request burst, and that missing pages return clean 404s.
+- **Open question about where the 4xx warning came from.** This property's
+  reports were empty on the day it was verified, so the warning quoted in #56
+  must have been seen somewhere else, most likely an older URL-prefix property
+  (`http://mikezornek.com/`) under an account nobody can currently find. The
+  2020 sitemap submission points the same way. If the new property never shows a
+  4xx warning once it backfills, that is a real possibility rather than a
+  reporting glitch, and #56 may simply be describing a property that is gone.
 - **Worth knowing:** Search Console reports are sticky. If the 4xx episode was a
   past incident that has since been fixed, the warning persists until you hit
   Validate Fix. So the export may describe a problem that no longer exists.
@@ -74,20 +99,30 @@ Status is what has actually been confirmed, not what was intended.
 
 ### Kagi
 
-- **Status:** nothing submitted.
-- **Why bother:** Kagi was the single largest search referrer in the first
-  Signal Log week (14 visitors, more than Google and DuckDuckGo combined).
+- **Status:** nothing submitted, and nothing needs to be. Kagi referrals are
+  already arriving without any registration.
+- **Kagi was the single largest search referrer** in the first Signal Log week
+  (14 visitors, more than Google and DuckDuckGo combined). Check the current
+  number with this saved Plausible filter:
+  <https://plausible.io/mikezornek.com?f=is,channel,Organic%20Search&f=is,source,Kagi>
 - **There is no webmaster console.** Kagi is largely a metasearch layer over
   "anonymized API calls to worldwide search engines"
   (<https://help.kagi.com/kagi/search-details/search-sources.html>), so most
   Kagi visibility is downstream of Google and Bing. Fixing those fixes Kagi.
-- **But there is one submission path:** Kagi Small Web
-  (<https://github.com/kagisearch/smallweb>) accepts personal blog RSS feeds by
-  pull request against `smallweb.txt`. This site meets every criterion —
-  English, single-author personal blog, posts within 12 months, no ads, no
-  popups.
-- **The catch:** a self-submission must add **at least two other new sites in
-  the same commit.** Pick two personal blogs worth surfacing.
+
+**Two surfaces, do not confuse them.** The referrals above come from Kagi _main_
+search, which takes no submission. Kagi Small Web is a separate, much smaller
+discovery surface, and being in main search does not put you in it.
+
+- **Small Web: already listed, nothing to do.** `https://mikezornek.com/index.xml`
+  is line 25664 of `smallweb.txt` in
+  <https://github.com/kagisearch/smallweb>. Verified on `main` 2026-07-31. How
+  or when it got added is unknown, so do not assume it was deliberate.
+- **If it ever disappears,** the list takes personal blog RSS feeds by pull
+  request against `smallweb.txt`, and this site meets every criterion: English,
+  single-author personal blog, posts within 12 months, no ads, no popups. The
+  catch is that a self-submission must add **at least two other new sites in the
+  same commit**, so it is a small chore, not a one-liner.
 
 ### DuckDuckGo
 
@@ -96,11 +131,14 @@ Status is what has actually been confirmed, not what was intended.
 
 ## Outstanding one-time work
 
-- [ ] Confirm `sitemap.xml` is submitted in Google Search Console
-- [ ] Export the #56 "Blocked due to other 4xx" URL list and paste it into #56
+- [x] Confirm `sitemap.xml` is submitted in Google Search Console (2026-07-31:
+      was stale on the http URL, resubmitted as https, reads Success at 497
+      pages)
+- [ ] After 2026-08-02, once Page indexing backfills: export the #56 "Blocked
+      due to other 4xx" URL list and paste it into #56, or record that the
+      warning does not appear on this property. Tracked in #177.
 - [ ] Set up Bing Webmaster Tools via Import from Google Search Console
 - [ ] Confirm `sitemap.xml` is listed in Bing Webmaster Tools
-- [ ] Open the Kagi Small Web PR (this site plus two others)
 
 ## Re-check ritual
 
