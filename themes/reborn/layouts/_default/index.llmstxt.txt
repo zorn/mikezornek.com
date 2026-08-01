@@ -51,7 +51,19 @@ Hand-picked, hand-ranked. If you only read a few things, read these.
 {{ end -}}
 {{- end -}}
 {{- range where site.RegularPages "Section" "" -}}
-{{- if not (in (slice "random" "search") .File.ContentBaseName) -}}
+{{/* Utility pages have nothing to tell a model, same reason they carry
+    `noindex`. See decisions/indexing.md.
+
+    Be honest about what this guard does today: nothing. It replaced a
+    hardcoded `(slice "random" "search")` that was equally inert, and the
+    inertness was measured, not assumed — blanking the condition entirely
+    produces a byte-identical `/llms.txt`. Neither page can reach this range in
+    the first place: `/random/` is `build.list: never` so it is in no page
+    collection, and `/search/` is an `_index.md` branch page so it is not a
+    RegularPage. The guard is kept because it states the rule rather than
+    listing today's two filenames, and it will actually fire the day a utility
+    page is an ordinary root-section page. */ -}}
+{{- if not .Params.noindex -}}
 - [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . | plainify }}{{ end }}
 {{ end -}}
 {{- end }}

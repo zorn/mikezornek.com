@@ -45,9 +45,16 @@ const IMAGE_TAG =
 // rather than pages, so having no social image is correct, not a defect.
 const ALIAS_STUB = /<meta\s+http-equiv="refresh"/i;
 
-// A page that tells crawlers not to index it is not a page anyone shares, and
-// some do not load the theme's head partial at all. `/random/` is the example:
-// a standalone layout that bounces the visitor straight to a random post.
+// Some noindex pages do not load the theme's head partial at all and so emit no
+// social tags. `/random/` is the example: a standalone layout that bounces the
+// visitor straight to a random post. Having no card is correct for those.
+//
+// This deliberately excuses only a *missing* `og:image`, never a present one.
+// The rule used to skip any noindex page outright, using "noindex" as a proxy
+// for "emits no social tags". `/search/` broke that proxy: it is noindex, and it
+// renders through head.html, so it advertises a real card that the manifest
+// really generates. Under the old rule that card silently left coverage, which
+// is exactly the broken-share failure this script exists to catch.
 const NOINDEX = /<meta\s+name="robots"\s+content="[^"]*noindex/i;
 
 function log(message) {
@@ -97,16 +104,23 @@ async function main() {
   for await (const file of htmlFiles(PUBLISH_DIR)) {
     const html = await readFile(file, "utf8");
 
-    if (ALIAS_STUB.test(html) || NOINDEX.test(html)) {
+    if (ALIAS_STUB.test(html)) {
+      skipped += 1;
+      continue;
+    }
+
+    const matches = [...html.matchAll(IMAGE_TAG)];
+    const hasOgImage = matches.some(([, tag]) => tag === "og:image");
+
+    if (!hasOgImage && NOINDEX.test(html)) {
       skipped += 1;
       continue;
     }
     pages += 1;
 
-    const matches = [...html.matchAll(IMAGE_TAG)];
     const page = "/" + relative(PUBLISH_DIR, file);
 
-    if (!matches.some(([, tag]) => tag === "og:image")) {
+    if (!hasOgImage) {
       missingImage.push(page);
       continue;
     }

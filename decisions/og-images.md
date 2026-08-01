@@ -408,10 +408,20 @@ bundle name that a hand search had missed and the verifier found immediately.
 
 Two kinds of page are skipped, both deliberately. **Alias redirect stubs**: Hugo
 writes a bare refresh page for each `aliases` entry, around 190 of them for the
-pre-2020 URL scheme, with none of the theme's head partial. **Pages marked
-`noindex`**: `/random/` has a standalone layout that never loads `head.html` and
-bounces the visitor onward, so it emits no social tags and needs no card. A page
-telling crawlers not to index it is not a page anyone shares.
+pre-2020 URL scheme, with none of the theme's head partial. **Pages that emit no
+`og:image` at all and are marked `noindex`**: `/random/` has a standalone layout
+that never loads `head.html` and bounces the visitor onward, so it emits no
+social tags and needs no card.
+
+**Narrowed by [indexing.md](indexing.md):** that second skip was originally
+written as "any page marked `noindex`", using the tag as a proxy for "emits no
+social tags". The proxy held only while `/random/` was the sole `noindex` page.
+`/search/` is now `noindex` too, and it renders through `head.html`, so it
+advertises a real card that the manifest really generates — under the old rule
+that card silently dropped out of coverage. The skip now tests the condition it
+always meant: a `noindex` page is excused for _having no_ `og:image`, never for
+having a broken one. Any future `noindex` page that goes through `head.html`
+stays verified by default.
 
 ---
 
