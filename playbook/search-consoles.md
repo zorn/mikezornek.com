@@ -157,9 +157,14 @@ discovery surface, and being in main search does not put you in it.
 - [x] Set up Bing Webmaster Tools via Import from Google Search Console
       (2026-07-31, https property, signed in with Google)
 - [ ] Confirm the hand-submitted `sitemap.xml` finished processing in Bing and
-      reads 497 URLs
-- [ ] After this branch merges, confirm the IndexNow key file returns 200 before
-      the first `bin/indexnow.sh` run
+      reads 497 URLs. Tracked in #179.
+- [x] Confirm the IndexNow key file returns 200 before the first
+      `bin/indexnow.sh` run (2026-07-31, after #168 deployed:
+      `/509ce3a92525b2bfc2bdba120987afa2.txt` returns 200 as `text/plain` with
+      the matching key)
+- [ ] Watch the first real `bin/indexnow.sh` run on the next post publish. The
+      key file is confirmed, but nothing past it has met the live endpoint.
+      Tracked in #180.
 
 ## Re-check ritual
 
