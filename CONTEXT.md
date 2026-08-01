@@ -22,6 +22,13 @@ A short, author-written sentence attached to a Start Here entry that tells the
 reader why the post is worth their time or where it fits. Distinct from a post's
 own `description` front matter, which is the post's general summary.
 
+**Utility page**:
+A page whose purpose is to perform an action rather than to say something, and
+which therefore has nothing to offer an index. `/search/` and `/random/` are the
+two. The test is whether the page has content of its own: a term page listing
+two posts is thin, but it is not a utility page, because what it lists is real.
+_Avoid_: system page, meta page, non-content page.
+
 **Social card**:
 The landscape image a page shares with when its link is posted somewhere. It is
 the reader's first impression of a link, seen before the page itself, and it

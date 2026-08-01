@@ -16,6 +16,15 @@
   <meta name="description" content="{{ . }}">
 {{ end }}
 
+{{/* Opt-in `noindex` for utility pages: pages that exist to do something
+  rather than to say something, and so have nothing to offer an index. Plain
+  `noindex`, never `noindex,nofollow`: `nofollow` would tell crawlers to stop
+  following this page's own header and footer nav. See decisions/indexing.md.
+*/}}
+{{ if .Params.noindex }}
+  <meta name="robots" content="noindex">
+{{ end }}
+
 {{ with .Site.Params.fediverse_creator }}
   <meta name="fediverse:creator" content="{{ . }}">
 {{ end }}

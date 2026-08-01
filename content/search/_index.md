@@ -1,7 +1,8 @@
 ---
 title: "Search"
 description: Search every post on this site by title, tag, and content.
+noindex: true
 sitemap:
-  priority: 0.1
+  disable: true
 layout: "search"
 ---
