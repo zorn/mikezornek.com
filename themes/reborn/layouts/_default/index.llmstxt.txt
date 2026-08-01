@@ -1,0 +1,60 @@
+{{- /*
+  /llms.txt — a plain-text guide to this site for language models, in the
+  format described at https://llmstxt.org: an H1, a blockquote summary, then
+  H2 sections of annotated links.
+
+  Generated rather than hand-written, and generated from data the site already
+  keeps. The Start Here section reuses data/start-here.yaml, which is already a
+  hand-ranked list of the most trust-building posts with an editorial note on
+  each saying why a newcomer should read it. That is exactly the payload this
+  format asks for, written for a different reason. A hand-maintained copy would
+  go stale the first time a post was published; this cannot.
+
+  See decisions/llms-txt.md for the honest assessment of whether anything reads
+  this file. Short version: no major AI vendor documents consuming it. It is
+  here because it costs one template, not because it is a proven channel.
+*/ -}}
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+Personal blog, running since 2012. The bulk of the writing is about Elixir and
+Phoenix, software craft, and the working life of an independent developer.
+Written and maintained by one person; every post is first-hand experience
+rather than aggregated content.
+
+{{ with (index hugo.Data "start-here").posts -}}
+## Start Here
+
+Hand-picked, hand-ranked. If you only read a few things, read these.
+
+{{ range $entry := . -}}
+{{- with (site.GetPage $entry.path) -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with $entry.note }}: {{ . | plainify }}{{ end }}
+{{ end -}}
+{{- end }}
+{{ end -}}
+
+## Recent posts
+
+{{ range first 20 (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . | plainify }}{{ end }}
+{{ end }}
+## About and contact
+
+{{ range site.Sections -}}
+{{- if eq .Type "posts" -}}
+- [All posts]({{ .Permalink }}): the full archive, {{ len .RegularPagesRecursive }} posts.
+{{ end -}}
+{{- end -}}
+{{- range where site.RegularPages "Section" "" -}}
+{{- if not (in (slice "random" "search") .File.ContentBaseName) -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . | plainify }}{{ end }}
+{{ end -}}
+{{- end }}
+## Optional
+
+{{ with site.Home.OutputFormats.Get "RSS" -}}
+- [RSS feed]({{ .Permalink }}): every post, full text.
+{{ end -}}
+- [Sitemap]({{ "sitemap.xml" | absURL }}): every URL on the site.
