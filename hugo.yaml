@@ -1,5 +1,9 @@
 baseURL: "https://mikezornek.com"
 locale: "en-US"
+# Render themes/reborn/layouts/robots.txt. Off by default in Hugo, and while it
+# was off the site served a 404 at /robots.txt, so no crawler was ever told
+# where the sitemap lives. See decisions/ai-crawlers.md.
+enableRobotsTXT: true
 title: "Mike Zornek"
 description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
 theme: "reborn"
@@ -24,6 +28,43 @@ params:
   sprint:
     headline: "Two weeks. One problem. $6,000."
     price: "$6,000"
+  # Facts about Mike-the-person, for the JSON-LD `Person` node emitted on the
+  # home page and on blog posts. No other page type carries structured data.
+  # See decisions/structured-data.md.
+  #
+  # This is editorial copy aimed at machines rather than readers, which is
+  # exactly why it lives here instead of being buried in a template: it is the
+  # answer to "who is this site about," and it should be as easy to revise as
+  # any other bit of site copy.
+  #
+  # Keep it true. `sameAs` comes from data/profiles.yaml, so it is not repeated
+  # here. The `sprint` block above is not read by the JSON-LD at all: the
+  # `Offer` names the service and links the consulting page, but carries no
+  # price. See decisions/structured-data.md for why.
+  identity:
+    # Short enough to read as a title, not a pitch. The homepage says "I
+    # describe myself as both a developer and teacher"; this matches.
+    jobTitle: Developer and Teacher
+    description: Developer and teacher from the suburbs of Philadelphia, building digital products for over 25 years and working primarily in Elixir.
+    # What Mike wants to be known for now, not an inventory of the archive.
+    # These feed the entity association a search engine builds for him, so the
+    # test is "is this what he does today," not "has he written about it."
+    #
+    # iOS Development is deliberately absent for exactly that reason. The site
+    # has a real body of iOS writing and the /tags/ios/ archive stays up, but
+    # it is history rather than current practice, and listing it here would
+    # work against the Elixir positioning the consulting page is selling.
+    # Don't re-add it from the tag counts.
+    knowsAbout:
+      - Elixir
+      - Phoenix Framework
+      - Software Craft
+      - Software Consulting
+    # Coarse on purpose. "Suburbs of Philadelphia" is what the homepage says,
+    # and a street address has no business in a public JSON blob.
+    addressRegion: PA
+    addressCountry: US
+    image: /images/zorn_square_256.webp
   # Series listed newest-first (personal logging). Others default to oldest-first
   # so reading-order series (e.g. tutorials) read top-to-bottom.
   seriesNewestFirst:

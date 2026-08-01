@@ -1,0 +1,21 @@
+{{/* The Follow page's "RSS Feeds" list: this site's own feed, then a feed for
+  every entry in data/profiles.yaml that has one.
+
+  Rendered from the same data file as the Platform Accounts list below it and
+  as the `sameAs` array in the site's structured data, so the three cannot
+  disagree. See the comment at the top of data/profiles.yaml.
+*/}}
+<ul>
+  {{/* This site's feed is not a platform account, so it is not in the data
+    file. Hugo already knows its URL, so there is nothing to keep in sync.
+  */}}
+  {{- with site.Home.OutputFormats.Get "RSS" }}
+    <li><a href="{{ .Permalink }}">Mike Zornek.com RSS</a></li>
+  {{- end }}
+  {{- range hugo.Data.profiles.accounts }}
+    {{- $account := . }}
+    {{- with .feed }}
+      <li><a href="{{ . }}">{{ $account.name }} RSS</a></li>
+    {{- end }}
+  {{- end }}
+</ul>

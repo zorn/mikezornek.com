@@ -1,0 +1,26 @@
+{{/* The crawl policy for the whole site. Enabled by `enableRobotsTXT` in
+  hugo.yaml; without that flag Hugo does not render this template at all and the
+  URL 404s, which is the state the site shipped in for years.
+
+  This is a template rather than `static/robots.txt` for one reason: the
+  `Sitemap:` line has to be an absolute URL, and a hardcoded one silently
+  becomes a lie the day `baseURL` changes. Building it with `absURL` means the
+  two cannot disagree.
+
+  The policy is deliberately open to every crawler, including AI training
+  crawlers. The reasoning, and what we would have to see to change our minds,
+  is in decisions/ai-crawlers.md.
+
+  Note what is *not* here: `/random/` carries a `noindex` meta tag and is
+  deliberately left crawlable anyway. A `Disallow` would stop the page being
+  fetched, so the `noindex` would never be read, and search engines can index a
+  blocked URL regardless on the strength of inbound links. Blocking is the
+  wrong tool for keeping a page out of an index.
+
+  `/search/` has no `noindex` and is not blocked here either. Whether it should
+  be kept out of the index is a separate question from crawl policy; see #175.
+*/ -}}
+User-agent: *
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}

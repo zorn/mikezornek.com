@@ -1,0 +1,16 @@
+{{- /*
+  The absolute URL of the social image a page shares with: its own authored
+  image if it has one, otherwise its generated card.
+
+  Extracted so `og/social-image.html` (which emits the `og:image` and Twitter
+  tags) and `schema/structured-data.html` (which puts the same URL in the
+  page's JSON-LD) resolve it identically. Two copies of this two-branch rule
+  would eventually disagree, and the disagreement would be invisible.
+  */ -}}
+{{- $url := "" -}}
+{{- if partial "og/has-authored-image.html" . -}}
+  {{- $url = (index (partial "_funcs/get-page-images" .) 0).Permalink -}}
+{{- else -}}
+  {{- $url = partial "og/card-path" . | absURL -}}
+{{- end -}}
+{{- return $url -}}
