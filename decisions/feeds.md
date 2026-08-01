@@ -103,8 +103,8 @@ What the re-sync actually changed in the output:
 - **`transform.XMLEscape` instead of `| html` on item content.** Decoded item
   bodies are byte-identical, verified across all 30 feeds with an XML parser.
   The difference is on the wire: `XMLEscape` writes newlines as `&#xA;`, which
-  grows the home feed from 486 KB to 495 KB raw, and about 0.3% compressed
-  whatever level the compressor runs at. Taking a payload increase in a doc
+  grows the home feed from 486 KB to 495 KB raw, and by about 0.3% compressed
+  at any compression level. Taking a payload increase in a doc
   that just argued for cutting payload needs a reason, and it is this:
   `XMLEscape` is XML-aware where `html` is not, and it strips control
   characters that are illegal in XML rather than emitting a feed no strict
