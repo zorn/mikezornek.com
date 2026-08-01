@@ -3,9 +3,12 @@
   <h2> heading, a lead line, and the entries divided by hairlines, with no
   background or border of its own.
 
-  Resolves each entry's logical path to a Page and skips any that no longer
-  resolve. Renders nothing at all when the list is empty (empty-state guard) so
-  no bare heading or panel ever appears.
+  Resolves each entry's logical path to a Page. THE BUILD FAILS if a path no
+  longer resolves, rather than quietly rendering a shorter list: the list is
+  short and hand-picked, so losing one entry is both proportionally large and
+  invisible. See docs/adr/0001-curated-list-via-data-file.md. Renders nothing at
+  all when the list is empty (empty-state guard) so no bare heading or panel
+  ever appears.
 
   Takes no context — the heading, lead, and heading levels are fixed here since
   every caller renders the same list the same way.
@@ -19,6 +22,8 @@
     {{- range $entry := . }}
       {{- with (site.GetPage $entry.path) }}
         {{ partial "start-here-card.html" (dict "page" . "note" $entry.note "headingLevel" "h3") }}
+      {{- else }}
+        {{- errorf "start-here-list.html: data/start-here.yaml entry path %q resolves to no page. Fix the path or drop the entry (see docs/adr/0001-curated-list-via-data-file.md)." $entry.path }}
       {{- end }}
     {{- end }}
   </div>
