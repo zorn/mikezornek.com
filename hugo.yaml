@@ -71,6 +71,12 @@ params:
     - Journals
 pagination:
   pagerSize: 20
+
+# Cap every generated RSS feed at the 50 most recent items. Items stay
+# full-text; only the count is bounded. See decisions/feeds.md.
+services:
+  rss:
+    limit: 50
 markup:
   goldmark:
     extensions:
