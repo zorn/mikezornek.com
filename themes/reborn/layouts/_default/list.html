@@ -4,15 +4,10 @@
       <div
         class="prose prose-p:leading-[1.5] prose-headings:mb-2 prose-a:text-purple-600 prose-a:visited:text-purple-900 max-w-none"
       >
-        {{/* The layout owns the page h1. The page number keeps each paginated
-          page's heading distinct from the other 22. See decisions/headings.md.
+        {{/* The layout owns the page h1. Paginated pages repeat it unchanged;
+          see decisions/headings.md for why they do not carry a page number.
         */}}
-        <h1>
-          {{- .Title }}
-          {{- if gt .Paginator.PageNumber 1 }}
-            (page {{ .Paginator.PageNumber }})
-          {{ end -}}
-        </h1>
+        <h1>{{ .Title }}</h1>
 
         {{ if and (eq .Section "posts") (eq .Paginator.PageNumber 1) }}
           <div class="flex flex-col gap-x-8 md:flex-row md:items-start">

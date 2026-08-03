@@ -1,6 +1,12 @@
 {{ define "main" }}
   <main id="main-content" tabindex="-1">
     <div class="mx-auto max-w-screen-md px-4 md:px-0">
+      {{/* The layout owns the page h1. See decisions/headings.md. The form is
+        the page's whole visual identity, so this one is announced rather than
+        drawn.
+      */}}
+      <h1 class="sr-only">{{ .Title }}</h1>
+
       {{ partial "search-form.html" . }}
 
       {{ partial "search-external.html" (dict "extraClass" "-mt-4 mb-8") }}
