@@ -79,7 +79,8 @@ Related things worth not repeating:
 
 **Preferred:** `<meta name="robots" content="noindex">`.
 
-**Rejected:** `noindex,nofollow`, which is what `/random/` uses.
+**Rejected:** `noindex,nofollow`, which is what `/random/` used to hardcode
+until [#188](https://github.com/zorn/mikezornek.com/issues/188).
 
 **Why:** `nofollow` is documented as "do not follow the links on this page," and
 on `/search/` that would include the site's own header and footer navigation.
@@ -111,23 +112,55 @@ of why the old state was defensible.
 
 ---
 
-## `/random/` says the same thing a different way
+## `/random/` keeps its standalone head, and copies three tags into it
 
-`/random/` is the other utility page, and it expresses the identical intent
-through completely different machinery: a hardcoded `noindex,nofollow` in its
-own standalone layout, and `build: {list: never}` rather than
-`sitemap: {disable: true}`.
+**Preferred:** `layout: random` stays a standalone document, and hand-copies
+`head.html`'s title, description, and `noindex` tags.
 
-This is left alone on purpose. `layout: random` is a full standalone template
-that never loads `head.html`, so the `.Params.noindex` flag could not emit its
-tag even if we wanted it to. `/random/` does carry `noindex: true` in front
-matter regardless, as a declaration rather than a mechanism, so that anything
-reasoning about utility pages has one flag to read.
+**Rejected:** routing it through `baseof.html` so the shared head reaches it.
+
+**Why:** `/random/` is the other utility page, and it expresses the identical
+intent through different machinery. Until
+[#188](https://github.com/zorn/mikezornek.com/issues/188) that machinery had
+drifted: the layout hardcoded `<title>Random Post</title>` and
+`noindex,nofollow`, and dropped the `description` the content file authored,
+making it the only page rendered through the theme without a `meta description`.
+Bing's site scan of 2026-08-03 flagged it. (The 189 alias redirect stubs have no
+description either. They are bare meta-refresh documents rather than pages, and
+the same distinction is why both build verifiers skip them.)
+
+Routing it through `baseof.html` would have fixed all three at once, and is not
+possible without moving other pieces first. `content/random.md` sets
+`build: {list: never}`, which keeps the page out of `site.Pages` and therefore
+out of `og-manifest.json`, so `bin/og-images.mjs` never draws it a card. A page
+that emitted `head.html`'s `og:image` would advertise one anyway, and
+`bin/verify-og-images.mjs` would fail the build. That is the hazard
+`_default/index.ogmanifest.json` already documents, and `/random/` is the page
+it was written about.
+
+Even setting that aside, it would be the wrong trade. The page's whole job is to
+bounce the visitor to a post; the shared head would have it fetch the CSS
+bundle, two preloaded fonts, Plausible, and the theme JS for a document nobody
+looks at.
+
+So the standalone head stays, and the three tags that cost nothing to serve are
+copied into it. The `noindex` now reads `.Params.noindex` rather than being
+hardcoded, which makes the front matter flag this page's mechanism and not just
+its declaration. Everything that fetches a subresource stays out.
+
+**The cost, stated plainly:** those tags are a hand-copy, and nothing enforces
+that they track `head.html`. A change to the description chain or the title
+format has to be made twice. That is the price of the standalone head, and it is
+small only because the copied set is deliberately kept to three tags.
 
 Worth knowing if `/random/` is ever revisited: `build: {list: never}` is a much
-bigger hammer than it needs. It removes the page from _every_ page collection,
-where `sitemap: {disable: true}` would remove only the sitemap entry. The
-difference has not mattered yet.
+bigger hammer than the sitemap needs. It removes the page from _every_ page
+collection, where `sitemap: {disable: true}` would remove only the sitemap
+entry. An earlier draft of this record called that difference one that "has not
+mattered yet." That was wrong when it was written, and #188 did not change it:
+the extra reach is exactly what keeps `/random/` out of `og-manifest.json`, and
+has since the manifest existed. So swapping the two is a prerequisite for
+routing through `baseof.html`, not an independent tidy-up.
 
 ---
 
