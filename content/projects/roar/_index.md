@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-## ROAR For Good
-
 [AlwaysOn](https://www.roarforgood.com/) is a security platform for hotels and its employees. After hitting a panic button, hotel security is given an exact, room-specific location of the event.
 
 ![AlwaysOn](roar.png "AlwaysOn")

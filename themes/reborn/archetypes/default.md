@@ -1,4 +1,6 @@
 ---
+# The layout renders this title as the page's only h1, so the body below starts
+# at `##` and never writes a `#`. See decisions/headings.md.
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: "something tweet like"

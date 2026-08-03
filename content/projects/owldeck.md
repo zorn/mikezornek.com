@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-## OwlDeck
-
 The OwlDeck project was to build a new macOS presentation tool geared towards programmers and geeks who need to display code and love Markdown.
 
 I worked on OwlDeck for a few months but inevitably ran into too many headaches with the low level text system of macOS and felt the project unmaintainable. I did learn a lot through the process, including writing my own Markdown parser in Swift which was a plus.

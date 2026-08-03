@@ -65,7 +65,7 @@ With awareness of these recent failures, I am trying to be more mindful and inte
 
 **The product does not need to be software.** While I am a developer and empowered to deliver software-based solutions, I am not against building educational products or other assets/toolkits/solutions.
 
-# My Superpowers
+## My Superpowers
 
 In addition to considering the above product filters, it is also essential to identify one's superpowers. We each have a unique background and collage of skills/experiences. Understanding how you can contribute to a given product idea is key to its choice.
 

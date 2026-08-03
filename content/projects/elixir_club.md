@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-# Elixir Club
-
 ElixirClub was an outcome-oriented community website that hoped to help Elixir developers finish their side projects. I kicked off the project in December of 2022 and ran it for a few months but did not get the traction I needed and decided to shut down the site about six months later.
 
 You can check out this kickoff video for a sense of what I was trying to build.

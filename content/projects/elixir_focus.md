@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-# Elixir Focus / Phoenix by Example
-
 For a while I was considering getting into the paid-for educational content space, targeting Elixir developers. I started with a site called Phoenix by Example, but then migrated it to a new name of Elixir Focus.
 
 I blogged, build some demo projects and did some talks.

@@ -138,7 +138,7 @@ Is there any high-level documentation for the structure or architecture of the a
 
 > Why: It will be hard to grok any complex architecture during a single meeting, but getting an overview and some specific guidance on what you'd likely be contributing to is helpful.
 
-# Understanding My Role
+## Understanding My Role
 
 Will I be in an individual contributor role or a team management role? What does that role look like, and what would my responsibilities be?
 

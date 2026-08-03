@@ -5,8 +5,6 @@ sectionHighlight: Contact
 layout: onepage
 ---
 
-{{< sr-only-title "Contact" >}}
-
 **Email:** <mike@mikezornek.com>
 
 **Mastodon:** <https://jawns.club/@zorn>

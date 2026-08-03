@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-## Agency Projects
-
 While a full time employee at a pair of large agencies I had the opportunity to work on many iOS projects. However, because of NDA clauses I can not reveal actual clients. Instead I'll describe the projects in more generic terms:
 
 - **iPad Roofing Preview App** - would let people take a photo of their house, choose roofing tile and preview what it would look like and cost.

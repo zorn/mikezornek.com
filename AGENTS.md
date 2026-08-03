@@ -99,7 +99,9 @@ written. Consult (and maintain) them when relevant:
   their reasoning so they aren't rediscovered later. Notably `word-choice.md`
   codifies house-style spellings/word forms (e.g. `lifecycle`). **Check this
   before writing or editing prose** and follow the preferred forms; add a new
-  entry when a new style decision comes up.
+  entry when a new style decision comes up. `headings.md` is the other one that
+  bites while authoring: the layout renders each page's `<h1>` from `title`, so
+  markdown bodies start at `##` and never write a `#`.
 - `playbook/` — repeatable process docs. `promotion.md` lists where and how
   Mike shares a new post (Mastodon, LinkedIn, Elixir Slack/Forum, Reddit, etc.)
   and a share-template format.

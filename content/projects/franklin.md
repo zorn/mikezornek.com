@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-# Franklin
-
 Franklin was a project written in Elixir, Phoenix, and LiveView. It was an intentionally over-engineered blog application, an opportunity for me to play around and learn how to build software in an event-sourced / CQRS model using [Commanded](https://github.com/commanded/commanded).
 
 {{<youtube dGKxhR-h7PM>}}

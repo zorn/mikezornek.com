@@ -5,17 +5,17 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-# Active Personal Projects
+## Active Personal Projects
 
 [Flick](https://github.com/zorn/flick) is an in-progress side project that aims to provide a simple web app, built using Elixir and Phoenix LiveView, that will to provide a tools to build and capture ranked voting.
 
 Specifically this project is being constructed to help the [Elixir Book Club](https://elixirbookclub.github.io/website/) pick books.
 
-## Mike Zornek.com
+### Mike Zornek.com
 
 This very website is an open source project using tech including: Hugo, HTML/CSS, GitHub, CircleCI, Linode and Apache. [Background](/projects/mikezornek-site/)
 
-# Past Personal Projects
+## Past Personal Projects
 
 - [StudyHall](https://github.com/studyhall-project/studyhall) (Elixir, Svelte, Ash)
 - [Course Dreamers](https://coursedreamers.com)
@@ -34,7 +34,7 @@ This very website is an open source project using tech including: Hugo, HTML/CSS
 - [ProfitTrain / Billable](/projects/profittrain/) (macOS app)
 - [MegaManEffect](/projects/megamaneffect/) (macOS app)
 
-# Past Client Projects
+## Past Client Projects
 
 - [TrafficCast](/projects/trafficcast/) (iOS App)
 - [ROAR AlwaysOn](/projects/roar/) (Elixir Phoenix web app)

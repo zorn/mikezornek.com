@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-## TrafficCast
-
 > [TrafficCast](http://www.trafficcast.com/) is the leader in travel time forecasting and traffic information, developing technology, applications and content based on advanced digital traffic data. TrafficCast serves the interactive, mobile, enterprise and public sector markets.
 
 I worked with TrafficCast for over 2 years as a consultant, helping out with two major iOS projects and other general code maintenance. The highlight for me was an opportunity to rebuild their network stack and share the final design through a few different presentations.

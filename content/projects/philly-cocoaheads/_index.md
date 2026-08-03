@@ -5,8 +5,6 @@ sectionHighlight: Projects
 layout: onepage
 ---
 
-## Philly CocoaHeads Website (Hugo)
-
 {{< figure src="pc-home.png" alt="The Philly CocoaHeads home page, a clean single-column layout introducing the group and its upcoming meetups." >}}
 
 {{< figure src="pc-about.png" alt="The Philly CocoaHeads about page, describing the group's history and what to expect at a meeting." >}}

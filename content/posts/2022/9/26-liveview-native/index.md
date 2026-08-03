@@ -76,7 +76,7 @@ There was also a reaction of "this feels like a lot of complexity with many fail
 
 However, this tool is not really built for them. So who is this being built for? Time for hot takes.
 
-# What pain is LiveView Native is trying to solve?
+## What pain is LiveView Native is trying to solve?
 
 {{< figure src="hot-take.jpg" width="70%"
   alt="A glowing roadside marquee at dusk reading 'Hot Take House,' with a neon 'Open 24 Hours' sign below." >}}
