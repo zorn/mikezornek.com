@@ -1,10 +1,46 @@
 <!doctype html>
 <html lang="{{ site.Language.Locale }}">
   <head>
+    {{/* This page deliberately does not render through `baseof.html` and
+      `partials/head.html`. Its whole job is to bounce the visitor to a post,
+      and the shared head would have it fetch the CSS bundle, the preloaded
+      fonts, Plausible, and the theme JS for a document nobody ever looks at.
+
+      The load-bearing reason is structural, though. `content/random.md` sets
+      `build: {list: never}`, which keeps this page out of `site.Pages` and so
+      out of `og-manifest.json`. A page emitting `head.html`'s `og:image` would
+      advertise a social card the generator never draws, and
+      `bin/verify-og-images.mjs` would fail the build. That is the hazard the
+      note in `_default/index.ogmanifest.json` describes.
+
+      The cost is that the tags below are hand-copies of `head.html` and have to
+      be kept in step with it by hand. Keep them to metadata: anything that
+      fetches a subresource belongs on a page that is meant to be read. See
+      decisions/indexing.md.
+    */}}
     <meta charset="utf-8">
-    <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Random Post</title>
+    <title>{{ printf "%s • %s" .Title site.Title }}</title>
+
+    {{/* Same chain and the same escaping as `head.html`. `plainify` alone
+      returns `template.HTML` and Go stops escaping, so a bare `&` would ship
+      raw. See decisions/page-metadata.md.
+    */}}
+    {{ with or .Description site.Params.description | plainify | htmlUnescape }}
+      <meta name="description" content="{{ . }}">
+    {{ end }}
+
+    {{/* Driven by the `noindex: true` front matter rather than hardcoded, so
+      this page's declaration and its mechanism are the same thing that every
+      other utility page uses. Plain `noindex`, never `noindex,nofollow`:
+      `nofollow` would tell crawlers to stop following the links in the body
+      below, which is the one crawl path this page offers. See
+      decisions/indexing.md.
+    */}}
+    {{ if .Params.noindex }}
+      <meta name="robots" content="noindex">
+    {{ end }}
+
     {{- $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     <script>
       const posts = [
