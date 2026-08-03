@@ -124,8 +124,10 @@ intent through different machinery. Until
 [#188](https://github.com/zorn/mikezornek.com/issues/188) that machinery had
 drifted: the layout hardcoded `<title>Random Post</title>` and
 `noindex,nofollow`, and dropped the `description` the content file authored,
-making it the only rendered page on the site without a `meta description`. Bing's
-site scan of 2026-08-03 flagged it.
+making it the only page rendered through the theme without a `meta description`.
+Bing's site scan of 2026-08-03 flagged it. (The 189 alias redirect stubs have no
+description either. They are bare meta-refresh documents rather than pages, and
+the same distinction is why both build verifiers skip them.)
 
 Routing it through `baseof.html` would have fixed all three at once, and is not
 possible without moving other pieces first. `content/random.md` sets
@@ -154,9 +156,11 @@ small only because the copied set is deliberately kept to three tags.
 Worth knowing if `/random/` is ever revisited: `build: {list: never}` is a much
 bigger hammer than the sitemap needs. It removes the page from _every_ page
 collection, where `sitemap: {disable: true}` would remove only the sitemap
-entry. That difference used to be inert; it is now the thing keeping the page
-out of the card manifest, so swapping it is a prerequisite for routing through
-`baseof.html`, not an independent tidy-up.
+entry. An earlier draft of this record called that difference one that "has not
+mattered yet." That was wrong when it was written, and #188 did not change it:
+the extra reach is exactly what keeps `/random/` out of `og-manifest.json`, and
+has since the manifest existed. So swapping the two is a prerequisite for
+routing through `baseof.html`, not an independent tidy-up.
 
 ---
 
