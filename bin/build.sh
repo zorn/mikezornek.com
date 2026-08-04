@@ -77,6 +77,14 @@ node bin/og-images.mjs
 echo "Verifying social images..."
 node bin/verify-og-images.mjs
 
+# Fail the build if any page renders zero or two-plus h1 tags. The layout owns
+# the h1 (see decisions/headings.md), which took a sweep of 23 content files to
+# make true and nothing but this keeps true: a markdown body that opens with `#`
+# renders a second h1, and a new layout that forgets the heading renders none.
+# Neither is an error and neither is visible on the page. See #186.
+echo "Verifying headings..."
+node bin/verify-headings.mjs
+
 # Fail the build if the page's JSON-LD is malformed, incomplete, or references
 # an entity no node on that page declares. Structured data is never rendered, so
 # a mistake in it is invisible in a way even a broken og:image is not: nobody

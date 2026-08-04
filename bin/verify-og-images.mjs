@@ -43,7 +43,17 @@ const IMAGE_TAG =
 // canonical link, and a meta refresh, with none of the theme's head partial.
 // There are around 190 of them for the pre-2020 URL scheme. They are redirects
 // rather than pages, so having no social image is correct, not a defect.
-const ALIAS_STUB = /<meta\s+http-equiv="refresh"/i;
+//
+// The refresh tag alone is not enough to identify one. A post writing about
+// redirects could emit that tag as raw inline HTML, and matching on it by itself
+// would drop that page out of the check silently. Hugo's stub is a `<head>` and
+// nothing else, so requiring no `<body>` separates the two exactly.
+const REFRESH_TAG = /<meta\s+http-equiv="refresh"/i;
+const BODY_TAG = /<body[\s>]/i;
+
+function isAliasStub(html) {
+  return REFRESH_TAG.test(html) && !BODY_TAG.test(html);
+}
 
 // Some noindex pages do not load the theme's head partial at all and so emit no
 // social tags. `/random/` is the example: a standalone layout that bounces the
@@ -104,7 +114,7 @@ async function main() {
   for await (const file of htmlFiles(PUBLISH_DIR)) {
     const html = await readFile(file, "utf8");
 
-    if (ALIAS_STUB.test(html)) {
+    if (isAliasStub(html)) {
       skipped += 1;
       continue;
     }
