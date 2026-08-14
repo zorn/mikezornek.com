@@ -14,7 +14,7 @@ not the site. I've been unable to host them in the `themes` folder so far. */
 /* Heading anchor links on blog posts (issue #194). scroll-margin-top keeps a
    linked section off the very top edge of the viewport when it lands; the
    `.heading-anchor` marker styling follows below. */
-.prose :is(h2, h3) {
+.prose :is(h2, h3):has(> .heading-anchor) {
   scroll-margin-top: 2rem;
 }
 .prose .heading-anchor {
