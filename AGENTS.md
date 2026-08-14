@@ -81,7 +81,9 @@ over inventing near-duplicates.
 
 ### CI
 
-GitHub Actions runs Lighthouse CI (`lighthouse.yaml`) on every push to `main`, auditing a few key URLs against the budget in `.github/workflows/budget.json`.
+GitHub Actions runs a Build check (`build.yaml`) on every push to `main` and on pull requests. It runs `bin/build.sh`, the same script Render deploys with, on the Node from `.node-version`. Any Hugo error (bad front matter, broken ref links, missing image resources) turns into a red check that blocks the PR before merge.
+
+Lighthouse used to run here too; it was removed as low-value. Performance is now audited by hand. See `playbook/lighthouse.md`, with the tuned budget in `playbook/budget.json`.
 
 ### Deploys
 
