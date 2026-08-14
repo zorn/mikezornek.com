@@ -60,6 +60,24 @@ document.addEventListener("submit", trackNewsletterSignup);
 // address-bar hash on its own. On top of that, copy the section's full URL to
 // the clipboard so the reader can paste a deep link, with a brief "Copied"
 // flash for feedback.
+
+// The "Copied" flash is visual only, so a polite live region announces the copy
+// to assistive tech. One shared, visually hidden node, created on first use.
+function headingAnchorStatus() {
+  var el = document.getElementById("heading-anchor-status");
+  if (el) {
+    return el;
+  }
+  el = document.createElement("div");
+  el.id = "heading-anchor-status";
+  el.setAttribute("role", "status");
+  el.setAttribute("aria-live", "polite");
+  el.style.cssText =
+    "position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;";
+  document.body.appendChild(el);
+  return el;
+}
+
 function copyHeadingAnchorLink(event) {
   var link = event.target.closest && event.target.closest("a.heading-anchor");
   if (!link) {
@@ -73,8 +91,13 @@ function copyHeadingAnchorLink(event) {
   navigator.clipboard.writeText(link.href).then(
     function () {
       link.classList.add("is-copied");
+      var status = headingAnchorStatus();
+      status.textContent = "Link copied";
       setTimeout(function () {
         link.classList.remove("is-copied");
+        // Clear the announcement so the next copy is a genuine change, which is
+        // what a live region needs to re-announce identical text.
+        status.textContent = "";
       }, 1200);
     },
     function () {},

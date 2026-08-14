@@ -18,14 +18,25 @@ not the site. I've been unable to host them in the `themes` folder so far. */
   scroll-margin-top: 2rem;
 }
 .prose .heading-anchor {
+  position: relative;
   margin-left: 0.35em;
   font-weight: 400;
   text-decoration: none;
   color: var(--color-purple-600);
 }
+/* The `#` glyph is drawn here, not emitted as DOM text, so it stays out of the
+   search index and the RSS feed (see the render hook). */
+.prose .heading-anchor::before {
+  content: "#";
+}
+/* The "Copied" confirmation is absolutely positioned so it never reserves
+   layout space beside the marker, which would otherwise gap or wrap headings. */
 .prose .heading-anchor::after {
   content: "Copied";
+  position: absolute;
+  left: 100%;
   margin-left: 0.4em;
+  white-space: nowrap;
   font-size: 0.75rem;
   color: var(--color-gray-500);
   opacity: 0;
