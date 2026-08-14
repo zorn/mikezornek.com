@@ -1,7 +1,7 @@
 # Research: should `/search/` be `noindex`?
 
 Primary-source research input for [issue #175](https://github.com/zorn/mikezornek.com/issues/175).
-This file is **evidence, not a decision.** The decision (if one is made) belongs in `decisions/`.
+This file is **evidence, not a decision.** The decision (if one is made) belongs in `docs/adr/`.
 
 **Sources accessed 2026-07-31.** Everything below is either quoted from a first-party
 source (Google Search Central, Google Search Console Help, sitemaps.org, Hugo docs,

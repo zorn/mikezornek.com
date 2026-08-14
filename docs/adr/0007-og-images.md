@@ -3,7 +3,7 @@
 How the site produces the 1200x630 image that Mastodon, Bluesky, LinkedIn,
 Reddit, Slack, Discord, and the Elixir Forum render when a link is shared, and
 why the pieces are wired the way they are. Companion to
-[page-metadata.md](page-metadata.md), which covers the tags themselves.
+[page-metadata.md](0002-page-metadata.md), which covers the tags themselves.
 
 Background: as of #149 the site emits Open Graph tags but most pages carry no
 image, so they share as a text-only card. Issue #103 is the image half.
@@ -20,7 +20,7 @@ designed static card used as the safety net.
 **Why:** A static card ships in an afternoon and costs nothing forever, but it
 adds recognition and zero information: every share of every post looks the same,
 which is the objection that already killed the avatar fallback in
-[page-metadata.md](page-metadata.md). The point of the card is to tell a reader
+[page-metadata.md](0002-page-metadata.md). The point of the card is to tell a reader
 what the link is before they click.
 
 The static card is not a consolation prize, it earns its place as the fallback
@@ -43,7 +43,7 @@ of all a silent staleness bug: fix a typo in a title and the committed card
 still shows the old one, with nothing forcing a regeneration.
 
 The cost is honest. Render meters build minutes (see
-[render-static-site-constraints.md](../docs/render-static-site-constraints.md)),
+[render-static-site-constraints.md](../render-static-site-constraints.md)),
 the publish directory does not persist between builds, and every deploy
 regenerates everything. The generation step therefore times itself and prints
 the duration, so the Render log reports the real number against that budget
@@ -187,7 +187,7 @@ the site's own header.
 **Why:** The description is on the card because of where the traffic actually
 comes from. LinkedIn and Reddit render the image and title but never
 `og:description`, and by the first measured week (see
-[../playbook/promotion.md](../playbook/promotion.md)) those are the reach engine
+[../../playbook/promotion.md](../../playbook/promotion.md)) those are the reach engine
 (Reddit, 150 visitors) and the only venue that produced a signup (LinkedIn, 41).
 On those two, the card is the only surface where the description reaches a
 reader at all.
@@ -258,7 +258,7 @@ emitting the tag twice.
 
 Leaving `summary` in place next to a 1200x630 image reproduces exactly the
 "claiming a large card where there is only a small square" mismatch that
-[page-metadata.md](page-metadata.md) rejected, just inverted.
+[page-metadata.md](0002-page-metadata.md) rejected, just inverted.
 
 This narrows that file's "use the embedded templates, don't hand-roll" entry
 rather than contradicting it. That entry's stated reason was the roughly 35
@@ -413,7 +413,7 @@ pre-2020 URL scheme, with none of the theme's head partial. **Pages that emit no
 that never loads `head.html` and bounces the visitor onward, so it emits no
 social tags and needs no card.
 
-**Narrowed by [indexing.md](indexing.md):** that second skip was originally
+**Narrowed by [indexing.md](0008-indexing.md):** that second skip was originally
 written as "any page marked `noindex`", using the tag as a proxy for "emits no
 social tags". The proxy held only while `/random/` was the sole `noindex` page.
 `/search/` is now `noindex` too, and it renders through `head.html`, so it
@@ -487,7 +487,7 @@ the exception list to the two pages that genuinely break keeps authored titles
 authoritative everywhere else.
 
 The home page is the other exception, for a different reason: its title is
-deliberately `Mike Zornek` (see [page-metadata.md](page-metadata.md)), which is
+deliberately `Mike Zornek` (see [page-metadata.md](0002-page-metadata.md)), which is
 the same words as the wordmark printed directly above it on the card. It
 substitutes **"Elixir, Phoenix, and the craft of shipping software"** instead.
 

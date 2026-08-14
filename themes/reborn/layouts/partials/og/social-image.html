@@ -9,9 +9,9 @@
   `_internal/twitter_cards.html` is deliberately NOT used. It always emits a
   `twitter:card`, and it says `summary` for a page with no authored image, with
   no way to override it short of emitting the tag twice. A `summary` next to a
-  1200x630 image is the same size mismatch decisions/page-metadata.md rejected
+  1200x630 image is the same size mismatch docs/adr/0002-page-metadata.md rejected
   the avatar fallback for, just inverted. Owning four lines buys an unambiguous
-  answer. See decisions/og-images.md for why this narrows, rather than
+  answer. See docs/adr/0007-og-images.md for why this narrows, rather than
   contradicts, the "use the embedded templates" decision.
   */ -}}
 
@@ -33,7 +33,7 @@
 <meta name="twitter:image" content="{{ $image }}">
 <meta name="twitter:title" content="{{ .Title }}">
 {{- /* Matches the chain the embedded templates use, including the `.Summary`
-  step that decisions/page-metadata.md rejects for `meta description`. Keeping
+  step that docs/adr/0002-page-metadata.md rejects for `meta description`. Keeping
   it means this tag behaves the same as before for any page that loses its
   authored description.
 */}}

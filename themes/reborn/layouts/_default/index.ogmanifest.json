@@ -3,7 +3,7 @@
 
   One row per page that needs a generated social card: where to write the file,
   and the words to put on it. Pages that already resolve an image of their own
-  are skipped, because an authored image wins (see decisions/og-images.md).
+  are skipped, because an authored image wins (see docs/adr/0007-og-images.md).
 
   `path` comes from the same `og/card-path` partial that `head.html` uses to
   emit the `og:image` URL, so the file the generator writes and the URL the page

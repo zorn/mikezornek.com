@@ -4,7 +4,7 @@
 
   Two pages have a title that works as navigation and fails as a card, and only
   those two are special-cased. Everything else renders `.Title` as authored, so
-  authored titles stay authoritative. See decisions/og-images.md.
+  authored titles stay authoritative. See docs/adr/0007-og-images.md.
 
   Note this affects the card image only. The `og:title` meta tag still carries
   the page's real title, because that is what a reader is choosing to click.
@@ -14,7 +14,7 @@
 
 {{- if .IsHome -}}
   {{- /* The home page title is deliberately "Mike Zornek" (see
-    decisions/page-metadata.md), which is the same words as the wordmark
+    docs/adr/0002-page-metadata.md), which is the same words as the wordmark
     printed directly above it on the card. */ -}}
   {{- $title = "Elixir, Phoenix, and the craft of shipping software" -}}
 {{- else if and (eq .Kind "term") (eq .Data.Plural "tags") -}}

@@ -5,7 +5,7 @@
   It exists for exactly one reason: the embedded template puts `.Summary` in
   each item's `<description>`, and this site's feeds are deliberately
   full-text, so the item `<description>` below emits `.Content` instead. See
-  decisions/feeds.md for why full-text stays.
+  docs/adr/0005-feeds.md for why full-text stays.
 
   Everything else here is upstream verbatim. When Hugo's embedded template
   changes, re-copy it and re-apply that one line rather than hand-patching, so

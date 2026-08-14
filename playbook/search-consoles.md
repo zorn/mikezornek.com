@@ -15,8 +15,8 @@ in an issue disappears when the issue closes; this does not.
 | Artifact      | URL                                                           | Notes                                                                                |
 | ------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Sitemap       | `https://mikezornek.com/sitemap.xml`                          | ~497 URLs, per-page `lastmod`. Hugo generates it.                                    |
-| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. See `decisions/ai-crawlers.md`.           |
-| RSS           | `https://mikezornek.com/index.xml`                            | 50 most recent items, full post bodies. See `decisions/feeds.md`.                    |
+| Robots policy | `https://mikezornek.com/robots.txt`                           | Allows everything, advertises the sitemap. See `docs/adr/0006-ai-crawlers.md`.           |
+| RSS           | `https://mikezornek.com/index.xml`                            | 50 most recent items, full post bodies. See `docs/adr/0005-feeds.md`.                    |
 | IndexNow key  | `https://mikezornek.com/509ce3a92525b2bfc2bdba120987afa2.txt` | Proves domain ownership to IndexNow. Contents must be exactly the key, nothing else. |
 
 **Last verified live: 2026-07-30.** `robots.txt` serves 200 as `text/plain`, its

@@ -81,6 +81,6 @@ node bin/verify-og-images.mjs
 # an entity no node on that page declares. Structured data is never rendered, so
 # a mistake in it is invisible in a way even a broken og:image is not: nobody
 # sees a wrong share preview and reports it. Same class of silent failure as
-# #159, checked the same way. See decisions/structured-data.md.
+# #159, checked the same way. See docs/adr/0004-structured-data.md.
 echo "Verifying structured data..."
 node bin/verify-structured-data.mjs

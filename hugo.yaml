@@ -2,7 +2,7 @@ baseURL: "https://mikezornek.com"
 locale: "en-US"
 # Render themes/reborn/layouts/robots.txt. Off by default in Hugo, and while it
 # was off the site served a 404 at /robots.txt, so no crawler was ever told
-# where the sitemap lives. See decisions/ai-crawlers.md.
+# where the sitemap lives. See docs/adr/0006-ai-crawlers.md.
 enableRobotsTXT: true
 title: "Mike Zornek"
 description: Personal website of Mike Zornek, a developer and teacher from the suburbs of Philadelphia.
@@ -30,7 +30,7 @@ params:
     price: "$6,000"
   # Facts about Mike-the-person, for the JSON-LD `Person` node emitted on the
   # home page and on blog posts. No other page type carries structured data.
-  # See decisions/structured-data.md.
+  # See docs/adr/0004-structured-data.md.
   #
   # This is editorial copy aimed at machines rather than readers, which is
   # exactly why it lives here instead of being buried in a template: it is the
@@ -40,7 +40,7 @@ params:
   # Keep it true. `sameAs` comes from data/profiles.yaml, so it is not repeated
   # here. The `sprint` block above is not read by the JSON-LD at all: the
   # `Offer` names the service and links the consulting page, but carries no
-  # price. See decisions/structured-data.md for why.
+  # price. See docs/adr/0004-structured-data.md for why.
   identity:
     # Short enough to read as a title, not a pitch. The homepage says "I
     # describe myself as both a developer and teacher"; this matches.
@@ -73,7 +73,7 @@ pagination:
   pagerSize: 20
 
 # Cap every generated RSS feed at the 50 most recent items. Items stay
-# full-text; only the count is bounded. See decisions/feeds.md.
+# full-text; only the count is bounded. See docs/adr/0005-feeds.md.
 services:
   rss:
     limit: 50
@@ -146,7 +146,7 @@ outputFormats:
   # /llms.txt — a plain-text guide to the site for language models. Like
   # `ogmanifest` it is a machine artifact rather than a page, so `notAlternative`
   # keeps it out of `.AlternativeOutputFormats` and off the `<link rel=alternate>`
-  # tags in the head. See decisions/llms-txt.md, including the part about this
+  # tags in the head. See docs/adr/0003-llms-txt.md, including the part about this
   # being an unproven convention.
   llmstxt:
     mediaType: text/plain

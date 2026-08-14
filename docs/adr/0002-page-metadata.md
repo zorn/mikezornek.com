@@ -93,7 +93,7 @@ The embedded template also reads `_funcs/get-page-images`, which resolves the
 **not** match `*thumbnail*`, so those posts reach `og:image` through their
 `images` front matter and not by auto-detection.
 
-**Narrowed by [og-images.md](og-images.md):** this holds for the Open Graph
+**Narrowed by [og-images.md](0007-og-images.md):** this holds for the Open Graph
 template and no longer for the Twitter one. Generated cards need
 `summary_large_image`, and `_internal/twitter_cards.html` always emits
 `twitter:card` as `summary` when a page has no image, with no way to override it
@@ -137,7 +137,7 @@ as a text-only card.
 image of their own — the same picture on most of the blog — and would also flip
 `twitter:card` to `summary_large_image` for all of them, claiming a large image
 where there's only a small square. Generating a real per-post image is the
-actual fix, tracked in #103 and now decided in [og-images.md](og-images.md).
+actual fix, tracked in #103 and now decided in [og-images.md](0007-og-images.md).
 
 Worth knowing: a page that _does_ set `images` gets `summary_large_image`
 regardless of the file's dimensions, so pointing `images` at a small square

@@ -13,7 +13,7 @@
   An entry whose path no longer resolves FAILS THE BUILD, matching
   partials/start-here-list.html so both renderings of the same data agree.
 
-  See decisions/llms-txt.md for the honest assessment of whether anything reads
+  See docs/adr/0003-llms-txt.md for the honest assessment of whether anything reads
   this file. Short version: no major AI vendor documents consuming it. It is
   here because it costs one template, not because it is a proven channel.
 */ -}}
@@ -52,7 +52,7 @@ Hand-picked, hand-ranked. If you only read a few things, read these.
 {{- end -}}
 {{- range where site.RegularPages "Section" "" -}}
 {{/* Utility pages have nothing to tell a model, same reason they carry
-    `noindex`. See decisions/indexing.md.
+    `noindex`. See docs/adr/0008-indexing.md.
 
     Be honest about what this guard does today: nothing. It replaced a
     hardcoded `(slice "random" "search")` that was equally inert, and the
