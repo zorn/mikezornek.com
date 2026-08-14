@@ -100,7 +100,7 @@ I used some Lighthouse feedback to make some [slight changes](https://github.com
 
 ![Lighthouse screenshot](/posts/2025/6/becoming-an-accessibility-ally/lighthouse.webp)
 
-What also caught my eye was some [Lighthouse CI tools](https://github.com/GoogleChrome/lighthouse-ci/). These can slip into your CI toolchain to generate reports, and enforce performance requirements. I did some [experiments](https://github.com/zorn/mikezornek.com/blob/main/.github/workflows/lighthouse.yaml) but would need more time to work correctly. There is even a [server](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server) you can run so you might track the status of various performance metrics over time. This could be really powerful for a site of importance, but it is well outside my work scope this week.
+What also caught my eye was some [Lighthouse CI tools](https://github.com/GoogleChrome/lighthouse-ci/). These can slip into your CI toolchain to generate reports, and enforce performance requirements. I did some [experiments](https://github.com/zorn/mikezornek.com/blob/b1415da/.github/workflows/lighthouse.yaml) but would need more time to work correctly. There is even a [server](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server) you can run so you might track the status of various performance metrics over time. This could be really powerful for a site of importance, but it is well outside my work scope this week.
 
 In addition to Lighthouse CI, I also took note of [Pa11y](https://pa11y.org/) and its [own Dashboard tools](https://github.com/pa11y/pa11y-dashboard?tab=readme-ov-file#pa11y-dashboard) which seem to solve similar automated measurements over time.
 
