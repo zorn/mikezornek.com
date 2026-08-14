@@ -9,7 +9,7 @@
 
   The policy is deliberately open to every crawler, including AI training
   crawlers. The reasoning, and what we would have to see to change our minds,
-  is in decisions/ai-crawlers.md.
+  is in docs/adr/0006-ai-crawlers.md.
 
   Note what is *not* here: `/random/` and `/search/` both carry a `noindex`
   meta tag and are deliberately left crawlable anyway. A `Disallow` would stop
@@ -19,7 +19,7 @@
 
   That is the standing division of labour here: this file says who may fetch
   what, and the `noindex` meta tag says what may be indexed. They are different
-  questions and neither substitutes for the other. See decisions/indexing.md.
+  questions and neither substitutes for the other. See docs/adr/0008-indexing.md.
 */ -}}
 User-agent: *
 Allow: /

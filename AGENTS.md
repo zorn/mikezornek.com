@@ -97,11 +97,16 @@ build. Use it for work-in-progress that isn't ready to go live.
 Beyond `content/`, a few top-level directories capture how this blog is run and
 written. Consult (and maintain) them when relevant:
 
-- `decisions/` — decision records, one file per topic, explaining choices and
-  their reasoning so they aren't rediscovered later. Notably `word-choice.md`
-  codifies house-style spellings/word forms (e.g. `lifecycle`). **Check this
-  before writing or editing prose** and follow the preferred forms; add a new
-  entry when a new style decision comes up.
+- `docs/adr/` — decision records, one numbered file per topic, explaining
+  choices and their reasoning so they aren't rediscovered later. Start at
+  `docs/adr/about.md`, which indexes them and states the convention (numbering,
+  immutability, when one is worth writing). This is the single home for
+  decisions; see the `adr` skill for authoring them.
+- `docs/` — reference material that is not a decision: `word-choice.md` codifies
+  house-style spellings/word forms (e.g. `lifecycle`) — **check it before
+  writing or editing prose** and follow the preferred forms — plus sourced
+  evidence (`research-*.md`) and environment constraints
+  (`render-static-site-constraints.md`).
 - `playbook/` — repeatable process docs. `promotion.md` lists where and how
   Mike shares a new post (Mastodon, LinkedIn, Elixir Slack/Forum, Reddit, etc.)
   and a share-template format.

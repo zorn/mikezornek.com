@@ -1,7 +1,7 @@
 {{/* The page's JSON-LD: a schema.org description of what this page is and who
   it is by, written for machines rather than readers.
 
-  Structure, and the reasoning, are recorded in decisions/structured-data.md.
+  Structure, and the reasoning, are recorded in docs/adr/0004-structured-data.md.
   The short version:
 
   Every page that emits anything emits ONE script tag holding a `@graph` with
@@ -56,7 +56,7 @@
   the risk of it going quietly wrong.
 
   What is left is the durable claim: this person offers Elixir and Phoenix
-  consulting, and here is the page about it. See decisions/structured-data.md.
+  consulting, and here is the page about it. See docs/adr/0004-structured-data.md.
 */}}
 {{ $offer := false }}
 {{ with site.GetPage "/elixir-consulting" }}

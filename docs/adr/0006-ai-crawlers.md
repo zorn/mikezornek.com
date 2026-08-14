@@ -49,7 +49,7 @@ block one, this file should be updated in the same commit as the `Disallow`.
 ## Crawling is not indexing
 
 This file is about who may **fetch** pages. What may be **indexed** is a
-separate decision, recorded in [indexing.md](indexing.md), and the two are not
+separate decision, recorded in [indexing.md](0008-indexing.md), and the two are not
 interchangeable. A `Disallow` here stops a page being fetched, which means any
 `noindex` tag on it is never read, and search engines can still index a blocked
 URL on the strength of inbound links. So `robots.txt` is the wrong tool for

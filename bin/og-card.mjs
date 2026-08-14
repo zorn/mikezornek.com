@@ -5,7 +5,7 @@
 // samples while iterating on the design. Keeping the layout here means those
 // two cannot drift apart.
 //
-// The design and the reasoning behind it are recorded in decisions/og-images.md.
+// The design and the reasoning behind it are recorded in docs/adr/0007-og-images.md.
 
 import { readFile } from "node:fs/promises";
 import { Renderer } from "@takumi-rs/core";

@@ -16,7 +16,7 @@
       The cost is that the tags below are hand-copies of `head.html` and have to
       be kept in step with it by hand. Keep them to metadata: anything that
       fetches a subresource belongs on a page that is meant to be read. See
-      decisions/indexing.md.
+      docs/adr/0008-indexing.md.
     */}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,7 @@
 
     {{/* Same chain and the same escaping as `head.html`. `plainify` alone
       returns `template.HTML` and Go stops escaping, so a bare `&` would ship
-      raw. See decisions/page-metadata.md.
+      raw. See docs/adr/0002-page-metadata.md.
     */}}
     {{ with or .Description site.Params.description | plainify | htmlUnescape }}
       <meta name="description" content="{{ . }}">
@@ -35,7 +35,7 @@
       other utility page uses. Plain `noindex`, never `noindex,nofollow`:
       `nofollow` would tell crawlers to stop following the links in the body
       below, which is the one crawl path this page offers. See
-      decisions/indexing.md.
+      docs/adr/0008-indexing.md.
     */}}
     {{ if .Params.noindex }}
       <meta name="robots" content="noindex">

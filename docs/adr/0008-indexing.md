@@ -2,12 +2,12 @@
 
 Which pages are deliberately kept out of search indexes, and why. This is a
 different question from crawl policy: `robots.txt` says who may _fetch_ what
-(see [ai-crawlers.md](ai-crawlers.md)), and a `noindex` meta tag says what may
+(see [ai-crawlers.md](0006-ai-crawlers.md)), and a `noindex` meta tag says what may
 be _indexed_. Neither substitutes for the other, and blocking a page in
 `robots.txt` actively prevents its `noindex` from ever being read.
 
 The evidence behind everything below, quoted and sourced, is in
-[docs/research-search-page-indexing.md](../docs/research-search-page-indexing.md).
+[docs/research-search-page-indexing.md](../research-search-page-indexing.md).
 Sources were read on 2026-07-31.
 
 ---
@@ -197,7 +197,7 @@ have quietly dropped it from coverage the moment this change shipped.
 
 The skip now tests the condition it always meant: a `noindex` page is excused
 for having _no_ `og:image`, never for having a broken one. Written up in
-[og-images.md](og-images.md).
+[og-images.md](0007-og-images.md).
 
 ---
 

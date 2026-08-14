@@ -10,7 +10,7 @@
 </title>
 
 {{/* Page's own description, falling back to the site's. Deliberately does not
-  fall back to `.Summary` — see decisions/page-metadata.md.
+  fall back to `.Summary` — see docs/adr/0002-page-metadata.md.
 */}}
 {{ with or .Description site.Params.description | plainify | htmlUnescape }}
   <meta name="description" content="{{ . }}">
@@ -19,7 +19,7 @@
 {{/* Opt-in `noindex` for utility pages: pages that exist to do something
   rather than to say something, and so have nothing to offer an index. Plain
   `noindex`, never `noindex,nofollow`: `nofollow` would tell crawlers to stop
-  following this page's own header and footer nav. See decisions/indexing.md.
+  following this page's own header and footer nav. See docs/adr/0008-indexing.md.
 */}}
 {{ if .Params.noindex }}
   <meta name="robots" content="noindex">
@@ -41,12 +41,12 @@
   `_internal/twitter_cards.html` is deliberately not used here: it hardcodes
   `twitter:card` to `summary` whenever a page has no authored image, which is
   the wrong claim once every page carries a generated 1200x630 card. See
-  decisions/og-images.md.
+  docs/adr/0007-og-images.md.
 */}}
 {{ partial "og/social-image.html" . }}
 
 {{/* schema.org JSON-LD. Invisible to readers; it tells search engines what
-  this page is and who it is by. See decisions/structured-data.md.
+  this page is and who it is by. See docs/adr/0004-structured-data.md.
 */}}
 {{ partial "schema/structured-data.html" . }}
 

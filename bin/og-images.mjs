@@ -8,7 +8,7 @@
 //
 // Usage: node bin/og-images.mjs [publish-dir]   (default: public)
 //
-// See decisions/og-images.md.
+// See docs/adr/0007-og-images.md.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, join } from "node:path";

@@ -16,7 +16,7 @@
 //      "invalid markup".
 //   3. Reference integrity: every `{"@id": ...}` reference resolves to a node
 //      declared in the same page's graph. This is the invariant the whole
-//      design rests on — see decisions/structured-data.md — and it is the one
+//      design rests on — see docs/adr/0004-structured-data.md — and it is the one
 //      thing no amount of reading the template will confirm.
 //   4. Required properties are present on each node type.
 //   5. The BlogPosting `image` matches the page's `twitter:image`, proving the
