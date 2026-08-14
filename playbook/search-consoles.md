@@ -55,24 +55,26 @@ Status is what has actually been confirmed, not what was intended.
   right sitemap is being read." Check the Last read date and the discovered page
   count against `curl -s https://mikezornek.com/sitemap.xml | grep -c "<loc>"`,
   not just the green Success label.
-- **The #56 4xx export is not available yet.** Indexing → Pages reads
-  "Processing data, please check again in a day or so" as of 2026-07-31, because
-  the Domain property was verified the same day and its reports have not
-  backfilled. Check again after 2026-08-02; tracked in #177. That report is the
-  only way to
-  diagnose #56, since the problem is not reproducible from outside: verified
-  2026-07-30 that there is no bot blocking under a Googlebot user agent, no rate
-  limiting across a 25-request burst, and that missing pages return clean 404s.
-- **Open question about where the 4xx warning came from.** This property's
-  reports were empty on the day it was verified, so the warning quoted in #56
-  must have been seen somewhere else, most likely an older URL-prefix property
+- **The #56 4xx warning does not exist on this property.** Indexing → Pages
+  backfilled by 2026-08-04 and was checked on 2026-08-14. The "Why pages aren't
+  indexed" table holds four normal reasons — Excluded by 'noindex' tag (2),
+  Crawled - currently not indexed (87), Discovered - currently not indexed (65),
+  Duplicate without user-selected canonical (0) — and no "Blocked due to other
+  4xx issue" row at all. There was nothing to export. This was the settled
+  outcome of the diagnosis: the problem was already not reproducible from
+  outside, verified 2026-07-30 that there is no bot blocking under a Googlebot
+  user agent, no rate limiting across a 25-request burst, and that missing pages
+  return clean 404s. #56 was closed 2026-08-14 on this finding; #177 tracked the
+  recheck and closed with it.
+- **Where the 4xx warning came from is settled: an older property that is gone.**
+  This Domain property's reports were empty on the day it was verified and never
+  showed a 4xx warning once they backfilled, so the warning quoted in #56 was
+  seen on some earlier surface, most likely a URL-prefix property
   (`http://mikezornek.com/`) under an account nobody can currently find. The
-  2020 sitemap submission points the same way. If the new property never shows a
-  4xx warning once it backfills, that is a real possibility rather than a
-  reporting glitch, and #56 may simply be describing a property that is gone.
-- **Worth knowing:** Search Console reports are sticky. If the 4xx episode was a
-  past incident that has since been fixed, the warning persists until you hit
-  Validate Fix. So the export may describe a problem that no longer exists.
+  2020 sitemap submission points the same way.
+- **Worth knowing:** Search Console reports are sticky. A past incident since
+  fixed keeps its warning until you hit Validate Fix, which is a second reason a
+  gone property could still have been showing the alert #56 quoted.
 
 ### Bing Webmaster Tools
 
@@ -151,9 +153,10 @@ discovery surface, and being in main search does not put you in it.
 - [x] Confirm `sitemap.xml` is submitted in Google Search Console (2026-07-31:
       was stale on the http URL, resubmitted as https, reads Success at 497
       pages)
-- [ ] After 2026-08-02, once Page indexing backfills: export the #56 "Blocked
+- [x] After 2026-08-02, once Page indexing backfills: export the #56 "Blocked
       due to other 4xx" URL list and paste it into #56, or record that the
-      warning does not appear on this property. Tracked in #177.
+      warning does not appear on this property (2026-08-14: report backfilled,
+      no 4xx row present; #56 and #177 both closed).
 - [x] Set up Bing Webmaster Tools via Import from Google Search Console
       (2026-07-31, https property, signed in with Google)
 - [ ] Confirm the hand-submitted `sitemap.xml` finished processing in Bing and
