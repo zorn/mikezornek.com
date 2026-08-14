@@ -52,3 +52,33 @@ function trackNewsletterSignup(event) {
 }
 
 document.addEventListener("submit", trackNewsletterSignup);
+
+// --- Heading anchor links (issue #194) -------------------------------------
+//
+// The posts heading render hook adds a `.heading-anchor` link to each h2/h3.
+// The link's href is `#slug`, so the browser handles the in-page jump and the
+// address-bar hash on its own. On top of that, copy the section's full URL to
+// the clipboard so the reader can paste a deep link, with a brief "Copied"
+// flash for feedback.
+function copyHeadingAnchorLink(event) {
+  var link = event.target.closest && event.target.closest("a.heading-anchor");
+  if (!link) {
+    return;
+  }
+  // Without the async Clipboard API, leave the native hash navigation to stand
+  // on its own rather than swallowing the click.
+  if (!navigator.clipboard) {
+    return;
+  }
+  navigator.clipboard.writeText(link.href).then(
+    function () {
+      link.classList.add("is-copied");
+      setTimeout(function () {
+        link.classList.remove("is-copied");
+      }, 1200);
+    },
+    function () {},
+  );
+}
+
+document.addEventListener("click", copyHeadingAnchorLink);
