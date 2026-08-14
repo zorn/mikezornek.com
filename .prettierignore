@@ -6,6 +6,7 @@
 # glues attributes together (e.g. `alt="x"width="y"`) — malformed output. And
 # figure.html the plugin can't even print ("invalid node root"). See issue #114.
 themes/reborn/layouts/_markup/render-image.html
+themes/reborn/layouts/_markup/render-heading.html
 themes/reborn/layouts/shortcodes/figure.html
 
 # Go templates that happen to end in `.json`. Prettier picks the JSON parser off

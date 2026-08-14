@@ -1,0 +1,26 @@
+{{- /*
+  Heading render hook (see issue #194).
+
+  Hugo already emits GitHub-style slug `id`s on every content heading, so the
+  deep-link targets exist. This hook adds the visible affordance: a `#` marker
+  on blog-post h2/h3 that copies the section's URL (the clipboard copy is wired
+  up in themes/reborn/assets/js/main.js).
+
+  The anchor is emitted as an EMPTY <a>; its `#` glyph comes from CSS
+  (`.heading-anchor::before`), not DOM text. Kept out of the DOM, the marker
+  never leaks into `.Plain` (the JSON search index) or `.Content` (the RSS
+  feed), where a stray `#` would otherwise land after every heading.
+
+  A render hook replaces heading rendering site-wide, so the base output below
+  must reproduce Hugo's default `<hN id="…">…</hN>` for every page; only posts
+  h2/h3 get the extra anchor.
+*/ -}}
+{{- $showAnchor := and (eq .Page.Type "posts") (in (slice 2 3) .Level) -}}
+<h{{ .Level }} id="{{ .Anchor }}"
+  {{- range $k, $v := .Attributes }}{{ if ne $k "id" }} {{ $k }}="{{ $v }}"{{ end }}{{ end -}}
+>
+  {{- .Text -}}
+  {{- if $showAnchor }}
+    <a class="heading-anchor" href="#{{ .Anchor }}" aria-label="Copy link to this section"></a>
+  {{- end -}}
+</h{{ .Level }}>
