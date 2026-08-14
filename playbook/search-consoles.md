@@ -159,8 +159,9 @@ discovery surface, and being in main search does not put you in it.
       no 4xx row present; #56 and #177 both closed).
 - [x] Set up Bing Webmaster Tools via Import from Google Search Console
       (2026-07-31, https property, signed in with Google)
-- [ ] Confirm the hand-submitted `sitemap.xml` finished processing in Bing and
-      reads 497 URLs. Tracked in #179.
+- [x] Confirm the hand-submitted `sitemap.xml` finished processing in Bing and
+      reads 497 URLs (2026-08-14: status Success, last crawl 2026-08-12, 496 URLs
+      discovered, matching the live sitemap within a page; #179 closed).
 - [x] Confirm the IndexNow key file returns 200 before the first
       `bin/indexnow.sh` run (2026-07-31, after #168 deployed:
       `/509ce3a92525b2bfc2bdba120987afa2.txt` returns 200 as `text/plain` with
