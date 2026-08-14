@@ -1,8 +1,8 @@
 # About these decisions
 
 Decision records capture the details of important choices made while building
-this blog — the context, the choice, and the consequences worth remembering —
-so nobody has to rediscover the reasoning later. When a future contributor
+this blog: the context, the choice, and the consequences worth remembering, so
+nobody has to rediscover the reasoning later. When a future contributor
 (including future me) looks at the code and wonders "why on earth was it done
 this way?", the answer lives here.
 
@@ -10,23 +10,23 @@ this way?", the answer lives here.
 
 Write a decision when **all three** of these are true:
 
-1. **Hard to reverse** — the cost of changing your mind later is meaningful.
-2. **Surprising without context** — a reader will look at the code and wonder
-   why it was done this way.
-3. **The result of a real trade-off** — there were genuine alternatives and one
+1. **Hard to reverse:** the cost of changing your mind later is meaningful.
+2. **Surprising without context:** a reader will look at the code and wonder why
+   it was done this way.
+3. **The result of a real trade-off:** there were genuine alternatives and one
    was picked for specific reasons.
 
 If a choice is easy to reverse, skip it; it will just get reversed. If it isn't
 surprising, nobody will wonder why. If there was no real alternative, there is
 nothing to record beyond "we did the obvious thing." A choice that fails this
 test but still needs writing down is usually a coding standard or a glossary
-term, not a decision — `docs/word-choice.md` is where the house-style word forms
+term, not a decision. `docs/word-choice.md` is where the house-style word forms
 live.
 
 ## Scope and length
 
 Each file covers one **topic**, and a topic often carries several related
-decisions — `0008-indexing.md` records five, from `/search/` being `noindex` to
+decisions: `0008-indexing.md` records five, from `/search/` being `noindex` to
 why `/random/` keeps its own head. That is the house convention, and it is why
 these records run longer than the one-to-three-sentence ideal a brand-new record
 should still aim for. Favor brevity when you can; let a topic grow only when the
@@ -35,14 +35,14 @@ decisions inside it genuinely belong together.
 ## Immutable, with pointers
 
 Decision records are **immutable**. Never rewrite one to match how the code
-works today — that turns a record of *why we chose* into a competing statement
-of *what we do*, and the two drift. When a new decision narrows, extends, or
+works today: that turns a record of *why we chose* into a competing statement of
+*what we do*, and the two drift. When a new decision narrows, extends, or
 overturns an older one, say so in the new record **and add a pointer to the top
 of the old one**, directly under its title:
 
 ```md
-> **Narrowed by [0008-indexing.md](0008-indexing.md)** — the second verifier
-> skip now tests the condition it always meant.
+> **Narrowed by [0008-indexing.md](0008-indexing.md).** The second verifier skip
+> now tests the condition it always meant.
 ```
 
 Non-semantic fixes (broken links, renamed paths, typos) are always fine; they
@@ -57,10 +57,10 @@ no number.
 
 ## Where reference material goes
 
-Evidence, environment constraints, and glossary terms are not decisions and live
-in `docs/` beside this folder — `research-search-page-indexing.md` (the sourced
-evidence behind `0008-indexing.md`), `render-static-site-constraints.md` (the
-hosting environment), and `word-choice.md` (house-style spellings).
+Evidence, environment constraints, and glossary terms are not decisions, and
+they live in `docs/` beside this folder: `research-search-page-indexing.md` (the
+sourced evidence behind `0008-indexing.md`), `render-static-site-constraints.md`
+(the hosting environment), and `word-choice.md` (house-style spellings).
 
 ## The records
 
