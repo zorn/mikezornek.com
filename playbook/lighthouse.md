@@ -13,6 +13,8 @@ Lighthouse only runs on Chromium, so Firefox has no built-in Lighthouse panel. P
 
 This audits a public URL, so it cannot reach a local `hugo server` build. For a local run, use the CLI below.
 
+There is a [Lighthouse Firefox add-on](https://addons.mozilla.org/firefox/addon/google-lighthouse/) that runs this from a toolbar button instead of the website, but it calls the same PageSpeed Insights service, so it carries the same public-URL limit and does nothing the website does not.
+
 ## Real pass/fail: the CLI
 
 To reproduce what CI did (the same two URLs, checked against the same budget), run Lighthouse from the command line against `playbook/budget.json`:
