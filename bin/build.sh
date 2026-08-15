@@ -84,3 +84,13 @@ node bin/verify-og-images.mjs
 # #159, checked the same way. See docs/adr/0004-structured-data.md.
 echo "Verifying structured data..."
 node bin/verify-structured-data.mjs
+
+# Fail the build if a page's head metadata regresses: a missing Open Graph tag,
+# a meta description over the 160-character ceiling, or a page that silently fell
+# back to the site-default description instead of an authored one. All three are
+# invisible in a browser and would otherwise ship unnoticed, the same silent
+# class as #159. This replaces the old Lighthouse CI, which audited live
+# production URLs and so could only catch a regression after it merged. See #156
+# and docs/adr/0002-page-metadata.md.
+echo "Verifying page metadata..."
+node bin/verify-page-metadata.mjs
