@@ -24,7 +24,7 @@ Nothing to report.
 
 I'm actively reading [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) for [Elixir Book Club](https://elixirbookclub.github.io/website/). I'm enjoying it and hope to start expressing some of what I'm learning at work and elsewhere soon.
 
-Still slowly working through the book version of [Productive Field Guide](https://learn.macsparky.com/p/productivity-standard-24). I filled out my roles and arete. Next up is shaping some projects and wanted outcomes.
+Still slowly working through the book version of [Productive Field Guide](https://www.macsparky.com/pfg/). I filled out my roles and arete. Next up is shaping some projects and wanted outcomes.
 
 Have not yet started the [Obsidian Field Guide](https://learn.macsparky.com/p/obsidianfg-plus), but I am using Obsidian a bit at work and on my personal laptop. Still waiting to see if it will stick. Changing some writing habits (and hotkeys) takes time.
 
