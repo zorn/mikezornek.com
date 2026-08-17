@@ -2,7 +2,7 @@
 title: "Who Fills the Sprint? My 45/45/10 Split"
 date: 2026-08-17T09:55:08-04:00
 description: "Every sprint is a tug-of-war between the roadmap and the work that keeps the lights on. Here is the 45/45/10 split I plan against, and why."
-pain: "Sprint planning turns into a tug-of-war, and whoever pushes hardest wins, so the losing camp quietly resents the plan."
+pain: "Sprint planning turns into a tug-of-war, and whoever pushes hardest wins, so the losing team quietly resents the plan."
 fix: "Name the three claimants on a sprint and give each a standing percentage instead of re-fighting the argument every two weeks."
 bob-promise: "After reading, you will have a defensible split to bring to your next planning meeting."
 tags:
@@ -20,7 +20,7 @@ The **engineering team** owns the work of bringing that vision to life through c
 
 ## Keeping everyone happy (or at least less frustrated)
 
-When you plan your sprints, you need to keep these two camps in balance.
+When you plan your sprints, you need to keep these two teams in balance.
 
 Let the business/product owners dictate it all, and you may validate the business idea or sign that new contract, but you are left with an unstable mess of software. That leads to customer and employee churn, or worse, people talking on social media about your platform downtime and security breaches.
 
