@@ -12,7 +12,7 @@ tags:
 
 Every project has way more things to do than resources allotted. That is a given for pretty much any human endeavor. Figuring out what to work on is the interesting part.
 
-When it comes to software development, most teams plan work in time-boxed ranges, often called sprints.[^1] Let's generalize and say two teams are contributing to this work: the business/product owners and the engineering team. Each has its own interests.
+When it comes to software development, most companies plan work in time-boxed ranges, often called sprints.[^1] Let's generalize and say two teams are contributing to this work: the business/product owners and the engineering team. Each has its own interests.
 
 The **business/product owners** are usually focused on features and enhancements that grow the business. Sometimes these are time-sensitive, to meet a contract requirement, hit an annual cycle for customers, or keep a promise made to company ownership. If you are a young company, you might still be trying to prove the business is viable on a limited runway.
 
