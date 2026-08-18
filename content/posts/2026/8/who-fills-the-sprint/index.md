@@ -1,6 +1,6 @@
 ---
 title: "Who Fills the Sprint? My 45/45/10 Split"
-date: 2026-08-17T09:55:08-04:00
+date: 2026-08-18T09:00:00-04:00
 description: "Every sprint is a tug-of-war between the roadmap and the work that keeps the lights on. Here is the 45/45/10 split I plan against, and why."
 pain: "Sprint planning turns into a tug-of-war, and whoever pushes hardest wins, so the losing team quietly resents the plan."
 fix: "Name the three claimants on a sprint and give each a standing percentage instead of re-fighting the argument every two weeks."
