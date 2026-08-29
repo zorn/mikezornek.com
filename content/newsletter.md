@@ -1,12 +1,12 @@
 ---
 title: Newsletter
-description: Sign up for the mikezornek.com newsletter, a monthly-ish note on Elixir, product design, and running a one-person software business.
+description: Sign up for the mikezornek.com newsletter, a monthly-ish email of links worth your time, recent posts, and a personal update.
 sectionHighlight: Newsletter
 layout: onepage
 ---
 
 {{< sr-only-title "Newsletter" >}}
 
-I write a monthly-ish newsletter about Elixir, product design, and the day-to-day of running a one-person software business. It carries the same short, practical notes I share on the blog, delivered to your inbox. No spam, and you can unsubscribe any time.
+Once a month or so I send a short email: a few links worth your time, whatever I've published lately, and a personal update on how things are going. Mostly Elixir and software craft, with a bit of the life behind the work. No spam, and you can unsubscribe any time.
 
 {{< newsletter-form >}}
