@@ -1,6 +1,6 @@
 ---
 title: Newsletter
-description: Sign up for the mikezornek.com newsletter, a monthly-ish email of links worth your time, recent posts, and a personal update.
+description: Sign up for my personal newsletter, a monthly-ish email of links worth your time, recent posts, and a personal update.
 sectionHighlight: Newsletter
 layout: onepage
 ---
