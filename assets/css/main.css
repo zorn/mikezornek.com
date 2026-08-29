@@ -58,12 +58,10 @@ not the site. I've been unable to host them in the `themes` folder so far. */
   }
 }
 
-/* On the standalone /newsletter/ page the Kit form is the whole point, so let
-   it fill the page's content column (max-w-screen-md) instead of Kit's own
-   ~700px cap. The wrapper class (see the newsletter-form shortcode) keeps this
-   off the narrower post-bottom form. !important is needed because Kit sets the
-   width inline on the injected <form>. */
-.newsletter-form-full .formkit-form {
+/* Let the Kit signup form fill its content column (max-w-screen-md) instead of
+   Kit's own ~700px cap, both at the bottom of posts and on the /newsletter/
+   page. !important overrides the width Kit sets in the stylesheet it injects. */
+.formkit-form {
   max-width: 100% !important;
   width: 100% !important;
 }

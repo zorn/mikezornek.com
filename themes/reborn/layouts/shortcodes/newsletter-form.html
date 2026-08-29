@@ -1,10 +1,5 @@
 {{/* Renders the shared Kit signup form (partials/newsletter-signup.html) from
   within page content, so a page can place the embed right below its own intro
   copy. Used by content/newsletter.md; blog posts invoke the partial directly
-  from single.html instead, so both share one Kit form and one subscriber list.
-
-  The wrapper class lets main.css stretch the Kit form to the page's column
-  width here, without widening the post-bottom form (see main.css). */}}
-<div class="newsletter-form-full">
-  {{ partial "newsletter-signup.html" . }}
-</div>
+  from single.html instead, so both share one Kit form and one subscriber list. */}}
+{{ partial "newsletter-signup.html" . }}
