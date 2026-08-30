@@ -58,6 +58,14 @@ not the site. I've been unable to host them in the `themes` folder so far. */
   }
 }
 
+/* Let the Kit signup form fill its content column (max-w-screen-md) instead of
+   Kit's own ~700px cap, both at the bottom of posts and on the /newsletter/
+   page. !important overrides the width Kit sets in the stylesheet it injects. */
+.formkit-form {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
 /* Download fonts: https://gwfh.mranftl.com/fonts/ubuntu?subsets=latin */
 
 /* ubuntu-regular - latin */
