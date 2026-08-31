@@ -1,7 +1,7 @@
 ---
 title: "Building LocalCents: A Local-first Expense Tracker with Automerge CRDTs"
 date: 2026-08-31T09:33:15-04:00
-description: "An educational side project building LocalCents, a local-first expense tracker, and what I learned wiring Automerge into Elixir, Phoenix, and Tauri, including how to surface sync conflicts to users."
+description: "An educational side project: a local-first expense tracker built with Automerge CRDTs in Elixir, Phoenix, and Tauri, plus how I surface sync conflicts."
 tags:
   - elixir
   - rust
