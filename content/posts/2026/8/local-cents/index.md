@@ -12,6 +12,10 @@ tags:
 
 I previously blogged about [What is Local-first Software?](/posts/2025/2/what-is-local-first-software/) back in February of 2025. While my interest has been steady, I never had a real opportunity to get my hands dirty with the technology. Over the past few months, I've been tinkering on an educational side project, a simple expense tracker called [LocalCents](https://github.com/zorn/local_cents/), and have some interesting things to share.
 
+If you prefer a video and live demo check out:
+
+{{< video filename="local-cents-demo.mp4" title="Building LocalCents: A Local-first Expense Tracker with Automerge CRDTs" >}}
+
 ## Local-first Software
 
 I won't rehash the entirety of [my previous blog post](/posts/2025/2/what-is-local-first-software/), but to put it succinctly, local-first software is all about empowering the user. It values:
