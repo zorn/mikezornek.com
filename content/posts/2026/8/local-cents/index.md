@@ -31,7 +31,7 @@ Automerge comes from the same folks at Ink & Switch who wrote [the first essay](
 
 ## LocalCents, a local-first expense tracker
 
-My project LocalCents is an [Elixir](https://elixir-lang.org/) / [Phoenix](https://www.phoenixframework.org/) application (my core competency). I bundle it into a macOS application binary using [Tauri](https://tauri.app/) (a Rust-based app wrapper library and ecosystem) and use [ElixirKit](https://github.com/livebook-dev/elixirkit) to send messages back and forth between Elixir and Tauri/Rust. To get Automerge working inside my Elixir binary, I use [Rustler](https://github.com/rusterlium/rustler).
+My project [LocalCents](https://github.com/zorn/local_cents/) is an [Elixir](https://elixir-lang.org/) / [Phoenix](https://www.phoenixframework.org/) application (my core competency). I bundle it into a macOS application binary using [Tauri](https://tauri.app/) (a Rust-based app wrapper library and ecosystem) and use [ElixirKit](https://github.com/livebook-dev/elixirkit) to send messages back and forth between Elixir and Tauri/Rust. To get Automerge working inside my Elixir binary, I use [Rustler](https://github.com/rusterlium/rustler).
 
 Here are some screenshots of LocalCents in action on macOS:
 
