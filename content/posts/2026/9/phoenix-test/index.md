@@ -2,8 +2,8 @@
 title: "One Pipe, One User Story: The Case for phoenix_test"
 date: 2026-09-03T12:01:13-04:00
 description: "Why phoenix_test makes Phoenix feature tests read better and fail more usefully."
-pain: "Using the standard Phoenix test functions can result in clunky and hard to read code."
-fix: "Using `phoenix_test` you can compose your tests through the perspective of your user and create more readable code."
+pain: "Using the standard Phoenix test functions can result in clunky and hard-to-read code."
+fix: "Using `phoenix_test` you can compose your tests from the perspective of your user and create more readable code."
 bob-promise: "You'll walk away inspired to refactor your tests to improve readability."
 tags:
   - elixir
@@ -12,7 +12,7 @@ tags:
   - side-projects
 ---
 
-While working on LocalCents I had the opportunity to experiment with a lot of different tech and one library that really impressed me was [`phoenix_test`](https://phoenix-test.hexdocs.pm/PhoenixTest.html). No better way to explain than walking through the code.
+While working on LocalCents, I had the opportunity to experiment with a lot of different tech, and one library that really impressed me was [`phoenix_test`](https://phoenix-test.hexdocs.pm/PhoenixTest.html). No better way to explain it than walking through the code.
 
 Here is [a sample test](https://github.com/zorn/local_cents/blob/55fee004d7fb8b51b7178fcbbab52cb7673c0415/test/local_cents_web/live/book_live_test.exs#L125-L140) from LocalCents:
 
@@ -61,15 +61,14 @@ end
 Some of the reasons I prefer the `phoenix_test` style:
 
 - I get to express the entire event chain as a single pipe. Every `phoenix_test` step takes the session and returns the session, so the chain never breaks. In the standard version, `render_click` and `render_submit` return rendered HTML, not the view, so each interaction is a dead end and you have to start a fresh pipe from `view`.
-- The function names represent what the user sees, a form input with the label `Date`, and does not ask me to know the DOM IDs.
-- Additionally, the logic of the functions executes against the actual form. If the label text changed, or the field were removed from the form, the test fails.
-- The default tooling has you build the form payload and that is a poor choice for two reasons.
+- The function names represent what the user sees: a form input with the label `Date`, and do not ask me to know the DOM IDs.
+- The default tooling has you build the form payload, and that is a poor choice for two reasons.
   - One, default tooling creates false confidence. If the submit button or field is removed or renamed, a test with a manually constructed payload still passes.
   - Two, default tooling requires the test to have implementation knowledge it should not possess. In general, tests should validate the API (in this case the web presentation) and avoid assumptions about implementation.
 - I love how the `within` block looks as an inner pipe. It feels like a natural way to say "do something, and then do something on this new thing." It also disambiguates: when two buttons share the label `Delete`, scoping to `#delete-expense-modal` picks the right one.
-- The library description shares it "handles navigation between LiveView and static pages seamlessly. So, you don't have to worry about what type of page you're visiting. Just write the tests from the user's perspective." I did not lean on that much with LocalCents, but for long integration flows I'm sure it comes in handy.
+- The library description says it "handles navigation between LiveView and static pages seamlessly. So, you don't have to worry about what type of page you're visiting. Just write the tests from the user's perspective." I didn't lean on that much with LocalCents, but for long integration flows, I'm sure it comes in handy.
 
-When `has_element?/3` fails you get:
+When `has_element?/3` fails, you get:
 
 ```
 1) test full editor (alt) adding an expense through the editor lists it (LocalCentsWeb.BookLiveTest)
@@ -128,7 +127,7 @@ Scanning a focused HTML blob is so much nicer.
 
 The `phoenix_test` library also ships with a Credo check: `PhoenixTest.Credo.NoOpenBrowser`.
 
-> The `open_browser/1` function is useful during development but should not be committed in tests as it would open browsers during CI runs, which can cause unexpected behavior and CI failures.
+> The `open_browser/1` function is useful during development but should not be committed in tests, as it would open browsers during CI runs, which can cause unexpected behavior and CI failures.
 > 
 > A Credo check that disallows the use of open_browser/1 in test code.
 
