@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2026/8/local-cents/index.md
+hugo new posts/2026/9/phoenix_test/index.md
 ```
 
 ## The `reborn` theme.
