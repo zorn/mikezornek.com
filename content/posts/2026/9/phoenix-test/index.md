@@ -1,7 +1,7 @@
 ---
-title: "The Code Readability of phoenix_test Is Not to Be Slept On"
+title: "One Pipe, One User Story: The Case for phoenix_test"
 date: 2026-09-03T12:01:13-04:00
-description: "A side-by-side look at why phoenix_test makes LiveView feature tests read better, fail more usefully, and catch breakage the standard tooling sleeps through."
+description: "Why phoenix_test makes Phoenix feature tests read better and fail more usefully."
 pain: "Using the standard Phoenix test functions can result in clunky and hard to read code."
 fix: "Using `phoenix_test` you can compose your tests through the perspective of your user and create more readable code."
 bob-promise: "You'll walk away inspired to refactor your tests to improve readability."
