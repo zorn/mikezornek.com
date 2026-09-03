@@ -61,7 +61,7 @@ end
 Some of the reasons I prefer the `phoenix_test` style:
 
 - I get to express the entire event chain as a single pipe. Every `phoenix_test` step takes the session and returns the session, so the chain never breaks. In the standard version, `render_click` and `render_submit` return rendered HTML, not the view, so each interaction is a dead end and you have to start a fresh pipe from `view`.
-- The function names represent what the user sees: a form input with the label `Date`, and do not ask me to know the DOM IDs.
+- The function names describe what the user sees, like a form input labeled `Date`, instead of asking me to know the DOM IDs.
 - The default tooling has you build the form payload, and that is a poor choice for two reasons.
   - One, default tooling creates false confidence. If the submit button or field is removed or renamed, a test with a manually constructed payload still passes.
   - Two, default tooling requires the test to have implementation knowledge it should not possess. In general, tests should validate the API (in this case the web presentation) and avoid assumptions about implementation.
