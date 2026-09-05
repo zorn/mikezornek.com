@@ -2,9 +2,9 @@
 title: "Finding Your Broken Glass: A Flaky Test Prompt for GitHub Actions"
 date: 2026-09-05T09:59:03-04:00
 description: "Your CI history already knows which tests flake. This prompt pulls the evidence, names the tests, and works out what the re-runs cost."
-pain: "individual contributors run into test flakes and it cost them time, attention and good will"
-fix: "this is a post that defines what a test flake is, the kind of things that cause them and offers some suggestions for measuring the impact on their project"
-bob-promise: "walk away with a report on the test flake impact on your project"
+pain: "CI goes red on a test I never touched, so I click re-run and hope, and nobody on the team can say how often this happens or what it costs us"
+fix: "define what a test flake is, list the usual Elixir causes, then hand over a prompt that reads your GitHub Actions history, names the confirmed flakes, and prices the re-runs"
+bob-promise: "After reading this, you'll have a report with the names of your flaky tests and an annual dollar figure you can bring to your team to justify fixing them"
 tags:
   - elixir
   - devops
@@ -12,7 +12,7 @@ tags:
   - ai
 ---
 
-There is this wonderful story from the development of the original Macintosh. While the processor powering the Mac was 10 times faster than the Apple II, it was still bound by the mechanical speed of the floppy drive, and this made things slow, particularly the boot sequence.
+There is this wonderful story from the development of the original Macintosh. While the processor powering the Mac was 10 times faster than the Apple II, it was still bound by the floppy drive's mechanical speed, which made things slow, particularly the boot sequence.
 
 As Andy Hertzfeld tells it on [Folklore](https://www.folklore.org/Saving_Lives.html):
 
@@ -28,19 +28,19 @@ I like to think of this story when considering the time costs of flaky tests and
 
 A test flake is when you have some logic in a test that can sporadically cause a test failure. Some common causes of this in my experience include:
 
-- Unseeded randomness.
-- Expecting a specific order to a returned list from Ecto when no deterministic `order by` has been added to the query. It shows up in CI more than local dev because the two databases store rows in different physical orders.
+- Unseeded randomness (see `:seed` [option])(https://ex-unit.hexdocs.pm/1.20.3/ExUnit.html#configure/1-options).
+- Expecting a specific order in a returned list from Ecto when no deterministic `order by` has been added to the query. It shows up in CI more than in local dev because the two databases store rows in different physical orders.
 - Some kind of `Process.sleep` in use to wait for some processing to be complete.
-- Some kind of wall clock dependency like `DateTime.utc_now()` that only fails on the 31st of the month or when UTC passes from one day into another.
+- Some wall clock dependency like `DateTime.utc_now()` that only fails on the 31st of the month or when UTC passes from one day into another.
 - Shared mutable global state, be it from a GenServer, an ETS table, console logs, or an edited Application environment variable, especially when the test module is `async: true`.
 
 ## The costs of test flakes
 
-You finish a feature and make a PR. You want to make sure the CI is green before tagging your peers for a code review. You wait, and then bam you see a red X. You look at the test and it has nothing to do with your changes, so you rerun the test suite looking for a better roll of the dice. Or maybe you got your approvals but want to do one final CI run with the latest `develop` branch merged in. Again a failure and again a rerun.
+You finish a feature and make a PR. You want to make sure the CI is green before tagging your peers for a code review. You wait, and then bam, you see a red X. You look at the test, and it has nothing to do with your changes, so you rerun the test suite looking for a better roll of the dice. Or maybe you got your approvals but want to do one final CI run with the latest `develop` branch merged in. Again a failure and again a rerun.
 
 **Aside:** If you are a good developer you will capture the test flake as a new issue to be looked into later.
 
-If you only run into a test flake once a month or so, maybe that is acceptable, but if you (and your peers) are seeing them multiple times per week, those costs are adding up.
+If you only run into a test flake once a month or so, that may be acceptable, but if you (and your peers) are seeing them multiple times per week, those costs add up.
 
 Napkin math:
 
@@ -52,17 +52,17 @@ Napkin math:
 = annual cost
 ```
 
-If you see 3 test flakes a week and lose 10 minutes of attention and are based on a salary / hourly rate of $90, that is a yearly cost of $2,340. If you have a team of 4 experiencing this, the cost is $9,360. That's real money.
+If you see 3 test flakes a week, lose 10 minutes of attention, and are based on a salary/hourly rate of $90, that is a yearly cost of $2,340. If you have a team of 4 experiencing this, the cost is $9,360. That's real money.
 
 Even more than money, the true cost may be developer happiness. If you do not prioritize fixing this broken glass on the floor, asking your developers to walk around it day to day, how does that make them feel? They are constantly being asked to build new things while the stuff in `main` is broken. How much does it cost to onboard a new developer after they leave?
 
-Flaky tests also push against the concept of small, focused PRs, which are a huge help to those doing code review. If the overhead of PRs includes some subliminal awareness of test flakes, people might be encouraged to make their current branch/PR just a little bit larger.
+Flaky tests also run counter to the concept of small, focused PRs, which are a huge help to those doing code review. If the overhead of PRs includes some subliminal awareness of test flakes, people might mistakenly be encouraged to make their current branch/PR larger.
 
 ## Finding your broken glass
 
 If you are using GitHub Actions to power your CI, take advantage of the archives and logs. Use the prompt below to spot runs with 2 or more attempts and see real evidence of how bad flaky tests have been for you over the last month or two.
 
-Open a terminal inside the root of your project, launch your AI tool of choice and run this prompt. Read the prompt before you run it. Be paranoid about anyone on the internet telling you to paste something into a terminal, me included.
+Open a terminal inside the root of your project, launch your AI tool of choice, and run this prompt. **Read the prompt before you run it.** Be paranoid about anyone on the internet telling you to paste something into a terminal, me included.
 
 ```
 Use the `gh` CLI in this repository. Pick the GitHub Actions workflow
@@ -123,13 +123,13 @@ earlier attempts with
 `gh run view {id} --attempt {n} --log-failed`.
 ```
 
-The report lands in `test-flake-report.md` so you can share it with your team. Delete it or add it to `.gitignore` when you are done.
+The report is saved to `test-flake-report.md` so you can share it with your team. Delete it or add it to `.gitignore` when you are done.
 
 ## What to do with the numbers?
 
 If it is small, then congrats. Keep up the good work.
 
-If it is not small, then spend some energy fixing those test flakes. Consider adding steps during your automated reviews to be on the lookout for the test flake causes I listed above. Educate your team with a small show and tell showing the numbers you landed on today.
+If it is not small, then spend some energy fixing those test flakes. Consider adding steps to your automated reviews to look for the test flake causes I listed above. Educate your team with a brief show-and-tell that highlights the numbers you landed on today.
 
 If you need help, let me know. I work as an [Elixir consultant](/elixir-consulting/) and have helped many companies stabilize and improve their projects. See projects and testimonials on [the consulting page](/elixir-consulting/).
 
