@@ -58,6 +58,8 @@ Flaky tests also push against the concept of small, focused PRs, which are a hug
 
 If you are using GitHub Actions to power your CI, take advantage of the archives and logs. Use the prompt below to spot runs with 2 or more attempts and see real evidence how bad flaky tests have been for you over the last 30 days.
 
+Open a terminal inside the root of your project, launch your AI tool of choice and run this prompt. Please read the prompt first. I don't want to be responsible for encouraging people to follow unsafe security. You should be paranoid about anyone telling you to put something in the console.
+
 ```
 Use the `gh` CLI in this repository. Pick the GitHub Actions workflow
 whose job runs `mix test` and name it in the report. Cover the last 30
@@ -110,8 +112,10 @@ earlier attempts with
 
 ## What to do with the numbers?
 
-If it is small, then congrats. Good work.
+If it is small, then congrats. Keep up the good work.
 
 If it is not small, then spend some energy fixing those test flakes. Consider adding steps during your automated reviews to be on the lookout for the test flake causes I listed above. Educate your team with a small show and tell showing the numbers you landed on today.
 
 If you need help, let me know. I work as an [Elixir consultant](/elixir-consulting/) and have helped many companies stabilize and improve their projects. See projects and testimonials on [the consulting page](/elixir-consulting/).
+
+Good luck killing those flakes!
