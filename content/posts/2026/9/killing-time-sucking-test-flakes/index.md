@@ -62,26 +62,33 @@ Open a terminal inside the root of your project, launch your AI tool of choice a
 
 ```
 Use the `gh` CLI in this repository. Pick the GitHub Actions workflow
-whose job runs `mix test` and name it in the report. Cover the last 30
-days, capped at the most recent 500 completed runs, and widen to 60 days
-if that holds fewer than about 100 runs. Skip cancelled runs.
+whose job runs the ExUnit suite (usually `mix test`, sometimes
+`mix coveralls` or `mix check`) and name the workflow and that test
+step in the report. Cover the last 30 days, capped at the most recent
+500 runs that finished with success or failure, and widen to 60 days
+if that holds fewer than about 100 runs.
 
 1. Re-runs. Runs with attempt 2 or higher, as a count and a share of
-   all runs, plus total re-run clicks (attempt minus 1, summed).
+   all runs, plus total re-run clicks (attempt minus 1, summed), and
+   how many of those runs ended green on a later attempt.
 
-2. Failure buckets. For every failed attempt of those runs, record the
-   job and step that failed, and count them by bucket:
+2. Failure buckets. For every failed attempt of those runs, record
+   one line per failed job with the step that failed, so an attempt
+   can contribute more than one, and count them by bucket:
      - infrastructure: checkout, cache, setup, dependency install,
-       runner timeout or lost runner
+       coverage or artifact upload, runner timeout or lost runner
      - deterministic: compile, format, Credo, Dialyzer
-     - test: the `mix test` step
+     - test: the test step
      - other
 
 3. Flaky tests. For every run in the test bucket, read the failed-step
    log and pull the ExUnit failure lines (test name and file). A test
    that failed and then passed on a later attempt of the same commit is
    a confirmed flake. List each with the number of runs it caused, most
-   frequent first.
+   frequent first. Below the table, give one line per test that failed
+   on a re-run run and never passed on that commit, labeled
+   unconfirmed. Report how many failed test attempts had no readable
+   log, so the list reads as a lower bound.
 
 4. Wall clock. Job-minutes spent on re-run attempts, and p50 and p95
    duration of successful runs. If the job shape changed mid-window (a
@@ -104,11 +111,15 @@ if that holds fewer than about 100 runs. Skip cancelled runs.
 
 Report each step as a short table, in order, opening with the window
 and run count actually covered and closing with one note on what
-stands out. `gh run list` shows only a run's latest attempt; read
+stands out. Write the full report to `test-flake-report.md` and print
+only the opening line and the total. `gh run list` shows only a run's
+latest attempt; read
 earlier attempts with
 `gh api repos/{owner}/{repo}/actions/runs/{id}/attempts/{n}/jobs` and
 `gh run view {id} --attempt {n} --log-failed`.
 ```
+
+The report lands in `test-flake-report.md` so you can share it with your team. Delete it or add it to `.gitignore` when you are done.
 
 ## What to do with the numbers?
 
