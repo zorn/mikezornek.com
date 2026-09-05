@@ -45,7 +45,7 @@ If you only run into a test flake once a month or so, that may be acceptable, bu
 Napkin math:
 
 ```
-(N) test flakes failures per week
+(N) test flake failures per week
  x minutes of attention lost each
  x fully-loaded hourly rate
  x 52
