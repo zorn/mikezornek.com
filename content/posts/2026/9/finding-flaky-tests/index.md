@@ -28,8 +28,8 @@ I like to think of this story when considering the time costs of flaky tests and
 
 A test flake is when you have some logic in a test that can sporadically cause a test failure. Some common causes of this in my experience include:
 
-- Unseeded randomness (see `:seed` [option])(https://ex-unit.hexdocs.pm/1.20.3/ExUnit.html#configure/1-options).
-- Expecting a specific order in a returned list from Ecto when no deterministic `order by` has been added to the query. It shows up in CI more than in local dev because the two databases store rows in different physical orders.
+- Unseeded randomness (see `:seed` [option](https://ex-unit.hexdocs.pm/ExUnit.html#configure/1-options)).
+- Expecting a specific order in a returned list from Ecto when no deterministic `order by` has been added to the query. I feel like I see this show up more in CI because the database runners are cheaper CPUs.
 - Some kind of `Process.sleep` in use to wait for some processing to be complete.
 - Some wall clock dependency like `DateTime.utc_now()` that only fails on the 31st of the month or when UTC passes from one day into another.
 - Shared mutable global state, be it from a GenServer, an ETS table, console logs, or an edited Application environment variable, especially when the test module is `async: true`.
@@ -123,7 +123,7 @@ earlier attempts with
 `gh run view {id} --attempt {n} --log-failed`.
 ```
 
-The report is saved to `test-flake-report.md` so you can share it with your team. Delete it or add it to `.gitignore` when you are done.
+The report is saved to `test-flake-report.md` so you can share it with your team.
 
 ## What to do with the numbers?
 
