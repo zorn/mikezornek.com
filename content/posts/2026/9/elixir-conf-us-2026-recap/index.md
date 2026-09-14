@@ -8,7 +8,7 @@ tags:
   - ai
 ---
 
-ElixirConf US 2026 happened last week in Chicago. I could not attend in person, but I did follow along with a virtual ticket.
+[ElixirConf US 2026](https://elixirconf.com) happened last week in Chicago. I could not attend in person, but I did follow along with a virtual ticket.
 
 A virtual ticket is basically live stream access to the talks. There was no real mingling for virtual attendees, which feels like a missed opportunity.
 
