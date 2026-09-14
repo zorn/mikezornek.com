@@ -12,7 +12,7 @@ tags:
 
 A virtual ticket is basically live stream access to the talks. There was no real mingling for virtual attendees, which feels like a missed opportunity.
 
-Here are the talks that stood out for me. There is [a playlist on YouTube for the conference](https://www.youtube.com/playlist?list=PLVqsKC3zWaDc). Historically the full talks show up six to nine months after the show, with the keynotes going up early. This year the keynotes, the lightning talks, and a handful of full talks are already posted, so maybe that lag is shrinking. If you have a ticket, you can watch everything archived on the [Swapcard site](https://app.swapcard.com/event/elixirconf-us-2026).
+Here are some talks that stood out for me. There is [a playlist on YouTube for the conference](https://www.youtube.com/playlist?list=PLVqsKC3zWaDc). Historically the full talks show up six to nine months after the show, with the keynotes going up early. This year the keynotes, the lightning talks, and a handful of full talks are already posted, so maybe that lag is shrinking. If you have a ticket, you can watch everything archived on the [Swapcard site](https://app.swapcard.com/event/elixirconf-us-2026).
 
 ## Recommended Talks
 
