@@ -15,7 +15,7 @@ You can find more info here too: <https://nownownow.com/about>
 
 ## What I'm Focused On
 
-- Finding consulting work (part or full time), and I'm open to full-time employment too.
+- Finding consulting work (part- or full-time), and I'm open to full-time employment too.
 - Publishing content on the blog (to help spread awareness for the above).
 - Side project development on LocalCents to fuel the content.
 - Keeping up with my small client maintenance contract (30 hours per month).
