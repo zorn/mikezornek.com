@@ -10,8 +10,11 @@ A hand-selected, hand-ranked set of blog posts presented as a newcomer's
 on-ramp. Its bar is not "my deepest work" but "my most trust-building technical
 work": posts that are both approachable and impressive to a first-time visitor,
 chosen to earn enough trust that they follow and eventually join the mailing
-list. It is a single flat list, not themed collections.
-_Avoid_: Featured, Best of, Selected, Favorites, Highlights.
+list. It is a single flat list, not themed collections. On the home page the
+list renders under the reader-facing heading "Some of My Favorites"; that is
+copy, not the name of the thing, and the term stays Start Here everywhere in
+code, data, and discussion.
+_Avoid_ (as the term): Featured, Best of, Selected, Favorites, Highlights.
 
 **Start Here entry**:
 One item in the Start Here list: a reference to a post plus an optional

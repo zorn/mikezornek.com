@@ -1,0 +1,14 @@
+{{- /*
+  The one-line summary shown for a post in listings: the front-matter
+  description, ignoring the archetype placeholder, else Hugo's auto summary.
+
+  @context {page} the post.
+  @returns {string}
+
+  @example: {{ $summary := partial "post-summary.html" .
+}}
+*/ -}}
+{{- $summary := .Description }}
+{{- if eq $summary "something tweet like" }}{{ $summary = "" }}{{ end }}
+{{- if not $summary }}{{ $summary = .Summary | plainify }}{{ end }}
+{{- return $summary }}

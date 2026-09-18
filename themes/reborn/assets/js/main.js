@@ -42,9 +42,15 @@ if (window.MutationObserver) {
 //    the current page, giving aggregate per-post attribution for visitors who
 //    aren't blocking it. The submit fires only after the browser's built-in
 //    email validation, so this counts genuine signup attempts.
+//    `data-newsletter-signup` marks the site's own form, which renders the same
+//    signup_page field itself; see partials/newsletter-signup-native.html.
 function trackNewsletterSignup(event) {
   var form = event.target;
-  if (form && form.getAttribute && form.getAttribute("data-sv-form")) {
+  if (
+    form &&
+    form.matches &&
+    form.matches("form[data-sv-form], form[data-newsletter-signup]")
+  ) {
     window.plausible("Newsletter Signup", {
       props: { path: window.location.pathname },
     });

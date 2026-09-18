@@ -1,5 +1,9 @@
 # Store the "Start Here" curated list in a data file, not post front matter
 
+> **Extended by [0009-home-page-newsletter-form.md](0009-home-page-newsletter-form.md).**
+> The list now has three renderers, and the fail-the-build check lives in one
+> shared partial, `partials/start-here-entries.html`, rather than in each.
+
 The Start Here list (a hand-ranked, newcomer-facing on-ramp of strong technical
 posts; see `CONTEXT.md`) is stored as a single ordered `data/start-here.yaml`
 rather than a `featured:`/`weight:` flag on each post's front matter.

@@ -1,0 +1,47 @@
+{{- /*
+  Newsletter signup as a plain HTML form posting straight to the Kit form's
+  subscription endpoint, styled with the site's own classes. The Kit embed
+  (partials/newsletter-signup.html) is one hosted design shared by every
+  placement. It cannot give the home page column its own title and stacked
+  layout. See docs/adr/0009-home-page-newsletter-form.md.
+
+  Attribution depends on the hidden `signup_page` field, which Hugo renders
+  from the page context. Same Kit form as the embed (form 9707094), so both
+  feed one subscriber list.
+
+  @context {page} the page the form sits on.
+
+  @example: {{ partial "newsletter-signup-native.html" .
+}}
+*/ -}}
+<div class="rounded-lg border border-gray-200 bg-gray-50 p-5">
+  <h2 class="m-0 text-lg font-semibold">Monthly(ish) Emails</h2>
+  <p class="mt-1 mb-3 text-sm text-gray-700">
+    A few links worth your time, whatever I've published lately, and a personal
+    update. Mostly Elixir and software craft. No spam, unsubscribe any time.
+  </p>
+  <form
+    action="https://app.kit.com/forms/9707094/subscriptions"
+    method="post"
+    data-newsletter-signup
+    class="flex flex-col gap-2"
+  >
+    <label class="sr-only" for="newsletter-email">Email address</label>
+    <input
+      id="newsletter-email"
+      type="email"
+      name="email_address"
+      required
+      autocomplete="email"
+      placeholder="you@example.com"
+      class="min-w-0 rounded-md border border-gray-300 bg-white px-3 py-2 text-base"
+    >
+    <input type="hidden" name="fields[signup_page]" value="{{ .RelPermalink }}">
+    <button
+      type="submit"
+      class="self-start rounded-md bg-purple-600 px-4 py-2 font-bold text-white hover:bg-purple-700"
+    >
+      Subscribe
+    </button>
+  </form>
+</div>

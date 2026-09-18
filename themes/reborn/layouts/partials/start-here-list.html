@@ -1,30 +1,23 @@
 {{- /*
   Renders the Start Here list from data/start-here.yaml as open content: an
   <h2> heading, a lead line, and the entries divided by hairlines, with no
-  background or border of its own.
+  background or border of its own. Renders nothing at all when the list is
+  empty, so no bare heading ever appears.
 
-  Resolves each entry's logical path to a Page. THE BUILD FAILS if a path no
-  longer resolves, rather than quietly rendering a shorter list: the list is
-  short and hand-picked, so losing one entry is both proportionally large and
-  invisible. See docs/adr/0001-curated-list-via-data-file.md. Renders nothing at
-  all when the list is empty (empty-state guard) so no bare heading or panel
-  ever appears.
+  Entries come from start-here-entries.html, which fails the build on a path
+  that no longer resolves.
 
-  Takes no context — the heading, lead, and heading levels are fixed here since
-  every caller renders the same list the same way.
-
-  @example: {{ partial "start-here-list.html" . }}
+  @example: {{ partial "start-here-list.html" .
+}}
 */ -}}
-{{- with (index hugo.Data "start-here").posts }}
+{{- with partial "start-here-entries.html" . }}
   <div class="not-prose mb-6">
     <h2 class="mt-0 mb-1 text-xl font-semibold">Start Here</h2>
-    <p class="mt-0 mb-2 text-gray-700">New here? Here are some quality posts to get you started.</p>
-    {{- range $entry := . }}
-      {{- with (site.GetPage $entry.path) }}
-        {{ partial "start-here-card.html" (dict "page" . "note" $entry.note "headingLevel" "h3") }}
-      {{- else }}
-        {{- errorf "start-here-list.html: data/start-here.yaml entry path %q resolves to no page. Fix the path or drop the entry (see docs/adr/0001-curated-list-via-data-file.md)." $entry.path }}
-      {{- end }}
+    <p class="mt-0 mb-2 text-gray-700">
+      New here? Here are some quality posts to get you started.
+    </p>
+    {{- range . }}
+      {{ partial "start-here-card.html" (dict "page" .page "note" .note "headingLevel" "h3") }}
     {{- end }}
   </div>
 {{- end }}

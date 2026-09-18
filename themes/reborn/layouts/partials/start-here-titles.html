@@ -1,0 +1,30 @@
+{{- /*
+  The Start Here list as bare titles, for the home page's right column. The
+  editorial notes are left out on purpose: the column is narrow and the titles
+  carry enough on their own. The full rendering with notes is
+  start-here-list.html, on the blog index.
+
+  "Start Here" stays the name of the list; "Some of My Favorites" is reader
+  copy (see CONTEXT.md).
+
+  Entries come from start-here-entries.html, which fails the build on a path
+  that no longer resolves. Renders nothing when the list is empty.
+
+  @example: {{ partial "start-here-titles.html" .
+}}
+*/ -}}
+{{- with partial "start-here-entries.html" . }}
+  <h2 class="text-xl font-semibold">Some of My Favorites</h2>
+  <ul class="m-0 list-none p-0">
+    {{- range . }}
+      <li class="py-1.5 leading-snug">
+        <a
+          class="font-semibold text-purple-800 hover:underline"
+          href="{{ .page.RelPermalink }}"
+        >
+          {{ .page.Title }}
+        </a>
+      </li>
+    {{- end }}
+  </ul>
+{{- end }}
