@@ -1,0 +1,21 @@
+{{- /*
+  Resolves data/start-here.yaml into a slice of {page, note} dicts, in list
+  order. The one place the fail-the-build contract lives: an entry whose path
+  no longer resolves stops the build with the path to fix, rather than any
+  renderer quietly showing a shorter list. See
+  docs/adr/0001-curated-list-via-data-file.md.
+
+  @returns {slice of dict} page {page}, note {string, may be empty}
+
+  @example: {{ $entries := partial "start-here-entries.html" .
+}}
+*/ -}}
+{{- $entries := slice }}
+{{- range $entry := (index hugo.Data "start-here").posts }}
+  {{- with (site.GetPage $entry.path) }}
+    {{- $entries = $entries | append (dict "page" . "note" $entry.note) }}
+  {{- else }}
+    {{- errorf "data/start-here.yaml entry path %q resolves to no page. Fix the path or drop the entry (see docs/adr/0001-curated-list-via-data-file.md)." $entry.path }}
+  {{- end }}
+{{- end }}
+{{- return $entries }}

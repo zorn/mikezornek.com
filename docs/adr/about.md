@@ -59,7 +59,8 @@ no number.
 
 Evidence, environment constraints, and glossary terms are not decisions, and
 they live in `docs/` beside this folder: `research-search-page-indexing.md` (the
-sourced evidence behind `0008-indexing.md`), `render-static-site-constraints.md`
+sourced evidence behind `0008-indexing.md`), `research-home-page.md` (the sourced
+background for the home page work, cited by `0009-home-page-newsletter-form.md`), `render-static-site-constraints.md`
 (the hosting environment), and `word-choice.md` (house-style spellings).
 
 ## The records
@@ -72,3 +73,4 @@ sourced evidence behind `0008-indexing.md`), `render-static-site-constraints.md`
 - [0006-ai-crawlers.md](0006-ai-crawlers.md) — who `robots.txt` lets in, and why that includes AI training crawlers
 - [0007-og-images.md](0007-og-images.md) — generating the social card image each page shares with
 - [0008-indexing.md](0008-indexing.md) — which pages are kept out of search indexes, and why that is separate from crawl policy
+- [0009-home-page-newsletter-form.md](0009-home-page-newsletter-form.md) — why the home page signup is a native HTML form posting to Kit, not the embed

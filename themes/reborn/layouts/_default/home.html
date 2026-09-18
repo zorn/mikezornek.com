@@ -6,7 +6,7 @@
   >
     <h1 class="sr-only">Who is Mike Zornek?</h1>
 
-    <p class="not-prose float-right m-0">
+    <p class="not-prose float-right m-0 ml-4">
       {{ partial "zorn-avatar.html" . }}
     </p>
 
@@ -15,28 +15,44 @@
       teacher, and I've been building digital products for over 25 years.
     </p>
 
+    {{/* Kept out of Prettier so the period stays glued to the link. After
+      formatting, the anchor lands on its own line and renders as "Elixir ."
+      The HTML comment form is the one this Prettier plugin honors; the Go
+      comment form is ignored.
+    */}}
+    <!-- prettier-ignore -->
     <p>
       From the suburbs of Philadelphia, I code in
-      <a href="https://elixir-lang.org">Elixir</a>
-      . When I am not coding, I enjoy watching
-      <a href="https://www.mlb.com/phillies">Phillies</a>
+      <a href="https://elixir-lang.org">Elixir</a>. When I am not coding, I
+      enjoy watching <a href="https://www.mlb.com/phillies">Phillies</a>
       baseball and playing video games (mostly laid-back simulations and RPGs).
     </p>
 
-    {{ partial "start-here-list.html" . }}
-
-
-    <h2>Recent Blog Posts</h2>
-
-    {{ range first 7 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-      {{ partial "post-card.html" (dict "page" .) }}
-    {{ end }}
-
-
-    <p class="not-prose">
-      <a class="text-purple-700 hover:underline" href="/posts/">
-        Browse all posts &rarr;
-      </a>
-    </p>
+    {{/* The two-column shape is an editorial choice: the writing leads, and
+      the ways to stick around (favorites, the newsletter, browsing) sit
+      beside it. Background evidence on what a home page like this should do
+      is in docs/research-home-page.md; it argued for a more sales-led page,
+      which was considered and passed over.
+    */}}
+    <div class="not-prose mt-10 grid gap-10 md:grid-cols-5">
+      <div class="md:col-span-3">
+        <h2 class="text-xl font-semibold">Recent Blog Posts</h2>
+        {{ partial "post-list.html" (dict "pages" (first 8 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections))) }}
+        <p class="mt-3">
+          <a class="text-purple-700 hover:underline" href="/posts/">
+            Browse all posts &rarr;
+          </a>
+        </p>
+      </div>
+      <div class="md:col-span-2">
+        {{ partial "start-here-titles.html" . }}
+        <div class="mt-8">
+          {{ partial "newsletter-signup-native.html" . }}
+        </div>
+        <div class="mt-8">
+          {{ partial "browse-taxonomies.html" . }}
+        </div>
+      </div>
+    </div>
   </main>
 {{ end }}

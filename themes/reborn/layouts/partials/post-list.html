@@ -1,0 +1,35 @@
+{{- /*
+  Compact post list: title, date, and the one-line summary, divided by
+  hairlines. The lighter sibling of post-card.html for places where several
+  posts need to be scannable at once (the home page) rather than presented
+  one at a time (the blog index).
+
+  @context {dict}
+  pages        {pages}  Posts to render. (required)
+  headingLevel {string} Heading tag for each title. Default "h3"; set it to
+  match the list's nesting depth. (optional)
+
+  @example: {{ partial "post-list.html" (dict "pages" (first 8 $posts))
+}}
+*/ -}}
+{{- $heading := .headingLevel | default "h3" }}
+<ul class="m-0 list-none divide-y divide-gray-200 p-0">
+  {{- range .pages }}
+    <li class="py-3">
+      {{ printf `<%s class="m-0 text-lg leading-snug font-semibold">` $heading | safeHTML }}
+      <a class="text-purple-700 hover:underline" href="{{ .RelPermalink }}">
+        {{ .Title }}
+      </a>
+      {{ printf "</%s>" $heading | safeHTML }}
+      <p class="m-0 text-sm text-gray-600">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+        {{- with partial "post-summary.html" . }}
+          &middot;
+          {{ . | truncate 140 }}
+        {{ end }}
+      </p>
+    </li>
+  {{- end }}
+</ul>
