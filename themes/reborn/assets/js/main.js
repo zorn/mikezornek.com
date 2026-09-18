@@ -42,7 +42,7 @@ if (window.MutationObserver) {
 //    the current page, giving aggregate per-post attribution for visitors who
 //    aren't blocking it. The submit fires only after the browser's built-in
 //    email validation, so this counts genuine signup attempts.
-//    `data-newsletter-signup` is the site's own form, which renders the same
+//    `data-newsletter-signup` marks the site's own form, which renders the same
 //    signup_page field itself; see partials/newsletter-signup-native.html.
 function trackNewsletterSignup(event) {
   var form = event.target;
