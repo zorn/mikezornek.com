@@ -1,7 +1,7 @@
 ---
 title: "PhillyCocoa Local-first Podcast"
 date: 2026-09-21T12:41:17-04:00
-description: "I recorded a podcast with my friends from PhillyCocoa. We talked about my transition from iOS to Elixir and, more so, my recent interest in local-first software."
+description: "I recorded a podcast with my friends from PhillyCocoa. We talked about my transition from iOS to Elixir and more so my recent interest in local-first software."
 tags:
   - elixir
   - ios
