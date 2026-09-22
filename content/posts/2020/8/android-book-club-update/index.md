@@ -9,7 +9,7 @@ tags:
   - meetups
 ---
 
-<iframe src="https://player.vimeo.com/video/446471481" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="android-book-club-update.mp4" title="Android Book Club Update" >}}
 
 A few updates on our Android Book Club. ([Original announcement post.](/posts/2020/6/an-android-book-club-for-ios-developers/))
 

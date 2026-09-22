@@ -11,7 +11,7 @@ tags:
 
 I'm starting a new book club that will teach Android development using Kotlin for current iOS developers. Details below.
 
-<iframe src="https://player.vimeo.com/video/434003747" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="an-android-book-club-for-ios-developers.mp4" title="An Android Book Club for iOS Developers" >}}
 
 This is a book club dedicated to learning Kotlin and Android application development. Specifically, I am hoping to attract current iOS developers who are looking to expand their knowledge and use their current experiences with Swift and iOS to help shape the conversations at the weekly meetings. That said, previous Swift and iOS experience is not required, but just expect some comparisons to come up.
 

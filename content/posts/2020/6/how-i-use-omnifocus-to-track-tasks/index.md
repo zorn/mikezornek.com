@@ -12,7 +12,7 @@ tags:
 
 I've been a fan of Getting Things Done and a casual user of OmniFocus for years, mostly focusing on long term projects. For weekly stuff I used to do a manual list in Bear but a few weeks ago I took the time to see if I could make OmniFocus work for my weekly list, and so far it's working out great. This video is a review of what's changed.
 
-<iframe src="https://player.vimeo.com/video/427774922" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="how-i-use-omnifocus-to-track-tasks.mp4" title="How I Use OmniFocus to Track Tasks" >}}
 
 PS: One things I forgot to mention in the video is that for my side project I use [Pivotal Tracker](https://www.pivotaltracker.com) for actionable technical tasks and keep the marketing and general business tasks in OmniFocus. I am also experimenting with a [public project roadmap](https://trello.com/b/Z74hJIPj/clubhouse-roadmap) but that is more experimental.
 
