@@ -19,17 +19,26 @@
     {{ if hugo.IsServer }}
       {{/* Dev-only alt-text overlay for accessibility review. Guarded by
         hugo.IsServer so it only runs under `hugo server` and never ships to
-        production.
+        production. On by default; `?alt=off` hides it and `?alt=on` restores
+        it, and the choice is remembered so it holds as you move between pages.
       */}}
       <script>
-        document.querySelectorAll("main img[alt]").forEach((img) => {
-          const tag = document.createElement("div");
-          tag.setAttribute("aria-hidden", "true");
-          tag.textContent = "ALT: " + img.getAttribute("alt");
-          tag.style.cssText =
-            "font:12px/1.4 monospace;background:#ffc;color:#000;border:1px solid #e0c000;padding:4px 6px;margin:4px 0;white-space:pre-wrap;";
-          (img.closest("figure") || img).insertAdjacentElement("afterend", tag);
-        });
+        const altParam = new URLSearchParams(location.search).get("alt");
+        if (altParam === "off") localStorage.setItem("altOverlay", "off");
+        if (altParam === "on") localStorage.removeItem("altOverlay");
+        if (localStorage.getItem("altOverlay") !== "off") {
+          document.querySelectorAll("main img[alt]").forEach((img) => {
+            const tag = document.createElement("div");
+            tag.setAttribute("aria-hidden", "true");
+            tag.textContent = "ALT: " + img.getAttribute("alt");
+            tag.style.cssText =
+              "font:12px/1.4 monospace;background:#ffc;color:#000;border:1px solid #e0c000;padding:4px 6px;margin:4px 0;white-space:pre-wrap;";
+            (img.closest("figure") || img).insertAdjacentElement(
+              "afterend",
+              tag,
+            );
+          });
+        }
       </script>
     {{ end }}
   </body>
