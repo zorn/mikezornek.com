@@ -24,9 +24,17 @@
       */}}
       <script>
         const altParam = new URLSearchParams(location.search).get("alt");
-        if (altParam === "off") localStorage.setItem("altOverlay", "off");
-        if (altParam === "on") localStorage.removeItem("altOverlay");
-        if (localStorage.getItem("altOverlay") !== "off") {
+        // Default on; if storage is blocked (e.g. private mode) the overlay
+        // still shows rather than the script aborting.
+        let show = true;
+        try {
+          if (altParam === "off") localStorage.setItem("altOverlay", "off");
+          if (altParam === "on") localStorage.removeItem("altOverlay");
+          show = localStorage.getItem("altOverlay") !== "off";
+        } catch (e) {
+          show = altParam !== "off";
+        }
+        if (show) {
           document.querySelectorAll("main img[alt]").forEach((img) => {
             const tag = document.createElement("div");
             tag.setAttribute("aria-hidden", "true");
