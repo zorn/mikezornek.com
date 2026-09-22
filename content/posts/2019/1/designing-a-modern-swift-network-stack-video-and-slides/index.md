@@ -10,9 +10,9 @@ tags:
 
 I had a great time doing this networking design talk for the local [Philly CocoaHeads](http://phillycocoa.org/). If you watch the video and have feedback, I'd love to [hear it](/contact) as I may revamp this talk for a 2.0 version in the future.
 
-<iframe src="https://player.vimeo.com/video/311520171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{< video filename="designing-a-modern-swift-network-stack.mp4" title="Designing a Modern Swift Network Stack" >}}
 
-- [Video on Vimeo](https://vimeo.com/311520171) 44 minutes
+- Video runtime: 44 minutes
 - Slides [PDF](modern-ios-network-zornek-slides.pdf) / [SpeakerDeck](https://speakerdeck.com/zorn/designing-a-modern-swift-network-stack)
 
 # Designing a Modern Swift Network Stack

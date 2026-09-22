@@ -7,6 +7,6 @@ tags:
   - reviews
 ---
 
-<iframe src="https://player.vimeo.com/video/413120104" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="book-review-ruined-by-design.mp4" title="Book Review: Ruined by Design by Mike Monteiro" >}}
 
 <https://www.ruinedby.design>

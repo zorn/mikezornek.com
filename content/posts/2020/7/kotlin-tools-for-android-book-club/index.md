@@ -11,7 +11,7 @@ tags:
 
 A quick tour of some of the tools you'll want to use to help learn Kotlin.
 
-<iframe src="https://player.vimeo.com/video/435324129" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="kotlin-tools-for-android-book-club.mp4" title="Kotlin Tools for Android Book Club" >}}
 
 Links
 

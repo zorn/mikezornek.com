@@ -6,6 +6,6 @@ tags:
   - meetups
 ---
 
-<iframe src="https://player.vimeo.com/video/412391990" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="nurturing-your-community-during-lock-down.mp4" title="Nurturing Your Community During Lock Down" >}}
 
 - My Project: [Club House Hosting](/projects/guildflow/)

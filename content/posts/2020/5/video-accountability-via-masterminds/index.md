@@ -10,6 +10,6 @@ tags:
 
 It can be hard to keep the momentum with a long term side project. I've found accountability help recently through a mastermind group.
 
-<iframe src="https://player.vimeo.com/video/418060520" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="accountability-via-masterminds.mp4" title="Accountability via Masterminds" >}}
 
 - MastermindJam | https://mastermindjam.com/

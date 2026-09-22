@@ -10,7 +10,7 @@ tags:
 
 A short little WWDC reaction video that talks about Mac OS X and sheets.
 
-<iframe src="https://player.vimeo.com/video/431654557" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="on-the-topic-of-mac-os-x-sheets.mp4" title="On the Topic of Mac OS X Sheets" >}}
 
 ☠️ RIP Aqua
 

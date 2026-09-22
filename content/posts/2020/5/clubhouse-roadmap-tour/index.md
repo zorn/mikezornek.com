@@ -10,7 +10,7 @@ tags:
 
 I'm using a public Trello board to keep track of my Clubhouse project's roadmap. Check it out. Feedback on the roadmap style and content itself very welcome.
 
-<iframe src="https://player.vimeo.com/video/414761323" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{{< video filename="clubhouse-roadmap-tour.mp4" title="Clubhouse Roadmap Tour" >}}
 
 - Buffer | https://open.buffer.com
 - Trello | https://trello.com
