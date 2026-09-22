@@ -20,7 +20,8 @@
       {{/* Dev-only alt-text overlay for accessibility review. Guarded by
         hugo.IsServer so it only runs under `hugo server` and never ships to
         production. On by default; `?alt=off` hides it and `?alt=on` restores
-        it, and the choice is remembered so it holds as you move between pages.
+        it, and the choice holds as you move between pages. It lives in
+        sessionStorage, so each new dev session starts back on.
       */}}
       <script>
         const altParam = new URLSearchParams(location.search).get("alt");
@@ -28,9 +29,9 @@
         // still shows rather than the script aborting.
         let show = true;
         try {
-          if (altParam === "off") localStorage.setItem("altOverlay", "off");
-          if (altParam === "on") localStorage.removeItem("altOverlay");
-          show = localStorage.getItem("altOverlay") !== "off";
+          if (altParam === "off") sessionStorage.setItem("altOverlay", "off");
+          if (altParam === "on") sessionStorage.removeItem("altOverlay");
+          show = sessionStorage.getItem("altOverlay") !== "off";
         } catch (e) {
           show = altParam !== "off";
         }
