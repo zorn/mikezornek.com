@@ -27,8 +27,8 @@ Findings are tagged the same way as `render-static-site-constraints.md`:
 **Confirmed.** The message comes from `/home/render/common.sh`, which lives
 outside the project checkout (`/opt/render/project/src`). It is one of Render's
 build-image scripts, and it sources a log-coloring helper, `colors.sh`, the same
-file another Render user hit when its `tput` call failed. Nothing in this repo
-references either file.
+file another Render user hit when its `tput` call failed. No build script or
+configuration in this repo references either file.
 
 **Confirmed.** It appears exactly once per deploy, only on the Tailwind
 subprocess's output (prefixed `INFO tailwindcss:`), and it is still present in
@@ -69,14 +69,20 @@ reachable as primary sources. This is the same sourcing gap noted in
 
 ## Why it is not silently breaking the CSS
 
-**Confirmed.** On the same deploys that print the line, Tailwind reports its
-version (`≈ tailwindcss v4.1.8`) and a completion time (`Done in ~250ms`)
-immediately after it, the build reaches `live`, and the site renders with its
-styles. The line is printed *before* Tailwind's own banner, which fits a shell
-that sources `common.sh` at startup and then runs Tailwind normally. A
-byte-for-byte diff of the deployed CSS against a local build was not done; the
-successful build and the live styled site are the evidence that the CSS is
-whole.
+**Confirmed.** The deployed CSS is byte-for-byte identical to a clean local
+build, so Tailwind on Render is not silently skipping work. Hugo fingerprints
+the stylesheet by a SHA-256 of its content, which makes an identical filename
+proof of identical bytes. A local production build on the same Hugo version
+(0.161.1 extended) produced
+`main.06362b357f93f895e98e31c278217001fd94514367b4d47c79429fda7b29164a.css` at
+42,438 bytes, and `https://mikezornek.com` serves that exact filename and byte
+count. The `/colors.sh` noise changes nothing about the output.
+
+**Confirmed.** As supporting detail, on the same deploys that print the line
+Tailwind reports its version (`≈ tailwindcss v4.1.8`) and a completion time (a
+few hundred milliseconds) immediately after it, and the build reaches `live`.
+The line is printed *before* Tailwind's own banner, which fits a shell that
+sources `common.sh` at startup and then runs Tailwind normally.
 
 ## The fix we did not take
 
