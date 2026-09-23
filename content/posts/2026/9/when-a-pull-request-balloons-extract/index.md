@@ -21,7 +21,7 @@ When I started, I was on the right track. I split the implementation into three 
 
 Phases one and two merged without much fanfare. Phase one was quick. Phase two added the logic, so it took a little longer, and the review was mostly reading through the tests to make sure they walked through the logic appropriately.
 
-Phase three is where things got away from me. I got the UI working fairly quickly, but I've been doing a ton of manual QA testing, and through that I keep spotting inconsistencies and gaps. My PR has ballooned to over 3,000 lines. At that size, a proper code review won't do its job. Reviewers will miss things, or they will rubber-stamp it without much attention. I see other people merge large PRs, but doing that wouldn't sit right with me.
+Phase three is where things got away from me. I got the UI working fairly quickly, but I've been doing a ton of manual QA testing, and through that I keep spotting inconsistencies and gaps. My PR has ballooned to over 3,000 lines. At that size, a code review can't do its job. Reviewers will miss things, or they will rubber-stamp it without much attention. I see other people merge large PRs, but doing that wouldn't sit right with me.
 
 Instead, I've been extracting unrelated bug fixes, tests, and other small things into their own PRs. Looking back at the commit history, I pulled out:
 
