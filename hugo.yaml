@@ -20,8 +20,8 @@ params:
   author:
     name: Mike Zornek
     email: mike@mikezornek.com
-  # The fixed-price consulting offer. Kept here so the site-wide availability
-  # banner and the consulting page's offer box cannot drift apart. The price
+  # The fixed-price consulting offer, read by the consulting page's offer box.
+  # Kept as a param so the headline and price live in one place. The price
   # also appears in the consulting page's `description` front matter, which
   # cannot be single-sourced from here: front matter is data, not a template,
   # so it cannot interpolate a param. Update that copy by hand.
