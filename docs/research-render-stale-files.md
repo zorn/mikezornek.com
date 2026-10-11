@@ -40,9 +40,10 @@ No SEO or blog write-ups are cited as authority.
    which is consistent but vaguer. It costs one ordinary build. **Confirmed on
    2026-10-11:** after one clear-and-deploy (live at 16:27:37 UTC), the three
    stale files return 404, while the post and its PDF still return 200.
-4. **Redirect and rewrite rules cannot shadow a stale file.** The docs are
-   explicit: "Render does not apply redirect or rewrite rules to a path if a
-   resource exists at that path." Custom headers can only decorate the stale
+4. **Redirect and rewrite rules probably cannot shadow a stale file.** The docs
+   say "Render does not apply redirect or rewrite rules to a path if a resource
+   exists at that path." Whether a file retained from an older deploy counts as
+   an existing resource is undocumented and untested here. Custom headers can only decorate the stale
    response (for example `X-Robots-Tag: noindex`); they do not stop it.
 5. **There is no documented API or dashboard purge for static sites.** The API's
    only purge endpoint is for web service edge caching. A feature request for
@@ -192,8 +193,8 @@ deploy endpoint takes `clearCache: "clear"`.
 
 Source: https://api-docs.render.com/reference/create-deploy
 
-**Unknown.** Whether the 2022 behavior still holds in 2026. No current doc
-states it. It is cheap to test: run it once and re-curl the three files.
+**Confirmed 2026-10-11.** The 2022 behavior still holds. After one
+clear-and-deploy, the three stale files return 404. No current doc states it.
 
 ---
 
@@ -252,7 +253,8 @@ reached from the dashboard's contact link (https://render.com/docs/community).
 
 ### Redirect or rewrite rules (dashboard, API, or `render.yaml` `routes`)
 
-- **Stops the file being served?** No, per the docs. "Render does not apply
+- **Stops the file being served?** Probably not, if the docs' rule covers
+  retained files (see Unknown below). "Render does not apply
   redirect or rewrite rules to a path if a resource exists at that path.
   Instead, Render simply serves the resource at that path." The flowchart on
   the same page checks "Does a resource exist" before any rule.

@@ -15,10 +15,21 @@ Node is pinned in `.node-version`, which Render and CI both read. Render's dashb
 ## Steps
 
 1. **Read the release notes** for every release between the pin and the target, patch releases included. Look for breaking changes, deprecations, and new security defaults, then search `themes/reborn/`, `hugo.yaml`, and `bin/` for anything they name.
-2. **Build with the current version first**, so there is something to compare against:
+2. **Build with the pinned version first**, so there is something to compare against. The laptop may have drifted ahead of the pin, and a baseline built on the wrong Hugo hides exactly the changes this step exists to catch. So check `hugo version` against `HUGO_VERSION` in `bin/build.sh`. If they match, build with it:
 
    ```bash
    hugo --logLevel info --cleanDestinationDir -d /tmp/hugo-before
+   ```
+
+   If they differ, fetch the pinned release into a scratch directory, check it, and build with that binary instead. Releases from 0.161 on ship macOS only as a `.pkg`, which `pkgutil` unpacks without installing anything. Run these in bash or zsh, not fish:
+
+   ```bash
+   PIN=$(sed -n 's/^HUGO_VERSION="\(.*\)"$/\1/p' bin/build.sh)
+   gh release download "v$PIN" -R gohugoio/hugo -D /tmp/hugo-pin \
+     -p "hugo_extended_${PIN}_darwin-universal.pkg" -p "hugo_${PIN}_checksums.txt"
+   (cd /tmp/hugo-pin && grep "hugo_extended_${PIN}_darwin-universal.pkg" "hugo_${PIN}_checksums.txt" | shasum -a 256 -c)
+   pkgutil --expand-full "/tmp/hugo-pin/hugo_extended_${PIN}_darwin-universal.pkg" /tmp/hugo-pin/pkg
+   /tmp/hugo-pin/pkg/Payload/hugo --logLevel info --cleanDestinationDir -d /tmp/hugo-before
    ```
 
 3. **Upgrade the laptop** with `brew upgrade hugo`. Hugo ships macOS only as `.pkg` installers now, not tarballs, so Homebrew is the easy path.

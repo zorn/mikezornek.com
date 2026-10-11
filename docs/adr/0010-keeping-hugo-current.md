@@ -1,7 +1,7 @@
 # Keeping Hugo current
 
 Production's Hugo version is the `HUGO_VERSION` line in `bin/build.sh`, which
-Render and the CI Build check both run. A self-hosted monthly workflow
+Render and the CI Build check both run. A monthly GitHub Actions workflow
 (`.github/workflows/hugo-release-check.yaml`) keeps one open `hugo-update` issue
 while that pin is behind the latest release, and the site moves one minor
 release at a time by following `playbook/hugo-upgrade.md`. The laptop is not
