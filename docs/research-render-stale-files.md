@@ -13,6 +13,9 @@ in `docs/adr/`.
 - **Folklore**: a community report or a staff reply on the old forum or the
   feedback board. Staff replies are first-party but dated and not docs, so they
   can describe behavior that has since changed. Each carries its date.
+- **Inferred**: not stated for this exact case, but follows from adjacent
+  documented facts. The reasoning is given so it can be checked.
+- **Confirmed**: tested on this site, with the date and what was observed.
 - **Unknown**: not documented publicly. Stated as such rather than guessed.
 
 No SEO or blog write-ups are cited as authority.

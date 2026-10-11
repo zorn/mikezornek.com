@@ -25,6 +25,7 @@ Node is pinned in `.node-version`, which Render and CI both read. Render's dashb
 
    ```bash
    PIN=$(sed -n 's/^HUGO_VERSION="\(.*\)"$/\1/p' bin/build.sh)
+   rm -rf /tmp/hugo-pin
    gh release download "v$PIN" -R gohugoio/hugo -D /tmp/hugo-pin \
      -p "hugo_extended_${PIN}_darwin-universal.pkg" -p "hugo_${PIN}_checksums.txt"
    (cd /tmp/hugo-pin && grep "hugo_extended_${PIN}_darwin-universal.pkg" "hugo_${PIN}_checksums.txt" | shasum -a 256 -c)
@@ -32,7 +33,7 @@ Node is pinned in `.node-version`, which Render and CI both read. Render's dashb
    /tmp/hugo-pin/pkg/Payload/hugo --logLevel info --cleanDestinationDir -d /tmp/hugo-before
    ```
 
-3. **Upgrade the laptop** with `brew upgrade hugo`. Hugo ships macOS only as `.pkg` installers now, not tarballs, so Homebrew is the easy path.
+3. **Upgrade the laptop** with `brew upgrade hugo`. Homebrew installs the latest release, so that is the target: on the monthly cadence it is one minor ahead of the pin, and when the pin has fallen further behind, the upgrade takes the whole gap at once, as #232 did. Hugo ships macOS only as `.pkg` installers now, not tarballs, so Homebrew is the easy path.
 4. **Build with the new version** and fix any errors. `--logLevel info` surfaces deprecation warnings before they turn into errors in a later release.
 
    ```bash
