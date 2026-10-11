@@ -1,6 +1,6 @@
 # Upgrading Hugo
 
-How to move the site to a newer Hugo release. Do it one minor release at a time, soon after each one ships: one short changelog to read and one small output diff to check is cheaper than catching up on six at once, which is what the 0.161 to 0.167 upgrade in #232 cost.
+How to move the site to a newer Hugo release. Upgrade soon after each release ships, so the gap is normally one minor release: one short changelog to read and one small output diff to check. When the gap has grown anyway, close it in one upgrade rather than stepping through each release. The before/after diff covers the whole gap, so stepping would repeat that work, as the 0.161 to 0.167 catch-up in #232 showed.
 
 ## When
 

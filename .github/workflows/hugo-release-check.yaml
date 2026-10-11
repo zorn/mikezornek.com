@@ -33,8 +33,8 @@ jobs:
           newer=$(
             {
               echo "$pinned"
-              gh release list -R gohugoio/hugo --exclude-drafts --exclude-pre-releases \
-                -L 50 --json tagName -q '.[].tagName' | sed 's/^v//'
+              gh api --paginate "repos/gohugoio/hugo/releases?per_page=100" \
+                --jq '.[] | select(.draft or .prerelease | not) | .tag_name' | sed 's/^v//'
             } | sort -uV | awk -v pin="$pinned" 'found { print } $0 == pin { found = 1 }'
           )
 

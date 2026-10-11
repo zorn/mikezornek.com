@@ -3,8 +3,10 @@
 Production's Hugo version is the `HUGO_VERSION` line in `bin/build.sh`, which
 Render and the CI Build check both run. A monthly GitHub Actions workflow
 (`.github/workflows/hugo-release-check.yaml`) keeps one open `hugo-update` issue
-while that pin is behind the latest release, and the site moves one minor
-release at a time by following `playbook/hugo-upgrade.md`. The laptop is not
+while that pin is behind the latest release. Upgrades follow
+`playbook/hugo-upgrade.md` soon after each release, so the gap is normally one
+minor release; a gap that has grown anyway is closed in one upgrade, not
+stepped through. The laptop is not
 pinned. These choices were made after a six-release catch-up, from 0.161 to
 0.167 in #232, showed what letting the pin drift costs.
 
