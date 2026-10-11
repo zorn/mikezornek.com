@@ -241,9 +241,16 @@ https://render.com/docs/free
 **Documented.** Every build starts fresh. Render's Gatsby guide states it
 directly: "Render starts each build in a fresh environment, and only cache the
 `.cache` directory." The same guide notes the `public` directory is deliberately
-**not** persisted between builds, so deleted files do not carry over.
+**not** persisted between builds, so deleted files do not carry over into the
+next build.
 
 Source: https://render.com/docs/deploy-gatsby
+
+**Observed.** That is true of the build machine, not of the live site. A file
+the new build no longer produces stays served from the previous deploy until a
+"Clear build cache & deploy" runs. This was seen and confirmed on 2026-10-11;
+the evidence and the alternatives that do not work are in
+`research-render-stale-files.md`.
 
 **Documented.** Render caches well-known paths for the native language
 environments (root-level `node_modules` for Node) and nothing else. From Render

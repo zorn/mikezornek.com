@@ -1,0 +1,71 @@
+name: Hugo release check
+# Once a month, compare the Hugo version pinned in bin/build.sh with Hugo's
+# releases. When the pin is behind, keep one open issue listing every newer
+# release; when it has caught up, close that issue. Small, frequent bumps keep
+# each upgrade to one short changelog. See playbook/hugo-upgrade.md.
+on:
+  schedule:
+    - cron: "0 13 1 * *"
+  workflow_dispatch:
+# Two overlapping runs could each find no open issue and each open one.
+concurrency:
+  group: hugo-release-check
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      LABEL: hugo-update
+    steps:
+      - uses: actions/checkout@v7
+      - name: Compare the pin with Hugo's releases
+        run: |
+          pinned=$(sed -n 's/^HUGO_VERSION="\(.*\)"$/\1/p' bin/build.sh)
+          if [ -z "$pinned" ]; then
+            echo "::error::Could not read HUGO_VERSION from bin/build.sh"
+            exit 1
+          fi
+
+          # Every stable release newer than the pin, oldest first.
+          newer=$(
+            {
+              echo "$pinned"
+              gh api --paginate "repos/gohugoio/hugo/releases?per_page=100" \
+                --jq '.[] | select(.draft or .prerelease | not) | .tag_name' | sed 's/^v//'
+            } | sort -uV | awk -v pin="$pinned" 'found { print } $0 == pin { found = 1 }'
+          )
+
+          gh label create "$LABEL" --color 1D76DB \
+            --description "A newer Hugo release is out than bin/build.sh pins" --force
+          open=$(gh issue list --label "$LABEL" --state open --json number -q '.[0].number')
+
+          if [ -z "$newer" ]; then
+            echo "Hugo $pinned is current."
+            if [ -n "$open" ]; then
+              gh issue close "$open" --comment "bin/build.sh now pins Hugo $pinned, the latest release."
+            fi
+            exit 0
+          fi
+
+          latest=$(echo "$newer" | tail -n 1)
+          {
+            echo "bin/build.sh pins Hugo **$pinned**. These releases are newer:"
+            echo
+            for v in $newer; do
+              echo "- [v$v](https://github.com/gohugoio/hugo/releases/tag/v$v)"
+            done
+            echo
+            echo "Follow [playbook/hugo-upgrade.md]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/main/playbook/hugo-upgrade.md). Read each release's notes for breaking changes, and test with the Node version in \`.node-version\`, not the laptop's: a Hugo release can raise the Node it needs without saying so."
+            echo
+            echo "_Updated by the Hugo release check workflow. It closes this issue once the pin catches up._"
+          } > body.md
+
+          title="Hugo $latest is out (pinned: $pinned)"
+          if [ -n "$open" ]; then
+            gh issue edit "$open" --title "$title" --body-file body.md
+          else
+            gh issue create --title "$title" --body-file body.md --label "$LABEL"
+          fi

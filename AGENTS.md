@@ -109,7 +109,8 @@ written. Consult (and maintain) them when relevant:
   (`render-static-site-constraints.md`).
 - `playbook/` — repeatable process docs. `promotion.md` lists where and how
   Mike shares a new post (Mastodon, LinkedIn, Elixir Slack/Forum, Reddit, etc.)
-  and a share-template format.
+  and a share-template format. `hugo-upgrade.md` is how to bump the pinned
+  Hugo version.
 
 ## Distilled book & article knowledge (external Library)
 
