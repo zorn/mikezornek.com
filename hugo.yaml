@@ -174,3 +174,16 @@ module:
     - disableWatch: true
       source: hugo_stats.json
       target: assets/notwatching/hugo_stats.json
+
+# Hugo 0.165 dropped tailwindcss from the default exec allow-list, and
+# css.TailwindCSS in partials/head/css.html needs it. This is Hugo's default
+# list plus tailwindcss, so the rest of the tightened default still applies.
+security:
+  exec:
+    allow:
+      - ^(dart-)?sass$
+      - ^go$
+      - ^git$
+      - ^node$
+      - ^postcss$
+      - ^tailwindcss$

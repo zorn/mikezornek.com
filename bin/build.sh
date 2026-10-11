@@ -15,7 +15,7 @@ npm install --verbose
 # Install specific version of Hugo.
 # When bumping HUGO_VERSION, run `hugo --logLevel info` locally first to
 # surface any new deprecations before they become hard errors.
-HUGO_VERSION="0.161.1"
+HUGO_VERSION="0.167.0"
 echo "Installing Hugo ${HUGO_VERSION}..."
 
 # Create directory for Hugo download and installation
