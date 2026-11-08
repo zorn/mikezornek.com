@@ -92,6 +92,12 @@ Render deploys the static site on push to `main`. To push a commit that should
 `[skip render]` (or `[render skip]`) in the commit message — Render skips the
 build. Use it for work-in-progress that isn't ready to go live.
 
+The Render static site is service `srv-cjg0q336fquc73a2qhk0`
+([dashboard](https://dashboard.render.com/static/srv-cjg0q336fquc73a2qhk0)).
+To watch a deploy after a merge, pass that service ID to the Render MCP
+`list_deploys` tool. The newest deploy shows the merge commit, and its status
+reads `live` once the build is out. A deploy usually finishes in under a minute.
+
 ## Repository docs & conventions
 
 Beyond `content/`, a few top-level directories capture how this blog is run and
