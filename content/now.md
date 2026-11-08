@@ -5,7 +5,7 @@ layout: onepage
 description: What I would tell an old friend who asked what is going on. What I am working on, what I am excited about, what has my attention.
 ---
 
-Updated: September 17, 2026
+Updated: November 8, 2026
 
 ## What is a Now page?
 
@@ -13,63 +13,46 @@ I like to think of a Now page as the things I'd share if an old friend and I ran
 
 You can find more info here too: <https://nownownow.com/about>
 
-## What I'm Focused On
-
-- Finding consulting work (part- or full-time), and I'm open to full-time employment too.
-- Publishing content on the blog (to help spread awareness for the above).
-- Side project development on LocalCents to fuel the content.
-- Keeping up with my small client maintenance contract (30 hours per month).
-- Product research around small business accounting. I may evolve LocalCents into a more proper product, but I'm still trying to get my head around what that might look like.
-
 ## Personal
 
-Enjoying the calm of the house after dealing with some notable repairs and construction in late August. Everything is finally back to normal.
+Enjoying the cooler fall temperatures but not loving the loss of sunlight during the days.
+
+Focusing on some weight loss goals and trying to refresh my walking goals. I've been doing well the last few weeks, but there's still room for improvement (I need to cook better meals). Also trying to add some strength training with resistance bands and some in-house workouts. All this is to reduce my blood sugar, which was pretty high at my last checkup.
 
 ## Work
 
-My part-time maintenance contract is now part-part time (about 30 hours a month), so I am pushing to find [more work](https://mikezornek.com/elixir-consulting/). I'm open to part- or full-time consulting, and even considering full-time job opportunities. Given how tough the market is right now, it's a bit stressful.
-
-My general (and historic) pattern here is to reach out to old peers and publish more, which I feel like I've been executing well over the last few months, but I'm still looking for the right fit to land.
+I started [a new full-time job](/posts/2026/11/new-job-rxvortex/) and have offboarded my previous contract. I'm still finding my feet, but enjoying the new environment.
 
 ## Side Projects
 
-Last month I met my goals for LocalCents, including a demonstrable scenario of using Automerge. I [blogged](/posts/2026/8/local-cents/) about the project in detail and won't repeat myself here. Suffice it to say I was happy to complete that research scope and am thinking about what's next.
+With my [LocalCents experiments](/posts/2026/8/local-cents/) behind me, I spent October tinkering with Flick and adding some observability tooling. Still in progress, but I hope to blog more about it soon.
 
-I'm considering moving forward and continuing to evolve LocalCents into a small business accounting app. Before I get too deep, though, I'm trying to do product research and customer interviews to understand the landscape better. While that is going on, I may work on some general tech challenges, but I want to postpone the actual product design until I have more learning under my belt.
-
-I've been keeping up with maintenance updates for [Flick](https://github.com/zorn/flick/commits/main/), but no real feature work. I do want to study up on observability and use Flick as a test bed for it. This is something I wanted to do this summer, but I chose to focus on LocalCents exclusively to make sure I saw it through to completion. With some open time, I may return to this in the fall.
+After that, I want to kick off a new side project. I have been continuing some [research](/posts/2026/9/small-business-accounting-interviews/) [into](https://jawns.club/@zorn/117536441131798904) small business accounting, but I'm not sure that is what I should do with my new time limits.
 
 ## Currently Playing
 
-During the house construction, my gaming PC was packed up and my gaming space was kind of limited. With things returning to normal, I was able to restore the office and the gaming PC.
+- World of Warcraft: Forever. I am playing [a Tauren Druid](https://jawns.club/@zorn/117564216244871594).
+- GTA6 (soon™)
 
-I'm playing a little bit of MLB: The Show. (I like listening to podcasts while I grind.)
+I finished [Perfection](https://jawns.club/@zorn/117538913954419810) in Stardew Valley.
 
-I also started a fresh Warcraft 3 campaign. There is a new DLC, and I thought I'd play through the main game and then, if I am enjoying myself, consider buying it. Warcraft Forever (a kind of reimagining of WoW Classic) is coming out and looks interesting. I really enjoyed WoW Classic and will likely give the new game some time, but I won't be paying for the early beta access. There are some design choices in Forever that I'm not sure I like, but I will see how it feels. Also, to be clear, I left WoW Classic because of the bots, and I don't see them really trying to address that problem in their marketing.
+I don't own a Switch 2, but I'm watching some people play the Ocarina of Time remake.
 
-I played one game session of Stardew Valley. I'm at the end of Summer Year 3 and have all end game / achievement stuff ahead of me. I'm hopeful to keep going, though I can say with confidence I enjoy the early game / progression more than designing and achievements.
+Still play some MLB: The Show on occasion. I worked through the Playoff content when it came out.
 
 ## Currently Reading
 
-Finished [Show Your Work!](https://www.goodreads.com/book/show/23177969-show-your-work) by Austin Kleon.
-
-I think I'm going to drop [Art and Fear](https://www.goodreads.com/book/show/187633.Art_and_Fear) and [Learning Domain-Driven Design](https://www.goodreads.com/book/show/57573212-learning-domain-driven-design). They have started to drag for me, and with side project product research in full swing, I have other interests right now.
-
-I started reading an early draft of [The Mom Test (2nd Edition)](https://helpthisbook.com/robfitz/momtest/). The first edition is an S-tier book, and I'm enjoying the mindset the content puts me in. I'm about halfway through the draft. I'm not sure it is crazy different from the first edition, but time will tell.
-
-I have a few other books on my coffee table:
-
-- [Forget the Funnel](https://www.goodreads.com/book/show/137957371-forget-the-funnel) (which was a recommendation out of the MicroConf community)
+- [Observability Engineering, Second Edition](https://www.honeycomb.io/blog/the-second-edition-is-here)
+- [Forget the Funnel](https://www.goodreads.com/book/show/137957371-forget-the-funnel) (which was a recommendation from the MicroConf community)
 - [Steal Like an Artist](https://www.goodreads.com/book/show/13099738-steal-like-an-artist) (which is a book from Austin Kleon, whom I've enjoyed in the past)
-- [Deploy Empathy](https://www.goodreads.com/book/show/58713729-deploy-empathy) (which I read half of a while back; it covers the same customer interview concerns as The Mom Test)
+- [Accounting Made Simple](https://www.goodreads.com/book/show/6602359-accounting-made-simple) to help me understand GAAP accounting.
 
 If you use Goodreads, you can follow me at: <https://www.goodreads.com/zorn711>
 
 ## Currently Watching
 
-Phillies baseball and various YouTube / video game things.
+YouTube mostly (WoW, video games, London Eats, tech news)
 
 ## Upcoming Events
 
-- [BarCamp Philly](https://barcampphilly.org/) - Oct 17
 - [ExMex](https://exmexconf.com/) Austin - Nov 12-13

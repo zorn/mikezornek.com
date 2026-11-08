@@ -57,9 +57,13 @@
 
   What is left is the durable claim: this person offers Elixir and Phoenix
   consulting, and here is the page about it. See docs/adr/0004-structured-data.md.
+
+  Gated on `params.consultingAvailable` too. The consulting page stays up as an
+  archive when Mike is not taking work, so its existence alone no longer means
+  the offer is current.
 */}}
 {{ $offer := false }}
-{{ with site.GetPage "/elixir-consulting" }}
+{{ with and site.Params.consultingAvailable (site.GetPage "/elixir-consulting") }}
   {{ $offer = dict
     "@type" "Offer"
     "url" .Permalink

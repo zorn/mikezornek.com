@@ -2,7 +2,7 @@
 title: Elixir Consulting
 sectionHighlight: Elixir Consulting
 layout: onepage
-description: Elixir and Phoenix consulting. Fixed-price two-week sprints at $6,000, or ongoing hourly work, for teams that need upgrades, stability, and senior review.
+description: Elixir and Phoenix consulting for teams that need upgrades, stability, and senior review. Not currently accepting new work.
 aliases:
   - /for-hire/
   - /posts/2022/8/elixir-consulting-availability/
@@ -12,11 +12,12 @@ aliases:
   - /user-testing/
 ---
 
+<div class="not-prose mb-12 rounded-lg border-2 border-purple-600 p-6">
+  <p class="text-sm font-bold tracking-widest text-purple-700 uppercase">Not currently available</p>
+  <p class="mt-2 text-lg leading-relaxed">I am not accepting Elixir consulting work right now. I recently started a new full-time job, which you can read about in <a href="/posts/2026/11/new-job-rxvortex/" class="text-purple-600 underline visited:text-purple-900 hover:text-purple-800">New Job at RxVortex</a>.</p>
+</div>
+
 {{< consulting-quote >}}
-
-{{< consulting-sprint-offer >}}
-
-Need something longer or less defined? I also take on ongoing hourly work at $120-$140 per hour, with discounts available for open-source initiatives or long-term commitments. Ideal engagements are in the 15-32 hours per week range, but happy to be flexible if needed. [Email me what you need](mailto:mike@mikezornek.com?subject=Ongoing%20Elixir%20consulting) or [grab a time on my calendar](https://savvycal.com/zorn/chat).
 
 ## Testimonials
 
