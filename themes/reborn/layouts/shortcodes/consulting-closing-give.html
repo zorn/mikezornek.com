@@ -1,7 +1,6 @@
 {{/* Closing block for the consulting page. Ends on something the reader can take
-  and use rather than another request. The one contact line is framed as a
-  follow-on to using it, so it reads as a next step instead of a fourth
-  "email me" on the same page.
+  and use rather than another request. It has no contact line, since the page
+  says I am not taking consulting work right now.
 
   The give points at the AI-drift guardrails post rather than the first-week
   inherited-software checklist. That checklist is written from the consultant's
@@ -15,7 +14,7 @@
 
 
 <div class="{{ $c.card }} my-12">
-  <p class="{{ $c.eyebrow }}">Before you hire anyone</p>
+  <p class="{{ $c.eyebrow }}">Free to use</p>
 
   <h2 class="mt-2 text-3xl font-bold">Steal my guardrails.</h2>
 
@@ -23,18 +22,10 @@
     Every automated check I run on my own Elixir project, written up in one
     place: compiler flags, Credo, Dialyzer, Sobelow, dependency audits, and the
     CI wiring behind them. Each one links to how it is set up in a real repo, so
-    you can turn on the ones you are missing without me. Free, and useful
-    whether or not you ever hire me.
+    you can turn on the ones you are missing yourself.
   </p>
 
   <a href="/posts/2026/7/guarding-against-ai-drift/" class="mt-5 {{ $c.cta }}">
     Read the writeup
   </a>
-
-  <p class="mt-5 text-base">
-    When you want a hand with what it turns up, write me at
-    <a href="mailto:mike@mikezornek.com" class="{{ $c.link }}">
-      mike@mikezornek.com
-    </a>
-  </p>
 </div>

@@ -20,6 +20,11 @@ params:
   author:
     name: Mike Zornek
     email: mike@mikezornek.com
+  # Whether Mike is taking consulting work. False hides the consulting Offer
+  # in the JSON-LD Person node (partials/schema/structured-data.html). The
+  # consulting page stays up as an archive either way. Flip it back to true
+  # when consulting resumes, alongside the menu, footer, and bio links.
+  consultingAvailable: false
   # The fixed-price consulting offer, read by the consulting page's offer box.
   # Kept as a param so the headline and price live in one place. The price
   # also appears in the consulting page's `description` front matter, which
@@ -59,7 +64,6 @@ params:
       - Elixir
       - Phoenix Framework
       - Software Craft
-      - Software Consulting
     # Coarse on purpose. "Suburbs of Philadelphia" is what the homepage says,
     # and a street address has no business in a public JSON blob.
     addressRegion: PA
@@ -113,9 +117,6 @@ menu:
     - name: Blog
       url: /posts/
       weight: 20
-    - name: Elixir Consulting
-      url: /elixir-consulting/
-      weight: 25
     - name: Values
       url: /values/
       weight: 50

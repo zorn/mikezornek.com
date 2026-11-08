@@ -34,9 +34,9 @@ After that, I want to kick off a new side project. I have been continuing some [
 - World of Warcraft: Forever. I am playing [a Tauren Druid](https://jawns.club/@zorn/117564216244871594).
 - GTA6 (soon™)
 
-I finished [Perfection](https://jawns.club/@zorn/117538913954419810) in StardewValley.
+I finished [Perfection](https://jawns.club/@zorn/117538913954419810) in Stardew Valley.
 
-I don't own a Switch 2, but I'm watching some people play the Ocarina of Time remake. 
+I don't own a Switch 2, but I'm watching some people play the Ocarina of Time remake.
 
 Still play some MLB: The Show on occasion. I worked through the Playoff content when it came out.
 
