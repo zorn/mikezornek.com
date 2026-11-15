@@ -28,7 +28,7 @@ hugo server
 To make a new post:
 
 ```bash
-hugo new posts/2026/11/new-job-rxvortex/index.md
+hugo new posts/2026/11/exmex-notes/index.md
 ```
 
 ## The `reborn` theme.
