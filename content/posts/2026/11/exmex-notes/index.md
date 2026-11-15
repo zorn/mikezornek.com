@@ -22,7 +22,7 @@ I did not do a full talk, but I did present a short lighting talk on my journali
 
 The 2026 ExMex videos should be posted in time. The [2025 videos are on YouTube](https://www.youtube.com/playlist?list=PL3iGXu2WbjmuE2D5B2SA42-oz3NQi0f8E) so I would subscribe to that channel if you want to check them out when posted.
 
-The talks were great and here are\ a few personal notes:
+The talks were great and here are a few personal notes:
 
 - James Edward Gray II, whom I know via the [Elixir Book Club](https://elixirbookclub.github.io/website/), did the opening keynote with some wonderful collection of stories, including his fascination of NASA. He gleefuly and with admiration suggested that there were many weirdos in the audience. He compared the challenges of NASA to the challenges we face today as skilled programmers in the young world of AI -- "we need the weirdos to figure this stuff out."
 - Chris Bell of Knock shared some fasinating notes and observation from his work of optimizing agents through a virtual filesystem. In the hallway track he also sourced a bunch of other agent things I need to look into.
@@ -31,6 +31,8 @@ The talks were great and here are\ a few personal notes:
 - Brian Meeker waled us through his new [VerifiedPubSub](https://hex.pm/packages/verified_pubsub) tool. I love the idea of getting more help from the complier here and is something I want to check out.
 - Thomas Millar of Anthropic built out a demo where he has people visit a website on their phone, and then using a brower-sourced BEAM distribute processing power. Overall he wants to inspire people to be ambitious when thinking about how to utilize these AI tools.
 - Isaac Yonemoto walked us through his recent past and [new startup](https://vidalalabs.com/) hoping to bring more sustainable manufactering to pharmacudicals. He demoed his custom hardware that allows for sample analsis and it was very impressive. I took special note of his use of [Scenic](https://github.com/ScenicFramework/scenic) for the touch screen interface.
+- Michael Lubas of Paraxial.io (who was also a sponsor of ExMex, thank you!) talked about his security work with Hex ([ElixirConf video](https://www.youtube.com/watch?v=_fER9bzlSOE) for deep dive) and also shared some [skills he has been working on for Elixir Security](https://github.com/paraxialio/skills).
+- Owen Bickford shared recent updates to his passkey work in [WebauthnComponents](https://github.com/liveshowy/webauthn_components).
 
 Those are some personal picks, but I appriciated all the speakers and the diverse collection of topic covered. My notebook is overflowing with scribbles of things to check out and ideas to explore.
 
