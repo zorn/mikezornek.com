@@ -13,7 +13,7 @@ This is a smaller, more intimate event (~40-50 people), and small events are jus
 
 I did not do a full talk, but I did present a short lightning talk on my journaling habits. Those lightning talks are not officially recorded, so I recorded a recreation of mine afterward. Here it is:
 
-{{< video filename="do-less-with-more-intent.mp4" title="Do Less with More Intent" >}}
+{{< video filename="do-less-with-more-intent.mp4" title="Do Less, with More Intent" youtube="Z6O6YlxbSco" >}}
 
 The 2026 ExMex videos should be posted in time. The [2025 videos are on YouTube](https://www.youtube.com/playlist?list=PL3iGXu2WbjmuE2D5B2SA42-oz3NQi0f8E), so I would subscribe to that channel if you want to check them out when posted.
 
