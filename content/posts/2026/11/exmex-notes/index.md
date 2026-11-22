@@ -11,6 +11,10 @@ This week I was a first-time attendee at [ExMex](https://exmexconf.com/), a sing
 
 This is a smaller, more intimate event (~40-50 people), and small events are just as enjoyable to me as the larger ones. The smaller venue creates a more unique social experience, and this one had a great mix of introductions and connections with existing online friends for me.
 
+{{< figure src="group-photo.jpeg"
+   alt="About fifty ExMex attendees pose on and around a low stage in front of a large gear-shaped Capital Factory sign, most of them waving or raising their arms. A dark teal banner across the top reads 'EXMEX'."
+   caption="The ExMex 2026 group photo." >}}
+
 I did not do a full talk, but I did present a short lightning talk on my journaling habits. Those lightning talks are not officially recorded, so I recorded a recreation of mine afterward. Here it is:
 
 {{< video filename="do-less-with-more-intent.mp4" title="Do Less, with More Intent" youtube="Z6O6YlxbSco" >}}
